@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<chapter xml:id="Chapter3" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Polynomial and Rational Functions</title>
+
+  <introduction>
+    <p> Text before the first section. </p>
+  </introduction>
+
+  <!-- include sections -->
+  <xi:include href="./Chapter3Section1.ptx" />
+  <xi:include href="./Chapter3Section2.ptx" />
+  <xi:include href="./Chapter3Section3.ptx" />
+  <xi:include href="./Chapter3Section4.ptx" />
+  <xi:include href="./Chapter3Section5.ptx" />
+  <xi:include href="./Chapter3Section6.ptx" />
+  <xi:include href="./Chapter3Section7.ptx" />
+</chapter>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <chapter xml:id="Chapter1" xmlns:xi="http://www.w3.org/2001/XInclude">
-  <title>Functions and Quantities</title>
+  <title>Quantities and Functions</title>
 
   <introduction>
     <p> Text before the first section. </p>
@@ -10,5 +10,9 @@
   <!-- include sections -->
   <xi:include href="./Chapter1Section1.ptx" />
   <xi:include href="./Chapter1Section2.ptx" />
-
+  <xi:include href="./Chapter1Section3.ptx" />
+  <xi:include href="./Chapter1Section4.ptx" />
+  <xi:include href="./Chapter1Section5.ptx" />
+  <xi:include href="./Chapter1Section6.ptx" />
+  <xi:include href="./Chapter1Section7.ptx" />
 </chapter>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<chapter xml:id="Chapter" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Exponential and Logarithmic Functions</title>
+
+  <introduction>
+    <p> Text before the first section. </p>
+  </introduction>
+
+  <!-- include sections -->
+  <xi:include href="./Chapter4Section1.ptx" />
+  <xi:include href="./Chapter4Section2.ptx" />
+  <xi:include href="./Chapter4Section3.ptx" />
+  <xi:include href="./Chapter4Section4.ptx" />
+  <xi:include href="./Chapter4Section5.ptx" />
+  <xi:include href="./Chapter4Section6.ptx" />
+  <xi:include href="./Chapter4Section7.ptx" />
+</chapter>
