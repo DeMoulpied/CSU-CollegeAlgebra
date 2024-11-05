@@ -17,16 +17,26 @@
 
   <colophon>
 
-    <website>
+    <!--<website>
       <url href="https://pretextbook.org">My Website</url>
-    </website>
+    </website>-->
 
     <copyright>
-      <year>2020<ndash />2023</year>
-      <holder>You</holder>
-      <shortlicense> This work is licensed under the Creative Commons Attribution-ShareAlike 4.0 International License. To view a copy of this license, visit <url href="http://creativecommons.org/licenses/by-sa/4.0/" visual="creativecommons.org/licenses/by-sa/4.0"> CreativeCommons.org</url>
+      <year>2024</year>
+      <holder>Jason DeMoulpied</holder>
+      <shortlicense> This work is licensed under the Creative Commons Attribution-ShareAlike 4.0 International License. To view a copy of this license, visit <url href="http://creativecommons.org/licenses/by-sa/4.0/" visual="creativecommons.org/licenses/by-sa/4.0"> CreativeCommons.org.</url>
+        Permission is granted to copy and (re)distribute this material in any format and/or adapt it (even commercially) under the terms of the Creative Commons Attribution-ShareAlike 4.0 International License. The work may be used for free in any way by any party so long as attribution is given to the author(s) and if the material is modified, the resulting contributions are distributed under the same license as this original.
       </shortlicense>
     </copyright>
+
+    <p>
+      A large portion of all chapters are addapted from <url href="https://math.libretexts.org/Bookshelves/Precalculus/Book%3A_Precalculus__An_Investigation_of_Functions_(Lippman_and_Rasmussen)">Precalculus An Investigation of Functions</url> by David Lippman and Melonie Rasmussen,
+      originally licensed under a Creative Commons Attribution-ShareAlike International License.
+    </p>
+    <p>
+      Sections of Chapter 1 were adapted from <url href="https://activecalculus.org/prelude/root-1-2.html">Active Prelude to Calculus</url> by Matthew Boelkins,
+      originally licensed under a Creative Commons Attribution-ShareAlike International License.
+    </p>
   </colophon>
 </frontmatter>
 
