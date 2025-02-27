@@ -3,9 +3,6 @@
 <section xml:id="Chapter1Section2" xmlns:xi="http://www.w3.org/2001/XInclude">
   <title>Functions and Notation</title>
 
-  <section>
-    <title>Section 1.2 Functions and Function Notation</title>
-
     <subsection>
         <title>What is a Function?</title>
 
@@ -1207,6 +1204,4 @@
             </statement>
         </exercise>
     </subsection>
-</section>
-
 </section>
