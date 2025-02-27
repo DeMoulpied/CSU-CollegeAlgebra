@@ -599,8 +599,7 @@
             The most common graph has y on the vertical axis and x on the horizontal axis, and we say y is a function of x, or y = f(x) when the function is named f.
         </p>
 
-        <image source="C1S2Image1.png">
-        </image>
+        <image source="C1S2Image1.png"/>
 
         <example>
             <statement>
@@ -608,15 +607,14 @@
                     Which of these graphs defines a function <m>y=f(x)</m>? Which of these graphs defines a one-to-one function?
                 </p>
 
-                <image source="C1S2Image2.png">
-                </image>
+                <image source="C1S2Image2.png"/>
+                
 
-                <image source="C1S2Image3.png">
-                </image>
+                <image source="C1S2Image3.png"/>
+             
 
-                <image source="image.png">
-                </image>
-
+                <image source="image.png"/>
+            
                 <p>
                     Looking at the three graphs above, the first two define a function <m>y=f(x)</m>, since for each input value along the horizontal axis there is exactly one output value corresponding, determined by the <m>y</m>-value of the graph.
                     The 3rd graph does not define a function <m>y=f(x)</m> since some input values, such as <m>x=2</m>, correspond with more than one output value.
@@ -680,8 +678,8 @@
                     b) Solve <m>f(x) = 4</m>
                 </p>
 
-                <image source="C1S2Image4.png">
-                </image>
+                <image source="C1S2Image4.png"/>
+              
 
                 <p>
                     a) To evaluate <m>f(2)</m>, we find the input of <m>x=2</m> on the horizontal axis.
@@ -1037,35 +1035,42 @@
         <title>Graphs of the Toolkit Functions</title>
 
         <p>
-            The following graphs are the graphs of the toolkit functions.
+            The following graphs are the graphs of the toolkit functions, followed by the function definition.
         </p>
 
-        <image source="C1S2Image5.png">
-        </image>
-        Constant Function: $f(x)=2$.
-        <image source="C1S2Image6.png">
-        </image>
+            <caption>A graph of the function <m>f(x)=2</m></caption>
+            <image source="C1S2Image5.png">
+                <description>
+                    <p>A horizontal line at y=2.
+                    </p>
+                </description>
+            </image>
+        <p>
+        Constant Function: <m>f(x)=2</m>.    
+        </p>
+        <image source="C1S2Image6.png"/>
+        
         Identity: $f(x)=x$.
-        <image source="C1S2Image7.png">
-        </image>
+        <image source="C1S2Image7.png"/>
+        
         Absolute Value: $f(x)=|x|$.
-        <image source="C1S2Image8.png">
-        </image>
+        <image source="C1S2Image8.png"/>
+        
         Quadratic: $f(x)=x^{2}$.
-        <image source="C1S2Image9.png">
-        </image>
+        <image source="C1S2Image9.png"/>
+        
         Cubic: $f(x)=x^{3}$.
-        <image source="C1S2Image10.png">
-        </image>
+        <image source="C1S2Image10.png"/>
+        
         Square root: $f(x)=\sqrt{x}$.
-        <image source="C1S2Image11.png">
-        </image>
+        <image source="C1S2Image11.png"/>
+        
         Cube root: $f(x)=\sqrt[3]{x}$.
-        <image source="C1S2Image12.png">
-        </image>
+        <image source="C1S2Image12.png"/>
+        
         Reciprocal: $f(x)=\dfrac{1}{x}$.
-        <image source="image.png">
-        </image>
+        <image source="C1S2Image13.png"/>
+        
         Reciprocal Squared: $f(x)=\dfrac{1}{x^2}$.
     </subsection>
 
@@ -1078,7 +1083,6 @@
 
             <statement>
                 <p>
-                    .
                     <ul>
                         <li>
                             <p>
@@ -1159,7 +1163,7 @@
         <exercise>
             <statement>
                 <p>
-                    [Exercise Answers:].
+                    [Exercise Answers:]
                     <ol>
                         <li>
                             <p>
