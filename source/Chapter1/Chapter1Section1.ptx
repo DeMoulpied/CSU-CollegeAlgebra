@@ -23,8 +23,6 @@
         Mathematics is the art of making sense of patterns.  One way that patterns arise is when two quantities are changing in tandem.  In this setting, we may make sense of the situation by expressing the relationship between the changing quantities through words, through images, through data, or through a formula.
       </p>
   
-      <xi:include href="./previews/PA-changing-tandem-aquarium.xml" />
-  
     </introduction>
   
     <subsection xml:id="subsec-changing-tandem-graphs">
@@ -91,7 +89,6 @@
         Depending on which variable we solve for, we can either see how <m>V</m> depends on <m>h</m> through the equation <m>V = 8h</m>, or how <m>h</m> depends on <m>V</m> via the equation <m>h = \frac{1}{8}V</m>.  From either perspective, we observe that as depth or volume increases, so must volume or depth correspondingly increase.
       </p>
   
-      <xi:include href="./activities/act-changing-tandem-conical-tank.xml" />
   
     </subsection>
   
@@ -216,7 +213,7 @@
         These different behaviors make sense because of the shape of the tank.  Since at first there is less volume relative to depth near the cone's point, as water flows in at a constant rate, the water's height will rise quickly.  But as time goes on and more water is added at the same rate, there is more space for the water to fill in order to make the water level rise, and thus the water's height rises more and more slowly as time passes.
       </p>
   
-      <xi:include href="./activities/act-changing-tandem-spherical-tank.xml" />
+    
   
     </subsection>
   
@@ -236,14 +233,8 @@
           </li>
         </ul>
       </p>
-    </subsection>
-  
-    <xi:include href="./exercises/ez-changing-tandem.xml" /> 
+    </subsection> 
   
     <!-- <xi:include href="./activities/act-1-1-1.xml" /> -->
     <!-- <xi:include href="./exercises/ez-1-1.xml" /> -->
   </section>
-  
-  
-
-</section>
