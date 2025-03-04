@@ -22,7 +22,7 @@
       <p>
         Mathematics is the art of making sense of patterns.  One way that patterns arise is when two quantities are changing in tandem.  In this setting, we may make sense of the situation by expressing the relationship between the changing quantities through words, through images, through data, or through a formula.
       </p>
-  
+  <xi:include href="./previews/PA-changing-tandem-aquarium.xml" />
     </introduction>
   
     <subsection xml:id="subsec-changing-tandem-graphs">
@@ -69,7 +69,7 @@
         </table>			
         <figure xml:id="F-tandem-Volume-time" >
           <caption>A visual representation of the data in <xref ref="T-tandem-aquarium">Table</xref>.</caption>
-          <image source="images/tandem-aquarium-V-t" /> 	
+          <image source="tandem-aquarium-V-t" /> 	
         </figure>
       </sidebyside>
   

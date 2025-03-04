@@ -209,8 +209,6 @@
 
         <tabular left="minor">
             <col halign="center" right="minor"> </col> <col halign="center" right="minor"> </col> <col halign="center" right="minor"> </col> <col halign="center" right="minor"> </col> <col halign="center" right="minor"> </col> <col halign="center" right="minor"> </col> <col halign="center" right="minor"> </col> <col halign="center" right="minor"> </col> <col halign="center" right="minor"> </col> <col halign="center" right="minor"> </col> <col halign="center" right="minor"> </col> <col halign="center" right="minor"> </col> <col halign="center" right="minor"> </col> <col halign="center"> </col>
-            <row>
-            </row>
 
             <row>
                 <cell>(input) Month number, <m>m</m> </cell>
@@ -229,10 +227,6 @@
             </row>
 
             <row>
-                <cell> </cell>
-            </row>
-
-            <row>
                 <cell>(output) Days in month, <m>D</m> </cell>
                 <cell>31</cell>
                 <cell>28</cell>
@@ -248,9 +242,6 @@
                 <cell>31</cell>
             </row>
 
-            <row>
-                <cell> </cell>
-            </row>
         </tabular>
 
         <p>
@@ -260,8 +251,7 @@
 
         <tabular left="minor">
             <col halign="center" right="minor"> </col> <col halign="center" right="minor"> </col> <col halign="center" right="minor"> </col> <col halign="center" right="minor"> </col> <col halign="center" right="minor"> </col> <col halign="center" right="minor"> </col>
-            <row>
-            </row>
+
 
             <row>
                 <cell> <m>n</m> </cell>
@@ -273,10 +263,6 @@
             </row>
 
             <row>
-                <cell> </cell>
-            </row>
-
-            <row>
                 <cell> <m>Q</m> </cell>
                 <cell>8</cell>
                 <cell>6</cell>
@@ -285,9 +271,6 @@
                 <cell>8</cell>
             </row>
 
-            <row>
-                <cell> </cell>
-            </row>
         </tabular>
 
         <p>
@@ -297,8 +280,6 @@
 
         <tabular left="minor">
             <col halign="center" right="minor"> </col> <col halign="center" right="minor"> </col> <col halign="center" right="minor"> </col> <col halign="center" right="minor"> </col> <col halign="center" right="minor"> </col> <col halign="center" right="minor"> </col> <col halign="center" right="minor"> </col> <col halign="center" right="minor"> </col>
-            <row>
-            </row>
 
             <row>
                 <cell>(input) <m>a</m>, age in years</cell>
@@ -312,10 +293,6 @@
             </row>
 
             <row>
-                <cell> </cell>
-            </row>
-
-            <row>
                 <cell>(output) <m>h</m>, height inches</cell>
                 <cell>40</cell>
                 <cell>42</cell>
@@ -326,9 +303,6 @@
                 <cell>54</cell>
             </row>
 
-            <row>
-                <cell> </cell>
-            </row>
         </tabular>
 
         <example>
@@ -339,8 +313,6 @@
 
                 <tabular left="minor">
                     <col halign="center" right="minor"> </col> <col halign="center" right="minor"> </col>
-                    <row>
-                    </row>
 
                     <row>
                         <cell>Input</cell>
@@ -348,16 +320,8 @@
                     </row>
 
                     <row>
-                        <cell> </cell>
-                    </row>
-
-                    <row>
                         <cell>2</cell>
                         <cell>1</cell>
-                    </row>
-
-                    <row>
-                        <cell> </cell>
                     </row>
 
                     <row>
@@ -366,31 +330,17 @@
                     </row>
 
                     <row>
-                        <cell> </cell>
-                    </row>
-
-                    <row>
                         <cell>8</cell>
                         <cell>6</cell>
-                    </row>
-
-                    <row>
-                        <cell> </cell>
                     </row>
                 </tabular>
 
                 <tabular left="minor">
                     <col halign="center" right="minor"> </col> <col halign="center" right="minor"> </col>
-                    <row>
-                    </row>
 
                     <row>
                         <cell>Input</cell>
                         <cell>Output</cell>
-                    </row>
-
-                    <row>
-                        <cell> </cell>
                     </row>
 
                     <row>
@@ -399,32 +349,18 @@
                     </row>
 
                     <row>
-                        <cell> </cell>
-                    </row>
-
-                    <row>
                         <cell>0</cell>
                         <cell>1</cell>
-                    </row>
-
-                    <row>
-                        <cell> </cell>
                     </row>
 
                     <row>
                         <cell>4</cell>
                         <cell>5</cell>
                     </row>
-
-                    <row>
-                        <cell> </cell>
-                    </row>
                 </tabular>
 
                 <tabular left="minor">
                     <col halign="center" right="minor"> </col> <col halign="center" right="minor"> </col>
-                    <row>
-                    </row>
 
                     <row>
                         <cell>Input</cell>
@@ -432,16 +368,8 @@
                     </row>
 
                     <row>
-                        <cell> </cell>
-                    </row>
-
-                    <row>
                         <cell>1</cell>
                         <cell>0</cell>
-                    </row>
-
-                    <row>
-                        <cell> </cell>
                     </row>
 
                     <row>
@@ -450,17 +378,10 @@
                     </row>
 
                     <row>
-                        <cell> </cell>
-                    </row>
-
-                    <row>
                         <cell>5</cell>
                         <cell>4</cell>
                     </row>
 
-                    <row>
-                        <cell> </cell>
-                    </row>
                 </tabular>
 
                 <p>
@@ -519,8 +440,6 @@
 
                 <tabular left="minor">
                     <col halign="center" right="minor"> </col> <col halign="center" right="minor"> </col> <col halign="center" right="minor"> </col> <col halign="center" right="minor"> </col> <col halign="center" right="minor"> </col> <col halign="center" right="minor"> </col>
-                    <row>
-                    </row>
 
                     <row>
                         <cell> <m>n</m> </cell>
@@ -531,9 +450,6 @@
                         <cell>5</cell>
                     </row>
 
-                    <row>
-                        <cell> </cell>
-                    </row>
 
                     <row>
                         <cell> <m>Q</m> </cell>
@@ -544,9 +460,6 @@
                         <cell>8</cell>
                     </row>
 
-                    <row>
-                        <cell> </cell>
-                    </row>
                 </tabular>
 
                 <p>
@@ -710,7 +623,15 @@
                     b) Solve <m>f(x) = 4</m>
                 </p>
 
-                <image source="C1S2Image4.png"/>
+                <figure xml:id="f-of-x">
+                <caption>Graph of <m>f(x)</m></caption>
+                <image source="C1S2Image4.png">
+                <description>
+                    <p>A U-shaped graph passing through negative 1 comma 4, 0 comma 1, 1 comma 0, 2 comma 1, and 3 comma 4.
+                    </p>
+                </description>
+            </image>
+            </figure>
               
 
                 <p>
@@ -1080,30 +1001,85 @@
             </image>
             </figure>
 
-        <image source="C1S2Image6.png"/>
+        <figure xml:id="yequalsx">
+                <caption>Graph of <m>f(x)=x</m></caption>
+                <image source="C1S2Image6.png">
+                <description>
+                    <p>An increasing straight line passing through negative 1 comma negative 1, 0 comma 0 and 1 comma 1.
+                    </p>
+                </description>
+            </image>
+            </figure>
         
-        Identity: $f(x)=x$.
-        <image source="C1S2Image7.png"/>
+        <figure xml:id="absolute-value">
+                <caption>Graph of <m>f(x)=|x|</m></caption>
+                <image source="C1S2Image7.png">
+                <description>
+                    <p>A v shaped graph passing through the points negative 3 comma 3, negative 1 comma 1, 0 comma 0, 1 comma 1, 3 comma 3, with a right angle at the point 0 comma 0.
+                    </p>
+                </description>
+            </image>
+            </figure>
         
-        Absolute Value: $f(x)=|x|$.
-        <image source="C1S2Image8.png"/>
+        <figure xml:id="squared">
+                <caption>Graph of <m>f(x)=x^2</m></caption>
+                <image source="C1S2Image8.png">
+                <description>
+                    <p>A U-shaped graph decreasing to 0 comma 0 then increasing, passing through 1 comma 1.
+                    </p>
+                </description>
+            </image>
+            </figure>
         
-        Quadratic: $f(x)=x^{2}$.
-        <image source="C1S2Image9.png"/>
+        <figure xml:id="cubed">
+                <caption>Graph of <m>f(x)=x^3</m></caption>
+                <image source="C1S2Image9.png">
+                <description>
+                    <p>A graph that increases quickly, then flattens out at the origin, then increases quickly again.
+                    </p>
+                </description>
+            </image>
+            </figure>
         
-        Cubic: $f(x)=x^{3}$.
-        <image source="C1S2Image10.png"/>
-        
-        Square root: $f(x)=\sqrt{x}$.
-        <image source="C1S2Image11.png"/>
-        
-        Cube root: $f(x)=\sqrt[3]{x}$.
-        <image source="C1S2Image12.png"/>
-        
-        Reciprocal: $f(x)=\dfrac{1}{x}$.
-        <image source="C1S2Image13.png"/>
-        
-        Reciprocal Squared: $f(x)=\dfrac{1}{x^2}$.
+        <figure xml:id="root">
+                <caption>Graph of <m>f(x)=\sqrt{x}</m></caption>
+                <image source="C1S2Image10.png">
+                <description>
+                    <p>Starts at the origin, flattens out as it increases. Passes through 1 comma 1, 4 comma 2, and 9 comma 3.
+                    </p>
+                </description>
+            </image>
+            </figure>
+
+        <figure xml:id="cuberoot">
+                <caption>Graph of <m>f(x)=\sqrt[3]{x}</m></caption>
+                <image source="C1S2Image11.png">
+                <description>
+                    <p>An increasing concave up curve that passes through negative 8 comma negative 2, negative 1 comma negative 1,0 comma 0 and changes to concave down at 0 comma 0 and goes through the point 1 comma and 8 comma 2.
+                    </p>
+                </description>
+            </image>
+            </figure>
+
+        <figure xml:id="reciprocal">
+                <caption>Graph of <m>f(x)=\dfrac{1}{x}</m></caption>
+                <image source="C1S2Image12.png">
+                <description>
+                    <p>From the left the graph starts out flat just below 0. As x increases, y decreases slowly at first then more rapidly. As x approaches 0 from the left, the graph decreases rapidly out of the window.  Immediately past 0, the graph decreases rapidly from above the window, decreasing quickly and first then more slowly.  As x increases to the right, the graph flattens, approaching 0.
+                    </p>
+                </description>
+            </image>
+            </figure>
+
+        <figure xml:id="reciprocal-squared">
+                <caption>Graph of <m>f(x)=\dfrac{1}{x^2}</m></caption>
+                <image source="C1S2Image13.png">
+                <description>
+                    <p>Immediately past 0, the graph decreases rapidly from above the window, decreasing quickly and first then more slowly.  As x increases to the right, the graph flattens, approaching 0.
+                    </p>
+                </description>
+            </image>
+            </figure>
     </subsection>
 
 
@@ -1195,7 +1171,7 @@
         <exercise>
             <statement>
                 <p>
-                    [Exercise Answers:]
+                    [Checkpoint Answers:]
                     <ol>
                         <li>
                             <p>

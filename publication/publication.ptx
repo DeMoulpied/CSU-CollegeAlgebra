@@ -80,7 +80,7 @@
     <!-- Lots of elements have this possibility; see the guide -->
     <knowl
       theorem="no"
-      proof="yes"
+      proof="no"
       definition="no"
       example="no"
       example-solution="no"
