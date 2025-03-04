@@ -599,7 +599,15 @@
             The most common graph has y on the vertical axis and x on the horizontal axis, and we say y is a function of x, or y = f(x) when the function is named f.
         </p>
 
-        <image source="C1S2Image1.png"/>
+        <figure xml:id="coordinate-plane">
+                <caption>The xy coordinate plane.</caption>
+                <image source="C1S2Image1.png">
+                <description>
+                    <p>A coordinate plane grid with the horizontal axis labeled with the variable x and the vertical axis labeled with the variable y.
+                    </p>
+                </description>
+            </image>
+            </figure>
 
         <example>
             <statement>
@@ -607,13 +615,37 @@
                     Which of these graphs defines a function <m>y=f(x)</m>? Which of these graphs defines a one-to-one function?
                 </p>
 
-                <image source="C1S2Image2.png"/>
+                <figure xml:id="cubic">
+                <caption>Graph 1</caption>
+                <image source="C1S2Image2.png">
+                <description>
+                    <p>Graph of a smooth curve that increases to negative 1 comma 3, decreases to 1 comma negative 3, then increases.
+                    </p>
+                </description>
+            </image>
+            </figure>
                 
 
-                <image source="C1S2Image3.png"/>
+                <figure xml:id="linear">
+                <caption>Graph 2</caption>
+                <image source="C1S2Image3.png">
+                <description>
+                    <p>Graph of a decreasing straight line.
+                    </p>
+                </description>
+            </image>
+            </figure>
              
 
-                <image source="image.png"/>
+                <figure xml:id="circle">
+                <caption>Graph 3</caption>
+                <image source="C1S2ImageCirc.png">
+                <description>
+                    <p>Graph of a circle with radius 3 centered at the origin.
+                    </p>
+                </description>
+            </image>
+            </figure>
             
                 <p>
                     Looking at the three graphs above, the first two define a function <m>y=f(x)</m>, since for each input value along the horizontal axis there is exactly one output value corresponding, determined by the <m>y</m>-value of the graph.
@@ -1038,16 +1070,16 @@
             The following graphs are the graphs of the toolkit functions, followed by the function definition.
         </p>
 
-            <caption>A graph of the function <m>f(x)=2</m></caption>
-            <image source="C1S2Image5.png">
+            <figure xml:id="constant">
+                <caption>Graph of the constant function <m>f(x)=2</m></caption>
+                <image source="C1S2Image5.png">
                 <description>
-                    <p>A horizontal line at y=2.
+                    <p>A horizontal line passing through the points negative 4 comma 2, negative 2 comma 2, 0 comma 2, 2 comma 2, and 4 comma 2.
                     </p>
                 </description>
             </image>
-        <p>
-        Constant Function: <m>f(x)=2</m>.    
-        </p>
+            </figure>
+
         <image source="C1S2Image6.png"/>
         
         Identity: $f(x)=x$.
