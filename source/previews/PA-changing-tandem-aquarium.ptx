@@ -22,11 +22,11 @@
 		<sidebyside width="50%">
 			<figure>
 				<caption>The empty aquarium.</caption>
-				<image source="tandem-empty-aquarium" />
+				<image source="tandem-empty-aquarium.svg" />
 			</figure>
 			<figure>
 				<caption>The aquarium, partially filled.</caption>
-				<image source="tandem-filled-aquarium" />
+				<image source="tandem-filled-aquarium.svg" />
 			</figure>			
 		</sidebyside>
 		<p>

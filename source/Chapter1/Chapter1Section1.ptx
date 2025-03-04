@@ -22,7 +22,7 @@
       <p>
         Mathematics is the art of making sense of patterns.  One way that patterns arise is when two quantities are changing in tandem.  In this setting, we may make sense of the situation by expressing the relationship between the changing quantities through words, through images, through data, or through a formula.
       </p>
-  <xi:include href="./previews/PA-changing-tandem-aquarium.xml" />
+  <xi:include href="./previews/PA-changing-tandem-aquarium.ptx" />
     </introduction>
   
     <subsection xml:id="subsec-changing-tandem-graphs">
@@ -89,6 +89,7 @@
         Depending on which variable we solve for, we can either see how <m>V</m> depends on <m>h</m> through the equation <m>V = 8h</m>, or how <m>h</m> depends on <m>V</m> via the equation <m>h = \frac{1}{8}V</m>.  From either perspective, we observe that as depth or volume increases, so must volume or depth correspondingly increase.
       </p>
   
+        <xi:include href="./activities/act-changing-tandem-conical-tank.ptx" />
   
     </subsection>
   
@@ -101,11 +102,11 @@
       <sidebyside width="50%">
         <figure xml:id="F-tandem-empty-conical-tank">
           <caption>The empty conical tank.</caption>
-          <image source="images/tandem-empty-conical-tank" width="50%" />
+          <image source="tandem-empty-conical-tank" width="50%" />
         </figure>
         <figure xml:id="F-tandem-filled-conical-tank">
           <caption>The conical tank, partially filled.</caption>
-          <image source="images/tandem-filled-conical-tank"  width="50%" />
+          <image source="tandem-filled-conical-tank"  width="50%" />
         </figure>			
       </sidebyside>
   
@@ -201,11 +202,11 @@
         <sidebyside width="50%">
           <figure xml:id="F-tandem-cone-V-t">
             <caption>Plotting <m>V</m> versus <m>t</m>.</caption>
-              <image source="images/tandem-cone-V-t" width="50%"/> 
+              <image source="tandem-cone-V-t" width="50%"/> 
           </figure>
           <figure xml:id="F-tandem-cone-h-t">
             <caption>Plotting <m>h</m> versus <m>t</m>.</caption>
-              <image source="images/tandem-cone-h-t" width="50%"/> 
+              <image source="tandem-cone-h-t" width="50%"/> 
             </figure>
         </sidebyside>
   
