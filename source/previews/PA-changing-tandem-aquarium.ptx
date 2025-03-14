@@ -23,10 +23,18 @@
 			<figure>
 				<caption>The empty aquarium.</caption>
 				<image source="tandem-empty-aquarium.svg" />
+				<description>
+                    <p>An empty rectangular tank that is 4 feet long, 2 feet wide, and 3 feet long.
+                    </p>
+                </description>
 			</figure>
 			<figure>
 				<caption>The aquarium, partially filled.</caption>
 				<image source="tandem-filled-aquarium.svg" />
+				<description>
+                    <p>An half filled rectangular tank that is 4 feet long, 2 feet wide, and 3 feet long.
+                    </p>
+                </description>
 			</figure>			
 		</sidebyside>
 		<p>

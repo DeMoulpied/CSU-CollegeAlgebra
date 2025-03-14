@@ -40,7 +40,7 @@
                 <cell>2.14</cell>
             </row>
         </tabular>
-        $f(t)=C$
+        
         <p>
             If we were interested in how the gas prices had changed between 2002 and 2009, we could compute that the cost per gallon had increased from $1.47 to $2.14, an increase of $0.67.
             While this is interesting, it might be more useful to look at how much the price changed per year.
