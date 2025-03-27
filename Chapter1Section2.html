@@ -1,0 +1,711 @@
+<!DOCTYPE html>
+<!--********************************************-->
+<!--*       Generated from PreTeXt source      *-->
+<!--*                                          *-->
+<!--*         https://pretextbook.org          *-->
+<!--*                                          *-->
+<!--********************************************-->
+<html lang="en-US" dir="ltr">
+<head xmlns:og="http://ogp.me/ns#" xmlns:book="https://ogp.me/ns/book#">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Functions and Notation</title>
+<meta name="Keywords" content="Authored in PreTeXt">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta property="og:type" content="book">
+<meta property="book:title" content="College Algebra and Precalculus">
+<meta property="book:author" content="Jason DeMoulpied">
+<script>
+var runestoneMathReady = new Promise((resolve) => window.rsMathReady = resolve);
+window.MathJax = {
+  "tex": {
+    "inlineMath": [
+      [
+        "\\(",
+        "\\)"
+      ]
+    ],
+    "tags": "none",
+    "tagSide": "right",
+    "tagIndent": ".8em",
+    "packages": {
+      "[+]": [
+        "base",
+        "extpfeil",
+        "ams",
+        "amscd",
+        "color",
+        "newcommand",
+        "knowl"
+      ]
+    }
+  },
+  "options": {
+    "ignoreHtmlClass": "tex2jax_ignore|ignore-math",
+    "processHtmlClass": "process-math"
+  },
+  "chtml": {
+    "scale": 0.98,
+    "mtextInheritFont": true
+  },
+  "loader": {
+    "load": [
+      "input/asciimath",
+      "[tex]/extpfeil",
+      "[tex]/amscd",
+      "[tex]/color",
+      "[tex]/newcommand",
+      "[pretext]/mathjaxknowl3.js"
+    ],
+    "paths": {
+      "pretext": "_static/pretext/js/lib"
+    }
+  },
+  "startup": {
+    pageReady() {
+      return MathJax.startup.defaultPageReady().then(function () {
+      console.log("in ready function");
+      rsMathReady();
+      }
+    )}
+  }
+};
+</script><script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/lunr.js/2.3.9/lunr.min.js" integrity="sha512-4xUl/d6D6THrAnXAwGajXkoWaeMNwEKK4iNfq5DotEbLPAfk6FSxSP3ydNxqDgCw1c/0Z1Jg6L8h2j+++9BZmg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script><script src="lunr-pretext-search-index.js" async=""></script><script src="_static/pretext/js/pretext_search.js"></script><link href="_static/pretext/css/pretext_search.css" rel="stylesheet" type="text/css">
+<script src="_static/pretext/js/lib/jquery.min.js"></script><script src="_static/pretext/js/lib/jquery.sticky.js"></script><script src="_static/pretext/js/lib/jquery.espy.min.js"></script><script src="_static/pretext/js/pretext.js"></script><script src="_static/pretext/js/pretext_add_on.js?x=1"></script><script src="_static/pretext/js/user_preferences.js"></script><script src="_static/pretext/js/lib/knowl.js"></script><!--knowl.js code controls Sage Cells within knowls--><script>sagecellEvalName='Evaluate (Sage)';
+</script><link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+<link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;700&amp;family=Noto+Serif:ital,wght@0,400;0,700;1,400;1,700&amp;family=Tinos:ital,wght@0,400;0,700;1,400;1,700&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.cdnfonts.com/css/dejavu-serif" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Serif:opsz,wdth,wght@8..144,50..150,100..900&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wdth,wght@75..100,300..800&amp;display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200">
+<link href="_static/pretext/css/pretext.css" rel="stylesheet" type="text/css">
+<link href="_static/pretext/css/pretext_add_on.css" rel="stylesheet" type="text/css">
+<link href="_static/pretext/css/shell_default.css" rel="stylesheet" type="text/css">
+<link href="_static/pretext/css/banner_default.css" rel="stylesheet" type="text/css">
+<link href="_static/pretext/css/navbar_default.css" rel="stylesheet" type="text/css">
+<link href="_static/pretext/css/toc_default.css" rel="stylesheet" type="text/css">
+<link href="_static/pretext/css/knowls_default.css" rel="stylesheet" type="text/css">
+<link href="_static/pretext/css/style_default.css" rel="stylesheet" type="text/css">
+<link href="_static/pretext/css/colors_blue_red.css" rel="stylesheet" type="text/css">
+<link href="_static/pretext/css/setcolors.css" rel="stylesheet" type="text/css">
+</head>
+<body id="changeme" class="pretext book ignore-math">
+<a class="assistive" href="#ptx-content">Skip to main content</a><header id="ptx-masthead" class="ptx-masthead"><div class="ptx-banner">
+<a id="logo-link" class="logo-link" target="_blank" href=""></a><div class="title-container">
+<h1 class="heading"><a href="CollegeAlgebraAndPrecalculus.html"><span class="title">College Algebra and Precalculus:</span> <span class="subtitle">Colorado State University</span></a></h1>
+<p class="byline">Jason DeMoulpied</p>
+</div>
+</div></header><nav id="ptx-navbar" class="ptx-navbar navbar"><button class="toc-toggle button" title="Contents"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5d2;</span><span class="name">Contents</span></button><div class="searchbox">
+<div class="searchwidget"><button id="searchbutton" class="searchbutton button" type="button" title="Search book"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe8b6;</span><span class="name">Search Book</span></button></div>
+<div id="searchresultsplaceholder" class="searchresultsplaceholder" style="display: none">
+<div class="search-results-controls">
+<input aria-label="Search term" id="ptxsearch" class="ptxsearch" type="text" name="terms" placeholder="Search term"><button title="Close search" id="closesearchresults" class="closesearchresults"><span class="material-symbols-outlined">close</span></button>
+</div>
+<h2 class="search-results-heading">Search Results: </h2>
+<div id="searchempty" class="searchempty"><span>No results.</span></div>
+<ol id="searchresults" class="searchresults"></ol>
+</div>
+</div>
+<span class="nav-other-controls"></span><span class="treebuttons"><a class="previous-button button" href="Chapter1Section1.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="up-button button" href="Chapter1.html" title="Up"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Up</span></a><a class="next-button button" href="Chapter1Section3.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a></span></nav><div id="latex-macros" class="hidden-content process-math" style="display:none"><span class="process-math">\(\newcommand{\N}{\mathbb N} \newcommand{\Z}{\mathbb Z} \newcommand{\Q}{\mathbb Q} \newcommand{\R}{\mathbb R}
+\newcommand{\lt}{&lt;}
+\newcommand{\gt}{&gt;}
+\newcommand{\amp}{&amp;}
+\definecolor{fillinmathshade}{gray}{0.9}
+\newcommand{\fillinmath}[1]{\mathchoice{\colorbox{fillinmathshade}{$\displaystyle     \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\textstyle        \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\scriptstyle      \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\scriptscriptstyle\phantom{\,#1\,}$}}}
+\)</span></div>
+<div class="ptx-page">
+<div id="ptx-sidebar" class="ptx-sidebar"><nav id="ptx-toc" class="ptx-toc depth2"><ul class="structural contains-active toc-item-list">
+<li class="toc-item toc-frontmatter"><div class="toc-title-box"><a href="frontmatter.html" class="internal"><span class="title">Front Matter</span></a></div></li>
+<li class="toc-item toc-chapter contains-active">
+<div class="toc-title-box"><a href="Chapter1.html" class="internal"><span class="codenumber">1</span> <span class="title">Quantities and Functions</span></a></div>
+<ul class="structural toc-item-list contains-active">
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="Chapter1Section1.html" class="internal"><span class="codenumber">1.1</span> <span class="title">Fixed and Varying Quantities</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="Chapter1Section1.html#subsec-changing-tandem-graphs" class="internal"><span class="codenumber">1.1.1</span> <span class="title">Using Graphs to Represent Relationships</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="Chapter1Section1.html#subsec-changing-algebra-perspective" class="internal"><span class="codenumber">1.1.2</span> <span class="title">Using Algebra to Add Perspective</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="Chapter1Section1.html#subsec-changing-tandem-summary" class="internal"><span class="codenumber">1.1.3</span> <span class="title">Summary</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section active">
+<div class="toc-title-box"><a href="Chapter1Section2.html" class="internal"><span class="codenumber">1.2</span> <span class="title">Functions and Notation</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="Chapter1Section2.html#Chapter1Section2-2" class="internal"><span class="codenumber">1.2.1</span> <span class="title">What is a Function?</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="Chapter1Section2.html#Chapter1Section2-3" class="internal"><span class="codenumber">1.2.2</span> <span class="title">Function Notation</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="Chapter1Section2.html#Chapter1Section2-4" class="internal"><span class="codenumber">1.2.3</span> <span class="title">Tables as Functions</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="Chapter1Section2.html#Chapter1Section2-5" class="internal"><span class="codenumber">1.2.4</span> <span class="title">Solving and Evaluating Functions</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="Chapter1Section2.html#Chapter1Section2-6" class="internal"><span class="codenumber">1.2.5</span> <span class="title">Graphs as Functions</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="Chapter1Section2.html#Chapter1Section2-7" class="internal"><span class="codenumber">1.2.6</span> <span class="title">Formulas as Functions</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="Chapter1Section2.html#Chapter1Section2-8" class="internal"><span class="codenumber">1.2.7</span> <span class="title">Basic Toolkit Functions</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="Chapter1Section2.html#Chapter1Section2-9" class="internal"><span class="codenumber">1.2.8</span> <span class="title">Graphs of the Toolkit Functions</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="Chapter1Section2.html#Chapter1Section2-10" class="internal"><span class="codenumber">1.2.9</span> <span class="title">Conclusions</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="Chapter1Section3.html" class="internal"><span class="codenumber">1.3</span> <span class="title">Domain and Range</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="Chapter1Section4.html" class="internal"><span class="codenumber">1.4</span> <span class="title">Rates of Change</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="Chapter1Section5.html" class="internal"><span class="codenumber">1.5</span> <span class="title">Composition</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="Chapter1Section6.html" class="internal"><span class="codenumber">1.6</span> <span class="title">Transformations</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="Chapter1Section7.html" class="internal"><span class="codenumber">1.7</span> <span class="title">Inverse Functions</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="Chapter2.html" class="internal"><span class="codenumber">2</span> <span class="title">Linear Functions</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="Chapter2Section1.html" class="internal"><span class="codenumber">2.1</span> <span class="title">Linear Functions</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="Chapter2Section2.html" class="internal"><span class="codenumber">2.2</span> <span class="title">Graphs of Linear Functions</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="Chapter2Section3.html" class="internal"><span class="codenumber">2.3</span> <span class="title">Modeling with Linear Functions</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="Chapter2Section4.html" class="internal"><span class="codenumber">2.4</span> <span class="title">Absolute Value Functions</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="Chapter3.html" class="internal"><span class="codenumber">3</span> <span class="title">Polynomial and Rational Functions</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="Chapter3Section1.html" class="internal"><span class="codenumber">3.1</span> <span class="title">Quadratic Functions</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="Chapter3Section2.html" class="internal"><span class="codenumber">3.2</span> <span class="title">Polynomial Functions</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="Chapter3Section3.html" class="internal"><span class="codenumber">3.3</span> <span class="title">Graphs of Polynomial Functions</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="Chapter3Section4.html" class="internal"><span class="codenumber">3.4</span> <span class="title">Roots of Polynomials</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="Chapter3Section5.html" class="internal"><span class="codenumber">3.5</span> <span class="title">Rational Functions and End Behavior</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="Chapter3Section6.html" class="internal"><span class="codenumber">3.6</span> <span class="title">Rational Functions and Vertical Asymptotes</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="Chapter3Section7.html" class="internal"><span class="codenumber">3.7</span> <span class="title">Graphing Rational Functions</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="Chapter4.html" class="internal"><span class="codenumber">4</span> <span class="title">Exponential and Logarithmic Functions</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="Chapter4Section1.html" class="internal"><span class="codenumber">4.1</span> <span class="title">Percentages and Percent Change</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="Chapter4Section2.html" class="internal"><span class="codenumber">4.2</span> <span class="title">Exponential Functions</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="Chapter4Section3.html" class="internal"><span class="codenumber">4.3</span> <span class="title">Exponential Growth and Decay Factors</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="Chapter4Section4.html" class="internal"><span class="codenumber">4.4</span> <span class="title">Exponential Models</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="Chapter4Section5.html" class="internal"><span class="codenumber">4.5</span> <span class="title">Logarithmic Functions</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="Chapter4Section6.html" class="internal"><span class="codenumber">4.6</span> <span class="title">Logarithmic Properties</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="Chapter4Section7.html" class="internal"><span class="codenumber">4.7</span> <span class="title">Solving Exponential and Logarithmic Equations</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="Chapter5.html" class="internal"><span class="codenumber">5</span> <span class="title">Trigonometric Functions of Angles</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="Chapter5Section1.html" class="internal"><span class="codenumber">5.1</span> <span class="title">Circles and Angles</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="Chapter5Section2.html" class="internal"><span class="codenumber">5.2</span> <span class="title">Representing Circular Motion</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="Chapter5Section3.html" class="internal"><span class="codenumber">5.3</span> <span class="title">The Tangent Function</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="Chapter5Section4.html" class="internal"><span class="codenumber">5.4</span> <span class="title">Right Triangle Trigonometry</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="Chapter6.html" class="internal"><span class="codenumber">6</span> <span class="title">Periodic Functions</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="Chapter6Section1.html" class="internal"><span class="codenumber">6.1</span> <span class="title">Periodic Graphs</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="Chapter6Section2.html" class="internal"><span class="codenumber">6.2</span> <span class="title">Period and Amplitude</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="Chapter6Section3.html" class="internal"><span class="codenumber">6.3</span> <span class="title">Transformations of Periodic Functions</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="Chapter6Section4.html" class="internal"><span class="codenumber">6.4</span> <span class="title">Inverse Trig Functions</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="Chapter6Section5.html" class="internal"><span class="codenumber">6.5</span> <span class="title">Solving Trig Equations</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="Chapter6Section6.html" class="internal"><span class="codenumber">6.6</span> <span class="title">Modeling with Trigonometric Equations</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="Chapter6Section7.html" class="internal"><span class="codenumber">6.7</span> <span class="title">Law of Sines and Cosines</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-backmatter"><div class="toc-title-box"><a href="backmatter.html" class="internal"><span class="title">Backmatter</span></a></div></li>
+</ul></nav></div>
+<main class="ptx-main"><div id="ptx-content" class="ptx-content"><section class="section" id="Chapter1Section2"><h2 class="heading hide-type">
+<span class="type">Section</span><span class="space"> </span><span class="codenumber">1.2</span><span class="space"> </span><span class="title">Functions and Notation</span>
+</h2>
+<section class="subsection" id="Chapter1Section2-2"><h3 class="heading hide-type">
+<span class="type">Subsection</span><span class="space"> </span><span class="codenumber">1.2.1</span><span class="space"> </span><span class="title">What is a Function?</span>
+</h3>
+<div class="para" id="Chapter1Section2-2-2">The natural world is full of relationships between quantities that change. When we see these relationships, it is natural for us to ask, ”If I know one quantity, can I then determine the other?” This establishes the idea of an input quantity, or independent variable, and a corresponding output quantity, or dependent variable. From this we get the notion of a functional relationship in which the output can be determined from the input.</div>
+<div class="para" id="Chapter1Section2-2-3">For some quantities, like height and age, there are certainly relationships between these quantities. Given a specific person and any age, it is easy enough to determine their height, but if we tried to reverse that relationship and determine age from a given height, that would be problematic, since most people maintain the same height for many years.</div>
+<article class="definition definition-like" id="Chapter1Section2-2-4"><h4 class="heading">
+<span class="type">Definition</span><span class="space"> </span><span class="codenumber">1.2.1</span><span class="period">.</span><span class="space"> </span><span class="title">Function.</span>
+</h4> <div class="para" id="Chapter1Section2-2-4-2-1">A rule for a relationship between an input, or independent, quantity and an output, or dependent, quantity in which each input value uniquely determines one output value. We say, “the output is a function of the input.”</div></article><article class="example example-like" id="Chapter1Section2-2-5"><h4 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">1.2.2</span><span class="period">.</span>
+</h4>
+<div class="para" id="Chapter1Section2-2-5-1-1">In the height and age example above, is height a function of age? Is age a function of height?</div> <div class="para" id="Chapter1Section2-2-5-1-2">In the height and age example above, it would be correct to say that height is a function of age, since each age uniquely determines a height. For example, on my 18th birthday, I had exactly one height of 69 inches.</div> <div class="para" id="Chapter1Section2-2-5-1-3">However, age is not a function of height, since one height input might correspond with more than one output age. For example, for an input height of 70 inches, there is more than one output of age since I was 70 inches at the age of 20 and 21.</div></article><article class="example example-like" id="Chapter1Section2-2-6"><h4 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">1.2.3</span><span class="period">.</span>
+</h4>
+<div class="para" id="Chapter1Section2-2-6-1-1">At a coffee shop, the menu consists of items and their prices. Is price a function of the item? Is the item a function of the price?</div> <div class="para" id="Chapter1Section2-2-6-1-2">We could say that price is a function of the item, since each input of an item has one output of a price corresponding to it. We could not say that item is a function of price, since two items might have the same price.</div></article><article class="example example-like" id="Chapter1Section2-2-7"><h4 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">1.2.4</span><span class="period">.</span>
+</h4>
+<div class="para" id="Chapter1Section2-2-7-1-1">In many classes the overall percentage you earn in the course corresponds to a decimal grade point. Is decimal grade a function of percentage? Is percentage a function of decimal grade?</div> <div class="para" id="Chapter1Section2-2-7-1-2">For any percentage earned, there would be a decimal grade associated, so we could say that the decimal grade is a function of percentage. That is, if you input the percentage, your output would be a decimal grade. Percentage may or may not be a function of decimal grade, depending upon the teacher’s grading scheme. With some grading systems, there are a range of percentages that correspond to the same decimal grade.</div></article><article class="definition definition-like" id="Chapter1Section2-2-8"><h4 class="heading">
+<span class="type">Definition</span><span class="space"> </span><span class="codenumber">1.2.5</span><span class="period">.</span><span class="space"> </span><span class="title">One-to-One Function.</span>
+</h4> <div class="para" id="Chapter1Section2-2-8-2-1">Sometimes in a relationship each input corresponds to exactly one output, and every output corresponds to exactly one input. We call this kind of relationship a one-to-one function.</div></article><div class="para" id="Chapter1Section2-2-9">From Example 3, <em class="emphasis">if</em> each unique percentage corresponds to one unique decimal grade point and each unique decimal grade point corresponds to one unique percentage then it is a one-to-one function.</div>
+<article class="exercise exercise-like" id="Chapter1Section2-2-10"><h4 class="heading">
+<span class="type">Checkpoint</span><span class="space"> </span><span class="codenumber">1.2.6</span><span class="period">.</span>
+</h4>
+<div class="para" id="Chapter1Section2-2-10-1-1">Let’s consider bank account information.</div> <div class="para" id="Chapter1Section2-2-10-1-2">Is your balance a function of your bank account number? (If you input a bank account number does it make sense that the output is your balance?)</div></article><div class="para" id="Chapter1Section2-2-11"></div>
+<article class="exercise exercise-like" id="Chapter1Section2-2-12"><h4 class="heading">
+<span class="type">Checkpoint</span><span class="space"> </span><span class="codenumber">1.2.7</span><span class="period">.</span>
+</h4>
+<div class="para" id="Chapter1Section2-2-12-1-1">Is your bank account number a function of your balance? (if you input a balance does it make sense that the output is your bank account number?)</div></article></section><section class="subsection" id="Chapter1Section2-3"><h3 class="heading hide-type">
+<span class="type">Subsection</span><span class="space"> </span><span class="codenumber">1.2.2</span><span class="space"> </span><span class="title">Function Notation</span>
+</h3>
+<div class="para" id="Chapter1Section2-3-2">To simplify writing out expressions and equations involving functions, a simplified notation is often used. We also use descriptive variables to help us remember the meaning of the quantities in the problem.</div>
+<div class="para" id="Chapter1Section2-3-3">Rather than write ”height is a function of age”, we could use the descriptive variable <span class="process-math">\(h\)</span> to represent height and we could use the descriptive variable <span class="process-math">\(a\)</span> to represent age.</div>
+<div class="para" id="Chapter1Section2-3-4">“Height is a function of age”, then if we name the function <span class="process-math">\(f\)</span> we can write</div>
+<div class="para" id="Chapter1Section2-3-5">“<span class="process-math">\(h\)</span> is <span class="process-math">\(f\)</span> of <span class="process-math">\(a\)</span>” or more simply</div>
+<div class="para" id="Chapter1Section2-3-6"><span class="process-math">\(h=f(a)\text{.}\)</span></div>
+<div class="para" id="Chapter1Section2-3-7">Be careful - the parentheses indicate that age is input into the function (Note: do not confuse these parentheses with multiplication! It does not mean “<span class="process-math">\(f\)</span> times <span class="process-math">\(a\)</span>”).</div>
+<article class="definition definition-like" id="Chapter1Section2-3-8"><h4 class="heading">
+<span class="type">Definition</span><span class="space"> </span><span class="codenumber">1.2.8</span><span class="period">.</span><span class="space"> </span><span class="title">Function Notation.</span>
+</h4> <div class="para" id="Chapter1Section2-3-8-2-1">The notation <span class="process-math">\(\text{output}= f(\text{input})\)</span> defines a function named <span class="process-math">\(f\text{.}\)</span> This would be read “output is <span class="process-math">\(f\)</span> of input”</div></article><article class="example example-like" id="Chapter1Section2-3-9"><h4 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">1.2.9</span><span class="period">.</span>
+</h4>
+<div class="para" id="Chapter1Section2-3-9-1-1">Introduce function notation to represent a function that takes as input the name of a month and gives as output the number of days in that month.</div> <div class="para" id="Chapter1Section2-3-9-1-2">The number of days in a month is a function of the name of the month, so if we name the function <span class="process-math">\(f\text{,}\)</span> we could write “<span class="process-math">\(\text{days}= f(\text{month})\)</span>” or <span class="process-math">\(d = f(m)\text{.}\)</span>
+</div> <div class="para" id="Chapter1Section2-3-9-1-3">For example, <span class="process-math">\(f(\text{March}) = 31\text{,}\)</span> since March has 31 days. The notation <span class="process-math">\(f(m)\)</span> reminds us that the number of days, <span class="process-math">\(d\)</span> (the output) is dependent on the name of the month, <span class="process-math">\(m\)</span> (the input)</div></article><article class="example example-like" id="Chapter1Section2-3-10"><h4 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">1.2.10</span><span class="period">.</span>
+</h4>
+<div class="para" id="Chapter1Section2-3-10-1-1">A function <span class="process-math">\(N = f(y)\)</span> gives the number of police officers, <span class="process-math">\(N\text{,}\)</span> in a town in year <span class="process-math">\(y\text{.}\)</span> What does <span class="process-math">\(f(2005) = 300\)</span> tell us?</div> <div class="para" id="Chapter1Section2-3-10-1-2">When we read <span class="process-math">\(f(2005) = 300\text{,}\)</span> we see the input quantity is 2005, which is a value for the input quantity of the function, the year (<span class="process-math">\(y\)</span>). The output value is 300, the number of police officers (<span class="process-math">\(N\)</span>), a value for the output quantity. Remember <span class="process-math">\(N=f(y)\text{.}\)</span> This tells us that in the year 2005 there were 300 police officers in the town.</div></article></section><section class="subsection" id="Chapter1Section2-4"><h3 class="heading hide-type">
+<span class="type">Subsection</span><span class="space"> </span><span class="codenumber">1.2.3</span><span class="space"> </span><span class="title">Tables as Functions</span>
+</h3>
+<div class="para" id="Chapter1Section2-4-2">Functions can be represented in many ways: Words (as we did in the last few examples), tables of values, graphs, or formulas. Represented as a table, we are presented with a list of input and output values.</div>
+<div class="para" id="Chapter1Section2-4-3">In some cases, these values represent everything we know about the relationship, while in other cases the table is simply providing us a few select values from a more complete relationship.</div>
+<div class="para" id="Chapter1Section2-4-4">Table 1: This table represents the input, number of the month (January = 1, February = 2, and so on) while the output is the number of days in that month. This represents everything we know about the months and days for a given year (that is not a leap year)</div>
+<div class="tabular-box natural-width"><table class="tabular">
+<tr>
+<td class="c m b0 r1 l1 t0 lines">(input) Month number, <span class="process-math">\(m\)</span>
+</td>
+<td class="c m b0 r1 l0 t0 lines">1</td>
+<td class="c m b0 r1 l0 t0 lines">2</td>
+<td class="c m b0 r1 l0 t0 lines">3</td>
+<td class="c m b0 r1 l0 t0 lines">4</td>
+<td class="c m b0 r1 l0 t0 lines">5</td>
+<td class="c m b0 r1 l0 t0 lines">6</td>
+<td class="c m b0 r1 l0 t0 lines">7</td>
+<td class="c m b0 r1 l0 t0 lines">8</td>
+<td class="c m b0 r1 l0 t0 lines">9</td>
+<td class="c m b0 r1 l0 t0 lines">10</td>
+<td class="c m b0 r1 l0 t0 lines">11</td>
+<td class="c m b0 r1 l0 t0 lines">12</td>
+</tr>
+<tr>
+<td class="c m b0 r1 l1 t0 lines">(output) Days in month, <span class="process-math">\(D\)</span>
+</td>
+<td class="c m b0 r1 l0 t0 lines">31</td>
+<td class="c m b0 r1 l0 t0 lines">28</td>
+<td class="c m b0 r1 l0 t0 lines">31</td>
+<td class="c m b0 r1 l0 t0 lines">30</td>
+<td class="c m b0 r1 l0 t0 lines">31</td>
+<td class="c m b0 r1 l0 t0 lines">30</td>
+<td class="c m b0 r1 l0 t0 lines">31</td>
+<td class="c m b0 r1 l0 t0 lines">31</td>
+<td class="c m b0 r1 l0 t0 lines">30</td>
+<td class="c m b0 r1 l0 t0 lines">31</td>
+<td class="c m b0 r1 l0 t0 lines">30</td>
+<td class="c m b0 r1 l0 t0 lines">31</td>
+</tr>
+</table></div>
+<div class="para" id="Chapter1Section2-4-6">Table 2: The table below defines a function <span class="process-math">\(Q = g(n)\text{.}\)</span> Remember this notation tells us <span class="process-math">\(g\)</span> is the name of the function that takes the input <span class="process-math">\(n\)</span> and gives the output <span class="process-math">\(Q\text{.}\)</span>
+</div>
+<div class="tabular-box natural-width"><table class="tabular">
+<tr>
+<td class="c m b0 r1 l1 t0 lines"><span class="process-math">\(n\)</span></td>
+<td class="c m b0 r1 l0 t0 lines">1</td>
+<td class="c m b0 r1 l0 t0 lines">2</td>
+<td class="c m b0 r1 l0 t0 lines">3</td>
+<td class="c m b0 r1 l0 t0 lines">4</td>
+<td class="c m b0 r1 l0 t0 lines">5</td>
+</tr>
+<tr>
+<td class="c m b0 r1 l1 t0 lines"><span class="process-math">\(Q\)</span></td>
+<td class="c m b0 r1 l0 t0 lines">8</td>
+<td class="c m b0 r1 l0 t0 lines">6</td>
+<td class="c m b0 r1 l0 t0 lines">7</td>
+<td class="c m b0 r1 l0 t0 lines">6</td>
+<td class="c m b0 r1 l0 t0 lines">8</td>
+</tr>
+</table></div>
+<div class="para" id="Chapter1Section2-4-8">Table 3: This table represents the age of children in years and their corresponding heights. This represents just some of the data available for height and ages of children.</div>
+<div class="tabular-box natural-width"><table class="tabular">
+<tr>
+<td class="c m b0 r1 l1 t0 lines">(input) <span class="process-math">\(a\text{,}\)</span> age in years</td>
+<td class="c m b0 r1 l0 t0 lines">5</td>
+<td class="c m b0 r1 l0 t0 lines">5</td>
+<td class="c m b0 r1 l0 t0 lines">6</td>
+<td class="c m b0 r1 l0 t0 lines">7</td>
+<td class="c m b0 r1 l0 t0 lines">8</td>
+<td class="c m b0 r1 l0 t0 lines">9</td>
+<td class="c m b0 r1 l0 t0 lines">10</td>
+</tr>
+<tr>
+<td class="c m b0 r1 l1 t0 lines">(output) <span class="process-math">\(h\text{,}\)</span> height inches</td>
+<td class="c m b0 r1 l0 t0 lines">40</td>
+<td class="c m b0 r1 l0 t0 lines">42</td>
+<td class="c m b0 r1 l0 t0 lines">44</td>
+<td class="c m b0 r1 l0 t0 lines">47</td>
+<td class="c m b0 r1 l0 t0 lines">50</td>
+<td class="c m b0 r1 l0 t0 lines">52</td>
+<td class="c m b0 r1 l0 t0 lines">54</td>
+</tr>
+</table></div>
+<article class="example example-like" id="Chapter1Section2-4-10"><h4 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">1.2.11</span><span class="period">.</span>
+</h4>
+<div class="para" id="Chapter1Section2-4-10-1-1">Which of these tables define a function (if any)? Are any of them one-to-one?</div> <div class="tabular-box natural-width"><table class="tabular">
+<tr>
+<td class="c m b0 r1 l1 t0 lines">Input</td>
+<td class="c m b0 r1 l0 t0 lines">Output</td>
+</tr>
+<tr>
+<td class="c m b0 r1 l1 t0 lines">2</td>
+<td class="c m b0 r1 l0 t0 lines">1</td>
+</tr>
+<tr>
+<td class="c m b0 r1 l1 t0 lines">5</td>
+<td class="c m b0 r1 l0 t0 lines">3</td>
+</tr>
+<tr>
+<td class="c m b0 r1 l1 t0 lines">8</td>
+<td class="c m b0 r1 l0 t0 lines">6</td>
+</tr>
+</table></div> <div class="tabular-box natural-width"><table class="tabular">
+<tr>
+<td class="c m b0 r1 l1 t0 lines">Input</td>
+<td class="c m b0 r1 l0 t0 lines">Output</td>
+</tr>
+<tr>
+<td class="c m b0 r1 l1 t0 lines">-3</td>
+<td class="c m b0 r1 l0 t0 lines">5</td>
+</tr>
+<tr>
+<td class="c m b0 r1 l1 t0 lines">0</td>
+<td class="c m b0 r1 l0 t0 lines">1</td>
+</tr>
+<tr>
+<td class="c m b0 r1 l1 t0 lines">4</td>
+<td class="c m b0 r1 l0 t0 lines">5</td>
+</tr>
+</table></div> <div class="tabular-box natural-width"><table class="tabular">
+<tr>
+<td class="c m b0 r1 l1 t0 lines">Input</td>
+<td class="c m b0 r1 l0 t0 lines">Output</td>
+</tr>
+<tr>
+<td class="c m b0 r1 l1 t0 lines">1</td>
+<td class="c m b0 r1 l0 t0 lines">0</td>
+</tr>
+<tr>
+<td class="c m b0 r1 l1 t0 lines">5</td>
+<td class="c m b0 r1 l0 t0 lines">2</td>
+</tr>
+<tr>
+<td class="c m b0 r1 l1 t0 lines">5</td>
+<td class="c m b0 r1 l0 t0 lines">4</td>
+</tr>
+</table></div> <div class="para" id="Chapter1Section2-4-10-1-5">The first and second tables define functions. In both, each input corresponds to exactly one output. The third table does not define a function since the input value of 5 corresponds with two different output values.</div> <div class="para" id="Chapter1Section2-4-10-1-6">Only the first table is one-to-one; it is both a function, and each output corresponds to exactly one input. Although table 2 is a function, because each input corresponds to exactly one output, each output does not correspond to exactly one input so this function is not one-to-one. Table 3 is not even a function and so we don’t even need to consider if it is a one-to-one function.</div></article><article class="exercise exercise-like" id="Chapter1Section2-4-11"><h4 class="heading">
+<span class="type">Checkpoint</span><span class="space"> </span><span class="codenumber">1.2.12</span><span class="period">.</span>
+</h4>
+<div class="para" id="Chapter1Section2-4-11-1-1">If each percentage earned translated to one letter grade, would this be a function? Is it one-to-one?</div></article></section><section class="subsection" id="Chapter1Section2-5"><h3 class="heading hide-type">
+<span class="type">Subsection</span><span class="space"> </span><span class="codenumber">1.2.4</span><span class="space"> </span><span class="title">Solving and Evaluating Functions</span>
+</h3>
+<div class="para" id="Chapter1Section2-5-2">When we work with functions, there are two typical things we do: evaluate and solve. Evaluating a function is what we do when we know an input, and use the function to determine the corresponding output. Evaluating will always produce one result, since each input of a function corresponds to exactly one output. When we have a formula for the function we are evaluating, we always want to make sure we are performing operations in the correct order, commonly known as the “Order of Operations”. You have likely heard of or seen the order of operations in a previous class: Parenthesis, Exponents, Multiply, Divide, Addition, Subtraction. We also need to remember that sometimes these steps are nested within each other. For example, in the function <span class="process-math">\(f(x)=2(5x-3)+9\text{,}\)</span> if I wanted to evaluate <span class="process-math">\(f(3)\text{,}\)</span> I would need to first simplify the terms inside of the parenthesis, and I would need to follow proper order of operations INSIDE of the parenthesis. So, I would evaluate <span class="process-math">\(5(3)-3=15-3=12\)</span> first, then move outside our parenthesis to simplify <span class="process-math">\(2(12)+9=24+9=33\text{.}\)</span>
+</div>
+<div class="para" id="Chapter1Section2-5-3">Solving equations involving a function is what we do when we know an output and use the function to determine the inputs that would produce that output. Solving a function could produce more than one solution, since different inputs can produce the same output. Since solving an equation is the “opposite” of evaluating an equation, it can be helpful to think of using the “opposite” order of operations. For example, using our function <span class="process-math">\(f(x)=2(5x-3)+9\)</span> from above, if we wanted to solve <span class="process-math">\(f(x)=23\text{,}\)</span> we would need to find the value of <span class="process-math">\(x\)</span> that makes the equation <span class="process-math">\(23=2(5x-3)+9\)</span> true. Since our goal is to get <span class="process-math">\(x\)</span> by itself, we can follow the reverse order of operations to isolate <span class="process-math">\(x\text{.}\)</span> First, we subtract the 9 to get <span class="process-math">\(14=2(5x-3)\text{,}\)</span> then divide both sides of the equation by 2 to get <span class="process-math">\(7=5x-3\text{.}\)</span> Now that we are inside of the parenthesis we can repeat the process by adding 3 and then dividing both sides by 5 to get our solution of <span class="process-math">\(x=2\text{.}\)</span>
+</div>
+<article class="example example-like" id="Chapter1Section2-5-4"><h4 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">1.2.13</span><span class="period">.</span>
+</h4>
+<div class="para" id="Chapter1Section2-5-4-1-1">Using the table shown, where <span class="process-math">\(Q=g(n)\text{:}\)</span>
+</div> <div class="tabular-box natural-width"><table class="tabular">
+<tr>
+<td class="c m b0 r1 l1 t0 lines"><span class="process-math">\(n\)</span></td>
+<td class="c m b0 r1 l0 t0 lines">1</td>
+<td class="c m b0 r1 l0 t0 lines">2</td>
+<td class="c m b0 r1 l0 t0 lines">3</td>
+<td class="c m b0 r1 l0 t0 lines">4</td>
+<td class="c m b0 r1 l0 t0 lines">5</td>
+</tr>
+<tr>
+<td class="c m b0 r1 l1 t0 lines"><span class="process-math">\(Q\)</span></td>
+<td class="c m b0 r1 l0 t0 lines">8</td>
+<td class="c m b0 r1 l0 t0 lines">6</td>
+<td class="c m b0 r1 l0 t0 lines">7</td>
+<td class="c m b0 r1 l0 t0 lines">6</td>
+<td class="c m b0 r1 l0 t0 lines">8</td>
+</tr>
+</table></div> <div class="para" id="Chapter1Section2-5-4-1-3">a) Evaluate <span class="process-math">\(g(3)\)</span>
+</div> <div class="para" id="Chapter1Section2-5-4-1-4">Evaluating <span class="process-math">\(g(3)\)</span> (read: “<span class="process-math">\(g\)</span> of 3”) means that we need to determine the output value, <span class="process-math">\(Q\text{,}\)</span> of the function <span class="process-math">\(g\)</span> given the input value of <span class="process-math">\(n=3\text{.}\)</span> Looking at the table, we see the output corresponding to <span class="process-math">\(n=3\)</span> is <span class="process-math">\(Q=7\text{,}\)</span> allowing us to conclude <span class="process-math">\(g(3) = 7\text{.}\)</span>
+</div> <div class="para" id="Chapter1Section2-5-4-1-5">b) Solve <span class="process-math">\(g(n) = 6\)</span>
+</div> <div class="para" id="Chapter1Section2-5-4-1-6">Solving <span class="process-math">\(g(n) = 6\)</span> means we need to determine what input values, <span class="process-math">\(n\text{,}\)</span> produce an output value of 6. Looking at the table we see there are two solutions: <span class="process-math">\(n = 2\)</span> and <span class="process-math">\(n = 4\text{.}\)</span>
+</div> <div class="para" id="Chapter1Section2-5-4-1-7">When we input 2 into the function <span class="process-math">\(g\text{,}\)</span> our output is <span class="process-math">\(Q = 6\)</span>
+</div> <div class="para" id="Chapter1Section2-5-4-1-8">When we input 4 into the function <span class="process-math">\(g\text{,}\)</span> our output is also <span class="process-math">\(Q = 6\)</span>
+</div></article><article class="exercise exercise-like" id="Chapter1Section2-5-5"><h4 class="heading">
+<span class="type">Checkpoint</span><span class="space"> </span><span class="codenumber">1.2.14</span><span class="period">.</span>
+</h4>
+<div class="para" id="Chapter1Section2-5-5-1-1">Using the function in Example 7, evaluate <span class="process-math">\(g(4)\text{.}\)</span>
+</div></article></section><section class="subsection" id="Chapter1Section2-6"><h3 class="heading hide-type">
+<span class="type">Subsection</span><span class="space"> </span><span class="codenumber">1.2.5</span><span class="space"> </span><span class="title">Graphs as Functions</span>
+</h3>
+<div class="para" id="Chapter1Section2-6-2">Oftentimes a graph of a relationship can be used to define a function. By convention, graphs are typically created with the input quantity along the horizontal axis and the output quantity along the vertical.</div>
+<div class="para" id="Chapter1Section2-6-3">The most common graph has y on the vertical axis and x on the horizontal axis, and we say y is a function of x, or y = f(x) when the function is named f.</div>
+<figure class="figure figure-like" id="coordinate-plane"><div class="image-box" style="width: 100%; margin-left: 0%; margin-right: 0%;">
+<img src="external/C1S2Image1.png" class="contained" alt="described in detail following the image" aria-describedby="coordinate-plane-2-description"><details class="image-description" aria-live="polite"><summary title="details"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe88e;</span></summary><div id="coordinate-plane-2-description"><div class="para" id="coordinate-plane-2-1-1">A coordinate plane grid with the horizontal axis labeled with the variable x and the vertical axis labeled with the variable y.</div></div></details>
+</div>
+<figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">1.2.15<span class="period">.</span></span><span class="space"> </span>The xy coordinate plane.</figcaption></figure><article class="example example-like" id="Chapter1Section2-6-5"><h4 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">1.2.16</span><span class="period">.</span>
+</h4>
+<div class="para" id="Chapter1Section2-6-5-1-1">Which of these graphs defines a function <span class="process-math">\(y=f(x)\text{?}\)</span> Which of these graphs defines a one-to-one function?</div> <figure class="figure figure-like" id="cubic"><div class="image-box" style="width: 100%; margin-left: 0%; margin-right: 0%;">
+<img src="external/C1S2Image2.png" class="contained" alt="described in detail following the image" aria-describedby="cubic-2-description"><details class="image-description" aria-live="polite"><summary title="details"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe88e;</span></summary><div id="cubic-2-description"><div class="para" id="cubic-2-1-1">Graph of a smooth curve that increases to negative 1 comma 3, decreases to 1 comma negative 3, then increases.</div></div></details>
+</div>
+<figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">1.2.17<span class="period">.</span></span><span class="space"> </span>Graph 1</figcaption></figure> <figure class="figure figure-like" id="linear"><div class="image-box" style="width: 100%; margin-left: 0%; margin-right: 0%;">
+<img src="external/C1S2Image3.png" class="contained" alt="described in detail following the image" aria-describedby="linear-2-description"><details class="image-description" aria-live="polite"><summary title="details"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe88e;</span></summary><div id="linear-2-description"><div class="para" id="linear-2-1-1">Graph of a decreasing straight line.</div></div></details>
+</div>
+<figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">1.2.18<span class="period">.</span></span><span class="space"> </span>Graph 2</figcaption></figure> <figure class="figure figure-like" id="circle"><div class="image-box" style="width: 100%; margin-left: 0%; margin-right: 0%;">
+<img src="external/C1S2ImageCirc.png" class="contained" alt="described in detail following the image" aria-describedby="circle-2-description"><details class="image-description" aria-live="polite"><summary title="details"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe88e;</span></summary><div id="circle-2-description"><div class="para" id="circle-2-1-1">Graph of a circle with radius 3 centered at the origin.</div></div></details>
+</div>
+<figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">1.2.19<span class="period">.</span></span><span class="space"> </span>Graph 3</figcaption></figure> <div class="para" id="Chapter1Section2-6-5-1-5">Looking at the three graphs above, the first two define a function <span class="process-math">\(y=f(x)\text{,}\)</span> since for each input value along the horizontal axis there is exactly one output value corresponding, determined by the <span class="process-math">\(y\)</span>-value of the graph. The 3rd graph does not define a function <span class="process-math">\(y=f(x)\)</span> since some input values, such as <span class="process-math">\(x=2\text{,}\)</span> correspond with more than one output value.</div> <div class="para" id="Chapter1Section2-6-5-1-6">Graph 1 is not a one-to-one function. For example, the output value 3 has two corresponding input values, -1 and 2.3</div> <div class="para" id="Chapter1Section2-6-5-1-7">Graph 2 is a one-to-one function; each input corresponds to exactly one output, and every output corresponds to exactly one input.</div> <div class="para" id="Chapter1Section2-6-5-1-8">Graph 3 is not even a function so there is no reason to even check to see if it is a one-to-one function.</div></article><article class="definition definition-like" id="Chapter1Section2-6-6"><h4 class="heading">
+<span class="type">Definition</span><span class="space"> </span><span class="codenumber">1.2.20</span><span class="period">.</span><span class="space"> </span><span class="title">Vertical line test.</span>
+</h4> <div class="para" id="Chapter1Section2-6-6-2-1">The vertical line test is a handy way to think about whether a graph defines the vertical output as a function of the horizontal input. Imagine drawing vertical lines through the graph. If any vertical line would cross the graph more than once, then the graph does not define only one vertical output for each horizontal input.</div></article><article class="definition definition-like" id="Chapter1Section2-6-7"><h4 class="heading">
+<span class="type">Definition</span><span class="space"> </span><span class="codenumber">1.2.21</span><span class="period">.</span><span class="space"> </span><span class="title">Horizontal Line Test.</span>
+</h4> <div class="para" id="Chapter1Section2-6-7-2-1">Once you have determined that a graph defines a function, an easy way to determine if it is a one-to-one function is to use the horizontal line test. Draw horizontal lines through the graph. If any horizontal line crosses the graph more than once, then the graph does not define a one-to-one function.</div></article><div class="para" id="Chapter1Section2-6-8">Evaluating a function using a graph requires taking the given input and using the graph to look up the corresponding output. Solving a function equation using a graph requires taking the given output and looking on the graph to determine the corresponding input.</div>
+<article class="example example-like" id="Chapter1Section2-6-9"><h4 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">1.2.22</span><span class="period">.</span>
+</h4>
+<div class="para" id="Chapter1Section2-6-9-1-1">Given the graph of f(x),</div> <div class="para" id="Chapter1Section2-6-9-1-2">a) Evaluate <span class="process-math">\(f(2)\)</span>
+</div> <div class="para" id="Chapter1Section2-6-9-1-3">b) Solve <span class="process-math">\(f(x) = 4\)</span>
+</div> <figure class="figure figure-like" id="f-of-x"><div class="image-box" style="width: 100%; margin-left: 0%; margin-right: 0%;">
+<img src="external/C1S2Image4.png" class="contained" alt="described in detail following the image" aria-describedby="f-of-x-2-description"><details class="image-description" aria-live="polite"><summary title="details"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe88e;</span></summary><div id="f-of-x-2-description"><div class="para" id="f-of-x-2-1-1">A U-shaped graph passing through negative 1 comma 4, 0 comma 1, 1 comma 0, 2 comma 1, and 3 comma 4.</div></div></details>
+</div>
+<figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">1.2.23<span class="period">.</span></span><span class="space"> </span>Graph of <span class="process-math">\(f(x)\)</span></figcaption></figure> <div class="para" id="Chapter1Section2-6-9-1-5">a) To evaluate <span class="process-math">\(f(2)\text{,}\)</span> we find the input of <span class="process-math">\(x=2\)</span> on the horizontal axis. Moving up to the graph gives the point <span class="process-math">\((2, 1)\text{,}\)</span> giving an output of <span class="process-math">\(y=1\text{.}\)</span> <span class="process-math">\(f(2) = 1\text{.}\)</span>
+</div> <div class="para" id="Chapter1Section2-6-9-1-6">b) To solve <span class="process-math">\(f(x) = 4\text{,}\)</span> we find the value 4 on the vertical axis because if <span class="process-math">\(f(x) = 4\)</span> then 4 is the output. Moving horizontally across the graph gives two points with the output of 4: <span class="process-math">\((-1,4)\)</span> and <span class="process-math">\((3,4)\text{.}\)</span> These give the two solutions to <span class="process-math">\(f(x) = 4\text{:}\)</span> <span class="process-math">\(x = -1\)</span> or <span class="process-math">\(x = 3\text{.}\)</span>
+</div> <div class="para" id="Chapter1Section2-6-9-1-7">This means <span class="process-math">\(f(-1)=4\)</span> and <span class="process-math">\(f(3)=4\text{,}\)</span> or when the input is -1 or 3, the output is 4.</div></article><div class="para" id="Chapter1Section2-6-10">Notice that while the graph in the previous example is a function, getting two input values for the output value of 4 shows us that this function is not one-to-one.</div>
+<article class="exercise exercise-like" id="Chapter1Section2-6-11"><h4 class="heading">
+<span class="type">Checkpoint</span><span class="space"> </span><span class="codenumber">1.2.24</span><span class="period">.</span>
+</h4>
+<div class="para" id="Chapter1Section2-6-11-1-1">Using the graph from example 9, solve <span class="process-math">\(f(x)=1\text{.}\)</span>
+</div></article></section><section class="subsection" id="Chapter1Section2-7"><h3 class="heading hide-type">
+<span class="type">Subsection</span><span class="space"> </span><span class="codenumber">1.2.6</span><span class="space"> </span><span class="title">Formulas as Functions</span>
+</h3>
+<div class="para" id="Chapter1Section2-7-2">When possible, it is very convenient to define relationships using formulas. If it is possible to express the output as a formula involving the input quantity, then we can define a function.</div>
+<article class="example example-like" id="Chapter1Section2-7-3"><h4 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">1.2.25</span><span class="period">.</span>
+</h4>
+<div class="para" id="Chapter1Section2-7-3-1-1">Express the relationship <span class="process-math">\(2n + 6p = 12\)</span> as a function <span class="process-math">\(p = f(n)\)</span> if possible.</div> <div class="para" id="Chapter1Section2-7-3-1-2">To express the relationship in this form, we need to be able to write the relationship where <span class="process-math">\(p\)</span> is a function of <span class="process-math">\(n\text{,}\)</span> which means writing it as <span class="process-math">\(p\)</span> = [something involving <span class="process-math">\(n\)</span>].</div> <div class="para logical" id="Chapter1Section2-7-3-1-3">
+<div class="para">Starting with the given equation,</div>
+<div class="displaymath process-math">
+\begin{equation*}
+2n + 6p = 12,
+\end{equation*}
+</div>
+<div class="para">we can then subtract <span class="process-math">\(2n\)</span> from both sides to get</div>
+<div class="displaymath process-math">
+\begin{equation*}
+6p = 12 - 2n,
+\end{equation*}
+</div>
+<div class="para">and then we can divide both sides by 6 and simplify to find</div>
+<div class="displaymath process-math">
+\begin{equation*}
+p=\dfrac{12-2n}{6}=\dfrac{12}{6}-\dfrac{2n}{6}=2-\dfrac{1}{3}n
+\end{equation*}
+</div>
+</div> <div class="para" id="Chapter1Section2-7-3-1-4">Having rewritten the formula as <span class="process-math">\(p\)</span>=, we can now express p as a function: <span class="process-math">\(p=f(n)=2-\dfrac{1}{3}n.\)</span>
+</div></article><div class="para" id="Chapter1Section2-7-4">It is important to note that not every relationship can be expressed as a function with a formula.</div>
+<div class="para" id="Chapter1Section2-7-5">Note the important feature of an equation written as a function is that the output value can be determined directly from the input by doing evaluations - no further solving is required. This allows the relationship to act as a machine that takes an input, processes it, and returns an output. Modern technology and computers rely on these functional relationships, since the evaluation of the function can be programmed into machines, whereas solving things is much more challenging.</div>
+<article class="example example-like" id="Chapter1Section2-7-6"><h4 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">1.2.26</span><span class="period">.</span>
+</h4>
+<div class="para" id="Chapter1Section2-7-6-1-1">Express the relationship <span class="process-math">\(x^{2}+y^{2}=1\)</span> as a function <span class="process-math">\(y = f(x)\)</span> if possible.</div> <div class="para" id="Chapter1Section2-7-6-1-2">If we try to solve for <span class="process-math">\(y\)</span> in this equation, we get</div> <div class="para" id="Chapter1Section2-7-6-1-3"><span class="process-math">\(y^{2}=1-x^{2}\)</span></div> <div class="para" id="Chapter1Section2-7-6-1-4"><span class="process-math">\(y=\pm \sqrt{1-x^{2}}\)</span></div> <div class="para" id="Chapter1Section2-7-6-1-5">We end up with two outputs corresponding to the same input, so this relationship cannot be represented as a single function <span class="process-math">\(y = f(x)\text{.}\)</span>
+</div></article><div class="para" id="Chapter1Section2-7-7">As with tables and graphs, it is common to evaluate and solve functions involving formulas. Evaluating will require replacing the input variable in the formula with the value provided and calculating. Solving will require replacing the output variable in the formula with the value provided and solving for the input(s) that would produce that output.</div>
+<article class="example example-like" id="Chapter1Section2-7-8"><h4 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">1.2.27</span><span class="period">.</span>
+</h4>
+<div class="para" id="Chapter1Section2-7-8-1-1">Given the function <span class="process-math">\(k(t)=t^{3}+2\text{,}\)</span>
+</div> <div class="para" id="Chapter1Section2-7-8-1-2">a) Evaluate <span class="process-math">\(k(2)\)</span>
+</div> <div class="para" id="Chapter1Section2-7-8-1-3">b) Solve <span class="process-math">\(k(t) = 1\)</span>
+</div> <div class="para logical" id="Chapter1Section2-7-8-1-4">
+<div class="para">a) “Evaluate <span class="process-math">\(k(2)\)</span>” means we want to find the output when the input is <span class="process-math">\(t = 2\text{.}\)</span> We plug in the input value 2 into the formula wherever we see the input variable <span class="process-math">\(t\text{,}\)</span> then simplify</div>
+<div class="displaymath process-math">
+\begin{equation*}
+k(2)=2^{3}+2
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+k(2)=8+2
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+k(2) = 10
+\end{equation*}
+</div>
+</div> <div class="para logical" id="Chapter1Section2-7-8-1-5">
+<div class="para">b) “Solve <span class="process-math">\(k(t) = 1\)</span>” means we want to find the input <span class="process-math">\(t\)</span> that will give us an output of 1. We set the formula for <span class="process-math">\(k(t)\)</span> equal to 1, and solve for the input. Starting with the given information:</div>
+<div class="displaymath process-math">
+\begin{equation*}
+k(t) = 1,
+\end{equation*}
+</div>
+<div class="para">we can then substitute the original formula <span class="process-math">\(k(t)=t^{3}+2\)</span> to get</div>
+<div class="displaymath process-math">
+\begin{equation*}
+t^{3}+2=1.
+\end{equation*}
+</div>
+<div class="para">Then subtract 2 from each side to get</div>
+<div class="displaymath process-math">
+\begin{equation*}
+t^{3}=-1,
+\end{equation*}
+</div>
+<div class="para">and finally take the cube root of each side to get the solution</div>
+<div class="displaymath process-math">
+\begin{equation*}
+t=-1.
+\end{equation*}
+</div>
+</div> <div class="para" id="Chapter1Section2-7-8-1-6">When solving an equation using formulas, you can check your answer by using your solution in the original equation to see if your calculated answer is correct.</div> <div class="para" id="Chapter1Section2-7-8-1-7">We want to know if <span class="process-math">\(k(t)=1\)</span> is true when <span class="process-math">\(t=-1\text{.}\)</span> <span class="process-math">\(k(-1)=(-1)^{3}+2= -1+2= 1\text{,}\)</span> which was the desired result.</div></article><article class="example example-like" id="Chapter1Section2-7-9"><h4 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">1.2.28</span><span class="period">.</span>
+</h4>
+<div class="para" id="Chapter1Section2-7-9-1-1">Given the function <span class="process-math">\(h(p)=p^{2}+2p\text{,}\)</span>
+</div> <div class="para" id="Chapter1Section2-7-9-1-2">a) Evaluate <span class="process-math">\(h(4)\)</span>
+</div> <div class="para" id="Chapter1Section2-7-9-1-3">b) Solve <span class="process-math">\(h(p) = 3\)</span>
+</div> <div class="para" id="Chapter1Section2-7-9-1-4">To evaluate <span class="process-math">\(h(4)\)</span> we substitute the value 4 for the input variable <span class="process-math">\(p\)</span> in the given function. a) <span class="process-math">\(h(4)=(4)^{2}+2(4)= 16 + 8= 24\)</span>
+</div> <div class="para logical" id="Chapter1Section2-7-9-1-5">
+<div class="para">b) Starting with <span class="process-math">\(h(p) = 3\text{,}\)</span> we substitute the original function <span class="process-math">\(h(p)=p^{2}+2p\)</span> to get</div>
+<div class="displaymath process-math">
+\begin{equation*}
+p^{2}+2p=3.
+\end{equation*}
+</div>
+<div class="para">This is quadratic, so we can rearrange the equation to get something equal to 0 by subtracting 3 from each side. So,</div>
+<div class="displaymath process-math">
+\begin{equation*}
+p^{2}+2p-3=0.
+\end{equation*}
+</div>
+<div class="para">This is factor-able, so we factor it</div>
+<div class="displaymath process-math">
+\begin{equation*}
+(p+3)(p-1)=0.
+\end{equation*}
+</div>
+<div class="para">By the zero-factor theorem since <span class="process-math">\((p+3)(p-1)=0\text{,}\)</span> either <span class="process-math">\((p+3)=0\)</span> or <span class="process-math">\((p-1)=0\)</span> (or both equal 0) and so we solve both equations for <span class="process-math">\(p\text{,}\)</span> finding <span class="process-math">\(p = -3\)</span> from the first equation and <span class="process-math">\(p = 1\)</span> from the second equation.</div>
+</div> <div class="para" id="Chapter1Section2-7-9-1-6">This gives us the solution: <span class="process-math">\(h(p) = 3\)</span> when <span class="process-math">\(p = 1\)</span> or <span class="process-math">\(p = -3.\)</span>
+</div> <div class="para" id="Chapter1Section2-7-9-1-7">We found two solutions in this case, which tells us this function is not one-to-one.</div></article><article class="exercise exercise-like" id="Chapter1Section2-7-10"><h4 class="heading">
+<span class="type">Checkpoint</span><span class="space"> </span><span class="codenumber">1.2.29</span><span class="period">.</span>
+</h4>
+<div class="para" id="Chapter1Section2-7-10-1-1">Given the function <span class="process-math">\(g(m)=\sqrt{m-4}\text{,}\)</span> a. Evaluate <span class="process-math">\(g(5)\)</span> b. Solve <span class="process-math">\(g(m) = 2\)</span>
+</div></article></section><section class="subsection" id="Chapter1Section2-8"><h3 class="heading hide-type">
+<span class="type">Subsection</span><span class="space"> </span><span class="codenumber">1.2.7</span><span class="space"> </span><span class="title">Basic Toolkit Functions</span>
+</h3>
+<div class="para" id="Chapter1Section2-8-2">In this text, we will be exploring functions – the shapes of their graphs, their unique features, their equations, and how to solve problems with them. When learning to read, we start with the alphabet. When learning to do arithmetic, we start with numbers. When working with functions, it is similarly helpful to have a base set of elements to build from. We call these our ”toolkit of functions” – a set of basic named functions for which we know the graph, equation, and special features.</div>
+<div class="para" id="Chapter1Section2-8-3">For these definitions we will use <span class="process-math">\(x\)</span> as the input variable and <span class="process-math">\(f(x)\)</span> as the function output.</div>
+<article class="definition definition-like" id="Chapter1Section2-8-4"><h4 class="heading">
+<span class="type">Definition</span><span class="space"> </span><span class="codenumber">1.2.30</span><span class="period">.</span><span class="space"> </span><span class="title">Toolkit Functions.</span>
+</h4> <div class="para logical" id="Chapter1Section2-8-4-2-1">
+<div class="para">.</div>
+<ul class="disc">
+<li id="Chapter1Section2-8-4-2-1-1-1"><div class="para logical" id="Chapter1Section2-8-4-2-1-1-1-1">
+<div class="para">Linear</div>
+<ul class="circle">
+<li id="Chapter1Section2-8-4-2-1-1-1-1-1-1"><div class="para" id="Chapter1Section2-8-4-2-1-1-1-1-1-1-1">Constant: <span class="process-math">\(f(x)=c,\)</span> where <span class="process-math">\(c\)</span> is a constant number</div></li>
+<li id="Chapter1Section2-8-4-2-1-1-1-1-1-2"><div class="para" id="Chapter1Section2-8-4-2-1-1-1-1-1-2-1">Identity: <span class="process-math">\(f(x)=x\)</span>
+</div></li>
+</ul>
+</div></li>
+<li id="Chapter1Section2-8-4-2-1-1-2"><div class="para" id="Chapter1Section2-8-4-2-1-1-2-1">Absolute Value: <span class="process-math">\(f(x)=|x|\)</span>
+</div></li>
+<li id="Chapter1Section2-8-4-2-1-1-3"><div class="para logical" id="Chapter1Section2-8-4-2-1-1-3-1">
+<div class="para">Power</div>
+<ul class="circle">
+<li id="Chapter1Section2-8-4-2-1-1-3-1-1-1"><div class="para" id="Chapter1Section2-8-4-2-1-1-3-1-1-1-1">Quadratic: <span class="process-math">\(f(x)=x^{2}\)</span>
+</div></li>
+<li id="Chapter1Section2-8-4-2-1-1-3-1-1-2"><div class="para" id="Chapter1Section2-8-4-2-1-1-3-1-1-2-1">Cubic: <span class="process-math">\(f(x)=x^{3}\)</span>
+</div></li>
+<li id="Chapter1Section2-8-4-2-1-1-3-1-1-3"><div class="para" id="Chapter1Section2-8-4-2-1-1-3-1-1-3-1">Reciprocal: <span class="process-math">\(f(x)=\dfrac{1}{x}\)</span>
+</div></li>
+<li id="Chapter1Section2-8-4-2-1-1-3-1-1-4"><div class="para" id="Chapter1Section2-8-4-2-1-1-3-1-1-4-1">Reciprocal Squared: <span class="process-math">\(f(x)=\dfrac{1}{x^2}\)</span>
+</div></li>
+<li id="Chapter1Section2-8-4-2-1-1-3-1-1-5"><div class="para" id="Chapter1Section2-8-4-2-1-1-3-1-1-5-1">Square Root: <span class="process-math">\(f(x)=\sqrt{x}=x^{\frac{1}{2}}\)</span>
+</div></li>
+<li id="Chapter1Section2-8-4-2-1-1-3-1-1-6"><div class="para" id="Chapter1Section2-8-4-2-1-1-3-1-1-6-1">Cube Root: <span class="process-math">\(f(x)=\sqrt[3]{x}=x^{\frac{1}{3}}\)</span>
+</div></li>
+</ul>
+</div></li>
+</ul>
+</div></article><div class="para" id="Chapter1Section2-8-5">You will see these toolkit functions, combinations of toolkit functions, their graphs and their transformations frequently throughout this book. In order to successfully follow along later in the book, it will be very helpful if you can recognize these toolkit functions and their features quickly by name, equation, graph and basic table values.</div>
+<div class="para logical" id="Chapter1Section2-8-6">
+<div class="para">Not every important equation can be written as <span class="process-math">\(y = f(x)\text{.}\)</span> An example of this is the equation of a circle. Recall the distance formula for the distance between two points:</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\text{dist}=\sqrt{(x_{2}-x_{1} )^{2}+(y_{2}-y_{1} )^{2}}
+\end{equation*}
+</div>
+<div class="para">A circle with radius <span class="process-math">\(r\)</span> with center at <span class="process-math">\((h, k)\)</span> can be described as all points <span class="process-math">\((x, y)\)</span> a distance of <span class="process-math">\(r\)</span> from the center, so using the distance formula, <span class="process-math">\(r=\sqrt{(x-h)^{2}+(y-k)^{2}}\text{,}\)</span> giving:</div>
+</div>
+<article class="definition definition-like" id="Chapter1Section2-8-7"><h4 class="heading">
+<span class="type">Definition</span><span class="space"> </span><span class="codenumber">1.2.31</span><span class="period">.</span><span class="space"> </span><span class="title">Equation of a circle.</span>
+</h4> <div class="para" id="Chapter1Section2-8-7-2-1">A circle with radius r with center <span class="process-math">\((h, k)\)</span> has equation <span class="process-math">\(r^{2}=(x-h)^{2}+(y-k)^{2}\text{.}\)</span>
+</div></article></section><section class="subsection" id="Chapter1Section2-9"><h3 class="heading hide-type">
+<span class="type">Subsection</span><span class="space"> </span><span class="codenumber">1.2.8</span><span class="space"> </span><span class="title">Graphs of the Toolkit Functions</span>
+</h3>
+<div class="para" id="Chapter1Section2-9-2">The following graphs are the graphs of the toolkit functions, followed by the function definition.</div>
+<figure class="figure figure-like" id="constant"><div class="image-box" style="width: 100%; margin-left: 0%; margin-right: 0%;">
+<img src="external/C1S2Image5.png" class="contained" alt="described in detail following the image" aria-describedby="constant-2-description"><details class="image-description" aria-live="polite"><summary title="details"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe88e;</span></summary><div id="constant-2-description"><div class="para" id="constant-2-1-1">A horizontal line passing through the points negative 4 comma 2, negative 2 comma 2, 0 comma 2, 2 comma 2, and 4 comma 2.</div></div></details>
+</div>
+<figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">1.2.32<span class="period">.</span></span><span class="space"> </span>Graph of the constant function <span class="process-math">\(f(x)=2\)</span></figcaption></figure><figure class="figure figure-like" id="yequalsx"><div class="image-box" style="width: 100%; margin-left: 0%; margin-right: 0%;">
+<img src="external/C1S2Image6.png" class="contained" alt="described in detail following the image" aria-describedby="yequalsx-2-description"><details class="image-description" aria-live="polite"><summary title="details"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe88e;</span></summary><div id="yequalsx-2-description"><div class="para" id="yequalsx-2-1-1">An increasing straight line passing through negative 1 comma negative 1, 0 comma 0 and 1 comma 1.</div></div></details>
+</div>
+<figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">1.2.33<span class="period">.</span></span><span class="space"> </span>Graph of <span class="process-math">\(f(x)=x\)</span></figcaption></figure><figure class="figure figure-like" id="absolute-value"><div class="image-box" style="width: 100%; margin-left: 0%; margin-right: 0%;">
+<img src="external/C1S2Image7.png" class="contained" alt="described in detail following the image" aria-describedby="absolute-value-2-description"><details class="image-description" aria-live="polite"><summary title="details"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe88e;</span></summary><div id="absolute-value-2-description"><div class="para" id="absolute-value-2-1-1">A v shaped graph passing through the points negative 3 comma 3, negative 1 comma 1, 0 comma 0, 1 comma 1, 3 comma 3, with a right angle at the point 0 comma 0.</div></div></details>
+</div>
+<figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">1.2.34<span class="period">.</span></span><span class="space"> </span>Graph of <span class="process-math">\(f(x)=|x|\)</span></figcaption></figure><figure class="figure figure-like" id="squared"><div class="image-box" style="width: 100%; margin-left: 0%; margin-right: 0%;">
+<img src="external/C1S2Image8.png" class="contained" alt="described in detail following the image" aria-describedby="squared-2-description"><details class="image-description" aria-live="polite"><summary title="details"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe88e;</span></summary><div id="squared-2-description"><div class="para" id="squared-2-1-1">A U-shaped graph decreasing to 0 comma 0 then increasing, passing through 1 comma 1.</div></div></details>
+</div>
+<figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">1.2.35<span class="period">.</span></span><span class="space"> </span>Graph of <span class="process-math">\(f(x)=x^2\)</span></figcaption></figure><figure class="figure figure-like" id="cubed"><div class="image-box" style="width: 100%; margin-left: 0%; margin-right: 0%;">
+<img src="external/C1S2Image9.png" class="contained" alt="described in detail following the image" aria-describedby="cubed-2-description"><details class="image-description" aria-live="polite"><summary title="details"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe88e;</span></summary><div id="cubed-2-description"><div class="para" id="cubed-2-1-1">A graph that increases quickly, then flattens out at the origin, then increases quickly again.</div></div></details>
+</div>
+<figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">1.2.36<span class="period">.</span></span><span class="space"> </span>Graph of <span class="process-math">\(f(x)=x^3\)</span></figcaption></figure><figure class="figure figure-like" id="root"><div class="image-box" style="width: 100%; margin-left: 0%; margin-right: 0%;">
+<img src="external/C1S2Image10.png" class="contained" alt="described in detail following the image" aria-describedby="root-2-description"><details class="image-description" aria-live="polite"><summary title="details"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe88e;</span></summary><div id="root-2-description"><div class="para" id="root-2-1-1">Starts at the origin, flattens out as it increases. Passes through 1 comma 1, 4 comma 2, and 9 comma 3.</div></div></details>
+</div>
+<figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">1.2.37<span class="period">.</span></span><span class="space"> </span>Graph of <span class="process-math">\(f(x)=\sqrt{x}\)</span></figcaption></figure><figure class="figure figure-like" id="cuberoot"><div class="image-box" style="width: 100%; margin-left: 0%; margin-right: 0%;">
+<img src="external/C1S2Image11.png" class="contained" alt="described in detail following the image" aria-describedby="cuberoot-2-description"><details class="image-description" aria-live="polite"><summary title="details"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe88e;</span></summary><div id="cuberoot-2-description"><div class="para" id="cuberoot-2-1-1">An increasing concave up curve that passes through negative 8 comma negative 2, negative 1 comma negative 1,0 comma 0 and changes to concave down at 0 comma 0 and goes through the point 1 comma and 8 comma 2.</div></div></details>
+</div>
+<figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">1.2.38<span class="period">.</span></span><span class="space"> </span>Graph of <span class="process-math">\(f(x)=\sqrt[3]{x}\)</span></figcaption></figure><figure class="figure figure-like" id="reciprocal"><div class="image-box" style="width: 100%; margin-left: 0%; margin-right: 0%;">
+<img src="external/C1S2Image12.png" class="contained" alt="described in detail following the image" aria-describedby="reciprocal-2-description"><details class="image-description" aria-live="polite"><summary title="details"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe88e;</span></summary><div id="reciprocal-2-description"><div class="para" id="reciprocal-2-1-1">From the left the graph starts out flat just below 0. As x increases, y decreases slowly at first then more rapidly. As x approaches 0 from the left, the graph decreases rapidly out of the window.  Immediately past 0, the graph decreases rapidly from above the window, decreasing quickly and first then more slowly.  As x increases to the right, the graph flattens, approaching 0.</div></div></details>
+</div>
+<figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">1.2.39<span class="period">.</span></span><span class="space"> </span>Graph of <span class="process-math">\(f(x)=\dfrac{1}{x}\)</span></figcaption></figure><figure class="figure figure-like" id="reciprocal-squared"><div class="image-box" style="width: 100%; margin-left: 0%; margin-right: 0%;">
+<img src="external/C1S2Image13.png" class="contained" alt="described in detail following the image" aria-describedby="reciprocal-squared-2-description"><details class="image-description" aria-live="polite"><summary title="details"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe88e;</span></summary><div id="reciprocal-squared-2-description"><div class="para" id="reciprocal-squared-2-1-1">Immediately past 0, the graph decreases rapidly from above the window, decreasing quickly and first then more slowly.  As x increases to the right, the graph flattens, approaching 0.</div></div></details>
+</div>
+<figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">1.2.40<span class="period">.</span></span><span class="space"> </span>Graph of <span class="process-math">\(f(x)=\dfrac{1}{x^2}\)</span></figcaption></figure></section><section class="subsection" id="Chapter1Section2-10"><h3 class="heading hide-type">
+<span class="type">Subsection</span><span class="space"> </span><span class="codenumber">1.2.9</span><span class="space"> </span><span class="title">Conclusions</span>
+</h3>
+<article class="definition definition-like" id="Chapter1Section2-10-2"><h4 class="heading">
+<span class="type">Definition</span><span class="space"> </span><span class="codenumber">1.2.41</span><span class="period">.</span><span class="space"> </span><span class="title">Important Topics of this Section.</span>
+</h4> <div class="para logical" id="Chapter1Section2-10-2-2-1"><ul class="disc">
+<li id="Chapter1Section2-10-2-2-1-1-1"><div class="para" id="Chapter1Section2-10-2-2-1-1-1-1">Definition of a function</div></li>
+<li id="Chapter1Section2-10-2-2-1-1-2"><div class="para" id="Chapter1Section2-10-2-2-1-1-2-1">Input (independent variable)</div></li>
+<li id="Chapter1Section2-10-2-2-1-1-3"><div class="para" id="Chapter1Section2-10-2-2-1-1-3-1">Output (dependent variable)</div></li>
+<li id="Chapter1Section2-10-2-2-1-1-4"><div class="para" id="Chapter1Section2-10-2-2-1-1-4-1">Definition of a one-to-one function</div></li>
+<li id="Chapter1Section2-10-2-2-1-1-5"><div class="para" id="Chapter1Section2-10-2-2-1-1-5-1">Function notation</div></li>
+<li id="Chapter1Section2-10-2-2-1-1-6"><div class="para" id="Chapter1Section2-10-2-2-1-1-6-1">Descriptive variables</div></li>
+<li id="Chapter1Section2-10-2-2-1-1-7"><div class="para" id="Chapter1Section2-10-2-2-1-1-7-1">Functions in words, tables, graphs and formulas</div></li>
+<li id="Chapter1Section2-10-2-2-1-1-8"><div class="para" id="Chapter1Section2-10-2-2-1-1-8-1">Vertical line test</div></li>
+<li id="Chapter1Section2-10-2-2-1-1-9"><div class="para" id="Chapter1Section2-10-2-2-1-1-9-1">Horizontal line test</div></li>
+<li id="Chapter1Section2-10-2-2-1-1-10"><div class="para" id="Chapter1Section2-10-2-2-1-1-10-1">Evaluating a function at a specific input value</div></li>
+<li id="Chapter1Section2-10-2-2-1-1-11"><div class="para" id="Chapter1Section2-10-2-2-1-1-11-1">Solving a function given a specific output value</div></li>
+<li id="Chapter1Section2-10-2-2-1-1-12"><div class="para" id="Chapter1Section2-10-2-2-1-1-12-1">Toolkit Functions</div></li>
+</ul></div></article><article class="exercise exercise-like" id="Chapter1Section2-10-3"><h4 class="heading">
+<span class="type">Checkpoint</span><span class="space"> </span><span class="codenumber">1.2.42</span><span class="period">.</span>
+</h4>
+<div class="para logical" id="Chapter1Section2-10-3-1-1">
+<div class="para">[Checkpoint Answers:]</div>
+<ol class="decimal">
+<li id="Chapter1Section2-10-3-1-1-1-1"><div class="para" id="Chapter1Section2-10-3-1-1-1-1-1">Yes: for each bank account, there would be one balance associated</div></li>
+<li id="Chapter1Section2-10-3-1-1-1-2"><div class="para" id="Chapter1Section2-10-3-1-1-1-2-1">No: there could be several bank accounts with the same balance</div></li>
+<li id="Chapter1Section2-10-3-1-1-1-3"><div class="para" id="Chapter1Section2-10-3-1-1-1-3-1">Yes it’s a function; No, it’s not one-to-one (several percents give the same letter grade)</div></li>
+<li id="Chapter1Section2-10-3-1-1-1-4"><div class="para" id="Chapter1Section2-10-3-1-1-1-4-1">When <span class="process-math">\(n=4\text{,}\)</span> <span class="process-math">\(Q=g(4)=6\)</span>
+</div></li>
+<li id="Chapter1Section2-10-3-1-1-1-5"><div class="para" id="Chapter1Section2-10-3-1-1-1-5-1">There are two points where the output is 1: <span class="process-math">\(x = 0\)</span> or <span class="process-math">\(x = 2\)</span>
+</div></li>
+<li id="Chapter1Section2-10-3-1-1-1-6"><div class="para" id="Chapter1Section2-10-3-1-1-1-6-1">a. <span class="process-math">\(g(5)=\sqrt{5-4}=1\text{,}\)</span> b. <span class="process-math">\(\sqrt{m-4}=2\text{.}\)</span> Square both sides to get <span class="process-math">\(m-4=4\text{,}\)</span> so <span class="process-math">\(m = 8\)</span>
+</div></li>
+</ol>
+</div></article></section></section></div>
+<div class="ptx-content-footer">
+<a class="previous-button button" href="Chapter1Section1.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="top-button button" href="#" title="Top"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Top</span></a><a class="next-button button" href="Chapter1Section3.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a>
+</div></main>
+</div>
+<div id="ptx-page-footer" class="ptx-page-footer">
+<a class="pretext-link" href="https://pretextbook.org" title="PreTeXt"><div class="logo"><svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="338 3000 8772 6866"><g style="stroke-width:.025in; stroke:black; fill:none"><polyline points="472,3590 472,9732 " style="stroke:#000000;stroke-width:174; stroke-linejoin:miter; stroke-linecap:round; "></polyline><path style="stroke:#000000;stroke-width:126;stroke-linecap:butt;" d="M 4724,9448 A 4660 4660  0  0  1  8598  9259"></path><path style="stroke:#000000;stroke-width:174;stroke-linecap:butt;" d="M 4488,9685 A 4228 4228  0  0  0   472  9732"></path><path style="stroke:#000000;stroke-width:126;stroke-linecap:butt;" d="M 4724,3590 A 4241 4241  0  0  1  8598  3496"></path><path style="stroke:#000000;stroke-width:126;stroke-linecap:round;" d="M 850,3496  A 4241 4241  0  0  1  4724  3590"></path><path style="stroke:#000000;stroke-width:126;stroke-linecap:round;" d="M 850,9259  A 4507 4507  0  0  1  4724  9448"></path><polyline points="5385,4299 4062,8125" style="stroke:#000000;stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="8598,3496 8598,9259" style="stroke:#000000;stroke-width:126; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="850,3496 850,9259" style="stroke:#000000;stroke-width:126; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="4960,9685 4488,9685" style="stroke:#000000;stroke-width:174; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="3070,4582 1889,6141 3070,7700" style="stroke:#000000;stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="6418,4582 7600,6141 6418,7700" style="stroke:#000000;stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="8976,3590 8976,9732" style="stroke:#000000;stroke-width:174; stroke-linejoin:miter; stroke-linecap:round;"></polyline><path style="stroke:#000000;stroke-width:174;stroke-linecap:butt;" d="M 4960,9685 A 4228 4228  0  0  1  8976  9732"></path></g></svg></div></a><a class="runestone-link" href="https://runestone.academy" title="Runestone Academy"><img class="logo" src="https://runestone.academy/runestone/static/images/RAIcon_cropped.png"></a><a class="mathjax-link" href="https://www.mathjax.org" title="MathJax"><img class="logo" src="https://www.mathjax.org/badge/badge-square-2.png"></a>
+</div>
+</body>
+</html>
