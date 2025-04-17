@@ -61,7 +61,7 @@
                     We could combine the data provided with our own experiences and reason to approximate the domain and range of the function <m>h = f(c)</m>.
                     For the domain, possible values for the input circumference <m>c</m>, it doesn’t make sense to have negative values, so <m>c>0</m>.
                     We could make an educated guess at a maximum reasonable value, or look up that the maximum circumference measured is about 119 feet .
-                    With this information, we would say a reasonable domain is <m>0&#x3C;c\leq119</m>feet.
+                    With this information, we would say a reasonable domain is <m>0&#x3C;c\leq119</m> feet.
                 </p>
 
                 <p>
@@ -256,7 +256,7 @@
         </example>
 
         <p>
-            Remember when writing or reading interval notation: Using a square bracket [ means the start value is included in the set Using a parenthesis ( means the start value is not included in the set
+            Remember when writing or reading interval notation: Using a square bracket [ means the start value is included in the set. Using a parenthesis ( means the start value is not included in the set
         </p>
 
         <exercise>

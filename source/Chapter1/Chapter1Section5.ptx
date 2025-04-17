@@ -84,9 +84,9 @@
         <exercise>
             <statement>
                 <p>
-                    In a department store you see a sign that says 50%off clearance merchandise, so final cost C depends on the clearance price, p, according to the function j(p).
-                    Clearance price, p, depends on the original discount, d, given to the clearance item, k(d).
-                    Interpret j(k(d)).
+                    In a department store you see a sign that says 50% off clearance merchandise, so final cost <m>C</m> depends on the clearance price, <m>p</m>, according to the function <m>j(p)</m>.
+                    Clearance price, <m>p</m>, depends on the original discount, <m>d</m>, given to the clearance item, <m>k(d)</m>.
+                    Interpret <m>j(k(d))</m>.
                 </p>
             </statement>
         </exercise>
