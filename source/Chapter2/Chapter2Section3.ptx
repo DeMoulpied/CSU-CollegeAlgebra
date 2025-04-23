@@ -3,6 +3,310 @@
 <section xml:id="Chapter2Section3" xmlns:xi="http://www.w3.org/2001/XInclude">
   <title>Modeling with Linear Functions</title>
 
-  <p> Text of section. </p>
+  <p>
+    When modeling scenarios with a linear function and solving problems involving quantities changing linearly, we typically follow the same problem solving strategies that we would use for any type of function:
+</p>
+
+<definition>
+    <title>Problem Solving Strategy</title>
+
+    <statement>
+        <p>
+            <ol>
+                <li>
+                    <p>
+                        Identify changing quantities, and then carefully and clearly define descriptive variables to represent those quantities.
+                        When appropriate, sketch a picture or define a coordinate system.
+                    </p>
+                </li>
+
+                <li>
+                    <p>
+                        Carefully read the problem to identify important information.
+                        Look for information giving values for the variables, or values for parts of the functional model, like slope and initial value.
+                    </p>
+                </li>
+
+                <li>
+                    <p>
+                        Carefully read the problem to identify what we are trying to find, identify, solve, or interpret.
+                    </p>
+                </li>
+
+                <li>
+                    <p>
+                        Identify a solution pathway from the provided information to what we are trying to find.
+                        Often this will involve checking and tracking units, building a table or even finding a formula for the function being used to model the problem.
+                    </p>
+                </li>
+
+                <li>
+                    <p>
+                        When needed, find a formula for the function.
+                    </p>
+                </li>
+
+                <li>
+                    <p>
+                        Solve or evaluate using the formula you found for the desired quantities.
+                    </p>
+                </li>
+
+                <li>
+                    <p>
+                        Reflect on whether your answer is reasonable for the given situation and whether it makes sense mathematically.
+                    </p>
+                </li>
+
+                <li>
+                    <p>
+                        Clearly convey your result using appropriate units, and answer in full sentences when appropriate.
+                    </p>
+                </li>
+            </ol>
+        </p>
+    </statement>
+</definition>
+
+<example>
+    <statement>
+        <p>
+            Emily saved up $3500 for her summer visit to Seattle.
+            She anticipates spending $400 each week on rent, food, and fun.
+            Find and interpret the horizontal intercept and determine a reasonable domain and range for this function.
+        </p>
+
+        <p>
+            In the problem, there are two changing quantities: time and money.
+            The amount of money she has remaining while on vacation depends on how long she stays.
+            We can define our variables, including units.
+            Output: <m>M</m>, money remaining, in dollars Input: <m>t</m>, time, in weeks
+        </p>
+
+        <p>
+            Reading the problem, we identify two important values.
+            The first, $3500, is the initial value for <m>M</m>.
+            The other value appears to be a rate of change – the units of dollars per week match the units of our output variable divided by our input variable.
+            She is spending money each week, so you should recognize that the amount of money remaining is decreasing each week and the slope is negative.
+            To answer the first question, looking for the horizontal intercept, it would be helpful to have an equation modeling this scenario.
+            Using the intercept and slope provided in the problem, we can create the function: <m>f(t)=M</m>, <m>f(t)=3500-400t</m>.
+        </p>
+
+        <p>
+            To find the horizontal intercept, we set the output to zero, and solve for the input:
+            <me>
+                0=3500-400t,
+            </me>
+            <me>
+                t=\dfrac{3500}{400}=8.75.
+            </me>
+        </p>
+
+        <p>
+            The horizontal intercept is 8.75 weeks.
+            Since this represents the input value where the output will be zero, interpreting this, we could say: Emily will have no money left after 8.75 weeks.
+        </p>
+
+        <p>
+            When modeling any real life scenario with functions, there is typically a limited domain over which that model will be valid – almost no trend continues indefinitely.
+            In this case, it certainly doesn’t make sense to talk about input values less than zero.
+            It is also likely that this model is not valid after the horizontal intercept (unless Emily’s going to start using a credit card and go into debt).
+        </p>
+
+        <p>
+            The domain represents the set of input values and so the reasonable domain for this function is <m>0\leq t\leq 8.75</m>.
+        </p>
+
+        <p>
+            The range represents the set of output values and she starts with $3500 and ends with $0 after 8.75 weeks so the corresponding range is <m>0\leq M\leq 3500</m>.
+        </p>
+    </statement>
+</example>
+
+<exercise>
+    <statement>
+        <p>
+            A database manager is loading a large table from backups.
+            Getting impatient, she notices 1.2 million rows had been loaded.
+            Ten minutes later, 2.5 million rows had been loaded.
+            How much longer will she have to wait for all 80 million rows to load?
+        </p>
+    </statement>
+</exercise>
+
+<example>
+    <statement>
+        <p>
+            Jamal is choosing between two moving companies.
+            The first, U-Haul, charges an up-front fee of $20, then 59 cents a mile.
+            The second, Budget, charges an up-front fee of $16, then 63 cents a mile .
+            When will U-Haul be the better choice for Jamal?
+        </p>
+
+        <p>
+            The two important quantities in this problem are the cost, and the number of miles that are driven.
+            Since we have two companies to consider, we will define two functions:
+        </p>
+
+        <p>
+            Input: <m>m</m>, miles driven
+        </p>
+
+        <p>
+            Outputs:
+        </p>
+
+        <p>
+            <m>Y(m)=</m> cost, in dollars, for renting from U-Haul,
+        </p>
+
+        <p>
+            <m>B(m)=</m> cost, in dollars, for renting from Budget.
+        </p>
+
+        <p>
+            Reading the problem carefully, it appears that we were given an initial cost and a rate of change for each company.
+            Since our outputs are measured in dollars but the costs per mile given in the problem are in cents, we will need to convert these quantities to match our desired units: $0.59 a mile for U-Haul, and $0.63 a mile for Budget.
+        </p>
+
+        <p>
+            Looking to what we’re trying to find, we want to know when U-Haul will be the better choice.
+            Since all we have to make that decision from is the costs, we are looking for when U-Haul will cost less, or when <m>Y(m)&#x3C;B(m)</m>.
+            The solution pathway will lead us to find the equations for the two functions, find the intersection, then look to see where the <m>Y(m)</m> function is smaller.
+            Using the rates of change and initial charges, we can write the equations:
+            <me>
+                Y(m)=20+0.59m,
+            </me>
+            <me>
+                B(m)=16+0.63m.
+            </me>
+        </p>
+
+        <p>
+            These graphs are sketched below, with <m>Y(m)</m> drawn dashed.
+        </p>
+
+        <figure xml:id="c2s3i1">
+              <image source="C2S3Image1.png">
+              <description>
+                  <p>A graph with two lines. A solid line passing through 0 comma 16 and 160 comma 116.8, and a dashed line passing through 0 comma 20 and 160 comma 114.4
+                  </p>
+              </description>
+              </image>
+      </figure>
+
+        <p>
+            To find the intersection, we set the equations equal and solve:
+            <me>
+                Y(m) = B(m),
+            </me>
+            <me>
+                20+0.59m=16+0.63m,
+            </me>
+            <me>
+                4=0.04m,
+            </me>
+            <me>
+                m=100.
+            </me>
+        </p>
+
+        <p>
+            This tells us that the cost from the two companies will be the same if 100 miles are driven.
+            Either by looking at the graph, or noting that <m>Y(m)</m> is growing at a slower rate, we can conclude that U-Haul will be the cheaper price when more than 100 miles are driven.
+        </p>
+    </statement>
+</example>
+
+<example>
+    <statement>
+        <p>
+            A town’s population has been growing linearly.
+            In 2004 the population was 6,200.
+            By 2009 the population had grown to 8,100.
+            If this trend continues,
+            <ol>
+                <li>
+                    <p>
+                        Predict the population in 2013.
+                    </p>
+                </li>
+
+                <li>
+                    <p>
+                        When will the population reach 15000?
+                    </p>
+                </li>
+            </ol>
+        </p>
+
+        <p>
+            The two changing quantities are the population and time.
+            While we could use the actual year value as the input quantity, doing so tends to lead to very ugly equations, since the vertical intercept would correspond to the year 0, more than 2000 years ago! To make things a little nicer, and to make our lives easier too, we will define our input as years since 2004: Input: <m>t</m>, years since 2004 Output: <m>f(t)</m>, the town’s population
+        </p>
+
+        <p>
+            The problem gives us two input-output pairs.
+            Converting them to match our defined variables, the year 2004 would correspond to <m>t = 0</m>, giving the point <m>(0, 6200)</m>.
+            Notice that through our clever choice of variable definition, we have “given” ourselves the vertical intercept of the function.
+            The year 2009 would correspond to <m>t = 5</m>, giving the point <m>(5, 8100)</m>.
+        </p>
+
+        <p>
+            To predict the population in 2013, when <m>t = 9</m>, we would need an equation for the population.
+            Likewise, to find when the population would reach 15000, we would need to solve for the input that would provide an output of 15000.
+            Either way, we need an equation.
+            To find it, we start by calculating the rate of change:
+        </p>
+
+        <p>
+            <m>m=\dfrac{8100-6200}{5-0}=\dfrac{1900}{5}=380</m> people per year
+        </p>
+
+        <p>
+            Since we already know the vertical intercept of the line, we can immediately write the equation: <m>f(t)=6200+380t</m>
+        </p>
+
+        <p>
+            To predict the population in 2013, we evaluate our function at <m>t = 9</m>: <m>f(9)=6200+380(9)=9620.</m> If the trend continues, our model predicts a population of 9,620 in 2013.
+        </p>
+
+        <p>
+            To find when the population will reach 15,000, we can set <m>f(t) = 15000</m> and solve for <m>t</m>.
+            <me>
+                15000=6200+380t,
+            </me>
+            <me>
+                8800=380t,
+            </me>
+            <me>
+                t=\dfrac{8800}{380}\approx 23.158.
+            </me>
+        </p>
+
+        <p>
+            Our model predicts the population will reach 15,000 in a little more than 23 years after 2004, or somewhere around the year 2027.
+        </p>
+    </statement>
+</example>
+
+<exercise>
+    <statement>
+        <p>
+            [Exercise Solutions] Letting <m>t</m> be the number of minutes since she got impatient, and <m>N</m> be the number rows loaded, in millions, we have two points: <m>(0, 1.2)</m> and <m>(10, 2.5)</m>.
+        </p>
+
+        <p>
+            The slope is <m>m=\dfrac{2.5-1.2}{10-0}=\dfrac{1.3}{10}=0.13</m> million rows per minute.
+            We know the <m>N</m> intercept, so we can write the equation: <m>N=0.13t+1.2.</m>
+        </p>
+
+        <p>
+            To determine how long she will have to wait,we need to solve for when <m>N = 80</m>.
+            <m>N=0.13t+1.2=80,</m> <m>0.13t=78.8,</m> <m>t=\dfrac{78.8}{0.13}\approx 606</m>.
+            She’ll have to wait another 606 minutes, about 10 hours.
+        </p>
+    </statement>
+</exercise>
 
 </section>
