@@ -537,29 +537,6 @@
                     </ul>
                 </p>
             </li>
-
-            <li>
-                <p>
-                    Absolute Value Function: <m>f(x)=|x|</m>
-                    <ul>
-                        <li>
-                            <p>
-                                Domain: <m>(-\infty,\infty)</m>
-                            </p>
-                        </li>
-
-                        <li>
-                            <p>
-                                Range: <m>[0,\infty)</m>
-                            </p>
-
-                            <p>
-                                Since absolute value is defined as a distance from 0, the output can only be greater than or equal to 0.
-                            </p>
-                        </li>
-                    </ul>
-                </p>
-            </li>
         </ul>
 
         <example>

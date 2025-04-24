@@ -473,11 +473,6 @@
             </row>
 
             <row>
-                <cell>Absolute Value: <m>f(x)=|x|</m> </cell>
-                <cell>Decreasing on <m>(-\infty,0)</m>, Increasing on <m>(0,\infty)</m> </cell>
-            </row>
-
-            <row>
                 <cell> </cell>
             </row>
         </tabular>

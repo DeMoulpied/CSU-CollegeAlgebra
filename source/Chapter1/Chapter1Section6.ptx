@@ -398,35 +398,6 @@
         <example>
             <statement>
                 <p>
-                    Given <m>f(x)=|x|</m>, sketch a graph of <m>h(x)=f(x+1)-3</m>.
-                </p>
-
-                <p>
-                    The function <m>f</m> is our toolkit absolute value function.
-                    We know that this graph has a V-shape, with the point at the origin.
-                    The graph of <m>h</m> has transformed <m>f</m> in two ways: <m>f(x+1)</m> is a change on the inside of the function, giving a horizontal shift left by 1, then the subtraction by 3 in <m>f(x+1)-3</m> is a change to the outside of the function, giving a vertical shift down by 3.
-                    Transforming the graph gives:
-                </p>
-
-                <figure xml:id="c1s6i5">
-                <caption>Graph of <m>h(x)</m></caption>
-                <image source="C1S6Image5.png">
-                <description>
-                    <p>V-shaped graph that decreases to negative 2 comma negative 3 then increases, passing through 0 comma negative 2
-                    </p>
-                </description>
-            </image>
-            </figure>
-
-                <p>
-                    We could also find a formula for this transformation by evaluating the expression for <m>h(x)</m>: <m>h(x)=f(x+1)-3=|x+1|-3</m>.
-                </p>
-            </statement>
-        </example>
-
-        <example>
-            <statement>
-                <p>
                     Write a formula for the graph shown, which is a transformation of the toolkit square root function.
                 </p>
 

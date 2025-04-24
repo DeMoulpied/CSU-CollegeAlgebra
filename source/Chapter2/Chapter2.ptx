@@ -33,5 +33,4 @@
   <xi:include href="./Chapter2Section1.ptx" />
   <xi:include href="./Chapter2Section2.ptx" />
   <xi:include href="./Chapter2Section3.ptx" />
-  <xi:include href="./Chapter2Section4.ptx" />
 </chapter>
