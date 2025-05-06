@@ -4,7 +4,9 @@
   <title>Polynomial and Rational Functions</title>
 
   <introduction>
-    <p> Text before the first section. </p>
+    <p> In this chapter, we will continue our exploration of functions by looking at polynomial and rational functions. Polynomial functions can be used to model many scenarios that are more complex than what linear functions can model.
+      Quadratic functions, a type of polynomial function, are often used to model falling objects or projectile motion, as well as simple business models. Other polynomial functions are often used to model extremely complex scenarios that may not exactly fit a formula, but can be accurately predicted over specific intervals.
+    After the exploration of polynomial functions, we will look at rational functions, which represent a ratio of two polynomial functions. These functions are helpful in comparing the relative size and growth of different functions. </p>
   </introduction>
 
   <!-- include sections -->
@@ -14,5 +16,4 @@
   <xi:include href="./Chapter3Section4.ptx" />
   <xi:include href="./Chapter3Section5.ptx" />
   <xi:include href="./Chapter3Section6.ptx" />
-  <xi:include href="./Chapter3Section7.ptx" />
 </chapter>

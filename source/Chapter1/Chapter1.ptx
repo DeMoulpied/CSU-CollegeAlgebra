@@ -4,7 +4,9 @@
   <title>Quantities and Functions</title>
 
   <introduction>
-    <p> Text before the first section. </p>
+    <p> The goal of this first chapter is to form a strong foundation of understanding what functions are, and what they do. Much of this chapter will explore functions in general and focus more on the procedures and terminology than any particular kind of function.
+      We will also explore the act of chaining together multiple functions in a process called function composition, the process of creating a new function in terms of a different function known as function transformations, and how to invert the process of a function. 
+    In later chapters, we will focus on specific types of functions and apply the knowledge gathered in this chapter to those functions. </p>
   </introduction>
 
   <!-- include sections -->
