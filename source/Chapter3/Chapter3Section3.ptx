@@ -3,6 +3,710 @@
 <section xml:id="Chapter3Section3" xmlns:xi="http://www.w3.org/2001/XInclude">
   <title>Graphs and Roots of Polynomial Functions</title>
 
-  <p> Text of section. </p>
+  <subsection>
+    <title>Introduction</title>
+
+    <p>
+        In the previous section, we explored the short run behavior of quadratics, a special case of polynomials.
+        In this section, we will explore the short run behavior of polynomials in general.
+    </p>
+
+    <definition>
+        <title>Important Topics of this Section</title>
+
+        <statement>
+            <p>
+                <ul>
+                    <li>
+                        <p>
+                            Short Run Behavior
+                            <ul>
+                                <li>
+                                    <p>
+                                        Intercepts (Horizontal and Vertical)
+                                    </p>
+                                </li>
+                            </ul>
+                        </p>
+                    </li>
+
+                    <li>
+                        <p>
+                            Methods to find Horizontal intercepts
+                            <ul>
+                                <li>
+                                    <p>
+                                        Factoring Methods
+                                    </p>
+                                </li>
+
+                                <li>
+                                    <p>
+                                        Factored Forms
+                                    </p>
+                                </li>
+
+                                <li>
+                                    <p>
+                                        Technology
+                                    </p>
+                                </li>
+                            </ul>
+                        </p>
+                    </li>
+
+                    <li>
+                        <p>
+                            Graphical Behavior at intercepts
+                        </p>
+                    </li>
+
+                    <li>
+                        <p>
+                            Single, Double and Triple zeros (or multiplicity 1, 2, and 3 behaviors)
+                        </p>
+                    </li>
+
+                    <li>
+                        <p>
+                            Solving polynomial inequalities using test values and graphing techniques
+                        </p>
+                    </li>
+
+                    <li>
+                        <p>
+                            Writing equations using intercepts
+                        </p>
+                    </li>
+
+                    <li>
+                        <p>
+                            Estimating extrema
+                        </p>
+                    </li>
+                </ul>
+            </p>
+        </statement>
+    </definition>
+</subsection>
+
+
+<subsection>
+    <title>Intercepts</title>
+
+    <p>
+        As with any function, the vertical intercept can be found by evaluating the function at an input of zero.
+        Since this is evaluation, it is relatively easy to do it for a polynomial of any degree.
+    </p>
+
+    <p>
+        To find horizontal intercepts, we need to solve for when the output will be zero.
+        For general polynomials, this can be a challenging prospect.
+        While quadratics can be solved using the relatively simple quadratic formula, the corresponding formulas for cubic and 4th degree polynomials are not simple enough to remember, and formulas do not exist for general higher-degree polynomials.
+        Consequently, we will limit ourselves to three cases:
+    </p>
+
+    <ul>
+        <li>
+            <p>
+                When the polynomial can be factored using known methods: greatest common factor and trinomial factoring.
+            </p>
+        </li>
+
+        <li>
+            <p>
+                When the polynomial is given in factored form.
+            </p>
+        </li>
+
+        <li>
+            <p>
+                Using technology to determine the intercepts.
+            </p>
+        </li>
+    </ul>
+
+    <example>
+        <statement>
+            <p>
+                Find the horizontal intercepts of <m>f(x)=x^{6}-3x^{4}+2x^{2}</m>.
+            </p>
+
+            <p>
+                We can attempt to factor this polynomial to find solutions for <m>f(x) = 0</m>.
+                That is, we are finding the <m>x</m> values such that <m>x^{6}-3x^{4}+2x^{2}=0</m>.
+                Factoring out the greatest common factor of <m>x^{2}</m> from the left hand side yields <m>x^{2} (x^{4}-3x^{2}+2)=0</m>.
+                Factoring the polynomial inside the parenthesis gives us <m>x^{2} (x^{2}-1)(x^{2}-2)=0</m>.
+                Then, we set each of these factors equal to zero to find our solutions.
+                Setting <m>x^{2}=0,</m> we get the solution <m>x=0.</m> If <m>x^{2}-1=0,</m> then <m>x^{2}=1,</m> and this has the two solutions <m>x=1</m> and <m>x=-1.</m> Setting the final factor equal to zero gives <m>x^{2}-2=0,</m> and so <m>x^{2}=2,</m> which has solutions <m>x=\sqrt{2}</m> and <m>x=-\sqrt{2}</m>.
+            </p>
+
+            <p>
+                This gives us 5 horizontal intercepts in total: <m>x=0,1,-1,\sqrt{2},-\sqrt{2}</m>.
+            </p>
+        </statement>
+    </example>
+
+    <example>
+        <statement>
+            <p>
+                Find the vertical and horizontal intercepts of <m>g(t)=(t-2)^{2} (2t+3).</m>
+            </p>
+
+            <p>
+                The vertical intercept can be found by evaluating <m>g(0)</m>.
+                <m>g(0)=(0-2)^{2} (2(0)+3)=12</m>.
+            </p>
+
+            <p>
+                The horizontal intercepts can be found by solving <m>g(t) = 0</m>.
+                Thus, we want to find <m>t</m> such that <m>(t-2)^{2} (2t+3)=0</m>.
+                Since this is already factored, we can set each factor equal to zero and solve for <m>t</m> in those individual factors.
+                <m>(t-2)^{2}=0</m> only when <m>t-2=0,</m> thus <m>t=2</m>.
+                Then, <m>2t+3=0</m> when <m>t=\dfrac{-3}{2}.</m>
+            </p>
+
+            <p>
+                We can always check our answers are reasonable by graphing the polynomial.
+            </p>
+        </statement>
+    </example>
+
+    <example>
+        <statement>
+            <p>
+                Find the horizontal intercepts of <m>h(t)=t^{3}+4t^{2}+t-6</m>.
+            </p>
+
+            <p>
+                Since this polynomial is not in factored form, has no common factors, and does not appear to be factorable using techniques we know, we can turn to technology to find the intercepts.
+            </p>
+
+            <figure xml:id="c3s3i1">
+              <caption>Graph of <m>h(t)=t^3+4t^2+t-6</m></caption>
+                  <image source="C3S3Image1.png">
+                  <description>
+                      <p>A polynomial that increases, decreases, then increases, with apparent horizontal intercepts at negative 3 comma 0, negative 2 comma 0 and 1 comma 0
+                      </p>
+                  </description>
+                  </image>
+          </figure>
+
+            <p>
+                Graphing this function, it appears there are horizontal intercepts at <m>t = -3, -2, \text{ and }1</m>.
+            </p>
+
+            <p>
+                We could check these are correct by plugging in these values for <m>t</m> and verifying that <m>h(-3)=h(-2)=h(1)=0</m>.
+            </p>
+        </statement>
+    </example>
+
+    <exercise>
+        <statement>
+            <p>
+                Find the vertical and horizontal intercepts of the function <m>f(t)=t^{4}-4t^{2}</m>.
+            </p>
+        </statement>
+    </exercise>
+</subsection>
+
+
+<subsection>
+    <title>Graphical Behavior at Intercepts</title>
+
+    <p>
+        If we graph the function <m>f(x)=(x+3)(x-2)^{2} (x+1)^{3}</m>, notice that the behavior at each of the horizontal intercepts is different.
+    </p>
+
+    <figure xml:id="c3s3i2">
+      <caption>Graph of <m>f(x)=(x+3)(x-2)^{2} (x+1)^{3}</m></caption>
+          <image source="C3S3Image2.png">
+          <description>
+              <p>A polynomial that decreases passing through negative 3 comma 0 down to about negative 2.5 comma negative 33 then increasing but flatting off at negative 1 comma 0 on the way up to about 0.9 comma 32, then decreasing to 2 comma 0, then increasing again.
+              </p>
+          </description>
+          </image>
+  </figure>
+
+    <p>
+        At the horizontal intercept <m>x = -3</m>, coming from the <m>x+3</m> factor of the polynomial, the graph passes directly through the horizontal intercept.
+        The factor <m>x+3</m> is linear (has a power of 1 on the <m>x</m> term), so the behavior near the intercept is like that of a line - it passes directly through the intercept.
+        We call this a single zero, since the zero corresponds to a single factor of the function.
+    </p>
+
+    <p>
+        At the horizontal intercept <m>x = 2</m>, coming from the <m>(x-2)^{2}</m> factor of the polynomial, the graph touches the axis at the intercept and changes direction.
+        The factor is quadratic (degree 2), so the behavior near the intercept is like that of a quadratic function – it bounces off the horizontal axis at the intercept.
+        Since <m>(x-2)^{2}=(x-2)(x-2)</m>, the factor is repeated twice, so we call this a double zero.
+        We could also say the zero has multiplicity 2.
+    </p>
+
+    <p>
+        At the horizontal intercept <m>x = -1</m>, coming from the <m>(x+1)^{3}</m> factor of the polynomial, the graph passes through the axis at the intercept, but flattens out a bit first.
+        This factor is cubic (degree 3), so the behavior near the intercept is like that of a cubic, with the same “S” type shape near the intercept that the toolkit function <m>y=x^{3}</m> has.
+        We call this a triple zero.
+        We could also say the zero has multiplicity 3.
+    </p>
+
+    <p>
+        By utilizing these behaviors, we can sketch a reasonable graph of a factored polynomial function without needing technology.
+    </p>
+
+    <definition>
+        <title>Graphical Behavior of Polynomials at Horizontal Intercepts</title>
+
+        <statement>
+            <p>
+                If a polynomial contains a factor of the form <m>(x-h)^{p}</m>, the behavior near the horizontal intercept <m>h</m> is determined by the power on the factor.
+                If <m>p=1</m> the horizontal intercept will look something like this:
+            </p>
+
+            <figure xml:id="c3s3i3">
+              <caption>A single zero, also known as a zero with multiplicity one</caption>
+                  <image source="C3S3Image3.png">
+                  <description>
+                      <p>A graph showing a horizontal axis, and a curve passing directly through the axis
+                      </p>
+                  </description>
+                  </image>
+          </figure>
+<p>
+  If <m>p=2</m> the horizontal intercept will look something like this:
+</p>
+          <figure xml:id="c3s3i4">
+            <caption>A double zero, also known as a zero with multiplicity two</caption>
+                <image source="C3S3Image4.png">
+                <description>
+                    <p>A graph showing a horizontal axis, and a curve decreasing down to the axis, touching the axis, then increasing away from the axis.
+                    </p>
+                </description>
+                </image>
+        </figure>
+        <p>
+                If <m>p=3</m> the horizontal intercept will look something like this:
+            </p>
+
+            <figure xml:id="c3s3i5">
+              <caption>A triple zero, also known as a zero with multiplicity three</caption>
+                  <image source="C3S3Image5.png">
+                  <description>
+                      <p>A graph showing a horizontal axis, and a curve passing through the axis, but flattening as it passes through the axis.
+                      </p>
+                  </description>
+                  </image>
+          </figure>
+            <p>
+                For higher even powers 4,6,8 etc.… the graph will still bounce off the horizontal axis but the graph will appear flatter with each increasing even power as it approaches and leaves the axis.
+            </p>
+
+            <p>
+                For higher odd powers, 5,7,9 etc… the graph will still pass through the horizontal axis but the graph will appear flatter with each increasing odd power as it approaches and leaves the axis.
+            </p>
+        </statement>
+    </definition>
+
+    <example>
+        <statement>
+            <p>
+                Sketch a graph of <m>f(x)=-2(x+3)^{2} (x-5)</m>.
+            </p>
+
+            <p>
+                This graph has two horizontal intercepts.
+                At <m>x = -3</m>, the factor is squared, indicating the graph will bounce at this horizontal intercept.
+                At <m>x = 5</m>, the factor is not squared, indicating the graph will pass through the axis at this intercept.
+            </p>
+
+            <p>
+                Additionally, we can see the leading term, if this polynomial were multiplied out, would be <m>-2x^{3}</m>, so the long-run behavior is that of a vertically reflected cubic, with the outputs decreasing as the inputs get large positive, and the inputs increasing as the inputs get large negative.
+            </p>
+
+            <p>
+                To sketch this we consider the following: As <m>x\rightarrow -\infty</m> the function <m>f(x)\rightarrow \infty</m> so we know the graph starts in the 2nd quadrant and is decreasing toward the horizontal axis.
+            </p>
+
+            <p>
+                At <m>(-3, 0)</m> the graph bounces off the horizontal axis and so the function must start increasing.
+            </p>
+
+            <p>
+                Since <m>f(0)=90</m>, the point <m>(0, 90)</m> is the vertical intercept of the graph.
+            </p>
+
+            <p>
+                Somewhere after this point, the graph must turn back down or start decreasing toward the horizontal axis since the graph passes through the next intercept at <m>(5,0)</m>.
+            </p>
+
+            <p>
+                As <m>x\rightarrow \infty</m> the function <m>f(x)\rightarrow -\infty</m> so we know the graph continues to decrease and we can stop drawing the graph in the 4th quadrant.
+            </p>
+
+            <p>
+                Using technology we can verify the shape of the graph:
+            </p>
+
+            <figure xml:id="c3s3i6">
+              <caption>Graph of f(x)=-2(x+3)^{2} (x-5)</caption>
+                  <image source="C3S3Image6.png">
+                  <description>
+                      <p>A graph that decreases down to negative 3 comma 0 then increases through 0 comma 90 and continues up to about 2.1 comma 150, then deceases passing through 5 comma 0
+                      </p>
+                  </description>
+                  </image>
+          </figure>
+        </statement>
+    </example>
+
+    <exercise>
+        <statement>
+            <p>
+                Given the function <m>g(x)=x^{3}-x^{2}-6x</m>, use the methods that we have learned so far to find the vertical and horizontal intercepts, determine where the function is negative and positive, describe the long run behavior, and sketch the graph without technology.
+            </p>
+        </statement>
+    </exercise>
+</subsection>
+
+
+<subsection>
+    <title>Solving Polynomial Inequalities</title>
+
+    <p>
+        One application of our ability to find intercepts and sketch a graph of polynomials is the ability to solve polynomial inequalities.
+        It is a very common question to ask when a function will be positive or negative.
+        We can solve polynomial inequalities by either utilizing the graph, or by using test values.
+    </p>
+
+    <example>
+        <statement>
+            <p>
+                Solve <m>(x+3)(x+1)^{2} (x-4)>0</m>.
+            </p>
+
+            <p>
+                As with all inequalities, we will start by solving the equality <m>(x+3)(x+1)^{2} (x-4)=0</m>, which has solutions at <m>x = -3, -1, \text{ and }4</m>.
+                We know the function can only change from positive to negative at these values, so these divide the inputs into 4 intervals.
+            </p>
+
+            <p>
+                We can now choose a test value in each interval and evaluate the function <m>f(x)=(x+3)(x+1)^{2} (x-4)</m> at each test value to determine if the function is positive or negative in that interval.
+            </p>
+
+            <p>
+                For the first interval where <m>x&#x3C;-3,</m> we can use the test value <m>x=-4</m>.
+                Since <m>f(-4)=72</m>, we can conclude that the function is positive for all <m>x</m> values less than -3.
+            </p>
+
+            <p>
+                For the next interval, <m>-3&#x3C;x&#x3C;-1</m>, we can use the text value <m>x=-2</m>.
+                <m>f(-2)=-6</m>, so we know that <m>f</m> must be negative for all <m>x</m> in the interval <m>(-3,-1)</m>.
+            </p>
+
+            <p>
+                The third interval, <m>-1&#x3C;x&#x3C;4</m>, includes the value <m>x=0,</m> so we can check and see that <m>f(0)=-12</m>.
+                Thus, the function <m>f</m> is negative on the interval <m>(-1,4)</m>.
+            </p>
+
+            <p>
+                Lastly, we can check the interval where <m>4&#x3C;x</m> and evaluate our function at <m>x=5</m> to find <m>f(5)=288.</m> Thus <m>f</m> is positive for all <m>x</m> values larger than 4.
+            </p>
+
+            <p>
+                On a number line this would look like:
+            </p>
+
+            <figure xml:id="c3s3i7">
+                  <image source="C3S3Image7.png">
+                  <description>
+                      <p>A numberline broken into 4 segments.  The segment to the left of -3 is labeled positive. The segment from -3 to -1 is labeled negative. The segment from -1 to 4 is labeled negative. The segment to the right of 4 is labeled positive.
+                      </p>
+                  </description>
+                  </image>
+          </figure>
+
+            <p>
+                From our test values, we can determine this function is positive when <m>x &#x3C; -3</m> or <m>x > 4</m>, or in interval notation, <m>(-\infty,-3)\cup(4,\infty)</m>.
+            </p>
+        </statement>
+    </example>
+
+    <p>
+        We could have also determined on which intervals the function was positive by sketching a graph of the function.
+        We illustrate that technique in the next example
+    </p>
+
+    <example>
+        <statement>
+            <p>
+                Find the domain of the function <m>v(t)=\sqrt{6-5t-t^{2}}</m>.
+            </p>
+
+            <p>
+                A square root is only defined when the quantity we are taking the square root of, the quantity inside the square root, is zero or greater.
+                Thus, the domain of this function will be when <m>6-5t-t^{2}\geq 0</m>.
+            </p>
+
+            <p>
+                We start by solving the equality <m>6-5t-t^{2}=0</m>.
+                While we could use the quadratic formula, this equation factors nicely to <m>(6+t)(1-t)=0</m>, giving horizontal intercepts <m>t = 1</m> and <m>t = -6</m>.
+                We also know that since the leading coefficient of the function is -1, the graph must open downward.
+            </p>
+
+            <p>
+                Sketching a graph of this quadratic will allow us to determine when it is positive.
+            </p>
+
+            <figure xml:id="c3s3i8">
+                  <image source="C3S3Image8.png">
+                  <description>
+                      <p>A downwards opening U-shaped parabola with horizontal intercepts at negative 6 comma 0 and 1 comma 0
+                      </p>
+                  </description>
+                  </image>
+          </figure>
+
+            <p>
+                From the graph we can see this function is positive for inputs between the intercepts.
+                So <m>6-5t-t^{2}\geq 0</m> when <m>-6\leq t\leq 1</m>, and this will be the domain of the <m>v(t)</m> function.
+            </p>
+        </statement>
+    </example>
+</subsection>
+
+
+<subsection>
+    <title>Writing Equations using Intercepts</title>
+
+    <p>
+        Since a polynomial function written in factored form will have a horizontal intercept where each factor is equal to zero, we can form a function that will pass through a set of horizontal intercepts by introducing a corresponding set of factors.
+    </p>
+
+    <definition>
+        <title>Writing an Equation for a Polynomial from Intercepts</title>
+
+        <statement>
+            <p>
+                If we know the horizontal intercepts and the behavior or multiplicity at those intercepts, we can write a polynomial of minimal degree with those intercepts.
+                We can do so by following these steps:
+                <ol>
+                    <li>
+                        <p>
+                            Determine the horizontal intercepts <m>x=x_{1},x_{2},\dots,x_{k}</m>.
+                        </p>
+                    </li>
+
+                    <li>
+                        <p>
+                            Examine the behavior at each intercept to determine the corresponding multiplicity of each intercept, <m>p_{1},p_{2},\dots,p_{k}</m>.
+                        </p>
+                    </li>
+
+                    <li>
+                        <p>
+                            Write the polynomial in factored form <m>f(x)=a(x-x_{1} )^{p_1}(x-x_{2} )^{p_2}\cdots(x-x_{k} )^{p_k}</m>.
+                        </p>
+                    </li>
+
+                    <li>
+                        <p>
+                            Use another point on the graph to solve for the stretch factor <m>a</m>.
+                            This <m>a</m> will also be the leading coefficient for the polynomial.
+                        </p>
+                    </li>
+                </ol>
+            </p>
+
+            <p>
+                Notice the degree of the polynomial will be the sum of the multiplicities <m>p_{i}</m>.
+            </p>
+        </statement>
+    </definition>
+
+    <example>
+        <statement>
+            <p>
+                Write a formula for the polynomial function graphed here.
+            </p>
+
+            <figure xml:id="c3s3i9">
+                  <image source="C3S3Image9.png">
+                  <description>
+                      <p>A polynomial that decreases passing through negative 3 comma 0, then increases passing through 0 comma negative 2 up to 2 comma 0, then decreases to about 4 comma negative 1 then increases passing through 5 comma 0
+                      </p>
+                  </description>
+                  </image>
+          </figure>
+
+            <p>
+                This graph has three horizontal intercepts: <m>x = -3, 2, \text{ and }5</m>.
+                At <m>x = -3</m> and <m>x=5</m> the graph passes through the axis, suggesting the corresponding factors of the polynomial will be linear.
+                At <m>x = 2</m> the graph bounces at the intercept, suggesting the corresponding factor of the polynomial will be 2nd degree (quadratic).
+            </p>
+
+            <p>
+                Together, this gives us:
+                <me>
+                    f(x)=a(x+3)(x-2)^{2} (x-5)
+                </me>
+            </p>
+
+            <p>
+                To determine the stretch factor, we can utilize another point on the graph.
+                Here, the vertical intercept appears to be <m>(0,-2)</m>, so we can plug in those values to solve for <m>a</m>: <m>-2=a(0+3)(0-2)^{2} (0-5)</m> simplifies to <m>-2=-60a</m>, giving us <m>a=\dfrac{1}{30}</m>.
+            </p>
+
+            <p>
+                The graphed polynomial appears to represent the function <m>f(x)=1/30(x+3)(x-2)^{2} (x-5)</m>.
+            </p>
+        </statement>
+    </example>
+
+    <exercise>
+        <statement>
+            <p>
+                Given the graph, write a formula for the function shown.
+            </p>
+
+            <figure xml:id="c3s3i10">
+                  <image source="C3S3Image10.png">
+                  <description>
+                      <p>A polynomial that increases to negative 1 comma 0, decreases to 0 comma negative 4, increases up to 2 comma 0 leveling off at that intercept, the increases further before decreasing passing through 4 comma 0
+                      </p>
+                  </description>
+                  </image>
+          </figure>
+        </statement>
+    </exercise>
+</subsection>
+
+
+<subsection>
+    <title>Estimating Extrema</title>
+
+    <p>
+        With quadratics, we were able to algebraically find the maximum or minimum value of the function by finding the vertex.
+        For general polynomials, finding these points is not possible without more advanced techniques from calculus.
+        Even then, finding where extrema occur can still be algebraically challenging.
+        For now, we will estimate the locations of extrema points using technology to generate a graph.
+    </p>
+
+    <example>
+        <statement>
+            <p>
+                An open-top box is to be constructed by cutting out squares from each corner of a 14 cm by 20 cm sheet of plastic then folding up the sides.
+                Find the size of squares that should be cut out to maximize the volume enclosed by the box.
+            </p>
+
+            <p>
+                We will start this problem by drawing a picture, labeling the width of the cut-out squares with a variable, <m>w</m>.
+            </p>
+
+            <figure xml:id="c3s3i11">
+                  <image source="C3S3Image11.png">
+                  <description>
+                      <p>A large rectangle with squares in each corner. The sides of the squares are labeled w.
+                      </p>
+                  </description>
+                  </image>
+          </figure>
+
+            <p>
+                Notice that after a square is cut out from each end, it leaves a <m>(14-2w)</m> cm by <m>(20-2w)</m> cm rectangle for the base of the box, and the box will be <m>w</m> cm tall.
+                This gives the volume:
+                <me>
+                    f(w)=(14-2w)(20-2w)w=280w-68w^{2}+4w^{3}.
+                </me>
+            </p>
+
+            <p>
+                Using technology to sketch a graph allows us to estimate the maximum value for the volume, restricted to reasonable values for <m>w</m>: values from 0 to 7 (consider why we only care about values of <m>w</m> in this range).
+            </p>
+
+            <figure xml:id="c3s3i12">
+                  <image source="C3S3Image12.png">
+                  <description>
+                      <p>A polynomial that increases passing through 0 comma 0 up to about 2.4 comma 340, then decreases passing through 7 comma 0, then increases passing through 10 comma 0
+                      </p>
+                  </description>
+                  </image>
+          </figure>
+
+            <p>
+                From this graph, we can estimate the maximum value is around 340, and occurs when the squares are about 2.75 cm wide.
+                To improve this estimate, we could use advanced features of our technology, if available, or simply change our window to zoom in on our graph.
+            </p>
+
+            <figure xml:id="c3s3i13">
+              <caption>A zoomed-in view of the previous graph.</caption>
+                  <image source="C3S3Image13.png">
+                  <description>
+                      <p>A zoomed graph with horizontal scale from 2.3 to 3 in steps of 0.1 and vertical scale from 331 to 340. A downwards opening U-shaped graph with maximum around 2.7 comma 339
+                      </p>
+                  </description>
+                  </image>
+          </figure>
+
+            <p>
+                From this zoomed-in view, we can refine our estimate for the max volume to about 339, when the squares are 2.7 cm wide.
+                In fact, using calculus methods (which we will not cover), we would be able to determine that the maximum volume is 339.01255 cubic centimeters, and this occurs when the squares are 2.70394 cm long, meaning that our estimate was quite accurate.
+            </p>
+        </statement>
+    </example>
+
+    <exercise>
+        <statement>
+            <p>
+                Use graphing technology to find the maximum and minimum values on the interval <m>[-1, 4]</m> of the function <m>f(x)=-0.2(x-2)^{3} (x+1)^{2} (x-4)</m>.
+            </p>
+        </statement>
+    </exercise>
+
+    <exercise>
+        <statement>
+            <p>
+                [Answers to Exercises]
+                <ol>
+                    <li>
+                        <p>
+                            Vertical intercept is <m>(0, 0)</m>.
+                            <m>0=t^{4}-4t^{2}</m> factors as <m>0=t^{2}(t^{2}-4)=t^{2} (t-2)(t+2)</m>.
+                            So, the horizontal intercepts are <m>(0, 0), (-2, 0), (2, 0).</m>
+                        </p>
+                    </li>
+
+                    <li>
+                        <p>
+                            Vertical intercept at <m>(0, 0)</m>, Horizontal intercepts are <m>(-2, 0), (0, 0), (3, 0).</m> The function is negative on <m>(-\infty -2)\cup(0, 3).</m> The function is positive on <m>(-2, 0)\cup(3,\infty).</m> The leading term is <m>x^{3}</m>, so as <m>x\rightarrow-\infty g(x)\to -\infty</m> and as <m>x\to \infty, g(x)\to \infty.</m>
+                        </p>
+
+                        <figure xml:id="c3s3i14">
+                          <caption>Graph of <m>g(x)=x^{3}-x^{2}-6x</m></caption>
+                              <image source="C3S3Image14.png">
+                              <description>
+                                  <p>A graph that increases passing through negative 2 comma 0 up to about negative 1 comma 4, then decreases passing through 0 comma 0 down to about 1.7 comma negative 8 then increases passing through 3 comma 0
+                                  </p>
+                              </description>
+                              </image>
+                      </figure>
+                    </li>
+
+                    <li>
+                        <p>
+                            Double zero at <m>x=-1</m>, triple zero at <m>x=2</m>, single zero at <m>x=4</m>.
+                            <m>f(x)=a(x-2)^{3} (x+1)^{2} (x-4)</m>.
+                            Substituting <m>(0,-4)</m> and solving for <m>a</m>, <m>f(x)=\dfrac{-1}{8}(x-2)^{3} (x+1)^{2} (x-4).</m>
+                        </p>
+                    </li>
+
+                    <li>
+                        <p>
+                            The minimum occurs at approximately the point <m>(0, -6.5)</m>, and the maximum occurs at approximately the point <m>(3.5, 7)</m>.
+                        </p>
+                    </li>
+                </ol>
+            </p>
+        </statement>
+    </exercise>
+</subsection>
 
 </section>
