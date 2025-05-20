@@ -515,10 +515,10 @@
         <figure xml:id="coordinate-plane">
                 <caption>The xy coordinate plane.</caption>
                 <image source="C1S2Image1.png">
-                <description>
+                <shortdescription>
                     <p>A coordinate plane grid with the horizontal axis labeled with the variable x and the vertical axis labeled with the variable y.
                     </p>
-                </description>
+                </shortdescription>
             </image>
             </figure>
 
