@@ -509,7 +509,7 @@
         </p>
 
         <p>
-            The most common graph has <m>y</m> on the vertical axis and <m>x</m> on the horizontal axis, and we say <m>y</m> is a function of <m>x</m>, or <m>y = f(x)</m> when the function is named f.
+            The most common graph has <m>y</m> on the vertical axis and <m>x</m> on the horizontal axis, and we say <m>y</m> is a function of <m>x</m>, or <m>y = f(x)</m> when the function is named <m>f</m>.
         </p>
 
         <figure xml:id="coordinate-plane">
