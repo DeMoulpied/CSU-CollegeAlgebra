@@ -197,20 +197,20 @@
                 <figure xml:id="f">
                 <caption>Graph of <m>f(x)</m></caption>
                 <image source="C1S5Image1.png">
-                <description>
+                <shortdescription>
                     <p>Graph of f(x), a downward-opening U-shaped graph which passes through 1 comma 2, 2 comma 5, 3 comma 6, 4 comma 5, and 5 comma 2
                     </p>
-                </description>
+                </shortdescription>
             </image>
             </figure>
 
                 <figure xml:id="g">
                 <caption>Graph of <m>g(x)</m></caption>
                 <image source="C1S5Image2.png">
-                <description>
+                <shortdescription>
                     <p>Graph of g(x), an upward-opening U-shaped graph which passes through 1 comma 3, 2 comma 0, 3 comma negative 1, 4 comma 0, and 5 comma 3
                     </p>
-                </description>
+                </shortdescription>
             </image>
             </figure>
                 <p>

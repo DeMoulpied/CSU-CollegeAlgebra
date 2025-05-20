@@ -80,10 +80,10 @@
             <figure xml:id="c3s2i1">
               <caption>A rectangular garden</caption>
                   <image source="C3S2Image1.png">
-                  <description>
+                  <shortdescription>
                       <p>A rectangular area is labeled Backyard. Inside of it is a smaller rectangle labeled Garden, with one side up against the edge of the backyard.  The dimensions of the garden are labeled W and L.
                       </p>
-                  </description>
+                  </shortdescription>
                   </image>
           </figure>
 
@@ -131,10 +131,10 @@
             <figure xml:id="c3s2i2">
               <caption>Graph of <m>g(x)</m></caption>
                   <image source="C3S2Image2.png">
-                  <description>
+                  <shortdescription>
                       <p>A U-shaped parabola with vertex at negative 2 comma negative 3 and passing through 0 comma negative 1.
                       </p>
-                  </description>
+                  </shortdescription>
                   </image>
           </figure>
 
@@ -379,28 +379,28 @@
     <figure xml:id="c3s2i3">
       <caption>A quadratic function with zero horizontal intercepts</caption>
           <image source="C3S2Image3.png">
-          <description>
+          <shortdescription>
               <p>A U-shaped parabola opening upwards with vertex at 2 comma 1 with no horizontal intercepts.
               </p>
-          </description>
+          </shortdescription>
           </image>
   </figure>
   <figure xml:id="c3s2i4">
     <caption>A quadratic function with one horizontal intercept</caption>
         <image source="C3S2Image4.png">
-        <description>
+        <shortdescription>
             <p>A U-shaped parabola opening upwards with one horizontal intercept at the vertex at 2 comma 0.
             </p>
-        </description>
+        </shortdescription>
         </image>
 </figure>
 <figure xml:id="c3s2i5">
   <caption>A quadratic function with two horizontal intercepts</caption>
       <image source="C3S2Image5.png">
-      <description>
+      <shortdescription>
           <p>A U-shaped parabola opening upwards with vertex at 2 comma negative 1 with two horizontal intercepts at 1 comma 0 and 3 comma 0
           </p>
-      </description>
+      </shortdescription>
       </image>
 </figure>
     <example>

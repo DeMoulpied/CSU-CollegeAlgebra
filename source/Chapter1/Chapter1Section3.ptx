@@ -238,10 +238,10 @@
 
                 <figure xml:id="numberline1">
                 <image source="C1S3Image1.png">
-                <description>
+                <shortdescription>
                     <p>A number line from -2 to 7 with two shaded sections. There are closed dots at 1 and 3 with the number line between shaded. There is an open dot at 5 with the number line shaded to the right. 
                     </p>
-                </description>
+                </shortdescription>
             </image>
             </figure>
 
@@ -267,10 +267,10 @@
 
                 <figure xml:id="numberline2">
                 <image source="C1S3Image2.png">
-                <description>
+                <shortdescription>
                     <p>A number line from -5 to 5 with two shaded sections. There is a closed dot at -2 with the number line to the left shaded. There is a closed dot at -1 and open dot at 3 with the number line between shaded. 
                     </p>
-                </description>
+                </shortdescription>
             </image>
             </figure>
             </statement>
@@ -300,10 +300,10 @@
 
                 <figure xml:id="oilproduction">
                 <image source="C1S3Image3.png">
-                <description>
+                <shortdescription>
                     <p>A graph labeled Alaska Crude Oil Production in thousands of barrels per day, with the horizontal axis showing years from 1975 to 2008, and the vertical axis from 0 to 2200.  The graph starts in 1975 around 200, drops a little to about 180, increases up to about 2010 in 1988, then drops to about 700 in 2008. 
                     </p>
-                </description>
+                </shortdescription>
             </image>
             </figure>
 
@@ -333,10 +333,10 @@
 
                 <figure xml:id="population">
                 <image source="C1S3Image4.png">
-                <description>
+                <shortdescription>
                     <p>A graph labeled World Population Increase. The vertical axis is labeled population increase in millions, and the horizontal axis is in years.  The graph starts around 45 in 1952, increases for a while, then drops to 40 in 1960. It increases and decreases a bit, reaching a high of 88 in 1989.  The graph ends at 76 in 2002.
                     </p>
-                </description>
+                </shortdescription>
             </image>
             </figure>
             </statement>

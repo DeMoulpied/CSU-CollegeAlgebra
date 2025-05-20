@@ -16,10 +16,10 @@
 
                     <figure xml:id="c1s7i1">
                 <image source="C1S7Image1.png">
-                <description>
+                <shortdescription>
                     <p>A weather forecast for four days with temperatures in Celsius.
                     </p>
-                </description>
+                </shortdescription>
             </image>
             </figure>
 
@@ -90,10 +90,10 @@
 
         <figure xml:id="c1s7i2">
                 <image source="C1S7Image2.png">
-                <description>
+                <shortdescription>
                     <p>A diagram showing two circles, one labeled domain of f with a point labeled a in the circle, and the other labeled Range of f with a point labeled b in the circle.  An arrow labeled f of x points from a to b. An arrow labeled f inverse of x points from b to a.
                     </p>
-                </description>
+                </shortdescription>
             </image>
             </figure>
 
@@ -215,10 +215,10 @@
                 <figure xml:id="c1s7i3">
                 <caption>Graph of <m>g(x)</m></caption>
                 <image source="C1S7Image3.png">
-                <description>
+                <shortdescription>
                     <p>An increasing curving-up graph, passing through 3 comma 1 and 5 comma 3
                     </p>
-                </description>
+                </shortdescription>
             </image>
             </figure>
 

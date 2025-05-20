@@ -185,10 +185,10 @@
             <figure xml:id="c3s3i1">
               <caption>Graph of <m>h(t)=t^3+4t^2+t-6</m></caption>
                   <image source="C3S3Image1.png">
-                  <description>
+                  <shortdescription>
                       <p>A polynomial that increases, decreases, then increases, with apparent horizontal intercepts at negative 3 comma 0, negative 2 comma 0 and 1 comma 0
                       </p>
-                  </description>
+                  </shortdescription>
                   </image>
           </figure>
 
@@ -222,10 +222,10 @@
     <figure xml:id="c3s3i2">
       <caption>Graph of <m>f(x)=(x+3)(x-2)^{2} (x+1)^{3}</m></caption>
           <image source="C3S3Image2.png">
-          <description>
+          <shortdescription>
               <p>A polynomial that decreases passing through negative 3 comma 0 down to about negative 2.5 comma negative 33 then increasing but flatting off at negative 1 comma 0 on the way up to about 0.9 comma 32, then decreasing to 2 comma 0, then increasing again.
               </p>
-          </description>
+          </shortdescription>
           </image>
   </figure>
 
@@ -265,10 +265,10 @@
             <figure xml:id="c3s3i3">
               <caption>A single zero, also known as a zero with multiplicity one</caption>
                   <image source="C3S3Image3.png">
-                  <description>
+                  <shortdescription>
                       <p>A graph showing a horizontal axis, and a curve passing directly through the axis
                       </p>
-                  </description>
+                  </shortdescription>
                   </image>
           </figure>
 <p>
@@ -277,10 +277,10 @@
           <figure xml:id="c3s3i4">
             <caption>A double zero, also known as a zero with multiplicity two</caption>
                 <image source="C3S3Image4.png">
-                <description>
+                <shortdescription>
                     <p>A graph showing a horizontal axis, and a curve decreasing down to the axis, touching the axis, then increasing away from the axis.
                     </p>
-                </description>
+                </shortdescription>
                 </image>
         </figure>
         <p>
@@ -290,10 +290,10 @@
             <figure xml:id="c3s3i5">
               <caption>A triple zero, also known as a zero with multiplicity three</caption>
                   <image source="C3S3Image5.png">
-                  <description>
+                  <shortdescription>
                       <p>A graph showing a horizontal axis, and a curve passing through the axis, but flattening as it passes through the axis.
                       </p>
-                  </description>
+                  </shortdescription>
                   </image>
           </figure>
             <p>
@@ -349,10 +349,10 @@
             <figure xml:id="c3s3i6">
               <caption>Graph of f(x)=-2(x+3)^{2} (x-5)</caption>
                   <image source="C3S3Image6.png">
-                  <description>
+                  <shortdescription>
                       <p>A graph that decreases down to negative 3 comma 0 then increases through 0 comma 90 and continues up to about 2.1 comma 150, then deceases passing through 5 comma 0
                       </p>
-                  </description>
+                  </shortdescription>
                   </image>
           </figure>
         </statement>
@@ -417,10 +417,10 @@
 
             <figure xml:id="c3s3i7">
                   <image source="C3S3Image7.png">
-                  <description>
+                  <shortdescription>
                       <p>A numberline broken into 4 segments.  The segment to the left of -3 is labeled positive. The segment from -3 to -1 is labeled negative. The segment from -1 to 4 is labeled negative. The segment to the right of 4 is labeled positive.
                       </p>
-                  </description>
+                  </shortdescription>
                   </image>
           </figure>
 
@@ -458,10 +458,10 @@
 
             <figure xml:id="c3s3i8">
                   <image source="C3S3Image8.png">
-                  <description>
+                  <shortdescription>
                       <p>A downwards opening U-shaped parabola with horizontal intercepts at negative 6 comma 0 and 1 comma 0
                       </p>
-                  </description>
+                  </shortdescription>
                   </image>
           </figure>
 
@@ -530,10 +530,10 @@
 
             <figure xml:id="c3s3i9">
                   <image source="C3S3Image9.png">
-                  <description>
+                  <shortdescription>
                       <p>A polynomial that decreases passing through negative 3 comma 0, then increases passing through 0 comma negative 2 up to 2 comma 0, then decreases to about 4 comma negative 1 then increases passing through 5 comma 0
                       </p>
-                  </description>
+                  </shortdescription>
                   </image>
           </figure>
 
@@ -569,10 +569,10 @@
 
             <figure xml:id="c3s3i10">
                   <image source="C3S3Image10.png">
-                  <description>
+                  <shortdescription>
                       <p>A polynomial that increases to negative 1 comma 0, decreases to 0 comma negative 4, increases up to 2 comma 0 leveling off at that intercept, the increases further before decreasing passing through 4 comma 0
                       </p>
-                  </description>
+                  </shortdescription>
                   </image>
           </figure>
         </statement>
@@ -603,10 +603,10 @@
 
             <figure xml:id="c3s3i11">
                   <image source="C3S3Image11.png">
-                  <description>
+                  <shortdescription>
                       <p>A large rectangle with squares in each corner. The sides of the squares are labeled w.
                       </p>
-                  </description>
+                  </shortdescription>
                   </image>
           </figure>
 
@@ -624,10 +624,10 @@
 
             <figure xml:id="c3s3i12">
                   <image source="C3S3Image12.png">
-                  <description>
+                  <shortdescription>
                       <p>A polynomial that increases passing through 0 comma 0 up to about 2.4 comma 340, then decreases passing through 7 comma 0, then increases passing through 10 comma 0
                       </p>
-                  </description>
+                  </shortdescription>
                   </image>
           </figure>
 
@@ -639,10 +639,10 @@
             <figure xml:id="c3s3i13">
               <caption>A zoomed-in view of the previous graph.</caption>
                   <image source="C3S3Image13.png">
-                  <description>
+                  <shortdescription>
                       <p>A zoomed graph with horizontal scale from 2.3 to 3 in steps of 0.1 and vertical scale from 331 to 340. A downwards opening U-shaped graph with maximum around 2.7 comma 339
                       </p>
-                  </description>
+                  </shortdescription>
                   </image>
           </figure>
 
@@ -682,10 +682,10 @@
                         <figure xml:id="c3s3i14">
                           <caption>Graph of <m>g(x)=x^{3}-x^{2}-6x</m></caption>
                               <image source="C3S3Image14.png">
-                              <description>
+                              <shortdescription>
                                   <p>A graph that increases passing through negative 2 comma 0 up to about negative 1 comma 4, then decreases passing through 0 comma 0 down to about 1.7 comma negative 8 then increases passing through 3 comma 0
                                   </p>
-                              </description>
+                              </shortdescription>
                               </image>
                       </figure>
                     </li>

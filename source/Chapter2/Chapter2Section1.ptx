@@ -93,10 +93,10 @@
 
     <figure xml:id="c2s1i1">
         <image source="C2S1Image1.png">
-        <description>
+        <shortdescription>
             <p>An increasing line passing through 0 comma 3.50 and 20 comma 56.90
             </p>
-        </description>
+        </shortdescription>
         </image>
 </figure>
 
@@ -250,10 +250,10 @@
 
             <figure xml:id="c2s1i2">
         <image source="C2S1Image2.png">
-        <description>
+        <shortdescription>
             <p>A decreasing line passing through 0 comma 7, 4 comma 4 and 8 comma 1
             </p>
-        </description>
+        </shortdescription>
         </image>
 </figure>
 
