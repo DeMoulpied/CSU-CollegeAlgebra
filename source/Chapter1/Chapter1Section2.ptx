@@ -531,10 +531,10 @@
                 <figure xml:id="cubic">
                 <caption>Graph 1</caption>
                 <image source="C1S2Image2.png">
-                <description>
+                <shortdescription>
                     <p>Graph of a smooth curve that increases to negative 1 comma 3, decreases to 1 comma negative 3, then increases.
                     </p>
-                </description>
+                </shortdescription>
             </image>
             </figure>
                 
@@ -542,10 +542,10 @@
                 <figure xml:id="linear">
                 <caption>Graph 2</caption>
                 <image source="C1S2Image3.png">
-                <description>
+                <shortdescription>
                     <p>Graph of a decreasing straight line.
                     </p>
-                </description>
+                </shortdescription>
             </image>
             </figure>
              
@@ -553,10 +553,10 @@
                 <figure xml:id="circle">
                 <caption>Graph 3</caption>
                 <image source="C1S2ImageCirc.png">
-                <description>
+                <shortdescription>
                     <p>Graph of a circle with radius 3 centered at the origin.
                     </p>
-                </description>
+                </shortdescription>
             </image>
             </figure>
             
@@ -626,10 +626,10 @@
                 <figure xml:id="f-of-x">
                 <caption>Graph of <m>f(x)</m></caption>
                 <image source="C1S2Image4.png">
-                <description>
+                <shortdescription>
                     <p>A U-shaped graph passing through negative 1 comma 4, 0 comma 1, 1 comma 0, 2 comma 1, and 3 comma 4.
                     </p>
-                </description>
+                </shortdescription>
             </image>
             </figure>
               
@@ -988,80 +988,80 @@
             <figure xml:id="constant">
                 <caption>Graph of the constant function <m>f(x)=2</m></caption>
                 <image source="C1S2Image5.png">
-                <description>
+                <shortdescription>
                     <p>A horizontal line passing through the points negative 4 comma 2, negative 2 comma 2, 0 comma 2, 2 comma 2, and 4 comma 2.
                     </p>
-                </description>
+                </shortdescription>
             </image>
             </figure>
 
         <figure xml:id="yequalsx">
                 <caption>Graph of <m>f(x)=x</m></caption>
                 <image source="C1S2Image6.png">
-                <description>
+                <shortdescription>
                     <p>An increasing straight line passing through negative 1 comma negative 1, 0 comma 0 and 1 comma 1.
                     </p>
-                </description>
+                </shortdescription>
             </image>
             </figure>
         
         <figure xml:id="squared">
                 <caption>Graph of <m>f(x)=x^2</m></caption>
                 <image source="C1S2Image8.png">
-                <description>
+                <shortdescription>
                     <p>A U-shaped graph decreasing to 0 comma 0 then increasing, passing through 1 comma 1.
                     </p>
-                </description>
+                </shortdescription>
             </image>
             </figure>
         
         <figure xml:id="cubed">
                 <caption>Graph of <m>f(x)=x^3</m></caption>
                 <image source="C1S2Image9.png">
-                <description>
+                <shortdescription>
                     <p>A graph that increases quickly, then flattens out at the origin, then increases quickly again.
                     </p>
-                </description>
+                </shortdescription>
             </image>
             </figure>
         
         <figure xml:id="root">
                 <caption>Graph of <m>f(x)=\sqrt{x}</m></caption>
                 <image source="C1S2Image10.png">
-                <description>
+                <shortdescription>
                     <p>Starts at the origin, flattens out as it increases. Passes through 1 comma 1, 4 comma 2, and 9 comma 3.
                     </p>
-                </description>
+                </shortdescription>
             </image>
             </figure>
 
         <figure xml:id="cuberoot">
                 <caption>Graph of <m>f(x)=\sqrt[3]{x}</m></caption>
                 <image source="C1S2Image11.png">
-                <description>
+                <shortdescription>
                     <p>An increasing concave up curve that passes through negative 8 comma negative 2, negative 1 comma negative 1,0 comma 0 and changes to concave down at 0 comma 0 and goes through the point 1 comma and 8 comma 2.
                     </p>
-                </description>
+                </shortdescription>
             </image>
             </figure>
 
         <figure xml:id="reciprocal">
                 <caption>Graph of <m>f(x)=\dfrac{1}{x}</m></caption>
                 <image source="C1S2Image12.png">
-                <description>
+                <shortdescription>
                     <p>From the left the graph starts out flat just below 0. As x increases, y decreases slowly at first then more rapidly. As x approaches 0 from the left, the graph decreases rapidly out of the window.  Immediately past 0, the graph decreases rapidly from above the window, decreasing quickly and first then more slowly.  As x increases to the right, the graph flattens, approaching 0.
                     </p>
-                </description>
+                </shortdescription>
             </image>
             </figure>
 
         <figure xml:id="reciprocal-squared">
                 <caption>Graph of <m>f(x)=\dfrac{1}{x^2}</m></caption>
                 <image source="C1S2Image13.png">
-                <description>
+                <shortdescription>
                     <p>Immediately past 0, the graph decreases rapidly from above the window, decreasing quickly and first then more slowly.  As x increases to the right, the graph flattens, approaching 0.
                     </p>
-                </description>
+                </shortdescription>
             </image>
             </figure>
     </subsection>
