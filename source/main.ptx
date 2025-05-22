@@ -4,8 +4,8 @@
   <!-- we first include a file which contains the docinfo element: -->
   <xi:include href="./docinfo.ptx" />
 
-  <book xml:id="CollegeAlgebraAndPrecalculus">
-    <title>College Algebra and Precalculus</title>
+  <book xml:id="CollegeAlgebra">
+    <title>College Algebra</title>
     <subtitle>Colorado State University</subtitle>
 
     <!-- Include frontmatter -->
