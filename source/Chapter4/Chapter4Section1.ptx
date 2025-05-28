@@ -643,7 +643,7 @@
         <example>
             <statement>
                 <p>
-                    A 529 plan is a college savings plan in which a relative can invest money to pay for a child’s later college tuition, and the account grows tax free.
+                    A 529 plan is a college savings plan in which a relative can invest money to pay for a child's later college tuition, and the account grows tax free.
                     If Lily wants to set up a 529 account for her new granddaughter, wants the account to grow to $40,000 over 18 years, and she believes the account will earn 6%compounded semi-annually (twice a year), how much will Lily need to invest in the account now?
                 </p>
 
@@ -764,12 +764,12 @@
                 </p>
 
                 <p>
-                    We can compare these rates using the annual percentage yield – the actual percent increase in a year.
+                    We can compare these rates using the annual percentage yield - the actual percent increase in a year.
                     Bank A: <m>\text{APY}=(1+\dfrac{0.012}{4})^{4}-1=0.012054 = 1.2054\%</m> Bank B: <m>\text{APY}=(1+\dfrac{0.011}{12})^{12}-1=0.011056 = 1.1056\%</m>
                 </p>
 
                 <p>
-                    Bank B’s monthly compounding is not enough to catch up with Bank A’s better APR, so Bank A offers a better rate.
+                    Bank B's monthly compounding is not enough to catch up with Bank A's better APR, so Bank A offers a better rate.
                 </p>
             </statement>
         </example>
