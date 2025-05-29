@@ -4,7 +4,10 @@
   <title>Exponential and Logarithmic Functions</title>
 
   <introduction>
-    <p> In this chapter, we will explore the final set of functions: exponential and logarithmic functions. Many real world phenomena can be modeled with exponential functions, including population growth, financial accounts, and decay of radioactive elements. Logarithms are the inverse of these exponential functions, and also have scientific uses when examining large number. Through this chapter we will explore the graphs of these functions and their various properties and applications.</p>
+    <p> In this chapter, we will explore the final set of functions: exponential and logarithmic functions. 
+      Many real world phenomena can be modeled with exponential functions, including population growth, financial accounts, and decay of radioactive elements. 
+      Logarithms are the inverse of these exponential functions, and also have scientific uses when examining large number. 
+      Through this chapter we will explore the graphs of these functions and their various properties and applications.</p>
   </introduction>
 
   <!-- include sections -->
