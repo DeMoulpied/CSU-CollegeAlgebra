@@ -2,7 +2,7 @@
 
 <section xml:id="Chapter1Section6" xmlns:xi="http://www.w3.org/2001/XInclude">
   <title>Transformations</title>
-
+<introduction>
     <p>
         Often when given a problem, we try to model the scenario using mathematics in the form of words, tables, graphs, and equations in order to explain or solve it.
         When building models, it is often helpful to build from existing formulas or models.
@@ -14,6 +14,8 @@
         Fortunately, there are systematic ways to shift, stretch, compress, flip and combine functions to help them become better models for the problems we are trying to solve.
         We can transform what we already know into what we need, hence the name, “Transformation of functions.” When we have a story problem, formula, graph, or table, we can then transform that function in a variety of ways to form new functions.
     </p>
+</introduction>
+    
 
 
     <subsection>
@@ -160,7 +162,7 @@
                     Sketch a graph of the new function.
                 </p>
 
-                <figure xml:id="c1s6i1.2">
+                <figure xml:id="c1s6i112">
                 <caption><m>V(t)=</m> the original venting plan</caption>
                 <image source="C1S6Image1.png">
                 <shortdescription>
@@ -912,7 +914,7 @@
                     Graphing this,
                 </p>
 
-                <figure xml:id="c1s6i18.2">
+                <figure xml:id="c1s6i182">
                 <caption>Original population <m>P(t)</m> </caption>
                 <image source="C1S6Image18.png">
                 <shortdescription>

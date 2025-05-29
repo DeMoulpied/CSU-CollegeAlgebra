@@ -2,11 +2,12 @@
 
 <section xml:id="Chapter2Section2" xmlns:xi="http://www.w3.org/2001/XInclude">
   <title>Graphs of Linear Functions</title>
-
+<introduction>
     <p>
         When we are working with a new function, it is useful to know as much as we can about the function: its graph, where the function is zero, and any other special behaviors of the function.
         We will begin this exploration of linear functions with a look at graphs.
     </p>
+</introduction>
 
 
     <subsection>
