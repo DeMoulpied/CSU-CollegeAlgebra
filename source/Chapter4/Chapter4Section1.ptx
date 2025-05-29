@@ -363,7 +363,7 @@
                     Each month we will earn 0.1% interest.
                     From this, we can set up an exponential function, with our initial amount of $1000 and a growth rate of <m>r = 0.001</m>, and our input <m>m</m> measured in months.
                     <m>f(m)=1000(1+\dfrac{.012}{12})^{m}</m> or <m>f(m)=1000(1+0.001)^{m}</m>.
-                    So, after 24 months, the account will have grown to <m>f(24)=1000(1+0.001)^{2}4=\$1024.28</m>.
+                    So, after 24 months, the account will have grown to <m>f(24)=1000(1+0.001)^{24}=\$1024.28</m>.
                 </p>
             </statement>
         </example>
@@ -581,7 +581,7 @@
 
             <statement>
                 <p>
-                    Compound Interest can be calculated using the formula <m>A(t)=a(1+r/k)^{kt}</m>, where
+                    Compound Interest can be calculated using the formula <m>A(t)=a(1+\dfrac{r}{k})^{kt}</m>, where
                     <ul>
                         <li>
                             <p>
