@@ -6,7 +6,7 @@
     <subsection>
         <title>Introduction</title>
 
-        <definition>
+        <objectives>
             <title>Important Topics of this Section</title>
 
             <statement>
@@ -69,18 +69,18 @@
                     </ul>
                 </p>
             </statement>
-        </definition>
+        </objectives>
 
         <p>
             India is the second most populous country in the world, with a population in 2008 of about 1.14 billion people.
-            The population is growing by about 1.34%each year .
+            The population is growing by about 1.34% each year .
             We might ask if we can find a formula to model the population, <m>P</m>, as a function of time, <m>t</m>, in years after 2008, if the population continues to grow at this rate.
         </p>
 
         <p>
-            In linear growth, we had a constant rate of change – a constant number that the output increased for each increase in input.
+            In linear growth, we had a constant rate of change - a constant number that the output increased for each increase in input.
             For example, in the equation <m>f(x)=3x+4</m>, the slope tells us the output increases by three each time the input increases by one.
-            This population scenario is different – we have a percent rate of change rather than a constant number of people as our rate of change.
+            This population scenario is different - we have a percent rate of change rather than a constant number of people as our rate of change.
         </p>
 
         <p>
@@ -88,11 +88,11 @@
         </p>
 
         <p>
-            Company <m>A</m> has 100 stores, and expands by opening 50 new stores every year.
+            Company Ahas 100 stores, and expands by opening 50 new stores every year.
         </p>
 
         <p>
-            Company <m>B</m> has 100 stores and expands by increasing the number of stores by 50%of their total each year.
+            Company B has 100 stores and expands by increasing the number of stores by 50% of their total each year.
         </p>
 
         <p>
@@ -106,8 +106,8 @@
 
             <row>
                 <cell>Year</cell>
-                <cell>Company <m>A</m> stores</cell>
-                <cell>Company <m>B</m> stores</cell>
+                <cell>Company A stores</cell>
+                <cell>Company B stores</cell>
             </row>
 
             <row>
@@ -116,8 +116,8 @@
 
             <row>
                 <cell>0</cell>
-                <cell>100</cell>
-                <cell>100</cell>
+                <cell><m>100</m></cell>
+                <cell><m>100</m></cell>
             </row>
 
             <row>
@@ -156,15 +156,15 @@
         </tabular>
 
         <p>
-            Notice that with the percent growth, each year the company grows by 50%of the current year’s total, so as the company grows larger, the number of stores added in a year grows as well.
+            Notice that with the percent growth, each year the company grows by 50% of the current year's total, so as the company grows larger, the number of stores added in a year grows as well.
         </p>
 
         <p>
-            To try to simplify the calculations, notice that after 1 year the number of stores for company <m>B</m> was: <m>100+0.50(100)</m>, or equivalently by factoring out the 100 from each term on the left side, <m>100(1+0.50)=150</m>.
+            To try to simplify the calculations, notice that after 1 year the number of stores for company B was: <m>100+0.50(100)</m>, or equivalently by factoring out the 100 from each term on the left side, <m>100(1+0.50)=150</m>.
         </p>
 
         <p>
-            We can think of this as “the new number of stores is the original 100%plus another 50%”.
+            We can think of this as "the new number of stores is the original 100% plus another 50%".
         </p>
 
         <p>
@@ -178,7 +178,7 @@
         </p>
 
         <p>
-            From this, we can generalize, noticing that to show a 50%increase, each year we multiply by a factor of <m>(1+0.50)</m>, so after <m>n</m> years, our equation would be <m>f(n)=100(1+0.50)^{n}</m>.
+            From this, we can generalize, noticing that to show a 50% increase, each year we multiply by a factor of <m>(1+0.50)</m>, so after <m>n</m> years, our equation would be <m>f(n)=100(1+0.50)^{n}</m>.
         </p>
 
         <p>
@@ -221,7 +221,7 @@
         </definition>
 
         <p>
-            To see more clearly the difference between exponential and linear growth, compare the table and graph below, which illustrate the growth of company <m>A</m> and <m>B</m> described above over a longer time frame if the growth patterns were to continue.
+            To see more clearly the difference between exponential and linear growth, compare the table and graph below, which illustrate the growth of company A and B described above over a longer time frame if the growth patterns were to continue.
         </p>
 
         <tabular left="minor">
@@ -231,8 +231,8 @@
 
             <row>
                 <cell>years</cell>
-                <cell>Company <m>A</m> </cell>
-                <cell>Company <m>B</m> </cell>
+                <cell>Company A </cell>
+                <cell>Company B </cell>
             </row>
 
             <row>
@@ -302,11 +302,11 @@
         <example>
             <statement>
                 <p>
-                    Write an exponential function for India’s population, and use it to predict the population in 2020.
+                    Write an exponential function for India's population, and use it to predict the population in 2020.
                 </p>
 
                 <p>
-                    At the beginning of the chapter we were given India’s population of 1.14 billion in the year 2008 and a percent growth rate of 1.34%.
+                    At the beginning of the chapter we were given India's population of 1.14 billion in the year 2008 and a percent growth rate of 1.34%.
                     Using 2008 as our starting time (t = 0), our initial population will be 1.14 billion.
                     Since the percent growth rate was 1.34%, our value for <m>r</m> is 0.0134.
                     Using the basic formula for exponential growth <m>f(x)=a(1+r)^{x}</m> we can write the formula, <m>f(t)=1.14(1+0.0134)^{t}</m>.
@@ -342,7 +342,7 @@
 
                         <li>
                             <p>
-                                Tuition costs have increased by 2.8%each year for the last 3 years.
+                                Tuition costs have increased by 2.8% each year for the last 3 years.
                             </p>
                         </li>
                     </ol>
@@ -354,13 +354,13 @@
             <statement>
                 <p>
                     A certificate of deposit (CD) is a type of savings account offered by banks, typically offering a higher interest rate in return for a fixed length of time you will leave your money invested.
-                    If a bank offers a 24 month CD with an annual interest rate of 1.2%compounded monthly, how much will a $1000 investment grow to over those 24 months?
+                    If a bank offers a 24 month CD with an annual interest rate of 1.2% compounded monthly, how much will a $1000 investment grow to over those 24 months?
                 </p>
 
                 <p>
                     First, we must notice that the interest rate is an annual rate, but is compounded monthly, meaning interest is calculated and added to the account monthly.
                     To find the monthly interest rate, we divide the annual rate of 1.2%by 12 since there are 12 months in a year: <m>\dfrac{1.2\%}{12}= 0.1\%</m>.
-                    Each month we will earn 0.1%interest.
+                    Each month we will earn 0.1% interest.
                     From this, we can set up an exponential function, with our initial amount of $1000 and a growth rate of <m>r = 0.001</m>, and our input <m>m</m> measured in months.
                     <m>f(m)=1000(1+\dfrac{.012}{12})^{m}</m> or <m>f(m)=1000(1+0.001)^{m}</m>.
                     So, after 24 months, the account will have grown to <m>f(24)=1000(1+0.001)^{2}4=\$1024.28</m>.
@@ -385,14 +385,14 @@
         <example>
             <statement>
                 <p>
-                    Bismuth-210 is an isotope that radioactively decays by about 13%each day, meaning 13%of the remaining Bismuth-210 transforms into another atom (polonium-210 in this case) each day.
+                    Bismuth-210 is an isotope that radioactively decays by about 13% each day, meaning 13% of the remaining Bismuth-210 transforms into another atom (polonium-210 in this case) each day.
                     If you begin with 100 mg of Bismuth-210, how much remains after one week?
                 </p>
 
                 <p>
                     With radioactive decay, instead of the quantity increasing at a percent rate, the quantity is decreasing at a percent rate.
                     Our initial quantity is <m>a = 100 \text{ mg}</m>, and our growth rate will be negative 13%, since we are decreasing: <m>r = -0.13</m>.
-                    This gives the equation: <m>Q(d)=100(1-0.13)^{d}=100(0.87)^{d}</m> This can also be explained by recognizing that if 13%decays, then 87%remains.
+                    This gives the equation: <m>Q(d)=100(1-0.13)^{d}=100(0.87)^{d}</m> This can also be explained by recognizing that if 13% decays, then 87% remains.
                 </p>
 
                 <p>
@@ -404,7 +404,7 @@
         <exercise>
             <statement>
                 <p>
-                    A population of 1000 is decreasing 3%each year.
+                    A population of 1000 is decreasing 3% each year.
                     Find the population in 30 years.
                 </p>
             </statement>
@@ -457,7 +457,7 @@
                 </p>
 
                 <p>
-                    Recall that since <m>b = 1+r</m>, we can interpret this to mean that the population growth rate is <m>r = 0.1447</m>, and so the population is growing by about 14.47%each year.
+                    Recall that since <m>b = 1+r</m>, we can interpret this to mean that the population growth rate is <m>r = 0.1447</m>, and so the population is growing by about 14.47% each year.
                 </p>
             </statement>
         </example>
@@ -476,7 +476,7 @@
 
         <p>
             In the previous example, we were able to choose the initial value by clever definition of our input variable.
-            Next, we consider a situation where we can’t do this.
+            Next, we consider a situation where we can't do this.
         </p>
 
         <example>
@@ -486,7 +486,7 @@
                 </p>
 
                 <p>
-                    Since we don’t have the initial value, we will take a general approach that will work for any function form with unknown parameters: we will substitute in both given input-output pairs in the function form <m>f(x)=ab^{x}</m> and solve for the unknown values, <m>a</m> and <m>b</m>.
+                    Since we don't have the initial value, we will take a general approach that will work for any function form with unknown parameters: we will substitute in both given input-output pairs in the function form <m>f(x)=ab^{x}</m> and solve for the unknown values, <m>a</m> and <m>b</m>.
                     Substituting in <m>(-2, 6)</m> gives <m>6=ab^{-2}</m>, and substituting in <m>(2, 1)</m> gives <m>1=ab^{2}</m>.
                 </p>
 
@@ -620,7 +620,7 @@
         <example>
             <statement>
                 <p>
-                    If you invest $3,000 in an investment account paying 3%interest compounded quarterly, how much will the account be worth in 10 years?
+                    If you invest $3,000 in an investment account paying 3% interest compounded quarterly, how much will the account be worth in 10 years?
                 </p>
 
                 <p>
@@ -631,7 +631,7 @@
                 </p>
 
                 <p>
-                    <m>A(10)=3000(1+0.03/4)^{(}4(10))=\$4045.05</m>.
+                    <m>A(10)=3000(1+0.03/4)^{4(10)}=\$4045.05</m>.
                 </p>
 
                 <p>
@@ -644,7 +644,7 @@
             <statement>
                 <p>
                     A 529 plan is a college savings plan in which a relative can invest money to pay for a child's later college tuition, and the account grows tax free.
-                    If Lily wants to set up a 529 account for her new granddaughter, wants the account to grow to $40,000 over 18 years, and she believes the account will earn 6%compounded semi-annually (twice a year), how much will Lily need to invest in the account now?
+                    If Lily wants to set up a 529 account for her new granddaughter, wants the account to grow to $40,000 over 18 years, and she believes the account will earn 6% compounded semi-annually (twice a year), how much will Lily need to invest in the account now?
                 </p>
 
                 <p>
@@ -653,7 +653,7 @@
                 </p>
 
                 <p>
-                    In this problem, we don’t know how much we are starting with, so we will be solving for <m>a</m>, the initial amount needed.
+                    In this problem, we don't know how much we are starting with, so we will be solving for <m>a</m>, the initial amount needed.
                     We do know we want the end amount to be $40,000, so we will be looking for the value of a so that <m>A(18) = 40,000</m>.
                     <m>40,000=A(18)=a(1+\dfrac{0.06}{2})^{2(18)}</m>, meaning that <m>40,000=a(2.8983)</m>.
                     Solving this for <m>a</m> gives <m>a=\dfrac{40,000}{2.8983}\approx \$13,801</m>.
@@ -758,14 +758,15 @@
         <example>
             <statement>
                 <p>
-                    Bank A offers an account paying 1.2%compounded quarterly.
-                    Bank B offers an account paying 1.1%compounded monthly.
+                    Bank A offers an account paying 1.2% compounded quarterly.
+                    Bank B offers an account paying 1.1% compounded monthly.
                     Which is offering a better rate?
                 </p>
 
                 <p>
                     We can compare these rates using the annual percentage yield - the actual percent increase in a year.
-                    Bank A: <m>\text{APY}=(1+\dfrac{0.012}{4})^{4}-1=0.012054 = 1.2054\%</m> Bank B: <m>\text{APY}=(1+\dfrac{0.011}{12})^{12}-1=0.011056 = 1.1056\%</m>
+                    Bank A: <m>\text{APY}=(1+\dfrac{0.012}{4})^{4}-1=0.012054 = 1.2054\%</m> 
+                    Bank B: <m>\text{APY}=(1+\dfrac{0.011}{12})^{12}-1=0.011056 = 1.1056\%</m>
                 </p>
 
                 <p>
@@ -786,7 +787,7 @@
         </p>
 
         <p>
-            To see this, let us examine the value of $1 invested at 100%interest for 1 year when it is compouded with increasing frequency.
+            To see this, let us examine the value of $1 invested at 100% interest for 1 year when it is compouded with increasing frequency.
         </p>
 
         <tabular left="minor">
@@ -916,7 +917,7 @@
         <example>
             <statement>
                 <p>
-                    Radon-222 decays at a continuous rate of 17.3%per day.
+                    Radon-222 decays at a continuous rate of 17.3% per day.
                     How much of 100 mg of Radon-222 will remain in 3 days?
                 </p>
 
@@ -944,7 +945,7 @@
         <example>
             <statement>
                 <p>
-                    If $1000 is invested in an account earning 10%compounded continuously, find the value after 1 year.
+                    If $1000 is invested in an account earning 10% compounded continuously, find the value after 1 year.
                 </p>
 
                 <p>
@@ -971,7 +972,7 @@
 
         <p>
             While the continuous growth rate in the example above was 10%, the actual annual yield was 10.517%.
-            This means we could write two different looking but equivalent formulas for this account’s growth: <m>f(t)=1000e^{0}.10t</m> using the 10%continuous growth rate, <m>f(t)=1000(1.10517)^{t}</m> using the 10.517%actual annual yield rate.
+            This means we could write two different looking but equivalent formulas for this account’s growth: <m>f(t)=1000e^{0}.10t</m> using the 10% continuous growth rate, <m>f(t)=1000(1.10517)^{t}</m> using the 10.517% actual annual yield rate.
         </p>
 
         <exercise>
@@ -979,9 +980,10 @@
                 <p>
                     [Exercise Answers]
                     <ol>
+                        <answer>                     
                         <li>
                             <p>
-                                A and C are exponential functions, they grow by a %not a constant number.
+                                A and C are exponential functions, they grow by a percentage, not a constant number.
                             </p>
                         </li>
 
@@ -1005,10 +1007,11 @@
 
                         <li>
                             <p>
-                                An initial substance weighing 20 grams is growing at a continuous rate of 12%per day.
+                                An initial substance weighing 20 grams is growing at a continuous rate of 12% per day.
                             </p>
                         </li>
-                    </ol>
+                </answer>
+            </ol>
                 </p>
             </statement>
         </exercise>
