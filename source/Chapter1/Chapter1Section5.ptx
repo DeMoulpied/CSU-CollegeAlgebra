@@ -616,7 +616,7 @@
             In some cases, it is desirable to decompose a function – to write it as a composition of two simpler functions.
         </p>
 
-        <exercise>
+        <example>
             <statement>
                 <p>
                     Write <m>f(x)=3+\sqrt{5-x^{2}}</m> as the composition of two functions.
@@ -646,7 +646,7 @@
                     Another non-trivial decomposition would be <m>h(x)=x^{2}</m> and <m>g(x)=3+\sqrt{5-x}</m>.
                 </p>
             </statement>
-        </exercise>
+        </example>
 </subsection>
 <subsection>
         <title>Answers</title>

@@ -965,7 +965,7 @@
             While the continuous growth rate in the example above was 10%, the actual annual yield was 10.517%.
             This means we could write two different looking but equivalent formulas for this account's growth: <m>f(t)=1000e^{0}.10t</m> using the 10% continuous growth rate, <m>f(t)=1000(1.10517)^{t}</m> using the 10.517% actual annual yield rate.
         </p></subsection>
-<subsection xml:id="subsec-Answers">
+<subsection>
     <title>Answers</title>
     
 
