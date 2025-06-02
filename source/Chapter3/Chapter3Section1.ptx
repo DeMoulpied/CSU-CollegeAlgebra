@@ -6,11 +6,8 @@
   <subsection>
     <title>Introduction</title>
 
-    <definition>
+    <objectives>
         <title>Important Topics of this Section</title>
-
-        <statement>
-            <p>
                 <ul>
                     <li>
                         <p>
@@ -66,9 +63,7 @@
                         </p>
                     </li>
                 </ul>
-            </p>
-        </statement>
-    </definition>
+            </objectives>
 
     <p>
         Suppose that a square is cut out of cardboard, with each side having length <m>L</m>.
@@ -466,12 +461,17 @@
                 Given the function <m>f(x)=0.2(x-2)(x+1)(x-5)</m>, determine the roots and vertical intercept of the function <m>f</m>.
             </p>
         </statement>
-    </exercise>
+    </exercise></subsection>
+
+
+<subsection xml:id="subsec-Answers">
+    <title>Answers</title>
 
     <exercise>
         <statement>
-            <p>
-                [Exercise Answers]
+            <p>Answers to Checkpoint Exercises</p></statement>
+                <answer>
+                    <p>
                 <ol>
                     <li>
                         <p>
@@ -505,7 +505,7 @@
                     </li>
                 </ol>
             </p>
-        </statement>
+        </answer>
     </exercise>
 </subsection>
 

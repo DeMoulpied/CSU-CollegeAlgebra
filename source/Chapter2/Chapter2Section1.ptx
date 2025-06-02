@@ -3,6 +3,53 @@
 <section xml:id="Chapter2Section1" xmlns:xi="http://www.w3.org/2001/XInclude">
   <title>Linear Functions</title>
 
+    <objectives>
+        <title>Important Topics of this Section</title>
+                <ul>
+                    <li>
+                        <p>
+                            Definition of Modeling
+                        </p>
+                    </li>
+
+                    <li>
+                        <p>
+                            Definition of a linear function
+                        </p>
+                    </li>
+
+                    <li>
+                        <p>
+                            Structure of a linear function
+                        </p>
+                    </li>
+
+                    <li>
+                        <p>
+                            Increasing and Decreasing functions
+                        </p>
+                    </li>
+
+                    <li>
+                        <p>
+                            Finding the vertical intercept <m>(0, b)</m>
+                        </p>
+                    </li>
+
+                    <li>
+                        <p>
+                            Finding the slope/rate of change, <m>m</m>
+                        </p>
+                    </li>
+
+                    <li>
+                        <p>
+                            Interpreting linear functions
+                        </p>
+                    </li>
+                </ul>
+    </objectives>
+
     <p>
         As you hop into a taxicab in Las Vegas, the meter will immediately read $3.50; this is the “drop” charge made when the taximeter is activated.
         After that initial fee, the taximeter will add $2.76 for each mile the taxi drives .
@@ -394,62 +441,12 @@
         </statement>
     </example>
 
-    <example>
-        <title>Important Topics of this Section</title>
 
-        <statement>
-            <p>
-                <ul>
-                    <li>
-                        <p>
-                            Definition of Modeling
-                        </p>
-                    </li>
-
-                    <li>
-                        <p>
-                            Definition of a linear function
-                        </p>
-                    </li>
-
-                    <li>
-                        <p>
-                            Structure of a linear function
-                        </p>
-                    </li>
-
-                    <li>
-                        <p>
-                            Increasing and Decreasing functions
-                        </p>
-                    </li>
-
-                    <li>
-                        <p>
-                            Finding the vertical intercept <m>(0, b)</m>
-                        </p>
-                    </li>
-
-                    <li>
-                        <p>
-                            Finding the slope/rate of change, <m>m</m>
-                        </p>
-                    </li>
-
-                    <li>
-                        <p>
-                            Interpreting linear functions
-                        </p>
-                    </li>
-                </ul>
-            </p>
-        </statement>
-    </example>
 
     <exercise>
         <statement>
-            <p>
-                [Exercise Answers]
+            <p>Answers to Checkpoint Exercises</p></statement>
+            <answer><p>
                 <ol>
                     <li>
                         <p>
@@ -478,7 +475,7 @@
                     </li>
                 </ol>
             </p>
-        </statement>
+        </answer>
     </exercise>
 
 </section>

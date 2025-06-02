@@ -14,11 +14,9 @@
         Fortunately, there are systematic ways to shift, stretch, compress, flip and combine functions to help them become better models for the problems we are trying to solve.
         We can transform what we already know into what we need, hence the name, “Transformation of functions.” When we have a story problem, formula, graph, or table, we can then transform that function in a variety of ways to form new functions.
     </p>
-    <example>
+</introduction>
+            <objectives>
             <title>Important Topics of This Section</title>
-
-            <statement>
-                <p>
                     <ul>
                         <li>
                             <p>
@@ -62,10 +60,8 @@
                             </p>
                         </li>
                     </ul>
-                </p>
-            </statement>
-        </example>
-</introduction>
+        </objectives>
+
     
 
 
@@ -1481,13 +1477,14 @@
         </example>
 </subsection>
 <subsection>
-        <title>Conclusions</title>
-        
+        <title>Answers</title>
+
 
         <exercise>
             <statement>
-                <p>
-                    [Exercise Answers]
+                <p>Answers to Checkpoint Exercises</p></statement>
+                <answer>
+                    <p>
                     <ol>
                         <li>
                             <p>
@@ -1550,7 +1547,7 @@
                         </li>
                     </ol>
                 </p>
-            </statement>
+            </answer>
         </exercise>
     </subsection>
 </section>

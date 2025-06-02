@@ -6,11 +6,8 @@
     <subsection>
         <title>Introduction</title>
 
-        <definition>
+        <objectives>
             <title>Important Topics of this Section</title>
-
-            <statement>
-                <p>
                     <ul>
                         <li>
                             <p>
@@ -67,9 +64,7 @@
                             </p>
                         </li>
                     </ul>
-                </p>
-            </statement>
-        </definition>
+                </objectives>
 
         <p>
             India is the second most populous country in the world, with a population in 2008 of about 1.14 billion people.
@@ -969,11 +964,14 @@
         <p>
             While the continuous growth rate in the example above was 10%, the actual annual yield was 10.517%.
             This means we could write two different looking but equivalent formulas for this account's growth: <m>f(t)=1000e^{0}.10t</m> using the 10% continuous growth rate, <m>f(t)=1000(1.10517)^{t}</m> using the 10.517% actual annual yield rate.
-        </p>
+        </p></subsection>
+<subsection xml:id="subsec-Answers">
+    <title>Answers</title>
+    
 
         <exercise>
             <statement><p>
-                Solutions to Checkpoint exercises
+                Answers to Checkpoint Exercises
             </p></statement>
             <answer><p>
                     <ol>

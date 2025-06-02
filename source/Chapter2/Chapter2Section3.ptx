@@ -288,9 +288,10 @@
 </example>
 
 <exercise>
-    <statement>
+    <statement><p>Answer to Checkpoint Exercise</p></statement>
+    <answer>
         <p>
-            [Exercise Solutions] Letting <m>t</m> be the number of minutes since she got impatient, and <m>N</m> be the number rows loaded, in millions, we have two points: <m>(0, 1.2)</m> and <m>(10, 2.5)</m>.
+            Letting <m>t</m> be the number of minutes since she got impatient, and <m>N</m> be the number rows loaded, in millions, we have two points: <m>(0, 1.2)</m> and <m>(10, 2.5)</m>.
         </p>
 
         <p>
@@ -301,9 +302,9 @@
         <p>
             To determine how long she will have to wait,we need to solve for when <m>N = 80</m>.
             <m>N=0.13t+1.2=80,</m> <m>0.13t=78.8,</m> <m>t=\dfrac{78.8}{0.13}\approx 606</m>.
-            She’ll have to wait another 606 minutes, about 10 hours.
+            She'll have to wait another 606 minutes, about 10 hours.
         </p>
-    </statement>
+    </answer>
 </exercise>
 
 </section>

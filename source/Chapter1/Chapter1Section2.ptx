@@ -5,7 +5,7 @@
 
     <subsection>
         <title>What is a Function?</title>
-<list>
+<objectives>
             <title>Important Topics of this Section</title>
                     <ul>
                         <li>
@@ -80,7 +80,7 @@
                             </p>
                         </li>
                     </ul>
-        </list>
+                </objectives>
         <p>
             The natural world is full of relationships between quantities that change.
             When we see these relationships, it is natural for us to ask, ”If I know one quantity, can I then determine the other?” This establishes the idea of an input quantity, or independent variable, and a corresponding output quantity, or dependent variable.
@@ -1151,12 +1151,13 @@
 
 
     <subsection>
-        <title>Solutions</title>
+        <title>Answers</title>
         <exercise>
             <statement><p>
-                Solutions to checkpoint exercises.
+                Answers to checkpoint exercises.
             </p> </statement>
-                    <answer><p>
+                    <answer>
+                        <p>
                     <ol>
                         <li>
                             <p>
@@ -1196,7 +1197,9 @@
                                 Square both sides to get <m>m-4=4</m>, so <m>m = 8</m>
                             </p>
                         </li>
-                    </ol></p></answer>
+                    </ol>
+                </p>
+                </answer>
         </exercise>
     </subsection>
 </section>

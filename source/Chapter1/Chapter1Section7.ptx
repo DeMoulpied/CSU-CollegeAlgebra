@@ -6,11 +6,8 @@
   
     <subsection>
         <title>Definitions</title>
-<example>
+<objectives>
             <title>Important Topics of this Section</title>
-
-            <statement>
-                <p>
                     <ul>
                         <li>
                             <p>
@@ -42,9 +39,7 @@
                             </p>
                         </li>
                     </ul>
-                </p>
-            </statement>
-        </example>
+        </objectives>
         <p>
             A fashion designer is traveling to Milan for a fashion show.
             He asks his assistant, Betty, what 75 degrees Fahrenheit is in Celsius, and after a quick search on Google, she finds the formula <m>C=\frac{5}{9}(F-32)</m>.
@@ -342,14 +337,15 @@
 
 
     <subsection>
-        <title>Conclusions</title>
+        <title>Answers</title>
 
         
 
         <exercise>
             <statement>
-                <p>
-                    [Exercise Answers]
+                <p>Answers to Checkpoint Exercises</p></statement>
+                <answer>
+                    <p>
                     <ol>
                         <li>
                             <p>
@@ -394,7 +390,7 @@
                         </li>
                     </ol>
                 </p>
-            </statement>
+            </answer>
         </exercise>
     </subsection>
 

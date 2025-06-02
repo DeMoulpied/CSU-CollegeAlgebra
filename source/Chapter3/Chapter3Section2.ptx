@@ -5,18 +5,8 @@
 
   <subsection>
     <title>Introduction</title>
-
-    <p>
-        In this section, we will explore the family of 2nd degree polynomials, the quadratic functions.
-        While they share many characteristics of polynomials in general, the calculations involved in working with quadratics is typically a little simpler, which makes them a good place to start our exploration of short run behavior.
-        In addition, quadratics commonly arise from problems involving area and projectile motion, providing some interesting applications.
-    </p>
-
-    <definition>
+<objectives>
         <title>Important Topics of this Section</title>
-
-        <statement>
-            <p>
                 <ul>
                     <li>
                         <p>
@@ -60,9 +50,14 @@
                         </p>
                     </li>
                 </ul>
-            </p>
-        </statement>
-    </definition>
+    </objectives>
+    <p>
+        In this section, we will explore the family of 2nd degree polynomials, the quadratic functions.
+        While they share many characteristics of polynomials in general, the calculations involved in working with quadratics is typically a little simpler, which makes them a good place to start our exploration of short run behavior.
+        In addition, quadratics commonly arise from problems involving area and projectile motion, providing some interesting applications.
+    </p>
+
+    
 
     <example>
         <statement>
@@ -568,12 +563,16 @@
                 </ol>
             </p>
         </statement>
-    </exercise>
+    </exercise></subsection>
+<subsection xml:id="subsec-Answers">
+    <title>Answers</title>
+    
 
     <exercise>
         <statement>
-            <p>
-                [Exercise Answers]
+            <p>Answers to Checkpoint Exercises</p></statement>
+            <answer>
+                <p>
                 <ol>
                     <li>
                         <p>
@@ -606,7 +605,7 @@
                     </li>
                 </ol>
             </p>
-        </statement>
+        </answer>
     </exercise>
 </subsection>
 </section>

@@ -8,7 +8,52 @@
         We will begin this exploration of linear functions with a look at graphs.
     </p>
 </introduction>
+<objectives>
+            <title>Important Topics of this Section</title>
+                    <ul>
+                        <li>
+                            <p>
+                                Methods for graphing linear functions
+                            </p>
+                        </li>
 
+                        <li>
+                            <p>
+                                Horizontal intercepts of linear functions
+                            </p>
+                        </li>
+
+                        <li>
+                            <p>
+                                Horizontal lines
+                            </p>
+                        </li>
+
+                        <li>
+                            <p>
+                                Vertical lines
+                            </p>
+                        </li>
+
+                        <li>
+                            <p>
+                                Parallel lines
+                            </p>
+                        </li>
+
+                        <li>
+                            <p>
+                                Perpendicular lines
+                            </p>
+                        </li>
+
+                        <li>
+                            <p>
+                                Intersecting lines
+                            </p>
+                        </li>
+                    </ul>
+        </objectives>
 
     <subsection>
         <title>Basics of Graphing Linear Functions</title>
@@ -548,64 +593,14 @@
 
 
     <subsection>
-        <title>Conclusions</title>
+        <title>Answers</title>
 
-        <example>
-            <title>Important Topics of this Section</title>
-
-            <statement>
-                <p>
-                    <ul>
-                        <li>
-                            <p>
-                                Methods for graphing linear functions
-                            </p>
-                        </li>
-
-                        <li>
-                            <p>
-                                Horizontal intercepts of linear functions
-                            </p>
-                        </li>
-
-                        <li>
-                            <p>
-                                Horizontal lines
-                            </p>
-                        </li>
-
-                        <li>
-                            <p>
-                                Vertical lines
-                            </p>
-                        </li>
-
-                        <li>
-                            <p>
-                                Parallel lines
-                            </p>
-                        </li>
-
-                        <li>
-                            <p>
-                                Perpendicular lines
-                            </p>
-                        </li>
-
-                        <li>
-                            <p>
-                                Intersecting lines
-                            </p>
-                        </li>
-                    </ul>
-                </p>
-            </statement>
-        </example>
+        
 
         <exercise>
             <statement>
-                <p>
-                    [Exercise Answers]
+                <p>Answers to Checkpoint Exercises</p></statement>
+                    <answer><p>
                     <ol>
                         <li>
                             <p>
@@ -663,7 +658,7 @@
                         </li>
                     </ol>
                 </p>
-            </statement>
+            </answer>
         </exercise>
     </subsection>
 </section>

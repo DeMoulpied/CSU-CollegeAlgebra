@@ -5,11 +5,8 @@
 
   <subsection>
         <title>Definitions</title>
-<example>
+<objectives>
             <title>Important Topics of this Section</title>
-
-            <statement>
-                <p>
                     <ul>
                         <li>
                             <p>
@@ -60,9 +57,7 @@
                             </p>
                         </li>
                     </ul>
-                </p>
-            </statement>
-        </example>
+        </objectives>
         <p>
             Suppose we wanted to calculate how much it costs to heat a house on a particular day of the year.
             The cost to heat a house will depend on the average daily temperature, and the average daily temperature depends on the particular day of the year.
@@ -654,14 +649,15 @@
         </exercise>
 </subsection>
 <subsection>
-        <title>Conclusions</title>
+        <title>Answers</title>
 
         
 
         <exercise>
             <statement>
-                <p>
-                    [Exercise Answers]
+                <p>Answers to Checkpoint Exercises</p></statement>
+                <answer>
+                    <p>
                     <ol>
                         <li>
                             <p>
@@ -711,7 +707,7 @@
                         </li>
                     </ol>
                 </p>
-            </statement>
+            </answer>
         </exercise>
     </subsection>
 

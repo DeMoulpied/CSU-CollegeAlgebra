@@ -5,17 +5,8 @@
 
       <subsection>
         <title>Introduction</title>
-
-        <p>
-            In the previous sections, we have built polynomials of the form <m>f(x)=a_{n}x^{n}+a_{n-1}x^{n-1}+\cdots a_{2}x^{2}+a_{1}x+a_{0}</m>.
-            In this section, we explore ratios of these functions, known as rational functions.
-        </p>
-
-        <definition>
+<objectives>
             <title>Important Topics of this Section</title>
-
-            <statement>
-                <p>
                     <ul>
                         <li>
                             <p>
@@ -66,9 +57,13 @@
                             </p>
                         </li>
                     </ul>
-                </p>
-            </statement>
-        </definition>
+        </objectives>
+        <p>
+            In the previous sections, we have built polynomials of the form <m>f(x)=a_{n}x^{n}+a_{n-1}x^{n-1}+\cdots a_{2}x^{2}+a_{1}x+a_{0}</m>.
+            In this section, we explore ratios of these functions, known as rational functions.
+        </p>
+
+        
 
         <example>
             <statement>
@@ -697,12 +692,15 @@
                     This gives us a final function of <m>f(x)=\dfrac{4(x+2)(x-3)}{3(x+1)(x-2)^2}</m>.
                 </p>
             </statement>
-        </example>
+        </example></subsection>
+<subsection xml:id="subsec-">
+    <title>Answers</title>
+    
 
         <exercise>
             <statement>
-                <p>
-                    [Exercise Answers]
+                <p>Answers to Checkpoint Exercises</p></statement>
+                <answer><p>
                     <ol>
                         <li>
                             <p>
@@ -761,7 +759,7 @@
                         </li>
                     </ol>
                 </p>
-            </statement>
+            </answer>
         </exercise>
     </subsection>
 

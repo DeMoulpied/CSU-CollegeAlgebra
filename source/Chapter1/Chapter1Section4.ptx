@@ -5,11 +5,8 @@
 
   <subsection>
         <title>Definitions</title>
-<example>
+<objectives>
             <title>Important Topics of This Section</title>
-
-            <statement>
-                <p>
                     <ul>
                         <li>
                             <p>
@@ -35,9 +32,7 @@
                             </p>
                         </li>
                     </ul>
-                </p>
-            </statement>
-        </example>
+        </objectives>
         <p>
             Since functions represent how an output quantity varies with an input quantity, it is natural to ask about the rate at which the values of the function are changing.
         </p>
@@ -513,14 +508,15 @@
 
 
     <subsection>
-        <title>Conclusions</title>
+        <title>Answers</title>
 
         
 
         <exercise>
             <statement>
-                <p>
-                    [Exercise Answers]
+                <p>Answers to Checkpoint Exercises</p></statement>
+                <answer>
+                    <p>
                     <ol>
                         <li>
                             <p>
@@ -541,7 +537,7 @@
                         </li>
                     </ol>
                 </p>
-            </statement>
+            </answer>
         </exercise>
     </subsection>
 

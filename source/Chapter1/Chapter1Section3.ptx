@@ -5,11 +5,8 @@
 
   <subsection>
         <title>Definitions</title>
-<example>
+<objectives>
             <title>Important Topics of this Section</title>
-
-            <statement>
-                <p>
                     <ul>
                         <li>
                             <p>
@@ -53,9 +50,7 @@
                             </p>
                         </li>
                     </ul>
-                </p>
-            </statement>
-        </example>
+        </objectives>
         <p>
             One of our main goals in mathematics is to model the real world with mathematical functions.
             In doing so, it is important to keep in mind the limitations of those models we create.
@@ -615,14 +610,13 @@
 
 
     <subsection>
-        <title>Conclusions</title>
-
-        
-
+        <title>Answers</title>
         <exercise>
             <statement>
-                <p>
-                    [Exercise Answers]
+                <p>Answers to Checkpoint Exercises</p>
+                </statement>
+                <answer>
+                    <p>
                     <ol>
                         <li>
                             <p>
@@ -654,7 +648,7 @@
                         </li>
                     </ol>
                 </p>
-            </statement>
+            </answer>
         </exercise>
     </subsection>
 
