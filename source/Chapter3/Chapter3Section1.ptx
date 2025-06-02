@@ -140,8 +140,7 @@
         <caption>Graphs of even powered power functions.</caption>
             <image source="C3S1Image1.png">
             <shortdescription>
-                <p>Graphs of x^2, x^4 and x^6, all U-shaped and passing through the origin and 1 comma 1. x^6 is flattest near the origin and steepest away from the origin; x^2 is the most rounded near the origin and least steep away from the origin.
-                </p>
+                Graphs of x^2, x^4 and x^6, all U-shaped and passing through the origin and 1 comma 1. x^6 is flattest near the origin and steepest away from the origin; x^2 is the most rounded near the origin and least steep away from the origin.
             </shortdescription>
             </image>
     </figure>
@@ -168,8 +167,7 @@
         <caption>Graphs of odd powered power functions.</caption>
             <image source="C3S1Image2.png">
             <shortdescription>
-                <p>Graphs of x^3, x^5 and x^7, all increasing quickly at first, flattening near the origin, then increasing again, passing through 1 comma 1. x^7 is flattest near the origin and steepest away from the origin; x^3 is the most rounded near the origin and least steep away from the origin.
-                </p>
+                Graphs of x^3, x^5 and x^7, all increasing quickly at first, flattening near the origin, then increasing again, passing through 1 comma 1. x^7 is flattest near the origin and steepest away from the origin; x^3 is the most rounded near the origin and least steep away from the origin.
             </shortdescription>
             </image>
     </figure>
@@ -375,14 +373,13 @@
                 What can we determine about the long run behavior and degree of the equation for the polynomial graphed here?
             </p>
 
-            <figure xml:id="c3s1i3">
+
                     <image source="C3S1Image3.png">
                     <shortdescription>
-                        <p>Polynomial graph increasing to 0 comma 2, decreasing to about 3.8 comma negative 2.1, then increasing.
-                        </p>
+                        Polynomial graph increasing to 0 comma 2, decreasing to about 3.8 comma negative 2.1, then increasing.
                     </shortdescription>
                     </image>
-            </figure>
+
 
             <p>
                 Since the output grows large and positive as the inputs grow large and positive, we describe the long run behavior symbolically by writing: as <m>x\rightarrow \infty, f(x)\rightarrow \infty</m>.

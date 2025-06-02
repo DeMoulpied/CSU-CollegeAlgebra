@@ -14,14 +14,11 @@
             The next day, the designer sends his assistant the week’s weather forecast for Milan and asks her to convert the temperatures to Fahrenheit.
         </p>
 
-                    <figure xml:id="c1s7i1">
                 <image source="C1S7Image1.png">
                 <shortdescription>
-                    <p>A weather forecast for four days with temperatures in Celsius.
-                    </p>
+                    A weather forecast for four days with temperatures in Celsius.
                 </shortdescription>
             </image>
-            </figure>
 
         <p>
             At first, Betty might consider using the formula she has already found to do the conversions.
@@ -88,14 +85,13 @@
             <m>f^{-1}(f(a))=a</m> and <m>f(f^{-1}(b))=b</m>.
         </p>
 
-        <figure xml:id="c1s7i2">
+
                 <image source="C1S7Image2.png">
                 <shortdescription>
-                    <p>A diagram showing two circles, one labeled domain of f with a point labeled a in the circle, and the other labeled Range of f with a point labeled b in the circle.  An arrow labeled f of x points from a to b. An arrow labeled f inverse of x points from b to a.
-                    </p>
+                    A diagram showing two circles, one labeled domain of f with a point labeled a in the circle, and the other labeled Range of f with a point labeled b in the circle.  An arrow labeled f of x points from a to b. An arrow labeled f inverse of x points from b to a.
                 </shortdescription>
             </image>
-            </figure>
+
 
         <p>
             Since the outputs of the function <m>f</m> are the inputs to <m>f^{-1}</m>, the range of <m>f</m> is also the domain of <m>f^{-1}</m>.
@@ -216,8 +212,7 @@
                 <caption>Graph of <m>g(x)</m></caption>
                 <image source="C1S7Image3.png">
                 <shortdescription>
-                    <p>An increasing curving-up graph, passing through 3 comma 1 and 5 comma 3
-                    </p>
+                    An increasing curving-up graph, passing through 3 comma 1 and 5 comma 3
                 </shortdescription>
             </image>
             </figure>

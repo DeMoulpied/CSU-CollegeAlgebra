@@ -101,7 +101,7 @@
 
         <tabular left="minor">
             <col halign="center" right="minor"> </col> <col halign="center" right="minor"> </col> <col halign="center" right="minor"> </col>
-            <row>
+            <row><cell></cell>
             </row>
 
             <row>
@@ -226,7 +226,7 @@
 
         <tabular left="minor">
             <col halign="center" right="minor"> </col> <col halign="center" right="minor"> </col> <col halign="center" right="minor"> </col>
-            <row>
+            <row><cell></cell>
             </row>
 
             <row>
@@ -294,8 +294,7 @@
     <caption>Graphs of the number of stores owned by Company A and Company B</caption>
         <image source="C4S1Image1.png">
         <shortdescription>
-            <p>Two graphs on the same axes. The first, labeled A, is a straight line.  The second, labeled B,  curves upwards becoming increasingly steep as x increases.
-            </p>
+            Two graphs on the same axes. The first, labeled A, is a straight line.  The second, labeled B,  curves upwards becoming increasingly steep as x increases.
         </shortdescription>
         </image>
 </figure>
@@ -524,14 +523,12 @@
                     Find an equation for the exponential function graphed.
                 </p>
 
-                <figure xml:id="c4s1i2">
+
         <image source="C4S1Image2.png">
         <shortdescription>
-            <p>An increasing graph that starts out on the left fairly flat and just above the x-axis, and curves upwards as x increases, passing through negative 1 comma 1, 2 comma 3, and 3 comma 4.
-            </p>
+            An increasing graph that starts out on the left fairly flat and just above the x-axis, and curves upwards as x increases, passing through negative 1 comma 1, 2 comma 3, and 3 comma 4.
         </shortdescription>
         </image>
-</figure>
 
                 <p>
                     The initial value for the function is not clear in this graph, so we will instead work using two clearer points.
@@ -672,7 +669,7 @@
 
         <tabular left="minor">
             <col halign="center" right="minor"> </col> <col halign="center" right="minor"> </col>
-            <row>
+            <row><cell></cell>
             </row>
 
             <row>
@@ -792,7 +789,7 @@
 
         <tabular left="minor">
             <col halign="center" right="minor"> </col> <col halign="center" right="minor"> </col>
-            <row>
+            <row><cell></cell>
             </row>
 
             <row>
@@ -867,7 +864,6 @@
                 <cell> </cell>
             </row>
         </tabular>
-        Caption tab:my_label
         <p>
             These values do indeed appear to be approaching an upper limit.
             This value ends up being so important that it gets represented by its own letter, much like how <m>\pi</m> represents a very special number.
@@ -978,7 +974,7 @@
         <exercise>
             <statement>
                 <p>
-                    [Exercise Answers]<answer>
+                    [Exercise Answers]<answer><p>
                     <ol>
                                              
                         <li>
@@ -1011,8 +1007,8 @@
                             </p>
                         </li>
                 
-            </ol>
-            </answer>    </p>
+            </ol></p>
+        </answer>    </p>
             </statement>
         </exercise>
     </subsection>

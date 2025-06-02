@@ -186,14 +186,11 @@
             These graphs are sketched below, with <m>Y(m)</m> drawn dashed.
         </p>
 
-        <figure xml:id="c2s3i1">
               <image source="C2S3Image1.png">
               <shortdescription>
-                  <p>A graph with two lines. A solid line passing through 0 comma 16 and 160 comma 116.8, and a dashed line passing through 0 comma 20 and 160 comma 114.4
-                  </p>
+                  A graph with two lines. A solid line passing through 0 comma 16 and 160 comma 116.8, and a dashed line passing through 0 comma 20 and 160 comma 114.4
               </shortdescription>
               </image>
-      </figure>
 
         <p>
             To find the intersection, we set the equations equal and solve:

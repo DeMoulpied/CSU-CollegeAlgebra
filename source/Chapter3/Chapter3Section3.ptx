@@ -105,6 +105,9 @@
         While quadratics can be solved using the relatively simple quadratic formula, the corresponding formulas for cubic and 4th degree polynomials are not simple enough to remember, and formulas do not exist for general higher-degree polynomials.
         Consequently, we will limit ourselves to three cases:
     </p>
+<list><title>Methods of Finding Roots of Polynomial Functions</title>
+
+
 
     <ul>
         <li>
@@ -125,7 +128,7 @@
             </p>
         </li>
     </ul>
-
+</list>
     <example>
         <statement>
             <p>
@@ -186,8 +189,7 @@
               <caption>Graph of <m>h(t)=t^3+4t^2+t-6</m></caption>
                   <image source="C3S3Image1.png">
                   <shortdescription>
-                      <p>A polynomial that increases, decreases, then increases, with apparent horizontal intercepts at negative 3 comma 0, negative 2 comma 0 and 1 comma 0
-                      </p>
+                      A polynomial that increases, decreases, then increases, with apparent horizontal intercepts at negative 3 comma 0, negative 2 comma 0 and 1 comma 0
                   </shortdescription>
                   </image>
           </figure>
@@ -223,8 +225,7 @@
       <caption>Graph of <m>f(x)=(x+3)(x-2)^{2} (x+1)^{3}</m></caption>
           <image source="C3S3Image2.png">
           <shortdescription>
-              <p>A polynomial that decreases passing through negative 3 comma 0 down to about negative 2.5 comma negative 33 then increasing but flatting off at negative 1 comma 0 on the way up to about 0.9 comma 32, then decreasing to 2 comma 0, then increasing again.
-              </p>
+              A polynomial that decreases passing through negative 3 comma 0 down to about negative 2.5 comma negative 33 then increasing but flatting off at negative 1 comma 0 on the way up to about 0.9 comma 32, then decreasing to 2 comma 0, then increasing again.
           </shortdescription>
           </image>
   </figure>
@@ -266,8 +267,7 @@
               <caption>A single zero, also known as a zero with multiplicity one</caption>
                   <image source="C3S3Image3.png">
                   <shortdescription>
-                      <p>A graph showing a horizontal axis, and a curve passing directly through the axis
-                      </p>
+                      A graph showing a horizontal axis, and a curve passing directly through the axis
                   </shortdescription>
                   </image>
           </figure>
@@ -278,8 +278,7 @@
             <caption>A double zero, also known as a zero with multiplicity two</caption>
                 <image source="C3S3Image4.png">
                 <shortdescription>
-                    <p>A graph showing a horizontal axis, and a curve decreasing down to the axis, touching the axis, then increasing away from the axis.
-                    </p>
+                    A graph showing a horizontal axis, and a curve decreasing down to the axis, touching the axis, then increasing away from the axis.
                 </shortdescription>
                 </image>
         </figure>
@@ -291,8 +290,7 @@
               <caption>A triple zero, also known as a zero with multiplicity three</caption>
                   <image source="C3S3Image5.png">
                   <shortdescription>
-                      <p>A graph showing a horizontal axis, and a curve passing through the axis, but flattening as it passes through the axis.
-                      </p>
+                      A graph showing a horizontal axis, and a curve passing through the axis, but flattening as it passes through the axis.
                   </shortdescription>
                   </image>
           </figure>
@@ -350,8 +348,7 @@
               <caption>Graph of f(x)=-2(x+3)^{2} (x-5)</caption>
                   <image source="C3S3Image6.png">
                   <shortdescription>
-                      <p>A graph that decreases down to negative 3 comma 0 then increases through 0 comma 90 and continues up to about 2.1 comma 150, then deceases passing through 5 comma 0
-                      </p>
+                      A graph that decreases down to negative 3 comma 0 then increases through 0 comma 90 and continues up to about 2.1 comma 150, then deceases passing through 5 comma 0
                   </shortdescription>
                   </image>
           </figure>
@@ -415,14 +412,12 @@
                 On a number line this would look like:
             </p>
 
-            <figure xml:id="c3s3i7">
                   <image source="C3S3Image7.png">
                   <shortdescription>
-                      <p>A numberline broken into 4 segments.  The segment to the left of -3 is labeled positive. The segment from -3 to -1 is labeled negative. The segment from -1 to 4 is labeled negative. The segment to the right of 4 is labeled positive.
-                      </p>
+                      A numberline broken into 4 segments.  The segment to the left of -3 is labeled positive. The segment from -3 to -1 is labeled negative. The segment from -1 to 4 is labeled negative. The segment to the right of 4 is labeled positive.
                   </shortdescription>
                   </image>
-          </figure>
+
 
             <p>
                 From our test values, we can determine this function is positive when <m>x &#x3C; -3</m> or <m>x > 4</m>, or in interval notation, <m>(-\infty,-3)\cup(4,\infty)</m>.
@@ -456,14 +451,13 @@
                 Sketching a graph of this quadratic will allow us to determine when it is positive.
             </p>
 
-            <figure xml:id="c3s3i8">
+
                   <image source="C3S3Image8.png">
                   <shortdescription>
-                      <p>A downwards opening U-shaped parabola with horizontal intercepts at negative 6 comma 0 and 1 comma 0
-                      </p>
+                      A downwards opening U-shaped parabola with horizontal intercepts at negative 6 comma 0 and 1 comma 0
                   </shortdescription>
                   </image>
-          </figure>
+
 
             <p>
                 From the graph we can see this function is positive for inputs between the intercepts.
@@ -528,14 +522,13 @@
                 Write a formula for the polynomial function graphed here.
             </p>
 
-            <figure xml:id="c3s3i9">
+
                   <image source="C3S3Image9.png">
                   <shortdescription>
-                      <p>A polynomial that decreases passing through negative 3 comma 0, then increases passing through 0 comma negative 2 up to 2 comma 0, then decreases to about 4 comma negative 1 then increases passing through 5 comma 0
-                      </p>
+                      A polynomial that decreases passing through negative 3 comma 0, then increases passing through 0 comma negative 2 up to 2 comma 0, then decreases to about 4 comma negative 1 then increases passing through 5 comma 0
                   </shortdescription>
                   </image>
-          </figure>
+
 
             <p>
                 This graph has three horizontal intercepts: <m>x = -3, 2, \text{ and }5</m>.
@@ -567,14 +560,13 @@
                 Given the graph, write a formula for the function shown.
             </p>
 
-            <figure xml:id="c3s3i10">
+
                   <image source="C3S3Image10.png">
                   <shortdescription>
-                      <p>A polynomial that increases to negative 1 comma 0, decreases to 0 comma negative 4, increases up to 2 comma 0 leveling off at that intercept, the increases further before decreasing passing through 4 comma 0
-                      </p>
+                      A polynomial that increases to negative 1 comma 0, decreases to 0 comma negative 4, increases up to 2 comma 0 leveling off at that intercept, the increases further before decreasing passing through 4 comma 0
                   </shortdescription>
                   </image>
-          </figure>
+
         </statement>
     </exercise>
 </subsection>
@@ -601,14 +593,13 @@
                 We will start this problem by drawing a picture, labeling the width of the cut-out squares with a variable, <m>w</m>.
             </p>
 
-            <figure xml:id="c3s3i11">
+
                   <image source="C3S3Image11.png">
                   <shortdescription>
-                      <p>A large rectangle with squares in each corner. The sides of the squares are labeled w.
-                      </p>
+                      A large rectangle with squares in each corner. The sides of the squares are labeled w.
                   </shortdescription>
                   </image>
-          </figure>
+
 
             <p>
                 Notice that after a square is cut out from each end, it leaves a <m>(14-2w)</m> cm by <m>(20-2w)</m> cm rectangle for the base of the box, and the box will be <m>w</m> cm tall.
@@ -622,14 +613,13 @@
                 Using technology to sketch a graph allows us to estimate the maximum value for the volume, restricted to reasonable values for <m>w</m>: values from 0 to 7 (consider why we only care about values of <m>w</m> in this range).
             </p>
 
-            <figure xml:id="c3s3i12">
+
                   <image source="C3S3Image12.png">
                   <shortdescription>
-                      <p>A polynomial that increases passing through 0 comma 0 up to about 2.4 comma 340, then decreases passing through 7 comma 0, then increases passing through 10 comma 0
-                      </p>
+                      A polynomial that increases passing through 0 comma 0 up to about 2.4 comma 340, then decreases passing through 7 comma 0, then increases passing through 10 comma 0
                   </shortdescription>
                   </image>
-          </figure>
+
 
             <p>
                 From this graph, we can estimate the maximum value is around 340, and occurs when the squares are about 2.75 cm wide.
@@ -640,8 +630,7 @@
               <caption>A zoomed-in view of the previous graph.</caption>
                   <image source="C3S3Image13.png">
                   <shortdescription>
-                      <p>A zoomed graph with horizontal scale from 2.3 to 3 in steps of 0.1 and vertical scale from 331 to 340. A downwards opening U-shaped graph with maximum around 2.7 comma 339
-                      </p>
+                      A zoomed graph with horizontal scale from 2.3 to 3 in steps of 0.1 and vertical scale from 331 to 340. A downwards opening U-shaped graph with maximum around 2.7 comma 339
                   </shortdescription>
                   </image>
           </figure>
@@ -683,8 +672,7 @@
                           <caption>Graph of <m>g(x)=x^{3}-x^{2}-6x</m></caption>
                               <image source="C3S3Image14.png">
                               <shortdescription>
-                                  <p>A graph that increases passing through negative 2 comma 0 up to about negative 1 comma 4, then decreases passing through 0 comma 0 down to about 1.7 comma negative 8 then increases passing through 3 comma 0
-                                  </p>
+                                  A graph that increases passing through negative 2 comma 0 up to about negative 1 comma 4, then decreases passing through 0 comma 0 down to about 1.7 comma negative 8 then increases passing through 3 comma 0
                               </shortdescription>
                               </image>
                       </figure>

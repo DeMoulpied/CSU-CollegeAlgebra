@@ -34,8 +34,7 @@
                 <caption>Graph of <m>V(t)</m></caption>
                 <image source="C1S6Image1.png">
                 <shortdescription>
-                    <p>Graph of V(t), which is 0 from t=0 to t=8, then increases to 10 comma 225, remains constant to 17 comma 225, decreases to 19 comma 0 then stays constant at 0 until t=24
-                    </p>
+                    Graph of V(t), which is 0 from t=0 to t=8, then increases to 10 comma 225, remains constant to 17 comma 225, decreases to 19 comma 0 then stays constant at 0 until t=24
                 </shortdescription>
             </image>
             </figure>
@@ -49,8 +48,7 @@
                 <caption>Graph of <m>S(t)</m></caption>
                 <image source="C1S6Image2.png">
                 <shortdescription>
-                    <p>Graph of S(t), which is 20 from t=0 to t=8, then increases to 10 comma 245, remains constant to 17 comma 245, decreases to 19 comma 20 then stays constant at 20 until t=24
-                    </p>
+                    Graph of S(t), which is 20 from t=0 to t=8, then increases to 10 comma 245, remains constant to 17 comma 245, decreases to 19 comma 20 then stays constant at 20 until t=24
                 </shortdescription>
             </image>
             </figure>
@@ -166,8 +164,7 @@
                 <caption><m>V(t)=</m> the original venting plan</caption>
                 <image source="C1S6Image1.png">
                 <shortdescription>
-                    <p>Graph of V(t), which is 0 from t=0 to t=8, then increases to 10 comma 225, remains constant to 17 comma 225, decreases to 19 comma 0 then stays constant at 0 until t=24
-                    </p>
+                    Graph of V(t), which is 0 from t=0 to t=8, then increases to 10 comma 225, remains constant to 17 comma 225, decreases to 19 comma 0 then stays constant at 0 until t=24
                 </shortdescription>
             </image>
             </figure>
@@ -175,8 +172,7 @@
                 <caption><m>F(t)=</m> starting 2 hours sooner</caption>
                 <image source="C1S6Image3.png">
                 <shortdescription>
-                    <p>Graph of F(t), which is 0 from t=negative 2 to t=6, then increases to 8 comma 225, remains constant to 15 comma 225, decreases to 17 comma 0 then stays constant at 0 until t=22
-                    </p>
+                    Graph of F(t), which is 0 from t=negative 2 to t=6, then increases to 8 comma 225, remains constant to 15 comma 225, decreases to 17 comma 0 then stays constant at 0 until t=22
                 </shortdescription>
             </image>
             </figure>
@@ -295,8 +291,7 @@
                 <caption>Graph of <m>g(x)</m></caption>
                 <image source="C1S6Image4.png">
                 <shortdescription>
-                    <p>U-shaped graph that decreases to 2 comma 0 then increases
-                    </p>
+                    U-shaped graph that decreases to 2 comma 0 then increases
                 </shortdescription>
             </image>
             </figure>
@@ -382,7 +377,11 @@
         <p>
             Remember:
         </p>
-
+<definition xml:id="def-">
+    <statement>
+        <p>
+            
+        
         <ul>
             <li>
                 <p>
@@ -396,7 +395,9 @@
                 </p>
             </li>
         </ul>
-
+</p>
+    </statement>
+</definition>
         <example>
             <statement>
                 <p>
@@ -407,8 +408,7 @@
                 <caption>Graph of <m>h(x)</m></caption>
                 <image source="C1S6Image6.png">
                 <shortdescription>
-                    <p>A square root graph with initial point at 1 comma 2, increasing to the right
-                    </p>
+                    A square root graph with initial point at 1 comma 2, increasing to the right
                 </shortdescription>
             </image>
             </figure>
@@ -449,8 +449,7 @@
                 <caption>Graph of <m>s(t)=\sqrt{t}</m></caption>
                 <image source="C1S6Image7.png">
                 <shortdescription>
-                    <p>A basic square root graph with initial point at the origin, increasing to the right
-                    </p>
+                    A basic square root graph with initial point at the origin, increasing to the right
                 </shortdescription>
             </image>
             </figure>
@@ -458,8 +457,7 @@
                 <caption>Graph of <m>s(t)</m> reflected vertically</caption>
                 <image source="C1S6Image8.png">
                 <shortdescription>
-                    <p>A vertically-flipped square root graph with initial point at the origin, decreasing to the right
-                    </p>
+                    A vertically-flipped square root graph with initial point at the origin, decreasing to the right
                 </shortdescription>
             </image>
             </figure>
@@ -476,8 +474,7 @@
                 <caption>Graph of <m>s(t)</m> reflected horizontally</caption>
                 <image source="C1S6Image9.png">
                 <shortdescription>
-                    <p>A horizontally-flipped square root graph decreasing to the origin and terminating
-                    </p>
+                    A horizontally-flipped square root graph decreasing to the origin and terminating
                 </shortdescription>
             </image>
             </figure>
@@ -595,8 +592,7 @@
                 <caption>Graph of <m>f(t)=2^t</m></caption>
                 <image source="C1S6Image10.png">
                 <shortdescription>
-                    <p>An increasing curving-up graph, passing through 0 comma 1
-                    </p>
+                    An increasing curving-up graph, passing through 0 comma 1
                 </shortdescription>
             </image>
             </figure>
@@ -633,8 +629,7 @@
                 <caption>Original graph of <m>f(t)=2^t</m> </caption>
                 <image source="C1S6Image11.png">
                 <shortdescription>
-                    <p>An increasing curving-up graph, passing through 0 comma 1
-                    </p>
+                    An increasing curving-up graph, passing through 0 comma 1
                 </shortdescription>
             </image>
             </figure>
@@ -642,8 +637,7 @@
                 <caption>Horizontally Reflected: <m>f(-t)</m> </caption>
                 <image source="C1S6Image12.png">
                 <shortdescription>
-                    <p>A horizontal flip of the previous graph, now decreasing curving-up, passing through 0 comma 1
-                    </p>
+                    A horizontal flip of the previous graph, now decreasing curving-up, passing through 0 comma 1
                 </shortdescription>
             </image>
             </figure>
@@ -651,8 +645,7 @@
                 <caption>Then vertically reflected: <m>-f(-t)</m> </caption>
                 <image source="C1S6Image13.png">
                 <shortdescription>
-                    <p>A vertical flip of the previous graph, now increasing curving-down, passing through 0 comma negative 1
-                    </p>
+                    A vertical flip of the previous graph, now increasing curving-down, passing through 0 comma negative 1
                 </shortdescription>
             </image>
             </figure>
@@ -660,8 +653,7 @@
                 <caption>Then shifted vertically: <m>-f(-t)+1</m> </caption>
                 <image source="C1S6Image14.png">
                 <shortdescription>
-                    <p>A shift up 1 of the previous graph, now increasing curving-down, passing through 0 comma 0
-                    </p>
+                    A shift up 1 of the previous graph, now increasing curving-down, passing through 0 comma 0
                 </shortdescription>
             </image>
             </figure>
@@ -694,8 +686,7 @@
                 <caption><m>f(x)=x^3</m> </caption>
                 <image source="C1S6Image15.png">
                 <shortdescription>
-                    <p>A standard cubic graph, increasing curving down to the origin, then increasing curving up
-                    </p>
+                    A standard cubic graph, increasing curving down to the origin, then increasing curving up
                 </shortdescription>
             </image>
             </figure>
@@ -703,8 +694,7 @@
                 <caption><m>f(-x)=(-x)^3=-x^3</m> </caption>
                 <image source="C1S6Image16.png">
                 <shortdescription>
-                    <p>A horizontal flip of a standard cubic graph, decreasing curving up then decreasing curving down
-                    </p>
+                    A horizontal flip of a standard cubic graph, decreasing curving up then decreasing curving down
                 </shortdescription>
             </image>
             </figure>
@@ -712,8 +702,7 @@
                 <caption><m>-f(-x)=-(-x^3)=x^3</m> </caption>
                 <image source="C1S6Image17.png">
                 <shortdescription>
-                    <p>A vertical and horizontal flip of a standard cubic graph, with the result looking like a standard cubic graph
-                    </p>
+                    A vertical and horizontal flip of a standard cubic graph, with the result looking like a standard cubic graph
                 </shortdescription>
             </image>
             </figure>
@@ -743,14 +732,11 @@
                     The growth is shown in the graph.
                 </p>
 
-                <figure xml:id="c1s6i18">
                 <image source="C1S6Image18.png">
                 <shortdescription>
-                    <p>A piecewise function that passes through 0 comma 1, 3 comma 3, 6 comma 2, and 7 comma 0
-                    </p>
+                    A piecewise function that passes through 0 comma 1, 3 comma 3, 6 comma 2, and 7 comma 0
                 </shortdescription>
             </image>
-            </figure>
 
                 <p>
                     A scientist is comparing this to another population, <m>Q</m>, that grows the same way, but starts twice as large.
@@ -766,14 +752,11 @@
                     Symbolically, <m>Q(t)=2P(t)</m>.
                 </p>
 
-                <figure xml:id="c1s6i19">
                 <image source="C1S6Image19.png">
                 <shortdescription>
-                    <p>A piecewise function that passes through 0 comma 2, 3 comma 6, 6 comma 4, and 7 comma 0
-                    </p>
+                    A piecewise function that passes through 0 comma 2, 3 comma 6, 6 comma 4, and 7 comma 0
                 </shortdescription>
             </image>
-            </figure>
 
                 <p>
                     This means that for any input <m>t</m>, the value of the <m>Q</m> function is twice the value of the <m>P</m> function.
@@ -864,14 +847,13 @@
                     Relate this new function <m>g(x)</m> to <m>f(x)</m>, then find a formula for <m>g(x)</m>.
                 </p>
 
-                <figure xml:id="c1s6i20">
+
                 <image source="C1S6Image20.png">
                 <shortdescription>
-                    <p>A transformation of a basic cubic graph, passing through the origin and passing through 2 comma 2
-                    </p>
+                    A transformation of a basic cubic graph, passing through the origin and passing through 2 comma 2
                 </shortdescription>
             </image>
-            </figure>
+
 
                 <p>
                     When trying to determine a vertical stretch or shift, it is helpful to look for a point on the graph that is relatively clear.
@@ -918,8 +900,7 @@
                 <caption>Original population <m>P(t)</m> </caption>
                 <image source="C1S6Image18.png">
                 <shortdescription>
-                    <p>A piecewise function that passes through 0 comma 1, 3 comma 3, 6 comma 2, and 7 comma 0
-                    </p>
+                    A piecewise function that passes through 0 comma 1, 3 comma 3, 6 comma 2, and 7 comma 0
                 </shortdescription>
             </image>
             </figure>
@@ -928,8 +909,7 @@
                 <caption>Transformed population <m>R(t)</m> </caption>
                 <image source="C1S6Image21.png">
                 <shortdescription>
-                    <p>A piecewise function that passes through 0 comma 1, 1.5 comma 3, 3 comma 2, and 3.5 comma 0
-                    </p>
+                    A piecewise function that passes through 0 comma 1, 1.5 comma 3, 3 comma 2, and 3.5 comma 0
                 </shortdescription>
             </image>
             </figure>
@@ -1024,8 +1004,7 @@
                 <caption>Graph of <m>f(x)</m> </caption>
                 <image source="C1S6Image22.png">
                 <shortdescription>
-                    <p>A piecewise function that passes through 0 comma 0, 4 comma 4 and 6 comma 4
-                    </p>
+                    A piecewise function that passes through 0 comma 0, 4 comma 4 and 6 comma 4
                 </shortdescription>
             </image>
             </figure>
@@ -1033,8 +1012,7 @@
                 <caption>Graph of <m>g(x)</m> </caption>
                 <image source="C1S6Image23.png">
                 <shortdescription>
-                    <p>A piecewise function that passes through 0 comma 0, 2 comma 4 and 3 comma 4
-                    </p>
+                    A piecewise function that passes through 0 comma 0, 2 comma 4 and 3 comma 4
                 </shortdescription>
             </image>
             </figure>
@@ -1250,8 +1228,7 @@
                 <caption>Graph of <m>f(x)</m> </caption>
                 <image source="C1S6Image24.png">
                 <shortdescription>
-                    <p>A semi-circle with endpoints at negative 2 comma 0 and 2 comma 0 and passing through 0 comma 2
-                    </p>
+                    A semi-circle with endpoints at negative 2 comma 0 and 2 comma 0 and passing through 0 comma 2
                 </shortdescription>
             </image>
             </figure>
@@ -1274,8 +1251,7 @@
                 <caption>Horizontal stretch by 2</caption>
                 <image source="C1S6Image25.png">
                 <shortdescription>
-                    <p>A horizontally stretched semi-circle with endpoints at negative 4 comma 0 and 4 comma 0 and passing through 0 comma 2
-                    </p>
+                    A horizontally stretched semi-circle with endpoints at negative 4 comma 0 and 4 comma 0 and passing through 0 comma 2
                 </shortdescription>
             </image>
             </figure>
@@ -1283,8 +1259,7 @@
                 <caption>Horizontal shift left by 2</caption>
                 <image source="C1S6Image26.png">
                 <shortdescription>
-                    <p>A horizontally stretched and shifted semi-circle with endpoints at negative 6 comma 0 and 2 comma 0 and passing through negative 2 comma 2
-                    </p>
+                    A horizontally stretched and shifted semi-circle with endpoints at negative 6 comma 0 and 2 comma 0 and passing through negative 2 comma 2
                 </shortdescription>
             </image>
             </figure>
@@ -1292,8 +1267,7 @@
                 <caption>Vertical shift down by 3</caption>
                 <image source="C1S6Image27.png">
                 <shortdescription>
-                    <p>A horizontally stretched and shifted semi-circle with endpoints at negative 6 comma negative 3 and 2 comma negative 3 and passing through negative 2 comma negative 1
-                    </p>
+                    A horizontally stretched and shifted semi-circle with endpoints at negative 6 comma negative 3 and 2 comma negative 3 and passing through negative 2 comma negative 1
                 </shortdescription>
             </image>
             </figure>
@@ -1306,14 +1280,11 @@
                     Write an equation for the transformed graph of the quadratic function shown.
                 </p>
 
-                <figure xml:id="c1s6i28">
                 <image source="C1S6Image28.png">
                 <shortdescription>
-                    <p>A downwards opening parabola with vertex at negative 3 comma 1 and passing through 2 comma negative 1 and 4 comma negative 1
-                    </p>
+                    A downwards opening parabola with vertex at negative 3 comma 1 and passing through 2 comma negative 1 and 4 comma negative 1
                 </shortdescription>
             </image>
-            </figure>
 
                 <p>
                     Since this is a quadratic function, first consider what the basic quadratic tool kit function looks like and how this has changed.
@@ -1451,8 +1422,7 @@
                 <caption>Graph of <m>g(x)=\dfrac{-2}{(x-1)^2}+3</m></caption>
                 <image source="C1S6Image29.png">
                 <shortdescription>
-                    <p>A graph that starts fairly level near y=3, decreasing slowly at first then more rapidly off the graph as it approaches x=1. Past x=1 the graph increases rapidly from off the graph then levels off towards y=3
-                    </p>
+                    A graph that starts fairly level near y=3, decreasing slowly at first then more rapidly off the graph as it approaches x=1. Past x=1 the graph increases rapidly from off the graph then levels off towards y=3
                 </shortdescription>
             </image>
             </figure>
@@ -1525,25 +1495,22 @@
                         </li>
 
                         <li>
-                            <figure xml:id="c1s6i30">
+
                 <image source="C1S6Image30.png">
                 <shortdescription>
-                    <p>A square root graph labeled f(x) starting at the origin and increasing to the right, and a shifted square root graph labeled g(x) starting at negative 2 comma 0 and increasing to the right.
-                    </p>
+                    A square root graph labeled f(x) starting at the origin and increasing to the right, and a shifted square root graph labeled g(x) starting at negative 2 comma 0 and increasing to the right.
                 </shortdescription>
             </image>
-            </figure>
                         </li>
 
                         <li>
-                            <figure xml:id="c1s6i31">
+
                 <image source="C1S6Image31.png">
                 <shortdescription>
-                    <p>A parabola labeled f(x) and h(x) with vertex at the origin and opening up, and a parabola labeled g(x) with vertex at the origin and opening down.
-                    </p>
+                    Two parabolas labeled f(x) and h(x) with vertex at the origin and opening up, and a parabola labeled g(x) with vertex at the origin and opening down.
                 </shortdescription>
             </image>
-            </figure>
+
 
                             <p>
                                 Notice: g(x) = f(-x) looks the same as f(x)

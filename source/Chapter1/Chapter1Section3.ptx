@@ -76,8 +76,7 @@
                     When sending a letter through the United States Postal Service, the price depends upon the weight of the letter, as shown in the table below.
                     Determine the domain and range.
                 </p>
-                <figure xml:id="letter-prices">
-                <caption>Letter Prices</caption>
+                
                 <tabular>
                     <col halign="center"> </col> <col halign="center"> </col>
                     <row>
@@ -106,7 +105,7 @@
                     </row>
                     
                 </tabular>
-                </figure>
+                
                 <p>
                     Suppose we notate Weight by <m>w</m> and Price by <m>p</m>, and set up a function named <m>f</m>, where Price, <m>p</m> is a function of Weight, <m>w</m>.
                     <m>p = f(w)</m>.
@@ -236,14 +235,11 @@
                     Describe the intervals of values shown on the line graph below using set builder and interval notations.
                 </p>
 
-                <figure xml:id="numberline1">
                 <image source="C1S3Image1.png">
                 <shortdescription>
-                    <p>A number line from -2 to 7 with two shaded sections. There are closed dots at 1 and 3 with the number line between shaded. There is an open dot at 5 with the number line shaded to the right. 
-                    </p>
+                    A number line from -2 to 7 with two shaded sections. There are closed dots at 1 and 3 with the number line between shaded. There is an open dot at 5 with the number line shaded to the right.
                 </shortdescription>
             </image>
-            </figure>
 
                 <p>
                     To describe the values, <m>x</m>, that lie in the intervals shown above we would say, “<m>x</m> is a real number greater than or equal to 1 and less than or equal to 3, or a real number greater than 5.”
@@ -265,14 +261,13 @@
                     Given the following interval, write its meaning in words, set builder notation, and interval notation.
                 </p>
 
-                <figure xml:id="numberline2">
+                
                 <image source="C1S3Image2.png">
                 <shortdescription>
-                    <p>A number line from -5 to 5 with two shaded sections. There is a closed dot at -2 with the number line to the left shaded. There is a closed dot at -1 and open dot at 3 with the number line between shaded. 
-                    </p>
+                    A number line from -5 to 5 with two shaded sections. There is a closed dot at -2 with the number line to the left shaded. There is a closed dot at -1 and open dot at 3 with the number line between shaded. 
                 </shortdescription>
             </image>
-            </figure>
+            
             </statement>
         </exercise>
     </subsection>
@@ -298,14 +293,11 @@
                     Determine the domain and range of the graph below.
                 </p>
 
-                <figure xml:id="oilproduction">
                 <image source="C1S3Image3.png">
                 <shortdescription>
-                    <p>A graph labeled Alaska Crude Oil Production in thousands of barrels per day, with the horizontal axis showing years from 1975 to 2008, and the vertical axis from 0 to 2200.  The graph starts in 1975 around 200, drops a little to about 180, increases up to about 2010 in 1988, then drops to about 700 in 2008. 
-                    </p>
+                    A graph labeled Alaska Crude Oil Production in thousands of barrels per day, with the horizontal axis showing years from 1975 to 2008, and the vertical axis from 0 to 2200.  The graph starts in 1975 around 200, drops a little to about 180, increases up to about 2010 in 1988, then drops to about 700 in 2008.
                 </shortdescription>
             </image>
-            </figure>
 
                 <p>
                     In the graph above, the input quantity along the horizontal axis appears to be “year”, which we could notate with the variable <m>y</m>.
@@ -331,14 +323,11 @@
                     Given the graph below write the domain and range in interval notation
                 </p>
 
-                <figure xml:id="population">
                 <image source="C1S3Image4.png">
                 <shortdescription>
-                    <p>A graph labeled World Population Increase. The vertical axis is labeled population increase in millions, and the horizontal axis is in years.  The graph starts around 45 in 1952, increases for a while, then drops to 40 in 1960. It increases and decreases a bit, reaching a high of 88 in 1989.  The graph ends at 76 in 2002.
-                    </p>
+                    A graph labeled World Population Increase. The vertical axis is labeled population increase in millions, and the horizontal axis is in years.  The graph starts around 45 in 1952, increases for a while, then drops to 40 in 1960. It increases and decreases a bit, reaching a high of 88 in 1989.  The graph ends at 76 in 2002.
                 </shortdescription>
             </image>
-            </figure>
             </statement>
         </exercise>
     </subsection>
@@ -350,6 +339,10 @@
         <p>
             We will now return to our set of toolkit functions to note the domain and range of each.
         </p>
+<definition xml:id="def-">
+    <statement>
+        <p>
+            
 
         <ul>
             <li>
@@ -538,7 +531,9 @@
                 </p>
             </li>
         </ul>
-
+                </p>
+</statement>
+</definition>
         <example>
             <statement>
                 <p>
