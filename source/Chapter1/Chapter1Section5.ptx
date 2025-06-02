@@ -5,7 +5,64 @@
 
   <subsection>
         <title>Definitions</title>
+<example>
+            <title>Important Topics of this Section</title>
 
+            <statement>
+                <p>
+                    <ul>
+                        <li>
+                            <p>
+                                Definition of Composition of Functions
+                            </p>
+                        </li>
+
+                        <li>
+                            <p>
+                                Compositions using:
+                                <ul>
+                                    <li>
+                                        <p>
+                                            Words
+                                        </p>
+                                    </li>
+
+                                    <li>
+                                        <p>
+                                            Tables
+                                        </p>
+                                    </li>
+
+                                    <li>
+                                        <p>
+                                            Graphs
+                                        </p>
+                                    </li>
+
+                                    <li>
+                                        <p>
+                                            Equations
+                                        </p>
+                                    </li>
+                                </ul>
+                            </p>
+                        </li>
+
+                        <li>
+                            <p>
+                                Domain of Compositions
+                            </p>
+                        </li>
+
+                        <li>
+                            <p>
+                                Decomposition of Functions
+                            </p>
+                        </li>
+                    </ul>
+                </p>
+            </statement>
+        </example>
         <p>
             Suppose we wanted to calculate how much it costs to heat a house on a particular day of the year.
             The cost to heat a house will depend on the average daily temperature, and the average daily temperature depends on the particular day of the year.
@@ -599,64 +656,7 @@
 <subsection>
         <title>Conclusions</title>
 
-        <example>
-            <title>Important Topics of this Section</title>
-
-            <statement>
-                <p>
-                    <ul>
-                        <li>
-                            <p>
-                                Definition of Composition of Functions
-                            </p>
-                        </li>
-
-                        <li>
-                            <p>
-                                Compositions using:
-                                <ul>
-                                    <li>
-                                        <p>
-                                            Words
-                                        </p>
-                                    </li>
-
-                                    <li>
-                                        <p>
-                                            Tables
-                                        </p>
-                                    </li>
-
-                                    <li>
-                                        <p>
-                                            Graphs
-                                        </p>
-                                    </li>
-
-                                    <li>
-                                        <p>
-                                            Equations
-                                        </p>
-                                    </li>
-                                </ul>
-                            </p>
-                        </li>
-
-                        <li>
-                            <p>
-                                Domain of Compositions
-                            </p>
-                        </li>
-
-                        <li>
-                            <p>
-                                Decomposition of Functions
-                            </p>
-                        </li>
-                    </ul>
-                </p>
-            </statement>
-        </example>
+        
 
         <exercise>
             <statement>

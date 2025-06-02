@@ -5,7 +5,57 @@
 
   <subsection>
         <title>Definitions</title>
+<example>
+            <title>Important Topics of this Section</title>
 
+            <statement>
+                <p>
+                    <ul>
+                        <li>
+                            <p>
+                                Definition of domain
+                            </p>
+                        </li>
+
+                        <li>
+                            <p>
+                                Definition of range
+                            </p>
+                        </li>
+
+                        <li>
+                            <p>
+                                Inequalities
+                            </p>
+                        </li>
+
+                        <li>
+                            <p>
+                                Interval notation
+                            </p>
+                        </li>
+
+                        <li>
+                            <p>
+                                Set builder notation
+                            </p>
+                        </li>
+
+                        <li>
+                            <p>
+                                Domain and Range from graphs
+                            </p>
+                        </li>
+
+                        <li>
+                            <p>
+                                Domain and Range of toolkit functions
+                            </p>
+                        </li>
+                    </ul>
+                </p>
+            </statement>
+        </example>
         <p>
             One of our main goals in mathematics is to model the real world with mathematical functions.
             In doing so, it is important to keep in mind the limitations of those models we create.
@@ -567,57 +617,7 @@
     <subsection>
         <title>Conclusions</title>
 
-        <example>
-            <title>Important Topics of this Section</title>
-
-            <statement>
-                <p>
-                    <ul>
-                        <li>
-                            <p>
-                                Definition of domain
-                            </p>
-                        </li>
-
-                        <li>
-                            <p>
-                                Definition of range
-                            </p>
-                        </li>
-
-                        <li>
-                            <p>
-                                Inequalities
-                            </p>
-                        </li>
-
-                        <li>
-                            <p>
-                                Interval notation
-                            </p>
-                        </li>
-
-                        <li>
-                            <p>
-                                Set builder notation
-                            </p>
-                        </li>
-
-                        <li>
-                            <p>
-                                Domain and Range from graphs
-                            </p>
-                        </li>
-
-                        <li>
-                            <p>
-                                Domain and Range of toolkit functions
-                            </p>
-                        </li>
-                    </ul>
-                </p>
-            </statement>
-        </example>
+        
 
         <exercise>
             <statement>

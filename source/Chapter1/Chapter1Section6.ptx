@@ -14,6 +14,57 @@
         Fortunately, there are systematic ways to shift, stretch, compress, flip and combine functions to help them become better models for the problems we are trying to solve.
         We can transform what we already know into what we need, hence the name, “Transformation of functions.” When we have a story problem, formula, graph, or table, we can then transform that function in a variety of ways to form new functions.
     </p>
+    <example>
+            <title>Important Topics of This Section</title>
+
+            <statement>
+                <p>
+                    <ul>
+                        <li>
+                            <p>
+                                Transformations
+                            </p>
+                        </li>
+
+                        <li>
+                            <p>
+                                Vertical Shift (up and down)
+                            </p>
+                        </li>
+
+                        <li>
+                            <p>
+                                Horizontal Shifts (left and right)
+                            </p>
+                        </li>
+
+                        <li>
+                            <p>
+                                Reflections over the vertical and horizontal axis
+                            </p>
+                        </li>
+
+                        <li>
+                            <p>
+                                Vertical Stretches and Compressions
+                            </p>
+                        </li>
+
+                        <li>
+                            <p>
+                                Horizontal Stretches and Compressions
+                            </p>
+                        </li>
+
+                        <li>
+                            <p>
+                                Combinations of Transformation
+                            </p>
+                        </li>
+                    </ul>
+                </p>
+            </statement>
+        </example>
 </introduction>
     
 
@@ -1431,57 +1482,7 @@
 </subsection>
 <subsection>
         <title>Conclusions</title>
-        <example>
-            <title>Important Topics of This Section</title>
-
-            <statement>
-                <p>
-                    <ul>
-                        <li>
-                            <p>
-                                Transformations
-                            </p>
-                        </li>
-
-                        <li>
-                            <p>
-                                Vertical Shift (up and down)
-                            </p>
-                        </li>
-
-                        <li>
-                            <p>
-                                Horizontal Shifts (left and right)
-                            </p>
-                        </li>
-
-                        <li>
-                            <p>
-                                Reflections over the vertical and horizontal axis
-                            </p>
-                        </li>
-
-                        <li>
-                            <p>
-                                Vertical Stretches and Compressions
-                            </p>
-                        </li>
-
-                        <li>
-                            <p>
-                                Horizontal Stretches and Compressions
-                            </p>
-                        </li>
-
-                        <li>
-                            <p>
-                                Combinations of Transformation
-                            </p>
-                        </li>
-                    </ul>
-                </p>
-            </statement>
-        </example>
+        
 
         <exercise>
             <statement>

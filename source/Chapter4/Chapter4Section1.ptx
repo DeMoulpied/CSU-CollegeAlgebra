@@ -972,9 +972,10 @@
         </p>
 
         <exercise>
-            <statement>
-                <p>
-                    [Exercise Answers]<answer><p>
+            <statement><p>
+                Solutions to Checkpoint exercises
+            </p></statement>
+            <answer><p>
                     <ol>
                                              
                         <li>
@@ -1008,8 +1009,7 @@
                         </li>
                 
             </ol></p>
-        </answer>    </p>
-            </statement>
+        </answer>
         </exercise>
     </subsection>
 </section>

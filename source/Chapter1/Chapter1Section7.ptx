@@ -6,7 +6,45 @@
   
     <subsection>
         <title>Definitions</title>
+<example>
+            <title>Important Topics of this Section</title>
 
+            <statement>
+                <p>
+                    <ul>
+                        <li>
+                            <p>
+                                Definition of an inverse function
+                            </p>
+                        </li>
+
+                        <li>
+                            <p>
+                                Composition of inverse functions yield the original input value
+                            </p>
+                        </li>
+
+                        <li>
+                            <p>
+                                Not every function has an inverse function
+                            </p>
+                        </li>
+
+                        <li>
+                            <p>
+                                To have an inverse a function must be one-to-one
+                            </p>
+                        </li>
+
+                        <li>
+                            <p>
+                                Restricting the domain of functions that are not one-to-one.
+                            </p>
+                        </li>
+                    </ul>
+                </p>
+            </statement>
+        </example>
         <p>
             A fashion designer is traveling to Milan for a fashion show.
             He asks his assistant, Betty, what 75 degrees Fahrenheit is in Celsius, and after a quick search on Google, she finds the formula <m>C=\frac{5}{9}(F-32)</m>.
@@ -306,45 +344,7 @@
     <subsection>
         <title>Conclusions</title>
 
-        <example>
-            <title>Important Topics of this Section</title>
-
-            <statement>
-                <p>
-                    <ul>
-                        <li>
-                            <p>
-                                Definition of an inverse function
-                            </p>
-                        </li>
-
-                        <li>
-                            <p>
-                                Composition of inverse functions yield the original input value
-                            </p>
-                        </li>
-
-                        <li>
-                            <p>
-                                Not every function has an inverse function
-                            </p>
-                        </li>
-
-                        <li>
-                            <p>
-                                To have an inverse a function must be one-to-one
-                            </p>
-                        </li>
-
-                        <li>
-                            <p>
-                                Restricting the domain of functions that are not one-to-one.
-                            </p>
-                        </li>
-                    </ul>
-                </p>
-            </statement>
-        </example>
+        
 
         <exercise>
             <statement>

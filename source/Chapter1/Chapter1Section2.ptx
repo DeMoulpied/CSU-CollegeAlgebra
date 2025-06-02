@@ -5,7 +5,82 @@
 
     <subsection>
         <title>What is a Function?</title>
+<list>
+            <title>Important Topics of this Section</title>
+                    <ul>
+                        <li>
+                            <p>
+                                Definition of a function
+                            </p>
+                        </li>
 
+                        <li>
+                            <p>
+                                Input (independent variable)
+                            </p>
+                        </li>
+
+                        <li>
+                            <p>
+                                Output (dependent variable)
+                            </p>
+                        </li>
+
+                        <li>
+                            <p>
+                                Definition of a one-to-one function
+                            </p>
+                        </li>
+
+                        <li>
+                            <p>
+                                Function notation
+                            </p>
+                        </li>
+
+                        <li>
+                            <p>
+                                Descriptive variables
+                            </p>
+                        </li>
+
+                        <li>
+                            <p>
+                                Functions in words, tables, graphs and formulas
+                            </p>
+                        </li>
+
+                        <li>
+                            <p>
+                                Vertical line test
+                            </p>
+                        </li>
+
+                        <li>
+                            <p>
+                                Horizontal line test
+                            </p>
+                        </li>
+
+                        <li>
+                            <p>
+                                Evaluating a function at a specific input value
+                            </p>
+                        </li>
+
+                        <li>
+                            <p>
+                                Solving a function given a specific output value
+                            </p>
+                        </li>
+
+                        <li>
+                            <p>
+                                Toolkit Functions
+                            </p>
+                        </li>
+                    </ul>
+        </list>
         <p>
             The natural world is full of relationships between quantities that change.
             When we see these relationships, it is natural for us to ask, ”If I know one quantity, can I then determine the other?” This establishes the idea of an input quantity, or independent variable, and a corresponding output quantity, or dependent variable.
@@ -31,19 +106,19 @@
         <example>
             <statement>
                 <p>
-                    In the height and age example above, is height a function of age? Is age a function of height?
-                </p>
-
+                    In the height and age scenario above, is height a function of age? Is age a function of height?
+                </p></statement>
+<solution>
                 <p>
-                    In the height and age example above, it would be correct to say that height is a function of age, since each age uniquely determines a height.
+                    In the height and age scenario above, it would be correct to say that height is a function of age, since each age uniquely determines a height.
                     For example, on my 18th birthday, I had exactly one height of 69 inches.
                 </p>
 
                 <p>
                     However, age is not a function of height, since one height input might correspond with more than one output age.
                     For example, for an input height of 70 inches, there is more than one output of age since I was 70 inches at the age of 20 and 21.
-                </p>
-            </statement>
+                </p></solution>
+            
         </example>
 
         <example>
@@ -52,12 +127,13 @@
                     At a coffee shop, the menu consists of items and their prices.
                     Is price a function of the item? Is the item a function of the price?
                 </p>
-
+            </statement>
+            <solution>
                 <p>
                     We could say that price is a function of the item, since each input of an item has one output of a price corresponding to it.
                     We could not say that item is a function of price, since two items might have the same price.
                 </p>
-            </statement>
+            </solution>
         </example>
 
         <example>
@@ -66,14 +142,15 @@
                     In many classes the overall percentage you earn in the course corresponds to a decimal grade point.
                     Is decimal grade a function of percentage? Is percentage a function of decimal grade?
                 </p>
-
+            </statement>
+            <solution>
                 <p>
                     For any percentage earned, there would be a decimal grade associated, so we could say that the decimal grade is a function of percentage.
                     That is, if you input the percentage, your output would be a decimal grade.
                     Percentage may or may not be a function of decimal grade, depending upon the teacher’s grading scheme.
                     With some grading systems, there are a range of percentages that correspond to the same decimal grade.
                 </p>
-            </statement>
+            </solution>
         </example>
 
         <definition>
@@ -160,7 +237,8 @@
                 <p>
                     Introduce function notation to represent a function that takes as input the name of a month and gives as output the number of days in that month.
                 </p>
-
+            </statement>
+            <solution>
                 <p>
                     The number of days in a month is a function of the name of the month, so if we name the function <m>f</m>, we could write "<m>\text{days}= f(\text{month})</m>" or <m>d = f(m)</m>.
                 </p>
@@ -169,7 +247,7 @@
                     For example, <m>f(\text{March}) = 31</m>, since March has 31 days.
                     The notation <m>f(m)</m> reminds us that the number of days, <m>d</m> (the output) is dependent on the name of the month, <m>m</m> (the input)
                 </p>
-            </statement>
+            </solution>
         </example>
 
         <example>
@@ -178,14 +256,15 @@
                     A function <m>N = f(y)</m> gives the number of police officers, <m>N</m>, in a town in year <m>y</m>.
                     What does <m>f(2005) = 300</m> tell us?
                 </p>
-
+            </statement>
+            <solution>
                 <p>
                     When we read <m>f(2005) = 300</m>, we see the input quantity is 2005, which is a value for the input quantity of the function, the year (<m>y</m>).
                     The output value is 300, the number of police officers (<m>N</m>), a value for the output quantity.
                     Remember <m>N=f(y)</m>.
                     This tells us that in the year 2005 there were 300 police officers in the town.
                 </p>
-            </statement>
+            </solution>
         </example>
     </subsection>
 
@@ -383,7 +462,8 @@
                     </row>
 
                 </tabular>
-
+                </statement>
+                <solution>
                 <p>
                     The first and second tables define functions.
                     In both, each input corresponds to exactly one output.
@@ -395,7 +475,7 @@
                     Although table 2 is a function, because each input corresponds to exactly one output, each output does not correspond to exactly one input so this function is not one-to-one.
                     Table 3 is not even a function and so we don’t even need to consider if it is a one-to-one function.
                 </p>
-            </statement>
+            </solution>
         </example>
 
         <exercise>
@@ -474,7 +554,8 @@
                 <p>
                     b) Solve <m>g(n) = 6</m>
                 </p>
-
+                </statement>
+                <solution>
                 <p>
                     Solving <m>g(n) = 6</m> means we need to determine what input values, <m>n</m>, produce an output value of 6.
                     Looking at the table we see there are two solutions: <m>n = 2</m> and <m>n = 4</m>.
@@ -487,7 +568,7 @@
                 <p>
                     When we input 4 into the function <m>g</m>, our output is also <m>Q = 6</m>
                 </p>
-            </statement>
+            </solution>
         </example>
 
         <exercise>
@@ -542,7 +623,6 @@
                 <image source="C1S2Image3.png">
                 <shortdescription>
                     Graph of a decreasing straight line.
-                    
                 </shortdescription>
             </image>
             </figure>
@@ -553,11 +633,11 @@
                 <image source="C1S2ImageCirc.png">
                 <shortdescription>
                     Graph of a circle with radius 3 centered at the origin.
-                    
                 </shortdescription>
             </image>
             </figure>
-            
+            </statement>
+            <solution>
                 <p>
                     Looking at the three graphs above, the first two define a function <m>y=f(x)</m>, since for each input value along the horizontal axis there is exactly one output value corresponding, determined by the <m>y</m>-value of the graph.
                     The 3rd graph does not define a function <m>y=f(x)</m> since some input values, such as <m>x=2</m>, correspond with more than one output value.
@@ -575,7 +655,7 @@
                 <p>
                     Graph 3 is not even a function so there is no reason to even check to see if it is a one-to-one function.
                 </p>
-            </statement>
+            </solution>
         </example>
 
         <definition>
@@ -630,7 +710,8 @@
                 </shortdescription>
             </image>
             </figure>
-              
+              </statement>
+              <solution>
 
                 <p>
                     a) To evaluate <m>f(2)</m>, we find the input of <m>x=2</m> on the horizontal axis.
@@ -647,7 +728,7 @@
                 <p>
                     This means <m>f(-1)=4</m> and <m>f(3)=4</m>, or when the input is -1 or 3, the output is 4.
                 </p>
-            </statement>
+            </solution>
         </example>
 
         <p>
@@ -677,7 +758,8 @@
                 <p>
                     Express the relationship <m>2n + 6p = 12</m> as a function <m>p = f(n)</m> if possible.
                 </p>
-
+            </statement>
+            <solution>
                 <p>
                     To express the relationship in this form, we need to be able to write the relationship where <m>p</m> is a function of <m>n</m>, which means writing it as <m>p</m> = [something involving <m>n</m>].
                 </p>
@@ -700,7 +782,7 @@
                 <p>
                     Having rewritten the formula as <m>p</m>=, we can now express p as a function: <m>p=f(n)=2-\dfrac{1}{3}n</m>.
                 </p>
-            </statement>
+            </solution>
         </example>
 
         <p>
@@ -718,7 +800,8 @@
                 <p>
                     Express the relationship <m>x^{2}+y^{2}=1</m> as a function <m>y = f(x)</m> if possible.
                 </p>
-
+            </statement>
+            <solution>
                 <p>
                     If we try to solve for <m>y</m> in this equation, we get
                 </p>
@@ -734,7 +817,7 @@
                 <p>
                     We end up with two outputs corresponding to the same input, so this relationship cannot be represented as a single function <m>y = f(x)</m>.
                 </p>
-            </statement>
+            </solution>
         </example>
 
         <p>
@@ -756,7 +839,8 @@
                 <p>
                     b) Solve <m>k(t) = 1</m>
                 </p>
-
+            </statement>
+            <solution>
                 <p>
                     a) “Evaluate <m>k(2)</m>” means we want to find the output when the input is <m>t = 2</m>.
                     We plug in the input value 2 into the formula wherever we see the input variable <m>t</m>, then simplify
@@ -800,7 +884,7 @@
                     We want to know if <m>k(t)=1</m> is true when <m>t=-1</m>.
                     <m>k(-1)=(-1)^{3}+2= -1+2= 1</m>, which was the desired result.
                 </p>
-            </statement>
+            </solution>
         </example>
 
         <example>
@@ -816,7 +900,8 @@
                 <p>
                     b) Solve <m>h(p) = 3</m>
                 </p>
-
+            </statement>
+            <solution>
                 <p>
                     To evaluate <m>h(4)</m> we substitute the value 4 for the input variable <m>p</m> in the given function.
                     a) <m>h(4)=(4)^{2}+2(4)= 16 + 8= 24</m>
@@ -846,7 +931,7 @@
                 <p>
                     We found two solutions in this case, which tells us this function is not one-to-one.
                 </p>
-            </statement>
+            </solution>
         </example>
 
         <exercise>
@@ -1066,94 +1151,12 @@
 
 
     <subsection>
-        <title>Conclusions</title>
-
-        <definition>
-            <title>Important Topics of this Section</title>
-
-            <statement>
-                <p>
-                    <ul>
-                        <li>
-                            <p>
-                                Definition of a function
-                            </p>
-                        </li>
-
-                        <li>
-                            <p>
-                                Input (independent variable)
-                            </p>
-                        </li>
-
-                        <li>
-                            <p>
-                                Output (dependent variable)
-                            </p>
-                        </li>
-
-                        <li>
-                            <p>
-                                Definition of a one-to-one function
-                            </p>
-                        </li>
-
-                        <li>
-                            <p>
-                                Function notation
-                            </p>
-                        </li>
-
-                        <li>
-                            <p>
-                                Descriptive variables
-                            </p>
-                        </li>
-
-                        <li>
-                            <p>
-                                Functions in words, tables, graphs and formulas
-                            </p>
-                        </li>
-
-                        <li>
-                            <p>
-                                Vertical line test
-                            </p>
-                        </li>
-
-                        <li>
-                            <p>
-                                Horizontal line test
-                            </p>
-                        </li>
-
-                        <li>
-                            <p>
-                                Evaluating a function at a specific input value
-                            </p>
-                        </li>
-
-                        <li>
-                            <p>
-                                Solving a function given a specific output value
-                            </p>
-                        </li>
-
-                        <li>
-                            <p>
-                                Toolkit Functions
-                            </p>
-                        </li>
-                    </ul>
-                </p>
-            </statement>
-        </definition>
-
+        <title>Solutions</title>
         <exercise>
-            <statement>
-                <p>
-                    [Checkpoint Answers:]
+            <statement><p>
+                Solutions to checkpoint exercises.
+            </p> </statement>
+                    <answer><p>
                     <ol>
                         <li>
                             <p>
@@ -1193,9 +1196,7 @@
                                 Square both sides to get <m>m-4=4</m>, so <m>m = 8</m>
                             </p>
                         </li>
-                    </ol>
-                </p>
-            </statement>
+                    </ol></p></answer>
         </exercise>
     </subsection>
 </section>

@@ -5,7 +5,39 @@
 
   <subsection>
         <title>Definitions</title>
+<example>
+            <title>Important Topics of This Section</title>
 
+            <statement>
+                <p>
+                    <ul>
+                        <li>
+                            <p>
+                                Rate of Change
+                            </p>
+                        </li>
+
+                        <li>
+                            <p>
+                                Average Rate of Change
+                            </p>
+                        </li>
+
+                        <li>
+                            <p>
+                                Calculating Average Rate of Change using Function Notation
+                            </p>
+                        </li>
+
+                        <li>
+                            <p>
+                                Increasing/Decreasing Functions
+                            </p>
+                        </li>
+                    </ul>
+                </p>
+            </statement>
+        </example>
         <p>
             Since functions represent how an output quantity varies with an input quantity, it is natural to ask about the rate at which the values of the function are changing.
         </p>
@@ -483,39 +515,7 @@
     <subsection>
         <title>Conclusions</title>
 
-        <example>
-            <title>Important Topics of This Section</title>
-
-            <statement>
-                <p>
-                    <ul>
-                        <li>
-                            <p>
-                                Rate of Change
-                            </p>
-                        </li>
-
-                        <li>
-                            <p>
-                                Average Rate of Change
-                            </p>
-                        </li>
-
-                        <li>
-                            <p>
-                                Calculating Average Rate of Change using Function Notation
-                            </p>
-                        </li>
-
-                        <li>
-                            <p>
-                                Increasing/Decreasing Functions
-                            </p>
-                        </li>
-                    </ul>
-                </p>
-            </statement>
-        </example>
+        
 
         <exercise>
             <statement>
