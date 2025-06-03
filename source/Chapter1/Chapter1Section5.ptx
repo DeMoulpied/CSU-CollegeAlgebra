@@ -85,7 +85,8 @@
                 </shortdescription>
             </image>
             </figure>
-
+        </statement>
+        <solution>
                 <p>
                     We can sketch a graph of this new function by adding 20 to each of the output values of the original function.
                     This will have the effect of shifting the graph up.
@@ -112,7 +113,7 @@
                 <p>
                     Notice that with a vertical shift the input values stay the same and only the output values change.
                 </p>
-            </statement>
+            </solution>
         </example>
 
         <definition>
@@ -152,7 +153,8 @@
                         <cell>11</cell>
                     </row>
                 </tabular>
-
+            </statement>
+            <solution>
                 <p>
                     The formula <m>g(x)=f(x)-3</m> tells us that we can find the output values of the <m>g</m> function by subtracting 3 from the output values of the <m>f</m> function.
                     For example, <m>f(2)=1</m> is found from the given table.
@@ -178,7 +180,7 @@
                         <cell>8</cell>
                     </row>
                 </tabular>
-            </statement>
+            </solution>
         </example>
 
         <p>
@@ -206,7 +208,8 @@
                     Returning to our building air flow example from the beginning of the section, suppose that in fall, the facilities staff decides that the original venting plan starts too late, and they want to move the entire venting program to start two hours earlier.
                     Sketch a graph of the new function.
                 </p>
-
+            </statement>
+            <solution>
                 <figure xml:id="c1s6i112">
                 <caption><m>V(t)=</m> the original venting plan</caption>
                 <image source="C1S6Image1.png">
@@ -244,7 +247,7 @@
                 <p>
                     Note that <m>V(t+2)</m> had the effect of shifting the graph to the left.
                 </p>
-            </statement>
+            </solution>
         </example>
 
         <p>
@@ -290,7 +293,8 @@
                         <cell>11</cell>
                     </row>
                 </tabular>
-
+            </statement>
+            <solution>
                 <p>
                     The formula <m>g(x)=f(x-3)</m> tells us that the output values of <m>g</m> are the same as the output value of <m>f</m> with an input value three smaller.
                     For example, we know that <m>f(2)=1</m>.
@@ -324,7 +328,7 @@
                     The result is that the function <m>g(x)</m> has been shifted to the right by 3.
                     Notice the output values for <m>g(x)</m> remain the same as the output values for <m>f(x)</m> in the chart, but the corresponding input values, <m>x</m>, have shifted to the right by 3: 2 shifted to 5, 4 shifted to 7, 6 shifted to 9 and 8 shifted to 11.
                 </p>
-            </statement>
+            </solution>
         </example>
 
         <example>
@@ -342,7 +346,8 @@
                 </shortdescription>
             </image>
             </figure>
-
+        </statement>
+        <solution>
                 <p>
                     Notice that the graph looks almost identical in shape to the <m>f(x)=x^{2}</m> function, but the <m>x</m> values are shifted to the right two units.
                     The vertex used to be at <m>(0, 0)</m> but now the vertex is at <m>(2, 0)</m>.
@@ -366,7 +371,7 @@
                     To obtain the output value of 0 from the <m>f</m> function, we need to decide whether a +2 or -2 will work to satisfy <m>g(2)=f(2-2)=f(0)=0</m>.
                     For this to work, we will need to subtract 2 from our input values.
                 </p>
-            </statement>
+            </solution>
         </example>
 
         <p>
@@ -379,7 +384,8 @@
                     The function <m>G(m)</m> gives the number of gallons of gas required to drive <m>m</m> miles.
                     Interpret <m>G(m)+10</m> and <m>G(m+10)</m>.
                 </p>
-
+            </statement>
+            <solution>
                 <p>
                     <m>G(m)+10</m> is adding 10 to the output, gallons. This is 10 gallons of gas more than is required to drive <m>m</m> miles. So, this is the gas required to drive <m>m</m> miles, plus another 10 gallons of gas.
                 </p>
@@ -387,7 +393,7 @@
                 <p>
                     <m>G(m+10)</m> is adding 10 to the input, miles. This is the number of gallons of gas required to drive 10 miles more than <m>m</m> miles.
                 </p>
-            </statement>
+            </solution>
         </example>
 
         <exercise>
@@ -459,7 +465,8 @@
                 </shortdescription>
             </image>
             </figure>
-
+        </statement>
+        <solution>
                 <p>
                     The graph of the toolkit function starts at the origin, so this graph has been shifted 1 to the right, and up 2.
                     In function notation, we could write that as <m>h(x)=f(x-1)+2</m>.
@@ -470,7 +477,7 @@
                     Note that this transformation has changed the domain and range of the function.
                     This new graph has domain <m>[1,\infty)</m> and range <m>[2,\infty)</m>.
                 </p>
-            </statement>
+            </solution>
         </example>
     </subsection>
 
@@ -487,7 +494,8 @@
                 <p>
                     Reflect the graph of <m>s(t)=\sqrt{t}</m> both vertically and horizontally.
                 </p>
-
+            </statement>
+            <solution>
                 <p>
                     Reflecting the graph vertically, each output value will be reflected over the horizontal t axis:
                 </p>
@@ -537,7 +545,7 @@
                     Note that these transformations can affect the domain and range of the functions.
                     While the original square root function has domain <m>[0,\infty)</m> and range <m>[0,\infty)</m>, the vertical reflection gives the <m>V(t)</m> function the range <m>(-\infty,0]</m>, and the horizontal reflection gives the <m>H(t)</m> function the domain <m>(-\infty,0]</m>.
                 </p>
-            </statement>
+            </solution>
         </example>
 
         <definition>
@@ -579,7 +587,8 @@
                         <cell>11</cell>
                     </row>
                 </tabular>
-
+            </statement>
+            <solution>
                 <p>
                     For <m>g(x)</m>, this is a vertical reflection, so the <m>x</m> values stay the same and each output value will be the opposite of the original output value:
                 </p>
@@ -625,7 +634,7 @@
                         <cell>11</cell>
                     </row>
                 </tabular>
-            </statement>
+            </solution>
         </example>
 
         <example>
@@ -646,6 +655,10 @@
 
                 <p>
                     Sketch a graph of <m>k(t)</m>.
+                </p>
+            </statement>
+            <solution>
+                <p>
                     This equation combines three transformations into one equation.
                     <ul>
                         <li>
@@ -707,7 +720,7 @@
                 <p>
                     Note: As a model for learning, this function would be limited to a domain of <m>t\geq 0</m>, with corresponding range <m>[0,1)</m>.
                 </p>
-            </statement>
+            </solution>
         </example>
 
         <exercise>
@@ -789,7 +802,8 @@
                     A scientist is comparing this to another population, <m>Q</m>, that grows the same way, but starts twice as large.
                     Sketch a graph of this population.
                 </p>
-
+            </statement>
+            <solution>
                 <p>
                     Since the population is always twice as large, the new population’s output values are always twice the original function output values.
                     Graphically, this would look like the second graph shown.
@@ -810,7 +824,7 @@
                     Notice the effect on the graph is a vertical stretching of the graph, where every point doubles its distance from the horizontal axis.
                     The input values, <m>t</m>, stay the same while the output values are twice as large as before.
                 </p>
-            </statement>
+            </solution>
         </example>
 
         <definition>
@@ -856,6 +870,10 @@
 
                 <p>
                     Create a table for the function <m>g(x)=\dfrac{1}{2}f(x)</m>.
+                </p>
+            </statement>
+            <solution>
+                    <p>
                     The formula <m>g(x)=\dfrac{1}{2}f(x)</m> tells us that the output values of <m>g</m> are half of the output values of <m>f</m> with the same inputs.
                     For example, we know that <m>f(4)=3</m>.
                     Then <m>g(4)=\dfrac{1}{2}f(4)=\dfrac{1}{2}(3)=\dfrac{3}{2}</m>.
@@ -884,7 +902,7 @@
                     The result is that the function <m>g(x)</m> has been compressed vertically by <m>\dfrac{1}{2}</m>.
                     Each output value has been cut in half, so the graph would now be half the original height.
                 </p>
-            </statement>
+            </solution>
         </example>
 
         <example>
@@ -900,7 +918,8 @@
                     A transformation of a basic cubic graph, passing through the origin and passing through 2 comma 2
                 </shortdescription>
             </image>
-
+        </statement>
+        <solution>
 
                 <p>
                     When trying to determine a vertical stretch or shift, it is helpful to look for a point on the graph that is relatively clear.
@@ -920,7 +939,7 @@
                     We can write a formula for <m>g</m> by using the definition of the function <m>f</m>.
                     <m>g(x)=\dfrac{1}{4}f(x)=\dfrac{1}{4}x^{3}</m>.
                 </p>
-            </statement>
+            </solution>
         </example>
 
         <p>
@@ -934,7 +953,8 @@
                     In other words, this new population, <m>R</m>, will progress in 1 hour the same amount the original population did in 2 hours, and in 2 hours, will progress as much as the original population did in 4 hours.
                     Sketch a graph of this population.
                 </p>
-
+            </statement>
+            <solution>
                 <p>
                     Symbolically, we could write <m>R(1)=P(2)</m>, <m>R(2)=P(4)</m>, and in general, <m>R(t)=P(2t)</m>.
                 </p>
@@ -963,7 +983,7 @@
                 <p>
                     Note the effect on the graph is a horizontal compression, where all input values are half their original distance from the vertical axis.
                 </p>
-            </statement>
+            </solution>
         </example>
 
         <definition>
@@ -1007,7 +1027,8 @@
                         <cell>11</cell>
                     </row>
                 </tabular>
-
+            </statement>
+            <solution>
                 <p>
                     The formula <m>g(x)=f(\dfrac{1}{2}x)</m> tells us that the output values for <m>g</m> are the same as the output values for the function <m>f</m> at an input half the size.
                     Notice that we don’t have enough information to determine <m>g(2)</m> since <m>g(2)=f(\dfrac{1}{2}*2)=f(1)</m>, and we do not have a value for <m>f(1)</m> in our table.
@@ -1037,7 +1058,7 @@
                 <p>
                     Since each input value has been doubled, the result is that the function <m>g(x)</m> has been stretched horizontally by a factor of 2.
                 </p>
-            </statement>
+            </solution>
         </example>
 
         <example>
@@ -1063,6 +1084,8 @@
                 </shortdescription>
             </image>
             </figure>
+        </statement>
+        <solution>
                 <p>
                     The graph of <m>g(x)</m> looks like the graph of <m>f(x)</m> horizontally compressed.
                     Since <m>f(x)</m> ends at <m>(6,4)</m> and <m>g(x)</m> ends at <m>(2,4)</m> we can see that the <m>x</m> values have been compressed by <m>\dfrac{1}{3}</m>, because <m>6(\dfrac{1}{3}) = 2</m>.
@@ -1070,7 +1093,7 @@
                     Either way, we can describe this relationship as <m>g(x)=f(3x)</m>.
                     This is a horizontal compression by <m>\dfrac{1}{3}</m>.
                 </p>
-            </statement>
+            </solution>
         </example>
 
         <p>
@@ -1191,7 +1214,8 @@
                         <cell>17</cell>
                     </row>
                 </tabular>
-
+            </statement>
+            <solution>
                 <p>
                     There are 3 steps to this transformation, and we will work from the inside out.
                     Starting with the horizontal transformations, <m>f(3x)</m> is a horizontal compression by <m>\dfrac{1}{3}</m>, which means we multiply each <m>x</m> value by <m>\dfrac{1}{3}</m>.
@@ -1262,7 +1286,7 @@
                         <cell>35</cell>
                     </row>
                 </tabular>
-            </statement>
+            </solution>
         </example>
 
         <example>
@@ -1279,9 +1303,10 @@
                 </shortdescription>
             </image>
             </figure>
-
+        </statement>
+        <solution>
                 <p>
-                    To make things simpler, we’ll start by factoring out the inside of the function <m>f(\dfrac{1}{2}x+1)-3=f(\dfrac{1}{2}(x+2))-3</m>.
+                    To make things simpler, we'll start by factoring out the inside of the function <m>f(\dfrac{1}{2}x+1)-3=f(\dfrac{1}{2}(x+2))-3</m>.
                 </p>
 
                 <p>
@@ -1318,7 +1343,7 @@
                 </shortdescription>
             </image>
             </figure>
-            </statement>
+            </solution>
         </example>
 
         <example>
@@ -1332,7 +1357,8 @@
                     A downwards opening parabola with vertex at negative 3 comma 1 and passing through 2 comma negative 1 and 4 comma negative 1
                 </shortdescription>
             </image>
-
+        </statement>
+        <solution>
                 <p>
                     Since this is a quadratic function, first consider what the basic quadratic tool kit function looks like and how this has changed.
                     Observing the graph, we notice several transformations:
@@ -1423,24 +1449,25 @@
                     This tells us that to produce the graph we need a vertical stretch by two.
                     The function that produces this graph is therefore <m>g(x)=-2(x-3)^{2}+1</m>.
                 </p>
-            </statement>
+            </solution>
         </example>
 
-        <example>
+        <exercise>
             <statement>
                 <p>
                     Consider the linear function <m>g(x)=-2x+1</m>.
                     Describe its transformation in words using the identity tool kit function <m>f(x) = x</m> as a reference.
                 </p>
             </statement>
-        </example>
+        </exercise>
 
         <example>
             <statement>
                 <p>
                     On what interval(s) is the function <m>g(x)=\dfrac{-2}{(x-1)^2}+3</m> increasing and decreasing?
                 </p>
-
+            </statement>
+            <solution>
                 <p>
                     This is a transformation of the toolkit reciprocal squared function, <m>f(x)=\dfrac{1}{x^2}</m>:
                 </p>
@@ -1473,7 +1500,7 @@
                 </shortdescription>
             </image>
             </figure>
-            </statement>
+            </solution>
         </example>
 </subsection>
 <subsection>
