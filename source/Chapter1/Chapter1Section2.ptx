@@ -1,104 +1,97 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <section xml:id="Chapter1Section2" xmlns:xi="http://www.w3.org/2001/XInclude">
-  <title>Functions and Notation</title>
+  <title>Domain and Range</title>
 
-    <subsection>
-        <title>What is a Function?</title>
+  <subsection>
+        <title>Definitions</title>
 <objectives>
             <title>Important Topics of this Section</title>
                     <ul>
                         <li>
                             <p>
-                                Definition of a function
+                                Definition of domain
                             </p>
                         </li>
 
                         <li>
                             <p>
-                                Input (independent variable)
+                                Definition of range
                             </p>
                         </li>
 
                         <li>
                             <p>
-                                Output (dependent variable)
+                                Inequalities
                             </p>
                         </li>
 
                         <li>
                             <p>
-                                Definition of a one-to-one function
+                                Interval notation
                             </p>
                         </li>
 
                         <li>
                             <p>
-                                Function notation
+                                Set builder notation
                             </p>
                         </li>
 
                         <li>
                             <p>
-                                Descriptive variables
+                                Domain and Range from graphs
                             </p>
                         </li>
 
                         <li>
                             <p>
-                                Functions in words, tables, graphs and formulas
-                            </p>
-                        </li>
-
-                        <li>
-                            <p>
-                                Vertical line test
-                            </p>
-                        </li>
-
-                        <li>
-                            <p>
-                                Horizontal line test
-                            </p>
-                        </li>
-
-                        <li>
-                            <p>
-                                Evaluating a function at a specific input value
-                            </p>
-                        </li>
-
-                        <li>
-                            <p>
-                                Solving a function given a specific output value
-                            </p>
-                        </li>
-
-                        <li>
-                            <p>
-                                Toolkit Functions
+                                Domain and Range of toolkit functions
                             </p>
                         </li>
                     </ul>
-                </objectives>
+        </objectives>
         <p>
-            The natural world is full of relationships between quantities that change.
-            When we see these relationships, it is natural for us to ask, ”If I know one quantity, can I then determine the other?” This establishes the idea of an input quantity, or independent variable, and a corresponding output quantity, or dependent variable.
-            From this we get the notion of a functional relationship in which the output can be determined from the input.
+            One of our main goals in mathematics is to model the real world with mathematical functions.
+            In doing so, it is important to keep in mind the limitations of those models we create.
         </p>
 
         <p>
-            For some quantities, like height and age, there are certainly relationships between these quantities.
-            Given a specific person and any age, it is easy enough to determine their height, but if we tried to reverse that relationship and determine age from a given height, that would be problematic, since most people maintain the same height for many years.
+            This table shows a relationship between circumference and height of a tree as it grows.
+        </p>
+
+        <tabular>
+            <col halign="center"> </col> <col halign="center"> </col> <col halign="center"> </col> <col halign="center"> </col> <col halign="center"> </col> <col halign="center"> </col>
+            <row>
+                <cell>Circumference, <m>c</m> </cell>
+                <cell>1.7</cell>
+                <cell>2.5</cell>
+                <cell>5.5</cell>
+                <cell>8.2</cell>
+                <cell>13.7</cell>
+            </row>
+
+            <row>
+                <cell>Height, <m>h</m> </cell>
+                <cell>24.5</cell>
+                <cell>31</cell>
+                <cell>45.2</cell>
+                <cell>54.6</cell>
+                <cell>92.1</cell>
+            </row>
+        </tabular>
+
+        <p>
+            While there is a strong relationship between the two, it would certainly be ridiculous to talk about a tree with a circumference of -3 feet, or a height of 3000 feet.
+            When we identify limitations on the inputs and outputs of a function, we are determining the domain and range of the function.
         </p>
 
         <definition>
-            <title>Function</title>
+            <title>Domain and Range</title>
 
             <statement>
                 <p>
-                    A rule for a relationship between an input, or independent, quantity and an output, or dependent, quantity in which each input value uniquely determines one output value.
-                    We say, “the output is a function of the input.”
+                    Domain: The set of possible or acceptable input values to a function Range: The set of possible or acceptable output values of a function
                 </p>
             </statement>
         </definition>
@@ -106,32 +99,19 @@
         <example>
             <statement>
                 <p>
-                    In the height and age scenario above, is height a function of age? Is age a function of height?
-                </p></statement>
-<solution>
-                <p>
-                    In the height and age scenario above, it would be correct to say that height is a function of age, since each age uniquely determines a height.
-                    For example, on my 18th birthday, I had exactly one height of 69 inches.
-                </p>
-
-                <p>
-                    However, age is not a function of height, since one height input might correspond with more than one output age.
-                    For example, for an input height of 70 inches, there is more than one output of age since I was 70 inches at the age of 20 and 21.
-                </p></solution>
-            
-        </example>
-
-        <example>
-            <statement>
-                <p>
-                    At a coffee shop, the menu consists of items and their prices.
-                    Is price a function of the item? Is the item a function of the price?
+                    Using the tree table above, determine a reasonable domain and range.
                 </p>
             </statement>
             <solution>
                 <p>
-                    We could say that price is a function of the item, since each input of an item has one output of a price corresponding to it.
-                    We could not say that item is a function of price, since two items might have the same price.
+                    We could combine the data provided with our own experiences and reason to approximate the domain and range of the function <m>h = f(c)</m>.
+                    For the domain, possible values for the input circumference <m>c</m>, it doesn’t make sense to have negative values, so <m>c>0</m>.
+                    We could make an educated guess at a maximum reasonable value, or look up that the maximum circumference measured is about 119 feet .
+                    With this information, we would say a reasonable domain is <m>0&#x3C;c\leq119</m> feet.
+                </p>
+
+                <p>
+                    Similarly for the range, it doesn’t make sense to have negative heights, and the maximum height of a tree could be looked up to be 379 feet, so a reasonable range is <m>0&#x3C;h\leq379</m> feet.
                 </p>
             </solution>
         </example>
@@ -139,1067 +119,542 @@
         <example>
             <statement>
                 <p>
-                    In many classes the overall percentage you earn in the course corresponds to a decimal grade point.
-                    Is decimal grade a function of percentage? Is percentage a function of decimal grade?
+                    When sending a letter through the United States Postal Service, the price depends upon the weight of the letter, as shown in the table below.
+                    Determine the domain and range.
                 </p>
-            </statement>
-            <solution>
-                <p>
-                    For any percentage earned, there would be a decimal grade associated, so we could say that the decimal grade is a function of percentage.
-                    That is, if you input the percentage, your output would be a decimal grade.
-                    Percentage may or may not be a function of decimal grade, depending upon the teacher’s grading scheme.
-                    With some grading systems, there are a range of percentages that correspond to the same decimal grade.
-                </p>
-            </solution>
-        </example>
-
-        <definition>
-            <title>One-to-One Function</title>
-
-            <statement>
-                <p>
-                    Sometimes in a relationship each input corresponds to exactly one output, and every output corresponds to exactly one input.
-                    We call this kind of relationship a one-to-one function.
-                </p>
-            </statement>
-        </definition>
-
-        <p>
-            From Example 3, <em>if</em> each unique percentage corresponds to one unique decimal grade point and each unique decimal grade point corresponds to one unique percentage then it is a one-to-one function.
-        </p>
-
-        <exercise>
-            <statement>
-                <p>
-                    Let’s consider bank account information.
-                </p>
-
-                <p>
-                    Is your balance a function of your bank account number? (If you input a bank account number does it make sense that the output is your balance?)
-                </p>
-            </statement>
-        </exercise>
-
-        <p>
-        </p>
-
-        <exercise>
-            <statement>
-                <p>
-                    Is your bank account number a function of your balance? (if you input a balance does it make sense that the output is your bank account number?)
-                </p>
-            </statement>
-        </exercise>
-    </subsection>
-
-
-    <subsection>
-        <title>Function Notation</title>
-
-        <p>
-            To simplify writing out expressions and equations involving functions, a simplified notation is often used.
-            We also use descriptive variables to help us remember the meaning of the quantities in the problem.
-        </p>
-
-        <p>
-            Rather than write ”height is a function of age”, we could use the descriptive variable <m>h</m> to represent height and we could use the descriptive variable <m>a</m> to represent age.
-        </p>
-
-        <p>
-            “Height is a function of age”, then if we name the function <m>f</m> we can write
-        </p>
-
-        <p>
-            “<m>h</m> is <m>f</m> of <m>a</m>” or more simply
-        </p>
-
-        <p>
-            <m>h=f(a)</m>.
-        </p>
-
-        <p>
-            Be careful - the parentheses indicate that age is input into the function (Note: do not confuse these parentheses with multiplication! It does not mean "<m>f</m> times <m>a</m>").
-        </p>
-
-        <definition>
-            <title>Function Notation</title>
-
-            <statement>
-                <p>
-                    The notation <m>\text{output}= f(\text{input})</m> defines a function named <m>f</m>.
-                    This would be read “output is <m>f</m> of input”
-                </p>
-            </statement>
-        </definition>
-
-        <example>
-            <statement>
-                <p>
-                    Introduce function notation to represent a function that takes as input the name of a month and gives as output the number of days in that month.
-                </p>
-            </statement>
-            <solution>
-                <p>
-                    The number of days in a month is a function of the name of the month, so if we name the function <m>f</m>, we could write "<m>\text{days}= f(\text{month})</m>" or <m>d = f(m)</m>.
-                </p>
-
-                <p>
-                    For example, <m>f(\text{March}) = 31</m>, since March has 31 days.
-                    The notation <m>f(m)</m> reminds us that the number of days, <m>d</m> (the output) is dependent on the name of the month, <m>m</m> (the input)
-                </p>
-            </solution>
-        </example>
-
-        <example>
-            <statement>
-                <p>
-                    A function <m>N = f(y)</m> gives the number of police officers, <m>N</m>, in a town in year <m>y</m>.
-                    What does <m>f(2005) = 300</m> tell us?
-                </p>
-            </statement>
-            <solution>
-                <p>
-                    When we read <m>f(2005) = 300</m>, we see the input quantity is 2005, which is a value for the input quantity of the function, the year (<m>y</m>).
-                    The output value is 300, the number of police officers (<m>N</m>), a value for the output quantity.
-                    Remember <m>N=f(y)</m>.
-                    This tells us that in the year 2005 there were 300 police officers in the town.
-                </p>
-            </solution>
-        </example>
-    </subsection>
-
-
-    <subsection>
-        <title>Tables as Functions</title>
-
-        <p>
-            Functions can be represented in many ways: Words (as we did in the last few examples), tables of values, graphs, or formulas.
-            Represented as a table, we are presented with a list of input and output values.
-        </p>
-
-        <p>
-            In some cases, these values represent everything we know about the relationship, while in other cases the table is simply providing us a few select values from a more complete relationship.
-        </p>
-
-        <p>
-            Table 1: This table represents the input, number of the month (January = 1, February = 2, and so on) while the output is the number of days in that month.
-            This represents everything we know about the months and days for a given year (that is not a leap year)
-        </p>
-
-        <tabular left="minor">
-            <col halign="center" right="minor"> </col> <col halign="center" right="minor"> </col> <col halign="center" right="minor"> </col> <col halign="center" right="minor"> </col> <col halign="center" right="minor"> </col> <col halign="center" right="minor"> </col> <col halign="center" right="minor"> </col> <col halign="center" right="minor"> </col> <col halign="center" right="minor"> </col> <col halign="center" right="minor"> </col> <col halign="center" right="minor"> </col> <col halign="center" right="minor"> </col> <col halign="center" right="minor"> </col> <col halign="center"> </col>
-
-            <row>
-                <cell>(input) Month number, <m>m</m> </cell>
-                <cell>1</cell>
-                <cell>2</cell>
-                <cell>3</cell>
-                <cell>4</cell>
-                <cell>5</cell>
-                <cell>6</cell>
-                <cell>7</cell>
-                <cell>8</cell>
-                <cell>9</cell>
-                <cell>10</cell>
-                <cell>11</cell>
-                <cell>12</cell>
-            </row>
-
-            <row>
-                <cell>(output) Days in month, <m>D</m> </cell>
-                <cell>31</cell>
-                <cell>28</cell>
-                <cell>31</cell>
-                <cell>30</cell>
-                <cell>31</cell>
-                <cell>30</cell>
-                <cell>31</cell>
-                <cell>31</cell>
-                <cell>30</cell>
-                <cell>31</cell>
-                <cell>30</cell>
-                <cell>31</cell>
-            </row>
-
-        </tabular>
-
-        <p>
-            Table 2: The table below defines a function <m>Q = g(n)</m>.
-            Remember this notation tells us <m>g</m> is the name of the function that takes the input <m>n</m> and gives the output <m>Q</m>.
-        </p>
-
-        <tabular left="minor">
-            <col halign="center" right="minor"> </col> <col halign="center" right="minor"> </col> <col halign="center" right="minor"> </col> <col halign="center" right="minor"> </col> <col halign="center" right="minor"> </col> <col halign="center" right="minor"> </col>
-
-
-            <row>
-                <cell> <m>n</m> </cell>
-                <cell>1</cell>
-                <cell>2</cell>
-                <cell>3</cell>
-                <cell>4</cell>
-                <cell>5</cell>
-            </row>
-
-            <row>
-                <cell> <m>Q</m> </cell>
-                <cell>8</cell>
-                <cell>6</cell>
-                <cell>7</cell>
-                <cell>6</cell>
-                <cell>8</cell>
-            </row>
-
-        </tabular>
-
-        <p>
-            Table 3: This table represents the age of children in years and their corresponding heights.
-            This represents just some of the data available for height and ages of children.
-        </p>
-
-        <tabular left="minor">
-            <col halign="center" right="minor"> </col> <col halign="center" right="minor"> </col> <col halign="center" right="minor"> </col> <col halign="center" right="minor"> </col> <col halign="center" right="minor"> </col> <col halign="center" right="minor"> </col> <col halign="center" right="minor"> </col> <col halign="center" right="minor"> </col>
-
-            <row>
-                <cell>(input) <m>a</m>, age in years</cell>
-                <cell>5</cell>
-                <cell>5</cell>
-                <cell>6</cell>
-                <cell>7</cell>
-                <cell>8</cell>
-                <cell>9</cell>
-                <cell>10</cell>
-            </row>
-
-            <row>
-                <cell>(output) <m>h</m>, height inches</cell>
-                <cell>40</cell>
-                <cell>42</cell>
-                <cell>44</cell>
-                <cell>47</cell>
-                <cell>50</cell>
-                <cell>52</cell>
-                <cell>54</cell>
-            </row>
-
-        </tabular>
-
-        <example>
-            <statement>
-                <p>
-                    Which of these tables define a function (if any)? Are any of them one-to-one?
-                </p>
-
-                <tabular left="minor">
-                    <col halign="center" right="minor"> </col> <col halign="center" right="minor"> </col>
-
-                    <row>
-                        <cell>Input</cell>
-                        <cell>Output</cell>
-                    </row>
-
-                    <row>
-                        <cell>2</cell>
-                        <cell>1</cell>
-                    </row>
-
-                    <row>
-                        <cell>5</cell>
-                        <cell>3</cell>
-                    </row>
-
-                    <row>
-                        <cell>8</cell>
-                        <cell>6</cell>
-                    </row>
-                </tabular>
-
-                <tabular left="minor">
-                    <col halign="center" right="minor"> </col> <col halign="center" right="minor"> </col>
-
-                    <row>
-                        <cell>Input</cell>
-                        <cell>Output</cell>
-                    </row>
-
-                    <row>
-                        <cell>-3</cell>
-                        <cell>5</cell>
-                    </row>
-
-                    <row>
-                        <cell>0</cell>
-                        <cell>1</cell>
-                    </row>
-
-                    <row>
-                        <cell>4</cell>
-                        <cell>5</cell>
-                    </row>
-                </tabular>
-
-                <tabular left="minor">
-                    <col halign="center" right="minor"> </col> <col halign="center" right="minor"> </col>
-
-                    <row>
-                        <cell>Input</cell>
-                        <cell>Output</cell>
-                    </row>
-
-                    <row>
-                        <cell>1</cell>
-                        <cell>0</cell>
-                    </row>
-
-                    <row>
-                        <cell>5</cell>
-                        <cell>2</cell>
-                    </row>
-
-                    <row>
-                        <cell>5</cell>
-                        <cell>4</cell>
-                    </row>
-
-                </tabular>
-                </statement>
-                <solution>
-                <p>
-                    The first and second tables define functions.
-                    In both, each input corresponds to exactly one output.
-                    The third table does not define a function since the input value of 5 corresponds with two different output values.
-                </p>
-
-                <p>
-                    Only the first table is one-to-one; it is both a function, and each output corresponds to exactly one input.
-                    Although table 2 is a function, because each input corresponds to exactly one output, each output does not correspond to exactly one input so this function is not one-to-one.
-                    Table 3 is not even a function and so we don’t even need to consider if it is a one-to-one function.
-                </p>
-            </solution>
-        </example>
-
-        <exercise>
-            <statement>
-                <p>
-                    If each percentage earned translated to one letter grade, would this be a function? Is it one-to-one?
-                </p>
-            </statement>
-        </exercise>
-    </subsection>
-
-
-    <subsection>
-        <title>Solving and Evaluating Functions</title>
-
-        <p>
-            When we work with functions, there are two typical things we do: evaluate and solve.
-            Evaluating a function is what we do when we know an input, and use the function to determine the corresponding output.
-            Evaluating will always produce one result, since each input of a function corresponds to exactly one output.
-            When we have a formula for the function we are evaluating, we always want to make sure we are performing operations in the correct order, commonly known as the “Order of Operations”.
-            You have likely heard of or seen the order of operations in a previous class: Parenthesis, Exponents, Multiply, Divide, Addition, Subtraction.
-            We also need to remember that sometimes these steps are nested within each other.
-            For example, in the function <m>f(x)=2(5x-3)+9</m>, if I wanted to evaluate <m>f(3)</m>, I would need to first simplify the terms inside of the parenthesis, and I would need to follow proper order of operations INSIDE of the parenthesis.
-            So, I would evaluate <m>5(3)-3=15-3=12</m> first, then move outside our parenthesis to simplify <m>2(12)+9=24+9=33</m>.
-        </p>
-
-        <p>
-            Solving equations involving a function is what we do when we know an output and use the function to determine the inputs that would produce that output.
-            Solving a function could produce more than one solution, since different inputs can produce the same output.
-            Since solving an equation is the “opposite” of evaluating an equation, it can be helpful to think of using the “opposite” order of operations.
-            For example, using our function <m>f(x)=2(5x-3)+9</m> from above, if we wanted to solve <m>f(x)=23</m>, we would need to find the value of <m>x</m> that makes the equation <m>23=2(5x-3)+9</m> true.
-            Since our goal is to get <m>x</m> by itself, we can follow the reverse order of operations to isolate <m>x</m>.
-            First, we subtract the 9 to get <m>14=2(5x-3)</m>, then divide both sides of the equation by 2 to get <m>7=5x-3</m>.
-            Now that we are inside of the parenthesis we can repeat the process by adding 3 and then dividing both sides by 5 to get our solution of <m>x=2</m>.
-        </p>
-
-        <example>
-            <statement>
-                <p>
-                    Using the table shown, where <m>Q=g(n)</m>:
-                </p>
-
-                <tabular left="minor">
-                    <col halign="center" right="minor"> </col> <col halign="center" right="minor"> </col> <col halign="center" right="minor"> </col> <col halign="center" right="minor"> </col> <col halign="center" right="minor"> </col> <col halign="center" right="minor"> </col>
-
-                    <row>
-                        <cell> <m>n</m> </cell>
-                        <cell>1</cell>
-                        <cell>2</cell>
-                        <cell>3</cell>
-                        <cell>4</cell>
-                        <cell>5</cell>
-                    </row>
-
-
-                    <row>
-                        <cell> <m>Q</m> </cell>
-                        <cell>8</cell>
-                        <cell>6</cell>
-                        <cell>7</cell>
-                        <cell>6</cell>
-                        <cell>8</cell>
-                    </row>
-
-                </tabular>
-
-                <p>
-                    a) Evaluate <m>g(3)</m>
-                </p>
-
-                <p>
-                    Evaluating <m>g(3)</m> (read: “<m>g</m> of 3”) means that we need to determine the output value, <m>Q</m>, of the function <m>g</m> given the input value of <m>n=3</m>.
-                    Looking at the table, we see the output corresponding to <m>n=3</m> is <m>Q=7</m>, allowing us to conclude <m>g(3) = 7</m>.
-                </p>
-
-                <p>
-                    b) Solve <m>g(n) = 6</m>
-                </p>
-                </statement>
-                <solution>
-                <p>
-                    Solving <m>g(n) = 6</m> means we need to determine what input values, <m>n</m>, produce an output value of 6.
-                    Looking at the table we see there are two solutions: <m>n = 2</m> and <m>n = 4</m>.
-                </p>
-
-                <p>
-                    When we input 2 into the function <m>g</m>, our output is <m>Q = 6</m>
-                </p>
-
-                <p>
-                    When we input 4 into the function <m>g</m>, our output is also <m>Q = 6</m>
-                </p>
-            </solution>
-        </example>
-
-        <exercise>
-            <statement>
-                <p>
-                    Using the function in Example 7, evaluate <m>g(4)</m>.
-                </p>
-            </statement>
-        </exercise>
-    </subsection>
-
-
-    <subsection>
-        <title>Graphs as Functions</title>
-
-        <p>
-            Oftentimes a graph of a relationship can be used to define a function.
-            By convention, graphs are typically created with the input quantity along the horizontal axis and the output quantity along the vertical.
-        </p>
-
-        <p>
-            The most common graph has <m>y</m> on the vertical axis and <m>x</m> on the horizontal axis, and we say <m>y</m> is a function of <m>x</m>, or <m>y = f(x)</m> when the function is named <m>f</m>.
-        </p>
-
-        <figure xml:id="coordinate-plane">
-                <caption>The xy coordinate plane.</caption>
-                <image source="C1S2Image1.png">
-                <shortdescription>
-                    A coordinate plane grid with the horizontal axis labeled with the variable x and the vertical axis labeled with the variable y.
-                </shortdescription>
-            </image>
-            </figure>
-
-        <example>
-            <statement>
-                <p>
-                    Which of these graphs defines a function <m>y=f(x)</m>? Which of these graphs defines a one-to-one function?
-                </p>
-
-                <figure xml:id="cubic">
-                <caption>Graph 1</caption>
-                <image source="C1S2Image2.png">
-                <shortdescription>
-                    Graph of a smooth curve that increases to negative 1 comma 3, decreases to 1 comma negative 3, then increases.
-                </shortdescription>
-            </image>
-            </figure>
                 
+                <tabular>
+                    <col halign="center"> </col> <col halign="center"> </col>
+                    <row>
+                        <cell>Weight not over</cell>
+                        <cell>Price</cell>
+                    </row>
 
-                <figure xml:id="linear">
-                <caption>Graph 2</caption>
-                <image source="C1S2Image3.png">
-                <shortdescription>
-                    Graph of a decreasing straight line.
-                </shortdescription>
-            </image>
-            </figure>
-             
+                    <row>
+                        <cell>1 ounce</cell>
+                        <cell>$0.58</cell>
+                    </row>
 
-                <figure xml:id="circle">
-                <caption>Graph 3</caption>
-                <image source="C1S2ImageCirc.png">
-                <shortdescription>
-                    Graph of a circle with radius 3 centered at the origin.
-                </shortdescription>
-            </image>
-            </figure>
-            </statement>
-            <solution>
-                <p>
-                    Looking at the three graphs above, the first two define a function <m>y=f(x)</m>, since for each input value along the horizontal axis there is exactly one output value corresponding, determined by the <m>y</m>-value of the graph.
-                    The 3rd graph does not define a function <m>y=f(x)</m> since some input values, such as <m>x=2</m>, correspond with more than one output value.
-                </p>
+                    <row>
+                        <cell>2 ounces</cell>
+                        <cell>$0.78</cell>
+                    </row>
 
-                <p>
-                    Graph 1 is not a one-to-one function.
-                    For example, the output value 3 has two corresponding input values, -1 and 2.3
-                </p>
+                    <row>
+                        <cell>3 ounces</cell>
+                        <cell>$0.98</cell>
+                    </row>
 
-                <p>
-                    Graph 2 is a one-to-one function; each input corresponds to exactly one output, and every output corresponds to exactly one input.
-                </p>
-
-                <p>
-                    Graph 3 is not even a function so there is no reason to even check to see if it is a one-to-one function.
-                </p>
-            </solution>
-        </example>
-
-        <definition>
-            <title>Vertical line test</title>
-
-            <statement>
-                <p>
-                    The vertical line test is a handy way to think about whether a graph defines the vertical output as a function of the horizontal input.
-                    Imagine drawing vertical lines through the graph.
-                    If any vertical line would cross the graph more than once, then the graph does not define only one vertical output for each horizontal input.
-                </p>
-            </statement>
-        </definition>
-
-        <definition>
-            <title>Horizontal Line Test</title>
-
-            <statement>
-                <p>
-                    Once you have determined that a graph defines a function, an easy way to determine if it is a one-to-one function is to use the horizontal line test.
-                    Draw horizontal lines through the graph.
-                    If any horizontal line crosses the graph more than once, then the graph does not define a one-to-one function.
-                </p>
-            </statement>
-        </definition>
-
-        <p>
-            Evaluating a function using a graph requires taking the given input and using the graph to look up the corresponding output.
-            Solving a function equation using a graph requires taking the given output and looking on the graph to determine the corresponding input.
-        </p>
-
-        <example>
-            <statement>
-                <p>
-                    Given the graph of f(x),
-                </p>
-
-                <p>
-                    a) Evaluate <m>f(2)</m>
-                </p>
-
-                <p>
-                    b) Solve <m>f(x) = 4</m>
-                </p>
-
-                <figure xml:id="f-of-x">
-                <caption>Graph of <m>f(x)</m></caption>
-                <image source="C1S2Image4.png">
-                <shortdescription>
-                    A U-shaped graph passing through negative 1 comma 4, 0 comma 1, 1 comma 0, 2 comma 1, and 3 comma 4.
+                    <row>
+                        <cell>3.5 ounces</cell>
+                        <cell>$1.18</cell>
+                    </row>
                     
+                </tabular>
+            </statement>
+            <solution>
+                <p>
+                    Suppose we notate Weight by <m>w</m> and Price by <m>p</m>, and set up a function named <m>f</m>, where Price, <m>p</m> is a function of Weight, <m>w</m>.
+                    <m>p = f(w)</m>.
+                </p>
+
+                <p>
+                    Since acceptable weights are 3.5 ounces or less, and negative weights don’t make sense, the domain would be <m>0&#x3C;w\leq3.5</m>.
+                    Technically 0 could be included in the domain, but logically it would mean we are mailing nothing, so it doesn’t hurt to leave it out.
+                </p>
+
+                <p>
+                    Since possible prices are from a limited set of values, we can only define the range of this function by listing the possible values.
+                    The range is <m>p</m> = $0.58, $0.78, $0.98, or $1.18.
+                </p>
+            </solution>
+        </example>
+
+        <exercise>
+            <statement>
+                <p>
+                    The population of a small town in the year 1960 was 100 people.
+                    Since then, the population has grown to 1400 people reported during the 2010 census.
+                    Choose descriptive variables for your input and output and use interval notation to write the domain and range.
+                </p>
+            </statement>
+        </exercise>
+    </subsection>
+
+
+    <subsection>
+        <title>Notation</title>
+
+        <p>
+            In the previous examples, we used inequalities to describe the domain and range of the functions.
+            This is one way to describe intervals of input and output values, but is not the only way.
+            Let us take a moment to discuss notation for domain and range.
+        </p>
+
+        <p>
+            Using inequalities, such as <m>0&#x3C;c\leq163</m>, <m>0&#x3C;w\leq3.5</m>, and <m>0&#x3C;h\leq379</m> imply that we are interested in all values between the low and high values, including the high values in these examples.
+        </p>
+
+        <p>
+            However, occasionally we are interested in a specific list of numbers like the range for the price to send letters, <m>p</m> = $0.58, $0.78, $0.98, or $1.18.
+            These numbers represent a set of specific values: <m>\{0.58, 0.78, 0.98, 1.18\}</m>.
+        </p>
+
+        <p>
+            Representing values as a set, or giving instructions on how a set is built, leads us to another type of notation to describe the domain and range.
+        </p>
+
+        <p>
+            Suppose we want to describe the values for a variable <m>x</m> that are 10 or greater, but less than 30.
+            In inequalities, we would write <m>10\leq x&#x3C;30</m>.
+        </p>
+
+        <p>
+            When describing domains and ranges, we sometimes extend this into set-builder notation, which would look like this: <m>\{x|10\leq x&#x3C;30\}</m>.
+            The curly brackets {} are read as “the set of”, and the vertical bar | is read as “such that”, so altogether we would read <m>\{x|10\leq x&#x3C;30\}</m> as “the set of <m>x</m>-values such that 10 is less than or equal to <m>x</m> and <m>x</m> is less than 30.”
+        </p>
+
+        <p>
+            When describing ranges in set-builder notation, we could similarly write something like <m>\{f(x)|0&#x3C;f(x)&#x3C;100\}</m>, or if the output had its own variable, we could use it.
+            So for our tree height example above, we could write for the range <m>\{h|0&#x3C;h\leq 379\}</m>.
+            In set-builder notation, if a domain or range is not limited, we could write <m>\{t|t \text{ "is a real number"}\}</m>, or <m>\{t|t\in R\}</m>, read as “the set of <m>t</m>-values such that <m>t</m> is an element of the set of real numbers.
+        </p>
+
+        <p>
+            A more compact alternative to set-builder notation is interval notation, in which intervals of values are referred to by the starting and ending values.
+            Curved parentheses are used for “strictly less than,” and square brackets are used for “less than or equal to.” Since infinity is not a number, we can’t include it in the interval, so we always use curved parentheses with <m>\infty</m> and <m>-\infty</m>.
+            The table below will help you see how inequalities correspond to set-builder notation and interval notation:
+        </p>
+
+        <tabular>
+            <col halign="center"> </col> <col halign="center"> </col> <col halign="center"> </col>
+            <row>
+                <cell>Inequality</cell>
+                <cell>Set Builder Notation</cell>
+                <cell>Interval Notation</cell>
+            </row>
+
+            <row>
+                <cell> <m>5&#x3C;h\leq 10</m> </cell>
+                <cell> <m>\{h|5&#x3C;h\leq 10\}</m> </cell>
+                <cell> <m>(5,10]</m> </cell>
+            </row>
+
+            <row>
+                <cell> <m>5\leq h &#x3C;10</m> </cell>
+                <cell> <m>\{h|5\leq h &#x3C;10\}</m> </cell>
+                <cell> <m>[5,10)</m> </cell>
+            </row>
+
+            <row>
+                <cell> <m>5&#x3C;h&#x3C;10</m> </cell>
+                <cell> <m>\{h|5&#x3C;h&#x3C;10\}</m> </cell>
+                <cell> <m>(5,10)</m> </cell>
+            </row>
+
+            <row>
+                <cell> <m>h&#x3C;10</m> </cell>
+                <cell> <m>\{h|h&#x3C;10\}</m> </cell>
+                <cell> <m>(-\infty,10)</m> </cell>
+            </row>
+
+            <row>
+                <cell> <m>h\geq 10</m> </cell>
+                <cell> <m>\{h|h\geq 10\}</m> </cell>
+                <cell> <m>[10,\infty)</m> </cell>
+            </row>
+
+            <row>
+                <cell>all real numbers</cell>
+                <cell> <m>\{h|h\in\mathbb{R}\}</m> </cell>
+                <cell> <m>(- \infty, \infty)</m> </cell>
+            </row>
+        </tabular>
+
+        <p>
+            To combine two intervals together, using inequalities or set-builder notation we can use the word “or”.
+            In interval notation, we use the union symbol, <m>\cup</m>, to combine two unconnected intervals together.
+        </p>
+
+        <example>
+            <statement>
+                <p>
+                    Describe the intervals of values shown on the line graph below using set builder and interval notations.
+                </p>
+
+                <image source="C1S3Image1.png">
+                <shortdescription>
+                    A number line from -2 to 7 with two shaded sections. There are closed dots at 1 and 3 with the number line between shaded. There is an open dot at 5 with the number line shaded to the right.
                 </shortdescription>
             </image>
-            </figure>
-              </statement>
-              <solution>
-
+        </statement>
+        <solution>
                 <p>
-                    a) To evaluate <m>f(2)</m>, we find the input of <m>x=2</m> on the horizontal axis.
-                    Moving up to the graph gives the point <m>(2, 1)</m>, giving an output of <m>y=1</m>.
-                    <m>f(2) = 1</m>.
+                    To describe the values, <m>x</m>, that lie in the intervals shown above we would say, “<m>x</m> is a real number greater than or equal to 1 and less than or equal to 3, or a real number greater than 5.”
                 </p>
 
                 <p>
-                    b) To solve <m>f(x) = 4</m>, we find the value 4 on the vertical axis because if <m>f(x) = 4</m> then 4 is the output.
-                    Moving horizontally across the graph gives two points with the output of 4: <m>(-1,4)</m> and <m>(3,4)</m>.
-                    These give the two solutions to <m>f(x) = 4</m>: <m>x = -1</m> or <m>x = 3</m>.
-                </p>
-
-                <p>
-                    This means <m>f(-1)=4</m> and <m>f(3)=4</m>, or when the input is -1 or 3, the output is 4.
+                    As an inequality it is: <m>1\leq x\leq 3</m> or <m>x>5</m> In set builder notation: <m>\{x|1\leq x\leq 3 \text{ or }x>5\}</m> In interval notation: <m>[1,3]\cup(5,\infty)</m>
                 </p>
             </solution>
         </example>
 
         <p>
-            Notice that while the graph in the previous example is a function, getting two input values for the output value of 4 shows us that this function is not one-to-one.
+            Remember when writing or reading interval notation: Using a square bracket [ means the start value is included in the set. Using a parenthesis ( means the start value is not included in the set
         </p>
 
         <exercise>
             <statement>
                 <p>
-                    Using the graph from example 9, solve <m>f(x)=1</m>.
+                    Given the following interval, write its meaning in words, set builder notation, and interval notation.
                 </p>
+
+                
+                <image source="C1S3Image2.png">
+                <shortdescription>
+                    A number line from -5 to 5 with two shaded sections. There is a closed dot at -2 with the number line to the left shaded. There is a closed dot at -1 and open dot at 3 with the number line between shaded. 
+                </shortdescription>
+            </image>
+            
             </statement>
         </exercise>
     </subsection>
 
 
     <subsection>
-        <title>Formulas as Functions</title>
+        <title>Domain and Range from Graphs</title>
 
         <p>
-            When possible, it is very convenient to define relationships using formulas.
-            If it is possible to express the output as a formula involving the input quantity, then we can define a function.
+            We can also talk about domain and range based on graphs.
+            Since domain refers to the set of possible input values, the domain of a graph consists of all the input values shown on the graph.
+            Remember that input values are almost always shown along the horizontal axis of the graph.
+            Likewise, since range is the set of possible output values, the range of a graph we can see from the possible values along the vertical axis of the graph.
+        </p>
+
+        <p>
+            Be careful – if the graph continues beyond the window on which we can see the graph, the domain and range might be larger than the values we can see.
         </p>
 
         <example>
             <statement>
                 <p>
-                    Express the relationship <m>2n + 6p = 12</m> as a function <m>p = f(n)</m> if possible.
+                    Determine the domain and range of the graph below.
                 </p>
-            </statement>
-            <solution>
+
+                <image source="C1S3Image3.png">
+                <shortdescription>
+                    A graph labeled Alaska Crude Oil Production in thousands of barrels per day, with the horizontal axis showing years from 1975 to 2008, and the vertical axis from 0 to 2200.  The graph starts in 1975 around 200, drops a little to about 180, increases up to about 2010 in 1988, then drops to about 700 in 2008.
+                </shortdescription>
+            </image>
+        </statement>
+        <solution>
                 <p>
-                    To express the relationship in this form, we need to be able to write the relationship where <m>p</m> is a function of <m>n</m>, which means writing it as <m>p</m> = [something involving <m>n</m>].
+                    In the graph above, the input quantity along the horizontal axis appears to be “year”, which we could notate with the variable <m>y</m>.
+                    The output is “thousands of barrels of oil per day”, which we might notate with the variable <m>b</m>, for barrels.
+                    The graph would likely continue to the left and right beyond what is shown, but based on the portion of the graph that is shown to us, we can determine the domain is <m>1975\leq y\leq 2008</m>, and the range is approximately <m>180\leq b\leq 2010</m>.
                 </p>
 
                 <p>
-                    Starting with the given equation,
-                    <me>
-                        2n + 6p = 12,
-                    </me>
-                    we can then subtract <m>2n</m> from both sides to get
-                    <me>
-                        6p = 12 - 2n,
-                    </me>
-                    and then we can divide both sides by 6 and simplify to find
-                    <me>
-                        p=\dfrac{12-2n}{6}=\dfrac{12}{6}-\dfrac{2n}{6}=2-\dfrac{1}{3}n
-                    </me>
-                </p>
-
-                <p>
-                    Having rewritten the formula as <m>p</m>=, we can now express p as a function: <m>p=f(n)=2-\dfrac{1}{3}n</m>.
+                    In interval notation, the domain would be <m>[1975, 2008]</m> and the range would be about <m>[180, 2010]</m>.
+                    For the range, we have to approximate the smallest and largest outputs since they don’t fall exactly on the grid lines.
                 </p>
             </solution>
         </example>
 
         <p>
-            It is important to note that not every relationship can be expressed as a function with a formula.
+            Remember that, as in the previous example, <m>x</m> and <m>y</m> are not always the input and output variables.
+            Using descriptive variables is an important tool to remembering the context of the problem.
         </p>
-
-        <p>
-            Note the important feature of an equation written as a function is that the output value can be determined directly from the input by doing evaluations - no further solving is required.
-            This allows the relationship to act as a machine that takes an input, processes it, and returns an output.
-            Modern technology and computers rely on these functional relationships, since the evaluation of the function can be programmed into machines, whereas solving things is much more challenging.
-        </p>
-
-        <example>
-            <statement>
-                <p>
-                    Express the relationship <m>x^{2}+y^{2}=1</m> as a function <m>y = f(x)</m> if possible.
-                </p>
-            </statement>
-            <solution>
-                <p>
-                    If we try to solve for <m>y</m> in this equation, we get
-                </p>
-
-                <p>
-                    <m>y^{2}=1-x^{2}</m>
-                </p>
-
-                <p>
-                    <m>y=\pm \sqrt{1-x^{2}}</m>
-                </p>
-
-                <p>
-                    We end up with two outputs corresponding to the same input, so this relationship cannot be represented as a single function <m>y = f(x)</m>.
-                </p>
-            </solution>
-        </example>
-
-        <p>
-            As with tables and graphs, it is common to evaluate and solve functions involving formulas.
-            Evaluating will require replacing the input variable in the formula with the value provided and calculating.
-            Solving will require replacing the output variable in the formula with the value provided and solving for the input(s) that would produce that output.
-        </p>
-
-        <example>
-            <statement>
-                <p>
-                    Given the function <m>k(t)=t^{3}+2</m>,
-                </p>
-
-                <p>
-                    a) Evaluate <m>k(2)</m>
-                </p>
-
-                <p>
-                    b) Solve <m>k(t) = 1</m>
-                </p>
-            </statement>
-            <solution>
-                <p>
-                    a) “Evaluate <m>k(2)</m>” means we want to find the output when the input is <m>t = 2</m>.
-                    We plug in the input value 2 into the formula wherever we see the input variable <m>t</m>, then simplify
-                    <me>
-                        k(2)=2^{3}+2
-                    </me>
-                    <me>
-                        k(2)=8+2
-                    </me>
-                    <me>
-                        k(2) = 10
-                    </me>
-                </p>
-
-                <p>
-                    b) “Solve <m>k(t) = 1</m>” means we want to find the input <m>t</m> that will give us an output of 1.
-                    We set the formula for <m>k(t)</m> equal to 1, and solve for the input.
-                    Starting with the given information:
-                    <me>
-                        k(t) = 1,
-                    </me>
-                    we can then substitute the original formula <m>k(t)=t^{3}+2</m> to get
-                    <me>
-                        t^{3}+2=1.
-                    </me>
-                    Then subtract 2 from each side to get
-                    <me>
-                        t^{3}=-1,
-                    </me>
-                    and finally take the cube root of each side to get the solution
-                    <me>
-                        t=-1.
-                    </me>
-                </p>
-
-                <p>
-                    When solving an equation using formulas, you can check your answer by using your solution in the original equation to see if your calculated answer is correct.
-                </p>
-
-                <p>
-                    We want to know if <m>k(t)=1</m> is true when <m>t=-1</m>.
-                    <m>k(-1)=(-1)^{3}+2= -1+2= 1</m>, which was the desired result.
-                </p>
-            </solution>
-        </example>
-
-        <example>
-            <statement>
-                <p>
-                    Given the function <m>h(p)=p^{2}+2p</m>,
-                </p>
-
-                <p>
-                    a) Evaluate <m>h(4)</m>
-                </p>
-
-                <p>
-                    b) Solve <m>h(p) = 3</m>
-                </p>
-            </statement>
-            <solution>
-                <p>
-                    To evaluate <m>h(4)</m> we substitute the value 4 for the input variable <m>p</m> in the given function.
-                    a) <m>h(4)=(4)^{2}+2(4)= 16 + 8= 24</m>
-                </p>
-
-                <p>
-                    b) Starting with <m>h(p) = 3</m>, we substitute the original function <m>h(p)=p^{2}+2p</m> to get
-                    <me>
-                        p^{2}+2p=3.
-                    </me>
-                    This is quadratic, so we can rearrange the equation to get something equal to 0 by subtracting 3 from each side.
-                    So,
-                    <me>
-                        p^{2}+2p-3=0.
-                    </me>
-                    This is factor-able, so we factor it
-                    <me>
-                        (p+3)(p-1)=0.
-                    </me>
-                    By the zero-factor theorem since <m>(p+3)(p-1)=0</m>, either <m>(p+3)=0</m> or <m>(p-1)=0</m> (or both equal 0) and so we solve both equations for <m>p</m>, finding <m>p = -3</m> from the first equation and <m>p = 1</m> from the second equation.
-                </p>
-
-                <p>
-                    This gives us the solution: <m>h(p) = 3</m> when <m>p = 1</m> or <m>p = -3</m>.
-                </p>
-
-                <p>
-                    We found two solutions in this case, which tells us this function is not one-to-one.
-                </p>
-            </solution>
-        </example>
 
         <exercise>
             <statement>
                 <p>
-                    Given the function <m>g(m)=\sqrt{m-4}</m>, a.
-                    Evaluate <m>g(5)</m> b.
-                    Solve <m>g(m) = 2</m>
+                    Given the graph below write the domain and range in interval notation
                 </p>
+
+                <image source="C1S3Image4.png">
+                <shortdescription>
+                    A graph labeled World Population Increase. The vertical axis is labeled population increase in millions, and the horizontal axis is in years.  The graph starts around 45 in 1952, increases for a while, then drops to 40 in 1960. It increases and decreases a bit, reaching a high of 88 in 1989.  The graph ends at 76 in 2002.
+                </shortdescription>
+            </image>
             </statement>
         </exercise>
     </subsection>
 
 
     <subsection>
-        <title>Basic Toolkit Functions</title>
+        <title>Domains and Ranges of the Toolkit functions</title>
 
         <p>
-            In this text, we will be exploring functions – the shapes of their graphs, their unique features, their equations, and how to solve problems with them.
-            When learning to read, we start with the alphabet.
-            When learning to do arithmetic, we start with numbers.
-            When working with functions, it is similarly helpful to have a base set of elements to build from.
-            We call these our ”toolkit of functions” – a set of basic named functions for which we know the graph, equation, and special features.
+            We will now return to our set of toolkit functions to note the domain and range of each.
         </p>
-
+<definition>
+    <statement>
         <p>
-            For these definitions we will use <m>x</m> as the input variable and <m>f(x)</m> as the function output.
-        </p>
+            
 
-        <definition>
-            <title>Toolkit Functions</title>
-
-            <statement>
+        <ul>
+            <li>
                 <p>
-                    .
+                    Constant Function: <m>f(x)=c</m>
+                </p>
+
+                <p>
+                    The domain here is not restricted; <m>x</m> can be anything.
+                    When this is the case, we say the domain is all real numbers.
+                    The outputs are limited to the constant value of the function.
                     <ul>
                         <li>
                             <p>
-                                Linear
-                                <ul>
-                                    <li>
-                                        <p>
-                                            Constant: <m>f(x)=c</m>, where <m>c</m> is a constant number
-                                        </p>
-                                    </li>
-
-                                    <li>
-                                        <p>
-                                            Identity: <m>f(x)=x</m>
-                                        </p>
-                                    </li>
-                                </ul>
+                                Domain: <m>(-\infty,\infty)</m>
                             </p>
                         </li>
 
                         <li>
                             <p>
-                                Power
-                                <ul>
-                                    <li>
-                                        <p>
-                                            Quadratic: <m>f(x)=x^{2}</m>
-                                        </p>
-                                    </li>
+                                Range: <m>[c]</m>
+                            </p>
 
-                                    <li>
-                                        <p>
-                                            Cubic: <m>f(x)=x^{3}</m>
-                                        </p>
-                                    </li>
-
-                                    <li>
-                                        <p>
-                                            Reciprocal: <m>f(x)=\dfrac{1}{x}</m>
-                                        </p>
-                                    </li>
-
-                                    <li>
-                                        <p>
-                                            Reciprocal Squared: <m>f(x)=\dfrac{1}{x^2}</m>
-                                        </p>
-                                    </li>
-
-                                    <li>
-                                        <p>
-                                            Square Root: <m>f(x)=\sqrt{x}=x^{\frac{1}{2}}</m>
-                                        </p>
-                                    </li>
-
-                                    <li>
-                                        <p>
-                                            Cube Root: <m>f(x)=\sqrt[3]{x}=x^{\frac{1}{3}}</m>
-                                        </p>
-                                    </li>
-                                </ul>
+                            <p>
+                                Since there is only one output value, we list it by itself in square brackets.
                             </p>
                         </li>
                     </ul>
                 </p>
-            </statement>
-        </definition>
+            </li>
 
-        <p>
-            You will see these toolkit functions, combinations of toolkit functions, their graphs and their transformations frequently throughout this book.
-            In order to successfully follow along later in the book, it will be very helpful if you can recognize these toolkit functions and their features quickly by name, equation, graph and basic table values.
-        </p>
+            <li>
+                <p>
+                    Identity Function: <m>f(x)=x</m>
+                    <ul>
+                        <li>
+                            <p>
+                                Domain: <m>(-\infty,\infty)</m>
+                            </p>
+                        </li>
 
-        <p>
-            Not every important equation can be written as <m>y = f(x)</m>.
-            An example of this is the equation of a circle.
-            Recall the distance formula for the distance between two points:
-            <me>
-                \text{dist}=\sqrt{(x_{2}-x_{1} )^{2}+(y_{2}-y_{1} )^{2}}
-            </me>
-            A circle with radius <m>r</m> with center at <m>(h, k)</m> can be described as all points <m>(x, y)</m> a distance of <m>r</m> from the center, so using the distance formula, <m>r=\sqrt{(x-h)^{2}+(y-k)^{2}}</m>, giving:
-        </p>
+                        <li>
+                            <p>
+                                Range: <m>(-\infty,\infty)</m>
+                            </p>
+                        </li>
+                    </ul>
+                </p>
+            </li>
 
-        <definition>
-            <title>Equation of a circle</title>
+            <li>
+                <p>
+                    Quadratic Function: <m>f(x)=x^{2}</m>
+                    <ul>
+                        <li>
+                            <p>
+                                Domain: <m>(-\infty,\infty)</m>
+                            </p>
+                        </li>
 
+                        <li>
+                            <p>
+                                Range: <m>[0,\infty)</m>
+                            </p>
+
+                            <p>
+                                Multiplying a negative or positive number by itself can only yield a positive output.
+                            </p>
+                        </li>
+                    </ul>
+                </p>
+            </li>
+
+            <li>
+                <p>
+                    Cubic Function: <m>f(x)=x^{3}</m>
+                    <ul>
+                        <li>
+                            <p>
+                                Domain: <m>(-\infty,\infty)</m>
+                            </p>
+                        </li>
+
+                        <li>
+                            <p>
+                                Range: <m>(-\infty,\infty)</m>
+                            </p>
+                        </li>
+                    </ul>
+                </p>
+            </li>
+
+            <li>
+                <p>
+                    Reciprocal: <m>f(x)=\dfrac{1}{x}</m>
+                    <ul>
+                        <li>
+                            <p>
+                                Domain: <m>(-\infty,0)\cup(0,\infty)</m>
+                            </p>
+
+                            <p>
+                                We cannot divide by 0 so we must exclude 0 from the domain.
+                            </p>
+                        </li>
+
+                        <li>
+                            <p>
+                                Range: <m>(-\infty,0)\cup(0,\infty)</m>
+                            </p>
+
+                            <p>
+                                One divided by any value can never be 0, so the range will not include 0.
+                            </p>
+                        </li>
+                    </ul>
+                </p>
+            </li>
+
+            <li>
+                <p>
+                    Reciprocal squared: <m>f(x)=\dfrac{1}{x^2}</m>
+                    <ul>
+                        <li>
+                            <p>
+                                Domain: <m>(-\infty,0)\cup(0,\infty)</m>
+                            </p>
+
+                            <p>
+                                We cannot divide by 0 so we must exclude 0 from the domain.
+                            </p>
+                        </li>
+
+                        <li>
+                            <p>
+                                Range: <m>(0,\infty)</m>
+                            </p>
+
+                            <p>
+                                Since the denominator will always be positive, and 1 divided by a positive number will be positive, the range will always be positive.
+                            </p>
+                        </li>
+                    </ul>
+                </p>
+            </li>
+
+            <li>
+                <p>
+                    Cube Root: <m>f(x)=\sqrt[3]{x}</m>
+                    <ul>
+                        <li>
+                            <p>
+                                Domain: <m>(-\infty,\infty)</m>
+                            </p>
+                        </li>
+
+                        <li>
+                            <p>
+                                Range: <m>(-\infty,\infty)</m>
+                            </p>
+                        </li>
+                    </ul>
+                </p>
+            </li>
+
+            <li>
+                <p>
+                    Square Root: <m>f(x)=\sqrt{x}</m>
+                    <ul>
+                        <li>
+                            <p>
+                                Domain: <m>[0,\infty)</m>
+                            </p>
+
+                            <p>
+                                When dealing with the set of real numbers we cannot take the square root of a negative number so the domain is limited to 0 or greater.
+                            </p>
+                        </li>
+
+                        <li>
+                            <p>
+                                Range: <m>[0,\infty)</m>
+                            </p>
+                        </li>
+                    </ul>
+                </p>
+            </li>
+        </ul>
+                </p>
+</statement>
+</definition>
+        <example>
             <statement>
                 <p>
-                    A circle with radius r with center <m>(h, k)</m> has equation <m>r^{2}=(x-h)^{2}+(y-k)^{2}</m>.
+                    Find the domain of each function:
+                </p>
+
+                <p>
+                    a) <m>f(x)=2\sqrt{x+4}</m>
+                </p>
+
+                <p>
+                    b) <m>g(x)=\dfrac{3}{6-3x}</m>
                 </p>
             </statement>
-        </definition>
-    </subsection>
+            <solution>
+                <p>
+                    a) Since we cannot take the square root of a negative number, we need the inside of the square root to be non-negative.
+                    <m>x+4\geq0</m> when <m>x\geq-4</m>.
+                    The domain of <m>f(x)</m> is <m>[-4,\infty)</m>.
+                </p>
 
-
-    <subsection>
-        <title>Graphs of the Toolkit Functions</title>
-
-        <p>
-            The following graphs are the graphs of the toolkit functions, followed by the function definition.
-        </p>
-
-            <figure xml:id="constant">
-                <caption>Graph of the constant function <m>f(x)=2</m></caption>
-                <image source="C1S2Image5.png">
-                <shortdescription>
-                    A horizontal line passing through the points negative 4 comma 2, negative 2 comma 2, 0 comma 2, 2 comma 2, and 4 comma 2.
-                    
-                </shortdescription>
-            </image>
-            </figure>
-
-        <figure xml:id="yequalsx">
-                <caption>Graph of <m>f(x)=x</m></caption>
-                <image source="C1S2Image6.png">
-                <shortdescription>
-                    An increasing straight line passing through negative 1 comma negative 1, 0 comma 0 and 1 comma 1.
-                    
-                </shortdescription>
-            </image>
-            </figure>
-        
-        <figure xml:id="squared">
-                <caption>Graph of <m>f(x)=x^2</m></caption>
-                <image source="C1S2Image8.png">
-                <shortdescription>
-                    A U-shaped graph decreasing to 0 comma 0 then increasing, passing through 1 comma 1.
-                    
-                </shortdescription>
-            </image>
-            </figure>
-        
-        <figure xml:id="cubed">
-                <caption>Graph of <m>f(x)=x^3</m></caption>
-                <image source="C1S2Image9.png">
-                <shortdescription>
-                    A graph that increases quickly, then flattens out at the origin, then increases quickly again.
-                    
-                </shortdescription>
-            </image>
-            </figure>
-        
-        <figure xml:id="root">
-                <caption>Graph of <m>f(x)=\sqrt{x}</m></caption>
-                <image source="C1S2Image10.png">
-                <shortdescription>
-                    Starts at the origin, flattens out as it increases. Passes through 1 comma 1, 4 comma 2, and 9 comma 3.
-                    
-                </shortdescription>
-            </image>
-            </figure>
-
-        <figure xml:id="cuberoot">
-                <caption>Graph of <m>f(x)=\sqrt[3]{x}</m></caption>
-                <image source="C1S2Image11.png">
-                <shortdescription>
-                    An increasing upward curving graph that passes through negative 8 comma negative 2, negative 1 comma negative 1,0 comma 0 and changes to concave down at 0 comma 0 and goes through the point 1 comma and 8 comma 2.
-                    
-                </shortdescription>
-            </image>
-            </figure>
-
-        <figure xml:id="reciprocal">
-                <caption>Graph of <m>f(x)=\dfrac{1}{x}</m></caption>
-                <image source="C1S2Image12.png">
-                <shortdescription>
-                    From the left the graph starts out flat just below 0. As x increases, y decreases slowly at first then more rapidly. As x approaches 0 from the left, the graph decreases rapidly out of the window.  Immediately past 0, the graph decreases rapidly from above the window, decreasing quickly and first then more slowly.  As x increases to the right, the graph flattens, approaching 0.
-                    
-                </shortdescription>
-            </image>
-            </figure>
-
-        <figure xml:id="reciprocal-squared">
-                <caption>Graph of <m>f(x)=\dfrac{1}{x^2}</m></caption>
-                <image source="C1S2Image13.png">
-                <shortdescription>
-                    Immediately past 0, the graph decreases rapidly from above the window, decreasing quickly and first then more slowly.  As x increases to the right, the graph flattens, approaching 0.
-                    
-                </shortdescription>
-            </image>
-            </figure>
+                <p>
+                    b) We cannot divide by zero, so we need the denominator to be non-zero.
+                    <m>6-3x=0</m> when <m>x = 2</m>, so we must exclude 2 from the domain.
+                    The domain of <m>g(x)</m> is <m>(-\infty,2)\cup(2,\infty)</m>.
+                </p>
+            </solution>
+        </example>
     </subsection>
 
 
     <subsection>
         <title>Answers</title>
         <exercise>
-            <statement><p>
-                Answers to checkpoint exercises.
-            </p> </statement>
-                    <answer>
-                        <p>
+            <statement>
+                <p>Answers to Checkpoint Exercises</p>
+                </statement>
+                <answer>
+                    <p>
                     <ol>
                         <li>
                             <p>
-                                Yes: for each bank account, there would be one balance associated
-                            </p>
-                        </li>
-
-                        <li>
-                            <p>
-                                No: there could be several bank accounts with the same balance
-                            </p>
-                        </li>
-
-                        <li>
-                            <p>
-                                Yes it’s a function; No, it’s not one-to-one (several percents give the same letter grade)
-                            </p>
-                        </li>
-
-                        <li>
-                            <p>
-                                When <m>n=4</m>, <m>Q=g(4)=6</m>
-                            </p>
-                        </li>
-
-                        <li>
-                            <p>
-                                There are two points where the output is 1: <m>x = 0</m> or <m>x = 2</m>
+                                Domain: <m>y</m> = years <m>[1960,2010]</m> , Range: <m>p</m> = population, <m>[100,1400]</m>
                             </p>
                         </li>
 
                         <li>
                             <p>
                                 a.
-                                <m>g(5)=\sqrt{5-4}=1</m>, b.
-                                <m>\sqrt{m-4}=2</m>.
-                                Square both sides to get <m>m-4=4</m>, so <m>m = 8</m>
+                                Values that are less than or equal to -2, or values that are greater than or equal to -1 and less than 3
+                            </p>
+
+                            <p>
+                                b.
+                                <m>\{x|x\leq -2\text{or}-1\leq x&#x3C;3\}</m>
+                            </p>
+
+                            <p>
+                                c.
+                                <m>(-\infty,-2]\cup[-1,3)</m>
+                            </p>
+                        </li>
+
+                        <li>
+                            <p>
+                                Domain: <m>y</m> = years, <m>[1952,2002]</m> , Range: <m>p</m> = population in millions, <m>[40,88]</m>
                             </p>
                         </li>
                     </ol>
                 </p>
-                </answer>
+            </answer>
         </exercise>
     </subsection>
+
 </section>

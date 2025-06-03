@@ -1,150 +1,92 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <section xml:id="Chapter1Section4" xmlns:xi="http://www.w3.org/2001/XInclude">
-  <title>Rates of Change</title>
+  <title>Composition</title>
 
   <subsection>
         <title>Definitions</title>
 <objectives>
-            <title>Important Topics of This Section</title>
+            <title>Important Topics of this Section</title>
                     <ul>
                         <li>
                             <p>
-                                Rate of Change
+                                Definition of Composition of Functions
                             </p>
                         </li>
 
                         <li>
                             <p>
-                                Average Rate of Change
+                                Compositions using:
+                                <ul>
+                                    <li>
+                                        <p>
+                                            Words
+                                        </p>
+                                    </li>
+
+                                    <li>
+                                        <p>
+                                            Tables
+                                        </p>
+                                    </li>
+
+                                    <li>
+                                        <p>
+                                            Graphs
+                                        </p>
+                                    </li>
+
+                                    <li>
+                                        <p>
+                                            Equations
+                                        </p>
+                                    </li>
+                                </ul>
                             </p>
                         </li>
 
                         <li>
                             <p>
-                                Calculating Average Rate of Change using Function Notation
+                                Domain of Compositions
                             </p>
                         </li>
 
                         <li>
                             <p>
-                                Increasing/Decreasing Functions
+                                Decomposition of Functions
                             </p>
                         </li>
                     </ul>
         </objectives>
         <p>
-            Since functions represent how an output quantity varies with an input quantity, it is natural to ask about the rate at which the values of the function are changing.
+            Suppose we wanted to calculate how much it costs to heat a house on a particular day of the year.
+            The cost to heat a house will depend on the average daily temperature, and the average daily temperature depends on the particular day of the year.
+            Notice how we have just defined two relationships: The temperature depends on the day, and the cost depends on the temperature.
+            Using descriptive variables, we can notate these two functions.
         </p>
 
         <p>
-            For example, the function <m>g</m> below gives the average cost <m>C</m>, in dollars, of a gallon of gasoline <m>t</m> years after 2000.
-        </p>
-
-        <tabular>
-            <col halign="center"> </col> <col halign="center"> </col> <col halign="center"> </col> <col halign="center"> </col> <col halign="center"> </col> <col halign="center"> </col> <col halign="center"> </col> <col halign="center"> </col> <col halign="center"> </col>
-            <row>
-                <cell> <m>t</m> </cell>
-                <cell>2</cell>
-                <cell>3</cell>
-                <cell>4</cell>
-                <cell>5</cell>
-                <cell>6</cell>
-                <cell>7</cell>
-                <cell>8</cell>
-                <cell>9</cell>
-            </row>
-
-            <row>
-                <cell> <m>g(t)</m> </cell>
-                <cell>1.47</cell>
-                <cell>1.69</cell>
-                <cell>1.94</cell>
-                <cell>2.30</cell>
-                <cell>2.51</cell>
-                <cell>2.64</cell>
-                <cell>3.01</cell>
-                <cell>2.14</cell>
-            </row>
-        </tabular>
-        
-        <p>
-            If we were interested in how the gas prices had changed between 2002 and 2009, we could compute that the cost per gallon had increased from $1.47 to $2.14, an increase of $0.67.
-            While this is interesting, it might be more useful to look at how much the price changed per year.
-            You are probably noticing that the price didn’t change the same amount each year, so we would be finding the average rate of change over a specified amount of time.
-        </p>
-
-        <p>
-            The gas price increased by $0.67 from 2002 to 2009, over 7 years, for an average of $0.67/7 years <m>\approx</m> $0.096 per year.
-            On average, the price of gas increased by about 9.6 cents each year.
+            The first function, <m>f(T)</m>, gives the cost <m>C</m> of heating a house when the average daily temperature is <m>T</m> degrees Celsius, and the second, <m>g(d)</m>, gives the average daily temperature on day <m>d</m> of the year in some city.
+            If we wanted to determine the cost of heating the house on the 5th day of the year, we could do this by linking our two functions together, an idea called composition of functions.
+            Using the function <m>g(d)</m>, we could evaluate <m>g(5)</m> to determine the average daily temperature on the 5th day of the year.
+            We could then use that temperature as the input to the <m>f(T)</m> function to find the cost to heat the house on the 5th day of the year: <m>f(g(5))</m>.
         </p>
 
         <definition>
-            <title>Rate of Change</title>
+            <title>Composition of Functions</title>
 
             <statement>
                 <p>
-                    A rate of change describes how the output quantity changes in relation to the input quantity.
-                    The units on a rate of change are “output units per input unit” or ”<m>\dfrac{\text{output units}}{\text{input unit}}</m>”.
+                    When the output of one function is used as the input of another, we call the entire operation a composition of functions.
+                    We write <m>f(g(x))</m> and read this as “<m>f</m> of <m>g</m> of <m>x</m>” or “<m>f</m> composed with <m>g</m> at <m>x</m>”.
                 </p>
-            </statement>
-        </definition>
 
-        <p>
-            Some other examples of rates of change would be quantities like:
-        </p>
-<example>
-    <p>
-        
-        <ul>
-            <li>
                 <p>
-                    A population of rats increases by 40 rats per week.
+                    An alternate notation for composition uses the composition operator: <m>\circ</m>
                 </p>
-            </li>
 
-            <li>
                 <p>
-                    A barista earns $9 per hour (dollars per hour).
-                </p>
-            </li>
-
-            <li>
-                <p>
-                    A farmer plants 60,000 onions per acre.
-                </p>
-            </li>
-
-            <li>
-                <p>
-                    A car can drive 27 miles per gallon of gasoline.
-                </p>
-            </li>
-
-            <li>
-                <p>
-                    A population of grey whales decreases by 8 whales per year.
-                </p>
-            </li>
-
-            <li>
-                <p>
-                    The amount of money in your college account decreases by $8,000 per semester.
-                </p>
-            </li>
-        </ul>
-            </p>
-</example>
-        <definition>
-            <title>Average Rate of Change</title>
-
-            <statement>
-                <p>
-                    The average rate of change between two input values is the total change of the function values (output values) divided by the change in the input values.
-                    If we are given two pairs of input and output values <m>(x_{1},y_{1})</m> and <m>(x_{2},y_{2} )</m>, then we compute the average rate of change from the first point to the second point with the following calculation:
-                    <me>
-                        \text{Average rate of change}= \dfrac{\text{Change of Output}}{\text{Change of Input}}=\dfrac{\Delta y}{\Delta x}=\dfrac{y_2-y_1}{x_2-x_1}
-                    </me>
+                    <m>f\circ g(x)</m> is read “<m>f</m> of <m>g</m> of <m>x</m>” or “<m>f</m> composed with <m>g</m> at <m>x</m>”, just like <m>f(g(x))</m>. We could refer to the name of this new function as <m>f\circ g</m>.
                 </p>
             </statement>
         </definition>
@@ -152,146 +94,151 @@
         <example>
             <statement>
                 <p>
-                    Using the cost-of-gas function from earlier, find the average rate of change between 2007 and 2009
-                </p>
-
-                <p>
-                    From the table, in 2007 the cost of gas was $2.64.
-                    In 2009 the cost was $2.14.
-                </p>
-
-                <p>
-                    The input (years) has changed by 2.
-                    The output has changed by $2.14 - $2.64 = -$0.50.
-                    The average rate of change is then <m>\dfrac{-\$0.50}{2 \text{ years}}=-0.25</m> dollars per year.
+                    Suppose <m>f(s)</m> gives the number of calories burned doing <m>s</m> sit-ups, and <m>g(t)</m> gives the number of sit-ups a person can do in <m>t</m> minutes.
+                    Interpret <m>f(g(3))</m>.
                 </p>
             </statement>
+            <solution>
+                <p>
+                    When we are asked to interpret, we are being asked to explain the meaning of the expression in words.
+                    The inside expression in the composition is <m>g(3)</m>.
+                    Since the input to the <m>g</m> function is time, the 3 is representing 3 minutes, and <m>g(3)</m> is the number of sit-ups that can be done in 3 minutes.
+                    Taking this output and using it as the input to the <m>f(s)</m> function will gives us the calories that can be burned by the number of sit-ups that can be done in 3 minutes.
+                </p>
+            </solution>
+        </example>
+
+        <p>
+            Note that it is no context involved in the scenario, it is not important that the same variable be used for the output of the inside function and the input to the outside function.
+            However, it is essential that if we are given context, then the units on the output of the inside function match the units on the input to the outside function if the units are specified.
+        </p>
+
+        <example>
+            <statement>
+                <p>
+                    Suppose <m>f(x)</m> gives miles that can be driven in <m>x</m> hours, and <m>g(y)</m> gives the gallons of gas used in driving <m>y</m> miles.
+                    Which of these expressions is meaningful: <m>f(g(y))</m> or <m>g(f(x))</m>?
+                </p>
+            </statement>
+            <solution>
+                <p>
+                    The expression <m>g(y)</m> takes miles as the input and outputs a number of gallons.
+                    The function <m>f(x)</m> is expecting a number of hours as the input; trying to give it a number of gallons as input does not make sense.
+                    Remember the units must match, and number of gallons does not match number of hours, so the expression <m>f(g(y))</m> is meaningless.
+                </p>
+
+                <p>
+                    The expression <m>f(x)</m> takes hours as input and outputs a number of miles driven.
+                    The function <m>g(y)</m> is expecting a number of miles as the input, so giving the output of the <m>f(x)</m> function (miles driven) as an input value for <m>g(y)</m>, where gallons of gas depend on miles driven, does make sense.
+                    The expression <m>g(f(x))</m> makes sense and will give the number of gallons of gas used, driving a certain number of miles, <m>f(x)</m>, in <m>x</m> hours.
+                </p>
+            </solution>
         </example>
 
         <exercise>
             <statement>
                 <p>
-                    Using the same cost-of-gas function, find the average rate of change between 2003 and 2008.
+                    In a department store you see a sign that says 50% off clearance merchandise, so final cost <m>C</m> depends on the clearance price, <m>p</m>, according to the function <m>j(p)</m>.
+                    Clearance price, <m>p</m>, depends on the original discount, <m>d</m>, given to the clearance item, <m>k(d)</m>.
+                    Interpret <m>j(k(d))</m>.
                 </p>
             </statement>
         </exercise>
+    </subsection>
+
+
+    <subsection>
+        <title>Composition of Functions using Tables and Graphs</title>
 
         <p>
-            Notice that in the last example the change of output was negative since the output value of the function had decreased.
-            Correspondingly, the average rate of change is negative.
+            When working with functions given as tables and graphs, we can look up values for the functions using a provided table or graph, as discussed in section 1.2.
+            We start evaluation from the provided input, and first evaluate the inside function.
+            We can then use the output of the inside function as the input to the outside function.
+            To remember this, always work from the inside out, as if we are following the order of operations.
         </p>
 
         <example>
             <statement>
                 <p>
-                    Given the function g(t) shown here, find the average rate of change on the interval <m>[0, 3]</m>.
-                </p>
-
-
-                <image source="C1S4Image1.png">
-                <shortdescription>
-                    A U-shaped graph passing through 0 comma 1, 1 comma 0, 2 comma 1, and 3 comma 4
-                </shortdescription>
-            </image>
-
-
-                <p>
-                    At <m>t = 0</m>, the graph shows <m>g(0)=1</m>.
-                    At <m>t = 3</m>, the graph shows <m>g(3)=4</m>.
-                </p>
-
-                <p>
-                    The output has changed by 3 while the input has changed by 3, giving an average rate of change of: <m>\dfrac{4-1}{3-0}=\dfrac{3}{3}=1</m>
-                </p>
-            </statement>
-        </example>
-
-        <example>
-            <statement>
-                <p>
-                    On a road trip, after picking up your friend who lives 10 miles away, you decide to record your distance from home over time.
-                    Find your average speed over the first 6 hours.
+                    Using the tables below, evaluate <m>f(g(3))</m> and <m>g(f(4))</m>.
                 </p>
 
                 <tabular>
-                    <col halign="center"> </col> <col halign="center"> </col> <col halign="center"> </col> <col halign="center"> </col> <col halign="center"> </col> <col halign="center"> </col> <col halign="center"> </col> <col halign="center"> </col> <col halign="center"> </col>
+                    <col halign="center"> </col> <col halign="center"> </col>
                     <row>
-                        <cell> <m>t</m> (hours)</cell>
-                        <cell>0</cell>
-                        <cell>1</cell>
-                        <cell>2</cell>
-                        <cell>3</cell>
-                        <cell>4</cell>
-                        <cell>5</cell>
-                        <cell>6</cell>
-                        <cell>7</cell>
+                        <cell> <m>x</m> </cell>
+                        <cell> <m>f(x)</m> </cell>
                     </row>
 
                     <row>
-                        <cell> <m>D</m> (miles)</cell>
-                        <cell>10</cell>
-                        <cell>55</cell>
-                        <cell>90</cell>
-                        <cell>153</cell>
-                        <cell>214</cell>
-                        <cell>240</cell>
-                        <cell>292</cell>
-                        <cell>300</cell>
+                        <cell>1</cell>
+                        <cell>6</cell>
+                    </row>
+
+                    <row>
+                        <cell>2</cell>
+                        <cell>8</cell>
+                    </row>
+
+                    <row>
+                        <cell>3</cell>
+                        <cell>3</cell>
+                    </row>
+
+                    <row>
+                        <cell>4</cell>
+                        <cell>1</cell>
                     </row>
                 </tabular>
 
-                <p>
-                    Here, your average speed is the average rate of change.
-                    You traveled 282 miles in 6 hours, for an average speed of <m>\dfrac{292-10}{6-0}=\dfrac{282}{6}= 47</m> miles per hour.
-                </p>
+                <tabular>
+                    <col halign="center"> </col> <col halign="center"> </col>
+                    <row>
+                        <cell> <m>x</m> </cell>
+                        <cell> <m>g(x)</m> </cell>
+                    </row>
+
+                    <row>
+                        <cell>1</cell>
+                        <cell>3</cell>
+                    </row>
+
+                    <row>
+                        <cell>2</cell>
+                        <cell>5</cell>
+                    </row>
+
+                    <row>
+                        <cell>3</cell>
+                        <cell>2</cell>
+                    </row>
+
+                    <row>
+                        <cell>4</cell>
+                        <cell>7</cell>
+                    </row>
+                </tabular>
             </statement>
-        </example>
-
-        <p>
-            We can more formally state the average rate of change calculation using function notation.
-        </p>
-
-        <definition>
-            <title>Average Rate of Change using Function Notation</title>
-
-            <statement>
+            <solution>
                 <p>
-                    Given a function <m>f(x)</m>, the average rate of change on the interval <m>[a, b]</m> is
-                    <me>
-                        \text{Average rate of change}= \dfrac{\text{Change of Output}}{\text{Change of Input}}=\dfrac{f(b)-f(a)}{b-a}
-                    </me>
-                </p>
-            </statement>
-        </definition>
-
-        <example>
-            <statement>
-                <p>
-                    Compute the average rate of change of <m>f(x)=x^{2}-\dfrac{1}{x}</m> on the interval <m>[2, 4]</m>.
+                    To evaluate <m>f(g(3))</m>, we start from the inside with the value 3.
+                    We then evaluate the inside expression <m>g(3)</m> using the table that defines the function <m>g</m>: <m>g(3)=2</m>.
+                    We can then use that result as the input to the <m>f</m> function, so <m>g(3)</m> is replaced by the equivalent value 2 and we can evaluate <m>f(2)</m>.
+                    Then using the table that defines the function <m>f</m>, we find that <m>f(2)=8</m>.
+                    Thus, <m>f(g(3))=f(2)=8</m>.
                 </p>
 
                 <p>
-                    We can start by computing the function values at each endpoint of the interval
+                    To evaluate <m>g(f(4))</m>, we first evaluate the inside expression <m>f(4)</m> using the first table: <m>f(4)=1</m>.
+                    Then using the table for <m>g</m>, we can evaluate: <m>g(f(4))=g(1)=3</m>.
                 </p>
-
-                <p>
-                    <m>f(2)=2^{2}-\frac{1}{2}=4-\frac{1}{2}=\frac{7}{2}</m>,
-                </p>
-
-                <p>
-                    <m>f(4)=4^{2}-\frac{1}{4}=16-\frac{1}{4}=\frac{63}{4}</m>.
-                </p>
-
-                <p>
-                    Now computing the average rate of change <m>\text{Average rate of change}= \dfrac{f(4)-f(2)}{4-2}=\dfrac{\frac{63}{4}-\frac{7}{2}}{4-2}=\dfrac{\frac{49}{4}}{2}=\dfrac{49}{8}</m>
-                </p>
-            </statement>
+            </solution>
         </example>
 
         <exercise>
             <statement>
                 <p>
-                    Find the average rate of change of <m>f(x)=x-2\sqrt{x}</m> on the interval <m>[1, 9]</m>.
+                    Using the tables from the example above, evaluate <m>f(g(1))</m> and <m>g(f(3))</m>.
                 </p>
             </statement>
         </exercise>
@@ -299,215 +246,423 @@
         <example>
             <statement>
                 <p>
-                    The magnetic force <m>F</m>, measured in Newtons, between two magnets is related to the distance between the magnets <m>d</m>, in centimeters, by the formula <m>h(d)=\dfrac{2}{d^2}</m> .
-                    Find the average rate of change of force if the distance between the magnets is increased from 2 cm to 6 cm.
+                    Using the graphs below, evaluate <m>f(g(1))</m>.
                 </p>
 
-                <p>
-                    We are computing the average rate of change of <m>h(d)=\dfrac{2}{d^2}</m> on the interval <m>[2, 6]</m>.
-                    <m>\text{Average rate of change}= \dfrac{h(6)-h(2)}{6-2}</m>
-                </p>
-
-                <p>
-                    Evaluating the function, we get:
-                </p>
-
-                <p>
-                    <me>
-                        \dfrac{h(6)-h(2)}{6-2}=\dfrac{\frac{2}{6^{2}}-\frac{2}{2^{2}}}{6-2}=\dfrac{\frac{2}{36}-\frac{2}{4}}{4}=\dfrac{\frac{-16}{36}}{4}=\dfrac{-1}{9}\dfrac{\text{Newtons}}{\text{centimeter}}
-                    </me>
-                </p>
-
-                <p>
-                    This tells us the magnetic force decreases, on average, by <m>\dfrac{1}{9}</m> Newtons per centimeter over this interval.
-                </p>
-            </statement>
-        </example>
-
-        <example>
-            <statement>
-                <p>
-                    Find the average rate of change of <m>g(t)=t^{2}+3t+1</m> on the interval <m>[0,a]</m>.
-                    Your answer will be an expression involving <m>a</m>.
-                </p>
-
-                <p>
-                    Using the average rate of change formula
-                    <me>
-                        \dfrac{g(a)-g(0)}{a-0}=\dfrac{(a^2+3a+1)-(0^2+3(0)+1)}{a}=\dfrac{a^2+3a}{a}=\dfrac{a(a+3)}{a}=a+3
-                    </me>
-                </p>
-
-                <p>
-                    This result tells us the average rate of change between <m>t = 0</m> and any other point <m>t = a</m>.
-                    For example, on the interval <m>[0, 5]</m>, the average rate of change would be <m>5+3 = 8</m>.
-                </p>
-            </statement>
-        </example>
-
-        <exercise>
-            <statement>
-                <p>
-                    Find the average rate of change of <m>f(x)=x^{3}+2</m> on the interval <m>[a,a+h]</m>.
-                </p>
-            </statement>
-        </exercise>
-    </subsection>
-
-
-    <subsection>
-        <title>Graphical Behavior of Functions</title>
-
-        <p>
-            As part of exploring how functions change, it is interesting to explore the graphical behavior of functions.
-        </p>
-
-        <definition>
-            <title>Increasing/Decreasing</title>
-
-            <statement>
-                <p>
-                    A function is increasing on an interval if the function values increase as the inputs increase.
-                    More formally, a function is increasing if <m>f(a) &#x3C; f(b)</m> for any two input values <m>a</m> and <m>b</m> in the interval with <m>a&#x3C;b</m>.
-                    The average rate of change of an increasing function is positive.
-                </p>
-
-                <p>
-                    A function is decreasing on an interval if the function values decrease as the inputs increase.
-                    More formally, a function is decreasing if <m>f(a) > f(b)</m> for any two input values <m>a</m> and <m>b</m> in the interval with <m>a&#x3C;b</m>.
-                    The average rate of change of a decreasing function is negative.
-                </p>
-            </statement>
-        </definition>
-
-        <example>
-            <statement>
-                <p>
-                    Given the function p(t) graphed here, on what intervals does the function appear to be increasing?
-                </p>
-
-
-                <image source="C1S4Image2.png">
+                <figure xml:id="f">
+                <caption>Graph of <m>f(x)</m></caption>
+                <image source="C1S5Image1.png">
                 <shortdescription>
-                    A graph passing through the points 0 comma 3, 1 comma negative 1, 3 comma 1, 4 comma 0.7 and 5 comma 3.5
-                    
+                    Graph of f(x), a downward-opening U-shaped graph which passes through 1 comma 2, 2 comma 5, 3 comma 6, 4 comma 5, and 5 comma 2
                 </shortdescription>
             </image>
+            </figure>
 
+                <figure xml:id="g">
+                <caption>Graph of <m>g(x)</m></caption>
+                <image source="C1S5Image2.png">
+                <shortdescription>
+                    Graph of g(x), an upward-opening U-shaped graph which passes through 1 comma 3, 2 comma 0, 3 comma negative 1, 4 comma 0, and 5 comma 3
+                </shortdescription>
+            </image>
+            </figure>
+        </statement>
+        <solution>
                 <p>
-                    The function appears to be increasing from <m>t = 1</m> to <m>t = 3</m>, and from <m>t = 4</m> on.
+                    To evaluate <m>f(g(1))</m>, we again start with the inside evaluation.
+                    We evaluate <m>g(1)</m> using the graph of the <m>g(x)</m> function, finding the input of 1 on the horizontal axis and finding the output value of the graph at that input.
+                    Here, <m>g(1)=3</m>.
                 </p>
 
                 <p>
-                    In interval notation, we would say the function appears to be increasing on the interval <m>(1,3)</m> and the interval <m>(4,\infty)</m>, or <m>(1,3)\cup(4,\infty)</m>.
+                    Using this value as the input to the <m>f</m> function, <m>f(g(1))=f(3)</m>.
+                    We can then evaluate this by looking to the graph of the <m>f(x)</m> function, finding the input of 3 on the horizontal axis, and reading the output value of the graph at this input.
+                </p>
+
+                <p>
+                    <m>f(3)=6</m>, so <m>f(g(1))=6</m>.
+                </p>
+            </solution>
+        </example>
+
+        <exercise>
+            <statement>
+                <p>
+                    Using the graphs from the previous example, evaluate <m>g(f(2))</m>.
                 </p>
             </statement>
+        </exercise>
+    </subsection>
+
+
+    <subsection>
+        <title>Composition using Formulas</title>
+
+        <p>
+            When evaluating a composition of functions where we have either created or been given formulas, the concept of working from the inside out remains the same.
+            First, we evaluate the inside function using the input value provided, then use the resulting output as the input to the outside function.
+        </p>
+
+        <example>
+            <statement>
+                <p>
+                    Given <m>f(t)=t^{2}-t</m> and <m>h(x)=3x+2</m>, evaluate <m>f(h(1))</m>.
+                </p>
+            </statement>
+            <solution>
+                <p>
+                    Since the inside evaluation is <m>h(1)</m>, we start by evaluating the <m>h(x)</m> function at 1:
+                </p>
+
+                <p>
+                    <m>h(1)=3(1)+2=5</m>
+                </p>
+
+                <p>
+                    Then <m>f(h(1))=f(5)</m>, so we evaluate the <m>f(t)</m> function at an input of 5:
+                </p>
+
+                <p>
+                    <m>f(h(1))=f(5)=5^{2}-5=20</m>.
+                </p>
+            </solution>
+        </example>
+
+        <exercise>
+            <statement>
+                <p>
+                    Using the functions from the example above, evaluate <m>h(f(-2))</m>.
+                </p>
+            </statement>
+        </exercise>
+
+        <p>
+            While we can compose the functions as above for each individual input value, sometimes it would be really helpful to find a single formula which will calculate the result of a composition <m>f(g(x))</m>.
+            To do this, we will extend our idea of function evaluation.
+            Recall that when we evaluate a function like <m>f(t)=t^{2}-t</m>, we put whatever value is inside the parentheses after the function name into the formula wherever we see the input variable.
+        </p>
+
+        <example>
+            <statement>
+                <p>
+                    Given <m>f(t)=t^{2}-t</m>, evaluate <m>f(3)</m> and <m>f(-2)</m>.
+                </p>
+            </statement>
+            <solution>
+                <p>
+                    <m>f(3)=3^{2}-3</m>
+                </p>
+
+                <p>
+                    <m>f(-2)=(-2)^{2}-(-2)</m>
+                </p>
+
+                <p>
+                    We could simplify the results above if we wanted to
+                </p>
+
+                <p>
+                    <m>f(3)=3^{2}-3=9-3=6</m>
+                </p>
+
+                <p>
+                    <m>f(-2)=(-2)^{2}-(-2)=4+2=6</m>
+                </p>
+            </solution>
         </example>
 
         <p>
-            Notice in the last example that we used open intervals (intervals that don’t include the endpoints) since the function is neither increasing nor decreasing at <m>t = 1, 3, \text{ or }4</m>.
+            We are not limited, however, to using a numerical value as the input to the function.
+            We can put anything into the function: a value, a different variable, or even an algebraic expression, provided we use the input expression everywhere we see the input variable.
         </p>
-    </subsection>
 
+        <example>
+            <statement>
+                <p>
+                    Using the function from the previous example, evaluate <m>f(a)</m>.
+                </p>
+            </statement>
+            <solution>
+                <p>
+                    This means that the input value for <m>t</m> is some unknown quantity <m>a</m>.
+                    As before, we evaluate by replacing the input variable <m>t</m> with the input quantity, in this case <m>a</m>.
+                </p>
 
-    <subsection>
-        <title>Behaviors of the Toolkit Functions</title>
+                <p>
+                    <m>f(a)=a^{2}-a</m>
+                </p>
+            </solution>
+        </example>
 
         <p>
-            We will now return to our toolkit functions and discuss their graphical behavior.
+            The same idea can then be applied to expressions more complicated than a single letter.
         </p>
 
-        <tabular>
-            <col halign="center" right="minor"> </col> <col halign="center"> </col>
-            <row>
-                <cell>Function</cell>
-                <cell>Increasing/Decreasing</cell>
-            </row>
+        <example>
+            <statement>
+                <p>
+                    Using the same <m>f(t)</m> function from above, evaluate <m>f(x+2)</m>.
+                </p>
+            </statement>
+            <solution>
+                <p>
+                    Everywhere in the formula for <m>f</m> where there was a <m>t</m>, we would replace it with the input <m>x+2</m>.
+                    Since in the original formula the input <m>t</m> was squared in the first term, the entire input <m>x+2</m> needs to be squared when we substitute, so we need to use grouping parentheses.
+                    To avoid problems, it is advisable to always use parentheses around inputs.
+                </p>
 
-            <row>
-                <cell> </cell>
-            </row>
+                <p>
+                    <m>f(x+2)=(x+2)^{2}-(x+2)</m>
+                </p>
 
-            <row>
-                <cell>Constant Function: <m>f(x)=c</m> </cell>
-                <cell>Neither increasing or decreasing</cell>
-            </row>
+                <p>
+                    We could simplify this expression further to <m>f(x+2)=x^{2}+3x+2</m> if we wanted to:
+                </p>
 
-            <row>
-                <cell> </cell>
-            </row>
+                <p>
+                    <m>f(x+2)=(x+2)(x+2)-(x+2)</m>
+                </p>
 
-            <row>
-                <cell>Identity Function: <m>f(x)=x</m> </cell>
-                <cell>Increasing on <m>(-\infty,\infty)</m> </cell>
-            </row>
+                <p>
+                    Use the “FOIL” technique (first, outside, inside, last)
+                </p>
 
-            <row>
-                <cell> </cell>
-            </row>
+                <p>
+                    <m>f(x+2)=x^{2}+2x+2x+4-(x+2)</m>
+                </p>
 
-            <row>
-                <cell>Quadratic Function: <m>f(x)=x^{2}</m> </cell>
-                <cell>Decreasing on <m>(-\infty, 0)</m>, Increasing on <m>(0,\infty)</m> </cell>
-            </row>
+                <p>
+                    distribute the negative sign
+                </p>
 
-            <row>
-                <cell> </cell>
-            </row>
+                <p>
+                    <m>f(x+2)=x^{2}+2x+2x+4-x-2</m>
+                </p>
 
-            <row>
-                <cell>Cubic Function: <m>f(x)=x^{3}</m> </cell>
-                <cell>Increasing on <m>(-\infty,0)\cup(0,\infty)</m> </cell>
-            </row>
+                <p>
+                    combine like terms
+                </p>
 
-            <row>
-                <cell> </cell>
-            </row>
+                <p>
+                    <m>f(x+2)=x^{2}+3x+2</m>.
+                </p>
+            </solution>
+        </example>
 
-            <row>
-                <cell>Reciprocal: <m>f(x)=\dfrac{1}{x}</m> </cell>
-                <cell>Decreasing on <m>(-\infty, 0)\cup(0,\infty)</m> </cell>
-            </row>
+        <example>
+            <statement>
+                <p>
+                    Using the same function, evaluate <m>f(x^{3})</m>.
+                </p>
+            </statement>
+            <solution>
+                <p>
+                    We replace the original input <m>t</m> in the formula with the new input expression, <m>x^{3}</m>.
+                </p>
 
-            <row>
-                <cell> </cell>
-            </row>
+                <p>
+                    <m>f(x^{3})=(x^{3})^{2}-(x^{3})=x^{6}-x^{3}</m>.
+                </p>
+            </solution>
+        </example>
 
-            <row>
-                <cell>Reciprocal Squared: <m>f(x)=\dfrac{1}{x^2}</m> </cell>
-                <cell>Increasing on <m>(-\infty, 0)</m>, Decreasing on <m>(0,\infty)</m> </cell>
-            </row>
+        <exercise>
+            <statement>
+                <p>
+                    Given <m>g(x)=3x-\sqrt{x}</m>, evaluate <m>g(t-2)</m>.
+                </p>
+            </statement>
+        </exercise>
 
-            <row>
-                <cell> </cell>
-            </row>
+        <p>
+            This now allows us to find an expression for a composition of functions.
+            If we want to find a formula for <m>f(g(x))</m>, we can start by writing out the formula for <m>g(x)</m>.
+            We can then evaluate the function <m>f(x)</m> at that expression, as in the examples above.
+        </p>
 
-            <row>
-                <cell>Cube Root: <m>f(x)=\sqrt[3]{x}</m> </cell>
-                <cell>Increasing on <m>(-\infty,0)\cup(0,\infty)</m> </cell>
-            </row>
+        <example>
+            <statement>
+                <p>
+                    Let <m>f(x)=x^{2}</m> and <m>g(x)=\dfrac{1}{x}-2x</m>, find <m>f(g(x))</m> and <m>g(f(x))</m>.
+                </p>
+            </statement>
+            <solution>
+                <p>
+                    To find <m>f(g(x))</m>, we start by evaluating the inside, writing out the formula for <m>g(x)</m>.
+                </p>
 
-            <row>
-                <cell> </cell>
-            </row>
+                <p>
+                    <m>g(x)=\dfrac{1}{x}-2x</m>
+                </p>
 
-            <row>
-                <cell>Square Root: <m>f(x)=\sqrt{x}</m> </cell>
-                <cell>Increasing on <m>(0,\infty)</m> </cell>
-            </row>
+                <p>
+                    We then use the expression <m>\dfrac{1}{x}-2x</m> as input for the function <m>f</m>.
+                </p>
 
-            <row>
-                <cell> </cell>
-            </row>
+                <p>
+                    <m>f(g(x))=f(\dfrac{1}{x}-2x)</m>
+                </p>
 
-            <row>
-                <cell> </cell>
-            </row>
-        </tabular>
+                <p>
+                    We then evaluate the function <m>f(x)</m> using the formula for <m>g(x)</m> as the input.
+                </p>
+
+                <p>
+                    Since <m>f(x)=x^{2}</m>, <m>f(\dfrac{1}{x}-2x)=(\dfrac{1}{x}-2x)^{2}</m>
+                </p>
+
+                <p>
+                    This gives us the formula for the composition: <m>f(g(x))=(\dfrac{1}{x}-2x)^{2}</m>.
+                </p>
+
+                <p>
+                    Likewise, to find <m>g(f(x))</m>, we evaluate the inside, writing out the formula for <m>f(x)</m>:
+                </p>
+
+                <p>
+                    <m>g(f(x))=g(x^{2} )</m>
+                </p>
+
+                <p>
+                    Now we evaluate the function <m>g(x)</m> using <m>x^{2}</m> as the input.
+                </p>
+
+                <p>
+                    <m>g(f(x))=\dfrac{1}{x^2}-2x^{2}</m>
+                </p>
+            </solution>
+        </example>
+
+        <exercise>
+            <statement>
+                <p>
+                    Let <m>f(x)=x^{3}+3x</m> and <m>g(x)=\sqrt{x}</m>, find <m>f(g(x))</m> and <m>g(f(x))</m>.
+                </p>
+            </statement>
+        </exercise>
+
+        <example>
+            <statement>
+                <p>
+                    A city manager determines that the tax revenue, <m>R</m>, in millions of dollars collected on a population of <m>p</m> thousand people is given by the formula <m>f(p)=0.03p+\sqrt{p}</m>, and that the city’s population, in thousands, is predicted to follow the formula <m>g(t)=60+2t+0.3t^{2}</m>, where <m>t</m> is measured in years after 2010.
+                    Find a formula for the tax revenue as a function of the year.
+                </p>
+            </statement>
+            <solution>
+                <p>
+                    Since we want tax revenue as a function of the year, we want year to be our initial input, and revenue to be our final output.
+                    To find revenue, we will first have to predict the city population, and then use that result as the input to the tax function.
+                    So, we need to find <m>f(g(t))</m>.
+                    Evaluating this,
+                </p>
+
+                <p>
+                    <m>f(g(t))=f(60+2t+0.3t^{2} )=0.03(60+2t+0.3t^{2} )+\sqrt{60+2t+0.3t^{2} }</m>
+                </p>
+
+                <p>
+                    This composition gives us a single formula which can be used to predict the tax revenue during a given year, without needing to find the intermediary population value.
+                </p>
+
+                <p>
+                    For example, to predict the tax revenue in 2017, when <m>t = 7</m> (because <m>t</m> is measured in years after 2010),
+                </p>
+
+                <p>
+                    <m>f(g(7))=0.03(60+2(7)+0.3(7)^{2} )+\sqrt{60+2(7)+0.3(7)^{2} }\approx12.079</m> million dollars
+                </p>
+            </solution>
+        </example>
     </subsection>
 
 
     <subsection>
+        <title>Domain of Compositions</title>
+
+        <p>
+            When we think about the domain of a composition <m>h(x)=f(g(x))</m>, we must consider both the domain of the inner function and the domain of the composition itself.
+            While it is tempting to only look at the resulting composite function, if the inner function were undefined at a value of <m>x</m>, the composition would not be possible.
+        </p>
+
+        <example>
+            <statement>
+                <p>
+                    Let <m>f(x)=\dfrac{1}{x^2-1}</m> and <m>g(x)=\sqrt{x-2}</m>.
+                    Find the domain of <m>f(g(x))</m>.
+                </p>
+            </statement>
+            <solution>
+                <p>
+                    Since we want to avoid the square root of negative numbers, the domain of <m>g(x)</m> is the set of values where <m>x-2\geq 0</m>.
+                    The domain is <m>x\geq 2</m>.
+                </p>
+
+                <p>
+                    The composition is <m>f(g(x))=\dfrac{1}{(\sqrt{x-2})^2-1}=\dfrac{1}{(x-2)-1}=\dfrac{1}{x-3}</m>.
+                    The composition is undefined when <m>x = 3</m>, so that value must also be excluded from the domain.
+                    Notice that the composition doesn’t involve a square root, but we still have to consider the domain limitation from the inside function.
+                    Combining the two restrictions, the domain is all values of <m>x</m> greater than or equal to 2, except <m>x = 3</m>.
+                </p>
+
+                <p>
+                    In inequalities, the domain is: <m>2\leq x&#x3C;3</m> or <m>x>3</m>.
+                    In interval notation, the domain is: <m>[2,3)\cup(3,\infty)</m>.
+                </p>
+            </solution>
+        </example>
+
+        <exercise>
+            <statement>
+                <p>
+                    Let <m>f(x)=\dfrac{1}{x-2}</m> and <m>g(x)=\dfrac{1}{x}</m>.
+                    Find the domain of <m>f(g(x))</m>.
+                </p>
+            </statement>
+        </exercise>
+    </subsection>
+
+
+    <subsection>
+        <title>Decomposing Functions</title>
+
+        <p>
+            In some cases, it is desirable to decompose a function – to write it as a composition of two simpler functions.
+        </p>
+
+        <example>
+            <statement>
+                <p>
+                    Write <m>f(x)=3+\sqrt{5-x^{2}}</m> as the composition of two functions.
+                </p>
+            </statement>
+            <solution>
+                <p>
+                    We are looking for two functions, <m>g</m> and <m>h</m>, so <m>f(x)=g(h(x))</m>.
+                    To do this, we look for a function inside a function in the formula for <m>f(x)</m>.
+                    As one possibility, we might notice that <m>5-x^{2}</m> is the inside of the square root.
+                    We could then decompose the function as:
+                </p>
+
+                <p>
+                    <m>h(x)=5-x^{2}</m>
+                </p>
+
+                <p>
+                    <m>g(x)=3+\sqrt{x}</m>
+                </p>
+
+                <p>
+                    We can check our answer by recomposing the functions: <m>g(h(x))=g(5-x^{2})=3+\sqrt{5-x^{2}}</m>
+                </p>
+
+                <p>
+                    Note that this is not the only solution to the problem.
+                    Another non-trivial decomposition would be <m>h(x)=x^{2}</m> and <m>g(x)=3+\sqrt{5-x}</m>.
+                </p>
+            </solution>
+        </example>
+</subsection>
+<subsection>
         <title>Answers</title>
 
         
@@ -520,19 +675,48 @@
                     <ol>
                         <li>
                             <p>
-                                <m>\dfrac{\$3.01-\$1.69}{5\text{ years}}=\dfrac{\$1.32}{5\text{ years}}= 0.264</m> dollars per year.
+                                The final cost, <m>C</m>, depends on the clearance price, <m>p</m>, which is based on the original discount, <m>d</m>.
+                                Or, the original discount <m>d</m>, determines the clearance price and the final cost is half of the clearance price.
                             </p>
                         </li>
 
                         <li>
                             <p>
-                                Average rate of change <m>= \dfrac{f(9)-f(1)}{9-1}=\dfrac{(9-2\sqrt{9})-(1-2\sqrt{1})}{9-1}=\dfrac{3-(-1)}{9-1}=\dfrac{4}{8}=\dfrac{1}{2}1</m>
+                                <m>f(g(1))=f(3)=3</m> and <m>g(f(3))=g(3)=2</m>
                             </p>
                         </li>
 
                         <li>
                             <p>
-                                <m>\dfrac{f(a+h)-f(a)}{(a+h)-a}=\dfrac{((a+h)^3+2)-(a^3+2)}{h}=\dfrac{a^3+3a^2 h+3ah^2+h^3+2-a^3-2}{h}= \dfrac{3a^2 h+3ah^2+h^3}{h}=\dfrac{h(3a^2+3ah+h^2 )}{h}=3a^{2}+3ah+h^{2}</m>
+                                <m>g(f(2))=g(5)=3</m>
+                            </p>
+                        </li>
+
+                        <li>
+                            <p>
+                                <m>h(f(-2))=h(6)=20</m> (did you remember to insert your input values using parentheses?)
+                            </p>
+                        </li>
+
+                        <li>
+                            <p>
+                                <m>g(t-2)=3(t-2)-\sqrt{t-2}</m>
+                            </p>
+                        </li>
+
+                        <li>
+                            <p>
+                                <m>f(g(x))=f(\sqrt{x})=(\sqrt{x})^{3}+3(\sqrt{x})</m>, <m>g(f(x))=g(x^{3}+3x)=\sqrt{x^{3}+3x}</m>
+                            </p>
+                        </li>
+
+                        <li>
+                            <p>
+                                <m>g(x)=\dfrac{1}{x}</m> is undefined at <m>x = 0</m>. The composition, <m>f(g(x))=f(\dfrac{1}{x})=\dfrac{1}{\frac{1}{x}-2}=\dfrac{1}{\frac{1}{x}-\frac{2x}{x}}=\dfrac{1}{\frac{1-2x}{x}}=\dfrac{x}{1-2x}</m> is undefined when <m>1-2x=0</m>, when <m>x=\dfrac{1}{2}</m>.
+                            </p>
+
+                            <p>
+                                Restricting these two values, the domain is <m>(-\infty,0)\cup(0,\frac{1}{2})\cup(\frac{1}{2},\infty).</m>
                             </p>
                         </li>
                     </ol>

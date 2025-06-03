@@ -1,97 +1,148 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <section xml:id="Chapter1Section3" xmlns:xi="http://www.w3.org/2001/XInclude">
-  <title>Domain and Range</title>
+  <title>Rates of Change</title>
 
   <subsection>
         <title>Definitions</title>
 <objectives>
-            <title>Important Topics of this Section</title>
+            <title>Important Topics of This Section</title>
                     <ul>
                         <li>
                             <p>
-                                Definition of domain
+                                Rate of Change
                             </p>
                         </li>
 
                         <li>
                             <p>
-                                Definition of range
+                                Average Rate of Change
                             </p>
                         </li>
 
                         <li>
                             <p>
-                                Inequalities
+                                Calculating Average Rate of Change using Function Notation
                             </p>
                         </li>
 
                         <li>
                             <p>
-                                Interval notation
-                            </p>
-                        </li>
-
-                        <li>
-                            <p>
-                                Set builder notation
-                            </p>
-                        </li>
-
-                        <li>
-                            <p>
-                                Domain and Range from graphs
-                            </p>
-                        </li>
-
-                        <li>
-                            <p>
-                                Domain and Range of toolkit functions
+                                Increasing/Decreasing Functions
                             </p>
                         </li>
                     </ul>
         </objectives>
         <p>
-            One of our main goals in mathematics is to model the real world with mathematical functions.
-            In doing so, it is important to keep in mind the limitations of those models we create.
+            Since functions represent how an output quantity varies with an input quantity, it is natural to ask about the rate at which the values of the function are changing.
         </p>
 
         <p>
-            This table shows a relationship between circumference and height of a tree as it grows.
+            For example, the function <m>g</m> below gives the average cost <m>C</m>, in dollars, of a gallon of gasoline <m>t</m> years after 2000.
         </p>
 
         <tabular>
-            <col halign="center"> </col> <col halign="center"> </col> <col halign="center"> </col> <col halign="center"> </col> <col halign="center"> </col> <col halign="center"> </col>
+            <col halign="center"> </col> <col halign="center"> </col> <col halign="center"> </col> <col halign="center"> </col> <col halign="center"> </col> <col halign="center"> </col> <col halign="center"> </col> <col halign="center"> </col> <col halign="center"> </col>
             <row>
-                <cell>Circumference, <m>c</m> </cell>
-                <cell>1.7</cell>
-                <cell>2.5</cell>
-                <cell>5.5</cell>
-                <cell>8.2</cell>
-                <cell>13.7</cell>
+                <cell> <m>t</m> </cell>
+                <cell>2</cell>
+                <cell>3</cell>
+                <cell>4</cell>
+                <cell>5</cell>
+                <cell>6</cell>
+                <cell>7</cell>
+                <cell>8</cell>
+                <cell>9</cell>
             </row>
 
             <row>
-                <cell>Height, <m>h</m> </cell>
-                <cell>24.5</cell>
-                <cell>31</cell>
-                <cell>45.2</cell>
-                <cell>54.6</cell>
-                <cell>92.1</cell>
+                <cell> <m>g(t)</m> </cell>
+                <cell>1.47</cell>
+                <cell>1.69</cell>
+                <cell>1.94</cell>
+                <cell>2.30</cell>
+                <cell>2.51</cell>
+                <cell>2.64</cell>
+                <cell>3.01</cell>
+                <cell>2.14</cell>
             </row>
         </tabular>
+        
+        <p>
+            If we were interested in how the gas prices had changed between 2002 and 2009, we could compute that the cost per gallon had increased from $1.47 to $2.14, an increase of $0.67.
+            While this is interesting, it might be more useful to look at how much the price changed per year.
+            You are probably noticing that the price didn’t change the same amount each year, so we would be finding the average rate of change over a specified amount of time.
+        </p>
 
         <p>
-            While there is a strong relationship between the two, it would certainly be ridiculous to talk about a tree with a circumference of -3 feet, or a height of 3000 feet.
-            When we identify limitations on the inputs and outputs of a function, we are determining the domain and range of the function.
+            The gas price increased by $0.67 from 2002 to 2009, over 7 years, for an average of $0.67/7 years <m>\approx</m> $0.096 per year.
+            On average, the price of gas increased by about 9.6 cents each year.
         </p>
 
         <definition>
-            <title>Domain and Range</title>
+            <title>Rate of Change</title>
 
             <statement>
                 <p>
-                    Domain: The set of possible or acceptable input values to a function Range: The set of possible or acceptable output values of a function
+                    A rate of change describes how the output quantity changes in relation to the input quantity.
+                    The units on a rate of change are “output units per input unit” or ”<m>\dfrac{\text{output units}}{\text{input unit}}</m>”.
+                </p>
+            </statement>
+        </definition>
+
+        <p>
+            Some other examples of rates of change would be quantities like:
+        </p>
+<list><title>Rates of Change</title>
+        
+        <ul>
+            <li>
+                <p>
+                    A population of rats increases by 40 rats per week.
+                </p>
+            </li>
+
+            <li>
+                <p>
+                    A barista earns $9 per hour (dollars per hour).
+                </p>
+            </li>
+
+            <li>
+                <p>
+                    A farmer plants 60,000 onions per acre.
+                </p>
+            </li>
+
+            <li>
+                <p>
+                    A car can drive 27 miles per gallon of gasoline.
+                </p>
+            </li>
+
+            <li>
+                <p>
+                    A population of grey whales decreases by 8 whales per year.
+                </p>
+            </li>
+
+            <li>
+                <p>
+                    The amount of money in your college account decreases by $8,000 per semester.
+                </p>
+            </li>
+        </ul>
+        </list>
+        <definition>
+            <title>Average Rate of Change</title>
+
+            <statement>
+                <p>
+                    The average rate of change between two input values is the total change of the function values (output values) divided by the change in the input values.
+                    If we are given two pairs of input and output values <m>(x_{1},y_{1})</m> and <m>(x_{2},y_{2} )</m>, then we compute the average rate of change from the first point to the second point with the following calculation:
+                    <me>
+                        \text{Average rate of change}= \dfrac{\text{Change of Output}}{\text{Change of Input}}=\dfrac{\Delta y}{\Delta x}=\dfrac{y_2-y_1}{x_2-x_1}
+                    </me>
                 </p>
             </statement>
         </definition>
@@ -99,81 +150,209 @@
         <example>
             <statement>
                 <p>
-                    Using the tree table above, determine a reasonable domain and range.
-                </p>
-
-                <p>
-                    We could combine the data provided with our own experiences and reason to approximate the domain and range of the function <m>h = f(c)</m>.
-                    For the domain, possible values for the input circumference <m>c</m>, it doesn’t make sense to have negative values, so <m>c>0</m>.
-                    We could make an educated guess at a maximum reasonable value, or look up that the maximum circumference measured is about 119 feet .
-                    With this information, we would say a reasonable domain is <m>0&#x3C;c\leq119</m> feet.
-                </p>
-
-                <p>
-                    Similarly for the range, it doesn’t make sense to have negative heights, and the maximum height of a tree could be looked up to be 379 feet, so a reasonable range is <m>0&#x3C;h\leq379</m> feet.
+                    Using the cost-of-gas function from earlier, find the average rate of change between 2007 and 2009
                 </p>
             </statement>
-        </example>
-
-        <example>
-            <statement>
+            <solution>
                 <p>
-                    When sending a letter through the United States Postal Service, the price depends upon the weight of the letter, as shown in the table below.
-                    Determine the domain and range.
-                </p>
-                
-                <tabular>
-                    <col halign="center"> </col> <col halign="center"> </col>
-                    <row>
-                        <cell>Weight not over</cell>
-                        <cell>Price</cell>
-                    </row>
-
-                    <row>
-                        <cell>1 ounce</cell>
-                        <cell>$0.58</cell>
-                    </row>
-
-                    <row>
-                        <cell>2 ounces</cell>
-                        <cell>$0.78</cell>
-                    </row>
-
-                    <row>
-                        <cell>3 ounces</cell>
-                        <cell>$0.98</cell>
-                    </row>
-
-                    <row>
-                        <cell>3.5 ounces</cell>
-                        <cell>$1.18</cell>
-                    </row>
-                    
-                </tabular>
-                
-                <p>
-                    Suppose we notate Weight by <m>w</m> and Price by <m>p</m>, and set up a function named <m>f</m>, where Price, <m>p</m> is a function of Weight, <m>w</m>.
-                    <m>p = f(w)</m>.
+                    From the table, in 2007 the cost of gas was $2.64.
+                    In 2009 the cost was $2.14.
                 </p>
 
                 <p>
-                    Since acceptable weights are 3.5 ounces or less, and negative weights don’t make sense, the domain would be <m>0&#x3C;w\leq3.5</m>.
-                    Technically 0 could be included in the domain, but logically it would mean we are mailing nothing, so it doesn’t hurt to leave it out.
+                    The input (years) has changed by 2.
+                    The output has changed by $2.14 - $2.64 = -$0.50.
+                    The average rate of change is then <m>\dfrac{-\$0.50}{2 \text{ years}}=-0.25</m> dollars per year.
                 </p>
-
-                <p>
-                    Since possible prices are from a limited set of values, we can only define the range of this function by listing the possible values.
-                    The range is <m>p</m> = $0.58, $0.78, $0.98, or $1.18.
-                </p>
-            </statement>
+            </solution>
         </example>
 
         <exercise>
             <statement>
                 <p>
-                    The population of a small town in the year 1960 was 100 people.
-                    Since then, the population has grown to 1400 people reported during the 2010 census.
-                    Choose descriptive variables for your input and output and use interval notation to write the domain and range.
+                    Using the same cost-of-gas function, find the average rate of change between 2003 and 2008.
+                </p>
+            </statement>
+        </exercise>
+
+        <p>
+            Notice that in the last example the change of output was negative since the output value of the function had decreased.
+            Correspondingly, the average rate of change is negative.
+        </p>
+
+        <example>
+            <statement>
+                <p>
+                    Given the function g(t) shown here, find the average rate of change on the interval <m>[0, 3]</m>.
+                </p>
+
+
+                <image source="C1S4Image1.png">
+                <shortdescription>
+                    A U-shaped graph passing through 0 comma 1, 1 comma 0, 2 comma 1, and 3 comma 4
+                </shortdescription>
+            </image>
+        </statement>
+        <solution>
+
+                <p>
+                    At <m>t = 0</m>, the graph shows <m>g(0)=1</m>.
+                    At <m>t = 3</m>, the graph shows <m>g(3)=4</m>.
+                </p>
+
+                <p>
+                    The output has changed by 3 while the input has changed by 3, giving an average rate of change of: <m>\dfrac{4-1}{3-0}=\dfrac{3}{3}=1</m>
+                </p>
+            </solution>
+        </example>
+
+        <example>
+            <statement>
+                <p>
+                    On a road trip, after picking up your friend who lives 10 miles away, you decide to record your distance from home over time.
+                    Find your average speed over the first 6 hours.
+                </p>
+
+                <tabular>
+                    <col halign="center"> </col> <col halign="center"> </col> <col halign="center"> </col> <col halign="center"> </col> <col halign="center"> </col> <col halign="center"> </col> <col halign="center"> </col> <col halign="center"> </col> <col halign="center"> </col>
+                    <row>
+                        <cell> <m>t</m> (hours)</cell>
+                        <cell>0</cell>
+                        <cell>1</cell>
+                        <cell>2</cell>
+                        <cell>3</cell>
+                        <cell>4</cell>
+                        <cell>5</cell>
+                        <cell>6</cell>
+                        <cell>7</cell>
+                    </row>
+
+                    <row>
+                        <cell> <m>D</m> (miles)</cell>
+                        <cell>10</cell>
+                        <cell>55</cell>
+                        <cell>90</cell>
+                        <cell>153</cell>
+                        <cell>214</cell>
+                        <cell>240</cell>
+                        <cell>292</cell>
+                        <cell>300</cell>
+                    </row>
+                </tabular>
+            </statement>
+            <solution>
+                <p>
+                    Here, your average speed is the average rate of change.
+                    You traveled 282 miles in 6 hours, for an average speed of <m>\dfrac{292-10}{6-0}=\dfrac{282}{6}= 47</m> miles per hour.
+                </p>
+            </solution>
+        </example>
+
+        <p>
+            We can more formally state the average rate of change calculation using function notation.
+        </p>
+
+        <definition>
+            <title>Average Rate of Change using Function Notation</title>
+
+            <statement>
+                <p>
+                    Given a function <m>f(x)</m>, the average rate of change on the interval <m>[a, b]</m> is
+                    <me>
+                        \text{Average rate of change}= \dfrac{\text{Change of Output}}{\text{Change of Input}}=\dfrac{f(b)-f(a)}{b-a}
+                    </me>
+                </p>
+            </statement>
+        </definition>
+
+        <example>
+            <statement>
+                <p>
+                    Compute the average rate of change of <m>f(x)=x^{2}-\dfrac{1}{x}</m> on the interval <m>[2, 4]</m>.
+                </p>
+            </statement>
+            <solution>
+                <p>
+                    We can start by computing the function values at each endpoint of the interval
+                </p>
+
+                <p>
+                    <m>f(2)=2^{2}-\frac{1}{2}=4-\frac{1}{2}=\frac{7}{2}</m>,
+                </p>
+
+                <p>
+                    <m>f(4)=4^{2}-\frac{1}{4}=16-\frac{1}{4}=\frac{63}{4}</m>.
+                </p>
+
+                <p>
+                    Now computing the average rate of change <m>\text{Average rate of change}= \dfrac{f(4)-f(2)}{4-2}=\dfrac{\frac{63}{4}-\frac{7}{2}}{4-2}=\dfrac{\frac{49}{4}}{2}=\dfrac{49}{8}</m>
+                </p>
+            </solution>
+        </example>
+
+        <exercise>
+            <statement>
+                <p>
+                    Find the average rate of change of <m>f(x)=x-2\sqrt{x}</m> on the interval <m>[1, 9]</m>.
+                </p>
+            </statement>
+        </exercise>
+
+        <example>
+            <statement>
+                <p>
+                    The magnetic force <m>F</m>, measured in Newtons, between two magnets is related to the distance between the magnets <m>d</m>, in centimeters, by the formula <m>h(d)=\dfrac{2}{d^2}</m> .
+                    Find the average rate of change of force if the distance between the magnets is increased from 2 cm to 6 cm.
+                </p>
+            </statement>
+            <solution>
+                <p>
+                    We are computing the average rate of change of <m>h(d)=\dfrac{2}{d^2}</m> on the interval <m>[2, 6]</m>.
+                    <m>\text{Average rate of change}= \dfrac{h(6)-h(2)}{6-2}</m>
+                </p>
+
+                <p>
+                    Evaluating the function, we get:
+                </p>
+
+                <p>
+                    <me>
+                        \dfrac{h(6)-h(2)}{6-2}=\dfrac{\frac{2}{6^{2}}-\frac{2}{2^{2}}}{6-2}=\dfrac{\frac{2}{36}-\frac{2}{4}}{4}=\dfrac{\frac{-16}{36}}{4}=\dfrac{-1}{9}\dfrac{\text{Newtons}}{\text{centimeter}}
+                    </me>
+                </p>
+
+                <p>
+                    This tells us the magnetic force decreases, on average, by <m>\dfrac{1}{9}</m> Newtons per centimeter over this interval.
+                </p>
+            </solution>
+        </example>
+
+        <example>
+            <statement>
+                <p>
+                    Find the average rate of change of <m>g(t)=t^{2}+3t+1</m> on the interval <m>[0,a]</m>.
+                    Your answer will be an expression involving <m>a</m>.
+                </p>
+            </statement>
+            <solution>
+                <p>
+                    Using the average rate of change formula
+                    <me>
+                        \dfrac{g(a)-g(0)}{a-0}=\dfrac{(a^2+3a+1)-(0^2+3(0)+1)}{a}=\dfrac{a^2+3a}{a}=\dfrac{a(a+3)}{a}=a+3
+                    </me>
+                </p>
+
+                <p>
+                    This result tells us the average rate of change between <m>t = 0</m> and any other point <m>t = a</m>.
+                    For example, on the interval <m>[0, 5]</m>, the average rate of change would be <m>5+3 = 8</m>.
+                </p>
+            </solution>
+        </example>
+
+        <exercise>
+            <statement>
+                <p>
+                    Find the average rate of change of <m>f(x)=x^{3}+2</m> on the interval <m>[a,a+h]</m>.
                 </p>
             </statement>
         </exercise>
@@ -181,469 +360,183 @@
 
 
     <subsection>
-        <title>Notation</title>
+        <title>Graphical Behavior of Functions</title>
 
         <p>
-            In the previous examples, we used inequalities to describe the domain and range of the functions.
-            This is one way to describe intervals of input and output values, but is not the only way.
-            Let us take a moment to discuss notation for domain and range.
+            As part of exploring how functions change, it is interesting to explore the graphical behavior of functions.
         </p>
 
-        <p>
-            Using inequalities, such as <m>0&#x3C;c\leq163</m>, <m>0&#x3C;w\leq3.5</m>, and <m>0&#x3C;h\leq379</m> imply that we are interested in all values between the low and high values, including the high values in these examples.
-        </p>
+        <definition>
+            <title>Increasing/Decreasing</title>
+
+            <statement>
+                <p>
+                    A function is increasing on an interval if the function values increase as the inputs increase.
+                    More formally, a function is increasing if <m>f(a) &#x3C; f(b)</m> for any two input values <m>a</m> and <m>b</m> in the interval with <m>a&#x3C;b</m>.
+                    The average rate of change of an increasing function is positive.
+                </p>
+
+                <p>
+                    A function is decreasing on an interval if the function values decrease as the inputs increase.
+                    More formally, a function is decreasing if <m>f(a) > f(b)</m> for any two input values <m>a</m> and <m>b</m> in the interval with <m>a&#x3C;b</m>.
+                    The average rate of change of a decreasing function is negative.
+                </p>
+            </statement>
+        </definition>
+
+        <example>
+            <statement>
+                <p>
+                    Given the function p(t) graphed here, on what intervals does the function appear to be increasing?
+                </p>
+
+                <image source="C1S4Image2.png">
+                <shortdescription>
+                    A graph passing through the points 0 comma 3, 1 comma negative 1, 3 comma 1, 4 comma 0.7 and 5 comma 3.5
+                    
+                </shortdescription>
+            </image>
+        </statement>
+        <solution>
+                <p>
+                    The function appears to be increasing from <m>t = 1</m> to <m>t = 3</m>, and from <m>t = 4</m> on.
+                </p>
+
+                <p>
+                    In interval notation, we would say the function appears to be increasing on the interval <m>(1,3)</m> and the interval <m>(4,\infty)</m>, or <m>(1,3)\cup(4,\infty)</m>.
+                </p>
+            </solution>
+        </example>
 
         <p>
-            However, occasionally we are interested in a specific list of numbers like the range for the price to send letters, <m>p</m> = $0.58, $0.78, $0.98, or $1.18.
-            These numbers represent a set of specific values: <m>\{0.58, 0.78, 0.98, 1.18\}</m>.
+            Notice in the last example that we used open intervals (intervals that don’t include the endpoints) since the function is neither increasing nor decreasing at <m>t = 1, 3, \text{ or }4</m>.
         </p>
+    </subsection>
+
+
+    <subsection>
+        <title>Behaviors of the Toolkit Functions</title>
 
         <p>
-            Representing values as a set, or giving instructions on how a set is built, leads us to another type of notation to describe the domain and range.
-        </p>
-
-        <p>
-            Suppose we want to describe the values for a variable <m>x</m> that are 10 or greater, but less than 30.
-            In inequalities, we would write <m>10\leq x&#x3C;30</m>.
-        </p>
-
-        <p>
-            When describing domains and ranges, we sometimes extend this into set-builder notation, which would look like this: <m>\{x|10\leq x&#x3C;30\}</m>.
-            The curly brackets {} are read as “the set of”, and the vertical bar | is read as “such that”, so altogether we would read <m>\{x|10\leq x&#x3C;30\}</m> as “the set of <m>x</m>-values such that 10 is less than or equal to <m>x</m> and <m>x</m> is less than 30.”
-        </p>
-
-        <p>
-            When describing ranges in set-builder notation, we could similarly write something like <m>\{f(x)|0&#x3C;f(x)&#x3C;100\}</m>, or if the output had its own variable, we could use it.
-            So for our tree height example above, we could write for the range <m>\{h|0&#x3C;h\leq 379\}</m>.
-            In set-builder notation, if a domain or range is not limited, we could write <m>\{t|t \text{ "is a real number"}\}</m>, or <m>\{t|t\in R\}</m>, read as “the set of <m>t</m>-values such that <m>t</m> is an element of the set of real numbers.
-        </p>
-
-        <p>
-            A more compact alternative to set-builder notation is interval notation, in which intervals of values are referred to by the starting and ending values.
-            Curved parentheses are used for “strictly less than,” and square brackets are used for “less than or equal to.” Since infinity is not a number, we can’t include it in the interval, so we always use curved parentheses with <m>\infty</m> and <m>-\infty</m>.
-            The table below will help you see how inequalities correspond to set-builder notation and interval notation:
+            We will now return to our toolkit functions and discuss their graphical behavior.
         </p>
 
         <tabular>
-            <col halign="center"> </col> <col halign="center"> </col> <col halign="center"> </col>
+            <col halign="center" right="minor"> </col> <col halign="center"> </col>
             <row>
-                <cell>Inequality</cell>
-                <cell>Set Builder Notation</cell>
-                <cell>Interval Notation</cell>
+                <cell>Function</cell>
+                <cell>Increasing/Decreasing</cell>
             </row>
 
             <row>
-                <cell> <m>5&#x3C;h\leq 10</m> </cell>
-                <cell> <m>\{h|5&#x3C;h\leq 10\}</m> </cell>
-                <cell> <m>(5,10]</m> </cell>
+                <cell> </cell>
             </row>
 
             <row>
-                <cell> <m>5\leq h &#x3C;10</m> </cell>
-                <cell> <m>\{h|5\leq h &#x3C;10\}</m> </cell>
-                <cell> <m>[5,10)</m> </cell>
+                <cell>Constant Function: <m>f(x)=c</m> </cell>
+                <cell>Neither increasing or decreasing</cell>
             </row>
 
             <row>
-                <cell> <m>5&#x3C;h&#x3C;10</m> </cell>
-                <cell> <m>\{h|5&#x3C;h&#x3C;10\}</m> </cell>
-                <cell> <m>(5,10)</m> </cell>
+                <cell> </cell>
             </row>
 
             <row>
-                <cell> <m>h&#x3C;10</m> </cell>
-                <cell> <m>\{h|h&#x3C;10\}</m> </cell>
-                <cell> <m>(-\infty,10)</m> </cell>
+                <cell>Identity Function: <m>f(x)=x</m> </cell>
+                <cell>Increasing on <m>(-\infty,\infty)</m> </cell>
             </row>
 
             <row>
-                <cell> <m>h\geq 10</m> </cell>
-                <cell> <m>\{h|h\geq 10\}</m> </cell>
-                <cell> <m>[10,\infty)</m> </cell>
+                <cell> </cell>
             </row>
 
             <row>
-                <cell>all real numbers</cell>
-                <cell> <m>\{h|h\in\mathbb{R}\}</m> </cell>
-                <cell> <m>(- \infty, \infty)</m> </cell>
+                <cell>Quadratic Function: <m>f(x)=x^{2}</m> </cell>
+                <cell>Decreasing on <m>(-\infty, 0)</m>, Increasing on <m>(0,\infty)</m> </cell>
+            </row>
+
+            <row>
+                <cell> </cell>
+            </row>
+
+            <row>
+                <cell>Cubic Function: <m>f(x)=x^{3}</m> </cell>
+                <cell>Increasing on <m>(-\infty,0)\cup(0,\infty)</m> </cell>
+            </row>
+
+            <row>
+                <cell> </cell>
+            </row>
+
+            <row>
+                <cell>Reciprocal: <m>f(x)=\dfrac{1}{x}</m> </cell>
+                <cell>Decreasing on <m>(-\infty, 0)\cup(0,\infty)</m> </cell>
+            </row>
+
+            <row>
+                <cell> </cell>
+            </row>
+
+            <row>
+                <cell>Reciprocal Squared: <m>f(x)=\dfrac{1}{x^2}</m> </cell>
+                <cell>Increasing on <m>(-\infty, 0)</m>, Decreasing on <m>(0,\infty)</m> </cell>
+            </row>
+
+            <row>
+                <cell> </cell>
+            </row>
+
+            <row>
+                <cell>Cube Root: <m>f(x)=\sqrt[3]{x}</m> </cell>
+                <cell>Increasing on <m>(-\infty,0)\cup(0,\infty)</m> </cell>
+            </row>
+
+            <row>
+                <cell> </cell>
+            </row>
+
+            <row>
+                <cell>Square Root: <m>f(x)=\sqrt{x}</m> </cell>
+                <cell>Increasing on <m>(0,\infty)</m> </cell>
+            </row>
+
+            <row>
+                <cell> </cell>
+            </row>
+
+            <row>
+                <cell> </cell>
             </row>
         </tabular>
-
-        <p>
-            To combine two intervals together, using inequalities or set-builder notation we can use the word “or”.
-            In interval notation, we use the union symbol, <m>\cup</m>, to combine two unconnected intervals together.
-        </p>
-
-        <example>
-            <statement>
-                <p>
-                    Describe the intervals of values shown on the line graph below using set builder and interval notations.
-                </p>
-
-                <image source="C1S3Image1.png">
-                <shortdescription>
-                    A number line from -2 to 7 with two shaded sections. There are closed dots at 1 and 3 with the number line between shaded. There is an open dot at 5 with the number line shaded to the right.
-                </shortdescription>
-            </image>
-
-                <p>
-                    To describe the values, <m>x</m>, that lie in the intervals shown above we would say, “<m>x</m> is a real number greater than or equal to 1 and less than or equal to 3, or a real number greater than 5.”
-                </p>
-
-                <p>
-                    As an inequality it is: <m>1\leq x\leq 3</m> or <m>x>5</m> In set builder notation: <m>\{x|1\leq x\leq 3 \text{ or }x>5\}</m> In interval notation: <m>[1,3]\cup(5,\infty)</m>
-                </p>
-            </statement>
-        </example>
-
-        <p>
-            Remember when writing or reading interval notation: Using a square bracket [ means the start value is included in the set. Using a parenthesis ( means the start value is not included in the set
-        </p>
-
-        <exercise>
-            <statement>
-                <p>
-                    Given the following interval, write its meaning in words, set builder notation, and interval notation.
-                </p>
-
-                
-                <image source="C1S3Image2.png">
-                <shortdescription>
-                    A number line from -5 to 5 with two shaded sections. There is a closed dot at -2 with the number line to the left shaded. There is a closed dot at -1 and open dot at 3 with the number line between shaded. 
-                </shortdescription>
-            </image>
-            
-            </statement>
-        </exercise>
-    </subsection>
-
-
-    <subsection>
-        <title>Domain and Range from Graphs</title>
-
-        <p>
-            We can also talk about domain and range based on graphs.
-            Since domain refers to the set of possible input values, the domain of a graph consists of all the input values shown on the graph.
-            Remember that input values are almost always shown along the horizontal axis of the graph.
-            Likewise, since range is the set of possible output values, the range of a graph we can see from the possible values along the vertical axis of the graph.
-        </p>
-
-        <p>
-            Be careful – if the graph continues beyond the window on which we can see the graph, the domain and range might be larger than the values we can see.
-        </p>
-
-        <example>
-            <statement>
-                <p>
-                    Determine the domain and range of the graph below.
-                </p>
-
-                <image source="C1S3Image3.png">
-                <shortdescription>
-                    A graph labeled Alaska Crude Oil Production in thousands of barrels per day, with the horizontal axis showing years from 1975 to 2008, and the vertical axis from 0 to 2200.  The graph starts in 1975 around 200, drops a little to about 180, increases up to about 2010 in 1988, then drops to about 700 in 2008.
-                </shortdescription>
-            </image>
-
-                <p>
-                    In the graph above, the input quantity along the horizontal axis appears to be “year”, which we could notate with the variable <m>y</m>.
-                    The output is “thousands of barrels of oil per day”, which we might notate with the variable <m>b</m>, for barrels.
-                    The graph would likely continue to the left and right beyond what is shown, but based on the portion of the graph that is shown to us, we can determine the domain is <m>1975\leq y\leq 2008</m>, and the range is approximately <m>180\leq b\leq 2010</m>.
-                </p>
-
-                <p>
-                    In interval notation, the domain would be <m>[1975, 2008]</m> and the range would be about <m>[180, 2010]</m>.
-                    For the range, we have to approximate the smallest and largest outputs since they don’t fall exactly on the grid lines.
-                </p>
-            </statement>
-        </example>
-
-        <p>
-            Remember that, as in the previous example, <m>x</m> and <m>y</m> are not always the input and output variables.
-            Using descriptive variables is an important tool to remembering the context of the problem.
-        </p>
-
-        <exercise>
-            <statement>
-                <p>
-                    Given the graph below write the domain and range in interval notation
-                </p>
-
-                <image source="C1S3Image4.png">
-                <shortdescription>
-                    A graph labeled World Population Increase. The vertical axis is labeled population increase in millions, and the horizontal axis is in years.  The graph starts around 45 in 1952, increases for a while, then drops to 40 in 1960. It increases and decreases a bit, reaching a high of 88 in 1989.  The graph ends at 76 in 2002.
-                </shortdescription>
-            </image>
-            </statement>
-        </exercise>
-    </subsection>
-
-
-    <subsection>
-        <title>Domains and Ranges of the Toolkit functions</title>
-
-        <p>
-            We will now return to our set of toolkit functions to note the domain and range of each.
-        </p>
-<definition>
-    <statement>
-        <p>
-            
-
-        <ul>
-            <li>
-                <p>
-                    Constant Function: <m>f(x)=c</m>
-                </p>
-
-                <p>
-                    The domain here is not restricted; <m>x</m> can be anything.
-                    When this is the case, we say the domain is all real numbers.
-                    The outputs are limited to the constant value of the function.
-                    <ul>
-                        <li>
-                            <p>
-                                Domain: <m>(-\infty,\infty)</m>
-                            </p>
-                        </li>
-
-                        <li>
-                            <p>
-                                Range: <m>[c]</m>
-                            </p>
-
-                            <p>
-                                Since there is only one output value, we list it by itself in square brackets.
-                            </p>
-                        </li>
-                    </ul>
-                </p>
-            </li>
-
-            <li>
-                <p>
-                    Identity Function: <m>f(x)=x</m>
-                    <ul>
-                        <li>
-                            <p>
-                                Domain: <m>(-\infty,\infty)</m>
-                            </p>
-                        </li>
-
-                        <li>
-                            <p>
-                                Range: <m>(-\infty,\infty)</m>
-                            </p>
-                        </li>
-                    </ul>
-                </p>
-            </li>
-
-            <li>
-                <p>
-                    Quadratic Function: <m>f(x)=x^{2}</m>
-                    <ul>
-                        <li>
-                            <p>
-                                Domain: <m>(-\infty,\infty)</m>
-                            </p>
-                        </li>
-
-                        <li>
-                            <p>
-                                Range: <m>[0,\infty)</m>
-                            </p>
-
-                            <p>
-                                Multiplying a negative or positive number by itself can only yield a positive output.
-                            </p>
-                        </li>
-                    </ul>
-                </p>
-            </li>
-
-            <li>
-                <p>
-                    Cubic Function: <m>f(x)=x^{3}</m>
-                    <ul>
-                        <li>
-                            <p>
-                                Domain: <m>(-\infty,\infty)</m>
-                            </p>
-                        </li>
-
-                        <li>
-                            <p>
-                                Range: <m>(-\infty,\infty)</m>
-                            </p>
-                        </li>
-                    </ul>
-                </p>
-            </li>
-
-            <li>
-                <p>
-                    Reciprocal: <m>f(x)=\dfrac{1}{x}</m>
-                    <ul>
-                        <li>
-                            <p>
-                                Domain: <m>(-\infty,0)\cup(0,\infty)</m>
-                            </p>
-
-                            <p>
-                                We cannot divide by 0 so we must exclude 0 from the domain.
-                            </p>
-                        </li>
-
-                        <li>
-                            <p>
-                                Range: <m>(-\infty,0)\cup(0,\infty)</m>
-                            </p>
-
-                            <p>
-                                One divided by any value can never be 0, so the range will not include 0.
-                            </p>
-                        </li>
-                    </ul>
-                </p>
-            </li>
-
-            <li>
-                <p>
-                    Reciprocal squared: <m>f(x)=\dfrac{1}{x^2}</m>
-                    <ul>
-                        <li>
-                            <p>
-                                Domain: <m>(-\infty,0)\cup(0,\infty)</m>
-                            </p>
-
-                            <p>
-                                We cannot divide by 0 so we must exclude 0 from the domain.
-                            </p>
-                        </li>
-
-                        <li>
-                            <p>
-                                Range: <m>(0,\infty)</m>
-                            </p>
-
-                            <p>
-                                Since the denominator will always be positive, and 1 divided by a positive number will be positive, the range will always be positive.
-                            </p>
-                        </li>
-                    </ul>
-                </p>
-            </li>
-
-            <li>
-                <p>
-                    Cube Root: <m>f(x)=\sqrt[3]{x}</m>
-                    <ul>
-                        <li>
-                            <p>
-                                Domain: <m>(-\infty,\infty)</m>
-                            </p>
-                        </li>
-
-                        <li>
-                            <p>
-                                Range: <m>(-\infty,\infty)</m>
-                            </p>
-                        </li>
-                    </ul>
-                </p>
-            </li>
-
-            <li>
-                <p>
-                    Square Root: <m>f(x)=\sqrt{x}</m>
-                    <ul>
-                        <li>
-                            <p>
-                                Domain: <m>[0,\infty)</m>
-                            </p>
-
-                            <p>
-                                When dealing with the set of real numbers we cannot take the square root of a negative number so the domain is limited to 0 or greater.
-                            </p>
-                        </li>
-
-                        <li>
-                            <p>
-                                Range: <m>[0,\infty)</m>
-                            </p>
-                        </li>
-                    </ul>
-                </p>
-            </li>
-        </ul>
-                </p>
-</statement>
-</definition>
-        <example>
-            <statement>
-                <p>
-                    Find the domain of each function:
-                </p>
-
-                <p>
-                    a) <m>f(x)=2\sqrt{x+4}</m>
-                </p>
-
-                <p>
-                    b) <m>g(x)=\dfrac{3}{6-3x}</m>
-                </p>
-
-                <p>
-                    a) Since we cannot take the square root of a negative number, we need the inside of the square root to be non-negative.
-                    <m>x+4\geq0</m> when <m>x\geq-4</m>.
-                    The domain of <m>f(x)</m> is <m>[-4,\infty)</m>.
-                </p>
-
-                <p>
-                    b) We cannot divide by zero, so we need the denominator to be non-zero.
-                    <m>6-3x=0</m> when <m>x = 2</m>, so we must exclude 2 from the domain.
-                    The domain of <m>g(x)</m> is <m>(-\infty,2)\cup(2,\infty)</m>.
-                </p>
-            </statement>
-        </example>
     </subsection>
 
 
     <subsection>
         <title>Answers</title>
+
+        
+
         <exercise>
             <statement>
-                <p>Answers to Checkpoint Exercises</p>
-                </statement>
+                <p>Answers to Checkpoint Exercises</p></statement>
                 <answer>
                     <p>
                     <ol>
                         <li>
                             <p>
-                                Domain: <m>y</m> = years <m>[1960,2010]</m> , Range: <m>p</m> = population, <m>[100,1400]</m>
+                                <m>\dfrac{\$3.01-\$1.69}{5\text{ years}}=\dfrac{\$1.32}{5\text{ years}}= 0.264</m> dollars per year.
                             </p>
                         </li>
 
                         <li>
                             <p>
-                                a.
-                                Values that are less than or equal to -2, or values that are greater than or equal to -1 and less than 3
-                            </p>
-
-                            <p>
-                                b.
-                                <m>\{x|x\leq -2\text{or}-1\leq x&#x3C;3\}</m>
-                            </p>
-
-                            <p>
-                                c.
-                                <m>(-\infty,-2]\cup[-1,3)</m>
+                                Average rate of change <m>= \dfrac{f(9)-f(1)}{9-1}=\dfrac{(9-2\sqrt{9})-(1-2\sqrt{1})}{9-1}=\dfrac{3-(-1)}{9-1}=\dfrac{4}{8}=\dfrac{1}{2}1</m>
                             </p>
                         </li>
 
                         <li>
                             <p>
-                                Domain: <m>y</m> = years, <m>[1952,2002]</m> , Range: <m>p</m> = population in millions, <m>[40,88]</m>
+                                <m>\dfrac{f(a+h)-f(a)}{(a+h)-a}=\dfrac{((a+h)^3+2)-(a^3+2)}{h}=\dfrac{a^3+3a^2 h+3ah^2+h^3+2-a^3-2}{h}= \dfrac{3a^2 h+3ah^2+h^3}{h}=\dfrac{h(3a^2+3ah+h^2 )}{h}=3a^{2}+3ah+h^{2}</m>
                             </p>
                         </li>
                     </ol>
