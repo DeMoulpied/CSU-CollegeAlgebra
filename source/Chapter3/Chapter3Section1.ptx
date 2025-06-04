@@ -94,7 +94,8 @@
             <p>
                 Which of our toolkit functions are power functions?
             </p>
-
+        </statement>
+        <solution>
             <p>
                 The constant and identity functions are power functions, since they can be written as <m>f(x)=x^{0}</m> and <m>f(x)=x^{1}</m> respectively.
             </p>
@@ -110,7 +111,7 @@
             <p>
                 The square and cube root functions are both power functions with fractional powers since they can be written as <m>f(x)=x^{\frac{1}{2}}</m> or <m>f(x)=x^{\frac{1}{3}}</m>.
             </p>
-        </statement>
+        </solution>
     </example>
 
     <exercise>
@@ -188,13 +189,14 @@
             <p>
                 Describe the long run behavior of the graph of <m>f(x)=x^{8}</m>.
             </p>
-
+        </statement>
+        <solution>
             <p>
                 Since <m>f(x)=x^{8}</m> has a whole, even power, we would expect this function to behave somewhat like the quadratic function.
                 As the input gets large positive or negative, we would expect the output to grow without bound in the positive direction.
                 In symbolic form, as <m>x\rightarrow \pm \infty, f(x)\rightarrow \infty</m>.
             </p>
-        </statement>
+        </solution>
     </example>
 
     <example>
@@ -202,7 +204,8 @@
             <p>
                 Describe the long run behavior of the graph of <m>f(x)=-x^{9}.</m>
             </p>
-
+        </statement>
+        <solution>
             <p>
                 Since this function has a whole odd power, we would expect it to behave somewhat like the cubic function.
                 The negative in front of the <m>x^{9}</m> will cause a vertical reflection, so as the inputs grow large positive, the outputs will grow large in the negative direction, and as the inputs grow large negative, the outputs will grow large in the positive direction.
@@ -212,7 +215,7 @@
             <p>
                 You may use words or symbols to describe the long run behavior of these functions.
             </p>
-        </statement>
+        </solution>
     </example>
 
     <exercise>
@@ -320,7 +323,8 @@
                     </li>
                 </ol>
             </p>
-
+        </statement>
+        <solution>
             <p>
                 <ol>
                     <li>
@@ -344,7 +348,7 @@
                     </li>
                 </ol>
             </p>
-        </statement>
+        </solution>
     </example>
 </subsection>
 
@@ -374,7 +378,8 @@
                         Polynomial graph increasing to 0 comma 2, decreasing to about 3.8 comma negative 2.1, then increasing.
                     </shortdescription>
                     </image>
-
+                </statement>
+                <solution>
 
             <p>
                 Since the output grows large and positive as the inputs grow large and positive, we describe the long run behavior symbolically by writing: as <m>x\rightarrow \infty, f(x)\rightarrow \infty</m>.
@@ -388,7 +393,7 @@
             <p>
                 We can tell this graph has the shape of an odd degree power function which has not been reflected, so the degree of the polynomial creating this graph must be odd, and the leading coefficient would be positive.
             </p>
-        </statement>
+        </solution>
     </example>
 
     <exercise>
@@ -417,9 +422,10 @@
     <example>
         <statement>
             <p>
-                Given the polynomial function <m>f(x)=(x-2)(x+1)(x-4)</m>, written in factored form for your convenience, determine the vertical and horizontal intercepts.
+                Given the polynomial function <m>f(x)=(x-2)(x+1)(x-4)</m>, determine the vertical and horizontal intercepts.
             </p>
-
+        </statement>
+        <solution>
             <p>
                 The vertical intercept occurs when the input is zero.
                 <m>f(0)=(0-2)(0+1)(0-4)=8</m>.
@@ -438,7 +444,7 @@
             <p>
                 The graph crosses the horizontal axis at the points <m>(2, 0), (-1, 0)</m>, and <m>(4, 0)</m>.
             </p>
-        </statement>
+        </solution>
     </example>
 
     <p>

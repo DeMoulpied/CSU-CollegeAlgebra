@@ -129,7 +129,8 @@
             <p>
                 Find the horizontal intercepts of <m>f(x)=x^{6}-3x^{4}+2x^{2}</m>.
             </p>
-
+        </statement>
+        <solution>
             <p>
                 We can attempt to factor this polynomial to find solutions for <m>f(x) = 0</m>.
                 That is, we are finding the <m>x</m> values such that <m>x^{6}-3x^{4}+2x^{2}=0</m>.
@@ -142,7 +143,7 @@
             <p>
                 This gives us 5 horizontal intercepts in total: <m>x=0,1,-1,\sqrt{2},-\sqrt{2}</m>.
             </p>
-        </statement>
+        </solution>
     </example>
 
     <example>
@@ -150,7 +151,8 @@
             <p>
                 Find the vertical and horizontal intercepts of <m>g(t)=(t-2)^{2} (2t+3).</m>
             </p>
-
+        </statement>
+        <solution>
             <p>
                 The vertical intercept can be found by evaluating <m>g(0)</m>.
                 <m>g(0)=(0-2)^{2} (2(0)+3)=12</m>.
@@ -167,7 +169,7 @@
             <p>
                 We can always check our answers are reasonable by graphing the polynomial.
             </p>
-        </statement>
+        </solution>
     </example>
 
     <example>
@@ -175,7 +177,8 @@
             <p>
                 Find the horizontal intercepts of <m>h(t)=t^{3}+4t^{2}+t-6</m>.
             </p>
-
+        </statement>
+        <solution>
             <p>
                 Since this polynomial is not in factored form, has no common factors, and does not appear to be factorable using techniques we know, we can turn to technology to find the intercepts.
             </p>
@@ -196,7 +199,7 @@
             <p>
                 We could check these are correct by plugging in these values for <m>t</m> and verifying that <m>h(-3)=h(-2)=h(1)=0</m>.
             </p>
-        </statement>
+        </solution>
     </example>
 
     <exercise>
@@ -304,7 +307,8 @@
             <p>
                 Sketch a graph of <m>f(x)=-2(x+3)^{2} (x-5)</m>.
             </p>
-
+        </statement>
+        <solution>
             <p>
                 This graph has two horizontal intercepts.
                 At <m>x = -3</m>, the factor is squared, indicating the graph will bounce at this horizontal intercept.
@@ -347,7 +351,7 @@
                   </shortdescription>
                   </image>
           </figure>
-        </statement>
+        </solution>
     </example>
 
     <exercise>
@@ -374,7 +378,8 @@
             <p>
                 Solve <m>(x+3)(x+1)^{2} (x-4)>0</m>.
             </p>
-
+        </statement>
+        <solution>
             <p>
                 As with all inequalities, we will start by solving the equality <m>(x+3)(x+1)^{2} (x-4)=0</m>, which has solutions at <m>x = -3, -1, \text{ and }4</m>.
                 We know the function can only change from positive to negative at these values, so these divide the inputs into 4 intervals.
@@ -417,7 +422,7 @@
             <p>
                 From our test values, we can determine this function is positive when <m>x &#x3C; -3</m> or <m>x > 4</m>, or in interval notation, <m>(-\infty,-3)\cup(4,\infty)</m>.
             </p>
-        </statement>
+        </solution>
     </example>
 
     <p>
@@ -430,7 +435,8 @@
             <p>
                 Find the domain of the function <m>v(t)=\sqrt{6-5t-t^{2}}</m>.
             </p>
-
+        </statement>
+        <solution>
             <p>
                 A square root is only defined when the quantity we are taking the square root of, the quantity inside the square root, is zero or greater.
                 Thus, the domain of this function will be when <m>6-5t-t^{2}\geq 0</m>.
@@ -458,7 +464,7 @@
                 From the graph we can see this function is positive for inputs between the intercepts.
                 So <m>6-5t-t^{2}\geq 0</m> when <m>-6\leq t\leq 1</m>, and this will be the domain of the <m>v(t)</m> function.
             </p>
-        </statement>
+        </solution>
     </example>
 </subsection>
 
@@ -523,7 +529,8 @@
                       A polynomial that decreases passing through negative 3 comma 0, then increases passing through 0 comma negative 2 up to 2 comma 0, then decreases to about 4 comma negative 1 then increases passing through 5 comma 0
                   </shortdescription>
                   </image>
-
+                </statement>
+                <solution>
 
             <p>
                 This graph has three horizontal intercepts: <m>x = -3, 2, \text{ and }5</m>.
@@ -546,7 +553,7 @@
             <p>
                 The graphed polynomial appears to represent the function <m>f(x)=1/30(x+3)(x-2)^{2} (x-5)</m>.
             </p>
-        </statement>
+        </solution>
     </example>
 
     <exercise>
@@ -583,7 +590,8 @@
                 An open-top box is to be constructed by cutting out squares from each corner of a 14 cm by 20 cm sheet of plastic then folding up the sides.
                 Find the size of squares that should be cut out to maximize the volume enclosed by the box.
             </p>
-
+        </statement>
+        <solution>
             <p>
                 We will start this problem by drawing a picture, labeling the width of the cut-out squares with a variable, <m>w</m>.
             </p>
@@ -634,7 +642,7 @@
                 From this zoomed-in view, we can refine our estimate for the max volume to about 339, when the squares are 2.7 cm wide.
                 In fact, using calculus methods (which we will not cover), we would be able to determine that the maximum volume is 339.01255 cubic centimeters, and this occurs when the squares are 2.70394 cm long, meaning that our estimate was quite accurate.
             </p>
-        </statement>
+        </solution>
     </example>
 
     <exercise>

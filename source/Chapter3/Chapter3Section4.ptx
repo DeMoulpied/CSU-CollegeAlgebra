@@ -71,14 +71,15 @@
                     You plan to drive 100 miles.
                     Find a formula for the time the trip will take as a function of the speed you drive.
                 </p>
-
+            </statement>
+            <solution>
                 <p>
                     You may recall that multiplying speed by time will give you distance.
                     If we let <m>t</m> represent the drive time in hours, and <m>v</m> represent the velocity (speed or rate) at which we drive, then <m>vt=\text{distance}</m> .
                     Since our distance is fixed at 100 miles, <m>vt=100</m>.
                     Solving this relationship for the time gives us the function we desired: <m>t=\dfrac{100}{v}=100v^{-1}</m>.
                 </p>
-            </statement>
+            </solution>
         </example>
 
         <p>
@@ -192,7 +193,8 @@
                     Sketch a graph of the reciprocal function shifted two units to the left and up three units.
                     Identify the horizontal and vertical asymptotes of the graph, if any.
                 </p>
-
+            </statement>
+            <solution>
                 <p>
                     Transforming the graph left 2 and up 3 would result in the function <m>f(x)=\dfrac{1}{x+2}+3</m>, or equivalently, by giving the terms a common denominator, <m>f(x)=\dfrac{3x+7}{x+2}</m>.
                 </p>
@@ -222,7 +224,7 @@
                 <p>
                     Notice that horizontal and vertical asymptotes get shifted left 2 and up 3 along with the function.
                 </p>
-            </statement>
+            </solution>
         </example>
 
         <exercise>
@@ -256,7 +258,8 @@
                     A tap will open pouring 10 gallons per minute of water into the tank at the same time sugar is poured into the tank at a rate of 1 pound per minute.
                     Find the concentration (pounds per gallon) of sugar in the tank after <m>t</m> minutes.
                 </p>
-
+            </statement>
+            <solution>
                 <p>
                     Notice that the amount of water in the tank is changing linearly, as is the amount of sugar in the tank.
                     We can write an equation independently for each:
@@ -272,7 +275,7 @@
                     The concentration, <m>C</m>, will be the ratio of pounds of sugar to gallons of water.
                     Letting <m>f(t)=C</m>, we get the function <m>f(t)=\dfrac{5+t}{100+10t}</m>.
                 </p>
-            </statement>
+            </solution>
         </example>
     </subsection>
 
@@ -294,7 +297,8 @@
                 <p>
                     Find the vertical asymptotes of the function <m>k(x)=\dfrac{5+2x^2}{2-x-x^2}</m>.
                 </p>
-
+            </statement>
+            <solution>
                 <p>
                     To find the vertical asymptotes, we determine where this function will be undefined by setting the denominator equal to zero:
                     <me>
@@ -317,7 +321,7 @@
         </shortdescription>
         </image>
 </figure>
-            </statement>
+            </solution>
         </example>
 
         <p>
@@ -329,7 +333,8 @@
                 <p>
                     Find the vertical asymptotes of the function <m>k(x)=\dfrac{x-2}{x^2-4}</m>.
                 </p>
-
+            </statement>
+            <solution>
                 <p>
                     To find the vertical asymptotes, we determine where this function will be undefined by finding where denominator will be zero.
                     We can do this by factoring: <m>k(x)=\dfrac{x-2}{x^2-4}=\dfrac{x-2}{(x-2)(x+2)}</m> , so the denominator is zero at <m>x=2,-2</m>.
@@ -352,7 +357,7 @@
         </shortdescription>
         </image>
 </figure>
-            </statement>
+            </solution>
         </example>
 
         <definition>
@@ -442,7 +447,8 @@
                     In the sugar concentration problem from earlier, we created the equation <m>f(t)=\dfrac{5+t}{100+10t}</m>.
                     Find the horizontal asymptote and interpret it in context of the scenario.
                 </p>
-
+            </statement>
+            <solution>
                 <p>
                     Both the numerator and denominator are linear (degree 1), so since the degrees are equal, there will be a horizontal asymptote at the ratio of the leading coefficients.
                     In the numerator, the leading term is <m>t</m>, with coefficient 1.
@@ -451,7 +457,7 @@
                     This function will have a horizontal asymptote at <m>C=\dfrac{1}{10}</m>.
                     This tells us that as the input gets large, the output values will approach <m>\dfrac{1}{10}</m>, and in context, this means that as more time goes by, the concentration of sugar in the tank will approach one tenth of a pound of sugar per gallon of water or <m>\dfrac{1}{10}</m> pounds per gallon.
                 </p>
-            </statement>
+            </solution>
         </example>
 
         <example>
@@ -459,7 +465,8 @@
                 <p>
                     Find the horizontal and vertical asymptotes of the function <m>f(x)=\dfrac{(x-2)(x+3)}{(x-1)(x+2)(x-5)}</m>.
                 </p>
-
+            </statement>
+            <solution>
                 <p>
                     First, note this function has no inputs that make both the numerator and denominator zero, so there are no potential holes.
                     The function will have vertical asymptotes when the denominator is zero, causing the function to be undefined.
@@ -471,7 +478,7 @@
                     Since the degree of the denominator is greater than that of the numerator, the denominator will grow faster than the numerator, causing the outputs to tend towards zero as the inputs get large, and so as <m>x\to \pm \infty, f(x)\to0</m>.
                     This function will have a horizontal asymptote at <m>y=0</m>.
                 </p>
-            </statement>
+            </solution>
         </example>
 
         <exercise>
@@ -503,7 +510,8 @@
                 <p>
                     Find the horizontal and vertical intercepts of <m>f(x)=\dfrac{(x-2)(x+3)}{(x-1)(x+2)(x-5)}</m>.
                 </p>
-
+            </statement>
+            <solution>
                 <p>
                     We can find the vertical intercept by evaluating the function at zero: <m>f(0)=\dfrac{(0-2)(0+3)}{(0-1)(0+2)(0-5)}=\dfrac{-6}{10}=\dfrac{-3}{5}</m>.
                     So, the vertical intercept of <m>f</m> is the point <m>(0, \dfrac{-3}{5}</m>.
@@ -513,7 +521,7 @@
                     The horizontal intercepts will occur when the function is equal to zero: <m>0=\dfrac{(x-2)(x+3)}{(x-1)(x+2)(x-5)}</m>.
                     This will only be true when the numerator is zero: <m>0=(x-2)(x+3)</m>, when <m>x=2, -3.</m> Thus, the horizontal of <m>f</m> occur at <m>(2,0)</m> and <m>(-3,0)</m>.
                 </p>
-            </statement>
+            </solution>
         </example>
 
         <exercise>
@@ -578,7 +586,8 @@
                 <p>
                     Sketch a graph of <m>f(x)=\dfrac{(x+2)(x-3)}{(x+1)^2 (x-2)}</m>.
                 </p>
-
+            </statement>
+            <solution>
                 <p>
                     We can start our sketch by finding intercepts and asymptotes.
                     Evaluating the function at zero gives the vertical intercept: <m>f(0)=\dfrac{(0+2)(0-3)}{(0+1)^2 (0-2)}=3</m>.
@@ -627,7 +636,7 @@
         </shortdescription>
         </image>
 </figure>
-            </statement>
+</solution>
         </example>
 
         <exercise>
@@ -668,7 +677,8 @@
             A graph that starts out flat below the y-axis, then increases, passing through the x-axis at negative 2, then approaches infinity as x approaches a vertical asymptote at x=negative 1. To the right of the asymptote, the graph increases from negative infinity, passes the y-axis at y= negative 2, then decreases towards infinity as x approaches another vertical asymptote at x=2. To the right of this asymptote the graph increases from negative infinity, passes through the x-axis at x=3, increases slightly before decreasing slowly towards the x-axis.
         </shortdescription>
         </image>
-
+    </statement>
+    <solution>
                 <p>
                     The graph appears to have horizontal intercepts at <m>x = -2</m> and <m>x = 3</m>.
                     At both, the graph passes through the intercept, suggesting linear factors.
@@ -691,9 +701,12 @@
                 <p>
                     This gives us a final function of <m>f(x)=\dfrac{4(x+2)(x-3)}{3(x+1)(x-2)^2}</m>.
                 </p>
-            </statement>
-        </example></subsection>
-<subsection>
+            </solution>
+        </example>
+    
+    </subsection>
+
+    <subsection>
     <title>Answers</title>
     
 

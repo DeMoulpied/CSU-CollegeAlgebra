@@ -66,7 +66,8 @@
                 She has purchased 80 feet of wire fencing to enclose 3 sides, and will put the 4th side against the backyard fence.
                 Find a formula for the area enclosed by the fence if the sides of fencing perpendicular to the existing fence have length <m>L</m>.
             </p>
-
+        </statement>
+        <solution>
             <p>
                 In a scenario like this involving geometry, it is often helpful to draw a picture.
                 It might also be helpful to introduce a temporary variable, <m>W</m>, to represent the side of fencing parallel to the 4th side or backyard fence.
@@ -102,7 +103,7 @@
             <p>
                 This formula represents the area of the fence in terms of the variable length <m>L</m>.
             </p>
-        </statement>
+        </solution>
     </example>
 </subsection>
 
@@ -130,7 +131,8 @@
                   </shortdescription>
                   </image>
           </figure>
-
+        </statement>
+        <solution>
             <p>
                 We can see the graph is the basic quadratic shifted to the left 2 and down 3, giving a formula in the form <m>g(x)=a(x+2)^{2}-3</m>.
                 By plugging in a point that falls on the grid, such as <m>(0,-1)</m>, we can solve for the stretch factor: <m>-1=a(0+2)^{2}-3,</m>
@@ -163,7 +165,7 @@
                     g(x)=\dfrac{1}{2}x^{2}+2x-1.
                 </me>
             </p>
-        </statement>
+        </solution>
     </example>
 
     <definition>
@@ -223,7 +225,8 @@
                 Find the vertex of the quadratic <m>f(x)=2x^{2}-6x+7</m>.
                 Rewrite the quadratic into vertex form.
             </p>
-
+        </statement>
+        <solution>
             <p>
                 The horizontal coordinate of the vertex will be at <m>h=\dfrac{-b}{2a}=\dfrac{-(-6)}{2(2)}=\dfrac{6}{4}=\dfrac{3}{2}.</m> The vertical coordinate of the vertex will be at <m>f(\dfrac{3}{2})=2(\dfrac{3}{2})^{2}-6(\dfrac{3}{2})+7=\dfrac{5}{2}.</m>
             </p>
@@ -232,7 +235,7 @@
                 Rewriting into vertex form, the stretch factor will be the same as the <m>a</m> in the original quadratic.
                 Using the vertex to determine the shifts, <m>f(x)=2(x-\dfrac{3}{2})^{2}+\dfrac{5}{2}.</m>
             </p>
-        </statement>
+        </solution>
     </example>
 
     <exercise>
@@ -254,7 +257,8 @@
             <p>
                 Rewrite <m>f(x)=2x^{2}-12x+14</m> into vertex form by completing the square.
             </p>
-
+        </statement>
+        <solution>
             <p>
                 We start by factoring the leading coefficient from the quadratic and linear terms.
                 <me>
@@ -281,7 +285,7 @@
                 Simplifying, we are left with vertex form.
                 <m>2(x-3)^{2}-4.</m>
             </p>
-        </statement>
+        </solution>
     </example>
 
     <p>
@@ -293,7 +297,8 @@
             <p>
                 Returning to our backyard farmer from the beginning of the section, what dimensions should she make her garden to maximize the enclosed area?
             </p>
-
+        </statement>
+        <solution>
             <p>
                 Earlier we determined the area she could enclose with 80 feet of fencing on three sides was given by the equation <m>f(L)=80L-2L^{2}</m>.
                 Notice that quadratic has been vertically reflected, since the coefficient on the squared term is negative, so the graph will open downwards, and the vertex will be a maximum value for the area.
@@ -310,7 +315,7 @@
                 When the shorter sides are 20 feet, that leaves 40 feet of fencing for the longer side.
                 To maximize the area, she should enclose the garden such that the two shorter sides have length 20 feet, and the longer side parallel to the existing fence has length 40 feet.
             </p>
-        </statement>
+        </solution>
     </example>
 
     <example>
@@ -320,7 +325,8 @@
                 Market research has suggested that if they raised the price to $32, they would lose 5,000 subscribers.
                 Assuming that subscriptions are linearly related to the price, what price should the newspaper charge for a quarterly subscription to maximize their revenue?
             </p>
-
+        </statement>
+        <solution>
             <p>
                 Revenue is the amount of money a company brings in.
                 In this case, the revenue can be found by multiplying the charge per subscription times the number of subscribers.
@@ -356,7 +362,7 @@
                 The model tells us that the maximum revenue will occur if the newspaper charges $31.80 for a subscription.
                 To find what the maximum revenue is, we can evaluate the revenue equation: <m>\text{Maximum Revenue}= -2,500(31.8)^{2}+159,000(31.8)= \$2,528,100</m>
             </p>
-        </statement>
+        </solution>
     </example>
 </subsection>
 
@@ -398,7 +404,8 @@
             <p>
                 Find the vertical and horizontal intercepts of the quadratic <m>f(x)=3x^{2}+5x-2.</m>
             </p>
-
+        </statement>
+        <solution>
             <p>
                 We can find the vertical intercept by evaluating the function at an input of zero: <m>f(0)=3(0)^{2}+5(0)-2=-2,</m> so the function <m>f</m> has a vertical intercept at <m>(0,-2).</m>
             </p>
@@ -411,7 +418,7 @@
             <p>
                 In this case, the quadratic can be factored easily enough, providing the simplest method for solution <m>0=(3x-1)(x+2).</m> So the roots must occur when either <m>0=3x-1</m> or when <m>0=x+2.</m> The first equation is true when <m>x=\dfrac{1}{3},</m> and the second is true when <m>x=-2.</m> So, the function <m>f</m> has horisontal intercepts at <m>(\dfrac{1}{3},0)</m> and <m>(-2,0)</m>.
             </p>
-        </statement>
+        </solution>
     </example>
 
     <p>
@@ -423,7 +430,8 @@
             <p>
                 Find the horizontal intercepts of the quadratic <m>f(x)=2x^{2}+4x-4.</m>
             </p>
-
+        </statement>
+        <solution>
             <p>
                 Again we must solve for when the output will be zero <m>0=2x^{2}+4x-4.</m>
             </p>
@@ -441,7 +449,7 @@
             <p>
                 So, the graph has horizontal intercepts at <m>(-1-\sqrt{3},0)</m> and <m>(-1+\sqrt{3},0)</m>.
             </p>
-        </statement>
+        </solution>
     </example>
 
     <exercise>
@@ -521,7 +529,8 @@
                 The ball's height above ground can be modeled by the equation <m>f(t)=-16t^{2}+80t+40</m>.
                 What is the maximum height of the ball? When does the ball hit the ground?
             </p>
-
+        </statement>
+        <solution>
             <p>
                 To find the maximum height of the ball, we would need to know the vertex of the quadratic function.
                 <m>h=\dfrac{-80}{2(-16)}=\dfrac{80}{32}=\dfrac{5}{2}</m>, <m>k=f(\dfrac{5}{2})=-16(\dfrac{5}{2})^{2}+80(\dfrac{5}{2})+40=140.</m>
@@ -541,7 +550,7 @@
             <p>
                 The second answer is outside the reasonable domain of our model (since it represents a time before the ball was thrown), so we conclude the ball will hit the ground after about 5.458 seconds.
             </p>
-        </statement>
+        </solution>
     </example>
 
     <exercise>

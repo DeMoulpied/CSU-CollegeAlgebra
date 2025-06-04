@@ -298,7 +298,8 @@
                 <p>
                     Write an exponential function for India's population, and use it to predict the population in 2020.
                 </p>
-
+            </statement>
+            <solution>
                 <p>
                     At the beginning of the chapter we were given India's population of 1.14 billion in the year 2008 and a percent growth rate of 1.34%.
                     Using 2008 as our starting time (t = 0), our initial population will be 1.14 billion.
@@ -314,7 +315,7 @@
                 <p>
                     For comparison, the actual population of India in 2020 was about 1.380 billion.
                 </p>
-            </statement>
+            </solution>
         </example>
 
         <exercise>
@@ -350,7 +351,8 @@
                     A certificate of deposit (CD) is a type of savings account offered by banks, typically offering a higher interest rate in return for a fixed length of time you will leave your money invested.
                     If a bank offers a 24 month CD with an annual interest rate of 1.2% compounded monthly, how much will a $1000 investment grow to over those 24 months?
                 </p>
-
+            </statement>
+            <solution>
                 <p>
                     First, we must notice that the interest rate is an annual rate, but is compounded monthly, meaning interest is calculated and added to the account monthly.
                     To find the monthly interest rate, we divide the annual rate of 1.2%by 12 since there are 12 months in a year: <m>\dfrac{1.2\%}{12}= 0.1\%</m>.
@@ -359,7 +361,7 @@
                     <m>f(m)=1000(1+\dfrac{.012}{12})^{m}</m> or <m>f(m)=1000(1+0.001)^{m}</m>.
                     So, after 24 months, the account will have grown to <m>f(24)=1000(1+0.001)^{24}=\$1024.28</m>.
                 </p>
-            </statement>
+            </solution>
         </example>
 
         <exercise>
@@ -382,7 +384,8 @@
                     Bismuth-210 is an isotope that radioactively decays by about 13% each day, meaning 13% of the remaining Bismuth-210 transforms into another atom (polonium-210 in this case) each day.
                     If you begin with 100 mg of Bismuth-210, how much remains after one week?
                 </p>
-
+            </statement>
+            <solution>
                 <p>
                     With radioactive decay, instead of the quantity increasing at a percent rate, the quantity is decreasing at a percent rate.
                     Our initial quantity is <m>a = 100 \text{ mg}</m>, and our growth rate will be negative 13%, since we are decreasing: <m>r = -0.13</m>.
@@ -392,7 +395,7 @@
                 <p>
                     After one week, 7 days, the quantity remaining would be <m>Q(7)=100(0.87)^{7}=37.73</m>, so 37.73 mg of Bismuth-210 remains.
                 </p>
-            </statement>
+            </solution>
         </example>
 
         <exercise>
@@ -409,14 +412,15 @@
                 <p>
                     <m>T(q)</m> represents the total number of Android smart phone contracts, in thousands, held by a certain Verizon store region measured quarterly since January 1, 2016, Interpret all the parts of the equation <m>T(2)=86(1.64)^{2}=231.3056</m>.
                 </p>
-
+            </statement>
+            <solution>
                 <p>
                     Interpreting this from the basic exponential form, we know that 86 is our initial value.
                     This means that on January 1, 2016 this region had 86,000 Android smart phone contracts.
                     Since <m>b = 1 + r = 1.64</m>, we know that every quarter the number of smart phone contracts grows by 64%.
                     <m>T(2) = 231.3056</m> means that in the 2nd quarter (or at the end of the second quarter) there were approximately 231,306 Android smart phone contracts.
                 </p>
-            </statement>
+            </solution>
         </example>
     </subsection>
 
@@ -435,6 +439,10 @@
                     In 2009, 80 deer were reintroduced into a wildlife refuge area from which the population had previously been hunted to elimination.
                     By 2015, the population had grown to 180 deer.
                     If this population grows exponentially, find a formula for the function.
+                </p>
+            </statement>
+            <solution>
+                <p>
                     By defining our input variable to be <m>t</m>, years after 2009, the information listed can be written as two input-output pairs: <m>(0,80)</m> and <m>(6,180)</m>.
                     Notice that by choosing our input variable to be measured as years after 2009, we have effectively "given" ourselves the initial value for the function: <m>a = 80</m>.
                     This gives us an equation of the form <m>f(t)=80b^{t}</m>.
@@ -453,7 +461,7 @@
                 <p>
                     Recall that since <m>b = 1+r</m>, we can interpret this to mean that the population growth rate is <m>r = 0.1447</m>, and so the population is growing by about 14.47% each year.
                 </p>
-            </statement>
+            </solution>
         </example>
 
         <p>
@@ -478,7 +486,8 @@
                 <p>
                     Find a formula for an exponential function passing through the points <m>(-2,6)</m> and <m>(2,1)</m>.
                 </p>
-
+            </statement>
+            <solution>
                 <p>
                     Since we don't have the initial value, we will take a general approach that will work for any function form with unknown parameters: we will substitute in both given input-output pairs in the function form <m>f(x)=ab^{x}</m> and solve for the unknown values, <m>a</m> and <m>b</m>.
                     Substituting in <m>(-2, 6)</m> gives <m>6=ab^{-2}</m>, and substituting in <m>(2, 1)</m> gives <m>1=ab^{2}</m>.
@@ -501,7 +510,7 @@
                 <p>
                     Putting this together gives the equation <m>f(x)=2.4492(0.6389)^{x}</m>.
                 </p>
-            </statement>
+            </solution>
         </example>
 
         <exercise>
@@ -524,7 +533,8 @@
             An increasing graph that starts out on the left fairly flat and just above the x-axis, and curves upwards as x increases, passing through negative 1 comma 1, 2 comma 3, and 3 comma 4.
         </shortdescription>
         </image>
-
+    </statement>
+    <solution>
                 <p>
                     The initial value for the function is not clear in this graph, so we will instead work using two clearer points.
                     There are three clear points: <m>(-1, 1)</m>, <m>(1, 2)</m>, and <m>(3, 4)</m>.
@@ -543,7 +553,7 @@
                 <p>
                     This gives us a final equation of <m>f(x)=\sqrt{2}(\sqrt{2})^{x}</m>.
                 </p>
-            </statement>
+            </solution>
         </example>
     </subsection>
 
@@ -614,7 +624,8 @@
                 <p>
                     If you invest $3,000 in an investment account paying 3% interest compounded quarterly, how much will the account be worth in 10 years?
                 </p>
-
+            </statement>
+            <solution>
                 <p>
                     Since we are starting with $3000, <m>a = 3000</m>.
                     Our interest rate is 3%, so <m>r = 0.03</m>.
@@ -629,7 +640,7 @@
                 <p>
                     The account will be worth $4045.05 in 10 years.
                 </p>
-            </statement>
+            </solution>
         </example>
 
         <example>
@@ -638,7 +649,8 @@
                     A 529 plan is a college savings plan in which a relative can invest money to pay for a child's later college tuition, and the account grows tax free.
                     If Lily wants to set up a 529 account for her new granddaughter, wants the account to grow to $40,000 over 18 years, and she believes the account will earn 6% compounded semi-annually (twice a year), how much will Lily need to invest in the account now?
                 </p>
-
+            </statement>
+            <solution>
                 <p>
                     Since the account is earning 6%, <m>r = 0.06</m>.
                     Since interest is compounded twice a year, <m>k = 2</m>.
@@ -654,7 +666,7 @@
                 <p>
                     So, Lily will need to invest $13,801 to have $40,000 in 18 years.
                 </p>
-            </statement>
+            </solution>
         </example>
 
         <p>
@@ -754,7 +766,8 @@
                     Bank B offers an account paying 1.1% compounded monthly.
                     Which is offering a better rate?
                 </p>
-
+            </statement>
+            <solution>
                 <p>
                     We can compare these rates using the annual percentage yield - the actual percent increase in a year.
                     Bank A: <m>\text{APY}=(1+\dfrac{0.012}{4})^{4}-1=0.012054 = 1.2054\%</m> 
@@ -764,7 +777,7 @@
                 <p>
                     Bank B's monthly compounding is not enough to catch up with Bank A's better APR, so Bank A offers a better rate.
                 </p>
-            </statement>
+            </solution>
         </example>
     </subsection>
 
@@ -911,14 +924,15 @@
                     Radon-222 decays at a continuous rate of 17.3% per day.
                     How much of 100 mg of Radon-222 will remain in 3 days?
                 </p>
-
+            </statement>
+            <solution>
                 <p>
                     Since we are given a continuous decay rate, we use the continuous growth formula.
                     Since the substance is decaying, we know the growth rate will be negative: <m>r = -0.173</m>.
                     <m>f(3)=100e^{-0.173(3)}\approx 59.512</m>.
                     So 59.512 mg of Radon-222 will remain.
                 </p>
-            </statement>
+            </solution>
         </example>
 
         <exercise>
@@ -938,7 +952,8 @@
                 <p>
                     If $1000 is invested in an account earning 10% compounded continuously, find the value after 1 year.
                 </p>
-
+            </statement>
+            <solution>
                 <p>
                     Here, the continuous growth rate is 10%, so <m>r = 0.10</m>.
                     We start with $1000, so <m>a = 1000</m>.
@@ -949,7 +964,7 @@
                     Notice this is a <m>\$105.17</m> increase for the year.
                     As a percent increase, this is <m>\dfrac{105.17}{1000}=0.10517=10.517\%</m> increase over the original $1000.
                 </p>
-            </statement>
+            </solution>
         </example>
 
         <p>

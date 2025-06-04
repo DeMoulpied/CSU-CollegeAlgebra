@@ -75,7 +75,8 @@
             She anticipates spending $400 each week on rent, food, and fun.
             Find and interpret the horizontal intercept and determine a reasonable domain and range for this function.
         </p>
-
+    </statement>
+    <solution>
         <p>
             In the problem, there are two changing quantities: time and money.
             The amount of money she has remaining while on vacation depends on how long she stays.
@@ -120,7 +121,7 @@
         <p>
             The range represents the set of output values and she starts with $3500 and ends with $0 after 8.75 weeks so the corresponding range is <m>0\leq M\leq 3500</m>.
         </p>
-    </statement>
+    </solution>
 </example>
 
 <exercise>
@@ -142,7 +143,8 @@
             The second, Budget, charges an up-front fee of $16, then 63 cents a mile .
             When will U-Haul be the better choice for Jamal?
         </p>
-
+    </statement>
+    <solution>
         <p>
             The two important quantities in this problem are the cost, and the number of miles that are driven.
             Since we have two companies to consider, we will define two functions:
@@ -212,7 +214,7 @@
             This tells us that the cost from the two companies will be the same if 100 miles are driven.
             Either by looking at the graph, or noting that <m>Y(m)</m> is growing at a slower rate, we can conclude that U-Haul will be the cheaper price when more than 100 miles are driven.
         </p>
-    </statement>
+    </solution>
 </example>
 
 <example>
@@ -236,7 +238,8 @@
                 </li>
             </ol>
         </p>
-
+    </statement>
+    <solution>
         <p>
             The two changing quantities are the population and time.
             While we could use the actual year value as the input quantity, doing so tends to lead to very ugly equations, since the vertical intercept would correspond to the year 0, more than 2000 years ago! To make things a little nicer, and to make our lives easier too, we will define our input as years since 2004: Input: <m>t</m>, years since 2004 Output: <m>f(t)</m>, the town's population
@@ -284,7 +287,7 @@
         <p>
             Our model predicts the population will reach 15,000 in a little more than 23 years after 2004, or somewhere around the year 2027.
         </p>
-    </statement>
+    </solution>
 </example>
 
 <exercise>

@@ -83,7 +83,8 @@
                 <p>
                     Graph <m>f(x)=5-\dfrac{2}{3}x</m> by plotting points.
                 </p>
-
+            </statement>
+            <solution>
                 <p>
                     In general, we evaluate the function at two or more inputs to find at least two points on the graph.
                     Usually, it is best to pick input values that will "work nicely" in the equation.
@@ -116,7 +117,7 @@
                       </shortdescription>
                       </image>
               </figure>
-            </statement>
+            </solution>
         </example>
 
         <p>
@@ -174,7 +175,8 @@
                 <p>
                     Graph <m>f(x)=5-\dfrac{2}{3}x</m> using the vertical intercept and slope.
                 </p>
-
+            </statement>
+            <solution>
                 <p>
                     The vertical intercept of the function is <m>(0, 5)</m>, giving us a point on the graph of the line.
                 </p>
@@ -199,7 +201,7 @@
                       </shortdescription>
                       </image>
               </figure>
-            </statement>
+            </solution>
         </example>
 
         <exercise>
@@ -231,7 +233,8 @@
                 <p>
                     Find the horizontal intercept of <m>f(x)=-3+\dfrac{1}{2}x</m>.
                 </p>
-
+            </statement>
+            <solution>
                 <p>
                     Setting the function equal to zero to find what input will put us on the horizontal axis,
                     <me>
@@ -248,7 +251,7 @@
                 <p>
                     Thus, the graph crosses the horizontal axis at (6,0)
                 </p>
-            </statement>
+            </solution>
         </example>
 
         <p>
@@ -304,11 +307,12 @@
                 <p>
                     Write an equation for the horizontal line graphed above.
                 </p>
-
+            </statement>
+            <solution>
                 <p>
                     This line would have equation <m>f(x)=2</m>.
                 </p>
-            </statement>
+            </solution>
         </example>
 
         <example>
@@ -316,11 +320,12 @@
                 <p>
                     Write an equation for the vertical line graphed above.
                 </p>
-
+            </statement>
+            <solution>
                 <p>
                     This line would have equation <m>x=2</m>.
                 </p>
-            </statement>
+            </solution>
         </example>
     </subsection>
 
@@ -352,7 +357,8 @@
                 <p>
                     Find a line parallel to <m>f(x)=6+3x</m> that passes through the point <m>(3, 0)</m>.
                 </p>
-
+            </statement>
+            <solution>
                 <p>
                     We know the line we're looking for will have the same slope as the given line, <m>m = 3</m>.
                     Using this and the given point, we can solve for the new line's vertical intercept.
@@ -362,7 +368,7 @@
                 <p>
                     The line we're looking for is <m>g(x)=-9+3x</m>.
                 </p>
-            </statement>
+            </solution>
         </example>
 
         <p>
@@ -406,13 +412,14 @@
                         </li>
                     </ul>
                 </p>
-
+            </statement>
+            <solution>
                 <p>
                     If the original line had slope 2, the perpendicular line's slope would be <m>m_{2}=\dfrac{-1}{2}</m>.
                     If the original line had slope -4, the perpendicular line's slope would be <m>m_{2}=\dfrac{-1}{-4}=\dfrac{1}{4}</m>.
                     If the original line had slope <m>\dfrac{2}{3}</m>, the perpendicular line's slope would be <m>m_{2}=\dfrac{-1}{\frac{2}{3}}=\dfrac{-3}{2}</m>.
                 </p>
-            </statement>
+            </solution>
         </example>
 
         <example>
@@ -420,7 +427,8 @@
                 <p>
                     Find the equation of a line perpendicular to <m>f(x)=6+3x</m> and passing through the point <m>(3, 0)</m>,
                 </p>
-
+            </statement>
+            <solution>
                 <p>
                     The original line has slope <m>m = 3</m>.
                     The perpendicular line will have slope <m>m=\dfrac{-1}{3}</m>.
@@ -431,7 +439,7 @@
                 <p>
                     The line we're looking for is <m>g(x)=1-\dfrac{1}{3}x</m>.
                 </p>
-            </statement>
+            </solution>
         </example>
 
         <exercise>
@@ -461,7 +469,8 @@
                     A line passes through the points <m>(-2, 6)</m> and <m>(4, 5)</m>.
                     Find the equation of a perpendicular line that passes through the point <m>(4, 5)</m>.
                 </p>
-
+            </statement>
+            <solution>
                 <p>
                     From the two given points on the reference line, we can calculate the slope of that line: <m>m_{1}=\dfrac{5-6}{4-(-2)}=\dfrac{-1}{6}</m>.
                     The perpendicular line will have slope <m>m_{2}=\dfrac{-1}{\frac{-1}{6}}=6</m>.
@@ -471,7 +480,7 @@
                     We can then solve for the vertical intercept that makes the line pass through the desired point: <m>g(x)=b+6x</m>, then at <m>(4, 5)</m>, <m>5=b+6(4)</m> so <m>b=-19</m>.
                     Giving the line <m>g(x)=-19+6x</m>.
                 </p>
-            </statement>
+            </solution>
         </example>
     </subsection>
 
@@ -491,7 +500,8 @@
                 <p>
                     Find the intersection of the lines <m>h(t)=3t-4</m> and <m>j(t)=5-t</m>.
                 </p>
-
+            </statement>
+            <solution>
                 <p>
                     Setting <m>h(t)=j(t)</m> and solving for <m>t</m>, we get
                     <me>
@@ -518,7 +528,7 @@
                       </shortdescription>
                       </image>
 
-            </statement>
+            </solution>
         </example>
 
         <p>
@@ -580,14 +590,15 @@
                 <p>
                     Using the functions from the previous example, for what values of <m>t</m> is <m>h(t)>j(t)</m>?
                 </p>
-
+            </statement>
+            <solution>
                 <p>
                     To answer this question, it is helpful first to know where the functions are equal, since that is the point where <m>h(t)</m> could switch from being greater to smaller than <m>j(t)</m> or vice-versa.
                     From the previous example, we know the functions are equal at <m>t=\dfrac{9}{4}</m>.
                     By examining the graph, we can see that <m>h(t)</m>, the function with positive slope, is going to be larger than the other function to the right of the intersection.
                     So <m>h(t)>j(t)</m> when <m>t>\dfrac{9}{4}</m>.
                 </p>
-            </statement>
+            </solution>
         </example>
     </subsection>
 
