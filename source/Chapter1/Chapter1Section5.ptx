@@ -12,7 +12,7 @@
 
     <p>
         Fortunately, there are systematic ways to shift, stretch, compress, flip and combine functions to help them become better models for the problems we are trying to solve.
-        We can transform what we already know into what we need, hence the name, “Transformation of functions.” When we have a story problem, formula, graph, or table, we can then transform that function in a variety of ways to form new functions.
+        We can transform what we already know into what we need, hence the name, "Transformation of functions." When we have a story problem, formula, graph, or table, we can then transform that function in a variety of ways to form new functions.
     </p>
 </introduction>
             <objectives>
@@ -251,7 +251,7 @@
         </example>
 
         <p>
-            Horizontal changes or “inside changes” affect the domain of a function (the input) instead of the range and often seem counterintuitive.
+            Horizontal changes or "inside changes" affect the domain of a function (the input) instead of the range and often seem counterintuitive.
             The new function <m>F(t)</m> uses the same outputs as <m>V(t)</m> but matches those outputs to inputs two hours earlier than those of <m>V(t)</m>.
             Said another way, we must add 2 hours to the input of <m>V</m> to find the corresponding output for <m>F</m>: <m>F(t)=V(t+2)</m>.
         </p>
@@ -805,7 +805,7 @@
             </statement>
             <solution>
                 <p>
-                    Since the population is always twice as large, the new population’s output values are always twice the original function output values.
+                    Since the population is always twice as large, the new population's output values are always twice the original function output values.
                     Graphically, this would look like the second graph shown.
                 </p>
 
@@ -1031,7 +1031,7 @@
             <solution>
                 <p>
                     The formula <m>g(x)=f(\dfrac{1}{2}x)</m> tells us that the output values for <m>g</m> are the same as the output values for the function <m>f</m> at an input half the size.
-                    Notice that we don’t have enough information to determine <m>g(2)</m> since <m>g(2)=f(\dfrac{1}{2}*2)=f(1)</m>, and we do not have a value for <m>f(1)</m> in our table.
+                    Notice that we don't have enough information to determine <m>g(2)</m> since <m>g(2)=f(\dfrac{1}{2}*2)=f(1)</m>, and we do not have a value for <m>f(1)</m> in our table.
                     Our input values to <m>g</m> will need to be twice as large to get inputs for <m>f</m> that we can evaluate.
                     For example, we can determine <m>g(4)</m> since <m>g(4)=f(\dfrac{1}{2}* 4)=f(2)=1</m>.
                 </p>
@@ -1399,7 +1399,7 @@
 
                 <p>
                     * It is unclear from the graph whether it is showing a vertical stretch or a horizontal compression.
-                    For the quadratic, it turns out we could represent it either way, so we’ll use a vertical stretch.
+                    For the quadratic, it turns out we could represent it either way, so we'll use a vertical stretch.
                     You may be able to determine the vertical stretch by observation.
                 </p>
 

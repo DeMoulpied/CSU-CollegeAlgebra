@@ -271,7 +271,7 @@
             </p>
 
             <p>
-                Now, we can’t just add 9 into the expression – that would change the value of the expression.
+                Now, we can't just add 9 into the expression - that would change the value of the expression.
                 In fact, adding 9 inside the parentheses actually adds 18 to the expression, since the 2 outside the parentheses will distribute.
                 To keep the expression balanced, we can subtract 18.
                 <m>2(x^{2}-6x+9)+14-18.</m>
@@ -285,7 +285,7 @@
     </example>
 
     <p>
-        In addition to enabling us to more easily graph a quadratic written in standard form, finding the vertex serves another important purpose – it allows us to determine the maximum or minimum value of the function, depending on which way the graph opens.
+        In addition to enabling us to more easily graph a quadratic written in standard form, finding the vertex serves another important purpose - it allows us to determine the maximum or minimum value of the function, depending on which way the graph opens.
     </p>
 
     <example>
@@ -518,7 +518,7 @@
         <statement>
             <p>
                 A ball is thrown upwards from the top of a 40-foot-tall building at a speed of 80 feet per second.
-                The ball’s height above ground can be modeled by the equation <m>f(t)=-16t^{2}+80t+40</m>.
+                The ball's height above ground can be modeled by the equation <m>f(t)=-16t^{2}+80t+40</m>.
                 What is the maximum height of the ball? When does the ball hit the ground?
             </p>
 
@@ -529,7 +529,7 @@
 
             <p>
                 The ball reaches a maximum height of 140 feet after 2.5 seconds.
-                To find when the ball hits the ground, we need to determine when the height is zero – when <m>f(t) = 0</m>.
+                To find when the ball hits the ground, we need to determine when the height is zero - when <m>f(t) = 0</m>.
                 While we could do this using the vertex form of the quadratic, we can also use the quadratic formula.
                 <m>f(t)=0</m> when <m>t=\dfrac{-80\pm \sqrt{80^{2}-4(-16)(40)}}{2(-16)}=\dfrac{-80\pm \sqrt{8960}}{-32}.</m>
             </p>

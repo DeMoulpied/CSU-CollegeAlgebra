@@ -71,7 +71,7 @@
         <p>
             If we were interested in how the gas prices had changed between 2002 and 2009, we could compute that the cost per gallon had increased from $1.47 to $2.14, an increase of $0.67.
             While this is interesting, it might be more useful to look at how much the price changed per year.
-            You are probably noticing that the price didn’t change the same amount each year, so we would be finding the average rate of change over a specified amount of time.
+            You are probably noticing that the price didn't change the same amount each year, so we would be finding the average rate of change over a specified amount of time.
         </p>
 
         <p>
@@ -85,7 +85,7 @@
             <statement>
                 <p>
                     A rate of change describes how the output quantity changes in relation to the input quantity.
-                    The units on a rate of change are “output units per input unit” or ”<m>\dfrac{\text{output units}}{\text{input unit}}</m>”.
+                    The units on a rate of change are "output units per input unit" or "<m>\dfrac{\text{output units}}{\text{input unit}}</m>".
                 </p>
             </statement>
         </definition>
@@ -409,7 +409,7 @@
         </example>
 
         <p>
-            Notice in the last example that we used open intervals (intervals that don’t include the endpoints) since the function is neither increasing nor decreasing at <m>t = 1, 3, \text{ or }4</m>.
+            Notice in the last example that we used open intervals (intervals that don't include the endpoints) since the function is neither increasing nor decreasing at <m>t = 1, 3, \text{ or }4</m>.
         </p>
     </subsection>
 

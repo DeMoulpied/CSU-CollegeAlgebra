@@ -105,13 +105,13 @@
             <solution>
                 <p>
                     We could combine the data provided with our own experiences and reason to approximate the domain and range of the function <m>h = f(c)</m>.
-                    For the domain, possible values for the input circumference <m>c</m>, it doesn’t make sense to have negative values, so <m>c>0</m>.
+                    For the domain, possible values for the input circumference <m>c</m>, it doesn't make sense to have negative values, so <m>c>0</m>.
                     We could make an educated guess at a maximum reasonable value, or look up that the maximum circumference measured is about 119 feet .
                     With this information, we would say a reasonable domain is <m>0&#x3C;c\leq119</m> feet.
                 </p>
 
                 <p>
-                    Similarly for the range, it doesn’t make sense to have negative heights, and the maximum height of a tree could be looked up to be 379 feet, so a reasonable range is <m>0&#x3C;h\leq379</m> feet.
+                    Similarly for the range, it doesn't make sense to have negative heights, and the maximum height of a tree could be looked up to be 379 feet, so a reasonable range is <m>0&#x3C;h\leq379</m> feet.
                 </p>
             </solution>
         </example>
@@ -159,8 +159,8 @@
                 </p>
 
                 <p>
-                    Since acceptable weights are 3.5 ounces or less, and negative weights don’t make sense, the domain would be <m>0&#x3C;w\leq3.5</m>.
-                    Technically 0 could be included in the domain, but logically it would mean we are mailing nothing, so it doesn’t hurt to leave it out.
+                    Since acceptable weights are 3.5 ounces or less, and negative weights don't make sense, the domain would be <m>0&#x3C;w\leq3.5</m>.
+                    Technically 0 could be included in the domain, but logically it would mean we are mailing nothing, so it doesn't hurt to leave it out.
                 </p>
 
                 <p>
@@ -211,18 +211,18 @@
 
         <p>
             When describing domains and ranges, we sometimes extend this into set-builder notation, which would look like this: <m>\{x|10\leq x&#x3C;30\}</m>.
-            The curly brackets {} are read as “the set of”, and the vertical bar | is read as “such that”, so altogether we would read <m>\{x|10\leq x&#x3C;30\}</m> as “the set of <m>x</m>-values such that 10 is less than or equal to <m>x</m> and <m>x</m> is less than 30.”
+            The curly brackets {} are read as "the set of", and the vertical bar | is read as "such that", so altogether we would read <m>\{x|10\leq x&#x3C;30\}</m> as "the set of <m>x</m>-values such that 10 is less than or equal to <m>x</m> and <m>x</m> is less than 30."
         </p>
 
         <p>
             When describing ranges in set-builder notation, we could similarly write something like <m>\{f(x)|0&#x3C;f(x)&#x3C;100\}</m>, or if the output had its own variable, we could use it.
             So for our tree height example above, we could write for the range <m>\{h|0&#x3C;h\leq 379\}</m>.
-            In set-builder notation, if a domain or range is not limited, we could write <m>\{t|t \text{ "is a real number"}\}</m>, or <m>\{t|t\in R\}</m>, read as “the set of <m>t</m>-values such that <m>t</m> is an element of the set of real numbers.
+            In set-builder notation, if a domain or range is not limited, we could write <m>\{t|t \text{ "is a real number"}\}</m>, or <m>\{t|t\in R\}</m>, read as "the set of <m>t</m>-values such that <m>t</m> is an element of the set of real numbers.
         </p>
 
         <p>
             A more compact alternative to set-builder notation is interval notation, in which intervals of values are referred to by the starting and ending values.
-            Curved parentheses are used for “strictly less than,” and square brackets are used for “less than or equal to.” Since infinity is not a number, we can’t include it in the interval, so we always use curved parentheses with <m>\infty</m> and <m>-\infty</m>.
+            Curved parentheses are used for "strictly less than," and square brackets are used for "less than or equal to." Since infinity is not a number, we can't include it in the interval, so we always use curved parentheses with <m>\infty</m> and <m>-\infty</m>.
             The table below will help you see how inequalities correspond to set-builder notation and interval notation:
         </p>
 
@@ -272,7 +272,7 @@
         </tabular>
 
         <p>
-            To combine two intervals together, using inequalities or set-builder notation we can use the word “or”.
+            To combine two intervals together, using inequalities or set-builder notation we can use the word "or".
             In interval notation, we use the union symbol, <m>\cup</m>, to combine two unconnected intervals together.
         </p>
 
@@ -290,7 +290,7 @@
         </statement>
         <solution>
                 <p>
-                    To describe the values, <m>x</m>, that lie in the intervals shown above we would say, “<m>x</m> is a real number greater than or equal to 1 and less than or equal to 3, or a real number greater than 5.”
+                    To describe the values, <m>x</m>, that lie in the intervals shown above we would say, "<m>x</m> is a real number greater than or equal to 1 and less than or equal to 3, or a real number greater than 5."
                 </p>
 
                 <p>
@@ -332,7 +332,7 @@
         </p>
 
         <p>
-            Be careful – if the graph continues beyond the window on which we can see the graph, the domain and range might be larger than the values we can see.
+            Be careful - if the graph continues beyond the window on which we can see the graph, the domain and range might be larger than the values we can see.
         </p>
 
         <example>
@@ -349,14 +349,14 @@
         </statement>
         <solution>
                 <p>
-                    In the graph above, the input quantity along the horizontal axis appears to be “year”, which we could notate with the variable <m>y</m>.
-                    The output is “thousands of barrels of oil per day”, which we might notate with the variable <m>b</m>, for barrels.
+                    In the graph above, the input quantity along the horizontal axis appears to be "year", which we could notate with the variable <m>y</m>.
+                    The output is "thousands of barrels of oil per day", which we might notate with the variable <m>b</m>, for barrels.
                     The graph would likely continue to the left and right beyond what is shown, but based on the portion of the graph that is shown to us, we can determine the domain is <m>1975\leq y\leq 2008</m>, and the range is approximately <m>180\leq b\leq 2010</m>.
                 </p>
 
                 <p>
                     In interval notation, the domain would be <m>[1975, 2008]</m> and the range would be about <m>[180, 2010]</m>.
-                    For the range, we have to approximate the smallest and largest outputs since they don’t fall exactly on the grid lines.
+                    For the range, we have to approximate the smallest and largest outputs since they don't fall exactly on the grid lines.
                 </p>
             </solution>
         </example>

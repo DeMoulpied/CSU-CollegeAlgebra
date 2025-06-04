@@ -436,7 +436,7 @@
                     By 2015, the population had grown to 180 deer.
                     If this population grows exponentially, find a formula for the function.
                     By defining our input variable to be <m>t</m>, years after 2009, the information listed can be written as two input-output pairs: <m>(0,80)</m> and <m>(6,180)</m>.
-                    Notice that by choosing our input variable to be measured as years after 2009, we have effectively “given” ourselves the initial value for the function: <m>a = 80</m>.
+                    Notice that by choosing our input variable to be measured as years after 2009, we have effectively "given" ourselves the initial value for the function: <m>a = 80</m>.
                     This gives us an equation of the form <m>f(t)=80b^{t}</m>.
                 </p>
 
@@ -865,11 +865,11 @@
         </p>
 
         <definition>
-            <title>Euler’s Number: <m>e</m> </title>
+            <title>Euler's Number: <m>e</m> </title>
 
             <statement>
                 <p>
-                    <m>e</m> is the letter used to represent the value that <m>(1+\dfrac{1}{k})^{k}</m> approaches as <m>k</m> gets big (as <m>k\to \infty)</m>. <m>e</m> is a constant, irrational number approximated as <m>e\approx 2.718282...</m> It is also called Euler’s Number after the 18th century mathematician Leonhard Euler.
+                    <m>e</m> is the letter used to represent the value that <m>(1+\dfrac{1}{k})^{k}</m> approaches as <m>k</m> gets big (as <m>k\to \infty)</m>. <m>e</m> is a constant, irrational number approximated as <m>e\approx 2.718282...</m> It is also called Euler's Number after the 18th century mathematician Leonhard Euler.
                 </p>
             </statement>
         </definition>
@@ -958,7 +958,7 @@
 
         <p>
             The continuous growth rate is like the nominal growth rate (or APR) - it reflects the growth rate before compounding takes effect.
-            This is different than the annual growth rate used in the formula <m>f(x)=a(1+r)^{x}</m>, which is like the annual percentage yield – it reflects the actual amount the output grows in a year.
+            This is different than the annual growth rate used in the formula <m>f(x)=a(1+r)^{x}</m>, which is like the annual percentage yield - it reflects the actual amount the output grows in a year.
         </p>
 
         <p>

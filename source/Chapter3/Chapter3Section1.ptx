@@ -143,7 +143,7 @@
     <p>
         To describe the behavior as numbers become larger and larger, we use the idea of infinity.
         The symbol for positive infinity is <m>\infty</m>, and <m>-\infty</m> for negative infinity.
-        When we say that “<m>x</m> approaches infinity”, which can be symbolically written as <m>x\rightarrow \infty</m>, we are describing a behavior.
+        When we say that "<m>x</m> approaches infinity", which can be symbolically written as <m>x\rightarrow \infty</m>, we are describing a behavior.
         We are saying that <m>x</m> is getting large in the positive direction.
     </p>
 
@@ -290,7 +290,7 @@
             </p>
 
             <p>
-                Because of the definition of the “leading” term we often rearrange polynomials so that the powers are descending.
+                Because of the definition of the "leading" term we often rearrange polynomials so that the powers are descending.
                 <m>f(x)=a_{n} x^{n}+.....+a_{2} x^{2}+a_{1} x+a_{0}</m>
             </p>
         </statement>

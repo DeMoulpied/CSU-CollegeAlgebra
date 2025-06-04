@@ -83,7 +83,7 @@
                 </objectives>
         <p>
             The natural world is full of relationships between quantities that change.
-            When we see these relationships, it is natural for us to ask, ”If I know one quantity, can I then determine the other?” This establishes the idea of an input quantity, or independent variable, and a corresponding output quantity, or dependent variable.
+            When we see these relationships, it is natural for us to ask, "If I know one quantity, can I then determine the other?" This establishes the idea of an input quantity, or independent variable, and a corresponding output quantity, or dependent variable.
             From this we get the notion of a functional relationship in which the output can be determined from the input.
         </p>
 
@@ -98,7 +98,7 @@
             <statement>
                 <p>
                     A rule for a relationship between an input, or independent, quantity and an output, or dependent, quantity in which each input value uniquely determines one output value.
-                    We say, “the output is a function of the input.”
+                    We say, "the output is a function of the input."
                 </p>
             </statement>
         </definition>
@@ -147,7 +147,7 @@
                 <p>
                     For any percentage earned, there would be a decimal grade associated, so we could say that the decimal grade is a function of percentage.
                     That is, if you input the percentage, your output would be a decimal grade.
-                    Percentage may or may not be a function of decimal grade, depending upon the teacher’s grading scheme.
+                    Percentage may or may not be a function of decimal grade, depending upon the teacher's grading scheme.
                     With some grading systems, there are a range of percentages that correspond to the same decimal grade.
                 </p>
             </solution>
@@ -171,7 +171,7 @@
         <exercise>
             <statement>
                 <p>
-                    Let’s consider bank account information.
+                    Let's consider bank account information.
                 </p>
 
                 <p>
@@ -202,15 +202,15 @@
         </p>
 
         <p>
-            Rather than write ”height is a function of age”, we could use the descriptive variable <m>h</m> to represent height and we could use the descriptive variable <m>a</m> to represent age.
+            Rather than write "height is a function of age", we could use the descriptive variable <m>h</m> to represent height and we could use the descriptive variable <m>a</m> to represent age.
         </p>
 
         <p>
-            “Height is a function of age”, then if we name the function <m>f</m> we can write
+            "Height is a function of age", then if we name the function <m>f</m> we can write
         </p>
 
         <p>
-            “<m>h</m> is <m>f</m> of <m>a</m>” or more simply
+            "<m>h</m> is <m>f</m> of <m>a</m>" or more simply
         </p>
 
         <p>
@@ -227,7 +227,7 @@
             <statement>
                 <p>
                     The notation <m>\text{output}= f(\text{input})</m> defines a function named <m>f</m>.
-                    This would be read “output is <m>f</m> of input”
+                    This would be read "output is <m>f</m> of input"
                 </p>
             </statement>
         </definition>
@@ -473,7 +473,7 @@
                 <p>
                     Only the first table is one-to-one; it is both a function, and each output corresponds to exactly one input.
                     Although table 2 is a function, because each input corresponds to exactly one output, each output does not correspond to exactly one input so this function is not one-to-one.
-                    Table 3 is not even a function and so we don’t even need to consider if it is a one-to-one function.
+                    Table 3 is not even a function and so we don't even need to consider if it is a one-to-one function.
                 </p>
             </solution>
         </example>
@@ -495,7 +495,7 @@
             When we work with functions, there are two typical things we do: evaluate and solve.
             Evaluating a function is what we do when we know an input, and use the function to determine the corresponding output.
             Evaluating will always produce one result, since each input of a function corresponds to exactly one output.
-            When we have a formula for the function we are evaluating, we always want to make sure we are performing operations in the correct order, commonly known as the “Order of Operations”.
+            When we have a formula for the function we are evaluating, we always want to make sure we are performing operations in the correct order, commonly known as the "Order of Operations".
             You have likely heard of or seen the order of operations in a previous class: Parenthesis, Exponents, Multiply, Divide, Addition, Subtraction.
             We also need to remember that sometimes these steps are nested within each other.
             For example, in the function <m>f(x)=2(5x-3)+9</m>, if I wanted to evaluate <m>f(3)</m>, I would need to first simplify the terms inside of the parenthesis, and I would need to follow proper order of operations INSIDE of the parenthesis.
@@ -505,7 +505,7 @@
         <p>
             Solving equations involving a function is what we do when we know an output and use the function to determine the inputs that would produce that output.
             Solving a function could produce more than one solution, since different inputs can produce the same output.
-            Since solving an equation is the “opposite” of evaluating an equation, it can be helpful to think of using the “opposite” order of operations.
+            Since solving an equation is the "opposite" of evaluating an equation, it can be helpful to think of using the "opposite" order of operations.
             For example, using our function <m>f(x)=2(5x-3)+9</m> from above, if we wanted to solve <m>f(x)=23</m>, we would need to find the value of <m>x</m> that makes the equation <m>23=2(5x-3)+9</m> true.
             Since our goal is to get <m>x</m> by itself, we can follow the reverse order of operations to isolate <m>x</m>.
             First, we subtract the 9 to get <m>14=2(5x-3)</m>, then divide both sides of the equation by 2 to get <m>7=5x-3</m>.
@@ -547,7 +547,7 @@
                 </p>
 
                 <p>
-                    Evaluating <m>g(3)</m> (read: “<m>g</m> of 3”) means that we need to determine the output value, <m>Q</m>, of the function <m>g</m> given the input value of <m>n=3</m>.
+                    Evaluating <m>g(3)</m> (read: "<m>g</m> of 3") means that we need to determine the output value, <m>Q</m>, of the function <m>g</m> given the input value of <m>n=3</m>.
                     Looking at the table, we see the output corresponding to <m>n=3</m> is <m>Q=7</m>, allowing us to conclude <m>g(3) = 7</m>.
                 </p>
 
@@ -842,7 +842,7 @@
             </statement>
             <solution>
                 <p>
-                    a) “Evaluate <m>k(2)</m>” means we want to find the output when the input is <m>t = 2</m>.
+                    a) "Evaluate <m>k(2)</m>" means we want to find the output when the input is <m>t = 2</m>.
                     We plug in the input value 2 into the formula wherever we see the input variable <m>t</m>, then simplify
                     <me>
                         k(2)=2^{3}+2
@@ -856,7 +856,7 @@
                 </p>
 
                 <p>
-                    b) “Solve <m>k(t) = 1</m>” means we want to find the input <m>t</m> that will give us an output of 1.
+                    b) "Solve <m>k(t) = 1</m>" means we want to find the input <m>t</m> that will give us an output of 1.
                     We set the formula for <m>k(t)</m> equal to 1, and solve for the input.
                     Starting with the given information:
                     <me>
@@ -950,11 +950,11 @@
         <title>Basic Toolkit Functions</title>
 
         <p>
-            In this text, we will be exploring functions – the shapes of their graphs, their unique features, their equations, and how to solve problems with them.
+            In this text, we will be exploring functions - the shapes of their graphs, their unique features, their equations, and how to solve problems with them.
             When learning to read, we start with the alphabet.
             When learning to do arithmetic, we start with numbers.
             When working with functions, it is similarly helpful to have a base set of elements to build from.
-            We call these our ”toolkit of functions” – a set of basic named functions for which we know the graph, equation, and special features.
+            We call these our "toolkit of functions" - a set of basic named functions for which we know the graph, equation, and special features.
         </p>
 
         <p>
@@ -1173,7 +1173,7 @@
 
                         <li>
                             <p>
-                                Yes it’s a function; No, it’s not one-to-one (several percents give the same letter grade)
+                                Yes it's a function; No, it's not one-to-one (several percents give the same letter grade)
                             </p>
                         </li>
 

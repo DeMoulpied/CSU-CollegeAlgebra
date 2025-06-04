@@ -44,7 +44,7 @@
             A fashion designer is traveling to Milan for a fashion show.
             He asks his assistant, Betty, what 75 degrees Fahrenheit is in Celsius, and after a quick search on Google, she finds the formula <m>C=\frac{5}{9}(F-32)</m>.
             Using this formula, she calculates <m>\frac{5}{9}(75-32)\approx 24</m> degrees Celsius.
-            The next day, the designer sends his assistant the week’s weather forecast for Milan and asks her to convert the temperatures to Fahrenheit.
+            The next day, the designer sends his assistant the week's weather forecast for Milan and asks her to convert the temperatures to Fahrenheit.
         </p>
 
                 <image source="C1S7Image1.png">
@@ -78,7 +78,7 @@
             <statement>
                 <p>
                     If <m>f(a)=b</m>, then a function <m>g</m> is an inverse of <m>f</m> if <m>g(b)=a</m>.
-                    The inverse of a function <m>f</m> is typically notated <m>f^{-1}</m>, which is read “f inverse”, so equivalently, if <m>f(a)=b</m> then <m>f^{-1}(b)=a</m>.
+                    The inverse of a function <m>f</m> is typically notated <m>f^{-1}</m>, which is read "f inverse", so equivalently, if <m>f(a)=b</m> then <m>f^{-1}(b)=a</m>.
                 </p>
             </statement>
         </definition>
@@ -92,7 +92,8 @@
                 <p>
                     If for a particular function, <m>f(2)=4</m>, what do we know about the inverse?
                 </p>
-
+            </statement>
+            <solution>
                 <p>
                     The inverse function reverses which quantity is input and which quantity is output, so if <m>f(2)=4</m>, then <m>f^{-1}(4)=2</m>.
                 </p>
@@ -100,7 +101,7 @@
                 <p>
                     Alternatively, if you want to re-name the inverse function <m>g</m>, then <m>g(4) = 2</m>.
                 </p>
-            </statement>
+            </solution>
         </example>
 
         <exercise>
@@ -133,8 +134,8 @@
 
         <p>
             Basically, like how the input and output values switch, the domain and ranges switch as well.
-            But be careful, because sometimes a function doesn’t even have an inverse function, or only has an inverse on a limited domain.
-            For example, the inverse of <m>f(x)=\sqrt{x}</m> is <m>f^{-1}(x)=x^{2}</m>, since a square “undoes” a square root, but it is only the inverse of <m>f(x)</m> on the domain <m>[0,\infty)</m>, since that is the range of <m>f(x)=\sqrt{x}</m>.
+            But be careful, because sometimes a function doesn't even have an inverse function, or only has an inverse on a limited domain.
+            For example, the inverse of <m>f(x)=\sqrt{x}</m> is <m>f^{-1}(x)=x^{2}</m>, since a square "undoes" a square root, but it is only the inverse of <m>f(x)</m> on the domain <m>[0,\infty)</m>, since that is the range of <m>f(x)=\sqrt{x}</m>.
         </p>
 
         <example>
@@ -142,11 +143,12 @@
                 <p>
                     The function <m>f(x)=2^{x}</m> has domain <m>(-\infty,\infty)</m> and range <m>(0,\infty)</m>, what would we expect the domain and range of <m>f^{-1}</m> to be?
                 </p>
-
+            </statement>
+            <solution>
                 <p>
                     We would expect <m>f^{-1}</m> to swap the domain and range of <m>f</m>, so <m>f^{-1}</m> would have domain <m>(0,\infty)</m> and range <m>(-\infty,\infty)</m>.
                 </p>
-            </statement>
+            </solution>
         </example>
 
         <example>
@@ -174,7 +176,8 @@
                         <cell>70</cell>
                     </row>
                 </tabular>
-
+            </statement>
+            <solution>
                 <p>
                     The inverse function takes an output of <m>f</m> and returns an input for <m>f</m>.
                     So, in the expression <m>f^{-1}(70)</m>, the 70 is an output value of the original function, representing 70 miles.
@@ -187,7 +190,7 @@
                     By this definition, if you are given <m>f^{-1}(70)=a</m> then you are looking for a value <m>a</m> so that <m>f(a)=70</m>.
                     In this case, we are looking for a <m>t</m> so that <m>f(t)=70</m>, which is when <m>t = 90</m>.
                 </p>
-            </statement>
+            </solution>
         </example>
 
         <exercise>
@@ -249,14 +252,15 @@
                 </shortdescription>
             </image>
             </figure>
-
+        </statement>
+        <solution>
                 <p>
                     To evaluate <m>g(3)</m>, we find 3 on the horizontal axis and find the corresponding output value on the vertical axis.
                     The point <m>(3, 1)</m> tells us that <m>g(3)=1</m>.
                     To evaluate <m>g^{-1}(3)</m>, recall that by definition <m>g^{-1}(3)</m> means <m>g(x) = 3</m>.
                     By looking for the output value 3 on the vertical axis we find the point <m>(5, 3)</m> on the graph, which means <m>g(5) = 3</m>, so by definition, <m>g^{-1}(3)=5</m>.
                 </p>
-            </statement>
+            </solution>
         </example>
 
         <exercise>
@@ -283,9 +287,10 @@
         <example>
             <statement>
                 <p>
-                    Returning to our designer’s assistant, find a formula for the inverse function that gives Fahrenheit temperature given a Celsius temperature.
+                    Returning to our designer's assistant, find a formula for the inverse function that gives Fahrenheit temperature given a Celsius temperature.
                 </p>
-
+            </statement>
+            <solution>
                 <p>
                     A quick Google search would find the inverse function, but alternatively, Betty might look back at how she solved for the Fahrenheit temperature for a specific Celsius value, and repeat the process in general.
                     <m>C=\frac{5}{9}(F-32)</m>,
@@ -310,7 +315,7 @@
                         F=h^{-1}(C)=\frac{9}{5}C+32
                     </me>
                 </p>
-            </statement>
+            </solution>
         </example>
 
         <p>
@@ -382,7 +387,7 @@
 
                                     <li>
                                         <p>
-                                            <m>g^{-1}(4)=5.5</m> (this is an approximation – answers may vary slightly
+                                            <m>g^{-1}(4)=5.5</m> (this is an approximation - answers may vary slightly
                                         </p>
                                     </li>
                                 </ol>

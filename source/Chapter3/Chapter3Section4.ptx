@@ -86,7 +86,7 @@
         </p>
 
         <p>
-            This particular example is one of an inversely proportional relationship – where one quantity is a constant divided by the other quantity, like <m>y=\dfrac{5}{x}</m>.
+            This particular example is one of an inversely proportional relationship - where one quantity is a constant divided by the other quantity, like <m>y=\dfrac{5}{x}</m>.
             Notice that this is a transformation of the reciprocal toolkit function, <m>f(x)=\dfrac{1}{x}</m>.
         </p>
 
@@ -371,8 +371,8 @@
 
         <p>
             To find horizontal asymptotes, we are interested in the behavior of the function as the input grows large, so we consider long run behavior of the numerator and denominator separately.
-            Recall that a polynomial’s long run behavior will mirror that of the leading term.
-            Likewise, a rational function’s long run behavior will mirror that of the ratio of the leading terms of the numerator and denominator functions.
+            Recall that a polynomial's long run behavior will mirror that of the leading term.
+            Likewise, a rational function's long run behavior will mirror that of the ratio of the leading terms of the numerator and denominator functions.
         </p>
 
         <p>
@@ -568,7 +568,7 @@
         </p>
 
         <p>
-            At the horizontal intercept <m>x = 3</m> corresponding to the <m>x-3</m> factor of the numerator, the graph passes through the axis as we’d expect from a linear factor.
+            At the horizontal intercept <m>x = 3</m> corresponding to the <m>x-3</m> factor of the numerator, the graph passes through the axis as we'd expect from a linear factor.
             At the vertical asymptote <m>x = -3</m> corresponding to the <m>(x+3)^{2}</m> factor of the denominator, the graph heads towards positive infinity on both sides of the asymptote, consistent with the behavior of the <m>\dfrac{1}{x^2}</m> toolkit function.
             At the vertical asymptote <m>x = 2</m> corresponding to the <m>x-2</m> factor of the denominator, the graph heads towards positive infinity on the left side of the asymptote and towards negative infinity on the right side, consistent with the behavior of the <m>\dfrac{1}{x}</m> toolkit function.
         </p>

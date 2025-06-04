@@ -86,7 +86,7 @@
         <p>
             Reading the problem, we identify two important values.
             The first, $3500, is the initial value for <m>M</m>.
-            The other value appears to be a rate of change – the units of dollars per week match the units of our output variable divided by our input variable.
+            The other value appears to be a rate of change - the units of dollars per week match the units of our output variable divided by our input variable.
             She is spending money each week, so you should recognize that the amount of money remaining is decreasing each week and the slope is negative.
             To answer the first question, looking for the horizontal intercept, it would be helpful to have an equation modeling this scenario.
             Using the intercept and slope provided in the problem, we can create the function: <m>f(t)=M</m>, <m>f(t)=3500-400t</m>.
@@ -108,9 +108,9 @@
         </p>
 
         <p>
-            When modeling any real life scenario with functions, there is typically a limited domain over which that model will be valid – almost no trend continues indefinitely.
-            In this case, it certainly doesn’t make sense to talk about input values less than zero.
-            It is also likely that this model is not valid after the horizontal intercept (unless Emily’s going to start using a credit card and go into debt).
+            When modeling any real life scenario with functions, there is typically a limited domain over which that model will be valid - almost no trend continues indefinitely.
+            In this case, it certainly doesn't make sense to talk about input values less than zero.
+            It is also likely that this model is not valid after the horizontal intercept (unless Emily's going to start using a credit card and go into debt).
         </p>
 
         <p>
@@ -170,7 +170,7 @@
         </p>
 
         <p>
-            Looking to what we’re trying to find, we want to know when U-Haul will be the better choice.
+            Looking to what we're trying to find, we want to know when U-Haul will be the better choice.
             Since all we have to make that decision from is the costs, we are looking for when U-Haul will cost less, or when <m>Y(m)&#x3C;B(m)</m>.
             The solution pathway will lead us to find the equations for the two functions, find the intersection, then look to see where the <m>Y(m)</m> function is smaller.
             Using the rates of change and initial charges, we can write the equations:
@@ -218,7 +218,7 @@
 <example>
     <statement>
         <p>
-            A town’s population has been growing linearly.
+            A town's population has been growing linearly.
             In 2004 the population was 6,200.
             By 2009 the population had grown to 8,100.
             If this trend continues,
@@ -239,13 +239,13 @@
 
         <p>
             The two changing quantities are the population and time.
-            While we could use the actual year value as the input quantity, doing so tends to lead to very ugly equations, since the vertical intercept would correspond to the year 0, more than 2000 years ago! To make things a little nicer, and to make our lives easier too, we will define our input as years since 2004: Input: <m>t</m>, years since 2004 Output: <m>f(t)</m>, the town’s population
+            While we could use the actual year value as the input quantity, doing so tends to lead to very ugly equations, since the vertical intercept would correspond to the year 0, more than 2000 years ago! To make things a little nicer, and to make our lives easier too, we will define our input as years since 2004: Input: <m>t</m>, years since 2004 Output: <m>f(t)</m>, the town's population
         </p>
 
         <p>
             The problem gives us two input-output pairs.
             Converting them to match our defined variables, the year 2004 would correspond to <m>t = 0</m>, giving the point <m>(0, 6200)</m>.
-            Notice that through our clever choice of variable definition, we have “given” ourselves the vertical intercept of the function.
+            Notice that through our clever choice of variable definition, we have "given" ourselves the vertical intercept of the function.
             The year 2009 would correspond to <m>t = 5</m>, giving the point <m>(5, 8100)</m>.
         </p>
 

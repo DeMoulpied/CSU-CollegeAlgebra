@@ -78,7 +78,7 @@
             <statement>
                 <p>
                     When the output of one function is used as the input of another, we call the entire operation a composition of functions.
-                    We write <m>f(g(x))</m> and read this as “<m>f</m> of <m>g</m> of <m>x</m>” or “<m>f</m> composed with <m>g</m> at <m>x</m>”.
+                    We write <m>f(g(x))</m> and read this as "<m>f</m> of <m>g</m> of <m>x</m>" or "<m>f</m> composed with <m>g</m> at <m>x</m>".
                 </p>
 
                 <p>
@@ -86,7 +86,7 @@
                 </p>
 
                 <p>
-                    <m>f\circ g(x)</m> is read “<m>f</m> of <m>g</m> of <m>x</m>” or “<m>f</m> composed with <m>g</m> at <m>x</m>”, just like <m>f(g(x))</m>. We could refer to the name of this new function as <m>f\circ g</m>.
+                    <m>f\circ g(x)</m> is read "<m>f</m> of <m>g</m> of <m>x</m>" or "<m>f</m> composed with <m>g</m> at <m>x</m>", just like <m>f(g(x))</m>. We could refer to the name of this new function as <m>f\circ g</m>.
                 </p>
             </statement>
         </definition>
@@ -424,7 +424,7 @@
                 </p>
 
                 <p>
-                    Use the “FOIL” technique (first, outside, inside, last)
+                    Use the "FOIL" technique (first, outside, inside, last)
                 </p>
 
                 <p>
@@ -544,7 +544,7 @@
         <example>
             <statement>
                 <p>
-                    A city manager determines that the tax revenue, <m>R</m>, in millions of dollars collected on a population of <m>p</m> thousand people is given by the formula <m>f(p)=0.03p+\sqrt{p}</m>, and that the city’s population, in thousands, is predicted to follow the formula <m>g(t)=60+2t+0.3t^{2}</m>, where <m>t</m> is measured in years after 2010.
+                    A city manager determines that the tax revenue, <m>R</m>, in millions of dollars collected on a population of <m>p</m> thousand people is given by the formula <m>f(p)=0.03p+\sqrt{p}</m>, and that the city's population, in thousands, is predicted to follow the formula <m>g(t)=60+2t+0.3t^{2}</m>, where <m>t</m> is measured in years after 2010.
                     Find a formula for the tax revenue as a function of the year.
                 </p>
             </statement>
@@ -600,7 +600,7 @@
                 <p>
                     The composition is <m>f(g(x))=\dfrac{1}{(\sqrt{x-2})^2-1}=\dfrac{1}{(x-2)-1}=\dfrac{1}{x-3}</m>.
                     The composition is undefined when <m>x = 3</m>, so that value must also be excluded from the domain.
-                    Notice that the composition doesn’t involve a square root, but we still have to consider the domain limitation from the inside function.
+                    Notice that the composition doesn't involve a square root, but we still have to consider the domain limitation from the inside function.
                     Combining the two restrictions, the domain is all values of <m>x</m> greater than or equal to 2, except <m>x = 3</m>.
                 </p>
 
@@ -626,7 +626,7 @@
         <title>Decomposing Functions</title>
 
         <p>
-            In some cases, it is desirable to decompose a function – to write it as a composition of two simpler functions.
+            In some cases, it is desirable to decompose a function - to write it as a composition of two simpler functions.
         </p>
 
         <example>
