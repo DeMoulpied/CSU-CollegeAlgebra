@@ -1,13 +1,14 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<section>
+    <title>Graphs of Exponential Functions</title>
 
-<section xml:id="Chapter4Section3" xmlns:xi="http://www.w3.org/2001/XInclude">
-  <title>Logarithmic Functions</title>
-
-      <subsection>
+    <subsection>
         <title>Introduction</title>
 
-        <objectives>
+        <definition>
             <title>Important Topics of this Section</title>
+
+            <statement>
+                <p>
                     <ul>
                         <li>
                             <p>
@@ -70,7 +71,9 @@
                             </p>
                         </li>
                     </ul>
-          </objectives>
+                </p>
+            </statement>
+        </definition>
 
         <p>
             A population of 50 flies is expected to double every week, leading to a function of the form <m>f(x)=50(2)^{x}</m>, where <m>x</m> represents the number of weeks that have passed.
@@ -87,9 +90,6 @@
         </p>
 
         <image source="C4S3Image1.png">
-        <shortdescription>
-            Two graphs on the same axes. An increasing function curving upwards, passing through 1 comma 2, 2 comma 4 and 3 comma 8.  And a dashed horizontal line at y=10.
-        </shortdescription>
         </image>
 
         <p>
@@ -98,15 +98,13 @@
             None of the functions we have already discussed would serve as an inverse function and so we must introduce a new function, named <m>\log</m> as the inverse of an exponential function.
             Since exponential functions have different bases, we will define corresponding logarithms of different bases as well.
         </p>
-      </subsection>
-      <subsection>
-        <title>Logarithmic Functions</title>
+
         <definition>
             <title>Logarithm</title>
 
             <statement>
                 <p>
-                    The logarithm (base <m>b</m>) function, written <m>x=\log_{b}(y)</m>, is the inverse of the exponential function (also base <m>b</m>), <m>b^{x}=y</m>.
+                    The logarithm (base <m>b</m>) function, written <m>x=\log_{b}⁡(y)</m>, is the inverse of the exponential function (also base <m>b</m>), <m>b^{x}=y</m>.
                     In other words, the logarithm calculates the exponent needed on <m>b</m> in order to achieve the output of <m>y</m>.
                 </p>
             </statement>
@@ -157,8 +155,8 @@
         <p>
             Alternatively, we could show this by starting with the exponential function <m>c=b^{a}</m>.
             Since these expressions are equal, it must be true that we should get the same output when we input these terms into the function <m>\log_{b}</m>.
-            That is, <m>\log_{b}(c)=\log_{b}(b^{a})</m>.
-            Using the inverse property of logarithms, we see that <m>\log_{b}(c)=a</m>.
+            That is, <m>\log_{b}⁡(c)=\log_{b}⁡(b^{a})</m>.
+            Using the inverse property of logarithms, we see that <m>\log_{b}⁡(c)=a</m>.
         </p>
 
         <example>
@@ -188,19 +186,19 @@
                     <ul>
                         <li>
                             <p>
-                                <m>2^{3}=8</m> is equivalent to <m>\log_{2}(8)=3</m>
+                                <m>2^{3}=8</m> is equivalent to <m>\log_{2}⁡(8)=3</m>
                             </p>
                         </li>
 
                         <li>
                             <p>
-                                <m>5^{2}=25</m> is equivalent to <m>\log_{5}(25)=2</m>
+                                <m>5^{2}=25</m> is equivalent to <m>\log_{5}⁡(25)=2</m>
                             </p>
                         </li>
 
                         <li>
                             <p>
-                                <m>10^{-4}=\dfrac{1}{10000}</m> is equivalent to <m>\log_{10}(\dfrac{1}{10000})=-4</m>
+                                <m>10^{-4}=\dfrac{1}{10000}</m> is equivalent to <m>\log_{10}⁡(\dfrac{1}{10000})=-4</m>
                             </p>
                         </li>
                     </ul>
@@ -215,13 +213,13 @@
                     <ul>
                         <li>
                             <p>
-                                <m>log_{6}(\sqrt{6})=\dfrac{1}{2}</m>
+                                <m>log_{6}⁡(\sqrt{6})=\dfrac{1}{2}</m>
                             </p>
                         </li>
 
                         <li>
                             <p>
-                                <m>log_{3}(9)=2</m>
+                                <m>log_{3}⁡(9)=2</m>
                             </p>
                         </li>
                     </ul>
@@ -231,13 +229,13 @@
                     <ul>
                         <li>
                             <p>
-                                <m>\log_{6}(\sqrt{6})=\dfrac{1}{2}</m> is equivalent to <m>6^{\frac{1}{2}}=\sqrt{6}</m>
+                                <m>\log_{6}⁡(\sqrt{6})=\dfrac{1}{2}</m> is equivalent to <m>6^{\frac{1}{2}}=\sqrt{6}</m>
                             </p>
                         </li>
 
                         <li>
                             <p>
-                                <m>\log_{3}(9)=2</m> is equivalent to <m>3^{2}=9</m>
+                                <m>\log_{3}⁡(9)=2</m> is equivalent to <m>3^{2}=9</m>
                             </p>
                         </li>
                     </ul>
@@ -260,7 +258,7 @@
         <example>
             <statement>
                 <p>
-                    Solve <m>\log_{4}(x)=2</m> for <m>x</m>.
+                    Solve <m>\log_{4}⁡(x)=2</m> for <m>x</m>.
                 </p>
 
                 <p>
@@ -276,7 +274,7 @@
                 </p>
 
                 <p>
-                    By rewriting this expression as a logarithm, we get <m>x=\log_{2}(10)</m>.
+                    By rewriting this expression as a logarithm, we get <m>x=\log_{2}⁡(10)</m>.
                 </p>
             </statement>
         </example>
@@ -295,11 +293,11 @@
 
             <statement>
                 <p>
-                    The common log is the logarithm with base 10, and is typically written <m>\log(x)</m>.
+                    The common log is the logarithm with base 10, and is typically written <m>\log⁡(x)</m>.
                 </p>
 
                 <p>
-                    The natural log is the logarithm with base <m>e</m>, and is typically written <m>\ln(x)</m>.
+                    The natural log is the logarithm with base <m>e</m>, and is typically written <m>\ln⁡(x)</m>.
                 </p>
             </statement>
         </definition>
@@ -307,11 +305,11 @@
         <example>
             <statement>
                 <p>
-                    Evaluate <m>\log(1000)</m> using the definition of the common log.
+                    Evaluate <m>\log⁡(1000)</m> using the definition of the common log.
                 </p>
 
                 <p>
-                    To evaluate <m>\log(1000)</m>, we can let <m>x=\log(1000)</m>, then rewrite into exponential form using the common log base of 10: <m>10^{x}=1000</m>.
+                    To evaluate <m>\log⁡(1000)</m>, we can let <m>x=\log⁡(1000)</m>, then rewrite into exponential form using the common log base of 10: <m>10^{x}=1000</m>.
                 </p>
 
                 <p>
@@ -319,7 +317,7 @@
                 </p>
 
                 <p>
-                    We also can use the inverse property of logarithms to write <m>\log_{10}(10^{3} )=3</m>.
+                    We also can use the inverse property of logarithms to write <m>\log_{10}⁡(10^{3} )=3</m>.
                 </p>
             </statement>
         </example>
@@ -327,7 +325,7 @@
         <exercise>
             <statement>
                 <p>
-                    Evaluate <m>\log(1000000)</m>.
+                    Evaluate <m>\log⁡(1000000)</m>.
                 </p>
             </statement>
         </exercise>
@@ -335,12 +333,12 @@
         <example>
             <statement>
                 <p>
-                    Evaluate <m>\ln(\sqrt{e})</m>.
+                    Evaluate <m>\ln⁡(\sqrt{e})</m>.
                 </p>
 
                 <p>
-                    We can rewrite <m>\ln(\sqrt{e})</m> as <m>\ln(e^{\frac{1}{2}})</m>.
-                    Since <m>\ln</m> is a logarithm with base <m>e</m>, we can use the inverse property for logs: <m>\ln(e^{\frac{1}{2}})=\log_{e}(e^{\frac{1}{2}})=\dfrac{1}{2}</m>.
+                    We can rewrite <m>\ln⁡(\sqrt{e})</m> as <m>\ln⁡(e^{\frac{1}{2}})</m>.
+                    Since <m>\ln</m> is a logarithm with base <m>e</m>, we can use the inverse property for logs: <m>\ln⁡(e^{\frac{1}{2}})=\log_{e}⁡(e^{\frac{1}{2}})=\dfrac{1}{2}</m>.
                 </p>
             </statement>
         </example>
@@ -352,13 +350,13 @@
                 </p>
 
                 <p>
-                    Using a computer, we can evaluate <m>\log( 500)\approx 2.69897</m>.
+                    Using a computer, we can evaluate <m>\log⁡( 500)\approx 2.69897</m>.
                 </p>
             </statement>
         </example>
 
         <p>
-            To utilize the common or natural logarithm functions to evaluate expressions like <m>\log_{2}(10)</m>, we need to establish some additional properties.
+            To utilize the common or natural logarithm functions to evaluate expressions like <m>\log_{2}⁡(10)</m>, we need to establish some additional properties.
         </p>
 
         <definition>
@@ -366,27 +364,27 @@
 
             <statement>
                 <p>
-                    <m>\log_{b}(A^{r})=r\log_{b}(A)</m>
+                    <m>\log_{b}⁡(A^{r})=r\log_{b}⁡(A)</m>
                 </p>
             </statement>
         </definition>
 
         <p>
-            To show why this is true, we offer a proof: Since the logarithmic and exponential functions are inverses, <m>b^{\log_b(A)}=A</m>.
-            Raising both sides to the <m>r</m> power, we get <m>A^{r}=(b^{\log_b(A)})^{r}</m>.
-            Utilizing the exponential rule that states <m>(x^{p} )^{q}=x^{pq}</m>, <m>A^{r}=b^{r\log_b(A) }</m>.
-            Taking the log of both sides, <m>\log_{b}⁡(A^{r})=\log_{b}⁡(b^{r\log_b(A)})</m>.
-            Utilizing the inverse property on the right side yields the result: <m>\log_{b}⁡(A^{r})=r\log_{b}(A)</m>.
+            To show why this is true, we offer a proof: Since the logarithmic and exponential functions are inverses, <m>b^{\log_b(⁡A)}=A</m>.
+            Raising both sides to the <m>r</m> power, we get <m>A^{r}=(b^{\log_b(⁡A)})^{r}</m>.
+            Utilizing the exponential rule that states <m>(x^{p} )^{q}=x^{pq}</m>, <m>A^{r}=b^{r\log_b(⁡A) }</m>.
+            Taking the log of both sides, <m>\log_{b}⁡(A^{r})=\log_{b}⁡(b^{r\log_b(⁡A)})</m>.
+            Utilizing the inverse property on the right side yields the result: <m>\log_{b}⁡(A^{r})=r\log_{b}(⁡A)</m>.
         </p>
 
         <example>
             <statement>
                 <p>
-                    Rewrite <m>\log_{3}(25)</m> using the exponent property for logs.
+                    Rewrite <m>\log_{3}⁡(25)</m> using the exponent property for logs.
                 </p>
 
                 <p>
-                    Since <m>25 = 52</m>, <m>\log_{3}(25)=\log_{3}(5^{2})=2\log_{3}(5)</m>.
+                    Since <m>25 = 52</m>, <m>\log_{3}⁡(25)=\log_{3}⁡(5^{2})=2\log_{3}⁡(5)</m>.
                 </p>
             </statement>
         </example>
@@ -394,11 +392,11 @@
         <example>
             <statement>
                 <p>
-                    Rewrite <m>4\ln(x)</m> using the exponent property for logs.
+                    Rewrite <m>4\ln⁡(x)</m> using the exponent property for logs.
                 </p>
 
                 <p>
-                    Using the property in reverse, <m>4\ln(x)=\ln(x^{4})</m>.
+                    Using the property in reverse, <m>4\ln⁡(x)=\ln⁡(x^{4})</m>.
                 </p>
             </statement>
         </example>
@@ -406,7 +404,7 @@
         <exercise>
             <statement>
                 <p>
-                    Rewrite using the exponent property for logs: <m>\ln(\dfrac{1}{x^2})</m>.
+                    Rewrite using the exponent property for logs: <m>\ln⁡(\dfrac{1}{x^2})</m>.
                 </p>
             </statement>
         </exercise>
@@ -420,18 +418,18 @@
 
             <statement>
                 <p>
-                    <m>\log_{b}(A)=\dfrac{\log_c( A)}{\log_c(b)}</m>
+                    <m>\log_{b}⁡(A)=\dfrac{\log_c⁡( A)}{\log_c⁡(b)}</m>
                 </p>
             </statement>
         </definition>
 
         <p>
-            As a proof of this property: Let <m>\log_{b}(A)=x</m>.
+            As a proof of this property: Let <m>\log_{b}⁡(A)=x</m>.
             Rewriting this as an exponential gives <m>b^{x}=A</m>.
-            Taking the log base <m>c</m> of both sides of this equation gives <m>\log_{c}(b^{x})=\log_{c}(A)</m>.
-            Now utilizing the exponent property for logs on the left side, <m>x\log_{c}(b)=\log_{c}(A)</m>.
-            Dividing both sides by <m>\log_{c}(b)</m>, we obtain <m>x=\dfrac{\log_c(A)}{\log_c(b)}</m>.
-            Replacing our original expression for <m>x</m>, <m>\log_{b}(A)=\dfrac{\log_c(A) }{\log_c(b)}</m>.
+            Taking the log base <m>c</m> of both sides of this equation gives <m>\log_{c}⁡(b^{x})=\log_{c}(⁡A)</m>.
+            Now utilizing the exponent property for logs on the left side, <m>x\log_{c}⁡(b)=\log_{c}(⁡A)</m>.
+            Dividing both sides by <m>\log_{c}(b)</m>, we obtain <m>x=\dfrac{\log_c(⁡A)}{\log_c(⁡b)}</m>.
+            Replacing our original expression for <m>x</m>, <m>\log_{b}(⁡A)=\dfrac{\log_c(⁡A) }{\log_c(⁡b)}</m>.
         </p>
 
         <p>
@@ -441,16 +439,16 @@
         <example>
             <statement>
                 <p>
-                    Evaluate <m>\log_{2}(10)</m> using the change of base formula.
+                    Evaluate <m>\log_{2}⁡(10)</m> using the change of base formula.
                 </p>
 
                 <p>
                     According to the change of base formula, we can rewrite the function <m>\log_{2}</m> as a ratio of logarithms of any other base.
-                    Since our calculators can evaluate the natural log, we might choose to use the natural logarithm, which is the log base <m>e</m>:<m>\log_{2}(10)=\dfrac{\ln(10)}{\ln(2)}</m>
+                    Since our calculators can evaluate the natural log, we might choose to use the natural logarithm, which is the log base <m>e</m>:<m>\log_{2}(⁡10)=\dfrac{\ln⁡(10)}{\ln(⁡2)}</m>
                 </p>
 
                 <p>
-                    Using a calculator to evaluate this, we find <m>\dfrac{\ln(10)}{ln(2)}\approx \dfrac{2.30259}{0.69315}\approx 3.3219</m>.
+                    Using a calculator to evaluate this, we find <m>\dfrac{\ln(⁡10)}{ln(⁡2)}\approx \dfrac{2.30259}{0.69315}\approx 3.3219</m>.
                 </p>
 
                 <p>
@@ -462,13 +460,13 @@
         <example>
             <statement>
                 <p>
-                    Evaluate <m>\log_{5}(100)</m> using the change of base formula.
+                    Evaluate <m>\log_{5}⁡(100)</m> using the change of base formula.
                 </p>
 
                 <p>
                     We can rewrite this expression using any other base.
                     If our calculators are able to evaluate the common logarithm, we could rewrite using the common log, base 10.
-                    <m>\log_{5}(100)=\dfrac{\log_{10}(100)}{\log_{10}(5)}\approx 2/0.69897\approx 2.861</m>.
+                    <m>\log_{5}⁡(100)=\dfrac{\log_{10}⁡(100)}{\log_{10}(⁡5)}\approx 2/0.69897\approx 2.861</m>.
                 </p>
             </statement>
         </example>
@@ -520,9 +518,9 @@
                 <p>
                     Using this alternative approach, rather than rewrite this exponential into logarithmic form, we will take the logarithm of both sides of the equation.
                     Since we often wish to evaluate the result to a decimal answer, we will usually utilize either the common log or natural log.
-                    For this example, we'll use the natural log: <m>\ln(2^{x})=\ln(10)</m>.
-                    Utilizing the exponent property for logs, <m>x\ln(2)=\ln( 10)</m>.
-                    Now dividing by <m>\ln(2)</m>, <m>x=\dfrac{\ln(10)}{\ln(2)}\approx 3.3219</m>.
+                    For this example, we’ll use the natural log: <m>\ln⁡(2^{x})=\ln⁡(10)</m>.
+                    Utilizing the exponent property for logs, <m>x\ln⁡(2)=\ln⁡( 10)</m>.
+                    Now dividing by <m>\ln(2)</m>, <m>x=\dfrac{\ln⁡(10)}{\ln⁡(2)}\approx 3.3219</m>.
                 </p>
 
                 <p>
@@ -542,9 +540,9 @@
                     We need to solve for time <m>t</m> so that <m>f(t) = 2</m>.
                     This gives us the equation <m>2=1.14(1.0134)^{t}</m>.
                     Divide both sides by 1.14 to isolate the exponential expression to get the equation <m>\dfrac{2}{1.14}=1.0134^{t}</m>.
-                    We can then take the logarithm of both sides of the equation to get <m>\ln(\dfrac{2}{1.14})=\ln(1.0134^{t} )</m>.
-                    Apply the exponent property on the right side to yield <m>\ln(\dfrac{2}{1.14})=t\ln(1.0134)</m>.
-                    Then, dividing both sides by <m>\ln(1.0134)</m> gives us <m>t=\dfrac{\ln(\dfrac{2}{1.14})}{\ln(1.0134)}\approx 42.23 \text{ years}</m>.
+                    We can then take the logarithm of both sides of the equation to get <m>\ln⁡(\dfrac{2}{1.14})=\ln⁡(1.0134^{t} )</m>.
+                    Apply the exponent property on the right side to yield <m>\ln⁡(\dfrac{2}{1.14})=t\ln⁡(1.0134)</m>.
+                    Then, dividing both sides by <m>\ln(1.0134)</m> gives us <m>t=\dfrac{\ln⁡(\dfrac{2}{1.14})}{\ln⁡(1.0134)}\approx 42.23 \text{ years}</m>.
                 </p>
 
                 <p>
@@ -570,15 +568,15 @@
                 <p>
                     To start, we want to isolate the exponential part of the expression, the <m>(1.07)^{3t}</m>, so it is alone on one side of the equation.
                     Then we can use the log to solve the equation.
-                    We can use any base log; this time we'll use the common log.
+                    We can use any base log; this time we’ll use the common log.
                 </p>
 
                 <p>
                     Starting with <m>5(1.07)^{3t}=2</m>, we divide both sides by 5 to isolate the exponential term.
                     This gives us <m>(1.07)^{3t}=\dfrac{2}{5}</m>.
-                    Then we take the log of both sides to give <m>\log((1.07)^{3t})=\log(\dfrac{2}{5})</m>.
-                    Using the exponent property for logs gives <m>3t\log(1.07)=\log(\dfrac{2}{5})</m>.
-                    When we divide by <m>3\log(1.07)</m> on both sides we get <m>t=\dfrac{\log(\dfrac{2}{5})}{3\log(1.07)}\approx -4.5143</m>.
+                    Then we take the log of both sides to give <m>\log⁡((1.07)^{3t})=\log⁡(\dfrac{2}{5})</m>.
+                    Using the exponent property for logs gives <m>3t\log⁡(1.07)=\log⁡(\dfrac{2}{5})</m>.
+                    When we divide by <m>3\log⁡(1.07)</m> on both sides we get <m>t=\dfrac{\log⁡(\dfrac{2}{5})}{3\log⁡(1.07)}\approx -4.5143</m>.
                 </p>
             </statement>
         </example>
@@ -591,7 +589,7 @@
             <statement>
                 <p>
                     In chemistry, pH is a measure of the acidity or basicity of a liquid.
-                    The pH is related to the concentration of hydrogen ions, <m>[H^{+}]</m>, measured in moles per liter, by the equation <m>\text{pH}=-\log([H^{+}])</m>.
+                    The pH is related to the concentration of hydrogen ions, <m>[H^{+}]</m>, measured in moles per liter, by the equation <m>\text{pH}=-\log⁡([H^{+}])</m>.
                 </p>
 
                 <p>
@@ -603,13 +601,13 @@
                 </p>
 
                 <p>
-                    To answer the first question, we evaluate the expression <m>-\log(0.0001)</m>.
-                    While we could use our calculators for this, we do not really need them here, since we can use the inverse property of logs: <m>-\log(0.0001)=-\log(10^{-4})=-(-4)=4</m>.
+                    To answer the first question, we evaluate the expression <m>-\log⁡(0.0001)</m>.
+                    While we could use our calculators for this, we do not really need them here, since we can use the inverse property of logs: <m>-\log⁡(0.0001)=-\log⁡(10^{-4})=-(-4)=4</m>.
                 </p>
 
                 <p>
-                    To answer the second question, we need to solve the equation <m>7=-\log([H^{+}])</m>.
-                    Begin by isolating the logarithm on one side of the equation by multiplying both sides by -1: <m>-7=\log([H^{+}])</m>.
+                    To answer the second question, we need to solve the equation <m>7=-\log⁡([H^{+}])</m>.
+                    Begin by isolating the logarithm on one side of the equation by multiplying both sides by -1: <m>-7=\log⁡([H^{+}])</m>.
                     Rewriting into exponential form yields the answer: <m>[H^{+}]=10^{-7}=0.0000001 \text{ moles per liter}</m>.
                 </p>
             </statement>
@@ -634,8 +632,8 @@
                 <p>
                     Using the second pair of values, <m>130=100e^{2r}</m>.
                     Divide by 100 gives us <m>\dfrac{130}{100}=e^{2r}</m>.
-                    Take the natural log of both sides to get <m>\ln( 1.3)=\ln(e^{2r})</m>.
-                    Use the inverse property of logs to find <m>\ln(1.3)=2r</m>, and thus <m>r=\dfrac{\ln( 1.3)}{2}\approx 0.1312</m>
+                    Take the natural log of both sides to get <m>\ln⁡( 1.3)=\ln⁡(e^{2r})</m>.
+                    Use the inverse property of logs to find <m>\ln⁡(1.3)=2r</m>, and thus <m>r=\dfrac{\ln⁡( 1.3)}{2}\approx 0.1312</m>
                 </p>
 
                 <p>
@@ -682,7 +680,7 @@
         <example>
             <statement>
                 <p>
-                    A company's sales can be modeled by the function <m>S(t)=5000e^{0.12t}</m>, with <m>t</m> measured in years.
+                    A company’s sales can be modeled by the function <m>S(t)=5000e^{0.12t}</m>, with <m>t</m> measured in years.
                     Find the annual growth rate.
                 </p>
 
@@ -692,43 +690,37 @@
                 </p>
             </statement>
         </example>
-</subsection>
-<subsection>
-  <title>Answers</title>
-  
 
         <exercise>
-            <statement><p>Answers to Checkpoint Exercises</p></statement>
-<answer>
+            <statement>
                 <p>
                     <ol>
                         <li>
                             <p>
-                                <m>\log_{4}(16)=2=\log_{4}(4^{2})=2\log_{4}(4)</m>
+                                <m>\log_{4}⁡(16)=2=\log_{4}⁡(4^{2})=2\log_{4}(⁡4)</m>
                             </p>
                         </li>
 
                         <li>
                             <p>
-                                <m>\log(1000000)=\log(10^{6} )=6</m>
+                                <m>\log⁡(1000000)=\log⁡(10^{6} )=6</m>
                             </p>
                         </li>
 
                         <li>
                             <p>
-                                <m>\ln(\dfrac{1}{x^2})=\ln(x^{-2})=-2\ln(x)</m>
+                                <m>\ln⁡(\dfrac{1}{x^2})=\ln⁡(x^{-2})=-2\ln⁡(x)</m>
                             </p>
                         </li>
 
                         <li>
                             <p>
-                                <m>5(0.93)^{x}=10</m>, <m>(0.93)^{x}=2</m>, <m>\ln(0.93^{x} )=\ln(2)</m>, <m>x\ln(0.93)=\ln(2)</m>, <m>\dfrac{\ln(2)}{\ln(0.93)}\approx -9.5513</m>
+                                <m>5(0.93)^{x}=10</m>, <m>(0.93)^{x}=2</m>, <m>\ln⁡(0.93^{x} )=\ln⁡(2)</m>, <m>x\ln⁡(0.93)=\ln⁡(2)</m>, <m>\dfrac{\ln⁡(2)}{\ln⁡(0.93)}\approx -9.5513</m>
                             </p>
                         </li>
                     </ol>
                 </p>
-              </answer>
+            </statement>
         </exercise>
     </subsection>
-
 </section>
