@@ -184,7 +184,9 @@
                             </p>
                         </li>
                     </ul>
-
+                </p>
+                </statement>
+                <solution><p>
                     <ul>
                         <li>
                             <p>
@@ -205,7 +207,7 @@
                         </li>
                     </ul>
                 </p>
-            </statement>
+            </solution>
         </example>
 
         <example>
@@ -226,7 +228,8 @@
                         </li>
                     </ul>
                 </p>
-
+            </statement>
+            <solution>
                 <p>
                     <ul>
                         <li>
@@ -242,7 +245,7 @@
                         </li>
                     </ul>
                 </p>
-            </statement>
+            </solution>
         </example>
 
         <exercise>
@@ -262,11 +265,12 @@
                 <p>
                     Solve <m>\log_{4}(x)=2</m> for <m>x</m>.
                 </p>
-
+            </statement>
+            <solution>
                 <p>
                     By rewriting this expression as an exponential, <m>4^{2}=x</m>, so <m>x = 16</m>.
                 </p>
-            </statement>
+            </solution>
         </example>
 
         <example>
@@ -274,11 +278,12 @@
                 <p>
                     Solve <m>2^{x}=10</m> for <m>x</m>.
                 </p>
-
+            </statement>
+            <solution>
                 <p>
                     By rewriting this expression as a logarithm, we get <m>x=\log_{2}(10)</m>.
                 </p>
-            </statement>
+            </solution>
         </example>
 
         <p>
@@ -309,7 +314,8 @@
                 <p>
                     Evaluate <m>\log(1000)</m> using the definition of the common log.
                 </p>
-
+            </statement>
+            <solution>
                 <p>
                     To evaluate <m>\log(1000)</m>, we can let <m>x=\log(1000)</m>, then rewrite into exponential form using the common log base of 10: <m>10^{x}=1000</m>.
                 </p>
@@ -321,7 +327,7 @@
                 <p>
                     We also can use the inverse property of logarithms to write <m>\log_{10}(10^{3} )=3</m>.
                 </p>
-            </statement>
+            </solution>
         </example>
 
         <exercise>
@@ -337,12 +343,13 @@
                 <p>
                     Evaluate <m>\ln(\sqrt{e})</m>.
                 </p>
-
+            </statement>
+            <solution>
                 <p>
                     We can rewrite <m>\ln(\sqrt{e})</m> as <m>\ln(e^{\frac{1}{2}})</m>.
                     Since <m>\ln</m> is a logarithm with base <m>e</m>, we can use the inverse property for logs: <m>\ln(e^{\frac{1}{2}})=\log_{e}(e^{\frac{1}{2}})=\dfrac{1}{2}</m>.
                 </p>
-            </statement>
+            </solution>
         </example>
 
         <example>
@@ -350,11 +357,12 @@
                 <p>
                     Evaluate <m>log(500)</m> using your calculator or computer.
                 </p>
-
+            </statement>
+            <solution>
                 <p>
                     Using a computer, we can evaluate <m>\log( 500)\approx 2.69897</m>.
                 </p>
-            </statement>
+            </solution>
         </example>
 
         <p>
@@ -384,11 +392,12 @@
                 <p>
                     Rewrite <m>\log_{3}(25)</m> using the exponent property for logs.
                 </p>
-
+            </statement>
+            <solution>
                 <p>
                     Since <m>25 = 52</m>, <m>\log_{3}(25)=\log_{3}(5^{2})=2\log_{3}(5)</m>.
                 </p>
-            </statement>
+            </solution>
         </example>
 
         <example>
@@ -396,11 +405,12 @@
                 <p>
                     Rewrite <m>4\ln(x)</m> using the exponent property for logs.
                 </p>
-
+            </statement>
+            <solution>
                 <p>
                     Using the property in reverse, <m>4\ln(x)=\ln(x^{4})</m>.
                 </p>
-            </statement>
+            </solution>
         </example>
 
         <exercise>
@@ -443,7 +453,8 @@
                 <p>
                     Evaluate <m>\log_{2}(10)</m> using the change of base formula.
                 </p>
-
+            </statement>
+            <solution>
                 <p>
                     According to the change of base formula, we can rewrite the function <m>\log_{2}</m> as a ratio of logarithms of any other base.
                     Since our calculators can evaluate the natural log, we might choose to use the natural logarithm, which is the log base <m>e</m>:<m>\log_{2}(10)=\dfrac{\ln(10)}{\ln(2)}</m>
@@ -456,7 +467,7 @@
                 <p>
                     This finally allows us to answer our original question - the population of flies we discussed at the beginning of the section will take about 3.32 weeks to grow to 500.
                 </p>
-            </statement>
+            </solution>
         </example>
 
         <example>
@@ -464,13 +475,14 @@
                 <p>
                     Evaluate <m>\log_{5}(100)</m> using the change of base formula.
                 </p>
-
+            </statement>
+            <solution>
                 <p>
                     We can rewrite this expression using any other base.
                     If our calculators are able to evaluate the common logarithm, we could rewrite using the common log, base 10.
                     <m>\log_{5}(100)=\dfrac{\log_{10}(100)}{\log_{10}(5)}\approx 2/0.69897\approx 2.861</m>.
                 </p>
-            </statement>
+            </solution>
         </example>
 
         <p>
@@ -516,7 +528,8 @@
                 <p>
                     Solve <m>2^{x}=10</m> for <m>x</m>.
                 </p>
-
+            </statement>
+            <solution>
                 <p>
                     Using this alternative approach, rather than rewrite this exponential into logarithmic form, we will take the logarithm of both sides of the equation.
                     Since we often wish to evaluate the result to a decimal answer, we will usually utilize either the common log or natural log.
@@ -528,7 +541,7 @@
                 <p>
                     Notice that this result matches the result we found using the change of base formula.
                 </p>
-            </statement>
+            </solution>
         </example>
 
         <example>
@@ -537,7 +550,8 @@
                     In the first section, we predicted the population (in billions) of India <m>t</m> years after 2008 by using the function <m>f(t)=1.14(1.0134)^{t}</m>.
                     If the population continues following this trend, when will the population reach 2 billion?
                 </p>
-
+            </statement>
+            <solution>
                 <p>
                     We need to solve for time <m>t</m> so that <m>f(t) = 2</m>.
                     This gives us the equation <m>2=1.14(1.0134)^{t}</m>.
@@ -550,7 +564,7 @@
                 <p>
                     If this growth rate continues, the model predicts the population of India will reach 2 billion about 42 years after 2008, or approximately in the year 2050.
                 </p>
-            </statement>
+            </solution>
         </example>
 
         <exercise>
@@ -566,7 +580,8 @@
                 <p>
                     Solve <m>5(1.07)^{3t}=2</m>.
                 </p>
-
+            </statement>
+            <solution>
                 <p>
                     To start, we want to isolate the exponential part of the expression, the <m>(1.07)^{3t}</m>, so it is alone on one side of the equation.
                     Then we can use the log to solve the equation.
@@ -580,7 +595,7 @@
                     Using the exponent property for logs gives <m>3t\log(1.07)=\log(\dfrac{2}{5})</m>.
                     When we divide by <m>3\log(1.07)</m> on both sides we get <m>t=\dfrac{\log(\dfrac{2}{5})}{3\log(1.07)}\approx -4.5143</m>.
                 </p>
-            </statement>
+            </solution>
         </example>
 
         <p>
@@ -601,7 +616,8 @@
                 <p>
                     Determine the hydrogen ion concentration of a liquid with pH of 7.
                 </p>
-
+            </statement>
+            <solution>
                 <p>
                     To answer the first question, we evaluate the expression <m>-\log(0.0001)</m>.
                     While we could use our calculators for this, we do not really need them here, since we can use the inverse property of logs: <m>-\log(0.0001)=-\log(10^{-4})=-(-4)=4</m>.
@@ -612,7 +628,7 @@
                     Begin by isolating the logarithm on one side of the equation by multiplying both sides by -1: <m>-7=\log([H^{+}])</m>.
                     Rewriting into exponential form yields the answer: <m>[H^{+}]=10^{-7}=0.0000001 \text{ moles per liter}</m>.
                 </p>
-            </statement>
+            </solution>
         </example>
 
         <p>
@@ -625,7 +641,8 @@
                     A population grows from 100 to 130 in 2 weeks.
                     Find the continuous growth rate.
                 </p>
-
+            </statement>
+            <solution>
                 <p>
                     Measuring <m>t</m> in weeks, we are looking for an equation <m>P(t)=ae^{rt}</m> so that <m>P(0) = 100</m> and <m>P(2) = 130</m>.
                     Using the first pair of values, <m>100=ae^{0}</m>, so <m>a = 100</m>.
@@ -641,7 +658,7 @@
                 <p>
                     So, this population is growing at a continuous rate of 13.12%per week.
                 </p>
-            </statement>
+            </solution>
         </example>
 
         <p>
@@ -685,12 +702,13 @@
                     A company's sales can be modeled by the function <m>S(t)=5000e^{0.12t}</m>, with <m>t</m> measured in years.
                     Find the annual growth rate.
                 </p>
-
+            </statement>
+            <solution>
                 <p>
                     Noting that <m>1+r=e^{k}</m>, then <m>r=e^{0.12}-1=0.1275</m>, so the annual growth rate is 12.75%.
                     The sales function could also be written in the form <m>S(t)=5000(1.1275)^{t}</m>.
                 </p>
-            </statement>
+            </solution>
         </example>
 </subsection>
 <subsection>
