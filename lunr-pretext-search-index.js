@@ -2797,7 +2797,115 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "4.2",
   "title": "Graphs of Exponential Functions",
-  "body": " Graphs of Exponential Functions  Text of section.  "
+  "body": " Graphs of Exponential Functions   Introduction   Important Topics of this Section    Graphs of exponential functions   Intercept    Growth factor       Exponential Growth    Exponential Decay    Horizontal intercepts    Long run behavior    Transformations     Like with linear functions, the graph of an exponential function is determined by the values for the parameters in the function's formula.  To get a sense for the behavior of exponential functions, let us begin by looking more closely at the function . Listing a table of values for this function:                                                                                                          Notice that:     This function is positive for all values of .    As increases, the function grows faster and faster (the rate of change increases).    As decreases, the function values grow smaller, approaching zero. This is an example of exponential growth.     Looking at the function :                                                                                                          Note this function is also positive for all values of , but in this case grows as decreases, and decreases towards zero as increases. This is an example of exponential decay. You may notice from the table that this function appears to be the horizontal reflection of the table. This is in fact the case: .  Looking at the graphs also confirms this relationship.   Two graphs on the same axes. The first, labeled f(x), starts flat on the left just above the x-axis and increases, curving upwards as x increases, passing through the y-axis at 1, and continuing to curve upwards. The second, labeled g(x), is the horizontal reflection of the first. It decreases rapidly on the left, and becomes less steep as x increases, passing through the y-axis at 1 and starting to flatten out towards the x-axis as x increases.   Consider a function of the form . Since , which we called the initial value in the last section, is the function value at an input of zero, will give us the vertical intercept of the graph.  From the graphs above, we can see that an exponential graph will have a horizontal asymptote on one side of the graph, and can either increase or decrease, depending upon the growth factor. This horizontal asymptote will also help us determine the long run behavior and is easy to determine from the graph.  The graph will grow when the growth rate is positive, which will make the growth factor larger than one. When it's negative, the growth factor will be less than one.   Graphical Features of Exponential Functions   Graphically, in the function ,    is the vertical intercept of the graph     determines the rate at which the graph grows. When is positive,   the function will increase if     the function will decrease if        The graph will have a horizontal asymptote at     The domain of the function is all real numbers    The range of the function is        When sketching the graph of an exponential function, it can be helpful to remember that the graph will pass through the points and .  The value will determine the function's long run behavior: If , as and as . If , as and as .    Sketch a graph of     This graph will have a vertical intercept at , and pass through the point . Since , the graph will be decreasing towards zero.   A graph that decreases steeply at first then flattens as x increases, passing through 0 comma 4 and (1, four thirds), then approaches the x-axis as x increases.   We can also see from the graph the long run behavior: as and as .    To get a better feeling for the effect of and on the graph, examine the sets of graphs below. The first set shows various graphs, where remains the same and we only change the value for .   A graph showing six exponential graphs on the same axes. All pass through the y-axis at 1. Three graphs are decreasing: nine-tenths to the x is the flattest. one-half to the x starts out steeper. one-third to the x starts out the steepest of the three but also levels off towards the x-axis on the right most quickly. Three graphs are increasing: three-halves to the x is the flattest, followed by 2 to the x. 3 to the x stays flattest on the left for the longest, but then becomes steepest fastest when x becomes positive.   Notice that the closer the value of is to 1, the less steep the graph will be.  In the next set of graphs, is altered and our value for remains the same.   A graph showing five exponential graphs on the same axes. All are multiples of 1.2 to the x. one-half times 1.2 to the x crosses the y-axis at one half, and increases most slowly, followed by 1.2 to the x, then 2 times 1.2 to the x, and 3 times 1.2 to the x and 4 times 1.2 to the x. As the multiple increases, the y-intercept changes, and the graph increases somewhat faster.   Notice that changing the value for changes the vertical intercept. Since is multiplying the term, acts as a vertical stretch factor, not as a shift. Notice also that the long run behavior for all of these functions is the same because the growth factor did not change and none of these values introduced a vertical flip.    Match each equation with its graph.       A graph showing four exponential curves on the same axes. The first, in yellow, is increasing and passes the y-axis at 4. The second, in blue, is increasing slowly and passes the y-axis at 2. The third, in green, is also increasing and passes the y-axis at 2, but is curving upwards more rapidly than the second graph. The fourth, in red, is decreasing and passes the y-axis at 4.     The graph of is the easiest to identify, since it is the only equation with a growth factor less than one, which will produce a decreasing graph. The graph of can be identified as the only growing exponential function with a vertical intercept at . The graphs of and both have a vertical intercept at , but since has a larger growth factor, we can identify it as the graph increasing faster.   A graph showing four exponential curves on the same axes. The first, in yellow, labeled h of x, is increasing and passes the y-axis at 4. The second, in blue, labeled f of x, is increasing slowly and passes the y-axis at 2. The third, in green, labeled g of x, is also increasing and passes the y-axis at 2, but is curving upwards more rapidly than the second graph. The fourth, in red, labeled k of x, is decreasing and passes the y-axis at 4.       Graph the following functions on the same axis:         Transformations of Exponential Graphs  While exponential functions can be transformed following the same rules as any function, there are a few interesting features of transformations that can be identified. The first was seen at the beginning of the section - that a horizontal reflection is equivalent to a change in the growth factor. Likewise, since is itself a stretch factor, a vertical stretch of an exponential function corresponds with a change in the initial value of the function.  Next consider the effect of a horizontal shift on an exponential function. Shifting the function four units to the left would give . Employing exponent rules, we could rewrite this: Interestingly, it turns out that a horizontal shift of an exponential function corresponds with a change in initial value of the function.  Lastly, consider the effect of a vertical shift on an exponential function. Shifting down 4 units would give the equation .  Graphing that, notice it is substantially different than the basic exponential graph. Unlike a basic exponential, this graph does not have a horizontal asymptote at ; due to the vertical shift, the horizontal asymptote has also shifted to . We can see that as and as .   A graph that starts out flat, just above y=negative 4, and increases and curves upwards, passing through the y-axis at negative 1 and the point 1 comma 2   We have determined that a vertical shift is the only transformation of an exponential function that changes the graph in a way that cannot be achieved by altering the parameters and in the basic exponential function .   Transformations of Exponential Functions   Any transformed exponential can be written in the form where is the horizontal asymptote.    Note that, due to the shift, the vertical intercept is shifted to .    Write the equation and graph the exponential function described as follows: is vertically stretched by a factor of 2, flipped across the -axis and shifted up 4 units.      Sketch a graph of .    Notice that in this exponential function, the negative in the stretch factor -3 will cause a vertical reflection, and the vertical shift up 4 will move the horizontal asymptote to . Sketching this as a transformation of , we get the following graphs:   The starting function   A graph that starts out decreasing rapidly and flattens out as x increases, passing through negative 1 comma 2 and 0 comma 1, leveling off towards the y-axis as x gets large     Vertically reflected and stretched by 3:   A graph that starts out negative and increasing rapidly, flattening out as x increases, passing through 0 comma negative 3, leveling off towards the y-axis as x gets large     Vertically shifted up four units:   A graph that starts out negative and increasing rapidly, flattening out as x increases, passing through 0 comma 1, leveling off towards y=4 as x gets large    Notice that while the domain of this function is unchanged, due to the reflection and shift, the range of this function is . So, as and as .    Functions leading to graphs like the one above are common as models for learning and models of growth approaching a limit.    Find an equation for the function graphed here.   A graph that starts out nearly flat, just below y=5, that decreases, curving downwards, passing through negative 1 comma 3 and 0 comma 2     Looking at this graph, it appears to have a horizontal asymptote at , suggesting an equation of the form . To find values for and , we can identify two other points on the graph. It appears the graph passes through and , so we can use those points. Substituting in allows us to solve for .     Substituting in allows us to solve for .    The final formula for our function is .      Given the graph of the transformed exponential function, find a formula and describe the long run behavior.   A graph that starts out nearly flat, just above y=negative 1, that increases curving upwards, passing through 0 comma 2       Answers    Answers to Checkpoing Exercises        Three graphs on the same axes. First, an increasing exponential graph passing through 0 comma 1 and 1 comma 2 labeled f of x = 2 to the x. Second, an increasing exponential graph passing through 0 comma 2 and 2 comma 4 labeled g of x = 2 times 2 to the x. Third, a decreasing exponential graph passing through negative 1 comma 4 and 0 comma 2 labeled h of x = 2 times one half to the x.        A graph that starts out nearly flat, just below y=4, that decreases curving downwards passing through 0 comma 2   Horizontal asymptote at , so . Substitute to find . Substitute to find , . . As and as .     "
+},
+{
+  "id": "Chapter4Section2-2-2",
+  "level": "2",
+  "url": "Chapter4Section2.html#Chapter4Section2-2-2",
+  "type": "Objectives",
+  "number": "4.2.1",
+  "title": "Important Topics of this Section",
+  "body": " Important Topics of this Section    Graphs of exponential functions   Intercept    Growth factor       Exponential Growth    Exponential Decay    Horizontal intercepts    Long run behavior    Transformations    "
+},
+{
+  "id": "Chapter4Section2-2-7",
+  "level": "2",
+  "url": "Chapter4Section2.html#Chapter4Section2-2-7",
+  "type": "List",
+  "number": "4.2.1",
+  "title": "",
+  "body": "   This function is positive for all values of .    As increases, the function grows faster and faster (the rate of change increases).    As decreases, the function values grow smaller, approaching zero. This is an example of exponential growth.    "
+},
+{
+  "id": "Chapter4Section2-2-16",
+  "level": "2",
+  "url": "Chapter4Section2.html#Chapter4Section2-2-16",
+  "type": "Definition",
+  "number": "4.2.2",
+  "title": "Graphical Features of Exponential Functions.",
+  "body": " Graphical Features of Exponential Functions   Graphically, in the function ,    is the vertical intercept of the graph     determines the rate at which the graph grows. When is positive,   the function will increase if     the function will decrease if        The graph will have a horizontal asymptote at     The domain of the function is all real numbers    The range of the function is       "
+},
+{
+  "id": "Chapter4Section2-2-19",
+  "level": "2",
+  "url": "Chapter4Section2.html#Chapter4Section2-2-19",
+  "type": "Example",
+  "number": "4.2.3",
+  "title": "",
+  "body": "  Sketch a graph of     This graph will have a vertical intercept at , and pass through the point . Since , the graph will be decreasing towards zero.   A graph that decreases steeply at first then flattens as x increases, passing through 0 comma 4 and (1, four thirds), then approaches the x-axis as x increases.   We can also see from the graph the long run behavior: as and as .   "
+},
+{
+  "id": "Chapter4Section2-2-26",
+  "level": "2",
+  "url": "Chapter4Section2.html#Chapter4Section2-2-26",
+  "type": "Example",
+  "number": "4.2.4",
+  "title": "",
+  "body": "  Match each equation with its graph.       A graph showing four exponential curves on the same axes. The first, in yellow, is increasing and passes the y-axis at 4. The second, in blue, is increasing slowly and passes the y-axis at 2. The third, in green, is also increasing and passes the y-axis at 2, but is curving upwards more rapidly than the second graph. The fourth, in red, is decreasing and passes the y-axis at 4.     The graph of is the easiest to identify, since it is the only equation with a growth factor less than one, which will produce a decreasing graph. The graph of can be identified as the only growing exponential function with a vertical intercept at . The graphs of and both have a vertical intercept at , but since has a larger growth factor, we can identify it as the graph increasing faster.   A graph showing four exponential curves on the same axes. The first, in yellow, labeled h of x, is increasing and passes the y-axis at 4. The second, in blue, labeled f of x, is increasing slowly and passes the y-axis at 2. The third, in green, labeled g of x, is also increasing and passes the y-axis at 2, but is curving upwards more rapidly than the second graph. The fourth, in red, labeled k of x, is decreasing and passes the y-axis at 4.    "
+},
+{
+  "id": "Chapter4Section2-2-27",
+  "level": "2",
+  "url": "Chapter4Section2.html#Chapter4Section2-2-27",
+  "type": "Checkpoint",
+  "number": "4.2.5",
+  "title": "",
+  "body": "  Graph the following functions on the same axis:      "
+},
+{
+  "id": "Chapter4Section2-3-8",
+  "level": "2",
+  "url": "Chapter4Section2.html#Chapter4Section2-3-8",
+  "type": "Definition",
+  "number": "4.2.6",
+  "title": "Transformations of Exponential Functions.",
+  "body": " Transformations of Exponential Functions   Any transformed exponential can be written in the form where is the horizontal asymptote.   "
+},
+{
+  "id": "Chapter4Section2-3-10",
+  "level": "2",
+  "url": "Chapter4Section2.html#Chapter4Section2-3-10",
+  "type": "Checkpoint",
+  "number": "4.2.7",
+  "title": "",
+  "body": "  Write the equation and graph the exponential function described as follows: is vertically stretched by a factor of 2, flipped across the -axis and shifted up 4 units.   "
+},
+{
+  "id": "Chapter4Section2-3-11",
+  "level": "2",
+  "url": "Chapter4Section2.html#Chapter4Section2-3-11",
+  "type": "Example",
+  "number": "4.2.8",
+  "title": "",
+  "body": "  Sketch a graph of .    Notice that in this exponential function, the negative in the stretch factor -3 will cause a vertical reflection, and the vertical shift up 4 will move the horizontal asymptote to . Sketching this as a transformation of , we get the following graphs:   The starting function   A graph that starts out decreasing rapidly and flattens out as x increases, passing through negative 1 comma 2 and 0 comma 1, leveling off towards the y-axis as x gets large     Vertically reflected and stretched by 3:   A graph that starts out negative and increasing rapidly, flattening out as x increases, passing through 0 comma negative 3, leveling off towards the y-axis as x gets large     Vertically shifted up four units:   A graph that starts out negative and increasing rapidly, flattening out as x increases, passing through 0 comma 1, leveling off towards y=4 as x gets large    Notice that while the domain of this function is unchanged, due to the reflection and shift, the range of this function is . So, as and as .   "
+},
+{
+  "id": "Chapter4Section2-3-13",
+  "level": "2",
+  "url": "Chapter4Section2.html#Chapter4Section2-3-13",
+  "type": "Example",
+  "number": "4.2.12",
+  "title": "",
+  "body": "  Find an equation for the function graphed here.   A graph that starts out nearly flat, just below y=5, that decreases, curving downwards, passing through negative 1 comma 3 and 0 comma 2     Looking at this graph, it appears to have a horizontal asymptote at , suggesting an equation of the form . To find values for and , we can identify two other points on the graph. It appears the graph passes through and , so we can use those points. Substituting in allows us to solve for .     Substituting in allows us to solve for .    The final formula for our function is .   "
+},
+{
+  "id": "Chapter4Section2-3-14",
+  "level": "2",
+  "url": "Chapter4Section2.html#Chapter4Section2-3-14",
+  "type": "Checkpoint",
+  "number": "4.2.13",
+  "title": "",
+  "body": "  Given the graph of the transformed exponential function, find a formula and describe the long run behavior.   A graph that starts out nearly flat, just above y=negative 1, that increases curving upwards, passing through 0 comma 2    "
+},
+{
+  "id": "Chapter4Section2-4-2",
+  "level": "2",
+  "url": "Chapter4Section2.html#Chapter4Section2-4-2",
+  "type": "Checkpoint",
+  "number": "4.2.14",
+  "title": "",
+  "body": "  Answers to Checkpoing Exercises        Three graphs on the same axes. First, an increasing exponential graph passing through 0 comma 1 and 1 comma 2 labeled f of x = 2 to the x. Second, an increasing exponential graph passing through 0 comma 2 and 2 comma 4 labeled g of x = 2 times 2 to the x. Third, a decreasing exponential graph passing through negative 1 comma 4 and 0 comma 2 labeled h of x = 2 times one half to the x.        A graph that starts out nearly flat, just below y=4, that decreases curving downwards passing through 0 comma 2   Horizontal asymptote at , so . Substitute to find . Substitute to find , . . As and as .   "
 },
 {
   "id": "Chapter4Section3",
@@ -2806,7 +2914,286 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "4.3",
   "title": "Logarithmic Functions",
-  "body": " Logarithmic Functions  Text of section.  "
+  "body": " Logarithmic Functions   Introduction   Important Topics of this Section    The Logarithmic function as the inverse of the exponential function    Writing logarithmic and exponential expressions    Properties of logs   Inverse properties    Exponential properties    Change of base       Common log    Natural log    Solving exponential equations    Converting between periodic and continuous growth rate     A population of 50 flies is expected to double every week, leading to a function of the form , where represents the number of weeks that have passed. When will this population reach 500? Trying to solve this problem leads to solving the equation . Dividing both sides by 50 to isolate the exponential gives .  While we have set up exponential models and used them to make predictions, you may have noticed that solving exponential equations has not yet been mentioned. The reason is simple: none of the algebraic tools discussed so far are sufficient to solve exponential equations. Consider the equation above. We know that and , so it is clear that must be some value between 3 and 4 since is increasing. We could use technology to create a table of values or graph to better estimate the solution.   Two graphs on the same axes. An increasing function curving upwards, passing through 1 comma 2, 2 comma 4 and 3 comma 8. And a dashed horizontal line at y=10.   From the graph, we could better estimate the solution to be around 3.3. This result is still fairly unsatisfactory, and since the exponential function is one-to-one, it would be great to have an inverse function. None of the functions we have already discussed would serve as an inverse function and so we must introduce a new function, named as the inverse of an exponential function. Since exponential functions have different bases, we will define corresponding logarithms of different bases as well.    Logarithmic Functions   Logarithm   The logarithm (base ) function, written , is the inverse of the exponential function (also base ), . In other words, the logarithm calculates the exponent needed on in order to achieve the output of .    Since the logarithm and exponential are inverses, it follows that:   Properties of Logarithms: Inverse Properties   Since and are inverse functions;                Recall from the definition of an inverse function that if , then . Applying this to the exponential and logarithmic functions, we can convert between a logarithmic equation and its equivalent exponential.   Logarithm Equivalent to an Exponential   The statement is equivalent to the statement .    Alternatively, we could show this by starting with the exponential function . Since these expressions are equal, it must be true that we should get the same output when we input these terms into the function . That is, . Using the inverse property of logarithms, we see that .    Write these exponential equations as logarithmic equations:                        is equivalent to      is equivalent to      is equivalent to          Write these logarithmic equations as exponential equations:                    is equivalent to      is equivalent to          Write the exponential equation as a logarithmic equation.    By establishing the relationship between exponential and logarithmic functions, we can now solve basic logarithmic and exponential equations by rewriting.    Solve for .    By rewriting this expression as an exponential, , so .      Solve for .    By rewriting this expression as a logarithm, we get .    While this does define a solution, and an exact solution at that, you may find it somewhat unsatisfying since it is difficult to compare this expression to the decimal estimate we made earlier. Also, giving an exact expression for a solution is not always useful - often we really need a decimal approximation to the solution. Luckily, this is a task calculators and computers are quite adept at. Some calculators are only able to evaluate logarithms of two bases, while others can evaluate a logarithm of any base. In the event that a calculator can only evaluate certain logarithms, we will look a technique that allows us to evaluate any base of logarithm. The logarithms that are normally represented on calculators are as follows:   Common and Natural Logarithms   The common log is the logarithm with base 10, and is typically written .  The natural log is the logarithm with base , and is typically written .      Evaluate using the definition of the common log.    To evaluate , we can let , then rewrite into exponential form using the common log base of 10: .  From this, we might recognize that 1000 is the cube of 10, so .  We also can use the inverse property of logarithms to write .      Evaluate .      Evaluate .    We can rewrite as . Since is a logarithm with base , we can use the inverse property for logs: .      Evaluate using your calculator or computer.    Using a computer, we can evaluate .    To utilize the common or natural logarithm functions to evaluate expressions like , we need to establish some additional properties.   Properties of Logs: Exponent Property        To show why this is true, we offer a proof: Since the logarithmic and exponential functions are inverses, . Raising both sides to the power, we get . Utilizing the exponential rule that states , . Taking the log of both sides, . Utilizing the inverse property on the right side yields the result: .    Rewrite using the exponent property for logs.    Since , .      Rewrite using the exponent property for logs.    Using the property in reverse, .      Rewrite using the exponent property for logs: .    The exponent property also allows us to find a method for changing the base of a logarithmic expression.   Properties of Logs: Change of Base        As a proof of this property: Let . Rewriting this as an exponential gives . Taking the log base of both sides of this equation gives . Now utilizing the exponent property for logs on the left side, . Dividing both sides by , we obtain . Replacing our original expression for , .  With this change of base formula, we can finally find a good decimal approximation to our question from the beginning of the section.    Evaluate using the change of base formula.    According to the change of base formula, we can rewrite the function as a ratio of logarithms of any other base. Since our calculators can evaluate the natural log, we might choose to use the natural logarithm, which is the log base :   Using a calculator to evaluate this, we find .  This finally allows us to answer our original question - the population of flies we discussed at the beginning of the section will take about 3.32 weeks to grow to 500.      Evaluate using the change of base formula.    We can rewrite this expression using any other base. If our calculators are able to evaluate the common logarithm, we could rewrite using the common log, base 10. .    While we can solve the basic exponential equation by rewriting in logarithmic form and then using the change of base formula to evaluate the logarithm, the proof of the change of base formula illuminates an alternative approach to solving exponential equations.   Solving Exponential Equation      Isolate the exponential expressions when possible.    Take the logarithm of both sides or rewrite the exponential equation as an equivalent logarithmic equation.    Utilize the exponent property for logarithms to pull the variable out of the exponent.    Use algebra to solve for the variable.         Solve for .    Using this alternative approach, rather than rewrite this exponential into logarithmic form, we will take the logarithm of both sides of the equation. Since we often wish to evaluate the result to a decimal answer, we will usually utilize either the common log or natural log. For this example, we'll use the natural log: . Utilizing the exponent property for logs, . Now dividing by , .  Notice that this result matches the result we found using the change of base formula.      In the first section, we predicted the population (in billions) of India years after 2008 by using the function . If the population continues following this trend, when will the population reach 2 billion?    We need to solve for time so that . This gives us the equation . Divide both sides by 1.14 to isolate the exponential expression to get the equation . We can then take the logarithm of both sides of the equation to get . Apply the exponent property on the right side to yield . Then, dividing both sides by gives us .  If this growth rate continues, the model predicts the population of India will reach 2 billion about 42 years after 2008, or approximately in the year 2050.      Solve .      Solve .    To start, we want to isolate the exponential part of the expression, the , so it is alone on one side of the equation. Then we can use the log to solve the equation. We can use any base log; this time we'll use the common log.  Starting with , we divide both sides by 5 to isolate the exponential term. This gives us . Then we take the log of both sides to give . Using the exponent property for logs gives . When we divide by on both sides we get .    In addition to solving exponential equations, logarithmic expressions are common in many physical situations.    In chemistry, pH is a measure of the acidity or basicity of a liquid. The pH is related to the concentration of hydrogen ions, , measured in moles per liter, by the equation .  If a liquid has concentration of 0.0001 moles per liter, determine the pH.  Determine the hydrogen ion concentration of a liquid with pH of 7.    To answer the first question, we evaluate the expression . While we could use our calculators for this, we do not really need them here, since we can use the inverse property of logs: .  To answer the second question, we need to solve the equation . Begin by isolating the logarithm on one side of the equation by multiplying both sides by -1: . Rewriting into exponential form yields the answer: .    Logarithms also provide us a mechanism for finding continuous growth models for exponential growth given two data points.    A population grows from 100 to 130 in 2 weeks. Find the continuous growth rate.    Measuring in weeks, we are looking for an equation so that and . Using the first pair of values, , so .  Using the second pair of values, . Divide by 100 gives us . Take the natural log of both sides to get . Use the inverse property of logs to find , and thus   So, this population is growing at a continuous rate of 13.12%per week.    In general, we can relate the standard form of an exponential with the continuous growth form by noting (using to represent the continuous growth rate to avoid the confusion of using in two different ways in the same formula):      Converting Between Periodic to Continuous Growth Rate   In the equation , is the periodic growth rate, the percent growth each time period (weekly growth, annual growth, etc.).  In the equation , is the continuous growth rate.  You can convert between these using: .    Remember that the continuous growth rate represents the nominal growth rate before accounting for the effects of continuous compounding, while represents the actual percent increase in one time unit (one week, one year, etc.).    A company's sales can be modeled by the function , with measured in years. Find the annual growth rate.    Noting that , then , so the annual growth rate is 12.75%. The sales function could also be written in the form .      Answers   Answers to Checkpoint Exercises                      , , , ,         "
+},
+{
+  "id": "Chapter4Section3-2-2",
+  "level": "2",
+  "url": "Chapter4Section3.html#Chapter4Section3-2-2",
+  "type": "Objectives",
+  "number": "4.3.1",
+  "title": "Important Topics of this Section",
+  "body": " Important Topics of this Section    The Logarithmic function as the inverse of the exponential function    Writing logarithmic and exponential expressions    Properties of logs   Inverse properties    Exponential properties    Change of base       Common log    Natural log    Solving exponential equations    Converting between periodic and continuous growth rate    "
+},
+{
+  "id": "Chapter4Section3-3-2",
+  "level": "2",
+  "url": "Chapter4Section3.html#Chapter4Section3-3-2",
+  "type": "Definition",
+  "number": "4.3.1",
+  "title": "Logarithm.",
+  "body": " Logarithm   The logarithm (base ) function, written , is the inverse of the exponential function (also base ), . In other words, the logarithm calculates the exponent needed on in order to achieve the output of .   "
+},
+{
+  "id": "Chapter4Section3-3-4",
+  "level": "2",
+  "url": "Chapter4Section3.html#Chapter4Section3-3-4",
+  "type": "Definition",
+  "number": "4.3.2",
+  "title": "Properties of Logarithms: Inverse Properties.",
+  "body": " Properties of Logarithms: Inverse Properties   Since and are inverse functions;               "
+},
+{
+  "id": "Chapter4Section3-3-6",
+  "level": "2",
+  "url": "Chapter4Section3.html#Chapter4Section3-3-6",
+  "type": "Definition",
+  "number": "4.3.3",
+  "title": "Logarithm Equivalent to an Exponential.",
+  "body": " Logarithm Equivalent to an Exponential   The statement is equivalent to the statement .   "
+},
+{
+  "id": "Chapter4Section3-3-8",
+  "level": "2",
+  "url": "Chapter4Section3.html#Chapter4Section3-3-8",
+  "type": "Example",
+  "number": "4.3.4",
+  "title": "",
+  "body": "  Write these exponential equations as logarithmic equations:                        is equivalent to      is equivalent to      is equivalent to       "
+},
+{
+  "id": "Chapter4Section3-3-9",
+  "level": "2",
+  "url": "Chapter4Section3.html#Chapter4Section3-3-9",
+  "type": "Example",
+  "number": "4.3.5",
+  "title": "",
+  "body": "  Write these logarithmic equations as exponential equations:                    is equivalent to      is equivalent to       "
+},
+{
+  "id": "Chapter4Section3-3-10",
+  "level": "2",
+  "url": "Chapter4Section3.html#Chapter4Section3-3-10",
+  "type": "Checkpoint",
+  "number": "4.3.6",
+  "title": "",
+  "body": "  Write the exponential equation as a logarithmic equation.   "
+},
+{
+  "id": "Chapter4Section3-3-12",
+  "level": "2",
+  "url": "Chapter4Section3.html#Chapter4Section3-3-12",
+  "type": "Example",
+  "number": "4.3.7",
+  "title": "",
+  "body": "  Solve for .    By rewriting this expression as an exponential, , so .   "
+},
+{
+  "id": "Chapter4Section3-3-13",
+  "level": "2",
+  "url": "Chapter4Section3.html#Chapter4Section3-3-13",
+  "type": "Example",
+  "number": "4.3.8",
+  "title": "",
+  "body": "  Solve for .    By rewriting this expression as a logarithm, we get .   "
+},
+{
+  "id": "Chapter4Section3-3-15",
+  "level": "2",
+  "url": "Chapter4Section3.html#Chapter4Section3-3-15",
+  "type": "Definition",
+  "number": "4.3.9",
+  "title": "Common and Natural Logarithms.",
+  "body": " Common and Natural Logarithms   The common log is the logarithm with base 10, and is typically written .  The natural log is the logarithm with base , and is typically written .   "
+},
+{
+  "id": "Chapter4Section3-3-16",
+  "level": "2",
+  "url": "Chapter4Section3.html#Chapter4Section3-3-16",
+  "type": "Example",
+  "number": "4.3.10",
+  "title": "",
+  "body": "  Evaluate using the definition of the common log.    To evaluate , we can let , then rewrite into exponential form using the common log base of 10: .  From this, we might recognize that 1000 is the cube of 10, so .  We also can use the inverse property of logarithms to write .   "
+},
+{
+  "id": "Chapter4Section3-3-17",
+  "level": "2",
+  "url": "Chapter4Section3.html#Chapter4Section3-3-17",
+  "type": "Checkpoint",
+  "number": "4.3.11",
+  "title": "",
+  "body": "  Evaluate .   "
+},
+{
+  "id": "Chapter4Section3-3-18",
+  "level": "2",
+  "url": "Chapter4Section3.html#Chapter4Section3-3-18",
+  "type": "Example",
+  "number": "4.3.12",
+  "title": "",
+  "body": "  Evaluate .    We can rewrite as . Since is a logarithm with base , we can use the inverse property for logs: .   "
+},
+{
+  "id": "Chapter4Section3-3-19",
+  "level": "2",
+  "url": "Chapter4Section3.html#Chapter4Section3-3-19",
+  "type": "Example",
+  "number": "4.3.13",
+  "title": "",
+  "body": "  Evaluate using your calculator or computer.    Using a computer, we can evaluate .   "
+},
+{
+  "id": "Chapter4Section3-3-21",
+  "level": "2",
+  "url": "Chapter4Section3.html#Chapter4Section3-3-21",
+  "type": "Definition",
+  "number": "4.3.14",
+  "title": "Properties of Logs: Exponent Property.",
+  "body": " Properties of Logs: Exponent Property       "
+},
+{
+  "id": "Chapter4Section3-3-23",
+  "level": "2",
+  "url": "Chapter4Section3.html#Chapter4Section3-3-23",
+  "type": "Example",
+  "number": "4.3.15",
+  "title": "",
+  "body": "  Rewrite using the exponent property for logs.    Since , .   "
+},
+{
+  "id": "Chapter4Section3-3-24",
+  "level": "2",
+  "url": "Chapter4Section3.html#Chapter4Section3-3-24",
+  "type": "Example",
+  "number": "4.3.16",
+  "title": "",
+  "body": "  Rewrite using the exponent property for logs.    Using the property in reverse, .   "
+},
+{
+  "id": "Chapter4Section3-3-25",
+  "level": "2",
+  "url": "Chapter4Section3.html#Chapter4Section3-3-25",
+  "type": "Checkpoint",
+  "number": "4.3.17",
+  "title": "",
+  "body": "  Rewrite using the exponent property for logs: .   "
+},
+{
+  "id": "Chapter4Section3-3-27",
+  "level": "2",
+  "url": "Chapter4Section3.html#Chapter4Section3-3-27",
+  "type": "Definition",
+  "number": "4.3.18",
+  "title": "Properties of Logs: Change of Base.",
+  "body": " Properties of Logs: Change of Base       "
+},
+{
+  "id": "Chapter4Section3-3-30",
+  "level": "2",
+  "url": "Chapter4Section3.html#Chapter4Section3-3-30",
+  "type": "Example",
+  "number": "4.3.19",
+  "title": "",
+  "body": "  Evaluate using the change of base formula.    According to the change of base formula, we can rewrite the function as a ratio of logarithms of any other base. Since our calculators can evaluate the natural log, we might choose to use the natural logarithm, which is the log base :   Using a calculator to evaluate this, we find .  This finally allows us to answer our original question - the population of flies we discussed at the beginning of the section will take about 3.32 weeks to grow to 500.   "
+},
+{
+  "id": "Chapter4Section3-3-31",
+  "level": "2",
+  "url": "Chapter4Section3.html#Chapter4Section3-3-31",
+  "type": "Example",
+  "number": "4.3.20",
+  "title": "",
+  "body": "  Evaluate using the change of base formula.    We can rewrite this expression using any other base. If our calculators are able to evaluate the common logarithm, we could rewrite using the common log, base 10. .   "
+},
+{
+  "id": "Chapter4Section3-3-33",
+  "level": "2",
+  "url": "Chapter4Section3.html#Chapter4Section3-3-33",
+  "type": "Definition",
+  "number": "4.3.21",
+  "title": "Solving Exponential Equation.",
+  "body": " Solving Exponential Equation      Isolate the exponential expressions when possible.    Take the logarithm of both sides or rewrite the exponential equation as an equivalent logarithmic equation.    Utilize the exponent property for logarithms to pull the variable out of the exponent.    Use algebra to solve for the variable.      "
+},
+{
+  "id": "Chapter4Section3-3-34",
+  "level": "2",
+  "url": "Chapter4Section3.html#Chapter4Section3-3-34",
+  "type": "Example",
+  "number": "4.3.22",
+  "title": "",
+  "body": "  Solve for .    Using this alternative approach, rather than rewrite this exponential into logarithmic form, we will take the logarithm of both sides of the equation. Since we often wish to evaluate the result to a decimal answer, we will usually utilize either the common log or natural log. For this example, we'll use the natural log: . Utilizing the exponent property for logs, . Now dividing by , .  Notice that this result matches the result we found using the change of base formula.   "
+},
+{
+  "id": "Chapter4Section3-3-35",
+  "level": "2",
+  "url": "Chapter4Section3.html#Chapter4Section3-3-35",
+  "type": "Example",
+  "number": "4.3.23",
+  "title": "",
+  "body": "  In the first section, we predicted the population (in billions) of India years after 2008 by using the function . If the population continues following this trend, when will the population reach 2 billion?    We need to solve for time so that . This gives us the equation . Divide both sides by 1.14 to isolate the exponential expression to get the equation . We can then take the logarithm of both sides of the equation to get . Apply the exponent property on the right side to yield . Then, dividing both sides by gives us .  If this growth rate continues, the model predicts the population of India will reach 2 billion about 42 years after 2008, or approximately in the year 2050.   "
+},
+{
+  "id": "Chapter4Section3-3-36",
+  "level": "2",
+  "url": "Chapter4Section3.html#Chapter4Section3-3-36",
+  "type": "Checkpoint",
+  "number": "4.3.24",
+  "title": "",
+  "body": "  Solve .   "
+},
+{
+  "id": "Chapter4Section3-3-37",
+  "level": "2",
+  "url": "Chapter4Section3.html#Chapter4Section3-3-37",
+  "type": "Example",
+  "number": "4.3.25",
+  "title": "",
+  "body": "  Solve .    To start, we want to isolate the exponential part of the expression, the , so it is alone on one side of the equation. Then we can use the log to solve the equation. We can use any base log; this time we'll use the common log.  Starting with , we divide both sides by 5 to isolate the exponential term. This gives us . Then we take the log of both sides to give . Using the exponent property for logs gives . When we divide by on both sides we get .   "
+},
+{
+  "id": "Chapter4Section3-3-39",
+  "level": "2",
+  "url": "Chapter4Section3.html#Chapter4Section3-3-39",
+  "type": "Example",
+  "number": "4.3.26",
+  "title": "",
+  "body": "  In chemistry, pH is a measure of the acidity or basicity of a liquid. The pH is related to the concentration of hydrogen ions, , measured in moles per liter, by the equation .  If a liquid has concentration of 0.0001 moles per liter, determine the pH.  Determine the hydrogen ion concentration of a liquid with pH of 7.    To answer the first question, we evaluate the expression . While we could use our calculators for this, we do not really need them here, since we can use the inverse property of logs: .  To answer the second question, we need to solve the equation . Begin by isolating the logarithm on one side of the equation by multiplying both sides by -1: . Rewriting into exponential form yields the answer: .   "
+},
+{
+  "id": "Chapter4Section3-3-41",
+  "level": "2",
+  "url": "Chapter4Section3.html#Chapter4Section3-3-41",
+  "type": "Example",
+  "number": "4.3.27",
+  "title": "",
+  "body": "  A population grows from 100 to 130 in 2 weeks. Find the continuous growth rate.    Measuring in weeks, we are looking for an equation so that and . Using the first pair of values, , so .  Using the second pair of values, . Divide by 100 gives us . Take the natural log of both sides to get . Use the inverse property of logs to find , and thus   So, this population is growing at a continuous rate of 13.12%per week.   "
+},
+{
+  "id": "Chapter4Section3-3-43",
+  "level": "2",
+  "url": "Chapter4Section3.html#Chapter4Section3-3-43",
+  "type": "Definition",
+  "number": "4.3.28",
+  "title": "Converting Between Periodic to Continuous Growth Rate.",
+  "body": " Converting Between Periodic to Continuous Growth Rate   In the equation , is the periodic growth rate, the percent growth each time period (weekly growth, annual growth, etc.).  In the equation , is the continuous growth rate.  You can convert between these using: .   "
+},
+{
+  "id": "Chapter4Section3-3-45",
+  "level": "2",
+  "url": "Chapter4Section3.html#Chapter4Section3-3-45",
+  "type": "Example",
+  "number": "4.3.29",
+  "title": "",
+  "body": "  A company's sales can be modeled by the function , with measured in years. Find the annual growth rate.    Noting that , then , so the annual growth rate is 12.75%. The sales function could also be written in the form .   "
+},
+{
+  "id": "Chapter4Section3-4-2",
+  "level": "2",
+  "url": "Chapter4Section3.html#Chapter4Section3-4-2",
+  "type": "Checkpoint",
+  "number": "4.3.30",
+  "title": "",
+  "body": " Answers to Checkpoint Exercises                      , , , ,       "
 },
 {
   "id": "Chapter4Section4",
