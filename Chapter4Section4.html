@@ -106,7 +106,7 @@ eBookConfig.allow_pairs = false;
 eBookConfig.enableScratchAC = false;
 eBookConfig.build_info = "";
 eBookConfig.python3 = null;
-eBookConfig.runestone_version = '7.7.3';
+eBookConfig.runestone_version = '7.7.5';
 eBookConfig.jobehost = '';
 eBookConfig.proxyuri_runs = '';
 eBookConfig.proxyuri_files = '';
@@ -302,7 +302,14 @@ eBookConfig.enable_chatcodes =  false;
 <li class="toc-item toc-subsection"><div class="toc-title-box"><a href="Chapter4Section3.html#Chapter4Section3-4" class="internal"><span class="codenumber">4.3.3</span> <span class="title">Answers</span></a></div></li>
 </ul>
 </li>
-<li class="toc-item toc-section active"><div class="toc-title-box"><a href="Chapter4Section4.html" class="internal"><span class="codenumber">4.4</span> <span class="title">Logarithmic Properties</span></a></div></li>
+<li class="toc-item toc-section contains-active">
+<div class="toc-title-box"><a href="Chapter4Section4.html" class="internal"><span class="codenumber">4.4</span> <span class="title">Logarithmic Properties</span></a></div>
+<ul class="structural toc-item-list active">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="Chapter4Section4.html#Chapter4Section4-2" class="internal"><span class="codenumber">4.4.1</span> <span class="title">Properties</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="Chapter4Section4.html#Chapter4Section4-3" class="internal"><span class="codenumber">4.4.2</span> <span class="title">Logarithm Properties in Solving Equation</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="Chapter4Section4.html#Chapter4Section4-4" class="internal"><span class="codenumber">4.4.3</span> <span class="title">Answers</span></a></div></li>
+</ul>
+</li>
 <li class="toc-item toc-section"><div class="toc-title-box"><a href="Chapter4Section5.html" class="internal"><span class="codenumber">4.5</span> <span class="title">Graphs of Logarithmic Functions</span></a></div></li>
 <li class="toc-item toc-section"><div class="toc-title-box"><a href="Chapter4Section6.html" class="internal"><span class="codenumber">4.6</span> <span class="title">Exponential and Logarithmic Models</span></a></div></li>
 </ul>
@@ -312,7 +319,211 @@ eBookConfig.enable_chatcodes =  false;
 <main class="ptx-main"><div id="ptx-content" class="ptx-content"><section class="section" id="Chapter4Section4"><h2 class="heading hide-type">
 <span class="type">Section</span><span class="space"> </span><span class="codenumber">4.4</span><span class="space"> </span><span class="title">Logarithmic Properties</span>
 </h2>
-<div class="para" id="Chapter4Section4-2">Text of section.</div></section></div>
+<section class="subsection" id="Chapter4Section4-2"><h3 class="heading hide-type">
+<span class="type">Subsection</span><span class="space"> </span><span class="codenumber">4.4.1</span><span class="space"> </span><span class="title">Properties</span>
+</h3>
+<article class="objectives goal-like" id="Chapter4Section4-2-2"><h4 class="heading">
+<span class="type">Objectives:</span><span class="space"> </span><span class="title">Important Topics of this Section</span>
+</h4>
+<ul class="disc" id="Chapter4Section4-2-2-2">
+<li id="Chapter4Section4-2-2-2-1"><div class="para" id="Chapter4Section4-2-2-2-1-1">Inverse properties of logs</div></li>
+<li id="Chapter4Section4-2-2-2-2"><div class="para" id="Chapter4Section4-2-2-2-2-1">Exponential property of logs</div></li>
+<li id="Chapter4Section4-2-2-2-3"><div class="para" id="Chapter4Section4-2-2-2-3-1">Change of base formula</div></li>
+<li id="Chapter4Section4-2-2-2-4"><div class="para" id="Chapter4Section4-2-2-2-4-1">Sum of logs property</div></li>
+<li id="Chapter4Section4-2-2-2-5"><div class="para" id="Chapter4Section4-2-2-2-5-1">Difference of logs property</div></li>
+<li id="Chapter4Section4-2-2-2-6"><div class="para" id="Chapter4Section4-2-2-2-6-1">Solving equations using log rules</div></li>
+</ul></article><div class="para" id="Chapter4Section4-2-3">In the previous section, we derived two important properties of logarithms, which allowed us to solve some basic exponential and logarithmic equations, and we defined the change of base formula to help us evaluate logarithms with technology.</div>
+<article class="definition definition-like" id="Chapter4Section4-2-4"><h4 class="heading">
+<span class="type">Definition</span><span class="space"> </span><span class="codenumber">4.4.1</span><span class="period">.</span><span class="space"> </span><span class="title">Properties of Logarithms.</span>
+</h4>
+<div class="para logical" id="Chapter4Section4-2-4-2-1"><ul class="disc" id="Chapter4Section4-2-4-2-1-1">
+<li id="Chapter4Section4-2-4-2-1-1-1"><div class="para logical" id="Chapter4Section4-2-4-2-1-1-1-1">
+<div class="para">Inverse Properties:</div>
+<ul class="circle" id="Chapter4Section4-2-4-2-1-1-1-1-1">
+<li id="Chapter4Section4-2-4-2-1-1-1-1-1-1"><div class="para" id="Chapter4Section4-2-4-2-1-1-1-1-1-1-1"><span class="process-math">\(\displaystyle \log_{b}(b^{x})=x\)</span></div></li>
+<li id="Chapter4Section4-2-4-2-1-1-1-1-1-2"><div class="para" id="Chapter4Section4-2-4-2-1-1-1-1-1-2-1"><span class="process-math">\(\displaystyle b^{\log_b(x)}=x\)</span></div></li>
+</ul>
+</div></li>
+<li id="Chapter4Section4-2-4-2-1-1-2"><div class="para" id="Chapter4Section4-2-4-2-1-1-2-1">Exponential Property: <span class="process-math">\(\log_{b}(A^{r})=r\log_{b}(A)\)</span>
+</div></li>
+<li id="Chapter4Section4-2-4-2-1-1-3"><div class="para" id="Chapter4Section4-2-4-2-1-1-3-1">Change of Base:<span class="process-math">\(\log_{b}(A)=\dfrac{\log_c(A)}{\log_c(b)}\)</span>
+</div></li>
+</ul></div></article><div class="para" id="Chapter4Section4-2-5">While these properties allow us to solve a large number of problems, they are not sufficient to solve all problems involving exponential and logarithmic equations. We will now introduce two more properties that help us solve and evaluate these equations.</div>
+<article class="definition definition-like" id="Chapter4Section4-2-6"><h4 class="heading">
+<span class="type">Definition</span><span class="space"> </span><span class="codenumber">4.4.2</span><span class="period">.</span><span class="space"> </span><span class="title">More Properties of Logarithms.</span>
+</h4>
+<div class="para logical" id="Chapter4Section4-2-6-2-1"><ul class="disc" id="Chapter4Section4-2-6-2-1-1">
+<li id="Chapter4Section4-2-6-2-1-1-1"><div class="para" id="Chapter4Section4-2-6-2-1-1-1-1">Sum of Logs Property:<span class="process-math">\(\log_{b}(A)+\log_{b}(C)=\log_{b}(AC)\)</span>
+</div></li>
+<li id="Chapter4Section4-2-6-2-1-1-2"><div class="para" id="Chapter4Section4-2-6-2-1-1-2-1">Difference of Logs Property:<span class="process-math">\(\log_{b}(A)-\log_{b}(C)=\log_{b}(\dfrac{A}{C})\)</span>
+</div></li>
+</ul></div></article><div class="para" id="Chapter4Section4-2-7">It’s just as important to know what properties logarithms do not satisfy as to memorize the valid properties listed above. In particular, the logarithm is not a linear function, which means that it does not distribute: <span class="process-math">\(\log(A+B)\neq \log(A) + \log(B)\text{.}\)</span>
+</div>
+<div class="para" id="Chapter4Section4-2-8">To help in this process we offer a proof to help solidify our new rules and show how they follow from properties you’ve already seen.</div>
+<div class="para" id="Chapter4Section4-2-9">Let <span class="process-math">\(a=\log_{b}(A)\)</span> and <span class="process-math">\(c=\log_{b}(C)\text{.}\)</span> By definition of the logarithm, <span class="process-math">\(b^{a}=A\)</span> and <span class="process-math">\(b^{c}=C\text{.}\)</span> Using these expressions, <span class="process-math">\(AC=b^{a} b^{c}\text{.}\)</span> Using exponent rules on the right, <span class="process-math">\(AC=b^{a+c}\text{.}\)</span> Taking the log of both sides, and utilizing the inverse property of logs,<span class="process-math">\(\log_{b}(AC)=\log_{b}(b^{a+c})=a+c\text{.}\)</span> Replacing <span class="process-math">\(a\)</span> and <span class="process-math">\(c\)</span> with their definition establishes the result <span class="process-math">\(\log_{b}(AC)=\log_{b}(A)+\log_{b}(C)\text{.}\)</span>
+</div>
+<div class="para" id="Chapter4Section4-2-10">The proof for the difference property is very similar.</div>
+<div class="para" id="Chapter4Section4-2-11">With these properties, we can rewrite expressions involving multiple logs as a single log, or break an expression involving a single log into expressions involving multiple logs.</div>
+<article class="example example-like" id="Chapter4Section4-2-12"><h4 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">4.4.3</span><span class="period">.</span>
+</h4>
+<div class="para" id="Chapter4Section4-2-12-1-1">Write <span class="process-math">\(\log_{3}(5)+\log_{3}(8)-\log_{3}(2)\)</span> as a single logarithm.</div>
+<div class="solution solution-like" id="Chapter4Section4-2-12-2">
+<h4 class="heading">
+<span class="type">Solution</span><span class="period">.</span>
+</h4>
+<div class="para" id="Chapter4Section4-2-12-2-1">Using the sum of logs property on the first two terms, <span class="process-math">\(\log_{3}⁡(5)+\log_{3}(8)=\log_{3}(5\times8)=\log_{3}(40)\text{.}\)</span> This reduces our original expression to <span class="process-math">\(\log_{3}(40)-\log_{3}(2)\text{.}\)</span> Then using the difference of logs property, <span class="process-math">\(\log_{3}(40)-\log_{3}(2)=\log_{3}(\dfrac{40}{2})=\log_{3}(20)\text{.}\)</span>
+</div>
+</div></article><article class="example example-like" id="Chapter4Section4-2-13"><h4 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">4.4.4</span><span class="period">.</span>
+</h4>
+<div class="para" id="Chapter4Section4-2-13-1-1">Evaluate <span class="process-math">\(2\log(5)+\log(4)\)</span> without a calculator by first rewriting as a single logarithm.</div>
+<div class="solution solution-like" id="Chapter4Section4-2-13-2">
+<h4 class="heading">
+<span class="type">Solution</span><span class="period">.</span>
+</h4>
+<div class="para" id="Chapter4Section4-2-13-2-1">On the first term, we can use the exponent property of logs to write <span class="process-math">\(2 \log(5)=\log(5^{2})=\log(25)\text{.}\)</span>
+</div>
+<div class="para" id="Chapter4Section4-2-13-2-2">With the expression reduced to a sum of two logs, <span class="process-math">\(\log(25)+\log(4)\text{,}\)</span> we can utilize the sum of logs property <span class="process-math">\(\log(25)+\log(4)=\log(4\times25)=\log(100)\text{.}\)</span>
+</div>
+<div class="para" id="Chapter4Section4-2-13-2-3">Since <span class="process-math">\(100=10^{2}\text{,}\)</span> we can evaluate this log without a calculator: <span class="process-math">\(\log(100)=\log(10^{2})=2\text{.}\)</span>
+</div>
+</div></article><article class="exercise exercise-like" id="Chapter4Section4-2-14"><h4 class="heading">
+<span class="type">Checkpoint</span><span class="space"> </span><span class="codenumber">4.4.5</span><span class="period">.</span>
+</h4>
+<div class="para" id="Chapter4Section4-2-14-1-1">Without a calculator evaluate by first rewriting as a single logarithm: <span class="process-math">\(\log_{2}(8)+\log_{2}(4)\text{.}\)</span>
+</div></article><article class="example example-like" id="Chapter4Section4-2-15"><h4 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">4.4.6</span><span class="period">.</span>
+</h4>
+<div class="para" id="Chapter4Section4-2-15-1-1">Rewrite <span class="process-math">\(\ln(\dfrac{x^4 y}{7})\)</span> as a sum or difference of logs with no exponents inside of the logarithms.</div>
+<div class="solution solution-like" id="Chapter4Section4-2-15-2">
+<h4 class="heading">
+<span class="type">Solution</span><span class="period">.</span>
+</h4>
+<div class="para" id="Chapter4Section4-2-15-2-1">First, noticing we have a quotient of two expressions, we can utilize the difference property of logs to write <span class="process-math">\(\ln(\dfrac{x^4 y}{7})=\ln(x^{4}y)-\ln(7)\text{.}\)</span>
+</div>
+<div class="para" id="Chapter4Section4-2-15-2-2">Then seeing the product in the first term, we use the sum property: <span class="process-math">\(\ln(x^{4}y)-\ln(7)=\ln(x^{4})+\ln(y)-\ln(7)\text{.}\)</span>
+</div>
+<div class="para" id="Chapter4Section4-2-15-2-3">Finally, we could use the exponent property on the first term <span class="process-math">\(\ln(x^{4})+\ln(y)-\ln(7)=4\ln(x)+\ln(y)-\ln(7)\text{.}\)</span>
+</div>
+</div></article></section><section class="subsection" id="Chapter4Section4-3"><h3 class="heading hide-type">
+<span class="type">Subsection</span><span class="space"> </span><span class="codenumber">4.4.2</span><span class="space"> </span><span class="title">Logarithm Properties in Solving Equation</span>
+</h3>
+<div class="para" id="Chapter4Section4-3-2">The logarithm properties often arise when solving problems involving logarithms. First, we’ll look at a simpler log equation.</div>
+<article class="example example-like" id="Chapter4Section4-3-3"><h4 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">4.4.7</span><span class="period">.</span>
+</h4>
+<div class="para" id="Chapter4Section4-3-3-1-1">Solve <span class="process-math">\(\log(2x-6)=3\)</span> for <span class="process-math">\(x\text{.}\)</span>
+</div>
+<div class="solution solution-like" id="Chapter4Section4-3-3-2">
+<h4 class="heading">
+<span class="type">Solution</span><span class="period">.</span>
+</h4>
+<div class="para" id="Chapter4Section4-3-3-2-1">To solve for <span class="process-math">\(x\text{,}\)</span> we need to get it out from inside the log function. There are two ways we can approach this.</div>
+<div class="para" id="Chapter4Section4-3-3-2-2">Method 1: Rewrite as an exponential.</div>
+<div class="para" id="Chapter4Section4-3-3-2-3">Recall that since the common log is base 10, <span class="process-math">\(\log(A)=B\)</span> can be rewritten as the exponential equation <span class="process-math">\(10^{B}=A\text{.}\)</span> Likewise, <span class="process-math">\(\log(2x-6)=3\)</span> can be rewritten in exponential form as <span class="process-math">\(10^{3}=2x-6\text{.}\)</span>
+</div>
+<div class="para" id="Chapter4Section4-3-3-2-4">Method 2: Exponentiate both sides.</div>
+<div class="para" id="Chapter4Section4-3-3-2-5">If <span class="process-math">\(A=B\text{,}\)</span> then <span class="process-math">\(10^{A}=10^{B}\text{.}\)</span> Using this idea, since <span class="process-math">\(\log(2x-6)=3\text{,}\)</span> then <span class="process-math">\(10^{\log(2x-6)}=10^{3}\text{.}\)</span> Use the inverse property of logs to rewrite the left side and get <span class="process-math">\(2x-6=10^{3}\text{.}\)</span>
+</div>
+<div class="para" id="Chapter4Section4-3-3-2-6">Using either method, we now need to solve <span class="process-math">\(2x-6=10^{3}\text{.}\)</span> Evaluate <span class="process-math">\(10^{3}\)</span> to get <span class="process-math">\(2x-6=1000\text{.}\)</span> Add 6 to both sides to get <span class="process-math">\(2x=1006\text{,}\)</span> and then divide both sides by 2 to get <span class="process-math">\(x=503\text{.}\)</span>
+</div>
+<div class="para" id="Chapter4Section4-3-3-2-7">Occasionally the solving process will result in extraneous solutions - answers that are outside the domain of the original equation. In this case, our answer is fine since <span class="process-math">\(x=503\)</span> is well within the domain of the original equation.</div>
+</div></article><article class="example example-like" id="Chapter4Section4-3-4"><h4 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">4.4.8</span><span class="period">.</span>
+</h4>
+<div class="para" id="Chapter4Section4-3-4-1-1">Solve <span class="process-math">\(\log(50x+25)-\log(x)=2\text{.}\)</span>
+</div>
+<div class="solution solution-like" id="Chapter4Section4-3-4-2">
+<h4 class="heading">
+<span class="type">Solution</span><span class="period">.</span>
+</h4>
+<div class="para" id="Chapter4Section4-3-4-2-1">In order to rewrite in exponential form, we need a single logarithmic expression on the left side of the equation. Using the difference property of logs, we can rewrite the left side: <span class="process-math">\(\log(\dfrac{50x+25}{x})=2\text{.}\)</span>
+</div>
+<div class="para" id="Chapter4Section4-3-4-2-2">Rewriting in exponential form reduces this to an algebraic equation: <span class="process-math">\(\dfrac{50x+25}{x}=10^{2}=100\text{.}\)</span> Multiply both sides by <span class="process-math">\(x\)</span> gives us <span class="process-math">\(50x+25=100x\text{.}\)</span> Combining like terms gives us <span class="process-math">\(25=50x\text{,}\)</span> and then dividing by 50 yields <span class="process-math">\(x=\dfrac{25}{50}=\dfrac{1}{2}\text{.}\)</span>
+</div>
+<div class="para" id="Chapter4Section4-3-4-2-3">Checking this answer in the original equation, we can verify there are no domain issues, and this answer is correct.</div>
+</div></article><article class="exercise exercise-like" id="Chapter4Section4-3-5"><h4 class="heading">
+<span class="type">Checkpoint</span><span class="space"> </span><span class="codenumber">4.4.9</span><span class="period">.</span>
+</h4>
+<div class="para" id="Chapter4Section4-3-5-1-1">Solve <span class="process-math">\(\log(x^{2}-4)=1+\log(x+2)\text{.}\)</span>
+</div></article><article class="example example-like" id="Chapter4Section4-3-6"><h4 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">4.4.10</span><span class="period">.</span>
+</h4>
+<div class="para" id="Chapter4Section4-3-6-1-1">Solve <span class="process-math">\(\ln(x+2)+\ln(x+1)=\ln(4x+14)\text{.}\)</span>
+</div>
+<div class="solution solution-like" id="Chapter4Section4-3-6-2">
+<h4 class="heading">
+<span class="type">Solution</span><span class="period">.</span>
+</h4>
+<div class="para" id="Chapter4Section4-3-6-2-1">Using the sum of logs property on the left, <span class="process-math">\(\ln((x+2)(x+1))=\ln(4x+14)\text{.}\)</span> Expand the input of the left side then gives us <span class="process-math">\(\ln(x^{2}+3x+2)=\ln(4x+14)\text{.}\)</span>
+</div>
+<div class="para" id="Chapter4Section4-3-6-2-2">We have a log on both side of the equation this time. Since these two logarithms have the same base and are equal to eachother, it must be true that the inputs of the logarithms must also be equal. Thus, <span class="process-math">\(x^{2}+3x+2=4x+14\text{.}\)</span> Moving all terms to the left side gives us <span class="process-math">\(x^{2}-x-12=0\text{.}\)</span> After factoring this quadratic equation we get <span class="process-math">\((x-4)(x+3)=0\text{.}\)</span> Thus <span class="process-math">\(x = 4\)</span> or <span class="process-math">\(x = -3\text{.}\)</span>
+</div>
+<div class="para" id="Chapter4Section4-3-6-2-3">Checking our answers, notice that evaluating the original equation at <span class="process-math">\(x = -3\)</span> would result in us evaluating <span class="process-math">\(\ln(-1)\text{,}\)</span> which is undefined. That answer is outside the domain of the original equation, so it is an extraneous solution and we discard it. There is one solution: <span class="process-math">\(x = 4\text{.}\)</span>
+</div>
+</div></article><div class="para" id="Chapter4Section4-3-7">More complex exponential equations can often be solved in more than one way. In the following example, we will solve the same problem in two ways - one using logarithm properties, and the other using exponential properties.</div>
+<article class="example example-like" id="Chapter4Section4-3-8"><h4 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">4.4.11</span><span class="period">.</span>
+</h4>
+<div class="para" id="Chapter4Section4-3-8-1-1">In 2008, the population of Kenya was approximately 38.8 million, and was growing by 2.64% each year, while the population of Sudan was approximately 41.3 million and growing by 2.24% each year . If these trends continue, when will the population of Kenya match that of Sudan?</div>
+<div class="solution solution-like" id="Chapter4Section4-3-8-2">
+<h4 class="heading">
+<span class="type">Solution</span><span class="period">.</span>
+</h4>
+<div class="para" id="Chapter4Section4-3-8-2-1">We start by writing an equation for each population in terms of <span class="process-math">\(t\text{,}\)</span> the number of years after 2008. Let the function <span class="process-math">\(K\)</span> calculate the population of Kenya in terms of <span class="process-math">\(t\text{.}\)</span> Then <span class="process-math">\(K(t)=38.8(1+0.0264)^{t}\text{.}\)</span> Let the function <span class="process-math">\(S\)</span> calculate the population of Sudan in terms of <span class="process-math">\(t\text{.}\)</span> Then <span class="process-math">\(S(t)=41.3(1+0.0224)^{t}\text{.}\)</span>
+</div>
+<div class="para logical" id="Chapter4Section4-3-8-2-2">
+<div class="para">To find when the populations will be equal, we can set the equations equal</div>
+<div class="displaymath process-math">
+\begin{equation*}
+38.8(1.0264)^{t}=41.3(1.0224)^{t}.
+\end{equation*}
+</div>
+</div>
+<div class="para" id="Chapter4Section4-3-8-2-3">For our first approach, we take the log of both sides of the equation. <span class="process-math">\(\log(38.8(1.0264)^{t})=\log(41.3(1.0224)^{t})\text{.}\)</span>
+</div>
+<div class="para" id="Chapter4Section4-3-8-2-4">Utilizing the sum property of logs, we can rewrite each side, <span class="process-math">\(\log(38.8)+\log(1.0264^{t})=\log(41.3)+\log(1.0224^{t})\text{.}\)</span>
+</div>
+<div class="para" id="Chapter4Section4-3-8-2-5">Then utilizing the exponent property, we can pull the variables out of the exponent: <span class="process-math">\(\log(38.8)+t \log(1.0264)=\log(41.3)+t \log(1.0224)\text{.}\)</span>
+</div>
+<div class="para" id="Chapter4Section4-3-8-2-6">Moving all the terms involving <span class="process-math">\(t\)</span> to one side of the equation and the rest of the terms to the other side, <span class="process-math">\(t\log(1.0264)-t\log(1.0224)=\log(41.3)-\log(38.8)\text{.}\)</span>
+</div>
+<div class="para" id="Chapter4Section4-3-8-2-7">Factoring out the <span class="process-math">\(t\)</span> on the left, <span class="process-math">\(t(\log(1.0264)-\log(1.0224))=\log(41.3)-\log(38.8)\text{.}\)</span>
+</div>
+<div class="para" id="Chapter4Section4-3-8-2-8">Dividing to solve for <span class="process-math">\(t\text{,}\)</span> we get <span class="process-math">\(t=\dfrac{\log(41.3)-\log(38.8)}{\log(1.0264)-\log(1.0224)}\approx 15.991\text{.}\)</span> So, it will take approximately 15.991 years for the populations to be equal.</div>
+<div class="para" id="Chapter4Section4-3-8-2-9">An alternative method would be to solve the problem above by rewriting before taking the log.</div>
+<div class="para" id="Chapter4Section4-3-8-2-10">Starting at the equation <span class="process-math">\(38.8(1.0264)^{t}=41.3(1.0224)^{t}\text{,}\)</span> we can divide to move the exponential terms to one side of the equation and the constants to the other side. This would give us the equation <span class="process-math">\(\dfrac{1.0264^t}{1.0224^t}=\dfrac{41.3}{38.8}\text{.}\)</span>
+</div>
+<div class="para" id="Chapter4Section4-3-8-2-11">Using exponent rules to group terms on the left, <span class="process-math">\((\dfrac{1.0264}{1.0224})^{t}=\dfrac{41.3}{38.8}\text{.}\)</span>
+</div>
+<div class="para" id="Chapter4Section4-3-8-2-12">Taking the log of both sides gives us <span class="process-math">\(\log((\dfrac{1.0264}{1.0224})^{t})=\log(\dfrac{41.3}{38.8})\text{.}\)</span>
+</div>
+<div class="para" id="Chapter4Section4-3-8-2-13">Utilizing the exponent property on the left, <span class="process-math">\(t\log(\dfrac{1.0264}{1.0224})=\log(\dfrac{41.3}{38.8})\text{.}\)</span>
+</div>
+<div class="para" id="Chapter4Section4-3-8-2-14">Dividing to isolate <span class="process-math">\(t\)</span> gives us <span class="process-math">\(t=\dfrac{\log(\frac{41.3}{38.8})}{\log(\frac{1.0264}{1.0224})}\approx 15.991 \text{ years}\text{.}\)</span>
+</div>
+<div class="para" id="Chapter4Section4-3-8-2-15">While the answer does not immediately appear identical to that produced using the previous method, note that by using the difference property of logs, the second answer could be rewritten: <span class="process-math">\(t=\dfrac{\log(\frac{41.3}{38.8})}{\log(\frac{1.0264}{1.0224})}=\dfrac{\log(41.3)-\log(38.8)}{\log(1.0264)-\log(1.0224)}\text{.}\)</span>
+</div>
+<div class="para" id="Chapter4Section4-3-8-2-16">While both methods work equally well, it often requires fewer steps to utilize algebra before taking logs, rather than relying solely on log properties.</div>
+</div></article><article class="exercise exercise-like" id="Chapter4Section4-3-9"><h4 class="heading">
+<span class="type">Checkpoint</span><span class="space"> </span><span class="codenumber">4.4.12</span><span class="period">.</span>
+</h4>
+<div class="para" id="Chapter4Section4-3-9-1-1">Tank A contains 10 liters of water, and 35% of the water evaporates each week. Tank B contains 30 liters of water, and 50% of the water evaporates each week. In how many weeks will the tanks contain the same amount of water?</div></article></section><section class="subsection" id="Chapter4Section4-4"><h3 class="heading hide-type">
+<span class="type">Subsection</span><span class="space"> </span><span class="codenumber">4.4.3</span><span class="space"> </span><span class="title">Answers</span>
+</h3>
+<article class="exercise exercise-like" id="Chapter4Section4-4-2"><h4 class="heading">
+<span class="type">Checkpoint</span><span class="space"> </span><span class="codenumber">4.4.13</span><span class="period">.</span>
+</h4>
+<div class="para" id="Chapter4Section4-4-2-1-1">Answers to Checkpoint Exercises</div>
+<div class="solutions"><details id="Chapter4Section4-4-2-2" class="answer solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Answer</span><span class="period">.</span></summary><div class="answer solution-like knowl__content"><div class="para logical" id="Chapter4Section4-4-2-2-1"><ol class="decimal" id="Chapter4Section4-4-2-2-1-1">
+<li id="Chapter4Section4-4-2-2-1-1-1"><div class="para" id="Chapter4Section4-4-2-2-1-1-1-1"><span class="process-math">\(\displaystyle \log_{2}(8\times4)=\log_{2}(32)=\log_{2}(2^{5})=5\)</span></div></li>
+<li id="Chapter4Section4-4-2-2-1-1-2"><div class="para" id="Chapter4Section4-4-2-2-1-1-2-1">
+<span class="process-math">\(\log(x^{2}-4)=1+\log(x+2)\text{,}\)</span> move both logs to one side to get <span class="process-math">\(\log(x^{2}-4)-\log(x+2)=1\text{.}\)</span> Use the difference property of logs to get <span class="process-math">\(\log(\dfrac{x^2-4}{x+2})=1\text{.}\)</span> Factor the numerator inside the logarithm to get <span class="process-math">\(\log(\dfrac{(x+2)(x-2)}{x+2})=1\text{.}\)</span> Simplify inside the logarithm to get <span class="process-math">\(\log(x-2)=1\text{.}\)</span> Rewrite as an exponential to get <span class="process-math">\(10^{1}=x-2\text{.}\)</span> Add 2 to both sides to get the solution <span class="process-math">\(x=12\text{.}\)</span>
+</div></li>
+<li id="Chapter4Section4-4-2-2-1-1-3"><div class="para" id="Chapter4Section4-4-2-2-1-1-3-1">Tank A: <span class="process-math">\(A(t)=10(1-0.35)^{t}\text{.}\)</span> Tank B: <span class="process-math">\(B(t)=30(1-0.50)^{t}\text{.}\)</span> Solving <span class="process-math">\(A(t) = B(t)\text{,}\)</span> we set up <span class="process-math">\(10(0.65)^{t}=30(0.5)^{t}\text{.}\)</span> Isolating the exponential terms, <span class="process-math">\(\dfrac{(0.65)^t}{(0.5)^t}=\dfrac{30}{10}\text{.}\)</span> Regrouping terms gives us <span class="process-math">\((\dfrac{0.65}{0.5})^{t}=3\text{.}\)</span> Simplifying gives us <span class="process-math">\((1.3)^{t}=3\text{.}\)</span> Take the log of both sides gives <span class="process-math">\(\log((1.3)^{t})=\log(3)\text{.}\)</span> Pulling out the exponent gives us <span class="process-math">\(t\log(1.3)=\log(3)\text{.}\)</span> Divide and evaluate to find <span class="process-math">\(t=\dfrac{\log(3)}{\log(1.3)}\approx 4.1874 \text{ weeks}\text{.}\)</span>
+</div></li>
+</ol></div></div></details></div></article></section></section></div>
 <div id="ptx-content-footer" class="ptx-content-footer">
 <a class="previous-button button" href="Chapter4Section3.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="top-button button" href="#" title="Top"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Top</span></a><a class="next-button button" href="Chapter4Section5.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a>
 </div></main>

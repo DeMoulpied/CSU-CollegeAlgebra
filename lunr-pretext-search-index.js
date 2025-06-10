@@ -3202,7 +3202,133 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "4.4",
   "title": "Logarithmic Properties",
-  "body": " Logarithmic Properties  Text of section.  "
+  "body": " Logarithmic Properties   Properties   Important Topics of this Section    Inverse properties of logs    Exponential property of logs    Change of base formula    Sum of logs property    Difference of logs property    Solving equations using log rules     In the previous section, we derived two important properties of logarithms, which allowed us to solve some basic exponential and logarithmic equations, and we defined the change of base formula to help us evaluate logarithms with technology.   Properties of Logarithms      Inverse Properties:                Exponential Property:     Change of Base:        While these properties allow us to solve a large number of problems, they are not sufficient to solve all problems involving exponential and logarithmic equations. We will now introduce two more properties that help us solve and evaluate these equations.   More Properties of Logarithms      Sum of Logs Property:     Difference of Logs Property:        It's just as important to know what properties logarithms do not satisfy as to memorize the valid properties listed above. In particular, the logarithm is not a linear function, which means that it does not distribute: .  To help in this process we offer a proof to help solidify our new rules and show how they follow from properties you've already seen.  Let and . By definition of the logarithm, and . Using these expressions, . Using exponent rules on the right, . Taking the log of both sides, and utilizing the inverse property of logs, . Replacing and with their definition establishes the result .  The proof for the difference property is very similar.  With these properties, we can rewrite expressions involving multiple logs as a single log, or break an expression involving a single log into expressions involving multiple logs.    Write as a single logarithm.    Using the sum of logs property on the first two terms, . This reduces our original expression to . Then using the difference of logs property, .      Evaluate without a calculator by first rewriting as a single logarithm.    On the first term, we can use the exponent property of logs to write .  With the expression reduced to a sum of two logs, , we can utilize the sum of logs property .  Since , we can evaluate this log without a calculator: .      Without a calculator evaluate by first rewriting as a single logarithm: .      Rewrite as a sum or difference of logs with no exponents inside of the logarithms.    First, noticing we have a quotient of two expressions, we can utilize the difference property of logs to write .  Then seeing the product in the first term, we use the sum property: .  Finally, we could use the exponent property on the first term .      Logarithm Properties in Solving Equation  The logarithm properties often arise when solving problems involving logarithms. First, we'll look at a simpler log equation.    Solve for .    To solve for , we need to get it out from inside the log function. There are two ways we can approach this.  Method 1: Rewrite as an exponential.  Recall that since the common log is base 10, can be rewritten as the exponential equation . Likewise, can be rewritten in exponential form as .  Method 2: Exponentiate both sides.  If , then . Using this idea, since , then . Use the inverse property of logs to rewrite the left side and get .  Using either method, we now need to solve . Evaluate to get . Add 6 to both sides to get , and then divide both sides by 2 to get .  Occasionally the solving process will result in extraneous solutions - answers that are outside the domain of the original equation. In this case, our answer is fine since is well within the domain of the original equation.      Solve .    In order to rewrite in exponential form, we need a single logarithmic expression on the left side of the equation. Using the difference property of logs, we can rewrite the left side: .  Rewriting in exponential form reduces this to an algebraic equation: . Multiply both sides by gives us . Combining like terms gives us , and then dividing by 50 yields .  Checking this answer in the original equation, we can verify there are no domain issues, and this answer is correct.      Solve .      Solve .    Using the sum of logs property on the left, . Expand the input of the left side then gives us .  We have a log on both side of the equation this time. Since these two logarithms have the same base and are equal to eachother, it must be true that the inputs of the logarithms must also be equal. Thus, . Moving all terms to the left side gives us . After factoring this quadratic equation we get . Thus or .  Checking our answers, notice that evaluating the original equation at would result in us evaluating , which is undefined. That answer is outside the domain of the original equation, so it is an extraneous solution and we discard it. There is one solution: .    More complex exponential equations can often be solved in more than one way. In the following example, we will solve the same problem in two ways - one using logarithm properties, and the other using exponential properties.    In 2008, the population of Kenya was approximately 38.8 million, and was growing by 2.64% each year, while the population of Sudan was approximately 41.3 million and growing by 2.24% each year . If these trends continue, when will the population of Kenya match that of Sudan?    We start by writing an equation for each population in terms of , the number of years after 2008. Let the function calculate the population of Kenya in terms of . Then . Let the function calculate the population of Sudan in terms of . Then .  To find when the populations will be equal, we can set the equations equal   For our first approach, we take the log of both sides of the equation. .  Utilizing the sum property of logs, we can rewrite each side, .  Then utilizing the exponent property, we can pull the variables out of the exponent: .  Moving all the terms involving to one side of the equation and the rest of the terms to the other side, .  Factoring out the on the left, .  Dividing to solve for , we get . So, it will take approximately 15.991 years for the populations to be equal.  An alternative method would be to solve the problem above by rewriting before taking the log.  Starting at the equation , we can divide to move the exponential terms to one side of the equation and the constants to the other side. This would give us the equation .  Using exponent rules to group terms on the left, .  Taking the log of both sides gives us .  Utilizing the exponent property on the left, .  Dividing to isolate gives us .  While the answer does not immediately appear identical to that produced using the previous method, note that by using the difference property of logs, the second answer could be rewritten: .  While both methods work equally well, it often requires fewer steps to utilize algebra before taking logs, rather than relying solely on log properties.      Tank A contains 10 liters of water, and 35% of the water evaporates each week. Tank B contains 30 liters of water, and 50% of the water evaporates each week. In how many weeks will the tanks contain the same amount of water?      Answers   Answers to Checkpoint Exercises             , move both logs to one side to get . Use the difference property of logs to get . Factor the numerator inside the logarithm to get . Simplify inside the logarithm to get . Rewrite as an exponential to get . Add 2 to both sides to get the solution .    Tank A: . Tank B: . Solving , we set up . Isolating the exponential terms, . Regrouping terms gives us . Simplifying gives us . Take the log of both sides gives . Pulling out the exponent gives us . Divide and evaluate to find .        "
+},
+{
+  "id": "Chapter4Section4-2-2",
+  "level": "2",
+  "url": "Chapter4Section4.html#Chapter4Section4-2-2",
+  "type": "Objectives",
+  "number": "4.4.1",
+  "title": "Important Topics of this Section",
+  "body": " Important Topics of this Section    Inverse properties of logs    Exponential property of logs    Change of base formula    Sum of logs property    Difference of logs property    Solving equations using log rules    "
+},
+{
+  "id": "Chapter4Section4-2-4",
+  "level": "2",
+  "url": "Chapter4Section4.html#Chapter4Section4-2-4",
+  "type": "Definition",
+  "number": "4.4.1",
+  "title": "Properties of Logarithms.",
+  "body": " Properties of Logarithms      Inverse Properties:                Exponential Property:     Change of Base:       "
+},
+{
+  "id": "Chapter4Section4-2-6",
+  "level": "2",
+  "url": "Chapter4Section4.html#Chapter4Section4-2-6",
+  "type": "Definition",
+  "number": "4.4.2",
+  "title": "More Properties of Logarithms.",
+  "body": " More Properties of Logarithms      Sum of Logs Property:     Difference of Logs Property:       "
+},
+{
+  "id": "Chapter4Section4-2-12",
+  "level": "2",
+  "url": "Chapter4Section4.html#Chapter4Section4-2-12",
+  "type": "Example",
+  "number": "4.4.3",
+  "title": "",
+  "body": "  Write as a single logarithm.    Using the sum of logs property on the first two terms, . This reduces our original expression to . Then using the difference of logs property, .   "
+},
+{
+  "id": "Chapter4Section4-2-13",
+  "level": "2",
+  "url": "Chapter4Section4.html#Chapter4Section4-2-13",
+  "type": "Example",
+  "number": "4.4.4",
+  "title": "",
+  "body": "  Evaluate without a calculator by first rewriting as a single logarithm.    On the first term, we can use the exponent property of logs to write .  With the expression reduced to a sum of two logs, , we can utilize the sum of logs property .  Since , we can evaluate this log without a calculator: .   "
+},
+{
+  "id": "Chapter4Section4-2-14",
+  "level": "2",
+  "url": "Chapter4Section4.html#Chapter4Section4-2-14",
+  "type": "Checkpoint",
+  "number": "4.4.5",
+  "title": "",
+  "body": "  Without a calculator evaluate by first rewriting as a single logarithm: .   "
+},
+{
+  "id": "Chapter4Section4-2-15",
+  "level": "2",
+  "url": "Chapter4Section4.html#Chapter4Section4-2-15",
+  "type": "Example",
+  "number": "4.4.6",
+  "title": "",
+  "body": "  Rewrite as a sum or difference of logs with no exponents inside of the logarithms.    First, noticing we have a quotient of two expressions, we can utilize the difference property of logs to write .  Then seeing the product in the first term, we use the sum property: .  Finally, we could use the exponent property on the first term .   "
+},
+{
+  "id": "Chapter4Section4-3-3",
+  "level": "2",
+  "url": "Chapter4Section4.html#Chapter4Section4-3-3",
+  "type": "Example",
+  "number": "4.4.7",
+  "title": "",
+  "body": "  Solve for .    To solve for , we need to get it out from inside the log function. There are two ways we can approach this.  Method 1: Rewrite as an exponential.  Recall that since the common log is base 10, can be rewritten as the exponential equation . Likewise, can be rewritten in exponential form as .  Method 2: Exponentiate both sides.  If , then . Using this idea, since , then . Use the inverse property of logs to rewrite the left side and get .  Using either method, we now need to solve . Evaluate to get . Add 6 to both sides to get , and then divide both sides by 2 to get .  Occasionally the solving process will result in extraneous solutions - answers that are outside the domain of the original equation. In this case, our answer is fine since is well within the domain of the original equation.   "
+},
+{
+  "id": "Chapter4Section4-3-4",
+  "level": "2",
+  "url": "Chapter4Section4.html#Chapter4Section4-3-4",
+  "type": "Example",
+  "number": "4.4.8",
+  "title": "",
+  "body": "  Solve .    In order to rewrite in exponential form, we need a single logarithmic expression on the left side of the equation. Using the difference property of logs, we can rewrite the left side: .  Rewriting in exponential form reduces this to an algebraic equation: . Multiply both sides by gives us . Combining like terms gives us , and then dividing by 50 yields .  Checking this answer in the original equation, we can verify there are no domain issues, and this answer is correct.   "
+},
+{
+  "id": "Chapter4Section4-3-5",
+  "level": "2",
+  "url": "Chapter4Section4.html#Chapter4Section4-3-5",
+  "type": "Checkpoint",
+  "number": "4.4.9",
+  "title": "",
+  "body": "  Solve .   "
+},
+{
+  "id": "Chapter4Section4-3-6",
+  "level": "2",
+  "url": "Chapter4Section4.html#Chapter4Section4-3-6",
+  "type": "Example",
+  "number": "4.4.10",
+  "title": "",
+  "body": "  Solve .    Using the sum of logs property on the left, . Expand the input of the left side then gives us .  We have a log on both side of the equation this time. Since these two logarithms have the same base and are equal to eachother, it must be true that the inputs of the logarithms must also be equal. Thus, . Moving all terms to the left side gives us . After factoring this quadratic equation we get . Thus or .  Checking our answers, notice that evaluating the original equation at would result in us evaluating , which is undefined. That answer is outside the domain of the original equation, so it is an extraneous solution and we discard it. There is one solution: .   "
+},
+{
+  "id": "Chapter4Section4-3-8",
+  "level": "2",
+  "url": "Chapter4Section4.html#Chapter4Section4-3-8",
+  "type": "Example",
+  "number": "4.4.11",
+  "title": "",
+  "body": "  In 2008, the population of Kenya was approximately 38.8 million, and was growing by 2.64% each year, while the population of Sudan was approximately 41.3 million and growing by 2.24% each year . If these trends continue, when will the population of Kenya match that of Sudan?    We start by writing an equation for each population in terms of , the number of years after 2008. Let the function calculate the population of Kenya in terms of . Then . Let the function calculate the population of Sudan in terms of . Then .  To find when the populations will be equal, we can set the equations equal   For our first approach, we take the log of both sides of the equation. .  Utilizing the sum property of logs, we can rewrite each side, .  Then utilizing the exponent property, we can pull the variables out of the exponent: .  Moving all the terms involving to one side of the equation and the rest of the terms to the other side, .  Factoring out the on the left, .  Dividing to solve for , we get . So, it will take approximately 15.991 years for the populations to be equal.  An alternative method would be to solve the problem above by rewriting before taking the log.  Starting at the equation , we can divide to move the exponential terms to one side of the equation and the constants to the other side. This would give us the equation .  Using exponent rules to group terms on the left, .  Taking the log of both sides gives us .  Utilizing the exponent property on the left, .  Dividing to isolate gives us .  While the answer does not immediately appear identical to that produced using the previous method, note that by using the difference property of logs, the second answer could be rewritten: .  While both methods work equally well, it often requires fewer steps to utilize algebra before taking logs, rather than relying solely on log properties.   "
+},
+{
+  "id": "Chapter4Section4-3-9",
+  "level": "2",
+  "url": "Chapter4Section4.html#Chapter4Section4-3-9",
+  "type": "Checkpoint",
+  "number": "4.4.12",
+  "title": "",
+  "body": "  Tank A contains 10 liters of water, and 35% of the water evaporates each week. Tank B contains 30 liters of water, and 50% of the water evaporates each week. In how many weeks will the tanks contain the same amount of water?   "
+},
+{
+  "id": "Chapter4Section4-4-2",
+  "level": "2",
+  "url": "Chapter4Section4.html#Chapter4Section4-4-2",
+  "type": "Checkpoint",
+  "number": "4.4.13",
+  "title": "",
+  "body": " Answers to Checkpoint Exercises             , move both logs to one side to get . Use the difference property of logs to get . Factor the numerator inside the logarithm to get . Simplify inside the logarithm to get . Rewrite as an exponential to get . Add 2 to both sides to get the solution .    Tank A: . Tank B: . Solving , we set up . Isolating the exponential terms, . Regrouping terms gives us . Simplifying gives us . Take the log of both sides gives . Pulling out the exponent gives us . Divide and evaluate to find .      "
 },
 {
   "id": "Chapter4Section5",
