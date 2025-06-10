@@ -1,13 +1,14 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<section>
+    <title>Logarithmic Properties</title>
 
-<section xml:id="Chapter4Section4" xmlns:xi="http://www.w3.org/2001/XInclude">
-  <title>Logarithmic Properties</title>
-
-   <subsection>
+    <subsection>
         <title>Properties</title>
 
-        <objectives>
+        <definition>
             <title>Important Topics of this Section</title>
+
+            <statement>
+                <p>
                     <ul>
                         <li>
                             <p>
@@ -45,7 +46,9 @@
                             </p>
                         </li>
                     </ul>
-          </objectives>
+                </p>
+            </statement>
+        </definition>
 
         <p>
             In the previous section, we derived two important properties of logarithms, which allowed us to solve some basic exponential and logarithmic equations, and we defined the change of base formula to help us evaluate logarithms with technology.
@@ -120,12 +123,12 @@
         </definition>
 
         <p>
-            It's just as important to know what properties logarithms do not satisfy as to memorize the valid properties listed above.
+            It’s just as important to know what properties logarithms do not satisfy as to memorize the valid properties listed above.
             In particular, the logarithm is not a linear function, which means that it does not distribute: <m>\log(A+B)\neq \log(A) + \log(B)</m>.
         </p>
 
         <p>
-            To help in this process we offer a proof to help solidify our new rules and show how they follow from properties you've already seen.
+            To help in this process we offer a proof to help solidify our new rules and show how they follow from properties you’ve already seen.
         </p>
 
         <p>
@@ -150,14 +153,13 @@
                 <p>
                     Write <m>\log_{3}(5)+\log_{3}(8)-\log_{3}(2)</m> as a single logarithm.
                 </p>
-              </statement>
-              <solution>
+
                 <p>
                     Using the sum of logs property on the first two terms, <m>\log_{3}⁡(5)+\log_{3}(8)=\log_{3}(5\times8)=\log_{3}(40)</m>.
                     This reduces our original expression to <m>\log_{3}(40)-\log_{3}(2)</m>.
                     Then using the difference of logs property, <m>\log_{3}(40)-\log_{3}(2)=\log_{3}(\dfrac{40}{2})=\log_{3}(20)</m>.
                 </p>
-            </solution>
+            </statement>
         </example>
 
         <example>
@@ -165,8 +167,7 @@
                 <p>
                     Evaluate <m>2\log(5)+\log(4)</m> without a calculator by first rewriting as a single logarithm.
                 </p>
-              </statement>
-              <solution>
+
                 <p>
                     On the first term, we can use the exponent property of logs to write <m>2 \log(5)=\log(5^{2})=\log(25)</m>.
                 </p>
@@ -178,7 +179,7 @@
                 <p>
                     Since <m>100=10^{2}</m>, we can evaluate this log without a calculator: <m>\log(100)=\log(10^{2})=2</m>.
                 </p>
-            </solution>
+            </statement>
         </example>
 
         <exercise>
@@ -192,10 +193,9 @@
         <example>
             <statement>
                 <p>
-                    Rewrite <m>\ln(\dfrac{x^4 y}{7})</m> as a sum or difference of logs with no exponents inside of the logarithms.
+                    Rewrite <m>\ln⁡(\dfrac{x^4 y}{7})</m> as a sum or difference of logs with no exponents inside of the logarithms.
                 </p>
-              </statement>
-              <solution>
+
                 <p>
                     First, noticing we have a quotient of two expressions, we can utilize the difference property of logs to write <m>\ln(\dfrac{x^4 y}{7})=\ln(x^{4}y)-\ln(7)</m>.
                 </p>
@@ -207,7 +207,7 @@
                 <p>
                     Finally, we could use the exponent property on the first term <m>\ln(x^{4})+\ln(y)-\ln(7)=4\ln(x)+\ln(y)-\ln(7)</m>.
                 </p>
-            </solution>
+            </statement>
         </example>
     </subsection>
 
@@ -217,7 +217,7 @@
 
         <p>
             The logarithm properties often arise when solving problems involving logarithms.
-            First, we'll look at a simpler log equation.
+            First, we’ll look at a simpler log equation.
         </p>
 
         <example>
@@ -225,8 +225,7 @@
                 <p>
                     Solve <m>\log(2x-6)=3</m> for <m>x</m>.
                 </p>
-              </statement>
-              <solution>
+
                 <p>
                     To solve for <m>x</m>, we need to get it out from inside the log function.
                     There are two ways we can approach this.
@@ -261,7 +260,7 @@
                     Occasionally the solving process will result in extraneous solutions - answers that are outside the domain of the original equation.
                     In this case, our answer is fine since <m>x=503</m> is well within the domain of the original equation.
                 </p>
-            </solution>
+            </statement>
         </example>
 
         <example>
@@ -269,8 +268,7 @@
                 <p>
                     Solve <m>\log(50x+25)-\log(x)=2</m>.
                 </p>
-              </statement>
-              <solution>
+
                 <p>
                     In order to rewrite in exponential form, we need a single logarithmic expression on the left side of the equation.
                     Using the difference property of logs, we can rewrite the left side: <m>\log(\dfrac{50x+25}{x})=2</m>.
@@ -285,7 +283,7 @@
                 <p>
                     Checking this answer in the original equation, we can verify there are no domain issues, and this answer is correct.
                 </p>
-            </solution>
+            </statement>
         </example>
 
         <exercise>
@@ -301,8 +299,7 @@
                 <p>
                     Solve <m>\ln(x+2)+\ln(x+1)=\ln(4x+14)</m>.
                 </p>
-              </statement>
-              <solution>
+
                 <p>
                     Using the sum of logs property on the left, <m>\ln((x+2)(x+1))=\ln(4x+14)</m>.
                     Expand the input of the left side then gives us <m>\ln(x^{2}+3x+2)=\ln(4x+14)</m>.
@@ -314,30 +311,29 @@
                     Thus, <m>x^{2}+3x+2=4x+14</m>.
                     Moving all terms to the left side gives us <m>x^{2}-x-12=0</m>.
                     After factoring this quadratic equation we get <m>(x-4)(x+3)=0</m>.
-                    Thus <m>x = 4</m> or <m>x = -3</m>.
+                    Thus <m>x = 4</m> or <m>x = −3</m>.
                 </p>
 
                 <p>
-                    Checking our answers, notice that evaluating the original equation at <m>x = -3</m> would result in us evaluating <m>\ln(-1)</m>, which is undefined.
+                    Checking our answers, notice that evaluating the original equation at <m>x = −3</m> would result in us evaluating <m>\ln(-1)</m>, which is undefined.
                     That answer is outside the domain of the original equation, so it is an extraneous solution and we discard it.
                     There is one solution: <m>x = 4</m>.
                 </p>
-            </solution>
+            </statement>
         </example>
 
         <p>
             More complex exponential equations can often be solved in more than one way.
-            In the following example, we will solve the same problem in two ways - one using logarithm properties, and the other using exponential properties.
+            In the following example, we will solve the same problem in two ways – one using logarithm properties, and the other using exponential properties.
         </p>
 
         <example>
             <statement>
                 <p>
-                    In 2008, the population of Kenya was approximately 38.8 million, and was growing by 2.64% each year, while the population of Sudan was approximately 41.3 million and growing by 2.24% each year .
+                    In 2008, the population of Kenya was approximately 38.8 million, and was growing by 2.64%each year, while the population of Sudan was approximately 41.3 million and growing by 2.24%each year .
                     If these trends continue, when will the population of Kenya match that of Sudan?
                 </p>
-              </statement>
-              <solution>
+
                 <p>
                     We start by writing an equation for each population in terms of <m>t</m>, the number of years after 2008.
                     Let the function <m>K</m> calculate the population of Kenya in terms of <m>t</m>.
@@ -411,14 +407,14 @@
                 <p>
                     While both methods work equally well, it often requires fewer steps to utilize algebra before taking logs, rather than relying solely on log properties.
                 </p>
-            </solution>
+            </statement>
         </example>
 
         <exercise>
             <statement>
                 <p>
-                    Tank A contains 10 liters of water, and 35% of the water evaporates each week.
-                    Tank B contains 30 liters of water, and 50% of the water evaporates each week.
+                    Tank A contains 10 liters of water, and 35%of the water evaporates each week.
+                    Tank B contains 30 liters of water, and 50%of the water evaporates each week.
                     In how many weeks will the tanks contain the same amount of water?
                 </p>
             </statement>
@@ -430,9 +426,9 @@
         <title>Answers</title>
 
         <exercise>
-            <statement><p> Answers to Checkpoint Exercises </p> </statement>
-                <answer>
-                  <p>
+            <statement>
+                <p>
+                    [Answers to Checkpoint Exercises]
                     <ul>
                         <li>
                             <p>
@@ -461,8 +457,7 @@
                         </li>
                     </ul>
                 </p>
-              </answer>
+            </statement>
         </exercise>
     </subsection>
-
 </section>
