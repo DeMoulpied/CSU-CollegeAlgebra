@@ -349,8 +349,8 @@
                 <p>
                     To find when the populations will be equal, we can set the equations equal
                     <me>
-                        38.8(1.0264)^{t}=41.3(1.0224)^{t}
-                    </me>.
+                        38.8(1.0264)^{t}=41.3(1.0224)^{t}.
+                    </me>
                 </p>
 
                 <p>
@@ -433,7 +433,7 @@
             <statement><p> Answers to Checkpoint Exercises </p> </statement>
                 <answer>
                   <p>
-                    <ul>
+                    <ol>
                         <li>
                             <p>
                                 <m>\log_{2}(8\times4)=\log_{2}(32)=\log_{2}(2^{5})=5</m>
@@ -455,11 +455,11 @@
                                 Regrouping terms gives us <m>(\dfrac{0.65}{0.5})^{t}=3</m>.
                                 Simplifying gives us <m>(1.3)^{t}=3</m>.
                                 Take the log of both sides gives <m>\log((1.3)^{t})=\log(3)</m>.
-                                Pulling out the exponent gives us <m>t\log(1.3)=\log⁡(3)</m>.
+                                Pulling out the exponent gives us <m>t\log(1.3)=\log(3)</m>.
                                 Divide and evaluate to find <m>t=\dfrac{\log(3)}{\log(1.3)}\approx 4.1874 \text{ weeks}</m>.
                             </p>
                         </li>
-                    </ul>
+                    </ol>
                 </p>
               </answer>
         </exercise>
