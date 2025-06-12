@@ -3337,7 +3337,133 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "4.5",
   "title": "Graphs of Logarithmic Functions",
-  "body": " Graphs of Logarithmic Functions  Text of section.  "
+  "body": " Graphs of Logarithmic Functions   Introduction   Important Topics of this Section    Graph of the logarithmic function (domain and range)    Transformation of logarithmic functions    Creating graphs from equations    Creating equations from graphs     Recall that the exponential function produces this table of values:                                                                                   Since the logarithmic function is an inverse of the exponential, produces the table of values:                                                                                   In this second table, notice that:     As the input increases, the output increases.    As the input increases, the output increases more slowly.    Since the exponential function only outputs positive values, the logarithm can only accept positive values as inputs, so the domain of any logarithm function is .    Since the exponential function can accept all real numbers as inputs, the logarithm can output any real number, so the range is all real numbers, or .     Sketching the graph, notice that as the input approaches zero from the right, the output of the function grows very large in the negative direction, indicating a vertical asymptote at .   Graph of   A graph that approaches negative infinity as x approaches 0 from the right, and increases curving downwards passing through 1 comma 0, 2 comma 1, 4 comma 2 and 8 comma 3    In symbolic notation we write as , and as .   Graphical Features of the Logarithm   Graphically, in the function :   The graph has a horizontal intercept at     The graph has a vertical asymptote at     If , the graph is increasing. If , the graph is decreasing    The domain of the function is , or     The range of the function is all real numbers, or        When sketching a general logarithm with base , it can be helpful to remember that the graph will pass through the points and . To get a feeling for how the base affects the shape of the graph, examine the graphs below.   Three log graphs on the same axes, all that approach negative infinity as x approaches 0 from the right, and that increase curving downwards, all passing through 1 comma 0. The first, labeled log of x, increases most slowly and passes through 10 comma 1. The second, labeled ln of x, increases more rapidly, and passes through a point around 2.818 comma 1. The third, labeled log base 2 of x, increases most rapidly, and passes through 2 comma 1.   Notice that the larger the base, the slower the graph grows. For example, the common logarithm graph, while it grows without bound, it does so very slowly. For example, to reach an output of 8, the input must be 100,000,000.  Another important observation made was the domain of the logarithm. Like the reciprocal and square root functions, the logarithm has a restricted domain which must be considered when finding the domain of a composition involving a logarithms.    Find the domain of the function .    The logarithm is only defined with the input is positive, so this function will only be defined when . Solving this inequality, this is only true when , which is only true when .  The domain of this function is , or in interval notation, .      Find the domain of the function . Before solving this as an inequality, consider how the function has been transformed.      Transformations of the Logarithmic Function  Transformations can be applied to a logarithmic function using the basic transformation techniques, but as with exponential functions, several transformations result in interesting relationships.  First recall the change of base property tells us that . From this, we can see that is a vertical stretch or compression of the graph of the graph. This tells us that a vertical stretch or compression is equivalent to a change of base. For this reason, we will often see graphs of logarithmic functions in terms of the common or natural logarithmic functions.  Next, consider the effect of a horizontal compression on the graph of a logarithmic function. Considering , we can use the sum property to see . Since is a constant, the effect of a horizontal compression is the same as the effect of a vertical shift.    Sketch and .    Graphing these,   Two log graphs on the same axes, both which approach negative infinity as x approaches 0 from the right, and that increase curving downwards. The first labeled ln of x passes through 1 comma 0 and 2.818 comma 1. The second labeled ln of x plus 2 passes through 1 comma 2 and 2.818 comma 3   Note that this vertical shift could also be written as a horizontal compression, since .    While a horizontal stretch or compression can be written as a vertical shift, a horizontal reflection is unique and separate from vertical shifting.  Finally, we will consider the effect of a horizontal shift on the graph of a logarithm.    Sketch a graph of .    This is a horizontal shift to the left by 2 units. Notice that none of our logarithm rules allow us rewrite this in another form, so the effect of this transformation is unique. Shifting the graph of to the left by two units gives us the following graph:   Graph of   Two log graphs on the same axes, both which approach negative infinity as x approaches 0 from the right, and that increase curving downwards. The first labeled ln of x passes through 1 comma 0 and 2.818 comma 1. The second labeled ln of x plus 2 passes through 1 comma 2 and 2.818 comma 3    Notice that due to the horizontal shift, the vertical asymptote shifted to , and the domain shifted to .    We now combine these transformations in the next example.    Sketch a graph of .    Factoring the inside as reveals that this graph is that of the common logarithm, horizontally reflected, vertically stretched by a factor of 5, and shifted to the right by 2 units.  So, we can tell that the vertical asymptote will be shifted to , and the graph will have domain (due to the horizontal reflection). A rough sketch can be created by using the vertical asymptote along with a couple points on the graph, such as and .   Graph of   A graph that decreases curving downwards, passing through negative 8 comma 5 and 1 comma 0 and approaches negative infinity as x approaches 2 from the left.        Sketch a graph of the function .     Transformations of Logarithms   Any transformed logarithmic function can be written in the form , or if horizontally reflected, where is the vertical asymptote.      Find an equation for the logarithmic function graphed here.   A graph that approaches infinity as x approaches negative 2 from the right and decreases curving upwards, passing through negative 1 comma 1, 0 comma 0, and 2 comma negative 1     This graph has a vertical asymptote at and has been vertically reflected. We do not know yet the vertical shift (equivalent to horizontal stretch) or the vertical stretch (equivalent to a change of base). We know so far that the equation will have form .  It appears the graph passes through the points and . Substituting in , we can see: , so , and since , we know that .  Next, substituting in , we see that . Simplifying gives us , and thus .  This gives us the equation . This could also be written as .      Write an equation for the function graphed here.   A graph that increases curving upwards, passing through negative 2 comma negative 2 and 2 comma 0, then approaches infinity as x approaches 3 from the left.       Write the domain and range of the function , and describe its long run behavior.      Answers    Answers to Checkpoint Exercises      Domain: , .     A graph that approaches infinity as x approaches 2 from the right and decreases curving upwards, passing through 3 comma 1, 4 comma 0, and 12 comma negative 2     The graph is horizontally reflected and has a vertical asymptote at , giving the form . Substituting in the point gives , simplifying to . Substituting in , , so . The equation is or .    Domain: or . Range: all real numbers, or . As and as .        "
+},
+{
+  "id": "Chapter4Section5-2-2",
+  "level": "2",
+  "url": "Chapter4Section5.html#Chapter4Section5-2-2",
+  "type": "Objectives",
+  "number": "4.5.1",
+  "title": "Important Topics of this Section",
+  "body": " Important Topics of this Section    Graph of the logarithmic function (domain and range)    Transformation of logarithmic functions    Creating graphs from equations    Creating equations from graphs    "
+},
+{
+  "id": "Chapter4Section5-2-10",
+  "level": "2",
+  "url": "Chapter4Section5.html#Chapter4Section5-2-10",
+  "type": "Figure",
+  "number": "4.5.1",
+  "title": "",
+  "body": " Graph of   A graph that approaches negative infinity as x approaches 0 from the right, and increases curving downwards passing through 1 comma 0, 2 comma 1, 4 comma 2 and 8 comma 3   "
+},
+{
+  "id": "Chapter4Section5-2-12",
+  "level": "2",
+  "url": "Chapter4Section5.html#Chapter4Section5-2-12",
+  "type": "Definition",
+  "number": "4.5.2",
+  "title": "Graphical Features of the Logarithm.",
+  "body": " Graphical Features of the Logarithm   Graphically, in the function :   The graph has a horizontal intercept at     The graph has a vertical asymptote at     If , the graph is increasing. If , the graph is decreasing    The domain of the function is , or     The range of the function is all real numbers, or       "
+},
+{
+  "id": "Chapter4Section5-2-17",
+  "level": "2",
+  "url": "Chapter4Section5.html#Chapter4Section5-2-17",
+  "type": "Example",
+  "number": "4.5.3",
+  "title": "",
+  "body": "  Find the domain of the function .    The logarithm is only defined with the input is positive, so this function will only be defined when . Solving this inequality, this is only true when , which is only true when .  The domain of this function is , or in interval notation, .   "
+},
+{
+  "id": "Chapter4Section5-2-18",
+  "level": "2",
+  "url": "Chapter4Section5.html#Chapter4Section5-2-18",
+  "type": "Checkpoint",
+  "number": "4.5.4",
+  "title": "",
+  "body": "  Find the domain of the function . Before solving this as an inequality, consider how the function has been transformed.   "
+},
+{
+  "id": "Chapter4Section5-3-5",
+  "level": "2",
+  "url": "Chapter4Section5.html#Chapter4Section5-3-5",
+  "type": "Example",
+  "number": "4.5.5",
+  "title": "",
+  "body": "  Sketch and .    Graphing these,   Two log graphs on the same axes, both which approach negative infinity as x approaches 0 from the right, and that increase curving downwards. The first labeled ln of x passes through 1 comma 0 and 2.818 comma 1. The second labeled ln of x plus 2 passes through 1 comma 2 and 2.818 comma 3   Note that this vertical shift could also be written as a horizontal compression, since .   "
+},
+{
+  "id": "Chapter4Section5-3-8",
+  "level": "2",
+  "url": "Chapter4Section5.html#Chapter4Section5-3-8",
+  "type": "Example",
+  "number": "4.5.6",
+  "title": "",
+  "body": "  Sketch a graph of .    This is a horizontal shift to the left by 2 units. Notice that none of our logarithm rules allow us rewrite this in another form, so the effect of this transformation is unique. Shifting the graph of to the left by two units gives us the following graph:   Graph of   Two log graphs on the same axes, both which approach negative infinity as x approaches 0 from the right, and that increase curving downwards. The first labeled ln of x passes through 1 comma 0 and 2.818 comma 1. The second labeled ln of x plus 2 passes through 1 comma 2 and 2.818 comma 3    Notice that due to the horizontal shift, the vertical asymptote shifted to , and the domain shifted to .   "
+},
+{
+  "id": "Chapter4Section5-3-10",
+  "level": "2",
+  "url": "Chapter4Section5.html#Chapter4Section5-3-10",
+  "type": "Example",
+  "number": "4.5.8",
+  "title": "",
+  "body": "  Sketch a graph of .    Factoring the inside as reveals that this graph is that of the common logarithm, horizontally reflected, vertically stretched by a factor of 5, and shifted to the right by 2 units.  So, we can tell that the vertical asymptote will be shifted to , and the graph will have domain (due to the horizontal reflection). A rough sketch can be created by using the vertical asymptote along with a couple points on the graph, such as and .   Graph of   A graph that decreases curving downwards, passing through negative 8 comma 5 and 1 comma 0 and approaches negative infinity as x approaches 2 from the left.     "
+},
+{
+  "id": "Chapter4Section5-3-11",
+  "level": "2",
+  "url": "Chapter4Section5.html#Chapter4Section5-3-11",
+  "type": "Checkpoint",
+  "number": "4.5.10",
+  "title": "",
+  "body": "  Sketch a graph of the function .   "
+},
+{
+  "id": "Chapter4Section5-3-12",
+  "level": "2",
+  "url": "Chapter4Section5.html#Chapter4Section5-3-12",
+  "type": "Definition",
+  "number": "4.5.11",
+  "title": "Transformations of Logarithms.",
+  "body": " Transformations of Logarithms   Any transformed logarithmic function can be written in the form , or if horizontally reflected, where is the vertical asymptote.   "
+},
+{
+  "id": "Chapter4Section5-3-13",
+  "level": "2",
+  "url": "Chapter4Section5.html#Chapter4Section5-3-13",
+  "type": "Example",
+  "number": "4.5.12",
+  "title": "",
+  "body": "  Find an equation for the logarithmic function graphed here.   A graph that approaches infinity as x approaches negative 2 from the right and decreases curving upwards, passing through negative 1 comma 1, 0 comma 0, and 2 comma negative 1     This graph has a vertical asymptote at and has been vertically reflected. We do not know yet the vertical shift (equivalent to horizontal stretch) or the vertical stretch (equivalent to a change of base). We know so far that the equation will have form .  It appears the graph passes through the points and . Substituting in , we can see: , so , and since , we know that .  Next, substituting in , we see that . Simplifying gives us , and thus .  This gives us the equation . This could also be written as .   "
+},
+{
+  "id": "Chapter4Section5-3-14",
+  "level": "2",
+  "url": "Chapter4Section5.html#Chapter4Section5-3-14",
+  "type": "Checkpoint",
+  "number": "4.5.13",
+  "title": "",
+  "body": "  Write an equation for the function graphed here.   A graph that increases curving upwards, passing through negative 2 comma negative 2 and 2 comma 0, then approaches infinity as x approaches 3 from the left.    "
+},
+{
+  "id": "Chapter4Section5-3-15",
+  "level": "2",
+  "url": "Chapter4Section5.html#Chapter4Section5-3-15",
+  "type": "Checkpoint",
+  "number": "4.5.14",
+  "title": "",
+  "body": "  Write the domain and range of the function , and describe its long run behavior.   "
+},
+{
+  "id": "Chapter4Section5-4-2",
+  "level": "2",
+  "url": "Chapter4Section5.html#Chapter4Section5-4-2",
+  "type": "Checkpoint",
+  "number": "4.5.15",
+  "title": "",
+  "body": "  Answers to Checkpoint Exercises      Domain: , .     A graph that approaches infinity as x approaches 2 from the right and decreases curving upwards, passing through 3 comma 1, 4 comma 0, and 12 comma negative 2     The graph is horizontally reflected and has a vertical asymptote at , giving the form . Substituting in the point gives , simplifying to . Substituting in , , so . The equation is or .    Domain: or . Range: all real numbers, or . As and as .      "
 },
 {
   "id": "Chapter4Section6",

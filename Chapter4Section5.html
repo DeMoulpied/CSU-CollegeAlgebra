@@ -310,7 +310,14 @@ eBookConfig.enable_chatcodes =  false;
 <li class="toc-item toc-subsection"><div class="toc-title-box"><a href="Chapter4Section4.html#Chapter4Section4-4" class="internal"><span class="codenumber">4.4.3</span> <span class="title">Answers</span></a></div></li>
 </ul>
 </li>
-<li class="toc-item toc-section active"><div class="toc-title-box"><a href="Chapter4Section5.html" class="internal"><span class="codenumber">4.5</span> <span class="title">Graphs of Logarithmic Functions</span></a></div></li>
+<li class="toc-item toc-section contains-active">
+<div class="toc-title-box"><a href="Chapter4Section5.html" class="internal"><span class="codenumber">4.5</span> <span class="title">Graphs of Logarithmic Functions</span></a></div>
+<ul class="structural toc-item-list active">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="Chapter4Section5.html#Chapter4Section5-2" class="internal"><span class="codenumber">4.5.1</span> <span class="title">Introduction</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="Chapter4Section5.html#Chapter4Section5-3" class="internal"><span class="codenumber">4.5.2</span> <span class="title">Transformations of the Logarithmic Function</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="Chapter4Section5.html#Chapter4Section5-4" class="internal"><span class="codenumber">4.5.3</span> <span class="title">Answers</span></a></div></li>
+</ul>
+</li>
 <li class="toc-item toc-section"><div class="toc-title-box"><a href="Chapter4Section6.html" class="internal"><span class="codenumber">4.6</span> <span class="title">Exponential and Logarithmic Models</span></a></div></li>
 </ul>
 </li>
@@ -319,7 +326,214 @@ eBookConfig.enable_chatcodes =  false;
 <main class="ptx-main"><div id="ptx-content" class="ptx-content"><section class="section" id="Chapter4Section5"><h2 class="heading hide-type">
 <span class="type">Section</span><span class="space"> </span><span class="codenumber">4.5</span><span class="space"> </span><span class="title">Graphs of Logarithmic Functions</span>
 </h2>
-<div class="para" id="Chapter4Section5-2">Text of section.</div></section></div>
+<section class="subsection" id="Chapter4Section5-2"><h3 class="heading hide-type">
+<span class="type">Subsection</span><span class="space"> </span><span class="codenumber">4.5.1</span><span class="space"> </span><span class="title">Introduction</span>
+</h3>
+<article class="objectives goal-like" id="Chapter4Section5-2-2"><h4 class="heading">
+<span class="type">Objectives:</span><span class="space"> </span><span class="title">Important Topics of this Section</span>
+</h4>
+<ul class="disc" id="Chapter4Section5-2-2-2">
+<li id="Chapter4Section5-2-2-2-1"><div class="para" id="Chapter4Section5-2-2-2-1-1">Graph of the logarithmic function (domain and range)</div></li>
+<li id="Chapter4Section5-2-2-2-2"><div class="para" id="Chapter4Section5-2-2-2-2-1">Transformation of logarithmic functions</div></li>
+<li id="Chapter4Section5-2-2-2-3"><div class="para" id="Chapter4Section5-2-2-2-3-1">Creating graphs from equations</div></li>
+<li id="Chapter4Section5-2-2-2-4"><div class="para" id="Chapter4Section5-2-2-2-4-1">Creating equations from graphs</div></li>
+</ul></article><div class="para" id="Chapter4Section5-2-3">Recall that the exponential function <span class="process-math">\(f(x)=2^{x}\)</span> produces this table of values:</div>
+<div class="tabular-box natural-width"><table class="tabular">
+<tr><td class="c m b0 r1 l1 t0 lines"></td></tr>
+<tr>
+<td class="c m b0 r1 l1 t0 lines"><span class="process-math">\(x\)</span></td>
+<td class="c m b0 r1 l0 t0 lines"><span class="process-math">\(-3\)</span></td>
+<td class="c m b0 r1 l0 t0 lines"><span class="process-math">\(-2\)</span></td>
+<td class="c m b0 r1 l0 t0 lines"><span class="process-math">\(-1\)</span></td>
+<td class="c m b0 r1 l0 t0 lines"><span class="process-math">\(0\)</span></td>
+<td class="c m b0 r1 l0 t0 lines"><span class="process-math">\(1\)</span></td>
+<td class="c m b0 r1 l0 t0 lines"><span class="process-math">\(2\)</span></td>
+<td class="c m b0 r1 l0 t0 lines"><span class="process-math">\(3\)</span></td>
+</tr>
+<tr><td class="c m b0 r1 l1 t0 lines"></td></tr>
+<tr>
+<td class="c m b0 r1 l1 t0 lines"><span class="process-math">\(f(x)\)</span></td>
+<td class="c m b0 r1 l0 t0 lines"><span class="process-math">\(\dfrac{1}{8}\)</span></td>
+<td class="c m b0 r1 l0 t0 lines"><span class="process-math">\(\dfrac{1}{4}\)</span></td>
+<td class="c m b0 r1 l0 t0 lines"><span class="process-math">\(\dfrac{1}{2}\)</span></td>
+<td class="c m b0 r1 l0 t0 lines"><span class="process-math">\(1\)</span></td>
+<td class="c m b0 r1 l0 t0 lines"><span class="process-math">\(2\)</span></td>
+<td class="c m b0 r1 l0 t0 lines"><span class="process-math">\(4\)</span></td>
+<td class="c m b0 r1 l0 t0 lines"><span class="process-math">\(8\)</span></td>
+</tr>
+<tr><td class="c m b0 r1 l1 t0 lines"></td></tr>
+</table></div>
+<div class="para" id="Chapter4Section5-2-5">Since the logarithmic function is an inverse of the exponential, <span class="process-math">\(g(x)=\log_{2}(x)\)</span> produces the table of values:</div>
+<div class="tabular-box natural-width"><table class="tabular">
+<tr><td class="c m b0 r1 l1 t0 lines"></td></tr>
+<tr>
+<td class="c m b0 r1 l1 t0 lines"><span class="process-math">\(x\)</span></td>
+<td class="c m b0 r1 l0 t0 lines"><span class="process-math">\(\dfrac{1}{8}\)</span></td>
+<td class="c m b0 r1 l0 t0 lines"><span class="process-math">\(\dfrac{1}{4}\)</span></td>
+<td class="c m b0 r1 l0 t0 lines"><span class="process-math">\(\dfrac{1}{2}\)</span></td>
+<td class="c m b0 r1 l0 t0 lines"><span class="process-math">\(1\)</span></td>
+<td class="c m b0 r1 l0 t0 lines"><span class="process-math">\(2\)</span></td>
+<td class="c m b0 r1 l0 t0 lines"><span class="process-math">\(4\)</span></td>
+<td class="c m b0 r1 l0 t0 lines"><span class="process-math">\(8\)</span></td>
+</tr>
+<tr><td class="c m b0 r1 l1 t0 lines"></td></tr>
+<tr>
+<td class="c m b0 r1 l1 t0 lines"><span class="process-math">\(g(x)\)</span></td>
+<td class="c m b0 r1 l0 t0 lines"><span class="process-math">\(-3\)</span></td>
+<td class="c m b0 r1 l0 t0 lines"><span class="process-math">\(-2\)</span></td>
+<td class="c m b0 r1 l0 t0 lines"><span class="process-math">\(-1\)</span></td>
+<td class="c m b0 r1 l0 t0 lines"><span class="process-math">\(0\)</span></td>
+<td class="c m b0 r1 l0 t0 lines"><span class="process-math">\(1\)</span></td>
+<td class="c m b0 r1 l0 t0 lines"><span class="process-math">\(2\)</span></td>
+<td class="c m b0 r1 l0 t0 lines"><span class="process-math">\(3\)</span></td>
+</tr>
+<tr><td class="c m b0 r1 l1 t0 lines"></td></tr>
+</table></div>
+<div class="para" id="Chapter4Section5-2-7">In this second table, notice that:</div>
+<div class="para logical" id="Chapter4Section5-2-8"><ol class="decimal" id="Chapter4Section5-2-8-1">
+<li id="Chapter4Section5-2-8-1-1"><div class="para" id="Chapter4Section5-2-8-1-1-1">As the input increases, the output increases.</div></li>
+<li id="Chapter4Section5-2-8-1-2"><div class="para" id="Chapter4Section5-2-8-1-2-1">As the input increases, the output increases more slowly.</div></li>
+<li id="Chapter4Section5-2-8-1-3"><div class="para" id="Chapter4Section5-2-8-1-3-1">Since the exponential function only outputs positive values, the logarithm can only accept positive values as inputs, so the domain of any logarithm function is <span class="process-math">\((0,\infty)\text{.}\)</span>
+</div></li>
+<li id="Chapter4Section5-2-8-1-4"><div class="para" id="Chapter4Section5-2-8-1-4-1">Since the exponential function can accept all real numbers as inputs, the logarithm can output any real number, so the range is all real numbers, or <span class="process-math">\((-\infty,\infty)\text{.}\)</span>
+</div></li>
+</ol></div>
+<div class="para" id="Chapter4Section5-2-9">Sketching the graph, notice that as the input approaches zero from the right, the output of the function grows very large in the negative direction, indicating a vertical asymptote at <span class="process-math">\(x = 0\text{.}\)</span>
+</div>
+<figure class="figure figure-like" id="Chapter4Section5-2-10"><div class="image-box" style="width: 100%; margin-left: 0%; margin-right: 0%;"><img src="external/C4S5Image1.png" class="contained" alt="A graph that approaches negative infinity as x approaches 0 from the right, and increases curving downwards passing through 1 comma 0, 2 comma 1, 4 comma 2 and 8 comma 3"></div>
+<figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">4.5.1<span class="period">.</span></span><span class="space"> </span>Graph of <span class="process-math">\(g(x)=\log_{2}(x)\)</span></figcaption></figure><div class="para" id="Chapter4Section5-2-11">In symbolic notation we write as <span class="process-math">\(x\to 0^{+}, f(x)\to -\infty\text{,}\)</span> and as <span class="process-math">\(x\to \infty, f(x)\to \infty\text{.}\)</span>
+</div>
+<article class="definition definition-like" id="Chapter4Section5-2-12"><h4 class="heading">
+<span class="type">Definition</span><span class="space"> </span><span class="codenumber">4.5.2</span><span class="period">.</span><span class="space"> </span><span class="title">Graphical Features of the Logarithm.</span>
+</h4>
+<div class="para logical" id="Chapter4Section5-2-12-2-1">
+<div class="para">Graphically, in the function <span class="process-math">\(g(x)=\log_{b}(x)\text{:}\)</span>
+</div>
+<ul class="disc" id="Chapter4Section5-2-12-2-1-2">
+<li id="Chapter4Section5-2-12-2-1-2-1"><div class="para" id="Chapter4Section5-2-12-2-1-2-1-1">The graph has a horizontal intercept at <span class="process-math">\((1,0)\)</span>
+</div></li>
+<li id="Chapter4Section5-2-12-2-1-2-2"><div class="para" id="Chapter4Section5-2-12-2-1-2-2-1">The graph has a vertical asymptote at <span class="process-math">\(x = 0\)</span>
+</div></li>
+<li id="Chapter4Section5-2-12-2-1-2-3"><div class="para" id="Chapter4Section5-2-12-2-1-2-3-1">If <span class="process-math">\(b&gt;1\text{,}\)</span> the graph is increasing. If <span class="process-math">\(0&lt;b&lt;1\text{,}\)</span> the graph is decreasing</div></li>
+<li id="Chapter4Section5-2-12-2-1-2-4"><div class="para" id="Chapter4Section5-2-12-2-1-2-4-1">The domain of the function is <span class="process-math">\(x &gt; 0\text{,}\)</span> or <span class="process-math">\((0,\infty)\)</span>
+</div></li>
+<li id="Chapter4Section5-2-12-2-1-2-5"><div class="para" id="Chapter4Section5-2-12-2-1-2-5-1">The range of the function is all real numbers, or <span class="process-math">\((-\infty,\infty)\)</span>
+</div></li>
+</ul>
+</div></article><div class="para" id="Chapter4Section5-2-13">When sketching a general logarithm with base <span class="process-math">\(b\text{,}\)</span> it can be helpful to remember that the graph will pass through the points <span class="process-math">\((1, 0)\)</span> and <span class="process-math">\((b, 1)\text{.}\)</span> To get a feeling for how the base affects the shape of the graph, examine the graphs below.</div>
+<div class="image-box" style="width: 100%; margin-left: 0%; margin-right: 0%;"><img src="external/C4S5Image2.png" class="contained" alt="Three log graphs on the same axes, all that approach negative infinity as x approaches 0 from the right, and that increase curving downwards, all passing through 1 comma 0.  The first, labeled log of x, increases most slowly and passes through 10 comma 1.  The second, labeled ln of x, increases more rapidly, and passes through a point around 2.818 comma 1.  The third, labeled log base 2 of x, increases most rapidly, and passes through 2 comma 1."></div>
+<div class="para" id="Chapter4Section5-2-15">Notice that the larger the base, the slower the graph grows. For example, the common logarithm graph, while it grows without bound, it does so very slowly. For example, to reach an output of 8, the input must be 100,000,000.</div>
+<div class="para" id="Chapter4Section5-2-16">Another important observation made was the domain of the logarithm. Like the reciprocal and square root functions, the logarithm has a restricted domain which must be considered when finding the domain of a composition involving a logarithms.</div>
+<article class="example example-like" id="Chapter4Section5-2-17"><h4 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">4.5.3</span><span class="period">.</span>
+</h4>
+<div class="para" id="Chapter4Section5-2-17-1-1">Find the domain of the function <span class="process-math">\(f(x)=\log(5-2x)\text{.}\)</span>
+</div>
+<div class="solution solution-like" id="Chapter4Section5-2-17-2">
+<h4 class="heading">
+<span class="type">Solution</span><span class="period">.</span>
+</h4>
+<div class="para" id="Chapter4Section5-2-17-2-1">The logarithm is only defined with the input is positive, so this function will only be defined when <span class="process-math">\(5-2x&gt;0\text{.}\)</span> Solving this inequality, this is only true when <span class="process-math">\(-2x&gt;-5\text{,}\)</span> which is only true when <span class="process-math">\(x&lt;\dfrac{5}{2}\text{.}\)</span>
+</div>
+<div class="para" id="Chapter4Section5-2-17-2-2">The domain of this function is <span class="process-math">\(x&lt;\dfrac{5}{2}\text{,}\)</span> or in interval notation, <span class="process-math">\((-\infty,\dfrac{5}{2})\text{.}\)</span>
+</div>
+</div></article><article class="exercise exercise-like" id="Chapter4Section5-2-18"><h4 class="heading">
+<span class="type">Checkpoint</span><span class="space"> </span><span class="codenumber">4.5.4</span><span class="period">.</span>
+</h4>
+<div class="para" id="Chapter4Section5-2-18-1-1">Find the domain of the function <span class="process-math">\(f(x)=\log(x-5)+2\text{.}\)</span> Before solving this as an inequality, consider how the function has been transformed.</div></article></section><section class="subsection" id="Chapter4Section5-3"><h3 class="heading hide-type">
+<span class="type">Subsection</span><span class="space"> </span><span class="codenumber">4.5.2</span><span class="space"> </span><span class="title">Transformations of the Logarithmic Function</span>
+</h3>
+<div class="para" id="Chapter4Section5-3-2">Transformations can be applied to a logarithmic function using the basic transformation techniques, but as with exponential functions, several transformations result in interesting relationships.</div>
+<div class="para" id="Chapter4Section5-3-3">First recall the change of base property tells us that <span class="process-math">\(\log_{b}(x)=\dfrac{\log_c(x)}{\log_c(b)}=\dfrac{1}{\log_c(b)}\log_{c}(x)\text{.}\)</span> From this, we can see that <span class="process-math">\(\log_{b}(x)\)</span> is a vertical stretch or compression of the graph of the <span class="process-math">\(\log_{c}(x)\)</span> graph. This tells us that a vertical stretch or compression is equivalent to a change of base. For this reason, we will often see graphs of logarithmic functions in terms of the common or natural logarithmic functions.</div>
+<div class="para" id="Chapter4Section5-3-4">Next, consider the effect of a horizontal compression on the graph of a logarithmic function. Considering <span class="process-math">\(f(x)=\log(cx)\text{,}\)</span> we can use the sum property to see <span class="process-math">\(f(x)=\log(cx)=\log(c)+\log(x)\text{.}\)</span> Since <span class="process-math">\(\log(c)\)</span> is a constant, the effect of a horizontal compression is the same as the effect of a vertical shift.</div>
+<article class="example example-like" id="Chapter4Section5-3-5"><h4 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">4.5.5</span><span class="period">.</span>
+</h4>
+<div class="para" id="Chapter4Section5-3-5-1-1">Sketch <span class="process-math">\(f(x)=\ln(x)\)</span> and <span class="process-math">\(g(x)=\ln(x)+2\text{.}\)</span>
+</div>
+<div class="solution solution-like" id="Chapter4Section5-3-5-2">
+<h4 class="heading">
+<span class="type">Solution</span><span class="period">.</span>
+</h4>
+<div class="para" id="Chapter4Section5-3-5-2-1">Graphing these,</div>
+<div class="image-box" style="width: 100%; margin-left: 0%; margin-right: 0%;"><img src="external/C4S5Image3.png" class="contained" alt="Two log graphs on the same axes, both which approach negative infinity as x approaches 0 from the right, and that increase curving downwards. The first labeled ln of x passes through 1 comma 0 and 2.818 comma 1.  The second labeled ln of x plus 2 passes through 1 comma 2 and 2.818 comma 3"></div>
+<div class="para" id="Chapter4Section5-3-5-2-3">Note that this vertical shift could also be written as a horizontal compression, since <span class="process-math">\(g(x)=\ln(x)+2=\ln(x)+\ln(e^{2})=\ln(e^{2}x)\text{.}\)</span>
+</div>
+</div></article><div class="para" id="Chapter4Section5-3-6">While a horizontal stretch or compression can be written as a vertical shift, a horizontal reflection is unique and separate from vertical shifting.</div>
+<div class="para" id="Chapter4Section5-3-7">Finally, we will consider the effect of a horizontal shift on the graph of a logarithm.</div>
+<article class="example example-like" id="Chapter4Section5-3-8"><h4 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">4.5.6</span><span class="period">.</span>
+</h4>
+<div class="para" id="Chapter4Section5-3-8-1-1">Sketch a graph of <span class="process-math">\(f(x)=\ln(x+2)\text{.}\)</span>
+</div>
+<div class="solution solution-like" id="Chapter4Section5-3-8-2">
+<h4 class="heading">
+<span class="type">Solution</span><span class="period">.</span>
+</h4>
+<div class="para" id="Chapter4Section5-3-8-2-1">This is a horizontal shift to the left by 2 units. Notice that none of our logarithm rules allow us rewrite this in another form, so the effect of this transformation is unique. Shifting the graph of <span class="process-math">\(\ln(x)\)</span> to the left by two units gives us the following graph:</div>
+<figure class="figure figure-like" id="Chapter4Section5-3-8-2-2"><div class="image-box" style="width: 100%; margin-left: 0%; margin-right: 0%;"><img src="external/C4S5Image4.png" class="contained" alt="Two log graphs on the same axes, both which approach negative infinity as x approaches 0 from the right, and that increase curving downwards. The first labeled ln of x passes through 1 comma 0 and 2.818 comma 1.  The second labeled ln of x plus 2 passes through 1 comma 2 and 2.818 comma 3"></div>
+<figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">4.5.7<span class="period">.</span></span><span class="space"> </span>Graph of <span class="process-math">\(f(x)=\ln(x+2)\)</span></figcaption></figure><div class="para" id="Chapter4Section5-3-8-2-3">Notice that due to the horizontal shift, the vertical asymptote shifted to <span class="process-math">\(x = -2\text{,}\)</span> and the domain shifted to <span class="process-math">\((-2,\infty)\text{.}\)</span>
+</div>
+</div></article><div class="para" id="Chapter4Section5-3-9">We now combine these transformations in the next example.</div>
+<article class="example example-like" id="Chapter4Section5-3-10"><h4 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">4.5.8</span><span class="period">.</span>
+</h4>
+<div class="para" id="Chapter4Section5-3-10-1-1">Sketch a graph of <span class="process-math">\(f(x)=5\log(-x+2)\text{.}\)</span>
+</div>
+<div class="solution solution-like" id="Chapter4Section5-3-10-2">
+<h4 class="heading">
+<span class="type">Solution</span><span class="period">.</span>
+</h4>
+<div class="para" id="Chapter4Section5-3-10-2-1">Factoring the inside as <span class="process-math">\(f(x)=5\log(-(x-2))\)</span> reveals that this graph is that of the common logarithm, horizontally reflected, vertically stretched by a factor of 5, and shifted to the right by 2 units.</div>
+<div class="para" id="Chapter4Section5-3-10-2-2">So, we can tell that the vertical asymptote will be shifted to <span class="process-math">\(x = 2\text{,}\)</span> and the graph will have domain <span class="process-math">\((-\infty,2)\)</span> (due to the horizontal reflection). A rough sketch can be created by using the vertical asymptote along with a couple points on the graph, such as <span class="process-math">\(f(1)=5\log(-1+2)=5\log(1)=0\)</span> and <span class="process-math">\(f(-8)=5\log(-(-8)+2)=5\log(10)=5\text{.}\)</span>
+</div>
+<figure class="figure figure-like" id="Chapter4Section5-3-10-2-3"><div class="image-box" style="width: 100%; margin-left: 0%; margin-right: 0%;"><img src="external/C4S5Image5.png" class="contained" alt="A graph that decreases curving downwards, passing through negative 8 comma 5 and 1 comma 0 and approaches negative infinity as x approaches 2 from the left."></div>
+<figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">4.5.9<span class="period">.</span></span><span class="space"> </span>Graph of <span class="process-math">\(f(x)=5\log(-x+2)\)</span></figcaption></figure>
+</div></article><article class="exercise exercise-like" id="Chapter4Section5-3-11"><h4 class="heading">
+<span class="type">Checkpoint</span><span class="space"> </span><span class="codenumber">4.5.10</span><span class="period">.</span>
+</h4>
+<div class="para" id="Chapter4Section5-3-11-1-1">Sketch a graph of the function <span class="process-math">\(f(x)=-3\log(x-2)+1\text{.}\)</span>
+</div></article><article class="definition definition-like" id="Chapter4Section5-3-12"><h4 class="heading">
+<span class="type">Definition</span><span class="space"> </span><span class="codenumber">4.5.11</span><span class="period">.</span><span class="space"> </span><span class="title">Transformations of Logarithms.</span>
+</h4>
+<div class="para" id="Chapter4Section5-3-12-2-1">Any transformed logarithmic function can be written in the form <span class="process-math">\(f(x)=a\log(x-b)+k\text{,}\)</span> or <span class="process-math">\(f(x)=a\log(-(x-b))+k\)</span> if horizontally reflected, where <span class="process-math">\(x = b\)</span> is the vertical asymptote.</div></article><article class="example example-like" id="Chapter4Section5-3-13"><h4 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">4.5.12</span><span class="period">.</span>
+</h4>
+<div class="para" id="Chapter4Section5-3-13-1-1">Find an equation for the logarithmic function graphed here.</div> <div class="image-box" style="width: 100%; margin-left: 0%; margin-right: 0%;"><img src="external/C4S5Image6.png" class="contained" alt="A graph that approaches infinity as x approaches negative 2 from the right and decreases curving upwards, passing through negative 1 comma 1, 0 comma 0, and 2 comma negative 1"></div>
+<div class="solution solution-like" id="Chapter4Section5-3-13-2">
+<h4 class="heading">
+<span class="type">Solution</span><span class="period">.</span>
+</h4>
+<div class="para" id="Chapter4Section5-3-13-2-1">This graph has a vertical asymptote at <span class="process-math">\(x =-2\)</span> and has been vertically reflected. We do not know yet the vertical shift (equivalent to horizontal stretch) or the vertical stretch (equivalent to a change of base). We know so far that the equation will have form <span class="process-math">\(f(x)=-a\log(x+2)+k\text{.}\)</span>
+</div>
+<div class="para" id="Chapter4Section5-3-13-2-2">It appears the graph passes through the points <span class="process-math">\((-1, 1)\)</span> and <span class="process-math">\((2,-1)\text{.}\)</span> Substituting in <span class="process-math">\((-1, 1)\text{,}\)</span> we can see: <span class="process-math">\(1=-a\log(-1+2)+k\text{,}\)</span> so <span class="process-math">\(1=-a\log(1)+k\text{,}\)</span> and since <span class="process-math">\(\log(1)=0\text{,}\)</span> we know that <span class="process-math">\(1=k\text{.}\)</span>
+</div>
+<div class="para" id="Chapter4Section5-3-13-2-3">Next, substituting in <span class="process-math">\((2,-1)\text{,}\)</span> we see that <span class="process-math">\(-1=-a\log(2+2)+1\text{.}\)</span> Simplifying gives us <span class="process-math">\(-2=-a\log( 4)\text{,}\)</span> and thus <span class="process-math">\(a=\dfrac{2}{\log(4)}\text{.}\)</span>
+</div>
+<div class="para" id="Chapter4Section5-3-13-2-4">This gives us the equation <span class="process-math">\(f(x)=\dfrac{-2}{\log(4)}\log(x+2)+1\text{.}\)</span> This could also be written as <span class="process-math">\(f(x)=-2\log_{4}(x+2)+1\text{.}\)</span>
+</div>
+</div></article><article class="exercise exercise-like" id="Chapter4Section5-3-14"><h4 class="heading">
+<span class="type">Checkpoint</span><span class="space"> </span><span class="codenumber">4.5.13</span><span class="period">.</span>
+</h4>
+<div class="para" id="Chapter4Section5-3-14-1-1">Write an equation for the function graphed here.</div> <div class="image-box" style="width: 100%; margin-left: 0%; margin-right: 0%;"><img src="external/C4S5Image7.png" class="contained" alt="A graph that increases curving upwards, passing through negative 2 comma negative 2 and 2 comma 0, then approaches infinity as x approaches 3 from the left."></div></article><article class="exercise exercise-like" id="Chapter4Section5-3-15"><h4 class="heading">
+<span class="type">Checkpoint</span><span class="space"> </span><span class="codenumber">4.5.14</span><span class="period">.</span>
+</h4>
+<div class="para" id="Chapter4Section5-3-15-1-1">Write the domain and range of the function <span class="process-math">\(f(x)=-2\log_{4}(x+2)+1\text{,}\)</span> and describe its long run behavior.</div></article></section><section class="subsection" id="Chapter4Section5-4"><h3 class="heading hide-type">
+<span class="type">Subsection</span><span class="space"> </span><span class="codenumber">4.5.3</span><span class="space"> </span><span class="title">Answers</span>
+</h3>
+<article class="exercise exercise-like" id="Chapter4Section5-4-2"><h4 class="heading">
+<span class="type">Checkpoint</span><span class="space"> </span><span class="codenumber">4.5.15</span><span class="period">.</span>
+</h4>
+<div class="para" id="Chapter4Section5-4-2-1-1">Answers to Checkpoint Exercises</div>
+<div class="solutions"><details id="Chapter4Section5-4-2-2" class="answer solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Answer</span><span class="period">.</span></summary><div class="answer solution-like knowl__content"><div class="para logical" id="Chapter4Section5-4-2-2-1"><ol class="decimal" id="Chapter4Section5-4-2-2-1-1">
+<li id="Chapter4Section5-4-2-2-1-1-1"><div class="para" id="Chapter4Section5-4-2-2-1-1-1-1">Domain: <span class="process-math">\(x &gt; 5\text{,}\)</span> <span class="process-math">\((5,\infty)\text{.}\)</span>
+</div></li>
+<li id="Chapter4Section5-4-2-2-1-1-2"><div class="image-box" style="width: 100%; margin-left: 0%; margin-right: 0%;"><img src="external/C4S5Image8.png" class="contained" alt="A graph that approaches infinity as x approaches 2 from the right and decreases curving upwards, passing through 3 comma 1, 4 comma 0, and 12 comma negative 2"></div></li>
+<li id="Chapter4Section5-4-2-2-1-1-3"><div class="para" id="Chapter4Section5-4-2-2-1-1-3-1">The graph is horizontally reflected and has a vertical asymptote at <span class="process-math">\(x = 3\text{,}\)</span> giving the form <span class="process-math">\(f(x)=a\log(-(x-3))+k\text{.}\)</span> Substituting in the point <span class="process-math">\((2,0)\)</span> gives <span class="process-math">\(0=a\log(-(2-3))+k\text{,}\)</span> simplifying to <span class="process-math">\(k = 0\text{.}\)</span> Substituting in <span class="process-math">\((-2,-2)\text{,}\)</span> <span class="process-math">\(-2=a\log(-(-2-3))\text{,}\)</span> so <span class="process-math">\(\dfrac{-2}{\log( 5)}=a\text{.}\)</span> The equation is <span class="process-math">\(f(x)=\dfrac{-2}{\log( 5)}\log(-(x-3))\)</span> or <span class="process-math">\(f(x)=-2\log_{5}(-(x-3))\text{.}\)</span>
+</div></li>
+<li id="Chapter4Section5-4-2-2-1-1-4"><div class="para" id="Chapter4Section5-4-2-2-1-1-4-1">Domain: <span class="process-math">\(x&gt;-2\)</span> or <span class="process-math">\((-2,\infty)\text{.}\)</span> Range: all real numbers, or <span class="process-math">\((-\infty, \infty)\text{.}\)</span> As <span class="process-math">\(x\to-2^{+}, f(x)\to \infty\)</span> and as <span class="process-math">\(x\to\infty, f(x)\to-\infty\text{.}\)</span>
+</div></li>
+</ol></div></div></details></div></article></section></section></div>
 <div id="ptx-content-footer" class="ptx-content-footer">
 <a class="previous-button button" href="Chapter4Section4.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="top-button button" href="#" title="Top"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Top</span></a><a class="next-button button" href="Chapter4Section6.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a>
 </div></main>
