@@ -1,13 +1,14 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<section>
+    <title>Graphs of Logarithmic Functions</title>
 
-<section xml:id="Chapter4Section5" xmlns:xi="http://www.w3.org/2001/XInclude">
-  <title>Graphs of Logarithmic Functions</title>
-
-      <subsection>
+    <subsection>
         <title>Introduction</title>
 
-        <objectives>
+        <definition>
             <title>Important Topics of this Section</title>
+
+            <statement>
+                <p>
                     <ul>
                         <li>
                             <p>
@@ -33,7 +34,9 @@
                             </p>
                         </li>
                     </ul>
-          </objectives>
+                </p>
+            </statement>
+        </definition>
 
         <p>
             Recall that the exponential function <m>f(x)=2^{x}</m> produces this table of values:
@@ -41,7 +44,7 @@
 
         <tabular left="minor">
             <col halign="center" right="minor"> </col> <col halign="center" right="minor"> </col> <col halign="center" right="minor"> </col> <col halign="center" right="minor"> </col> <col halign="center" right="minor"> </col> <col halign="center" right="minor"> </col> <col halign="center" right="minor"> </col> <col halign="center" right="minor"> </col>
-            <row> <cell></cell>
+            <row>
             </row>
 
             <row>
@@ -81,7 +84,7 @@
 
         <tabular left="minor">
             <col halign="center" right="minor"> </col> <col halign="center" right="minor"> </col> <col halign="center" right="minor"> </col> <col halign="center" right="minor"> </col> <col halign="center" right="minor"> </col> <col halign="center" right="minor"> </col> <col halign="center" right="minor"> </col> <col halign="center" right="minor"> </col>
-            <row> <cell></cell>
+            <row>
             </row>
 
             <row>
@@ -118,7 +121,7 @@
         <p>
             In this second table, notice that:
         </p>
-<p>
+
         <ol>
             <li>
                 <p>
@@ -144,19 +147,14 @@
                 </p>
             </li>
         </ol>
-      </p>
+
         <p>
             Sketching the graph, notice that as the input approaches zero from the right, the output of the function grows very large in the negative direction, indicating a vertical asymptote at <m>x = 0</m>.
         </p>
 
-        <figure>
-    <caption>Graph of <m>g(x)=\log_{2}(x)</m></caption>
         <image source="C4S5Image1.png">
-        <shortdescription>
-            A graph that approaches negative infinity as x approaches 0 from the right, and increases curving downwards passing through 1 comma 0, 2 comma 1, 4 comma 2 and 8 comma 3
-        </shortdescription>
         </image>
-</figure>
+        Graph of $g(x)=\log_{2}(x)$
         <p>
             In symbolic notation we write as <m>x\to 0^{+}, f(x)\to -\infty</m>, and as <m>x\to \infty, f(x)\to \infty</m>.
         </p>
@@ -209,9 +207,6 @@
         </p>
 
         <image source="C4S5Image2.png">
-        <shortdescription>
-            Three log graphs on the same axes, all that approach negative infinity as x approaches 0 from the right, and that increase curving downwards, all passing through 1 comma 0.  The first, labeled log of x, increases most slowly and passes through 10 comma 1.  The second, labeled ln of x, increases more rapidly, and passes through a point around 2.818 comma 1.  The third, labeled log base 2 of x, increases most rapidly, and passes through 2 comma 1.
-        </shortdescription>
         </image>
 
         <p>
@@ -230,8 +225,7 @@
                 <p>
                     Find the domain of the function <m>f(x)=\log(5-2x)</m>.
                 </p>
-              </statement>
-              <solution>
+
                 <p>
                     The logarithm is only defined with the input is positive, so this function will only be defined when <m>5-2x>0</m>.
                     Solving this inequality, this is only true when <m>-2x>-5</m>, which is only true when <m>x&#x3C;\dfrac{5}{2}</m>.
@@ -240,7 +234,7 @@
                 <p>
                     The domain of this function is <m>x&#x3C;\dfrac{5}{2}</m>, or in interval notation, <m>(-\infty,\dfrac{5}{2})</m>.
                 </p>
-            </solution>
+            </statement>
         </example>
 
         <exercise>
@@ -279,22 +273,18 @@
                 <p>
                     Sketch <m>f(x)=\ln(x)</m> and <m>g(x)=\ln(x)+2</m>.
                 </p>
-              </statement>
-              <solution>
+
                 <p>
                     Graphing these,
                 </p>
 
                 <image source="C4S5Image3.png">
-        <shortdescription>
-            Two log graphs on the same axes, both which approach negative infinity as x approaches 0 from the right, and that increase curving downwards. The first labeled ln of x passes through 1 comma 0 and 2.818 comma 1.  The second labeled ln of x plus 2 passes through 1 comma 2 and 2.818 comma 3
-        </shortdescription>
-        </image>
+                </image>
 
                 <p>
                     Note that this vertical shift could also be written as a horizontal compression, since <m>g(x)=\ln(x)+2=\ln(x)+\ln(e^{2})=\ln(e^{2}x)</m>.
                 </p>
-            </solution>
+            </statement>
         </example>
 
         <p>
@@ -310,26 +300,20 @@
                 <p>
                     Sketch a graph of <m>f(x)=\ln(x+2)</m>.
                 </p>
-              </statement>
-              <solution>
+
                 <p>
                     This is a horizontal shift to the left by 2 units.
                     Notice that none of our logarithm rules allow us rewrite this in another form, so the effect of this transformation is unique.
                     Shifting the graph of <m>\ln(x)</m> to the left by two units gives us the following graph:
                 </p>
 
-                <figure>
-    <caption>Graph of <m>f(x)=\ln(x+2)</m></caption>
-        <image source="C4S5Image4.png">
-        <shortdescription>
-            Two log graphs on the same axes, both which approach negative infinity as x approaches 0 from the right, and that increase curving downwards. The first labeled ln of x passes through 1 comma 0 and 2.818 comma 1.  The second labeled ln of x plus 2 passes through 1 comma 2 and 2.818 comma 3
-        </shortdescription>
-        </image>
-</figure>
+                <image source="C4S5Image4.png">
+                </image>
+                Graph of $f(x)=\ln(x+2)$.
                 <p>
                     Notice that due to the horizontal shift, the vertical asymptote shifted to <m>x = -2</m>, and the domain shifted to <m>(-2,\infty)</m>.
                 </p>
-            </solution>
+            </statement>
         </example>
 
         <p>
@@ -341,8 +325,7 @@
                 <p>
                     Sketch a graph of <m>f(x)=5\log(-x+2)</m>.
                 </p>
-              </statement>
-              <solution>
+
                 <p>
                     Factoring the inside as <m>f(x)=5\log(-(x-2))</m> reveals that this graph is that of the common logarithm, horizontally reflected, vertically stretched by a factor of 5, and shifted to the right by 2 units.
                 </p>
@@ -352,15 +335,10 @@
                     A rough sketch can be created by using the vertical asymptote along with a couple points on the graph, such as <m>f(1)=5\log(-1+2)=5\log(1)=0</m> and <m>f(-8)=5\log(-(-8)+2)=5\log(10)=5</m>.
                 </p>
 
-                <figure>
-    <caption>Graph of <m>f(x)=5\log(-x+2)</m></caption>
-        <image source="C4S5Image5.png">
-        <shortdescription>
-            A graph that decreases curving downwards, passing through negative 8 comma 5 and 1 comma 0 and approaches negative infinity as x approaches 2 from the left.
-        </shortdescription>
-        </image>
-</figure>
-            </solution>
+                <image source="C4S5Image5.png">
+                </image>
+                Graph of $f(x)=5\log(x+2)$.
+            </statement>
         </example>
 
         <exercise>
@@ -388,12 +366,8 @@
                 </p>
 
                 <image source="C4S5Image6.png">
-        <shortdescription>
-            A graph that approaches infinity as x approaches negative 2 from the right and decreases curving upwards, passing through negative 1 comma 1, 0 comma 0, and 2 comma negative 1
-        </shortdescription>
-        </image>
-      </statement>
-      <solution>
+                </image>
+
                 <p>
                     This graph has a vertical asymptote at <m>x =-2</m> and has been vertically reflected.
                     We do not know yet the vertical shift (equivalent to horizontal stretch) or the vertical stretch (equivalent to a change of base).
@@ -414,22 +388,19 @@
                     This gives us the equation <m>f(x)=\dfrac{-2}{\log(4)}\log(x+2)+1</m>.
                     This could also be written as <m>f(x)=-2\log_{4}(x+2)+1</m>.
                 </p>
-            </solution>
+            </statement>
         </example>
 
-        <exercise>
+        <example>
             <statement>
                 <p>
                     Write an equation for the function graphed here.
                 </p>
 
                 <image source="C4S5Image7.png">
-        <shortdescription>
-            A graph that increases curving upwards, passing through negative 2 comma negative 2 and 2 comma 0, then approaches infinity as x approaches 3 from the left.
-        </shortdescription>
-        </image>
+                </image>
             </statement>
-        </exercise>
+        </example>
 
         <exercise>
             <statement>
@@ -446,9 +417,7 @@
 
         <exercise>
             <statement>
-                <p>Answers to Checkpoint Exercises</p></statement>
-                <answer>
-                  <p>
+                <p>
                     <ol>
                         <li>
                             <p>
@@ -458,10 +427,7 @@
 
                         <li>
                             <image source="C4S5Image8.png">
-        <shortdescription>
-            A graph that approaches infinity as x approaches 2 from the right and decreases curving upwards, passing through 3 comma 1, 4 comma 0, and 12 comma negative 2
-        </shortdescription>
-        </image>
+                            </image>
                         </li>
 
                         <li>
@@ -482,8 +448,7 @@
                         </li>
                     </ol>
                 </p>
-              </answer>
+            </statement>
         </exercise>
     </subsection>
-
 </section>
