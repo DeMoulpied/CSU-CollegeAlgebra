@@ -1,14 +1,14 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<section>
+    <title>Exponential and Logarithmic Models</title>
 
-<section xml:id="Chapter4Section6" xmlns:xi="http://www.w3.org/2001/XInclude">
-  <title>Exponential and Logarithmic Models</title>
-
-      <subsection>
+    <subsection>
         <title>Introduction</title>
 
-        <objectives>
+        <definition>
             <title>Important Topics of this Section</title>
 
+            <statement>
+                <p>
                     <ul>
                         <li>
                             <p>
@@ -46,7 +46,9 @@
                             </p>
                         </li>
                     </ul>
-                  </objectives>
+                </p>
+            </statement>
+        </definition>
 
         <p>
             While we have explored some basic applications of exponential and logarithmic functions, in this section we explore some important applications in more depth.
@@ -80,11 +82,10 @@
         <example>
             <statement>
                 <p>
-                    Bismuth-210 is an isotope that decays by about 13% each day.
+                    Bismuth-210 is an isotope that decays by about 13%each day.
                     What is the half-life of Bismuth-210?
                 </p>
-              </statement>
-              <solution>
+
                 <p>
                     We were not given a starting quantity, so we could either make up a value or use an unknown constant to represent the starting amount.
                     To show that starting quantity does not affect the result, let us denote the initial quantity by the constant <m>a</m>.
@@ -102,7 +103,7 @@
                 <p>
                     This tells us that the half-life of Bismuth-210 is approximately 5 days.
                 </p>
-            </solution>
+            </statement>
         </example>
 
         <example>
@@ -111,8 +112,7 @@
                     Cesium-137 has a half-life of about 30 years.
                     If you begin with 200 mg of cesium-137, how much will remain after 30 years? 60 years? 90 years?
                 </p>
-              </statement>
-              <solution>
+
                 <p>
                     Since the half-life is 30 years, after 30 years, half the original amount, 100 mg, will remain.
                 </p>
@@ -124,7 +124,7 @@
                 <p>
                     After 90 years, another 30 years have passed, so another half of the substance will decay, leaving 25 mg.
                 </p>
-            </solution>
+            </statement>
         </example>
 
         <example>
@@ -133,8 +133,7 @@
                     Cesium-137 has a half-life of about 30 years.
                     Find the annual decay rate.
                 </p>
-              </statement>
-              <solution>
+
                 <p>
                     Since we are looking for an annual decay rate, we will use an equation of the form <m>Q(t)=a(1+r)^{t}</m>.
                     We know that after 30 years, half the original amount will remain.
@@ -144,9 +143,9 @@
                 </p>
 
                 <p>
-                    This tells us cesium-137 is decaying at an annual rate of 2.284% per year.
+                    This tells us cesium-137 is decaying at an annual rate of 2.284%per year.
                 </p>
-            </solution>
+            </statement>
         </example>
 
         <exercise>
@@ -163,10 +162,9 @@
                 <p>
                     Carbon-14 is a radioactive isotope that is present in organic materials, and is commonly used for dating historical artifacts.
                     Carbon-14 has a half-life of 5730 years.
-                    If a bone fragment is found that contains 20% of its original carbon-14, how old is the bone?
+                    If a bone fragment is found that contains 20%of its original carbon-14, how old is the bone?
                 </p>
-              </statement>
-              <solution>
+
                 <p>
                     To find how old the bone is, we first will need to find an equation for the decay of the carbon-14.
                     We could either use a continuous or annual decay formula, but opt to use the continuous decay formula since it is more common in scientific texts.
@@ -179,7 +177,7 @@
 
                 <p>
                     Now we know the decay will follow the equation <m>Q(t)=ae^{-0.000121t}</m>.
-                    To find how old the bone fragment is that contains 20% of the original amount, we solve for <m>t</m> so that <m>Q(t) = 0.20a</m>.
+                    To find how old the bone fragment is that contains 20%of the original amount, we solve for <m>t</m> so that <m>Q(t) = 0.20a</m>.
                 </p>
 
                 <p>
@@ -189,9 +187,9 @@
                 </p>
 
                 <p>
-                    So, if only 20% of the original carbon-14 is remaing, we can conclude that the bone fragment is about 13,300 years old.
+                    So, if only 20%of the original carbon-14 is remaing, we can conclude that the bone fragment is about 13,300 years old.
                 </p>
-            </solution>
+            </statement>
         </example>
 
         <exercise>
@@ -234,8 +232,7 @@
                     Cancer cells sometimes increase exponentially.
                     If a cancerous growth contained 300 cells last month and 360 cells this month, how long will it take for the number of cancer cells to double?
                 </p>
-              </statement>
-              <solution>
+
                 <p>
                     Defining <m>t</m> to be time in months, with <m>t = 0</m> corresponding to last month, we are given two pieces of data: last month, <m>(0, 300)</m>, and this month, <m>(1, 360)</m>.
                 </p>
@@ -257,7 +254,7 @@
                     The exponential property gives us the equation <m>\log(2)=t\log(1.2)</m>, and we can divide both sides by <m>\log(1.2)</m> to get <m>t=\dfrac{\log(2)}{\log(1.2)}\approx 3.802</m>.
                     So it will take about 3.802 months for the number of cancer cells to double.
                 </p>
-            </solution>
+            </statement>
         </example>
 
         <example>
@@ -266,8 +263,7 @@
                     Use of a new social networking website has been growing exponentially, with the number of new members doubling every 5 months.
                     If the site currently has 120,000 users and this trend continues, how many users will the site have in 1 year?
                 </p>
-              </statement>
-              <solution>
+
                 <p>
                     We can use the doubling time to find a function that models the number of site users, and then use that equation to answer the question.
                     While we could use an arbitrary <m>a</m> as we have before for the initial amount, in this case, we know the initial amount was 120,000.
@@ -287,13 +283,13 @@
                 <p>
                     So after 1 year, we would expect the site to have around 633,140 users.
                 </p>
-            </solution>
+            </statement>
         </example>
 
         <exercise>
             <statement>
                 <p>
-                    If tuition at a college is increasing by 6.6% each year, how many years will it take for tuition to double?
+                    If tuition at a college is increasing by 6.6%each year, how many years will it take for tuition to double?
                 </p>
             </statement>
         </exercise>
@@ -310,7 +306,7 @@
 
         <tabular left="minor">
             <col halign="center" right="minor"> </col> <col halign="center" right="minor"> </col>
-            <row><cell></cell>
+            <row>
             </row>
 
             <row>
@@ -408,7 +404,7 @@
 
         <tabular left="minor">
             <col halign="center" right="minor"> </col> <col halign="center" right="minor"> </col> <col halign="center" right="minor"> </col>
-            <row><cell></cell>
+            <row>
             </row>
 
             <row>
@@ -517,12 +513,11 @@
                 <p>
                     Estimate the value of point <m>P</m> on the log scale above
                 </p>
-              </statement>
-              <solution>
+
                 <p>
                     The point <m>P</m> appears to be half way between -2 and -1 in log value, so we should expect <m>P\approx 10^{-1.5}=0.0316</m>.
                 </p>
-            </solution>
+            </statement>
         </example>
 
         <example>
@@ -530,15 +525,14 @@
                 <p>
                     Place the number 6000 on a logarithmic scale.
                 </p>
-              </statement>
-              <solution>
+
                 <p>
                     Since <m>\log(6000)\approx 3.8</m>, this point would belong on the log scale about here:
                 </p>
 
                 <image source="C4S6Image4.png">
                 </image>
-            </solution>
+            </statement>
         </example>
 
         <exercise>
@@ -549,7 +543,7 @@
 
                 <tabular left="minor">
                     <col halign="center" right="minor"> </col> <col halign="center" right="minor"> </col>
-                    <row><cell></cell>
+                    <row>
                     </row>
 
                     <row>
@@ -669,8 +663,7 @@
                 <p>
                     On the log scale above, how many orders of magnitude larger is <m>C</m> than <m>B</m>?
                 </p>
-              </statement>
-              <solution>
+
                 <p>
                     The value <m>B</m> corresponds to <m>10^{2}=100</m>, and the value <m>C</m> corresponds to <m>10^{5}=100000</m>.
                 </p>
@@ -680,7 +673,7 @@
                     The log of this value is 3.
                     Thus, <m>C</m> is three orders of magnitude greater than <m>B</m>, which can be seen on the log scale by the visual difference between the points on the scale.
                 </p>
-            </solution>
+            </statement>
         </example>
 
         <exercise>
@@ -720,8 +713,7 @@
                 <p>
                     If one earthquake has a MMS magnitude of 6.0, and another has a magnitude of 8.0, how much more powerful (in terms of earth movement) is the second earthquake?
                 </p>
-              </statement>
-              <solution>
+
                 <p>
                     Since the first earthquake has magnitude 6.0, we can find the amount of earth movement for that quake, which we’ll denote <m>S_{1}</m>.
                     The value of <m>S_{0}</m> is not particularly relevant, so we will not replace it with its value.
@@ -756,7 +748,7 @@
                 <p>
                     The second earthquake’s earth movement is 1000 times as large as the first earthquake.
                 </p>
-              </solution>
+            </statement>
         </example>
 
         <example>
@@ -765,8 +757,7 @@
                     One earthquake has magnitude of 3.0.
                     If a second earthquake has twice as much earth movement as the first earthquake, find the magnitude of the second quake.
                 </p>
-              </statement>
-              <solution>
+
                 <p>
                     Since the first quake has magnitude 3.0, <m>3.0=\dfrac{2}{3}\log(\dfrac{S_1}{S_0})</m>.
                 </p>
@@ -798,16 +789,17 @@
                 <p>
                     The second earthquake with twice as much earth movement will have a magnitude of about 3.2.
                 </p>
-              </solution>
+            </statement>
         </example>
 
         <p>
             In fact, using log properties, we could show that whenever the earth movement doubles, the magnitude will increase by about 0.201.
             Given the movement of an earthquake denoted by <m>S</m>, the magnitude of a second earthquaqe with twice the movement is:
+        </p>
         <me>
             \begin{align*}M&#x26;= \dfrac{2}{3}\log(\dfrac{2S}{S_0})&#x26;= \dfrac{2}{3}\log(2\dfrac{S}{S_0})&#x26;= \dfrac{2}{3}(\log(2)+\log(\dfrac{S}{S_0}))&#x26;= \dfrac{2}{3}\log(2)+\dfrac{2}{3}\log(\dfrac{S}{S_0})&#x26;= 0.201+\dfrac{2}{3}\log(\dfrac{S}{S_0}).\end{align*}
         </me>
-      </p>
+
         <p>
             Since <m>\dfrac{2}{3}\log(\dfrac{S}{S_0})</m> is the magnitude of the first earthquake, the magnitude of the second is 0.201 greater than the magnitude of the first.
         </p>
@@ -824,14 +816,11 @@
         <exercise>
             <statement>
                 <p>
-                    [Answers to Checkpoint Exercises]</p>
-                </statement>
-                <answer>
-                  <p>
+                    [Answers to Checkpoint Exercises]
                     <ol>
                         <li>
                             <p>
-                                <m>r=(\dfrac{1}{2})^{\frac{1}{10}}-1\approx -0.067</m> or -6.7% is the daily rate of decay.
+                                <m>r=(\dfrac{1}{2})^{\frac{1}{10}}-1\approx -0.067</m> or -6.7%is the daily rate of decay.
                             </p>
                         </li>
 
@@ -859,8 +848,7 @@
                         </li>
                     </ol>
                 </p>
-              </answer>
+            </statement>
         </exercise>
     </subsection>
-
 </section>
