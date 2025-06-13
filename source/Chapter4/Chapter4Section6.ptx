@@ -804,9 +804,9 @@
         <p>
             In fact, using log properties, we could show that whenever the earth movement doubles, the magnitude will increase by about 0.201.
             Given the movement of an earthquake denoted by <m>S</m>, the magnitude of a second earthquaqe with twice the movement is:
-        <me>
-            \begin{align*}M&#x26;= \dfrac{2}{3}\log(\dfrac{2S}{S_0})&#x26;= \dfrac{2}{3}\log(2\dfrac{S}{S_0})&#x26;= \dfrac{2}{3}(\log(2)+\log(\dfrac{S}{S_0}))&#x26;= \dfrac{2}{3}\log(2)+\dfrac{2}{3}\log(\dfrac{S}{S_0})&#x26;= 0.201+\dfrac{2}{3}\log(\dfrac{S}{S_0}).\end{align*}
-        </me>
+<me>
+            M= \dfrac{2}{3}\log(\dfrac{2S}{S_0})= \dfrac{2}{3}\log(2\dfrac{S}{S_0})= \dfrac{2}{3}(\log(2)+\log(\dfrac{S}{S_0}))= \dfrac{2}{3}\log(2)+\dfrac{2}{3}\log(\dfrac{S}{S_0})= 0.201+\dfrac{2}{3}\log(\dfrac{S}{S_0}).
+</me>
       </p>
         <p>
             Since <m>\dfrac{2}{3}\log(\dfrac{S}{S_0})</m> is the magnitude of the first earthquake, the magnitude of the second is 0.201 greater than the magnitude of the first.
