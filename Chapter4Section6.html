@@ -5,7 +5,7 @@
 <!--*         https://pretextbook.org          *-->
 <!--*                                          *-->
 <!--********************************************-->
-<html lang="en-US" dir="ltr" data-legacy-colorscheme="blue_red">
+<html lang="en-US" dir="ltr" data-legacy-colorscheme="default">
 <!--******************************************-->
 <!--*  Authored with PreTeXt                 *-->
 <!--*  pretextbook.org                       *-->
@@ -134,7 +134,12 @@ eBookConfig.enable_chatcodes =  false;
 <ol id="searchresults" class="searchresults"></ol>
 </div>
 </div>
-<span class="nav-other-controls"></span><span class="treebuttons"><a class="previous-button button" href="Chapter4Section5.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="up-button button" href="Chapter4.html" title="Up"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Up</span></a><a class="next-button button" href="backmatter.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a></span>
+<span class="nav-other-controls"><button id="embed-button" class="embed-button button" title="Embed this page"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe86f;</span><span class="name">Embed</span></button><div class="embed-popup hidden" id="embed-popup">
+<p>Copy the code below to embed this page in your own website or LMS page.</p>
+<div class="embed-code-container">
+<textarea class="embed-code-textbox" id="embed-code-textbox" readonly aria-label="textbox"><iframe src="https://example.com/embed" width="100%" height="1000"></iframe></textarea><button class="copy-embed-button button" id="copy-embed-button" title="Copy embed code"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe14d;</span><span class="name">Copy</span></button>
+</div>
+</div></span><span class="treebuttons"><a class="previous-button button" href="Chapter4Section5.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="up-button button" href="Chapter4.html" title="Up"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Up</span></a><a class="next-button button" href="backmatter.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a></span>
 </div></nav><div id="latex-macros" class="hidden-content process-math" style="display:none"><span class="process-math">\(\newcommand{\N}{\mathbb N} \newcommand{\Z}{\mathbb Z} \newcommand{\Q}{\mathbb Q} \newcommand{\R}{\mathbb R}
 \newcommand{\lt}{&lt;}
 \newcommand{\gt}{&gt;}
@@ -318,7 +323,17 @@ eBookConfig.enable_chatcodes =  false;
 <li class="toc-item toc-subsection"><div class="toc-title-box"><a href="Chapter4Section5.html#Chapter4Section5-4" class="internal"><span class="codenumber">4.5.3</span> <span class="title">Answers</span></a></div></li>
 </ul>
 </li>
-<li class="toc-item toc-section active"><div class="toc-title-box"><a href="Chapter4Section6.html" class="internal"><span class="codenumber">4.6</span> <span class="title">Exponential and Logarithmic Models</span></a></div></li>
+<li class="toc-item toc-section contains-active">
+<div class="toc-title-box"><a href="Chapter4Section6.html" class="internal"><span class="codenumber">4.6</span> <span class="title">Exponential and Logarithmic Models</span></a></div>
+<ul class="structural toc-item-list active">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="Chapter4Section6.html#Chapter4Section6-2" class="internal"><span class="codenumber">4.6.1</span> <span class="title">Introduction</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="Chapter4Section6.html#Chapter4Section6-3" class="internal"><span class="codenumber">4.6.2</span> <span class="title">Radioactive Decay</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="Chapter4Section6.html#Chapter4Section6-4" class="internal"><span class="codenumber">4.6.3</span> <span class="title">Doubling Time</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="Chapter4Section6.html#Chapter4Section6-5" class="internal"><span class="codenumber">4.6.4</span> <span class="title">Logarithmic Scales</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="Chapter4Section6.html#Chapter4Section6-6" class="internal"><span class="codenumber">4.6.5</span> <span class="title">Earthquakes</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="Chapter4Section6.html#Chapter4Section6-7" class="internal"><span class="codenumber">4.6.6</span> <span class="title">Answers</span></a></div></li>
+</ul>
+</li>
 </ul>
 </li>
 <li class="toc-item toc-backmatter"><div class="toc-title-box"><a href="backmatter.html" class="internal"><span class="title">Backmatter</span></a></div></li>
@@ -326,7 +341,580 @@ eBookConfig.enable_chatcodes =  false;
 <main class="ptx-main"><div id="ptx-content" class="ptx-content"><section class="section" id="Chapter4Section6"><h2 class="heading hide-type">
 <span class="type">Section</span><span class="space"> </span><span class="codenumber">4.6</span><span class="space"> </span><span class="title">Exponential and Logarithmic Models</span>
 </h2>
-<div class="para" id="Chapter4Section6-2">Text of section.</div></section></div>
+<section class="subsection" id="Chapter4Section6-2"><h3 class="heading hide-type">
+<span class="type">Subsection</span><span class="space"> </span><span class="codenumber">4.6.1</span><span class="space"> </span><span class="title">Introduction</span>
+</h3>
+<article class="objectives goal-like" id="Chapter4Section6-2-2"><h4 class="heading">
+<span class="type">Objectives:</span><span class="space"> </span><span class="title">Important Topics of this Section</span>
+</h4>
+<ul class="disc" id="Chapter4Section6-2-2-2">
+<li id="Chapter4Section6-2-2-2-1">
+<div class="para" id="Chapter4Section6-2-2-2-1-1">Radioactive decay<div class="autopermalink" data-description="Paragraph"><a href="#Chapter4Section6-2-2-2-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Objective"><a href="#Chapter4Section6-2-2-2-1" title="Copy permalink for Objective">🔗</a></div>
+</li>
+<li id="Chapter4Section6-2-2-2-2">
+<div class="para" id="Chapter4Section6-2-2-2-2-1">Half life<div class="autopermalink" data-description="Paragraph"><a href="#Chapter4Section6-2-2-2-2-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Objective"><a href="#Chapter4Section6-2-2-2-2" title="Copy permalink for Objective">🔗</a></div>
+</li>
+<li id="Chapter4Section6-2-2-2-3">
+<div class="para" id="Chapter4Section6-2-2-2-3-1">Doubling time<div class="autopermalink" data-description="Paragraph"><a href="#Chapter4Section6-2-2-2-3-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Objective"><a href="#Chapter4Section6-2-2-2-3" title="Copy permalink for Objective">🔗</a></div>
+</li>
+<li id="Chapter4Section6-2-2-2-4">
+<div class="para" id="Chapter4Section6-2-2-2-4-1">Logarithmic Scales<div class="autopermalink" data-description="Paragraph"><a href="#Chapter4Section6-2-2-2-4-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Objective"><a href="#Chapter4Section6-2-2-2-4" title="Copy permalink for Objective">🔗</a></div>
+</li>
+<li id="Chapter4Section6-2-2-2-5">
+<div class="para" id="Chapter4Section6-2-2-2-5-1">Orders of Magnitude<div class="autopermalink" data-description="Paragraph"><a href="#Chapter4Section6-2-2-2-5-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Objective"><a href="#Chapter4Section6-2-2-2-5" title="Copy permalink for Objective">🔗</a></div>
+</li>
+<li id="Chapter4Section6-2-2-2-6">
+<div class="para" id="Chapter4Section6-2-2-2-6-1">Moment Magnitude scale<div class="autopermalink" data-description="Paragraph"><a href="#Chapter4Section6-2-2-2-6-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Objective"><a href="#Chapter4Section6-2-2-2-6" title="Copy permalink for Objective">🔗</a></div>
+</li>
+</ul>
+<div class="autopermalink" data-description="Objectives 4.6.1: Important Topics of this Section"><a href="#Chapter4Section6-2-2" title="Copy permalink for Objectives 4.6.1: Important Topics of this Section">🔗</a></div></article><div class="para" id="Chapter4Section6-2-3">While we have explored some basic applications of exponential and logarithmic functions, in this section we explore some important applications in more depth.<div class="autopermalink" data-description="Paragraph"><a href="#Chapter4Section6-2-3" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Subsection 4.6.1: Introduction"><a href="#Chapter4Section6-2" title="Copy permalink for Subsection 4.6.1: Introduction">🔗</a></div></section><section class="subsection" id="Chapter4Section6-3"><h3 class="heading hide-type">
+<span class="type">Subsection</span><span class="space"> </span><span class="codenumber">4.6.2</span><span class="space"> </span><span class="title">Radioactive Decay</span>
+</h3>
+<div class="para" id="Chapter4Section6-3-2">In an earlier section, we discussed radioactive decay - the idea that radioactive isotopes change over time. One of the common terms associated with radioactive decay is half-life.<div class="autopermalink" data-description="Paragraph"><a href="#Chapter4Section6-3-2" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<article class="definition definition-like" id="Chapter4Section6-3-3"><h4 class="heading">
+<span class="type">Definition</span><span class="space"> </span><span class="codenumber">4.6.1</span><span class="period">.</span><span class="space"> </span><span class="title">Half-Life.</span>
+</h4>
+<div class="para" id="Chapter4Section6-3-3-2-1">The half-life of a radioactive isotope is the time it takes for half the substance to decay.<div class="autopermalink" data-description="Paragraph"><a href="#Chapter4Section6-3-3-2-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Definition 4.6.1: Half-Life"><a href="#Chapter4Section6-3-3" title="Copy permalink for Definition 4.6.1: Half-Life">🔗</a></div></article><div class="para" id="Chapter4Section6-3-4">Given the basic exponential growth/decay equation <span class="process-math">\(h(t)=ab^{t}\text{,}\)</span> half-life can be found by solving for when half the original amount remains; by solving <span class="process-math">\(\dfrac{a}{2}=a(b)^{t}\text{,}\)</span> or more simply <span class="process-math">\(\dfrac{1}{2}=b^{t}\text{.}\)</span> Notice how the initial amount is irrelevant when solving for half-life.<div class="autopermalink" data-description="Paragraph"><a href="#Chapter4Section6-3-4" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<article class="example example-like" id="Chapter4Section6-3-5"><h4 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">4.6.2</span><span class="period">.</span>
+</h4>
+<div class="para" id="Chapter4Section6-3-5-1-1">Bismuth-210 is an isotope that decays by about 13% each day. What is the half-life of Bismuth-210?<div class="autopermalink" data-description="Paragraph"><a href="#Chapter4Section6-3-5-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="solution solution-like" id="Chapter4Section6-3-5-2">
+<h4 class="heading">
+<span class="type">Solution</span><span class="period">.</span>
+</h4>
+<div class="para" id="Chapter4Section6-3-5-2-1">We were not given a starting quantity, so we could either make up a value or use an unknown constant to represent the starting amount. To show that starting quantity does not affect the result, let us denote the initial quantity by the constant <span class="process-math">\(a\text{.}\)</span> Then the decay of Bismuth-210 can be described by the equation <span class="process-math">\(Q(d)=a(0.87)^{d}\text{,}\)</span> where <span class="process-math">\(d\)</span> is a number of days.<div class="autopermalink" data-description="Paragraph"><a href="#Chapter4Section6-3-5-2-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="Chapter4Section6-3-5-2-2">To find the half-life, we want to determine when the remaining quantity is half the original: <span class="process-math">\(\dfrac{a}{2}\text{.}\)</span> We start by setting our function equal to this desired output: <span class="process-math">\(\dfrac{a}{2}=a(0.87)^{d}\text{.}\)</span> Then we divide both sides of the equation by <span class="process-math">\(a\)</span> to get <span class="process-math">\(\dfrac{1}{2}=0.87^{d}\text{.}\)</span> We can then take the common log of both sides to get <span class="process-math">\(\log(\dfrac{1}{2})=\log(0.87^{d})\text{,}\)</span> and then use the exponent property of logs to find <span class="process-math">\(\log(\dfrac{1}{2})=d\log(0.87)\text{.}\)</span> Dividing to solve for <span class="process-math">\(d\)</span> gives us <span class="process-math">\(d=\dfrac{\log(\dfrac{1}{2})}{\log(0.87)}\approx 4.977 \text{ days}\text{.}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#Chapter4Section6-3-5-2-2" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="Chapter4Section6-3-5-2-3">This tells us that the half-life of Bismuth-210 is approximately 5 days.<div class="autopermalink" data-description="Paragraph"><a href="#Chapter4Section6-3-5-2-3" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Solution 4.6.2.1"><a href="#Chapter4Section6-3-5-2" title="Copy permalink for Solution 4.6.2.1">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Example 4.6.2"><a href="#Chapter4Section6-3-5" title="Copy permalink for Example 4.6.2">🔗</a></div></article><article class="example example-like" id="Chapter4Section6-3-6"><h4 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">4.6.3</span><span class="period">.</span>
+</h4>
+<div class="para" id="Chapter4Section6-3-6-1-1">Cesium-137 has a half-life of about 30 years. If you begin with 200 mg of cesium-137, how much will remain after 30 years? 60 years? 90 years?<div class="autopermalink" data-description="Paragraph"><a href="#Chapter4Section6-3-6-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="solution solution-like" id="Chapter4Section6-3-6-2">
+<h4 class="heading">
+<span class="type">Solution</span><span class="period">.</span>
+</h4>
+<div class="para" id="Chapter4Section6-3-6-2-1">Since the half-life is 30 years, after 30 years, half the original amount, 100 mg, will remain.<div class="autopermalink" data-description="Paragraph"><a href="#Chapter4Section6-3-6-2-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="Chapter4Section6-3-6-2-2">After 60 years, another 30 years have passed, so during that second 30 years, another half of the substance will decay, leaving 50 mg.<div class="autopermalink" data-description="Paragraph"><a href="#Chapter4Section6-3-6-2-2" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="Chapter4Section6-3-6-2-3">After 90 years, another 30 years have passed, so another half of the substance will decay, leaving 25 mg.<div class="autopermalink" data-description="Paragraph"><a href="#Chapter4Section6-3-6-2-3" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Solution 4.6.3.1"><a href="#Chapter4Section6-3-6-2" title="Copy permalink for Solution 4.6.3.1">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Example 4.6.3"><a href="#Chapter4Section6-3-6" title="Copy permalink for Example 4.6.3">🔗</a></div></article><article class="example example-like" id="Chapter4Section6-3-7"><h4 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">4.6.4</span><span class="period">.</span>
+</h4>
+<div class="para" id="Chapter4Section6-3-7-1-1">Cesium-137 has a half-life of about 30 years. Find the annual decay rate.<div class="autopermalink" data-description="Paragraph"><a href="#Chapter4Section6-3-7-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="solution solution-like" id="Chapter4Section6-3-7-2">
+<h4 class="heading">
+<span class="type">Solution</span><span class="period">.</span>
+</h4>
+<div class="para" id="Chapter4Section6-3-7-2-1">Since we are looking for an annual decay rate, we will use an equation of the form <span class="process-math">\(Q(t)=a(1+r)^{t}\text{.}\)</span> We know that after 30 years, half the original amount will remain. Using this information, we can write the equation <span class="process-math">\(\dfrac{a}{2}=a(1+r)^{30}\text{.}\)</span> Dividing both sides by a gives us <span class="process-math">\(\dfrac{1}{2}=(1+r)^{30}\text{.}\)</span> Taking the 30th root of both sides gives us <span class="process-math">\((\dfrac{1}{2})^{\frac{1}{30}}=1+r\text{,}\)</span> and then subtracting one from both sides gives us <span class="process-math">\(r=(\dfrac{1}{2})^{\frac{1}{30}}-1\approx -0.02284\text{.}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#Chapter4Section6-3-7-2-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="Chapter4Section6-3-7-2-2">This tells us cesium-137 is decaying at an annual rate of 2.284% per year.<div class="autopermalink" data-description="Paragraph"><a href="#Chapter4Section6-3-7-2-2" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Solution 4.6.4.1"><a href="#Chapter4Section6-3-7-2" title="Copy permalink for Solution 4.6.4.1">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Example 4.6.4"><a href="#Chapter4Section6-3-7" title="Copy permalink for Example 4.6.4">🔗</a></div></article><article class="exercise exercise-like" id="Chapter4Section6-3-8"><h4 class="heading">
+<span class="type">Checkpoint</span><span class="space"> </span><span class="codenumber">4.6.5</span><span class="period">.</span>
+</h4>
+<div class="para" id="Chapter4Section6-3-8-1-1">Chlorine-36 is eliminated from the body with a biological half-life of 10 days. Find the daily decay rate.<div class="autopermalink" data-description="Paragraph"><a href="#Chapter4Section6-3-8-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Checkpoint 4.6.5"><a href="#Chapter4Section6-3-8" title="Copy permalink for Checkpoint 4.6.5">🔗</a></div></article><article class="example example-like" id="Chapter4Section6-3-9"><h4 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">4.6.6</span><span class="period">.</span>
+</h4>
+<div class="para" id="Chapter4Section6-3-9-1-1">Carbon-14 is a radioactive isotope that is present in organic materials, and is commonly used for dating historical artifacts. Carbon-14 has a half-life of 5730 years. If a bone fragment is found that contains 20% of its original carbon-14, how old is the bone?<div class="autopermalink" data-description="Paragraph"><a href="#Chapter4Section6-3-9-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="solution solution-like" id="Chapter4Section6-3-9-2">
+<h4 class="heading">
+<span class="type">Solution</span><span class="period">.</span>
+</h4>
+<div class="para" id="Chapter4Section6-3-9-2-1">To find how old the bone is, we first will need to find an equation for the decay of the carbon-14. We could either use a continuous or annual decay formula, but opt to use the continuous decay formula since it is more common in scientific texts. The half life tells us that after 5730 years, half the original substance remains. Solving for the rate, <span class="process-math">\(\dfrac{a}{2}=ae^{5730r}\text{.}\)</span> Dividing by a gives us <span class="process-math">\(\dfrac{1}{2}=e^{5730r}\text{,}\)</span> and then taking the natural log of both sides gives <span class="process-math">\(\ln(\dfrac{1}{2})=\ln(e^{5730r})\text{.}\)</span> Use the inverse property of logs on the right side to get <span class="process-math">\(\ln(\dfrac{1}{2})=5730r\text{.}\)</span> Then we can divide by 5730 to see <span class="process-math">\(r=\dfrac{\ln(\frac{1}{2})}{5730}\approx -0.000121\text{.}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#Chapter4Section6-3-9-2-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="Chapter4Section6-3-9-2-2">Now we know the decay will follow the equation <span class="process-math">\(Q(t)=ae^{-0.000121t}\text{.}\)</span> To find how old the bone fragment is that contains 20% of the original amount, we solve for <span class="process-math">\(t\)</span> so that <span class="process-math">\(Q(t) = 0.20a\text{.}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#Chapter4Section6-3-9-2-2" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="Chapter4Section6-3-9-2-3">Our initial equation to set up should look like <span class="process-math">\(0.20a=ae^{-0.000121t}\text{.}\)</span> Then we divide by <span class="process-math">\(a\)</span> to get <span class="process-math">\(0.20=e^{-0.000121t}\text{,}\)</span> and then take the natural log of both sides to get <span class="process-math">\(\ln( 0.20)=\ln(e^{-0.000121t})\text{.}\)</span> The inverse property reduces the right hand side, giving us <span class="process-math">\(\ln(0.20)=-0.000121t\text{,}\)</span> and we can divide to solve for <span class="process-math">\(t\)</span> to find <span class="process-math">\(t=\dfrac{\ln( 0.20)}{-0.000121}\approx 13301 \text{ years}\text{.}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#Chapter4Section6-3-9-2-3" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="Chapter4Section6-3-9-2-4">So, if only 20% of the original carbon-14 is remaing, we can conclude that the bone fragment is about 13,300 years old.<div class="autopermalink" data-description="Paragraph"><a href="#Chapter4Section6-3-9-2-4" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Solution 4.6.6.1"><a href="#Chapter4Section6-3-9-2" title="Copy permalink for Solution 4.6.6.1">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Example 4.6.6"><a href="#Chapter4Section6-3-9" title="Copy permalink for Example 4.6.6">🔗</a></div></article><article class="exercise exercise-like" id="Chapter4Section6-3-10"><h4 class="heading">
+<span class="type">Checkpoint</span><span class="space"> </span><span class="codenumber">4.6.7</span><span class="period">.</span>
+</h4>
+<div class="para" id="Chapter4Section6-3-10-1-1">We have already learned that Cesium-137 has a half-life of about 30 years. If you begin with 200 mg of cesium-137, will it take more or less than 230 years until only 1 milligram remains?<div class="autopermalink" data-description="Paragraph"><a href="#Chapter4Section6-3-10-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Checkpoint 4.6.7"><a href="#Chapter4Section6-3-10" title="Copy permalink for Checkpoint 4.6.7">🔗</a></div></article><div class="autopermalink" data-description="Subsection 4.6.2: Radioactive Decay"><a href="#Chapter4Section6-3" title="Copy permalink for Subsection 4.6.2: Radioactive Decay">🔗</a></div></section><section class="subsection" id="Chapter4Section6-4"><h3 class="heading hide-type">
+<span class="type">Subsection</span><span class="space"> </span><span class="codenumber">4.6.3</span><span class="space"> </span><span class="title">Doubling Time</span>
+</h3>
+<div class="para" id="Chapter4Section6-4-2">For decaying quantities, we asked how long it takes for half the substance to decay. For growing quantities we might ask how long it takes for the quantity to double.<div class="autopermalink" data-description="Paragraph"><a href="#Chapter4Section6-4-2" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<article class="definition definition-like" id="Chapter4Section6-4-3"><h4 class="heading">
+<span class="type">Definition</span><span class="space"> </span><span class="codenumber">4.6.8</span><span class="period">.</span><span class="space"> </span><span class="title">Doubling Time.</span>
+</h4>
+<div class="para" id="Chapter4Section6-4-3-2-1">The doubling time of a growing quantity is the time it takes for the quantity to double.<div class="autopermalink" data-description="Paragraph"><a href="#Chapter4Section6-4-3-2-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Definition 4.6.8: Doubling Time"><a href="#Chapter4Section6-4-3" title="Copy permalink for Definition 4.6.8: Doubling Time">🔗</a></div></article><div class="para" id="Chapter4Section6-4-4">Given the basic exponential growth equation <span class="process-math">\(h(t)=ab^{t}\text{,}\)</span> doubling time can be found by solving for when the original quantity has doubled; by solving <span class="process-math">\(2a=a(b)^{x}\text{,}\)</span> or more simply <span class="process-math">\(2=b^{x}\text{.}\)</span> Like with decay, the initial amount is irrelevant when solving for doubling time.<div class="autopermalink" data-description="Paragraph"><a href="#Chapter4Section6-4-4" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<article class="example example-like" id="Chapter4Section6-4-5"><h4 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">4.6.9</span><span class="period">.</span>
+</h4>
+<div class="para" id="Chapter4Section6-4-5-1-1">Cancer cells sometimes increase exponentially. If a cancerous growth contained 300 cells last month and 360 cells this month, how long will it take for the number of cancer cells to double?<div class="autopermalink" data-description="Paragraph"><a href="#Chapter4Section6-4-5-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="solution solution-like" id="Chapter4Section6-4-5-2">
+<h4 class="heading">
+<span class="type">Solution</span><span class="period">.</span>
+</h4>
+<div class="para" id="Chapter4Section6-4-5-2-1">Defining <span class="process-math">\(t\)</span> to be time in months, with <span class="process-math">\(t = 0\)</span> corresponding to last month, we are given two pieces of data: last month, <span class="process-math">\((0, 300)\text{,}\)</span> and this month, <span class="process-math">\((1, 360)\text{.}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#Chapter4Section6-4-5-2-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="Chapter4Section6-4-5-2-2">From this data, we can find an equation for the growth. Using the form <span class="process-math">\(C(t)=ab^{t}\text{,}\)</span> we know immediately <span class="process-math">\(a = 300\text{,}\)</span> giving <span class="process-math">\(C(t)=300b^{t}\text{.}\)</span> Substituting in <span class="process-math">\((1, 360)\text{,}\)</span> we see <span class="process-math">\(360=300b^{1}\text{,}\)</span> and so <span class="process-math">\(b\dfrac{360}{300}=1.2\text{.}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#Chapter4Section6-4-5-2-2" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="Chapter4Section6-4-5-2-3">This gives us the equation <span class="process-math">\(C(t)=300(1.2)^{t}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#Chapter4Section6-4-5-2-3" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="Chapter4Section6-4-5-2-4">To find the doubling time, we look for the time when we will have twice the original amount, so when <span class="process-math">\(C(t) = 600\text{.}\)</span> Our starting equation is <span class="process-math">\(600=300(1.2)^{t}\text{.}\)</span> Dividing by 300 gives us <span class="process-math">\(2=(1.2)^{t}\text{,}\)</span> and we can then take the common log of both sides to see <span class="process-math">\(\log(2)=\log(1.2^{t} )\text{.}\)</span> The exponential property gives us the equation <span class="process-math">\(\log(2)=t\log(1.2)\text{,}\)</span> and we can divide both sides by <span class="process-math">\(\log(1.2)\)</span> to get <span class="process-math">\(t=\dfrac{\log(2)}{\log(1.2)}\approx 3.802\text{.}\)</span> So it will take about 3.802 months for the number of cancer cells to double.<div class="autopermalink" data-description="Paragraph"><a href="#Chapter4Section6-4-5-2-4" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Solution 4.6.9.1"><a href="#Chapter4Section6-4-5-2" title="Copy permalink for Solution 4.6.9.1">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Example 4.6.9"><a href="#Chapter4Section6-4-5" title="Copy permalink for Example 4.6.9">🔗</a></div></article><article class="example example-like" id="Chapter4Section6-4-6"><h4 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">4.6.10</span><span class="period">.</span>
+</h4>
+<div class="para" id="Chapter4Section6-4-6-1-1">Use of a new social networking website has been growing exponentially, with the number of new members doubling every 5 months. If the site currently has 120,000 users and this trend continues, how many users will the site have in 1 year?<div class="autopermalink" data-description="Paragraph"><a href="#Chapter4Section6-4-6-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="solution solution-like" id="Chapter4Section6-4-6-2">
+<h4 class="heading">
+<span class="type">Solution</span><span class="period">.</span>
+</h4>
+<div class="para" id="Chapter4Section6-4-6-2-1">We can use the doubling time to find a function that models the number of site users, and then use that equation to answer the question. While we could use an arbitrary <span class="process-math">\(a\)</span> as we have before for the initial amount, in this case, we know the initial amount was 120,000.<div class="autopermalink" data-description="Paragraph"><a href="#Chapter4Section6-4-6-2-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="Chapter4Section6-4-6-2-2">If we use a continuous growth equation, it would look like <span class="process-math">\(N(t)=120e^{r}t\text{,}\)</span> measured in thousands of users after <span class="process-math">\(t\)</span> months. Based on the doubling time, there would be 240 thousand users after 5 months. This allows us to solve for the continuous growth rate: <span class="process-math">\(240=120e^{5r}\text{,}\)</span> so <span class="process-math">\(2=e^{5r}\text{.}\)</span> Then, <span class="process-math">\(\ln(2)=5r\text{,}\)</span> and so <span class="process-math">\(r=\dfrac{\ln(2)}{5}\approx 0.1386\text{.}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#Chapter4Section6-4-6-2-2" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="Chapter4Section6-4-6-2-3">Now that we have an equation, <span class="process-math">\(N(t)=120e^{0.1386t}\text{,}\)</span> we can predict the number of users after 12 months: <span class="process-math">\(N(12)=120e^{0.1386(12)}=633.140 \text{ thousand users}\text{.}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#Chapter4Section6-4-6-2-3" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="Chapter4Section6-4-6-2-4">So after 1 year, we would expect the site to have around 633,140 users.<div class="autopermalink" data-description="Paragraph"><a href="#Chapter4Section6-4-6-2-4" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Solution 4.6.10.1"><a href="#Chapter4Section6-4-6-2" title="Copy permalink for Solution 4.6.10.1">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Example 4.6.10"><a href="#Chapter4Section6-4-6" title="Copy permalink for Example 4.6.10">🔗</a></div></article><article class="exercise exercise-like" id="Chapter4Section6-4-7"><h4 class="heading">
+<span class="type">Checkpoint</span><span class="space"> </span><span class="codenumber">4.6.11</span><span class="period">.</span>
+</h4>
+<div class="para" id="Chapter4Section6-4-7-1-1">If tuition at a college is increasing by 6.6% each year, how many years will it take for tuition to double?<div class="autopermalink" data-description="Paragraph"><a href="#Chapter4Section6-4-7-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Checkpoint 4.6.11"><a href="#Chapter4Section6-4-7" title="Copy permalink for Checkpoint 4.6.11">🔗</a></div></article><div class="autopermalink" data-description="Subsection 4.6.3: Doubling Time"><a href="#Chapter4Section6-4" title="Copy permalink for Subsection 4.6.3: Doubling Time">🔗</a></div></section><section class="subsection" id="Chapter4Section6-5"><h3 class="heading hide-type">
+<span class="type">Subsection</span><span class="space"> </span><span class="codenumber">4.6.4</span><span class="space"> </span><span class="title">Logarithmic Scales</span>
+</h3>
+<div class="para" id="Chapter4Section6-5-2">For quantities that vary greatly in magnitude, a standard scale of measurement is not always effective, and utilizing logarithms can make the values more manageable. For example, if the average distances from the sun to the major bodies in our solar system are listed, you see they vary greatly.<div class="autopermalink" data-description="Paragraph"><a href="#Chapter4Section6-5-2" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="tabular-box natural-width"><table class="tabular">
+<tr><td class="c m b0 r1 l1 t0 lines"></td></tr>
+<tr>
+<td class="c m b0 r1 l1 t0 lines">Planet</td>
+<td class="c m b0 r1 l0 t0 lines">Average distance from Sun (millions of km)</td>
+</tr>
+<tr><td class="c m b0 r1 l1 t0 lines"></td></tr>
+<tr>
+<td class="c m b0 r1 l1 t0 lines">Mercury</td>
+<td class="c m b0 r1 l0 t0 lines">58</td>
+</tr>
+<tr><td class="c m b0 r1 l1 t0 lines"></td></tr>
+<tr>
+<td class="c m b0 r1 l1 t0 lines">Venus</td>
+<td class="c m b0 r1 l0 t0 lines">108</td>
+</tr>
+<tr><td class="c m b0 r1 l1 t0 lines"></td></tr>
+<tr>
+<td class="c m b0 r1 l1 t0 lines">Earth</td>
+<td class="c m b0 r1 l0 t0 lines">150</td>
+</tr>
+<tr><td class="c m b0 r1 l1 t0 lines"></td></tr>
+<tr>
+<td class="c m b0 r1 l1 t0 lines">Mars</td>
+<td class="c m b0 r1 l0 t0 lines">228</td>
+</tr>
+<tr><td class="c m b0 r1 l1 t0 lines"></td></tr>
+<tr>
+<td class="c m b0 r1 l1 t0 lines">Jupiter</td>
+<td class="c m b0 r1 l0 t0 lines">779</td>
+</tr>
+<tr><td class="c m b0 r1 l1 t0 lines"></td></tr>
+<tr>
+<td class="c m b0 r1 l1 t0 lines">Saturn</td>
+<td class="c m b0 r1 l0 t0 lines">1430</td>
+</tr>
+<tr><td class="c m b0 r1 l1 t0 lines"></td></tr>
+<tr>
+<td class="c m b0 r1 l1 t0 lines">Uranus</td>
+<td class="c m b0 r1 l0 t0 lines">2880</td>
+</tr>
+<tr><td class="c m b0 r1 l1 t0 lines"></td></tr>
+<tr>
+<td class="c m b0 r1 l1 t0 lines">Neptune</td>
+<td class="c m b0 r1 l0 t0 lines">4500</td>
+</tr>
+<tr><td class="c m b0 r1 l1 t0 lines"></td></tr>
+</table></div>
+<div class="para" id="Chapter4Section6-5-4">Placed on a linear scale - one with equally spaced values - these values get bunched up near the small values.<div class="autopermalink" data-description="Paragraph"><a href="#Chapter4Section6-5-4" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="image-box" style="width: 100%; margin-left: 0%; margin-right: 0%;"><img src="external/C4S6Image1.png" class="contained"></div>
+<div class="para" id="Chapter4Section6-5-6">However, computing the logarithm of each value and plotting these new values on a number line results in a more manageable graph, and makes the relative distances more apparent.<div class="autopermalink" data-description="Paragraph"><a href="#Chapter4Section6-5-6" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="tabular-box natural-width"><table class="tabular">
+<tr><td class="c m b0 r1 l1 t0 lines"></td></tr>
+<tr>
+<td class="c m b0 r1 l1 t0 lines">Planet</td>
+<td class="c m b0 r1 l0 t0 lines">Average distance from Sun (millions of km)</td>
+<td class="c m b0 r1 l0 t0 lines"><span class="process-math">\(\log (\text{Distance})\)</span></td>
+</tr>
+<tr><td class="c m b0 r1 l1 t0 lines"></td></tr>
+<tr>
+<td class="c m b0 r1 l1 t0 lines">Mercury</td>
+<td class="c m b0 r1 l0 t0 lines">58</td>
+<td class="c m b0 r1 l0 t0 lines">1.76</td>
+</tr>
+<tr><td class="c m b0 r1 l1 t0 lines"></td></tr>
+<tr>
+<td class="c m b0 r1 l1 t0 lines">Venus</td>
+<td class="c m b0 r1 l0 t0 lines">108</td>
+<td class="c m b0 r1 l0 t0 lines">2.03</td>
+</tr>
+<tr><td class="c m b0 r1 l1 t0 lines"></td></tr>
+<tr>
+<td class="c m b0 r1 l1 t0 lines">Earth</td>
+<td class="c m b0 r1 l0 t0 lines">150</td>
+<td class="c m b0 r1 l0 t0 lines">2.18</td>
+</tr>
+<tr><td class="c m b0 r1 l1 t0 lines"></td></tr>
+<tr>
+<td class="c m b0 r1 l1 t0 lines">Mars</td>
+<td class="c m b0 r1 l0 t0 lines">228</td>
+<td class="c m b0 r1 l0 t0 lines">2.36</td>
+</tr>
+<tr><td class="c m b0 r1 l1 t0 lines"></td></tr>
+<tr>
+<td class="c m b0 r1 l1 t0 lines">Jupiter</td>
+<td class="c m b0 r1 l0 t0 lines">779</td>
+<td class="c m b0 r1 l0 t0 lines">2.89</td>
+</tr>
+<tr><td class="c m b0 r1 l1 t0 lines"></td></tr>
+<tr>
+<td class="c m b0 r1 l1 t0 lines">Saturn</td>
+<td class="c m b0 r1 l0 t0 lines">1430</td>
+<td class="c m b0 r1 l0 t0 lines">3.16</td>
+</tr>
+<tr><td class="c m b0 r1 l1 t0 lines"></td></tr>
+<tr>
+<td class="c m b0 r1 l1 t0 lines">Uranus</td>
+<td class="c m b0 r1 l0 t0 lines">2880</td>
+<td class="c m b0 r1 l0 t0 lines">3.46</td>
+</tr>
+<tr><td class="c m b0 r1 l1 t0 lines"></td></tr>
+<tr>
+<td class="c m b0 r1 l1 t0 lines">Neptune</td>
+<td class="c m b0 r1 l0 t0 lines">4500</td>
+<td class="c m b0 r1 l0 t0 lines">3.65</td>
+</tr>
+<tr><td class="c m b0 r1 l1 t0 lines"></td></tr>
+</table></div>
+<div class="image-box" style="width: 100%; margin-left: 0%; margin-right: 0%;"><img src="external/C4S6Image2.png" class="contained"></div>
+<div class="para" id="Chapter4Section6-5-9">Sometimes, as shown above, the scale on a logarithmic number line will show the log values, but more commonly the original values are listed as powers of 10, as shown below.<div class="autopermalink" data-description="Paragraph"><a href="#Chapter4Section6-5-9" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="image-box" style="width: 100%; margin-left: 0%; margin-right: 0%;"><img src="external/C4S6Image3.png" class="contained"></div>
+<article class="example example-like" id="Chapter4Section6-5-11"><h4 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">4.6.12</span><span class="period">.</span>
+</h4>
+<div class="para" id="Chapter4Section6-5-11-1-1">Estimate the value of point <span class="process-math">\(P\)</span> on the log scale above<div class="autopermalink" data-description="Paragraph"><a href="#Chapter4Section6-5-11-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="solution solution-like" id="Chapter4Section6-5-11-2">
+<h4 class="heading">
+<span class="type">Solution</span><span class="period">.</span>
+</h4>
+<div class="para" id="Chapter4Section6-5-11-2-1">The point <span class="process-math">\(P\)</span> appears to be half way between -2 and -1 in log value, so we should expect <span class="process-math">\(P\approx 10^{-1.5}=0.0316\text{.}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#Chapter4Section6-5-11-2-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Solution 4.6.12.1"><a href="#Chapter4Section6-5-11-2" title="Copy permalink for Solution 4.6.12.1">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Example 4.6.12"><a href="#Chapter4Section6-5-11" title="Copy permalink for Example 4.6.12">🔗</a></div></article><article class="example example-like" id="Chapter4Section6-5-12"><h4 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">4.6.13</span><span class="period">.</span>
+</h4>
+<div class="para" id="Chapter4Section6-5-12-1-1">Place the number 6000 on a logarithmic scale.<div class="autopermalink" data-description="Paragraph"><a href="#Chapter4Section6-5-12-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="solution solution-like" id="Chapter4Section6-5-12-2">
+<h4 class="heading">
+<span class="type">Solution</span><span class="period">.</span>
+</h4>
+<div class="para" id="Chapter4Section6-5-12-2-1">Since <span class="process-math">\(\log(6000)\approx 3.8\text{,}\)</span> this point would belong on the log scale about here:<div class="autopermalink" data-description="Paragraph"><a href="#Chapter4Section6-5-12-2-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="image-box" style="width: 100%; margin-left: 0%; margin-right: 0%;"><img src="external/C4S6Image4.png" class="contained"></div>
+<div class="autopermalink" data-description="Solution 4.6.13.1"><a href="#Chapter4Section6-5-12-2" title="Copy permalink for Solution 4.6.13.1">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Example 4.6.13"><a href="#Chapter4Section6-5-12" title="Copy permalink for Example 4.6.13">🔗</a></div></article><article class="exercise exercise-like" id="Chapter4Section6-5-13"><h4 class="heading">
+<span class="type">Checkpoint</span><span class="space"> </span><span class="codenumber">4.6.14</span><span class="period">.</span>
+</h4>
+<div class="para" id="Chapter4Section6-5-13-1-1">Plot the data in the table below on a logarithmic scale.<div class="autopermalink" data-description="Paragraph"><a href="#Chapter4Section6-5-13-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div> <div class="tabular-box natural-width"><table class="tabular">
+<tr><td class="c m b0 r1 l1 t0 lines"></td></tr>
+<tr>
+<td class="c m b0 r1 l1 t0 lines">Source of Sound</td>
+<td class="c m b0 r1 l0 t0 lines">Approximate Sound Pressure in micro Pascals</td>
+</tr>
+<tr><td class="c m b0 r1 l1 t0 lines"></td></tr>
+<tr>
+<td class="c m b0 r1 l1 t0 lines">Softest Sound a Human Can Hear</td>
+<td class="c m b0 r1 l0 t0 lines">20</td>
+</tr>
+<tr><td class="c m b0 r1 l1 t0 lines"></td></tr>
+<tr>
+<td class="c m b0 r1 l1 t0 lines">Unoccupied Broadcast Studio</td>
+<td class="c m b0 r1 l0 t0 lines">200</td>
+</tr>
+<tr><td class="c m b0 r1 l1 t0 lines"></td></tr>
+<tr>
+<td class="c m b0 r1 l1 t0 lines">Soft Whispering at 2 meters away in Library</td>
+<td class="c m b0 r1 l0 t0 lines">2000</td>
+</tr>
+<tr><td class="c m b0 r1 l1 t0 lines"></td></tr>
+<tr>
+<td class="c m b0 r1 l1 t0 lines">Normal Conversation</td>
+<td class="c m b0 r1 l0 t0 lines">20000</td>
+</tr>
+<tr><td class="c m b0 r1 l1 t0 lines"></td></tr>
+<tr>
+<td class="c m b0 r1 l1 t0 lines">Diesel Freight Train at High Speed at 25 meters away</td>
+<td class="c m b0 r1 l0 t0 lines">200000</td>
+</tr>
+<tr><td class="c m b0 r1 l1 t0 lines"></td></tr>
+<tr>
+<td class="c m b0 r1 l1 t0 lines">Full Symphony Orchestra</td>
+<td class="c m b0 r1 l0 t0 lines">2000000</td>
+</tr>
+<tr><td class="c m b0 r1 l1 t0 lines"></td></tr>
+<tr>
+<td class="c m b0 r1 l1 t0 lines">Launching of a Space Shuttle</td>
+<td class="c m b0 r1 l0 t0 lines">2000000000</td>
+</tr>
+<tr><td class="c m b0 r1 l1 t0 lines"></td></tr>
+</table></div>
+<div class="autopermalink" data-description="Checkpoint 4.6.14"><a href="#Chapter4Section6-5-13" title="Copy permalink for Checkpoint 4.6.14">🔗</a></div></article><div class="para" id="Chapter4Section6-5-14">Notice that on the log scale above, the visual distance on the scale between points <span class="process-math">\(A\)</span> and <span class="process-math">\(B\)</span> is the same as the distance between points <span class="process-math">\(C\)</span> and <span class="process-math">\(D\text{.}\)</span> When looking at the values these points correspond to, notice <span class="process-math">\(B\)</span> is ten times the value of <span class="process-math">\(A\text{,}\)</span> and <span class="process-math">\(D\)</span> is ten times the value of <span class="process-math">\(C\text{.}\)</span> A visual linear difference between points corresponds to a relative (ratio) change between the corresponding values.<div class="autopermalink" data-description="Paragraph"><a href="#Chapter4Section6-5-14" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="Chapter4Section6-5-15">Logarithms are useful for showing these relative changes. For example, comparing $1,000,000 to $10,000, the first is 100 times larger than the second. That is, <span class="process-math">\(\dfrac{1000000}{10000}=100=10^{2}\text{.}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#Chapter4Section6-5-15" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="Chapter4Section6-5-16">Likewise, comparing $1000 to $10, the first is 100 times larger than the second. That is, <span class="process-math">\(\dfrac{1000}{10}=100=10^{2}\text{.}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#Chapter4Section6-5-16" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="Chapter4Section6-5-17">When one quantity is roughly ten times larger than another, we say it is one order of magnitude larger. In both cases described above, the first number was two orders of magnitude larger than the second.<div class="autopermalink" data-description="Paragraph"><a href="#Chapter4Section6-5-17" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="Chapter4Section6-5-18">Notice that the order of magnitude can be found as the common logarithm of the ratio of the quantities. On the log scale above, <span class="process-math">\(B\)</span> is one order of magnitude larger than <span class="process-math">\(A\text{,}\)</span> and <span class="process-math">\(D\)</span> is one order of magnitude larger than <span class="process-math">\(C\text{.}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#Chapter4Section6-5-18" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<article class="definition definition-like" id="Chapter4Section6-5-19"><h4 class="heading">
+<span class="type">Definition</span><span class="space"> </span><span class="codenumber">4.6.15</span><span class="period">.</span><span class="space"> </span><span class="title">Orders of Magnitude.</span>
+</h4>
+<div class="para" id="Chapter4Section6-5-19-2-1">Given two values <span class="process-math">\(A\)</span> and <span class="process-math">\(B\text{,}\)</span> to determine how many orders of magnitude <span class="process-math">\(A\)</span> is greater than <span class="process-math">\(B\text{,}\)</span> <span class="process-math">\(\text{Difference in orders of magnitude}= \log(\dfrac{A}{B})\)</span><div class="autopermalink" data-description="Paragraph"><a href="#Chapter4Section6-5-19-2-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Definition 4.6.15: Orders of Magnitude"><a href="#Chapter4Section6-5-19" title="Copy permalink for Definition 4.6.15: Orders of Magnitude">🔗</a></div></article><article class="example example-like" id="Chapter4Section6-5-20"><h4 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">4.6.16</span><span class="period">.</span>
+</h4>
+<div class="para" id="Chapter4Section6-5-20-1-1">On the log scale above, how many orders of magnitude larger is <span class="process-math">\(C\)</span> than <span class="process-math">\(B\text{?}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#Chapter4Section6-5-20-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="solution solution-like" id="Chapter4Section6-5-20-2">
+<h4 class="heading">
+<span class="type">Solution</span><span class="period">.</span>
+</h4>
+<div class="para" id="Chapter4Section6-5-20-2-1">The value <span class="process-math">\(B\)</span> corresponds to <span class="process-math">\(10^{2}=100\text{,}\)</span> and the value <span class="process-math">\(C\)</span> corresponds to <span class="process-math">\(10^{5}=100000\text{.}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#Chapter4Section6-5-20-2-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="Chapter4Section6-5-20-2-2">The relative change is <span class="process-math">\(\dfrac{100,000}{100}=1000=10^{3}\text{.}\)</span> The log of this value is 3. Thus, <span class="process-math">\(C\)</span> is three orders of magnitude greater than <span class="process-math">\(B\text{,}\)</span> which can be seen on the log scale by the visual difference between the points on the scale.<div class="autopermalink" data-description="Paragraph"><a href="#Chapter4Section6-5-20-2-2" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Solution 4.6.16.1"><a href="#Chapter4Section6-5-20-2" title="Copy permalink for Solution 4.6.16.1">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Example 4.6.16"><a href="#Chapter4Section6-5-20" title="Copy permalink for Example 4.6.16">🔗</a></div></article><article class="exercise exercise-like" id="Chapter4Section6-5-21"><h4 class="heading">
+<span class="type">Checkpoint</span><span class="space"> </span><span class="codenumber">4.6.17</span><span class="period">.</span>
+</h4>
+<div class="para" id="Chapter4Section6-5-21-1-1">Using the table from the previous exercise, what is the difference of order of magnitude between the softest sound a human can hear and the launching of the space shuttle?<div class="autopermalink" data-description="Paragraph"><a href="#Chapter4Section6-5-21-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Checkpoint 4.6.17"><a href="#Chapter4Section6-5-21" title="Copy permalink for Checkpoint 4.6.17">🔗</a></div></article><div class="autopermalink" data-description="Subsection 4.6.4: Logarithmic Scales"><a href="#Chapter4Section6-5" title="Copy permalink for Subsection 4.6.4: Logarithmic Scales">🔗</a></div></section><section class="subsection" id="Chapter4Section6-6"><h3 class="heading hide-type">
+<span class="type">Subsection</span><span class="space"> </span><span class="codenumber">4.6.5</span><span class="space"> </span><span class="title">Earthquakes</span>
+</h3>
+<div class="para" id="Chapter4Section6-6-2">An example of a logarithmic scale is the Moment Magnitude Scale (MMS) used for earthquakes. This scale is commonly and mistakenly called the Richter Scale, which was a very similar scale succeeded by the MMS.<div class="autopermalink" data-description="Paragraph"><a href="#Chapter4Section6-6-2" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<article class="definition definition-like" id="Chapter4Section6-6-3"><h4 class="heading">
+<span class="type">Definition</span><span class="space"> </span><span class="codenumber">4.6.18</span><span class="period">.</span><span class="space"> </span><span class="title">Moment Magnitude Scale.</span>
+</h4>
+<div class="para logical" id="Chapter4Section6-6-3-2-1">
+<div class="para">For an earthquake with seismic moment <span class="process-math">\(S\text{,}\)</span> a measurement of earth movement, the MMS value, or magnitude of the earthquake, is</div>
+<div class="displaymath process-math">
+\begin{equation*}
+M=\dfrac{2}{3}\log(\dfrac{S}{S_0})
+\end{equation*}
+</div>
+<div class="para">Where <span class="process-math">\(S_{0}=10^{1}6\)</span> is a baseline measure for the seismic moment.</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#Chapter4Section6-6-3-2-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Definition 4.6.18: Moment Magnitude Scale"><a href="#Chapter4Section6-6-3" title="Copy permalink for Definition 4.6.18: Moment Magnitude Scale">🔗</a></div></article><article class="example example-like" id="Chapter4Section6-6-4"><h4 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">4.6.19</span><span class="period">.</span>
+</h4>
+<div class="para" id="Chapter4Section6-6-4-1-1">If one earthquake has a MMS magnitude of 6.0, and another has a magnitude of 8.0, how much more powerful (in terms of earth movement) is the second earthquake?<div class="autopermalink" data-description="Paragraph"><a href="#Chapter4Section6-6-4-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="solution solution-like" id="Chapter4Section6-6-4-2">
+<h4 class="heading">
+<span class="type">Solution</span><span class="period">.</span>
+</h4>
+<div class="para logical" id="Chapter4Section6-6-4-2-1">
+<div class="para">Since the first earthquake has magnitude 6.0, we can find the amount of earth movement for that quake, which we’ll denote <span class="process-math">\(S_{1}\text{.}\)</span> The value of <span class="process-math">\(S_{0}\)</span> is not particularly relevant, so we will not replace it with its value. We start solving for <span class="process-math">\(S_{1}\)</span> by setting up the equation <span class="process-math">\(6.0=\dfrac{2}{3}\log(\dfrac{S_1}{S_0})\text{.}\)</span> Continuing to solve for <span class="process-math">\(S_{1}\text{,}\)</span> we see:</div>
+<div class="displaymath process-math">
+\begin{equation*}
+6.0(\dfrac{3}{2})=\log(\dfrac{s_1}{s_0}),
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+9=\log(\dfrac{S_1}{S_0}),
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\dfrac{S_1}{S_0}=10^{9},
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+S_{1}=10^{9} S_{0}.
+\end{equation*}
+</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#Chapter4Section6-6-4-2-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="Chapter4Section6-6-4-2-2">This tells us the first earthquake has about <span class="process-math">\(10^{9}\)</span> times more earth movement than the baseline measure.<div class="autopermalink" data-description="Paragraph"><a href="#Chapter4Section6-6-4-2-2" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="Chapter4Section6-6-4-2-3">Doing the same with the second earthquake, <span class="process-math">\(S_{2}\text{,}\)</span> with a magnitude of 8.0, the equation <span class="process-math">\(8.0=\dfrac{2}{3}\log(\dfrac{S_2}{S_0})\)</span> gives us <span class="process-math">\(S_{2}=10^{12}S_{0}\text{.}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#Chapter4Section6-6-4-2-3" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="Chapter4Section6-6-4-2-4">Comparing the earth movement of the second earthquake to the first, <span class="process-math">\(\dfrac{S_2}{S_1}=\dfrac{10^{12}S_0}{10^{9} S_0}=10^{3}=1000\text{.}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#Chapter4Section6-6-4-2-4" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="Chapter4Section6-6-4-2-5">The second earthquake’s earth movement is 1000 times as large as the first earthquake.<div class="autopermalink" data-description="Paragraph"><a href="#Chapter4Section6-6-4-2-5" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Solution 4.6.19.1"><a href="#Chapter4Section6-6-4-2" title="Copy permalink for Solution 4.6.19.1">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Example 4.6.19"><a href="#Chapter4Section6-6-4" title="Copy permalink for Example 4.6.19">🔗</a></div></article><article class="example example-like" id="Chapter4Section6-6-5"><h4 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">4.6.20</span><span class="period">.</span>
+</h4>
+<div class="para" id="Chapter4Section6-6-5-1-1">One earthquake has magnitude of 3.0. If a second earthquake has twice as much earth movement as the first earthquake, find the magnitude of the second quake.<div class="autopermalink" data-description="Paragraph"><a href="#Chapter4Section6-6-5-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="solution solution-like" id="Chapter4Section6-6-5-2">
+<h4 class="heading">
+<span class="type">Solution</span><span class="period">.</span>
+</h4>
+<div class="para" id="Chapter4Section6-6-5-2-1">Since the first quake has magnitude 3.0, <span class="process-math">\(3.0=\dfrac{2}{3}\log(\dfrac{S_1}{S_0})\text{.}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#Chapter4Section6-6-5-2-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para logical" id="Chapter4Section6-6-5-2-2">
+<div class="para">Solving for <span class="process-math">\(S\text{,}\)</span>
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+3.0(\dfrac{3}{2})=\log(\dfrac{S_1}{S_0}),
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+4.5=\log(\dfrac{S_1}{S_0}),
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+10^{4.5}=\dfrac{S_1}{S_0},
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+S_{1}=10^{4.5}S_{0}.
+\end{equation*}
+</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#Chapter4Section6-6-5-2-2" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="Chapter4Section6-6-5-2-3">Since the second earthquake has twice as much earth movement, for the second quake, <span class="process-math">\(S_{2}=2\times10^{4.5}S_{0}\text{.}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#Chapter4Section6-6-5-2-3" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="Chapter4Section6-6-5-2-4">Finding the magnitude, <span class="process-math">\(M=\dfrac{2}{3}\log(\dfrac{2\times 10^{4.5} S_0}{S_0})=\dfrac{2}{3}\log(2\times 10^{4.5})\approx 3.201\text{.}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#Chapter4Section6-6-5-2-4" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="Chapter4Section6-6-5-2-5">The second earthquake with twice as much earth movement will have a magnitude of about 3.2.<div class="autopermalink" data-description="Paragraph"><a href="#Chapter4Section6-6-5-2-5" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Solution 4.6.20.1"><a href="#Chapter4Section6-6-5-2" title="Copy permalink for Solution 4.6.20.1">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Example 4.6.20"><a href="#Chapter4Section6-6-5" title="Copy permalink for Example 4.6.20">🔗</a></div></article><div class="para logical" id="Chapter4Section6-6-6">
+<div class="para">In fact, using log properties, we could show that whenever the earth movement doubles, the magnitude will increase by about 0.201. Given the movement of an earthquake denoted by <span class="process-math">\(S\text{,}\)</span> the magnitude of a second earthquaqe with twice the movement is:</div>
+<div class="displaymath process-math">
+\begin{equation*}
+M= \dfrac{2}{3}\log(\dfrac{2S}{S_0})= \dfrac{2}{3}\log(2\dfrac{S}{S_0})= \dfrac{2}{3}(\log(2)+\log(\dfrac{S}{S_0}))= \dfrac{2}{3}\log(2)+\dfrac{2}{3}\log(\dfrac{S}{S_0})= 0.201+\dfrac{2}{3}\log(\dfrac{S}{S_0}).
+\end{equation*}
+</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#Chapter4Section6-6-6" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="Chapter4Section6-6-7">Since <span class="process-math">\(\dfrac{2}{3}\log(\dfrac{S}{S_0})\)</span> is the magnitude of the first earthquake, the magnitude of the second is 0.201 greater than the magnitude of the first.<div class="autopermalink" data-description="Paragraph"><a href="#Chapter4Section6-6-7" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="Chapter4Section6-6-8">This illustrates the most important feature of a log scale: that multiplying the quantity being considered will add to the scale value, and vice versa.<div class="autopermalink" data-description="Paragraph"><a href="#Chapter4Section6-6-8" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Subsection 4.6.5: Earthquakes"><a href="#Chapter4Section6-6" title="Copy permalink for Subsection 4.6.5: Earthquakes">🔗</a></div></section><section class="subsection" id="Chapter4Section6-7"><h3 class="heading hide-type">
+<span class="type">Subsection</span><span class="space"> </span><span class="codenumber">4.6.6</span><span class="space"> </span><span class="title">Answers</span>
+</h3>
+<article class="exercise exercise-like" id="Chapter4Section6-7-2"><h4 class="heading">
+<span class="type">Checkpoint</span><span class="space"> </span><span class="codenumber">4.6.21</span><span class="period">.</span>
+</h4>
+<div class="para" id="Chapter4Section6-7-2-1-1">[Answers to Checkpoint Exercises]<div class="autopermalink" data-description="Paragraph"><a href="#Chapter4Section6-7-2-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="solutions"><details id="Chapter4Section6-7-2-2" class="answer solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Answer</span><span class="period">.</span></summary><div class="answer solution-like knowl__content">
+<div class="para logical" id="Chapter4Section6-7-2-2-1">
+<ol class="decimal" id="Chapter4Section6-7-2-2-1-1">
+<li id="Chapter4Section6-7-2-2-1-1-1">
+<div class="para" id="Chapter4Section6-7-2-2-1-1-1-1">
+<span class="process-math">\(r=(\dfrac{1}{2})^{\frac{1}{10}}-1\approx -0.067\)</span> or -6.7% is the daily rate of decay.<div class="autopermalink" data-description="Paragraph"><a href="#Chapter4Section6-7-2-2-1-1-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item 4.6.21.1"><a href="#Chapter4Section6-7-2-2-1-1-1" title="Copy permalink for Item 4.6.21.1">🔗</a></div>
+</li>
+<li id="Chapter4Section6-7-2-2-1-1-2">
+<div class="para" id="Chapter4Section6-7-2-2-1-1-2-1">Less than 230 years, 229.3157 to be exact<div class="autopermalink" data-description="Paragraph"><a href="#Chapter4Section6-7-2-2-1-1-2-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item 4.6.21.2"><a href="#Chapter4Section6-7-2-2-1-1-2" title="Copy permalink for Item 4.6.21.2">🔗</a></div>
+</li>
+<li id="Chapter4Section6-7-2-2-1-1-3">
+<div class="para" id="Chapter4Section6-7-2-2-1-1-3-1">Solving <span class="process-math">\(a(1+0.066)^{t}=2a\text{,}\)</span> it will take <span class="process-math">\(t=\dfrac{\log(2)}{\log(1.066)}\approx 10.845 \text{ years}\text{,}\)</span> or approximately 11 years, for tuition to double.<div class="autopermalink" data-description="Paragraph"><a href="#Chapter4Section6-7-2-2-1-1-3-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item 4.6.21.3"><a href="#Chapter4Section6-7-2-2-1-1-3" title="Copy permalink for Item 4.6.21.3">🔗</a></div>
+</li>
+<li id="Chapter4Section6-7-2-2-1-1-4">
+<div class="image-box" style="width: 100%; margin-left: 0%; margin-right: 0%;"><img src="external/C4S6Image5.png" class="contained"></div>
+<div class="autopermalink" data-description="Item 4.6.21.4"><a href="#Chapter4Section6-7-2-2-1-1-4" title="Copy permalink for Item 4.6.21.4">🔗</a></div>
+</li>
+<li id="Chapter4Section6-7-2-2-1-1-5">
+<div class="para" id="Chapter4Section6-7-2-2-1-1-5-1">
+<span class="process-math">\(\dfrac{2\times10^9}{2\times10^1}=10^{8}\text{.}\)</span> The sound pressure in created by launching the space shuttle is 8 orders of magnitude greater than the sound pressure created by the softest sound a human ear can hear.<div class="autopermalink" data-description="Paragraph"><a href="#Chapter4Section6-7-2-2-1-1-5-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item 4.6.21.5"><a href="#Chapter4Section6-7-2-2-1-1-5" title="Copy permalink for Item 4.6.21.5">🔗</a></div>
+</li>
+</ol>
+<div class="autopermalink" data-description="Paragraph"><a href="#Chapter4Section6-7-2-2-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Answer 4.6.21.1"><a href="#Chapter4Section6-7-2-2" title="Copy permalink for Answer 4.6.21.1">🔗</a></div>
+</div></details></div>
+<div class="autopermalink" data-description="Checkpoint 4.6.21"><a href="#Chapter4Section6-7-2" title="Copy permalink for Checkpoint 4.6.21">🔗</a></div></article><div class="autopermalink" data-description="Subsection 4.6.6: Answers"><a href="#Chapter4Section6-7" title="Copy permalink for Subsection 4.6.6: Answers">🔗</a></div></section><div class="autopermalink" data-description="Section 4.6: Exponential and Logarithmic Models"><a href="#Chapter4Section6" title="Copy permalink for Section 4.6: Exponential and Logarithmic Models">🔗</a></div></section></div>
 <div id="ptx-content-footer" class="ptx-content-footer">
 <a class="previous-button button" href="Chapter4Section5.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="top-button button" href="#" title="Top"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Top</span></a><a class="next-button button" href="backmatter.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a>
 </div></main>

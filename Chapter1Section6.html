@@ -5,7 +5,7 @@
 <!--*         https://pretextbook.org          *-->
 <!--*                                          *-->
 <!--********************************************-->
-<html lang="en-US" dir="ltr" data-legacy-colorscheme="blue_red">
+<html lang="en-US" dir="ltr" data-legacy-colorscheme="default">
 <!--******************************************-->
 <!--*  Authored with PreTeXt                 *-->
 <!--*  pretextbook.org                       *-->
@@ -134,7 +134,12 @@ eBookConfig.enable_chatcodes =  false;
 <ol id="searchresults" class="searchresults"></ol>
 </div>
 </div>
-<span class="nav-other-controls"></span><span class="treebuttons"><a class="previous-button button" href="Chapter1Section5.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="up-button button" href="Chapter1.html" title="Up"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Up</span></a><a class="next-button button" href="Chapter2.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a></span>
+<span class="nav-other-controls"><button id="embed-button" class="embed-button button" title="Embed this page"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe86f;</span><span class="name">Embed</span></button><div class="embed-popup hidden" id="embed-popup">
+<p>Copy the code below to embed this page in your own website or LMS page.</p>
+<div class="embed-code-container">
+<textarea class="embed-code-textbox" id="embed-code-textbox" readonly aria-label="textbox"><iframe src="https://example.com/embed" width="100%" height="1000"></iframe></textarea><button class="copy-embed-button button" id="copy-embed-button" title="Copy embed code"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe14d;</span><span class="name">Copy</span></button>
+</div>
+</div></span><span class="treebuttons"><a class="previous-button button" href="Chapter1Section5.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="up-button button" href="Chapter1.html" title="Up"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Up</span></a><a class="next-button button" href="Chapter2.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a></span>
 </div></nav><div id="latex-macros" class="hidden-content process-math" style="display:none"><span class="process-math">\(\newcommand{\N}{\mathbb N} \newcommand{\Z}{\mathbb Z} \newcommand{\Q}{\mathbb Q} \newcommand{\R}{\mathbb R}
 \newcommand{\lt}{&lt;}
 \newcommand{\gt}{&gt;}
@@ -318,7 +323,17 @@ eBookConfig.enable_chatcodes =  false;
 <li class="toc-item toc-subsection"><div class="toc-title-box"><a href="Chapter4Section5.html#Chapter4Section5-4" class="internal"><span class="codenumber">4.5.3</span> <span class="title">Answers</span></a></div></li>
 </ul>
 </li>
-<li class="toc-item toc-section"><div class="toc-title-box"><a href="Chapter4Section6.html" class="internal"><span class="codenumber">4.6</span> <span class="title">Exponential and Logarithmic Models</span></a></div></li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="Chapter4Section6.html" class="internal"><span class="codenumber">4.6</span> <span class="title">Exponential and Logarithmic Models</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="Chapter4Section6.html#Chapter4Section6-2" class="internal"><span class="codenumber">4.6.1</span> <span class="title">Introduction</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="Chapter4Section6.html#Chapter4Section6-3" class="internal"><span class="codenumber">4.6.2</span> <span class="title">Radioactive Decay</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="Chapter4Section6.html#Chapter4Section6-4" class="internal"><span class="codenumber">4.6.3</span> <span class="title">Doubling Time</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="Chapter4Section6.html#Chapter4Section6-5" class="internal"><span class="codenumber">4.6.4</span> <span class="title">Logarithmic Scales</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="Chapter4Section6.html#Chapter4Section6-6" class="internal"><span class="codenumber">4.6.5</span> <span class="title">Earthquakes</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="Chapter4Section6.html#Chapter4Section6-7" class="internal"><span class="codenumber">4.6.6</span> <span class="title">Answers</span></a></div></li>
+</ul>
+</li>
 </ul>
 </li>
 <li class="toc-item toc-backmatter"><div class="toc-title-box"><a href="backmatter.html" class="internal"><span class="title">Backmatter</span></a></div></li>
@@ -333,60 +348,96 @@ eBookConfig.enable_chatcodes =  false;
 <span class="type">Objectives:</span><span class="space"> </span><span class="title">Important Topics of this Section</span>
 </h4>
 <ul class="disc" id="Chapter1Section6-2-2-2">
-<li id="Chapter1Section6-2-2-2-1"><div class="para" id="Chapter1Section6-2-2-2-1-1">Definition of an inverse function</div></li>
-<li id="Chapter1Section6-2-2-2-2"><div class="para" id="Chapter1Section6-2-2-2-2-1">Composition of inverse functions yield the original input value</div></li>
-<li id="Chapter1Section6-2-2-2-3"><div class="para" id="Chapter1Section6-2-2-2-3-1">Not every function has an inverse function</div></li>
-<li id="Chapter1Section6-2-2-2-4"><div class="para" id="Chapter1Section6-2-2-2-4-1">To have an inverse a function must be one-to-one</div></li>
-<li id="Chapter1Section6-2-2-2-5"><div class="para" id="Chapter1Section6-2-2-2-5-1">Restricting the domain of functions that are not one-to-one.</div></li>
-</ul></article><div class="para" id="Chapter1Section6-2-3">A fashion designer is traveling to Milan for a fashion show. He asks his assistant, Betty, what 75 degrees Fahrenheit is in Celsius, and after a quick search on Google, she finds the formula <span class="process-math">\(C=\frac{5}{9}(F-32)\text{.}\)</span> Using this formula, she calculates <span class="process-math">\(\frac{5}{9}(75-32)\approx 24\)</span> degrees Celsius. The next day, the designer sends his assistant the week’s weather forecast for Milan and asks her to convert the temperatures to Fahrenheit.</div>
-<div class="image-box" style="width: 100%; margin-left: 0%; margin-right: 0%;"><img src="external/C1S7Image1.png" class="contained" alt="A weather forecast for four days with temperatures in Celsius."></div>
-<div class="para" id="Chapter1Section6-2-5">At first, Betty might consider using the formula she has already found to do the conversions. After all, she knows her algebra, and can easily solve the equation for F after substituting a value for C. For example, to convert 26 degrees Celsius, she could write: <span class="process-math">\(26=\frac{5}{9}(F-32)\text{,}\)</span>
+<li id="Chapter1Section6-2-2-2-1">
+<div class="para" id="Chapter1Section6-2-2-2-1-1">Definition of an inverse function<div class="autopermalink" data-description="Paragraph"><a href="#Chapter1Section6-2-2-2-1-1" title="Copy permalink for Paragraph">🔗</a></div>
 </div>
-<div class="para" id="Chapter1Section6-2-6"><span class="process-math">\(26\times \frac{9}{5}=F-32\text{,}\)</span></div>
-<div class="para" id="Chapter1Section6-2-7"><span class="process-math">\(F=26\times\frac{9}{5}+32\approx79\text{.}\)</span></div>
-<div class="para" id="Chapter1Section6-2-8">After considering this option for a moment, she realizes that solving the equation for each of the temperatures would get awfully tedious, and realizes that since evaluation is easier than solving, it would be much more convenient to have a different formula, one which takes the Celsius temperature and outputs the Fahrenheit temperature. This is the idea of an inverse function, where the input becomes the output, and the output becomes the input.</div>
+<div class="autopermalink" data-description="Objective"><a href="#Chapter1Section6-2-2-2-1" title="Copy permalink for Objective">🔗</a></div>
+</li>
+<li id="Chapter1Section6-2-2-2-2">
+<div class="para" id="Chapter1Section6-2-2-2-2-1">Composition of inverse functions yield the original input value<div class="autopermalink" data-description="Paragraph"><a href="#Chapter1Section6-2-2-2-2-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Objective"><a href="#Chapter1Section6-2-2-2-2" title="Copy permalink for Objective">🔗</a></div>
+</li>
+<li id="Chapter1Section6-2-2-2-3">
+<div class="para" id="Chapter1Section6-2-2-2-3-1">Not every function has an inverse function<div class="autopermalink" data-description="Paragraph"><a href="#Chapter1Section6-2-2-2-3-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Objective"><a href="#Chapter1Section6-2-2-2-3" title="Copy permalink for Objective">🔗</a></div>
+</li>
+<li id="Chapter1Section6-2-2-2-4">
+<div class="para" id="Chapter1Section6-2-2-2-4-1">To have an inverse a function must be one-to-one<div class="autopermalink" data-description="Paragraph"><a href="#Chapter1Section6-2-2-2-4-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Objective"><a href="#Chapter1Section6-2-2-2-4" title="Copy permalink for Objective">🔗</a></div>
+</li>
+<li id="Chapter1Section6-2-2-2-5">
+<div class="para" id="Chapter1Section6-2-2-2-5-1">Restricting the domain of functions that are not one-to-one.<div class="autopermalink" data-description="Paragraph"><a href="#Chapter1Section6-2-2-2-5-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Objective"><a href="#Chapter1Section6-2-2-2-5" title="Copy permalink for Objective">🔗</a></div>
+</li>
+</ul>
+<div class="autopermalink" data-description="Objectives 1.6.1: Important Topics of this Section"><a href="#Chapter1Section6-2-2" title="Copy permalink for Objectives 1.6.1: Important Topics of this Section">🔗</a></div></article><div class="para" id="Chapter1Section6-2-3">A fashion designer is traveling to Milan for a fashion show. He asks his assistant, Betty, what 75 degrees Fahrenheit is in Celsius, and after a quick search on Google, she finds the formula <span class="process-math">\(C=\frac{5}{9}(F-32)\text{.}\)</span> Using this formula, she calculates <span class="process-math">\(\frac{5}{9}(75-32)\approx 24\)</span> degrees Celsius. The next day, the designer sends his assistant the week’s weather forecast for Milan and asks her to convert the temperatures to Fahrenheit.<div class="autopermalink" data-description="Paragraph"><a href="#Chapter1Section6-2-3" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="image-box" style="width: 100%; margin-left: 0%; margin-right: 0%;"><img src="external/C1S7Image1.png" class="contained" alt="A weather forecast for four days with temperatures in Celsius."></div>
+<div class="para" id="Chapter1Section6-2-5">At first, Betty might consider using the formula she has already found to do the conversions. After all, she knows her algebra, and can easily solve the equation for F after substituting a value for C. For example, to convert 26 degrees Celsius, she could write: <span class="process-math">\(26=\frac{5}{9}(F-32)\text{,}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#Chapter1Section6-2-5" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="Chapter1Section6-2-6">
+<span class="process-math">\(26\times \frac{9}{5}=F-32\text{,}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#Chapter1Section6-2-6" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="Chapter1Section6-2-7">
+<span class="process-math">\(F=26\times\frac{9}{5}+32\approx79\text{.}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#Chapter1Section6-2-7" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="Chapter1Section6-2-8">After considering this option for a moment, she realizes that solving the equation for each of the temperatures would get awfully tedious, and realizes that since evaluation is easier than solving, it would be much more convenient to have a different formula, one which takes the Celsius temperature and outputs the Fahrenheit temperature. This is the idea of an inverse function, where the input becomes the output, and the output becomes the input.<div class="autopermalink" data-description="Paragraph"><a href="#Chapter1Section6-2-8" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
 <article class="definition definition-like" id="Chapter1Section6-2-9"><h4 class="heading">
 <span class="type">Definition</span><span class="space"> </span><span class="codenumber">1.6.1</span><span class="period">.</span><span class="space"> </span><span class="title">Inverse Function.</span>
 </h4>
-<div class="para" id="Chapter1Section6-2-9-2-1">If <span class="process-math">\(f(a)=b\text{,}\)</span> then a function <span class="process-math">\(g\)</span> is an inverse of <span class="process-math">\(f\)</span> if <span class="process-math">\(g(b)=a\text{.}\)</span> The inverse of a function <span class="process-math">\(f\)</span> is typically notated <span class="process-math">\(f^{-1}\text{,}\)</span> which is read "f inverse", so equivalently, if <span class="process-math">\(f(a)=b\)</span> then <span class="process-math">\(f^{-1}(b)=a\text{.}\)</span>
-</div></article><div class="para" id="Chapter1Section6-2-10">Important: The superscripts -1 used in the notation for inverse functions is simply a notation, and does not designate an exponent or power of -1.</div>
+<div class="para" id="Chapter1Section6-2-9-2-1">If <span class="process-math">\(f(a)=b\text{,}\)</span> then a function <span class="process-math">\(g\)</span> is an inverse of <span class="process-math">\(f\)</span> if <span class="process-math">\(g(b)=a\text{.}\)</span> The inverse of a function <span class="process-math">\(f\)</span> is typically notated <span class="process-math">\(f^{-1}\text{,}\)</span> which is read "f inverse", so equivalently, if <span class="process-math">\(f(a)=b\)</span> then <span class="process-math">\(f^{-1}(b)=a\text{.}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#Chapter1Section6-2-9-2-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Definition 1.6.1: Inverse Function"><a href="#Chapter1Section6-2-9" title="Copy permalink for Definition 1.6.1: Inverse Function">🔗</a></div></article><div class="para" id="Chapter1Section6-2-10">Important: The superscripts -1 used in the notation for inverse functions is simply a notation, and does not designate an exponent or power of -1.<div class="autopermalink" data-description="Paragraph"><a href="#Chapter1Section6-2-10" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
 <article class="example example-like" id="Chapter1Section6-2-11"><h4 class="heading">
 <span class="type">Example</span><span class="space"> </span><span class="codenumber">1.6.2</span><span class="period">.</span>
 </h4>
-<div class="para" id="Chapter1Section6-2-11-1-1">If for a particular function, <span class="process-math">\(f(2)=4\text{,}\)</span> what do we know about the inverse?</div>
+<div class="para" id="Chapter1Section6-2-11-1-1">If for a particular function, <span class="process-math">\(f(2)=4\text{,}\)</span> what do we know about the inverse?<div class="autopermalink" data-description="Paragraph"><a href="#Chapter1Section6-2-11-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
 <div class="solution solution-like" id="Chapter1Section6-2-11-2">
 <h4 class="heading">
 <span class="type">Solution</span><span class="period">.</span>
 </h4>
-<div class="para" id="Chapter1Section6-2-11-2-1">The inverse function reverses which quantity is input and which quantity is output, so if <span class="process-math">\(f(2)=4\text{,}\)</span> then <span class="process-math">\(f^{-1}(4)=2\text{.}\)</span>
+<div class="para" id="Chapter1Section6-2-11-2-1">The inverse function reverses which quantity is input and which quantity is output, so if <span class="process-math">\(f(2)=4\text{,}\)</span> then <span class="process-math">\(f^{-1}(4)=2\text{.}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#Chapter1Section6-2-11-2-1" title="Copy permalink for Paragraph">🔗</a></div>
 </div>
-<div class="para" id="Chapter1Section6-2-11-2-2">Alternatively, if you want to re-name the inverse function <span class="process-math">\(g\text{,}\)</span> then <span class="process-math">\(g(4) = 2\text{.}\)</span>
+<div class="para" id="Chapter1Section6-2-11-2-2">Alternatively, if you want to re-name the inverse function <span class="process-math">\(g\text{,}\)</span> then <span class="process-math">\(g(4) = 2\text{.}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#Chapter1Section6-2-11-2-2" title="Copy permalink for Paragraph">🔗</a></div>
 </div>
-</div></article><article class="exercise exercise-like" id="Chapter1Section6-2-12"><h4 class="heading">
+<div class="autopermalink" data-description="Solution 1.6.2.1"><a href="#Chapter1Section6-2-11-2" title="Copy permalink for Solution 1.6.2.1">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Example 1.6.2"><a href="#Chapter1Section6-2-11" title="Copy permalink for Example 1.6.2">🔗</a></div></article><article class="exercise exercise-like" id="Chapter1Section6-2-12"><h4 class="heading">
 <span class="type">Checkpoint</span><span class="space"> </span><span class="codenumber">1.6.3</span><span class="period">.</span>
 </h4>
-<div class="para" id="Chapter1Section6-2-12-1-1">Given that <span class="process-math">\(h^{-1}(6)=2\text{,}\)</span> what do we know about the original function <span class="process-math">\(h(x)\text{?}\)</span>
-</div></article><div class="para" id="Chapter1Section6-2-13">Notice that the original function and the inverse function undo each other. If <span class="process-math">\(f(a)=b\text{,}\)</span> then <span class="process-math">\(f^{-1}(b)=a\text{,}\)</span> returning us to the original input. More simply put, if you compose these functions together you get the original input as your answer. <span class="process-math">\(f^{-1}(f(a))=a\)</span> and <span class="process-math">\(f(f^{-1}(b))=b\text{.}\)</span>
+<div class="para" id="Chapter1Section6-2-12-1-1">Given that <span class="process-math">\(h^{-1}(6)=2\text{,}\)</span> what do we know about the original function <span class="process-math">\(h(x)\text{?}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#Chapter1Section6-2-12-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Checkpoint 1.6.3"><a href="#Chapter1Section6-2-12" title="Copy permalink for Checkpoint 1.6.3">🔗</a></div></article><div class="para" id="Chapter1Section6-2-13">Notice that the original function and the inverse function undo each other. If <span class="process-math">\(f(a)=b\text{,}\)</span> then <span class="process-math">\(f^{-1}(b)=a\text{,}\)</span> returning us to the original input. More simply put, if you compose these functions together you get the original input as your answer. <span class="process-math">\(f^{-1}(f(a))=a\)</span> and <span class="process-math">\(f(f^{-1}(b))=b\text{.}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#Chapter1Section6-2-13" title="Copy permalink for Paragraph">🔗</a></div>
 </div>
 <div class="image-box" style="width: 100%; margin-left: 0%; margin-right: 0%;"><img src="external/C1S7Image2.png" class="contained" alt="A diagram showing two circles, one labeled domain of f with a point labeled a in the circle, and the other labeled Range of f with a point labeled b in the circle.  An arrow labeled f of x points from a to b. An arrow labeled f inverse of x points from b to a."></div>
-<div class="para" id="Chapter1Section6-2-15">Since the outputs of the function <span class="process-math">\(f\)</span> are the inputs to <span class="process-math">\(f^{-1}\text{,}\)</span> the range of <span class="process-math">\(f\)</span> is also the domain of <span class="process-math">\(f^{-1}\text{.}\)</span> Likewise, since the inputs to <span class="process-math">\(f\)</span> are the outputs of <span class="process-math">\(f^{-1}\text{,}\)</span> the domain of <span class="process-math">\(f\)</span> is the range of <span class="process-math">\(f^{-1}\text{.}\)</span>
+<div class="para" id="Chapter1Section6-2-15">Since the outputs of the function <span class="process-math">\(f\)</span> are the inputs to <span class="process-math">\(f^{-1}\text{,}\)</span> the range of <span class="process-math">\(f\)</span> is also the domain of <span class="process-math">\(f^{-1}\text{.}\)</span> Likewise, since the inputs to <span class="process-math">\(f\)</span> are the outputs of <span class="process-math">\(f^{-1}\text{,}\)</span> the domain of <span class="process-math">\(f\)</span> is the range of <span class="process-math">\(f^{-1}\text{.}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#Chapter1Section6-2-15" title="Copy permalink for Paragraph">🔗</a></div>
 </div>
-<div class="para" id="Chapter1Section6-2-16">Basically, like how the input and output values switch, the domain and ranges switch as well. But be careful, because sometimes a function doesn’t even have an inverse function, or only has an inverse on a limited domain. For example, the inverse of <span class="process-math">\(f(x)=\sqrt{x}\)</span> is <span class="process-math">\(f^{-1}(x)=x^{2}\text{,}\)</span> since a square "undoes" a square root, but it is only the inverse of <span class="process-math">\(f(x)\)</span> on the domain <span class="process-math">\([0,\infty)\text{,}\)</span> since that is the range of <span class="process-math">\(f(x)=\sqrt{x}\text{.}\)</span>
+<div class="para" id="Chapter1Section6-2-16">Basically, like how the input and output values switch, the domain and ranges switch as well. But be careful, because sometimes a function doesn’t even have an inverse function, or only has an inverse on a limited domain. For example, the inverse of <span class="process-math">\(f(x)=\sqrt{x}\)</span> is <span class="process-math">\(f^{-1}(x)=x^{2}\text{,}\)</span> since a square "undoes" a square root, but it is only the inverse of <span class="process-math">\(f(x)\)</span> on the domain <span class="process-math">\([0,\infty)\text{,}\)</span> since that is the range of <span class="process-math">\(f(x)=\sqrt{x}\text{.}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#Chapter1Section6-2-16" title="Copy permalink for Paragraph">🔗</a></div>
 </div>
 <article class="example example-like" id="Chapter1Section6-2-17"><h4 class="heading">
 <span class="type">Example</span><span class="space"> </span><span class="codenumber">1.6.4</span><span class="period">.</span>
 </h4>
-<div class="para" id="Chapter1Section6-2-17-1-1">The function <span class="process-math">\(f(x)=2^{x}\)</span> has domain <span class="process-math">\((-\infty,\infty)\)</span> and range <span class="process-math">\((0,\infty)\text{,}\)</span> what would we expect the domain and range of <span class="process-math">\(f^{-1}\)</span> to be?</div>
+<div class="para" id="Chapter1Section6-2-17-1-1">The function <span class="process-math">\(f(x)=2^{x}\)</span> has domain <span class="process-math">\((-\infty,\infty)\)</span> and range <span class="process-math">\((0,\infty)\text{,}\)</span> what would we expect the domain and range of <span class="process-math">\(f^{-1}\)</span> to be?<div class="autopermalink" data-description="Paragraph"><a href="#Chapter1Section6-2-17-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
 <div class="solution solution-like" id="Chapter1Section6-2-17-2">
 <h4 class="heading">
 <span class="type">Solution</span><span class="period">.</span>
 </h4>
-<div class="para" id="Chapter1Section6-2-17-2-1">We would expect <span class="process-math">\(f^{-1}\)</span> to swap the domain and range of <span class="process-math">\(f\text{,}\)</span> so <span class="process-math">\(f^{-1}\)</span> would have domain <span class="process-math">\((0,\infty)\)</span> and range <span class="process-math">\((-\infty,\infty)\text{.}\)</span>
+<div class="para" id="Chapter1Section6-2-17-2-1">We would expect <span class="process-math">\(f^{-1}\)</span> to swap the domain and range of <span class="process-math">\(f\text{,}\)</span> so <span class="process-math">\(f^{-1}\)</span> would have domain <span class="process-math">\((0,\infty)\)</span> and range <span class="process-math">\((-\infty,\infty)\text{.}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#Chapter1Section6-2-17-2-1" title="Copy permalink for Paragraph">🔗</a></div>
 </div>
-</div></article><article class="example example-like" id="Chapter1Section6-2-18"><h4 class="heading">
+<div class="autopermalink" data-description="Solution 1.6.4.1"><a href="#Chapter1Section6-2-17-2" title="Copy permalink for Solution 1.6.4.1">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Example 1.6.4"><a href="#Chapter1Section6-2-17" title="Copy permalink for Example 1.6.4">🔗</a></div></article><article class="example example-like" id="Chapter1Section6-2-18"><h4 class="heading">
 <span class="type">Example</span><span class="space"> </span><span class="codenumber">1.6.5</span><span class="period">.</span>
 </h4>
-<div class="para" id="Chapter1Section6-2-18-1-1">A function <span class="process-math">\(f(t)\)</span> is given as a table below, showing distance in miles that a car has traveled in <span class="process-math">\(t\)</span> minutes. Find and interpret <span class="process-math">\(f^{-1}(70)\text{.}\)</span>
+<div class="para" id="Chapter1Section6-2-18-1-1">A function <span class="process-math">\(f(t)\)</span> is given as a table below, showing distance in miles that a car has traveled in <span class="process-math">\(t\)</span> minutes. Find and interpret <span class="process-math">\(f^{-1}(70)\text{.}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#Chapter1Section6-2-18-1-1" title="Copy permalink for Paragraph">🔗</a></div>
 </div> <div class="tabular-box natural-width"><table class="tabular">
 <tr>
 <td class="c m b0 r0 l0 t0 lines">
@@ -409,13 +460,17 @@ eBookConfig.enable_chatcodes =  false;
 <h4 class="heading">
 <span class="type">Solution</span><span class="period">.</span>
 </h4>
-<div class="para" id="Chapter1Section6-2-18-2-1">The inverse function takes an output of <span class="process-math">\(f\)</span> and returns an input for <span class="process-math">\(f\text{.}\)</span> So, in the expression <span class="process-math">\(f^{-1}(70)\text{,}\)</span> the 70 is an output value of the original function, representing 70 miles. The inverse will return the corresponding input of the original function <span class="process-math">\(f\text{,}\)</span> 90 minutes, so <span class="process-math">\(f^{-1}(70)=90\text{.}\)</span> Interpreting this, it means that to drive 70 miles, it took 90 minutes.</div>
-<div class="para" id="Chapter1Section6-2-18-2-2">Alternatively, recall the definition of the inverse was that if <span class="process-math">\(f(a)=b\)</span> then <span class="process-math">\(f^{-1}(b)=a\text{.}\)</span> By this definition, if you are given <span class="process-math">\(f^{-1}(70)=a\)</span> then you are looking for a value <span class="process-math">\(a\)</span> so that <span class="process-math">\(f(a)=70\text{.}\)</span> In this case, we are looking for a <span class="process-math">\(t\)</span> so that <span class="process-math">\(f(t)=70\text{,}\)</span> which is when <span class="process-math">\(t = 90\text{.}\)</span>
+<div class="para" id="Chapter1Section6-2-18-2-1">The inverse function takes an output of <span class="process-math">\(f\)</span> and returns an input for <span class="process-math">\(f\text{.}\)</span> So, in the expression <span class="process-math">\(f^{-1}(70)\text{,}\)</span> the 70 is an output value of the original function, representing 70 miles. The inverse will return the corresponding input of the original function <span class="process-math">\(f\text{,}\)</span> 90 minutes, so <span class="process-math">\(f^{-1}(70)=90\text{.}\)</span> Interpreting this, it means that to drive 70 miles, it took 90 minutes.<div class="autopermalink" data-description="Paragraph"><a href="#Chapter1Section6-2-18-2-1" title="Copy permalink for Paragraph">🔗</a></div>
 </div>
-</div></article><article class="exercise exercise-like" id="Chapter1Section6-2-19"><h4 class="heading">
+<div class="para" id="Chapter1Section6-2-18-2-2">Alternatively, recall the definition of the inverse was that if <span class="process-math">\(f(a)=b\)</span> then <span class="process-math">\(f^{-1}(b)=a\text{.}\)</span> By this definition, if you are given <span class="process-math">\(f^{-1}(70)=a\)</span> then you are looking for a value <span class="process-math">\(a\)</span> so that <span class="process-math">\(f(a)=70\text{.}\)</span> In this case, we are looking for a <span class="process-math">\(t\)</span> so that <span class="process-math">\(f(t)=70\text{,}\)</span> which is when <span class="process-math">\(t = 90\text{.}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#Chapter1Section6-2-18-2-2" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Solution 1.6.5.1"><a href="#Chapter1Section6-2-18-2" title="Copy permalink for Solution 1.6.5.1">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Example 1.6.5"><a href="#Chapter1Section6-2-18" title="Copy permalink for Example 1.6.5">🔗</a></div></article><article class="exercise exercise-like" id="Chapter1Section6-2-19"><h4 class="heading">
 <span class="type">Checkpoint</span><span class="space"> </span><span class="codenumber">1.6.6</span><span class="period">.</span>
 </h4>
-<div class="para" id="Chapter1Section6-2-19-1-1">Using the table below,</div> <div class="tabular-box natural-width"><table class="tabular">
+<div class="para" id="Chapter1Section6-2-19-1-1">Using the table below,<div class="autopermalink" data-description="Paragraph"><a href="#Chapter1Section6-2-19-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div> <div class="tabular-box natural-width"><table class="tabular">
 <tr>
 <td class="c m b0 r0 l0 t0 lines">
 <span class="process-math">\(t\)</span> (minutes)</td>
@@ -435,43 +490,70 @@ eBookConfig.enable_chatcodes =  false;
 </table></div> <div class="para logical" id="Chapter1Section6-2-19-1-3">
 <div class="para">Find and interpret the following</div>
 <ol class="decimal" id="Chapter1Section6-2-19-1-3-1">
-<li id="Chapter1Section6-2-19-1-3-1-1"><div class="para" id="Chapter1Section6-2-19-1-3-1-1-1"><span class="process-math">\(\displaystyle f(60)\)</span></div></li>
-<li id="Chapter1Section6-2-19-1-3-1-2"><div class="para" id="Chapter1Section6-2-19-1-3-1-2-1"><span class="process-math">\(\displaystyle f^{-1}(60)\)</span></div></li>
+<li id="Chapter1Section6-2-19-1-3-1-1">
+<div class="para" id="Chapter1Section6-2-19-1-3-1-1-1">
+<span class="process-math">\(\displaystyle f(60)\)</span><div class="autopermalink" data-description="Paragraph"><a href="#Chapter1Section6-2-19-1-3-1-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item 1.6.6.1"><a href="#Chapter1Section6-2-19-1-3-1-1" title="Copy permalink for Item 1.6.6.1">🔗</a></div>
+</li>
+<li id="Chapter1Section6-2-19-1-3-1-2">
+<div class="para" id="Chapter1Section6-2-19-1-3-1-2-1">
+<span class="process-math">\(\displaystyle f^{-1}(60)\)</span><div class="autopermalink" data-description="Paragraph"><a href="#Chapter1Section6-2-19-1-3-1-2-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item 1.6.6.2"><a href="#Chapter1Section6-2-19-1-3-1-2" title="Copy permalink for Item 1.6.6.2">🔗</a></div>
+</li>
 </ol>
-</div></article><article class="example example-like" id="Chapter1Section6-2-20"><h4 class="heading">
+<div class="autopermalink" data-description="Paragraph"><a href="#Chapter1Section6-2-19-1-3" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Checkpoint 1.6.6"><a href="#Chapter1Section6-2-19" title="Copy permalink for Checkpoint 1.6.6">🔗</a></div></article><article class="example example-like" id="Chapter1Section6-2-20"><h4 class="heading">
 <span class="type">Example</span><span class="space"> </span><span class="codenumber">1.6.7</span><span class="period">.</span>
 </h4>
-<div class="para" id="Chapter1Section6-2-20-1-1">A function <span class="process-math">\(g(x)\)</span> is given as a graph below. Find <span class="process-math">\(g(3)\)</span> and <span class="process-math">\(g^{-1}(3)\)</span>
+<div class="para" id="Chapter1Section6-2-20-1-1">A function <span class="process-math">\(g(x)\)</span> is given as a graph below. Find <span class="process-math">\(g(3)\)</span> and <span class="process-math">\(g^{-1}(3)\)</span><div class="autopermalink" data-description="Paragraph"><a href="#Chapter1Section6-2-20-1-1" title="Copy permalink for Paragraph">🔗</a></div>
 </div> <figure class="figure figure-like" id="c1s7i3"><div class="image-box" style="width: 100%; margin-left: 0%; margin-right: 0%;"><img src="external/C1S7Image3.png" class="contained" alt="An increasing curving-up graph, passing through 3 comma 1 and 5 comma 3"></div>
-<figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">1.6.8<span class="period">.</span></span><span class="space"> </span>Graph of <span class="process-math">\(g(x)\)</span></figcaption></figure><div class="solution solution-like" id="Chapter1Section6-2-20-2">
+<figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">1.6.8<span class="period">.</span></span><span class="space"> </span>Graph of <span class="process-math">\(g(x)\)</span><div class="autopermalink" data-description="Figure 1.6.8"><a href="#c1s7i3" title="Copy permalink for Figure 1.6.8">🔗</a></div></figcaption></figure><div class="solution solution-like" id="Chapter1Section6-2-20-2">
 <h4 class="heading">
 <span class="type">Solution</span><span class="period">.</span>
 </h4>
-<div class="para" id="Chapter1Section6-2-20-2-1">To evaluate <span class="process-math">\(g(3)\text{,}\)</span> we find 3 on the horizontal axis and find the corresponding output value on the vertical axis. The point <span class="process-math">\((3, 1)\)</span> tells us that <span class="process-math">\(g(3)=1\text{.}\)</span> To evaluate <span class="process-math">\(g^{-1}(3)\text{,}\)</span> recall that by definition <span class="process-math">\(g^{-1}(3)\)</span> means <span class="process-math">\(g(x) = 3\text{.}\)</span> By looking for the output value 3 on the vertical axis we find the point <span class="process-math">\((5, 3)\)</span> on the graph, which means <span class="process-math">\(g(5) = 3\text{,}\)</span> so by definition, <span class="process-math">\(g^{-1}(3)=5\text{.}\)</span>
+<div class="para" id="Chapter1Section6-2-20-2-1">To evaluate <span class="process-math">\(g(3)\text{,}\)</span> we find 3 on the horizontal axis and find the corresponding output value on the vertical axis. The point <span class="process-math">\((3, 1)\)</span> tells us that <span class="process-math">\(g(3)=1\text{.}\)</span> To evaluate <span class="process-math">\(g^{-1}(3)\text{,}\)</span> recall that by definition <span class="process-math">\(g^{-1}(3)\)</span> means <span class="process-math">\(g(x) = 3\text{.}\)</span> By looking for the output value 3 on the vertical axis we find the point <span class="process-math">\((5, 3)\)</span> on the graph, which means <span class="process-math">\(g(5) = 3\text{,}\)</span> so by definition, <span class="process-math">\(g^{-1}(3)=5\text{.}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#Chapter1Section6-2-20-2-1" title="Copy permalink for Paragraph">🔗</a></div>
 </div>
-</div></article><article class="exercise exercise-like" id="Chapter1Section6-2-21"><h4 class="heading">
+<div class="autopermalink" data-description="Solution 1.6.7.1"><a href="#Chapter1Section6-2-20-2" title="Copy permalink for Solution 1.6.7.1">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Example 1.6.7"><a href="#Chapter1Section6-2-20" title="Copy permalink for Example 1.6.7">🔗</a></div></article><article class="exercise exercise-like" id="Chapter1Section6-2-21"><h4 class="heading">
 <span class="type">Checkpoint</span><span class="space"> </span><span class="codenumber">1.6.9</span><span class="period">.</span>
 </h4>
 <div class="para logical" id="Chapter1Section6-2-21-1-1">
 <div class="para">Using the graph in the example above</div>
 <ol class="decimal" id="Chapter1Section6-2-21-1-1-1">
-<li id="Chapter1Section6-2-21-1-1-1-1"><div class="para" id="Chapter1Section6-2-21-1-1-1-1-1">find <span class="process-math">\(g^{-1}(1)\)</span>
-</div></li>
-<li id="Chapter1Section6-2-21-1-1-1-2"><div class="para" id="Chapter1Section6-2-21-1-1-1-2-1">estimate <span class="process-math">\(g^{-1}(4)\)</span>
-</div></li>
+<li id="Chapter1Section6-2-21-1-1-1-1">
+<div class="para" id="Chapter1Section6-2-21-1-1-1-1-1">find <span class="process-math">\(g^{-1}(1)\)</span><div class="autopermalink" data-description="Paragraph"><a href="#Chapter1Section6-2-21-1-1-1-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item 1.6.9.1"><a href="#Chapter1Section6-2-21-1-1-1-1" title="Copy permalink for Item 1.6.9.1">🔗</a></div>
+</li>
+<li id="Chapter1Section6-2-21-1-1-1-2">
+<div class="para" id="Chapter1Section6-2-21-1-1-1-2-1">estimate <span class="process-math">\(g^{-1}(4)\)</span><div class="autopermalink" data-description="Paragraph"><a href="#Chapter1Section6-2-21-1-1-1-2-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item 1.6.9.2"><a href="#Chapter1Section6-2-21-1-1-1-2" title="Copy permalink for Item 1.6.9.2">🔗</a></div>
+</li>
 </ol>
-</div></article><article class="example example-like" id="Chapter1Section6-2-22"><h4 class="heading">
+<div class="autopermalink" data-description="Paragraph"><a href="#Chapter1Section6-2-21-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Checkpoint 1.6.9"><a href="#Chapter1Section6-2-21" title="Copy permalink for Checkpoint 1.6.9">🔗</a></div></article><article class="example example-like" id="Chapter1Section6-2-22"><h4 class="heading">
 <span class="type">Example</span><span class="space"> </span><span class="codenumber">1.6.10</span><span class="period">.</span>
 </h4>
-<div class="para" id="Chapter1Section6-2-22-1-1">Returning to our designer’s assistant, find a formula for the inverse function that gives Fahrenheit temperature given a Celsius temperature.</div>
+<div class="para" id="Chapter1Section6-2-22-1-1">Returning to our designer’s assistant, find a formula for the inverse function that gives Fahrenheit temperature given a Celsius temperature.<div class="autopermalink" data-description="Paragraph"><a href="#Chapter1Section6-2-22-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
 <div class="solution solution-like" id="Chapter1Section6-2-22-2">
 <h4 class="heading">
 <span class="type">Solution</span><span class="period">.</span>
 </h4>
-<div class="para" id="Chapter1Section6-2-22-2-1">A quick Google search would find the inverse function, but alternatively, Betty might look back at how she solved for the Fahrenheit temperature for a specific Celsius value, and repeat the process in general. <span class="process-math">\(C=\frac{5}{9}(F-32)\text{,}\)</span>
+<div class="para" id="Chapter1Section6-2-22-2-1">A quick Google search would find the inverse function, but alternatively, Betty might look back at how she solved for the Fahrenheit temperature for a specific Celsius value, and repeat the process in general. <span class="process-math">\(C=\frac{5}{9}(F-32)\text{,}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#Chapter1Section6-2-22-2-1" title="Copy permalink for Paragraph">🔗</a></div>
 </div>
-<div class="para" id="Chapter1Section6-2-22-2-2"><span class="process-math">\(\frac{9}{5}C=F-32\text{,}\)</span></div>
-<div class="para" id="Chapter1Section6-2-22-2-3"><span class="process-math">\(F=\frac{9}{5}C+32\text{.}\)</span></div>
+<div class="para" id="Chapter1Section6-2-22-2-2">
+<span class="process-math">\(\frac{9}{5}C=F-32\text{,}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#Chapter1Section6-2-22-2-2" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="Chapter1Section6-2-22-2-3">
+<span class="process-math">\(F=\frac{9}{5}C+32\text{.}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#Chapter1Section6-2-22-2-3" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
 <div class="para logical" id="Chapter1Section6-2-22-2-4">
 <div class="para">By solving in general, we have uncovered the inverse function. If</div>
 <div class="displaymath process-math">
@@ -485,32 +567,82 @@ C=h(F)=\frac{5}{9}(F-32)
 F=h^{-1}(C)=\frac{9}{5}C+32
 \end{equation*}
 </div>
+<div class="autopermalink" data-description="Paragraph"><a href="#Chapter1Section6-2-22-2-4" title="Copy permalink for Paragraph">🔗</a></div>
 </div>
-</div></article><div class="para" id="Chapter1Section6-2-23">It is important to note that not all functions will have an inverse function. Since the function <span class="process-math">\(f^{-1}\)</span> takes an output of <span class="process-math">\(f\)</span> and returns an input of <span class="process-math">\(f\text{,}\)</span> in order for <span class="process-math">\(f^{-1}\)</span> to itself be a function, then each output of <span class="process-math">\(f\)</span> (input to <span class="process-math">\(f^{-1}\)</span>) must correspond to exactly one input of <span class="process-math">\(f\)</span> (output of <span class="process-math">\(f^{-1}\)</span>). You might recall that this is the definition of a one-to-one function.</div>
+<div class="autopermalink" data-description="Solution 1.6.10.1"><a href="#Chapter1Section6-2-22-2" title="Copy permalink for Solution 1.6.10.1">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Example 1.6.10"><a href="#Chapter1Section6-2-22" title="Copy permalink for Example 1.6.10">🔗</a></div></article><div class="para" id="Chapter1Section6-2-23">It is important to note that not all functions will have an inverse function. Since the function <span class="process-math">\(f^{-1}\)</span> takes an output of <span class="process-math">\(f\)</span> and returns an input of <span class="process-math">\(f\text{,}\)</span> in order for <span class="process-math">\(f^{-1}\)</span> to itself be a function, then each output of <span class="process-math">\(f\)</span> (input to <span class="process-math">\(f^{-1}\)</span>) must correspond to exactly one input of <span class="process-math">\(f\)</span> (output of <span class="process-math">\(f^{-1}\)</span>). You might recall that this is the definition of a one-to-one function.<div class="autopermalink" data-description="Paragraph"><a href="#Chapter1Section6-2-23" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
 <article class="definition definition-like" id="Chapter1Section6-2-24"><h4 class="heading">
 <span class="type">Definition</span><span class="space"> </span><span class="codenumber">1.6.11</span><span class="period">.</span><span class="space"> </span><span class="title">Properties of Inverses.</span>
 </h4>
-<div class="para" id="Chapter1Section6-2-24-2-1">In order for a function to have an inverse, it must be a one-to-one function.</div></article><div class="para" id="Chapter1Section6-2-25">In some cases, it is desirable to have an inverse for a function even though the function is not one-to-one. In those cases, we can often limit the domain of the original function to an interval on which the function is one-to-one, then find an inverse only on that interval.</div></section><section class="subsection" id="Chapter1Section6-3"><h3 class="heading hide-type">
+<div class="para" id="Chapter1Section6-2-24-2-1">In order for a function to have an inverse, it must be a one-to-one function.<div class="autopermalink" data-description="Paragraph"><a href="#Chapter1Section6-2-24-2-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Definition 1.6.11: Properties of Inverses"><a href="#Chapter1Section6-2-24" title="Copy permalink for Definition 1.6.11: Properties of Inverses">🔗</a></div></article><div class="para" id="Chapter1Section6-2-25">In some cases, it is desirable to have an inverse for a function even though the function is not one-to-one. In those cases, we can often limit the domain of the original function to an interval on which the function is one-to-one, then find an inverse only on that interval.<div class="autopermalink" data-description="Paragraph"><a href="#Chapter1Section6-2-25" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Subsection 1.6.1: Definitions"><a href="#Chapter1Section6-2" title="Copy permalink for Subsection 1.6.1: Definitions">🔗</a></div></section><section class="subsection" id="Chapter1Section6-3"><h3 class="heading hide-type">
 <span class="type">Subsection</span><span class="space"> </span><span class="codenumber">1.6.2</span><span class="space"> </span><span class="title">Answers</span>
 </h3>
 <article class="exercise exercise-like" id="Chapter1Section6-3-2"><h4 class="heading">
 <span class="type">Checkpoint</span><span class="space"> </span><span class="codenumber">1.6.12</span><span class="period">.</span>
 </h4>
-<div class="para" id="Chapter1Section6-3-2-1-1">Answers to Checkpoint Exercises</div>
-<div class="solutions"><details id="Chapter1Section6-3-2-2" class="answer solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Answer</span><span class="period">.</span></summary><div class="answer solution-like knowl__content"><div class="para logical" id="Chapter1Section6-3-2-2-1"><ol class="decimal" id="Chapter1Section6-3-2-2-1-1">
-<li id="Chapter1Section6-3-2-2-1-1-1"><div class="para" id="Chapter1Section6-3-2-2-1-1-1-1"><span class="process-math">\(\displaystyle h(2)=6\)</span></div></li>
-<li id="Chapter1Section6-3-2-2-1-1-2"><div class="para logical" id="Chapter1Section6-3-2-2-1-1-2-1"><ol class="lower-alpha lower-alpha-level-1" id="Chapter1Section6-3-2-2-1-1-2-1-1">
-<li id="Chapter1Section6-3-2-2-1-1-2-1-1-1"><div class="para" id="Chapter1Section6-3-2-2-1-1-2-1-1-1-1">
-<span class="process-math">\(f(60)=50\text{.}\)</span> In 60 minutes, 50 miles are traveled.</div></li>
-<li id="Chapter1Section6-3-2-2-1-1-2-1-1-2"><div class="para" id="Chapter1Section6-3-2-2-1-1-2-1-1-2-1">
-<span class="process-math">\(f^{-1}(60)=70\text{.}\)</span> To travel 60 miles, it will take 70 minutes.</div></li>
-</ol></div></li>
-<li id="Chapter1Section6-3-2-2-1-1-3"><div class="para logical" id="Chapter1Section6-3-2-2-1-1-3-1"><ol class="lower-alpha lower-alpha-level-1" id="Chapter1Section6-3-2-2-1-1-3-1-1">
-<li id="Chapter1Section6-3-2-2-1-1-3-1-1-1"><div class="para" id="Chapter1Section6-3-2-2-1-1-3-1-1-1-1"><span class="process-math">\(\displaystyle g^{-1}(1)=3\)</span></div></li>
-<li id="Chapter1Section6-3-2-2-1-1-3-1-1-2"><div class="para" id="Chapter1Section6-3-2-2-1-1-3-1-1-2-1">
-<span class="process-math">\(g^{-1}(4)=5.5\)</span> (this is an approximation - answers may vary slightly</div></li>
-</ol></div></li>
-</ol></div></div></details></div></article></section></section></div>
+<div class="para" id="Chapter1Section6-3-2-1-1">Answers to Checkpoint Exercises<div class="autopermalink" data-description="Paragraph"><a href="#Chapter1Section6-3-2-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="solutions"><details id="Chapter1Section6-3-2-2" class="answer solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Answer</span><span class="period">.</span></summary><div class="answer solution-like knowl__content">
+<div class="para logical" id="Chapter1Section6-3-2-2-1">
+<ol class="decimal" id="Chapter1Section6-3-2-2-1-1">
+<li id="Chapter1Section6-3-2-2-1-1-1">
+<div class="para" id="Chapter1Section6-3-2-2-1-1-1-1">
+<span class="process-math">\(\displaystyle h(2)=6\)</span><div class="autopermalink" data-description="Paragraph"><a href="#Chapter1Section6-3-2-2-1-1-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item 1.6.12.1"><a href="#Chapter1Section6-3-2-2-1-1-1" title="Copy permalink for Item 1.6.12.1">🔗</a></div>
+</li>
+<li id="Chapter1Section6-3-2-2-1-1-2">
+<div class="para logical" id="Chapter1Section6-3-2-2-1-1-2-1">
+<ol class="lower-alpha lower-alpha-level-1" id="Chapter1Section6-3-2-2-1-1-2-1-1">
+<li id="Chapter1Section6-3-2-2-1-1-2-1-1-1">
+<div class="para" id="Chapter1Section6-3-2-2-1-1-2-1-1-1-1">
+<span class="process-math">\(f(60)=50\text{.}\)</span> In 60 minutes, 50 miles are traveled.<div class="autopermalink" data-description="Paragraph"><a href="#Chapter1Section6-3-2-2-1-1-2-1-1-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item 1.6.12.2.a"><a href="#Chapter1Section6-3-2-2-1-1-2-1-1-1" title="Copy permalink for Item 1.6.12.2.a">🔗</a></div>
+</li>
+<li id="Chapter1Section6-3-2-2-1-1-2-1-1-2">
+<div class="para" id="Chapter1Section6-3-2-2-1-1-2-1-1-2-1">
+<span class="process-math">\(f^{-1}(60)=70\text{.}\)</span> To travel 60 miles, it will take 70 minutes.<div class="autopermalink" data-description="Paragraph"><a href="#Chapter1Section6-3-2-2-1-1-2-1-1-2-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item 1.6.12.2.b"><a href="#Chapter1Section6-3-2-2-1-1-2-1-1-2" title="Copy permalink for Item 1.6.12.2.b">🔗</a></div>
+</li>
+</ol>
+<div class="autopermalink" data-description="Paragraph"><a href="#Chapter1Section6-3-2-2-1-1-2-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item 1.6.12.2"><a href="#Chapter1Section6-3-2-2-1-1-2" title="Copy permalink for Item 1.6.12.2">🔗</a></div>
+</li>
+<li id="Chapter1Section6-3-2-2-1-1-3">
+<div class="para logical" id="Chapter1Section6-3-2-2-1-1-3-1">
+<ol class="lower-alpha lower-alpha-level-1" id="Chapter1Section6-3-2-2-1-1-3-1-1">
+<li id="Chapter1Section6-3-2-2-1-1-3-1-1-1">
+<div class="para" id="Chapter1Section6-3-2-2-1-1-3-1-1-1-1">
+<span class="process-math">\(\displaystyle g^{-1}(1)=3\)</span><div class="autopermalink" data-description="Paragraph"><a href="#Chapter1Section6-3-2-2-1-1-3-1-1-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item 1.6.12.3.a"><a href="#Chapter1Section6-3-2-2-1-1-3-1-1-1" title="Copy permalink for Item 1.6.12.3.a">🔗</a></div>
+</li>
+<li id="Chapter1Section6-3-2-2-1-1-3-1-1-2">
+<div class="para" id="Chapter1Section6-3-2-2-1-1-3-1-1-2-1">
+<span class="process-math">\(g^{-1}(4)=5.5\)</span> (this is an approximation - answers may vary slightly<div class="autopermalink" data-description="Paragraph"><a href="#Chapter1Section6-3-2-2-1-1-3-1-1-2-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item 1.6.12.3.b"><a href="#Chapter1Section6-3-2-2-1-1-3-1-1-2" title="Copy permalink for Item 1.6.12.3.b">🔗</a></div>
+</li>
+</ol>
+<div class="autopermalink" data-description="Paragraph"><a href="#Chapter1Section6-3-2-2-1-1-3-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item 1.6.12.3"><a href="#Chapter1Section6-3-2-2-1-1-3" title="Copy permalink for Item 1.6.12.3">🔗</a></div>
+</li>
+</ol>
+<div class="autopermalink" data-description="Paragraph"><a href="#Chapter1Section6-3-2-2-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Answer 1.6.12.1"><a href="#Chapter1Section6-3-2-2" title="Copy permalink for Answer 1.6.12.1">🔗</a></div>
+</div></details></div>
+<div class="autopermalink" data-description="Checkpoint 1.6.12"><a href="#Chapter1Section6-3-2" title="Copy permalink for Checkpoint 1.6.12">🔗</a></div></article><div class="autopermalink" data-description="Subsection 1.6.2: Answers"><a href="#Chapter1Section6-3" title="Copy permalink for Subsection 1.6.2: Answers">🔗</a></div></section><div class="autopermalink" data-description="Section 1.6: Inverse Functions"><a href="#Chapter1Section6" title="Copy permalink for Section 1.6: Inverse Functions">🔗</a></div></section></div>
 <div id="ptx-content-footer" class="ptx-content-footer">
 <a class="previous-button button" href="Chapter1Section5.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="top-button button" href="#" title="Top"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Top</span></a><a class="next-button button" href="Chapter2.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a>
 </div></main>

@@ -3472,7 +3472,205 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "4.6",
   "title": "Exponential and Logarithmic Models",
-  "body": " Exponential and Logarithmic Models  Text of section.  "
+  "body": " Exponential and Logarithmic Models   Introduction   Important Topics of this Section    Radioactive decay    Half life    Doubling time    Logarithmic Scales    Orders of Magnitude    Moment Magnitude scale     While we have explored some basic applications of exponential and logarithmic functions, in this section we explore some important applications in more depth.    Radioactive Decay  In an earlier section, we discussed radioactive decay - the idea that radioactive isotopes change over time. One of the common terms associated with radioactive decay is half-life.   Half-Life   The half-life of a radioactive isotope is the time it takes for half the substance to decay.    Given the basic exponential growth\/decay equation , half-life can be found by solving for when half the original amount remains; by solving , or more simply . Notice how the initial amount is irrelevant when solving for half-life.    Bismuth-210 is an isotope that decays by about 13% each day. What is the half-life of Bismuth-210?    We were not given a starting quantity, so we could either make up a value or use an unknown constant to represent the starting amount. To show that starting quantity does not affect the result, let us denote the initial quantity by the constant . Then the decay of Bismuth-210 can be described by the equation , where is a number of days.  To find the half-life, we want to determine when the remaining quantity is half the original: . We start by setting our function equal to this desired output: . Then we divide both sides of the equation by to get . We can then take the common log of both sides to get , and then use the exponent property of logs to find . Dividing to solve for gives us .  This tells us that the half-life of Bismuth-210 is approximately 5 days.      Cesium-137 has a half-life of about 30 years. If you begin with 200 mg of cesium-137, how much will remain after 30 years? 60 years? 90 years?    Since the half-life is 30 years, after 30 years, half the original amount, 100 mg, will remain.  After 60 years, another 30 years have passed, so during that second 30 years, another half of the substance will decay, leaving 50 mg.  After 90 years, another 30 years have passed, so another half of the substance will decay, leaving 25 mg.      Cesium-137 has a half-life of about 30 years. Find the annual decay rate.    Since we are looking for an annual decay rate, we will use an equation of the form . We know that after 30 years, half the original amount will remain. Using this information, we can write the equation . Dividing both sides by a gives us . Taking the 30th root of both sides gives us , and then subtracting one from both sides gives us .  This tells us cesium-137 is decaying at an annual rate of 2.284% per year.      Chlorine-36 is eliminated from the body with a biological half-life of 10 days. Find the daily decay rate.      Carbon-14 is a radioactive isotope that is present in organic materials, and is commonly used for dating historical artifacts. Carbon-14 has a half-life of 5730 years. If a bone fragment is found that contains 20% of its original carbon-14, how old is the bone?    To find how old the bone is, we first will need to find an equation for the decay of the carbon-14. We could either use a continuous or annual decay formula, but opt to use the continuous decay formula since it is more common in scientific texts. The half life tells us that after 5730 years, half the original substance remains. Solving for the rate, . Dividing by a gives us , and then taking the natural log of both sides gives . Use the inverse property of logs on the right side to get . Then we can divide by 5730 to see .  Now we know the decay will follow the equation . To find how old the bone fragment is that contains 20% of the original amount, we solve for so that .  Our initial equation to set up should look like . Then we divide by to get , and then take the natural log of both sides to get . The inverse property reduces the right hand side, giving us , and we can divide to solve for to find .  So, if only 20% of the original carbon-14 is remaing, we can conclude that the bone fragment is about 13,300 years old.      We have already learned that Cesium-137 has a half-life of about 30 years. If you begin with 200 mg of cesium-137, will it take more or less than 230 years until only 1 milligram remains?      Doubling Time  For decaying quantities, we asked how long it takes for half the substance to decay. For growing quantities we might ask how long it takes for the quantity to double.   Doubling Time   The doubling time of a growing quantity is the time it takes for the quantity to double.    Given the basic exponential growth equation , doubling time can be found by solving for when the original quantity has doubled; by solving , or more simply . Like with decay, the initial amount is irrelevant when solving for doubling time.    Cancer cells sometimes increase exponentially. If a cancerous growth contained 300 cells last month and 360 cells this month, how long will it take for the number of cancer cells to double?    Defining to be time in months, with corresponding to last month, we are given two pieces of data: last month, , and this month, .  From this data, we can find an equation for the growth. Using the form , we know immediately , giving . Substituting in , we see , and so .  This gives us the equation   To find the doubling time, we look for the time when we will have twice the original amount, so when . Our starting equation is . Dividing by 300 gives us , and we can then take the common log of both sides to see . The exponential property gives us the equation , and we can divide both sides by to get . So it will take about 3.802 months for the number of cancer cells to double.      Use of a new social networking website has been growing exponentially, with the number of new members doubling every 5 months. If the site currently has 120,000 users and this trend continues, how many users will the site have in 1 year?    We can use the doubling time to find a function that models the number of site users, and then use that equation to answer the question. While we could use an arbitrary as we have before for the initial amount, in this case, we know the initial amount was 120,000.  If we use a continuous growth equation, it would look like , measured in thousands of users after months. Based on the doubling time, there would be 240 thousand users after 5 months. This allows us to solve for the continuous growth rate: , so . Then, , and so .  Now that we have an equation, , we can predict the number of users after 12 months: .  So after 1 year, we would expect the site to have around 633,140 users.      If tuition at a college is increasing by 6.6% each year, how many years will it take for tuition to double?      Logarithmic Scales  For quantities that vary greatly in magnitude, a standard scale of measurement is not always effective, and utilizing logarithms can make the values more manageable. For example, if the average distances from the sun to the major bodies in our solar system are listed, you see they vary greatly.          Planet  Average distance from Sun (millions of km)        Mercury  58        Venus  108        Earth  150        Mars  228        Jupiter  779        Saturn  1430        Uranus  2880        Neptune  4500        Placed on a linear scale - one with equally spaced values - these values get bunched up near the small values.    However, computing the logarithm of each value and plotting these new values on a number line results in a more manageable graph, and makes the relative distances more apparent.            Planet  Average distance from Sun (millions of km)           Mercury  58  1.76        Venus  108  2.03        Earth  150  2.18        Mars  228  2.36        Jupiter  779  2.89        Saturn  1430  3.16        Uranus  2880  3.46        Neptune  4500  3.65          Sometimes, as shown above, the scale on a logarithmic number line will show the log values, but more commonly the original values are listed as powers of 10, as shown below.      Estimate the value of point on the log scale above    The point appears to be half way between -2 and -1 in log value, so we should expect .      Place the number 6000 on a logarithmic scale.    Since , this point would belong on the log scale about here:        Plot the data in the table below on a logarithmic scale.          Source of Sound  Approximate Sound Pressure in micro Pascals        Softest Sound a Human Can Hear  20        Unoccupied Broadcast Studio  200        Soft Whispering at 2 meters away in Library  2000        Normal Conversation  20000        Diesel Freight Train at High Speed at 25 meters away  200000        Full Symphony Orchestra  2000000        Launching of a Space Shuttle  2000000000          Notice that on the log scale above, the visual distance on the scale between points and is the same as the distance between points and . When looking at the values these points correspond to, notice is ten times the value of , and is ten times the value of . A visual linear difference between points corresponds to a relative (ratio) change between the corresponding values.  Logarithms are useful for showing these relative changes. For example, comparing $1,000,000 to $10,000, the first is 100 times larger than the second. That is, .  Likewise, comparing $1000 to $10, the first is 100 times larger than the second. That is, .  When one quantity is roughly ten times larger than another, we say it is one order of magnitude larger. In both cases described above, the first number was two orders of magnitude larger than the second.  Notice that the order of magnitude can be found as the common logarithm of the ratio of the quantities. On the log scale above, is one order of magnitude larger than , and is one order of magnitude larger than .   Orders of Magnitude   Given two values and , to determine how many orders of magnitude is greater than ,       On the log scale above, how many orders of magnitude larger is than ?    The value corresponds to , and the value corresponds to .  The relative change is . The log of this value is 3. Thus, is three orders of magnitude greater than , which can be seen on the log scale by the visual difference between the points on the scale.      Using the table from the previous exercise, what is the difference of order of magnitude between the softest sound a human can hear and the launching of the space shuttle?      Earthquakes  An example of a logarithmic scale is the Moment Magnitude Scale (MMS) used for earthquakes. This scale is commonly and mistakenly called the Richter Scale, which was a very similar scale succeeded by the MMS.   Moment Magnitude Scale   For an earthquake with seismic moment , a measurement of earth movement, the MMS value, or magnitude of the earthquake, is Where is a baseline measure for the seismic moment.      If one earthquake has a MMS magnitude of 6.0, and another has a magnitude of 8.0, how much more powerful (in terms of earth movement) is the second earthquake?    Since the first earthquake has magnitude 6.0, we can find the amount of earth movement for that quake, which we’ll denote . The value of is not particularly relevant, so we will not replace it with its value. We start solving for by setting up the equation . Continuing to solve for , we see:      This tells us the first earthquake has about times more earth movement than the baseline measure.  Doing the same with the second earthquake, , with a magnitude of 8.0, the equation gives us .  Comparing the earth movement of the second earthquake to the first, .  The second earthquake’s earth movement is 1000 times as large as the first earthquake.      One earthquake has magnitude of 3.0. If a second earthquake has twice as much earth movement as the first earthquake, find the magnitude of the second quake.    Since the first quake has magnitude 3.0, .  Solving for ,      Since the second earthquake has twice as much earth movement, for the second quake, .  Finding the magnitude, .  The second earthquake with twice as much earth movement will have a magnitude of about 3.2.    In fact, using log properties, we could show that whenever the earth movement doubles, the magnitude will increase by about 0.201. Given the movement of an earthquake denoted by , the magnitude of a second earthquaqe with twice the movement is:   Since is the magnitude of the first earthquake, the magnitude of the second is 0.201 greater than the magnitude of the first.  This illustrates the most important feature of a log scale: that multiplying the quantity being considered will add to the scale value, and vice versa.    Answers    [Answers to Checkpoint Exercises]        or -6.7% is the daily rate of decay.    Less than 230 years, 229.3157 to be exact    Solving , it will take , or approximately 11 years, for tuition to double.         . The sound pressure in created by launching the space shuttle is 8 orders of magnitude greater than the sound pressure created by the softest sound a human ear can hear.        "
+},
+{
+  "id": "Chapter4Section6-2-2",
+  "level": "2",
+  "url": "Chapter4Section6.html#Chapter4Section6-2-2",
+  "type": "Objectives",
+  "number": "4.6.1",
+  "title": "Important Topics of this Section",
+  "body": " Important Topics of this Section    Radioactive decay    Half life    Doubling time    Logarithmic Scales    Orders of Magnitude    Moment Magnitude scale    "
+},
+{
+  "id": "Chapter4Section6-3-3",
+  "level": "2",
+  "url": "Chapter4Section6.html#Chapter4Section6-3-3",
+  "type": "Definition",
+  "number": "4.6.1",
+  "title": "Half-Life.",
+  "body": " Half-Life   The half-life of a radioactive isotope is the time it takes for half the substance to decay.   "
+},
+{
+  "id": "Chapter4Section6-3-5",
+  "level": "2",
+  "url": "Chapter4Section6.html#Chapter4Section6-3-5",
+  "type": "Example",
+  "number": "4.6.2",
+  "title": "",
+  "body": "  Bismuth-210 is an isotope that decays by about 13% each day. What is the half-life of Bismuth-210?    We were not given a starting quantity, so we could either make up a value or use an unknown constant to represent the starting amount. To show that starting quantity does not affect the result, let us denote the initial quantity by the constant . Then the decay of Bismuth-210 can be described by the equation , where is a number of days.  To find the half-life, we want to determine when the remaining quantity is half the original: . We start by setting our function equal to this desired output: . Then we divide both sides of the equation by to get . We can then take the common log of both sides to get , and then use the exponent property of logs to find . Dividing to solve for gives us .  This tells us that the half-life of Bismuth-210 is approximately 5 days.   "
+},
+{
+  "id": "Chapter4Section6-3-6",
+  "level": "2",
+  "url": "Chapter4Section6.html#Chapter4Section6-3-6",
+  "type": "Example",
+  "number": "4.6.3",
+  "title": "",
+  "body": "  Cesium-137 has a half-life of about 30 years. If you begin with 200 mg of cesium-137, how much will remain after 30 years? 60 years? 90 years?    Since the half-life is 30 years, after 30 years, half the original amount, 100 mg, will remain.  After 60 years, another 30 years have passed, so during that second 30 years, another half of the substance will decay, leaving 50 mg.  After 90 years, another 30 years have passed, so another half of the substance will decay, leaving 25 mg.   "
+},
+{
+  "id": "Chapter4Section6-3-7",
+  "level": "2",
+  "url": "Chapter4Section6.html#Chapter4Section6-3-7",
+  "type": "Example",
+  "number": "4.6.4",
+  "title": "",
+  "body": "  Cesium-137 has a half-life of about 30 years. Find the annual decay rate.    Since we are looking for an annual decay rate, we will use an equation of the form . We know that after 30 years, half the original amount will remain. Using this information, we can write the equation . Dividing both sides by a gives us . Taking the 30th root of both sides gives us , and then subtracting one from both sides gives us .  This tells us cesium-137 is decaying at an annual rate of 2.284% per year.   "
+},
+{
+  "id": "Chapter4Section6-3-8",
+  "level": "2",
+  "url": "Chapter4Section6.html#Chapter4Section6-3-8",
+  "type": "Checkpoint",
+  "number": "4.6.5",
+  "title": "",
+  "body": "  Chlorine-36 is eliminated from the body with a biological half-life of 10 days. Find the daily decay rate.   "
+},
+{
+  "id": "Chapter4Section6-3-9",
+  "level": "2",
+  "url": "Chapter4Section6.html#Chapter4Section6-3-9",
+  "type": "Example",
+  "number": "4.6.6",
+  "title": "",
+  "body": "  Carbon-14 is a radioactive isotope that is present in organic materials, and is commonly used for dating historical artifacts. Carbon-14 has a half-life of 5730 years. If a bone fragment is found that contains 20% of its original carbon-14, how old is the bone?    To find how old the bone is, we first will need to find an equation for the decay of the carbon-14. We could either use a continuous or annual decay formula, but opt to use the continuous decay formula since it is more common in scientific texts. The half life tells us that after 5730 years, half the original substance remains. Solving for the rate, . Dividing by a gives us , and then taking the natural log of both sides gives . Use the inverse property of logs on the right side to get . Then we can divide by 5730 to see .  Now we know the decay will follow the equation . To find how old the bone fragment is that contains 20% of the original amount, we solve for so that .  Our initial equation to set up should look like . Then we divide by to get , and then take the natural log of both sides to get . The inverse property reduces the right hand side, giving us , and we can divide to solve for to find .  So, if only 20% of the original carbon-14 is remaing, we can conclude that the bone fragment is about 13,300 years old.   "
+},
+{
+  "id": "Chapter4Section6-3-10",
+  "level": "2",
+  "url": "Chapter4Section6.html#Chapter4Section6-3-10",
+  "type": "Checkpoint",
+  "number": "4.6.7",
+  "title": "",
+  "body": "  We have already learned that Cesium-137 has a half-life of about 30 years. If you begin with 200 mg of cesium-137, will it take more or less than 230 years until only 1 milligram remains?   "
+},
+{
+  "id": "Chapter4Section6-4-3",
+  "level": "2",
+  "url": "Chapter4Section6.html#Chapter4Section6-4-3",
+  "type": "Definition",
+  "number": "4.6.8",
+  "title": "Doubling Time.",
+  "body": " Doubling Time   The doubling time of a growing quantity is the time it takes for the quantity to double.   "
+},
+{
+  "id": "Chapter4Section6-4-5",
+  "level": "2",
+  "url": "Chapter4Section6.html#Chapter4Section6-4-5",
+  "type": "Example",
+  "number": "4.6.9",
+  "title": "",
+  "body": "  Cancer cells sometimes increase exponentially. If a cancerous growth contained 300 cells last month and 360 cells this month, how long will it take for the number of cancer cells to double?    Defining to be time in months, with corresponding to last month, we are given two pieces of data: last month, , and this month, .  From this data, we can find an equation for the growth. Using the form , we know immediately , giving . Substituting in , we see , and so .  This gives us the equation   To find the doubling time, we look for the time when we will have twice the original amount, so when . Our starting equation is . Dividing by 300 gives us , and we can then take the common log of both sides to see . The exponential property gives us the equation , and we can divide both sides by to get . So it will take about 3.802 months for the number of cancer cells to double.   "
+},
+{
+  "id": "Chapter4Section6-4-6",
+  "level": "2",
+  "url": "Chapter4Section6.html#Chapter4Section6-4-6",
+  "type": "Example",
+  "number": "4.6.10",
+  "title": "",
+  "body": "  Use of a new social networking website has been growing exponentially, with the number of new members doubling every 5 months. If the site currently has 120,000 users and this trend continues, how many users will the site have in 1 year?    We can use the doubling time to find a function that models the number of site users, and then use that equation to answer the question. While we could use an arbitrary as we have before for the initial amount, in this case, we know the initial amount was 120,000.  If we use a continuous growth equation, it would look like , measured in thousands of users after months. Based on the doubling time, there would be 240 thousand users after 5 months. This allows us to solve for the continuous growth rate: , so . Then, , and so .  Now that we have an equation, , we can predict the number of users after 12 months: .  So after 1 year, we would expect the site to have around 633,140 users.   "
+},
+{
+  "id": "Chapter4Section6-4-7",
+  "level": "2",
+  "url": "Chapter4Section6.html#Chapter4Section6-4-7",
+  "type": "Checkpoint",
+  "number": "4.6.11",
+  "title": "",
+  "body": "  If tuition at a college is increasing by 6.6% each year, how many years will it take for tuition to double?   "
+},
+{
+  "id": "Chapter4Section6-5-11",
+  "level": "2",
+  "url": "Chapter4Section6.html#Chapter4Section6-5-11",
+  "type": "Example",
+  "number": "4.6.12",
+  "title": "",
+  "body": "  Estimate the value of point on the log scale above    The point appears to be half way between -2 and -1 in log value, so we should expect .   "
+},
+{
+  "id": "Chapter4Section6-5-12",
+  "level": "2",
+  "url": "Chapter4Section6.html#Chapter4Section6-5-12",
+  "type": "Example",
+  "number": "4.6.13",
+  "title": "",
+  "body": "  Place the number 6000 on a logarithmic scale.    Since , this point would belong on the log scale about here:     "
+},
+{
+  "id": "Chapter4Section6-5-13",
+  "level": "2",
+  "url": "Chapter4Section6.html#Chapter4Section6-5-13",
+  "type": "Checkpoint",
+  "number": "4.6.14",
+  "title": "",
+  "body": "  Plot the data in the table below on a logarithmic scale.          Source of Sound  Approximate Sound Pressure in micro Pascals        Softest Sound a Human Can Hear  20        Unoccupied Broadcast Studio  200        Soft Whispering at 2 meters away in Library  2000        Normal Conversation  20000        Diesel Freight Train at High Speed at 25 meters away  200000        Full Symphony Orchestra  2000000        Launching of a Space Shuttle  2000000000         "
+},
+{
+  "id": "Chapter4Section6-5-19",
+  "level": "2",
+  "url": "Chapter4Section6.html#Chapter4Section6-5-19",
+  "type": "Definition",
+  "number": "4.6.15",
+  "title": "Orders of Magnitude.",
+  "body": " Orders of Magnitude   Given two values and , to determine how many orders of magnitude is greater than ,    "
+},
+{
+  "id": "Chapter4Section6-5-20",
+  "level": "2",
+  "url": "Chapter4Section6.html#Chapter4Section6-5-20",
+  "type": "Example",
+  "number": "4.6.16",
+  "title": "",
+  "body": "  On the log scale above, how many orders of magnitude larger is than ?    The value corresponds to , and the value corresponds to .  The relative change is . The log of this value is 3. Thus, is three orders of magnitude greater than , which can be seen on the log scale by the visual difference between the points on the scale.   "
+},
+{
+  "id": "Chapter4Section6-5-21",
+  "level": "2",
+  "url": "Chapter4Section6.html#Chapter4Section6-5-21",
+  "type": "Checkpoint",
+  "number": "4.6.17",
+  "title": "",
+  "body": "  Using the table from the previous exercise, what is the difference of order of magnitude between the softest sound a human can hear and the launching of the space shuttle?   "
+},
+{
+  "id": "Chapter4Section6-6-3",
+  "level": "2",
+  "url": "Chapter4Section6.html#Chapter4Section6-6-3",
+  "type": "Definition",
+  "number": "4.6.18",
+  "title": "Moment Magnitude Scale.",
+  "body": " Moment Magnitude Scale   For an earthquake with seismic moment , a measurement of earth movement, the MMS value, or magnitude of the earthquake, is Where is a baseline measure for the seismic moment.   "
+},
+{
+  "id": "Chapter4Section6-6-4",
+  "level": "2",
+  "url": "Chapter4Section6.html#Chapter4Section6-6-4",
+  "type": "Example",
+  "number": "4.6.19",
+  "title": "",
+  "body": "  If one earthquake has a MMS magnitude of 6.0, and another has a magnitude of 8.0, how much more powerful (in terms of earth movement) is the second earthquake?    Since the first earthquake has magnitude 6.0, we can find the amount of earth movement for that quake, which we’ll denote . The value of is not particularly relevant, so we will not replace it with its value. We start solving for by setting up the equation . Continuing to solve for , we see:      This tells us the first earthquake has about times more earth movement than the baseline measure.  Doing the same with the second earthquake, , with a magnitude of 8.0, the equation gives us .  Comparing the earth movement of the second earthquake to the first, .  The second earthquake’s earth movement is 1000 times as large as the first earthquake.   "
+},
+{
+  "id": "Chapter4Section6-6-5",
+  "level": "2",
+  "url": "Chapter4Section6.html#Chapter4Section6-6-5",
+  "type": "Example",
+  "number": "4.6.20",
+  "title": "",
+  "body": "  One earthquake has magnitude of 3.0. If a second earthquake has twice as much earth movement as the first earthquake, find the magnitude of the second quake.    Since the first quake has magnitude 3.0, .  Solving for ,      Since the second earthquake has twice as much earth movement, for the second quake, .  Finding the magnitude, .  The second earthquake with twice as much earth movement will have a magnitude of about 3.2.   "
+},
+{
+  "id": "Chapter4Section6-7-2",
+  "level": "2",
+  "url": "Chapter4Section6.html#Chapter4Section6-7-2",
+  "type": "Checkpoint",
+  "number": "4.6.21",
+  "title": "",
+  "body": "  [Answers to Checkpoint Exercises]        or -6.7% is the daily rate of decay.    Less than 230 years, 229.3157 to be exact    Solving , it will take , or approximately 11 years, for tuition to double.         . The sound pressure in created by launching the space shuttle is 8 orders of magnitude greater than the sound pressure created by the softest sound a human ear can hear.      "
 },
 {
   "id": "backmatter-2",

@@ -5,7 +5,7 @@
 <!--*         https://pretextbook.org          *-->
 <!--*                                          *-->
 <!--********************************************-->
-<html lang="en-US" dir="ltr" data-legacy-colorscheme="blue_red">
+<html lang="en-US" dir="ltr" data-legacy-colorscheme="default">
 <!--******************************************-->
 <!--*  Authored with PreTeXt                 *-->
 <!--*  pretextbook.org                       *-->
@@ -134,7 +134,12 @@ eBookConfig.enable_chatcodes =  false;
 <ol id="searchresults" class="searchresults"></ol>
 </div>
 </div>
-<span class="nav-other-controls"></span><span class="treebuttons"><a class="previous-button button" href="Chapter1Section4.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="up-button button" href="Chapter1.html" title="Up"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Up</span></a><a class="next-button button" href="Chapter1Section6.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a></span>
+<span class="nav-other-controls"><button id="embed-button" class="embed-button button" title="Embed this page"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe86f;</span><span class="name">Embed</span></button><div class="embed-popup hidden" id="embed-popup">
+<p>Copy the code below to embed this page in your own website or LMS page.</p>
+<div class="embed-code-container">
+<textarea class="embed-code-textbox" id="embed-code-textbox" readonly aria-label="textbox"><iframe src="https://example.com/embed" width="100%" height="1000"></iframe></textarea><button class="copy-embed-button button" id="copy-embed-button" title="Copy embed code"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe14d;</span><span class="name">Copy</span></button>
+</div>
+</div></span><span class="treebuttons"><a class="previous-button button" href="Chapter1Section4.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="up-button button" href="Chapter1.html" title="Up"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Up</span></a><a class="next-button button" href="Chapter1Section6.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a></span>
 </div></nav><div id="latex-macros" class="hidden-content process-math" style="display:none"><span class="process-math">\(\newcommand{\N}{\mathbb N} \newcommand{\Z}{\mathbb Z} \newcommand{\Q}{\mathbb Q} \newcommand{\R}{\mathbb R}
 \newcommand{\lt}{&lt;}
 \newcommand{\gt}{&gt;}
@@ -318,7 +323,17 @@ eBookConfig.enable_chatcodes =  false;
 <li class="toc-item toc-subsection"><div class="toc-title-box"><a href="Chapter4Section5.html#Chapter4Section5-4" class="internal"><span class="codenumber">4.5.3</span> <span class="title">Answers</span></a></div></li>
 </ul>
 </li>
-<li class="toc-item toc-section"><div class="toc-title-box"><a href="Chapter4Section6.html" class="internal"><span class="codenumber">4.6</span> <span class="title">Exponential and Logarithmic Models</span></a></div></li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="Chapter4Section6.html" class="internal"><span class="codenumber">4.6</span> <span class="title">Exponential and Logarithmic Models</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="Chapter4Section6.html#Chapter4Section6-2" class="internal"><span class="codenumber">4.6.1</span> <span class="title">Introduction</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="Chapter4Section6.html#Chapter4Section6-3" class="internal"><span class="codenumber">4.6.2</span> <span class="title">Radioactive Decay</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="Chapter4Section6.html#Chapter4Section6-4" class="internal"><span class="codenumber">4.6.3</span> <span class="title">Doubling Time</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="Chapter4Section6.html#Chapter4Section6-5" class="internal"><span class="codenumber">4.6.4</span> <span class="title">Logarithmic Scales</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="Chapter4Section6.html#Chapter4Section6-6" class="internal"><span class="codenumber">4.6.5</span> <span class="title">Earthquakes</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="Chapter4Section6.html#Chapter4Section6-7" class="internal"><span class="codenumber">4.6.6</span> <span class="title">Answers</span></a></div></li>
+</ul>
+</li>
 </ul>
 </li>
 <li class="toc-item toc-backmatter"><div class="toc-title-box"><a href="backmatter.html" class="internal"><span class="title">Backmatter</span></a></div></li>
@@ -326,42 +341,81 @@ eBookConfig.enable_chatcodes =  false;
 <main class="ptx-main"><div id="ptx-content" class="ptx-content"><section class="section" id="Chapter1Section5"><h2 class="heading hide-type">
 <span class="type">Section</span><span class="space"> </span><span class="codenumber">1.5</span><span class="space"> </span><span class="title">Transformations</span>
 </h2>
-<section class="introduction" id="Chapter1Section5-2"><div class="para" id="Chapter1Section5-2-1">Often when given a problem, we try to model the scenario using mathematics in the form of words, tables, graphs, and equations in order to explain or solve it. When building models, it is often helpful to build from existing formulas or models. Knowing the basic graphs of your tool-kit functions can help you solve problems by being able to model new behavior by adapting something you already know. Unfortunately, the models and existing formulas we know are not always the same as the ones presented in the problems we face.</div>
-<div class="para" id="Chapter1Section5-2-2">Fortunately, there are systematic ways to shift, stretch, compress, flip and combine functions to help them become better models for the problems we are trying to solve. We can transform what we already know into what we need, hence the name, "Transformation of functions." When we have a story problem, formula, graph, or table, we can then transform that function in a variety of ways to form new functions.</div></section><article class="objectives goal-like" id="Chapter1Section5-3"><h3 class="heading">
+<section class="introduction" id="Chapter1Section5-2"><div class="para" id="Chapter1Section5-2-1">Often when given a problem, we try to model the scenario using mathematics in the form of words, tables, graphs, and equations in order to explain or solve it. When building models, it is often helpful to build from existing formulas or models. Knowing the basic graphs of your tool-kit functions can help you solve problems by being able to model new behavior by adapting something you already know. Unfortunately, the models and existing formulas we know are not always the same as the ones presented in the problems we face.<div class="autopermalink" data-description="Paragraph"><a href="#Chapter1Section5-2-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="Chapter1Section5-2-2">Fortunately, there are systematic ways to shift, stretch, compress, flip and combine functions to help them become better models for the problems we are trying to solve. We can transform what we already know into what we need, hence the name, "Transformation of functions." When we have a story problem, formula, graph, or table, we can then transform that function in a variety of ways to form new functions.<div class="autopermalink" data-description="Paragraph"><a href="#Chapter1Section5-2-2" title="Copy permalink for Paragraph">🔗</a></div>
+</div></section><article class="objectives goal-like" id="Chapter1Section5-3"><h3 class="heading">
 <span class="type">Objectives:</span><span class="space"> </span><span class="title">Important Topics of This Section</span>
 </h3>
 <ul class="disc" id="Chapter1Section5-3-2">
-<li id="Chapter1Section5-3-2-1"><div class="para" id="Chapter1Section5-3-2-1-1">Transformations</div></li>
-<li id="Chapter1Section5-3-2-2"><div class="para" id="Chapter1Section5-3-2-2-1">Vertical Shift (up and down)</div></li>
-<li id="Chapter1Section5-3-2-3"><div class="para" id="Chapter1Section5-3-2-3-1">Horizontal Shifts (left and right)</div></li>
-<li id="Chapter1Section5-3-2-4"><div class="para" id="Chapter1Section5-3-2-4-1">Reflections over the vertical and horizontal axis</div></li>
-<li id="Chapter1Section5-3-2-5"><div class="para" id="Chapter1Section5-3-2-5-1">Vertical Stretches and Compressions</div></li>
-<li id="Chapter1Section5-3-2-6"><div class="para" id="Chapter1Section5-3-2-6-1">Horizontal Stretches and Compressions</div></li>
-<li id="Chapter1Section5-3-2-7"><div class="para" id="Chapter1Section5-3-2-7-1">Combinations of Transformation</div></li>
-</ul></article><section class="subsection" id="Chapter1Section5-4"><h3 class="heading hide-type">
+<li id="Chapter1Section5-3-2-1">
+<div class="para" id="Chapter1Section5-3-2-1-1">Transformations<div class="autopermalink" data-description="Paragraph"><a href="#Chapter1Section5-3-2-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Objective"><a href="#Chapter1Section5-3-2-1" title="Copy permalink for Objective">🔗</a></div>
+</li>
+<li id="Chapter1Section5-3-2-2">
+<div class="para" id="Chapter1Section5-3-2-2-1">Vertical Shift (up and down)<div class="autopermalink" data-description="Paragraph"><a href="#Chapter1Section5-3-2-2-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Objective"><a href="#Chapter1Section5-3-2-2" title="Copy permalink for Objective">🔗</a></div>
+</li>
+<li id="Chapter1Section5-3-2-3">
+<div class="para" id="Chapter1Section5-3-2-3-1">Horizontal Shifts (left and right)<div class="autopermalink" data-description="Paragraph"><a href="#Chapter1Section5-3-2-3-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Objective"><a href="#Chapter1Section5-3-2-3" title="Copy permalink for Objective">🔗</a></div>
+</li>
+<li id="Chapter1Section5-3-2-4">
+<div class="para" id="Chapter1Section5-3-2-4-1">Reflections over the vertical and horizontal axis<div class="autopermalink" data-description="Paragraph"><a href="#Chapter1Section5-3-2-4-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Objective"><a href="#Chapter1Section5-3-2-4" title="Copy permalink for Objective">🔗</a></div>
+</li>
+<li id="Chapter1Section5-3-2-5">
+<div class="para" id="Chapter1Section5-3-2-5-1">Vertical Stretches and Compressions<div class="autopermalink" data-description="Paragraph"><a href="#Chapter1Section5-3-2-5-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Objective"><a href="#Chapter1Section5-3-2-5" title="Copy permalink for Objective">🔗</a></div>
+</li>
+<li id="Chapter1Section5-3-2-6">
+<div class="para" id="Chapter1Section5-3-2-6-1">Horizontal Stretches and Compressions<div class="autopermalink" data-description="Paragraph"><a href="#Chapter1Section5-3-2-6-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Objective"><a href="#Chapter1Section5-3-2-6" title="Copy permalink for Objective">🔗</a></div>
+</li>
+<li id="Chapter1Section5-3-2-7">
+<div class="para" id="Chapter1Section5-3-2-7-1">Combinations of Transformation<div class="autopermalink" data-description="Paragraph"><a href="#Chapter1Section5-3-2-7-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Objective"><a href="#Chapter1Section5-3-2-7" title="Copy permalink for Objective">🔗</a></div>
+</li>
+</ul>
+<div class="autopermalink" data-description="Objectives 1.5: Important Topics of This Section"><a href="#Chapter1Section5-3" title="Copy permalink for Objectives 1.5: Important Topics of This Section">🔗</a></div></article><section class="subsection" id="Chapter1Section5-4"><h3 class="heading hide-type">
 <span class="type">Subsection</span><span class="space"> </span><span class="codenumber">1.5.1</span><span class="space"> </span><span class="title">Shifts</span>
 </h3>
 <article class="example example-like" id="Chapter1Section5-4-2"><h4 class="heading">
 <span class="type">Example</span><span class="space"> </span><span class="codenumber">1.5.1</span><span class="period">.</span>
 </h4>
-<div class="para" id="Chapter1Section5-4-2-1-1">To regulate temperature in a green building, air flow vents near the roof open and close throughout the day to allow warm air to escape. The graph below shows the open vents <span class="process-math">\(V\)</span> (in square feet) throughout the day, <span class="process-math">\(t\)</span> in hours after midnight. During the summer, the facilities staff decides to try to better regulate temperature by increasing the amount of open vents by 20 square feet throughout the day. Sketch a graph of this new function.</div> <figure class="figure figure-like" id="c1s6i1"><div class="image-box" style="width: 100%; margin-left: 0%; margin-right: 0%;"><img src="external/C1S6Image1.png" class="contained" alt="Graph of V(t), which is 0 from t=0 to t=8, then increases to 10 comma 225, remains constant to 17 comma 225, decreases to 19 comma 0 then stays constant at 0 until t=24"></div>
-<figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">1.5.2<span class="period">.</span></span><span class="space"> </span>Graph of <span class="process-math">\(V(t)\)</span></figcaption></figure><div class="solution solution-like" id="Chapter1Section5-4-2-2">
+<div class="para" id="Chapter1Section5-4-2-1-1">To regulate temperature in a green building, air flow vents near the roof open and close throughout the day to allow warm air to escape. The graph below shows the open vents <span class="process-math">\(V\)</span> (in square feet) throughout the day, <span class="process-math">\(t\)</span> in hours after midnight. During the summer, the facilities staff decides to try to better regulate temperature by increasing the amount of open vents by 20 square feet throughout the day. Sketch a graph of this new function.<div class="autopermalink" data-description="Paragraph"><a href="#Chapter1Section5-4-2-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div> <figure class="figure figure-like" id="c1s6i1"><div class="image-box" style="width: 100%; margin-left: 0%; margin-right: 0%;"><img src="external/C1S6Image1.png" class="contained" alt="Graph of V(t), which is 0 from t=0 to t=8, then increases to 10 comma 225, remains constant to 17 comma 225, decreases to 19 comma 0 then stays constant at 0 until t=24"></div>
+<figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">1.5.2<span class="period">.</span></span><span class="space"> </span>Graph of <span class="process-math">\(V(t)\)</span><div class="autopermalink" data-description="Figure 1.5.2"><a href="#c1s6i1" title="Copy permalink for Figure 1.5.2">🔗</a></div></figcaption></figure><div class="solution solution-like" id="Chapter1Section5-4-2-2">
 <h4 class="heading">
 <span class="type">Solution</span><span class="period">.</span>
 </h4>
-<div class="para" id="Chapter1Section5-4-2-2-1">We can sketch a graph of this new function by adding 20 to each of the output values of the original function. This will have the effect of shifting the graph up.</div>
-<figure class="figure figure-like" id="c1s6i2"><div class="image-box" style="width: 100%; margin-left: 0%; margin-right: 0%;"><img src="external/C1S6Image2.png" class="contained" alt="Graph of S(t), which is 20 from t=0 to t=8, then increases to 10 comma 245, remains constant to 17 comma 245, decreases to 19 comma 20 then stays constant at 20 until t=24"></div>
-<figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">1.5.3<span class="period">.</span></span><span class="space"> </span>Graph of <span class="process-math">\(S(t)\)</span></figcaption></figure><div class="para" id="Chapter1Section5-4-2-2-3">Notice that in the second graph, for each input value, the output value has increased by twenty, so if we call the new function <span class="process-math">\(S(t)\text{,}\)</span> we could write <span class="process-math">\(S(t)=V(t)+20\text{.}\)</span>
+<div class="para" id="Chapter1Section5-4-2-2-1">We can sketch a graph of this new function by adding 20 to each of the output values of the original function. This will have the effect of shifting the graph up.<div class="autopermalink" data-description="Paragraph"><a href="#Chapter1Section5-4-2-2-1" title="Copy permalink for Paragraph">🔗</a></div>
 </div>
-<div class="para" id="Chapter1Section5-4-2-2-4">Note that this notation tells us that for any value of <span class="process-math">\(t\text{,}\)</span> <span class="process-math">\(S(t)\)</span> can be found by evaluating the <span class="process-math">\(V\)</span> function at the same input, then adding twenty to the result. This defines <span class="process-math">\(S\)</span> as a transformation of the function <span class="process-math">\(V\text{,}\)</span> in this case a vertical shift up 20 units.</div>
-<div class="para" id="Chapter1Section5-4-2-2-5">Notice that with a vertical shift the input values stay the same and only the output values change.</div>
-</div></article><article class="definition definition-like" id="Chapter1Section5-4-3"><h4 class="heading">
+<figure class="figure figure-like" id="c1s6i2"><div class="image-box" style="width: 100%; margin-left: 0%; margin-right: 0%;"><img src="external/C1S6Image2.png" class="contained" alt="Graph of S(t), which is 20 from t=0 to t=8, then increases to 10 comma 245, remains constant to 17 comma 245, decreases to 19 comma 20 then stays constant at 20 until t=24"></div>
+<figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">1.5.3<span class="period">.</span></span><span class="space"> </span>Graph of <span class="process-math">\(S(t)\)</span><div class="autopermalink" data-description="Figure 1.5.3"><a href="#c1s6i2" title="Copy permalink for Figure 1.5.3">🔗</a></div></figcaption></figure><div class="para" id="Chapter1Section5-4-2-2-3">Notice that in the second graph, for each input value, the output value has increased by twenty, so if we call the new function <span class="process-math">\(S(t)\text{,}\)</span> we could write <span class="process-math">\(S(t)=V(t)+20\text{.}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#Chapter1Section5-4-2-2-3" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="Chapter1Section5-4-2-2-4">Note that this notation tells us that for any value of <span class="process-math">\(t\text{,}\)</span> <span class="process-math">\(S(t)\)</span> can be found by evaluating the <span class="process-math">\(V\)</span> function at the same input, then adding twenty to the result. This defines <span class="process-math">\(S\)</span> as a transformation of the function <span class="process-math">\(V\text{,}\)</span> in this case a vertical shift up 20 units.<div class="autopermalink" data-description="Paragraph"><a href="#Chapter1Section5-4-2-2-4" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="Chapter1Section5-4-2-2-5">Notice that with a vertical shift the input values stay the same and only the output values change.<div class="autopermalink" data-description="Paragraph"><a href="#Chapter1Section5-4-2-2-5" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Solution 1.5.1.1"><a href="#Chapter1Section5-4-2-2" title="Copy permalink for Solution 1.5.1.1">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Example 1.5.1"><a href="#Chapter1Section5-4-2" title="Copy permalink for Example 1.5.1">🔗</a></div></article><article class="definition definition-like" id="Chapter1Section5-4-3"><h4 class="heading">
 <span class="type">Definition</span><span class="space"> </span><span class="codenumber">1.5.4</span><span class="period">.</span><span class="space"> </span><span class="title">Vertical Shift.</span>
 </h4>
-<div class="para" id="Chapter1Section5-4-3-2-1">Given a function <span class="process-math">\(f(x)\text{,}\)</span> if we define a new function <span class="process-math">\(g(x)\)</span> as <span class="process-math">\(g(x)=f(x)+k\text{,}\)</span> where <span class="process-math">\(k\)</span> is a constant, then <span class="process-math">\(g(x)\)</span> is a vertical shift of the function <span class="process-math">\(f(x)\text{,}\)</span> where all the output values have been increased by <span class="process-math">\(k\text{.}\)</span> If <span class="process-math">\(k\)</span> is positive, then the graph will shift up by <span class="process-math">\(k\)</span> units. If <span class="process-math">\(k\)</span> is negative, then the graph will shift down by <span class="process-math">\(k\)</span> units.</div></article><article class="example example-like" id="Chapter1Section5-4-4"><h4 class="heading">
+<div class="para" id="Chapter1Section5-4-3-2-1">Given a function <span class="process-math">\(f(x)\text{,}\)</span> if we define a new function <span class="process-math">\(g(x)\)</span> as <span class="process-math">\(g(x)=f(x)+k\text{,}\)</span> where <span class="process-math">\(k\)</span> is a constant, then <span class="process-math">\(g(x)\)</span> is a vertical shift of the function <span class="process-math">\(f(x)\text{,}\)</span> where all the output values have been increased by <span class="process-math">\(k\text{.}\)</span> If <span class="process-math">\(k\)</span> is positive, then the graph will shift up by <span class="process-math">\(k\)</span> units. If <span class="process-math">\(k\)</span> is negative, then the graph will shift down by <span class="process-math">\(k\)</span> units.<div class="autopermalink" data-description="Paragraph"><a href="#Chapter1Section5-4-3-2-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Definition 1.5.4: Vertical Shift"><a href="#Chapter1Section5-4-3" title="Copy permalink for Definition 1.5.4: Vertical Shift">🔗</a></div></article><article class="example example-like" id="Chapter1Section5-4-4"><h4 class="heading">
 <span class="type">Example</span><span class="space"> </span><span class="codenumber">1.5.5</span><span class="period">.</span>
 </h4>
-<div class="para" id="Chapter1Section5-4-4-1-1">A function <span class="process-math">\(f(x)\)</span> is given as a table below. Create a table for the function <span class="process-math">\(g(x)=f(x)-3\text{.}\)</span>
+<div class="para" id="Chapter1Section5-4-4-1-1">A function <span class="process-math">\(f(x)\)</span> is given as a table below. Create a table for the function <span class="process-math">\(g(x)=f(x)-3\text{.}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#Chapter1Section5-4-4-1-1" title="Copy permalink for Paragraph">🔗</a></div>
 </div> <div class="tabular-box natural-width"><table class="tabular">
 <tr>
 <td class="c m b0 r0 l0 t0 lines"><span class="process-math">\(x\)</span></td>
@@ -382,7 +436,7 @@ eBookConfig.enable_chatcodes =  false;
 <h4 class="heading">
 <span class="type">Solution</span><span class="period">.</span>
 </h4>
-<div class="para" id="Chapter1Section5-4-4-2-1">The formula <span class="process-math">\(g(x)=f(x)-3\)</span> tells us that we can find the output values of the <span class="process-math">\(g\)</span> function by subtracting 3 from the output values of the <span class="process-math">\(f\)</span> function. For example, <span class="process-math">\(f(2)=1\)</span> is found from the given table. <span class="process-math">\(g(x)=f(x)-3\)</span> is our given transformation, so <span class="process-math">\(g(2)=f(2)-3=1-3=-2\text{.}\)</span> Subtracting 3 from each <span class="process-math">\(f(x)\)</span> value, we can complete a table of values for <span class="process-math">\(g(x)\text{,}\)</span>
+<div class="para" id="Chapter1Section5-4-4-2-1">The formula <span class="process-math">\(g(x)=f(x)-3\)</span> tells us that we can find the output values of the <span class="process-math">\(g\)</span> function by subtracting 3 from the output values of the <span class="process-math">\(f\)</span> function. For example, <span class="process-math">\(f(2)=1\)</span> is found from the given table. <span class="process-math">\(g(x)=f(x)-3\)</span> is our given transformation, so <span class="process-math">\(g(2)=f(2)-3=1-3=-2\text{.}\)</span> Subtracting 3 from each <span class="process-math">\(f(x)\)</span> value, we can complete a table of values for <span class="process-math">\(g(x)\text{,}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#Chapter1Section5-4-4-2-1" title="Copy permalink for Paragraph">🔗</a></div>
 </div>
 <div class="tabular-box natural-width"><table class="tabular">
 <tr>
@@ -400,38 +454,49 @@ eBookConfig.enable_chatcodes =  false;
 <td class="c m b0 r0 l0 t0 lines">8</td>
 </tr>
 </table></div>
-</div></article><div class="para" id="Chapter1Section5-4-5">As with the earlier vertical shift, notice the input values stay the same and only the output values change.</div>
+<div class="autopermalink" data-description="Solution 1.5.5.1"><a href="#Chapter1Section5-4-4-2" title="Copy permalink for Solution 1.5.5.1">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Example 1.5.5"><a href="#Chapter1Section5-4-4" title="Copy permalink for Example 1.5.5">🔗</a></div></article><div class="para" id="Chapter1Section5-4-5">As with the earlier vertical shift, notice the input values stay the same and only the output values change.<div class="autopermalink" data-description="Paragraph"><a href="#Chapter1Section5-4-5" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
 <article class="exercise exercise-like" id="Chapter1Section5-4-6"><h4 class="heading">
 <span class="type">Checkpoint</span><span class="space"> </span><span class="codenumber">1.5.6</span><span class="period">.</span>
 </h4>
-<div class="para" id="Chapter1Section5-4-6-1-1">The function <span class="process-math">\(a(t)=-4.9t^{2}+30t\)</span> gives the height <span class="process-math">\(h\)</span> of a ball (in meters) thrown upwards from the ground after <span class="process-math">\(t\)</span> seconds. Suppose the ball was instead thrown from the top of a 10-meter building. Relate this new height function <span class="process-math">\(b(t)\)</span> to <span class="process-math">\(a(t)\text{,}\)</span> then find a formula for <span class="process-math">\(b(t)\text{.}\)</span>
-</div></article><div class="para" id="Chapter1Section5-4-7">The vertical shift is a change to the output, or outside, of the function. We will now look at how changes to input, on the inside of the function, change its graph and meaning.</div>
+<div class="para" id="Chapter1Section5-4-6-1-1">The function <span class="process-math">\(a(t)=-4.9t^{2}+30t\)</span> gives the height <span class="process-math">\(h\)</span> of a ball (in meters) thrown upwards from the ground after <span class="process-math">\(t\)</span> seconds. Suppose the ball was instead thrown from the top of a 10-meter building. Relate this new height function <span class="process-math">\(b(t)\)</span> to <span class="process-math">\(a(t)\text{,}\)</span> then find a formula for <span class="process-math">\(b(t)\text{.}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#Chapter1Section5-4-6-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Checkpoint 1.5.6"><a href="#Chapter1Section5-4-6" title="Copy permalink for Checkpoint 1.5.6">🔗</a></div></article><div class="para" id="Chapter1Section5-4-7">The vertical shift is a change to the output, or outside, of the function. We will now look at how changes to input, on the inside of the function, change its graph and meaning.<div class="autopermalink" data-description="Paragraph"><a href="#Chapter1Section5-4-7" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
 <article class="example example-like" id="Chapter1Section5-4-8"><h4 class="heading">
 <span class="type">Example</span><span class="space"> </span><span class="codenumber">1.5.7</span><span class="period">.</span>
 </h4>
-<div class="para" id="Chapter1Section5-4-8-1-1">Returning to our building air flow example from the beginning of the section, suppose that in fall, the facilities staff decides that the original venting plan starts too late, and they want to move the entire venting program to start two hours earlier. Sketch a graph of the new function.</div>
+<div class="para" id="Chapter1Section5-4-8-1-1">Returning to our building air flow example from the beginning of the section, suppose that in fall, the facilities staff decides that the original venting plan starts too late, and they want to move the entire venting program to start two hours earlier. Sketch a graph of the new function.<div class="autopermalink" data-description="Paragraph"><a href="#Chapter1Section5-4-8-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
 <div class="solution solution-like" id="Chapter1Section5-4-8-2">
 <h4 class="heading">
 <span class="type">Solution</span><span class="period">.</span>
 </h4>
 <figure class="figure figure-like" id="c1s6i112"><div class="image-box" style="width: 100%; margin-left: 0%; margin-right: 0%;"><img src="external/C1S6Image1.png" class="contained" alt="Graph of V(t), which is 0 from t=0 to t=8, then increases to 10 comma 225, remains constant to 17 comma 225, decreases to 19 comma 0 then stays constant at 0 until t=24"></div>
-<figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">1.5.8<span class="period">.</span></span><span class="space"> </span><span class="process-math">\(V(t)=\)</span> the original venting plan</figcaption></figure><figure class="figure figure-like" id="c1s6i3"><div class="image-box" style="width: 100%; margin-left: 0%; margin-right: 0%;"><img src="external/C1S6Image3.png" class="contained" alt="Graph of F(t), which is 0 from t=negative 2 to t=6, then increases to 8 comma 225, remains constant to 15 comma 225, decreases to 17 comma 0 then stays constant at 0 until t=22"></div>
-<figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">1.5.9<span class="period">.</span></span><span class="space"> </span><span class="process-math">\(F(t)=\)</span> starting 2 hours sooner</figcaption></figure><div class="para" id="Chapter1Section5-4-8-2-3">In the new graph, which we can call <span class="process-math">\(F(t)\text{,}\)</span> at each time, the air flow is the same as the original function <span class="process-math">\(V(t)\)</span> was two hours later. For example, in the original function <span class="process-math">\(V\text{,}\)</span> the air flow starts to change at 8 am, while for the function <span class="process-math">\(F(t)\)</span> the air flow starts to change at 6 am. The comparable function values are <span class="process-math">\(V(8)=F(6)\text{.}\)</span>
+<figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">1.5.8<span class="period">.</span></span><span class="space"> </span><span class="process-math">\(V(t)=\)</span> the original venting plan<div class="autopermalink" data-description="Figure 1.5.8"><a href="#c1s6i112" title="Copy permalink for Figure 1.5.8">🔗</a></div></figcaption></figure><figure class="figure figure-like" id="c1s6i3"><div class="image-box" style="width: 100%; margin-left: 0%; margin-right: 0%;"><img src="external/C1S6Image3.png" class="contained" alt="Graph of F(t), which is 0 from t=negative 2 to t=6, then increases to 8 comma 225, remains constant to 15 comma 225, decreases to 17 comma 0 then stays constant at 0 until t=22"></div>
+<figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">1.5.9<span class="period">.</span></span><span class="space"> </span><span class="process-math">\(F(t)=\)</span> starting 2 hours sooner<div class="autopermalink" data-description="Figure 1.5.9"><a href="#c1s6i3" title="Copy permalink for Figure 1.5.9">🔗</a></div></figcaption></figure><div class="para" id="Chapter1Section5-4-8-2-3">In the new graph, which we can call <span class="process-math">\(F(t)\text{,}\)</span> at each time, the air flow is the same as the original function <span class="process-math">\(V(t)\)</span> was two hours later. For example, in the original function <span class="process-math">\(V\text{,}\)</span> the air flow starts to change at 8 am, while for the function <span class="process-math">\(F(t)\)</span> the air flow starts to change at 6 am. The comparable function values are <span class="process-math">\(V(8)=F(6)\text{.}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#Chapter1Section5-4-8-2-3" title="Copy permalink for Paragraph">🔗</a></div>
 </div>
-<div class="para" id="Chapter1Section5-4-8-2-4">Notice also that the vents first opened to 220 sq. ft. at 10 am under the original plan, while under the new plan the vents reach 220 sq. ft. at 8 am, so <span class="process-math">\(V(10)=F(8)\text{.}\)</span>
+<div class="para" id="Chapter1Section5-4-8-2-4">Notice also that the vents first opened to 220 sq. ft. at 10 am under the original plan, while under the new plan the vents reach 220 sq. ft. at 8 am, so <span class="process-math">\(V(10)=F(8)\text{.}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#Chapter1Section5-4-8-2-4" title="Copy permalink for Paragraph">🔗</a></div>
 </div>
-<div class="para" id="Chapter1Section5-4-8-2-5">In both cases we see that since <span class="process-math">\(F(t)\)</span> starts 2 hours sooner, the same output values are reached when, <span class="process-math">\(F(t)=V(t+2)\text{.}\)</span>
+<div class="para" id="Chapter1Section5-4-8-2-5">In both cases we see that since <span class="process-math">\(F(t)\)</span> starts 2 hours sooner, the same output values are reached when, <span class="process-math">\(F(t)=V(t+2)\text{.}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#Chapter1Section5-4-8-2-5" title="Copy permalink for Paragraph">🔗</a></div>
 </div>
-<div class="para" id="Chapter1Section5-4-8-2-6">Note that <span class="process-math">\(V(t+2)\)</span> had the effect of shifting the graph to the left.</div>
-</div></article><div class="para" id="Chapter1Section5-4-9">Horizontal changes or "inside changes" affect the domain of a function (the input) instead of the range and often seem counterintuitive. The new function <span class="process-math">\(F(t)\)</span> uses the same outputs as <span class="process-math">\(V(t)\)</span> but matches those outputs to inputs two hours earlier than those of <span class="process-math">\(V(t)\text{.}\)</span> Said another way, we must add 2 hours to the input of <span class="process-math">\(V\)</span> to find the corresponding output for <span class="process-math">\(F\text{:}\)</span> <span class="process-math">\(F(t)=V(t+2)\text{.}\)</span>
+<div class="para" id="Chapter1Section5-4-8-2-6">Note that <span class="process-math">\(V(t+2)\)</span> had the effect of shifting the graph to the left.<div class="autopermalink" data-description="Paragraph"><a href="#Chapter1Section5-4-8-2-6" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Solution 1.5.7.1"><a href="#Chapter1Section5-4-8-2" title="Copy permalink for Solution 1.5.7.1">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Example 1.5.7"><a href="#Chapter1Section5-4-8" title="Copy permalink for Example 1.5.7">🔗</a></div></article><div class="para" id="Chapter1Section5-4-9">Horizontal changes or "inside changes" affect the domain of a function (the input) instead of the range and often seem counterintuitive. The new function <span class="process-math">\(F(t)\)</span> uses the same outputs as <span class="process-math">\(V(t)\)</span> but matches those outputs to inputs two hours earlier than those of <span class="process-math">\(V(t)\text{.}\)</span> Said another way, we must add 2 hours to the input of <span class="process-math">\(V\)</span> to find the corresponding output for <span class="process-math">\(F\text{:}\)</span> <span class="process-math">\(F(t)=V(t+2)\text{.}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#Chapter1Section5-4-9" title="Copy permalink for Paragraph">🔗</a></div>
 </div>
 <article class="definition definition-like" id="Chapter1Section5-4-10"><h4 class="heading">
 <span class="type">Definition</span><span class="space"> </span><span class="codenumber">1.5.10</span><span class="period">.</span><span class="space"> </span><span class="title">Horizontal Shift.</span>
 </h4>
-<div class="para" id="Chapter1Section5-4-10-2-1">Given a function <span class="process-math">\(f(x)\text{,}\)</span> if we define a new function <span class="process-math">\(g(x)\)</span> as <span class="process-math">\(g(x)=f(x+k)\text{,}\)</span> where <span class="process-math">\(k\)</span> is a constant, then <span class="process-math">\(g(x)\)</span> is a horizontal shift of the function <span class="process-math">\(f(x)\text{.}\)</span> If <span class="process-math">\(k\)</span> is positive, then the graph will shift left by <span class="process-math">\(k\)</span> units. If <span class="process-math">\(k\)</span> is negative, then the graph will shift right by <span class="process-math">\(k\)</span> units.</div></article><article class="example example-like" id="Chapter1Section5-4-11"><h4 class="heading">
+<div class="para" id="Chapter1Section5-4-10-2-1">Given a function <span class="process-math">\(f(x)\text{,}\)</span> if we define a new function <span class="process-math">\(g(x)\)</span> as <span class="process-math">\(g(x)=f(x+k)\text{,}\)</span> where <span class="process-math">\(k\)</span> is a constant, then <span class="process-math">\(g(x)\)</span> is a horizontal shift of the function <span class="process-math">\(f(x)\text{.}\)</span> If <span class="process-math">\(k\)</span> is positive, then the graph will shift left by <span class="process-math">\(k\)</span> units. If <span class="process-math">\(k\)</span> is negative, then the graph will shift right by <span class="process-math">\(k\)</span> units.<div class="autopermalink" data-description="Paragraph"><a href="#Chapter1Section5-4-10-2-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Definition 1.5.10: Horizontal Shift"><a href="#Chapter1Section5-4-10" title="Copy permalink for Definition 1.5.10: Horizontal Shift">🔗</a></div></article><article class="example example-like" id="Chapter1Section5-4-11"><h4 class="heading">
 <span class="type">Example</span><span class="space"> </span><span class="codenumber">1.5.11</span><span class="period">.</span>
 </h4>
-<div class="para" id="Chapter1Section5-4-11-1-1">A function <span class="process-math">\(f(x)\)</span> is given as a table below. Create a table for the function <span class="process-math">\(g(x)=f(x-3)\text{.}\)</span>
+<div class="para" id="Chapter1Section5-4-11-1-1">A function <span class="process-math">\(f(x)\)</span> is given as a table below. Create a table for the function <span class="process-math">\(g(x)=f(x-3)\text{.}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#Chapter1Section5-4-11-1-1" title="Copy permalink for Paragraph">🔗</a></div>
 </div> <div class="tabular-box natural-width"><table class="tabular">
 <tr>
 <td class="c m b0 r0 l0 t0 lines"><span class="process-math">\(x\)</span></td>
@@ -452,9 +517,11 @@ eBookConfig.enable_chatcodes =  false;
 <h4 class="heading">
 <span class="type">Solution</span><span class="period">.</span>
 </h4>
-<div class="para" id="Chapter1Section5-4-11-2-1">The formula <span class="process-math">\(g(x)=f(x-3)\)</span> tells us that the output values of <span class="process-math">\(g\)</span> are the same as the output value of <span class="process-math">\(f\)</span> with an input value three smaller. For example, we know that <span class="process-math">\(f(2)=1\text{.}\)</span> To get the same output from the <span class="process-math">\(g\)</span> function, we will need an input value that is 3 larger: We input a value that is three larger for <span class="process-math">\(g(x)\)</span> because the function takes three away before evaluating the function <span class="process-math">\(f\text{.}\)</span>
+<div class="para" id="Chapter1Section5-4-11-2-1">The formula <span class="process-math">\(g(x)=f(x-3)\)</span> tells us that the output values of <span class="process-math">\(g\)</span> are the same as the output value of <span class="process-math">\(f\)</span> with an input value three smaller. For example, we know that <span class="process-math">\(f(2)=1\text{.}\)</span> To get the same output from the <span class="process-math">\(g\)</span> function, we will need an input value that is 3 larger: We input a value that is three larger for <span class="process-math">\(g(x)\)</span> because the function takes three away before evaluating the function <span class="process-math">\(f\text{.}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#Chapter1Section5-4-11-2-1" title="Copy permalink for Paragraph">🔗</a></div>
 </div>
-<div class="para" id="Chapter1Section5-4-11-2-2"><span class="process-math">\(g(5)=f(5-3)=f(2)=1\)</span></div>
+<div class="para" id="Chapter1Section5-4-11-2-2">
+<span class="process-math">\(g(5)=f(5-3)=f(2)=1\)</span><div class="autopermalink" data-description="Paragraph"><a href="#Chapter1Section5-4-11-2-2" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
 <div class="tabular-box natural-width"><table class="tabular">
 <tr>
 <td class="c m b0 r0 l0 t0 lines"><span class="process-math">\(x\)</span></td>
@@ -471,98 +538,151 @@ eBookConfig.enable_chatcodes =  false;
 <td class="c m b0 r0 l0 t0 lines">11</td>
 </tr>
 </table></div>
-<div class="para" id="Chapter1Section5-4-11-2-4">The result is that the function <span class="process-math">\(g(x)\)</span> has been shifted to the right by 3. Notice the output values for <span class="process-math">\(g(x)\)</span> remain the same as the output values for <span class="process-math">\(f(x)\)</span> in the chart, but the corresponding input values, <span class="process-math">\(x\text{,}\)</span> have shifted to the right by 3: 2 shifted to 5, 4 shifted to 7, 6 shifted to 9 and 8 shifted to 11.</div>
-</div></article><article class="example example-like" id="Chapter1Section5-4-12"><h4 class="heading">
+<div class="para" id="Chapter1Section5-4-11-2-4">The result is that the function <span class="process-math">\(g(x)\)</span> has been shifted to the right by 3. Notice the output values for <span class="process-math">\(g(x)\)</span> remain the same as the output values for <span class="process-math">\(f(x)\)</span> in the chart, but the corresponding input values, <span class="process-math">\(x\text{,}\)</span> have shifted to the right by 3: 2 shifted to 5, 4 shifted to 7, 6 shifted to 9 and 8 shifted to 11.<div class="autopermalink" data-description="Paragraph"><a href="#Chapter1Section5-4-11-2-4" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Solution 1.5.11.1"><a href="#Chapter1Section5-4-11-2" title="Copy permalink for Solution 1.5.11.1">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Example 1.5.11"><a href="#Chapter1Section5-4-11" title="Copy permalink for Example 1.5.11">🔗</a></div></article><article class="example example-like" id="Chapter1Section5-4-12"><h4 class="heading">
 <span class="type">Example</span><span class="space"> </span><span class="codenumber">1.5.12</span><span class="period">.</span>
 </h4>
-<div class="para" id="Chapter1Section5-4-12-1-1">The graph shown is a transformation of the toolkit function <span class="process-math">\(f(x)=x^{2}\text{.}\)</span> Relate this new function <span class="process-math">\(g(x)\)</span> to <span class="process-math">\(f(x)\text{,}\)</span> and then find a formula for <span class="process-math">\(g(x)\text{.}\)</span>
+<div class="para" id="Chapter1Section5-4-12-1-1">The graph shown is a transformation of the toolkit function <span class="process-math">\(f(x)=x^{2}\text{.}\)</span> Relate this new function <span class="process-math">\(g(x)\)</span> to <span class="process-math">\(f(x)\text{,}\)</span> and then find a formula for <span class="process-math">\(g(x)\text{.}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#Chapter1Section5-4-12-1-1" title="Copy permalink for Paragraph">🔗</a></div>
 </div> <figure class="figure figure-like" id="c1s6i4"><div class="image-box" style="width: 100%; margin-left: 0%; margin-right: 0%;"><img src="external/C1S6Image4.png" class="contained" alt="U-shaped graph that decreases to 2 comma 0 then increases"></div>
-<figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">1.5.13<span class="period">.</span></span><span class="space"> </span>Graph of <span class="process-math">\(g(x)\)</span></figcaption></figure><div class="solution solution-like" id="Chapter1Section5-4-12-2">
+<figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">1.5.13<span class="period">.</span></span><span class="space"> </span>Graph of <span class="process-math">\(g(x)\)</span><div class="autopermalink" data-description="Figure 1.5.13"><a href="#c1s6i4" title="Copy permalink for Figure 1.5.13">🔗</a></div></figcaption></figure><div class="solution solution-like" id="Chapter1Section5-4-12-2">
 <h4 class="heading">
 <span class="type">Solution</span><span class="period">.</span>
 </h4>
-<div class="para" id="Chapter1Section5-4-12-2-1">Notice that the graph looks almost identical in shape to the <span class="process-math">\(f(x)=x^{2}\)</span> function, but the <span class="process-math">\(x\)</span> values are shifted to the right two units. The vertex used to be at <span class="process-math">\((0, 0)\)</span> but now the vertex is at <span class="process-math">\((2, 0)\text{.}\)</span> The graph is the basic quadratic function shifted two to the right, so <span class="process-math">\(g(x)=f(x-2)\text{.}\)</span>
+<div class="para" id="Chapter1Section5-4-12-2-1">Notice that the graph looks almost identical in shape to the <span class="process-math">\(f(x)=x^{2}\)</span> function, but the <span class="process-math">\(x\)</span> values are shifted to the right two units. The vertex used to be at <span class="process-math">\((0, 0)\)</span> but now the vertex is at <span class="process-math">\((2, 0)\text{.}\)</span> The graph is the basic quadratic function shifted two to the right, so <span class="process-math">\(g(x)=f(x-2)\text{.}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#Chapter1Section5-4-12-2-1" title="Copy permalink for Paragraph">🔗</a></div>
 </div>
-<div class="para" id="Chapter1Section5-4-12-2-2">Notice how we must input the value <span class="process-math">\(x = 2\text{,}\)</span> to get the output value <span class="process-math">\(y = 0\text{;}\)</span> the <span class="process-math">\(x\)</span> values must be two units larger, because of the shift to the right by 2 units.</div>
-<div class="para" id="Chapter1Section5-4-12-2-3">We can then use the definition of the <span class="process-math">\(f(x)\)</span> function to write a formula for <span class="process-math">\(g(x)\)</span> by evaluating <span class="process-math">\(f(x-2)\text{:}\)</span> Since <span class="process-math">\(f(x)=x^{2}\)</span> and <span class="process-math">\(g(x)=f(x-2)\text{.}\)</span> Thus, <span class="process-math">\(g(x)=f(x-2)=(x-2)^{2}\text{.}\)</span>
+<div class="para" id="Chapter1Section5-4-12-2-2">Notice how we must input the value <span class="process-math">\(x = 2\text{,}\)</span> to get the output value <span class="process-math">\(y = 0\text{;}\)</span> the <span class="process-math">\(x\)</span> values must be two units larger, because of the shift to the right by 2 units.<div class="autopermalink" data-description="Paragraph"><a href="#Chapter1Section5-4-12-2-2" title="Copy permalink for Paragraph">🔗</a></div>
 </div>
-<div class="para" id="Chapter1Section5-4-12-2-4">If you find yourself having trouble determining whether the shift is +2 or -2, it might help to consider a single point on the graph. For a quadratic, looking at the bottom-most point is convenient. In the original function, <span class="process-math">\(f(0)=0\text{.}\)</span> In our shifted function, <span class="process-math">\(g(2)=0\text{.}\)</span> To obtain the output value of 0 from the <span class="process-math">\(f\)</span> function, we need to decide whether a +2 or -2 will work to satisfy <span class="process-math">\(g(2)=f(2-2)=f(0)=0\text{.}\)</span> For this to work, we will need to subtract 2 from our input values.</div>
-</div></article><div class="para" id="Chapter1Section5-4-13">When thinking about horizontal and vertical shifts, it is good to keep in mind that vertical shifts are affecting the output values of the function, while horizontal shifts are affecting the input values of the function.</div>
+<div class="para" id="Chapter1Section5-4-12-2-3">We can then use the definition of the <span class="process-math">\(f(x)\)</span> function to write a formula for <span class="process-math">\(g(x)\)</span> by evaluating <span class="process-math">\(f(x-2)\text{:}\)</span> Since <span class="process-math">\(f(x)=x^{2}\)</span> and <span class="process-math">\(g(x)=f(x-2)\text{.}\)</span> Thus, <span class="process-math">\(g(x)=f(x-2)=(x-2)^{2}\text{.}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#Chapter1Section5-4-12-2-3" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="Chapter1Section5-4-12-2-4">If you find yourself having trouble determining whether the shift is +2 or -2, it might help to consider a single point on the graph. For a quadratic, looking at the bottom-most point is convenient. In the original function, <span class="process-math">\(f(0)=0\text{.}\)</span> In our shifted function, <span class="process-math">\(g(2)=0\text{.}\)</span> To obtain the output value of 0 from the <span class="process-math">\(f\)</span> function, we need to decide whether a +2 or -2 will work to satisfy <span class="process-math">\(g(2)=f(2-2)=f(0)=0\text{.}\)</span> For this to work, we will need to subtract 2 from our input values.<div class="autopermalink" data-description="Paragraph"><a href="#Chapter1Section5-4-12-2-4" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Solution 1.5.12.1"><a href="#Chapter1Section5-4-12-2" title="Copy permalink for Solution 1.5.12.1">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Example 1.5.12"><a href="#Chapter1Section5-4-12" title="Copy permalink for Example 1.5.12">🔗</a></div></article><div class="para" id="Chapter1Section5-4-13">When thinking about horizontal and vertical shifts, it is good to keep in mind that vertical shifts are affecting the output values of the function, while horizontal shifts are affecting the input values of the function.<div class="autopermalink" data-description="Paragraph"><a href="#Chapter1Section5-4-13" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
 <article class="example example-like" id="Chapter1Section5-4-14"><h4 class="heading">
 <span class="type">Example</span><span class="space"> </span><span class="codenumber">1.5.14</span><span class="period">.</span>
 </h4>
-<div class="para" id="Chapter1Section5-4-14-1-1">The function <span class="process-math">\(G(m)\)</span> gives the number of gallons of gas required to drive <span class="process-math">\(m\)</span> miles. Interpret <span class="process-math">\(G(m)+10\)</span> and <span class="process-math">\(G(m+10)\text{.}\)</span>
+<div class="para" id="Chapter1Section5-4-14-1-1">The function <span class="process-math">\(G(m)\)</span> gives the number of gallons of gas required to drive <span class="process-math">\(m\)</span> miles. Interpret <span class="process-math">\(G(m)+10\)</span> and <span class="process-math">\(G(m+10)\text{.}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#Chapter1Section5-4-14-1-1" title="Copy permalink for Paragraph">🔗</a></div>
 </div>
 <div class="solution solution-like" id="Chapter1Section5-4-14-2">
 <h4 class="heading">
 <span class="type">Solution</span><span class="period">.</span>
 </h4>
 <div class="para" id="Chapter1Section5-4-14-2-1">
-<span class="process-math">\(G(m)+10\)</span> is adding 10 to the output, gallons. This is 10 gallons of gas more than is required to drive <span class="process-math">\(m\)</span> miles. So, this is the gas required to drive <span class="process-math">\(m\)</span> miles, plus another 10 gallons of gas.</div>
+<span class="process-math">\(G(m)+10\)</span> is adding 10 to the output, gallons. This is 10 gallons of gas more than is required to drive <span class="process-math">\(m\)</span> miles. So, this is the gas required to drive <span class="process-math">\(m\)</span> miles, plus another 10 gallons of gas.<div class="autopermalink" data-description="Paragraph"><a href="#Chapter1Section5-4-14-2-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
 <div class="para" id="Chapter1Section5-4-14-2-2">
-<span class="process-math">\(G(m+10)\)</span> is adding 10 to the input, miles. This is the number of gallons of gas required to drive 10 miles more than <span class="process-math">\(m\)</span> miles.</div>
-</div></article><article class="exercise exercise-like" id="Chapter1Section5-4-15"><h4 class="heading">
+<span class="process-math">\(G(m+10)\)</span> is adding 10 to the input, miles. This is the number of gallons of gas required to drive 10 miles more than <span class="process-math">\(m\)</span> miles.<div class="autopermalink" data-description="Paragraph"><a href="#Chapter1Section5-4-14-2-2" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Solution 1.5.14.1"><a href="#Chapter1Section5-4-14-2" title="Copy permalink for Solution 1.5.14.1">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Example 1.5.14"><a href="#Chapter1Section5-4-14" title="Copy permalink for Example 1.5.14">🔗</a></div></article><article class="exercise exercise-like" id="Chapter1Section5-4-15"><h4 class="heading">
 <span class="type">Checkpoint</span><span class="space"> </span><span class="codenumber">1.5.15</span><span class="period">.</span>
 </h4>
 <div class="para logical" id="Chapter1Section5-4-15-1-1">
 <div class="para">Given the function <span class="process-math">\(f(x)=\sqrt{x}\)</span> graph the original function <span class="process-math">\(f(x)\)</span> and the transformation <span class="process-math">\(g(x)=f(x+2)\text{.}\)</span>
 </div>
 <ol class="decimal" id="Chapter1Section5-4-15-1-1-4">
-<li id="Chapter1Section5-4-15-1-1-4-1"><div class="para" id="Chapter1Section5-4-15-1-1-4-1-1">Is this a horizontal or a vertical change?</div></li>
-<li id="Chapter1Section5-4-15-1-1-4-2"><div class="para" id="Chapter1Section5-4-15-1-1-4-2-1">Which way is the graph shifted and by how many units?</div></li>
-<li id="Chapter1Section5-4-15-1-1-4-3"><div class="para" id="Chapter1Section5-4-15-1-1-4-3-1">Graph <span class="process-math">\(f(x)\)</span> and <span class="process-math">\(g(x)\)</span> on the same axes.</div></li>
+<li id="Chapter1Section5-4-15-1-1-4-1">
+<div class="para" id="Chapter1Section5-4-15-1-1-4-1-1">Is this a horizontal or a vertical change?<div class="autopermalink" data-description="Paragraph"><a href="#Chapter1Section5-4-15-1-1-4-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item 1.5.15.1"><a href="#Chapter1Section5-4-15-1-1-4-1" title="Copy permalink for Item 1.5.15.1">🔗</a></div>
+</li>
+<li id="Chapter1Section5-4-15-1-1-4-2">
+<div class="para" id="Chapter1Section5-4-15-1-1-4-2-1">Which way is the graph shifted and by how many units?<div class="autopermalink" data-description="Paragraph"><a href="#Chapter1Section5-4-15-1-1-4-2-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item 1.5.15.2"><a href="#Chapter1Section5-4-15-1-1-4-2" title="Copy permalink for Item 1.5.15.2">🔗</a></div>
+</li>
+<li id="Chapter1Section5-4-15-1-1-4-3">
+<div class="para" id="Chapter1Section5-4-15-1-1-4-3-1">Graph <span class="process-math">\(f(x)\)</span> and <span class="process-math">\(g(x)\)</span> on the same axes.<div class="autopermalink" data-description="Paragraph"><a href="#Chapter1Section5-4-15-1-1-4-3-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item 1.5.15.3"><a href="#Chapter1Section5-4-15-1-1-4-3" title="Copy permalink for Item 1.5.15.3">🔗</a></div>
+</li>
 </ol>
-</div></article><div class="para" id="Chapter1Section5-4-16">Now that we have two transformations, we can combine them together.</div>
-<div class="para" id="Chapter1Section5-4-17">Remember:</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#Chapter1Section5-4-15-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Checkpoint 1.5.15"><a href="#Chapter1Section5-4-15" title="Copy permalink for Checkpoint 1.5.15">🔗</a></div></article><div class="para" id="Chapter1Section5-4-16">Now that we have two transformations, we can combine them together.<div class="autopermalink" data-description="Paragraph"><a href="#Chapter1Section5-4-16" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="Chapter1Section5-4-17">Remember:<div class="autopermalink" data-description="Paragraph"><a href="#Chapter1Section5-4-17" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
 <article class="definition definition-like" id="Chapter1Section5-4-18"><h4 class="heading">
 <span class="type">Definition</span><span class="space"> </span><span class="codenumber">1.5.16</span><span class="period">.</span>
 </h4>
-<div class="para logical" id="Chapter1Section5-4-18-1-1"><ul class="disc" id="Chapter1Section5-4-18-1-1-1">
-<li id="Chapter1Section5-4-18-1-1-1-1"><div class="para" id="Chapter1Section5-4-18-1-1-1-1-1">Vertical Shifts are outside changes that affect the output (vertical) axis values shifting the transformed function up or down.</div></li>
-<li id="Chapter1Section5-4-18-1-1-1-2"><div class="para" id="Chapter1Section5-4-18-1-1-1-2-1">Horizontal Shifts are inside changes that affect the input (horizontal) axis values shifting the transformed function left or right.</div></li>
-</ul></div></article><article class="example example-like" id="Chapter1Section5-4-19"><h4 class="heading">
+<div class="para logical" id="Chapter1Section5-4-18-1-1">
+<ul class="disc" id="Chapter1Section5-4-18-1-1-1">
+<li id="Chapter1Section5-4-18-1-1-1-1">
+<div class="para" id="Chapter1Section5-4-18-1-1-1-1-1">Vertical Shifts are outside changes that affect the output (vertical) axis values shifting the transformed function up or down.<div class="autopermalink" data-description="Paragraph"><a href="#Chapter1Section5-4-18-1-1-1-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item"><a href="#Chapter1Section5-4-18-1-1-1-1" title="Copy permalink for Item">🔗</a></div>
+</li>
+<li id="Chapter1Section5-4-18-1-1-1-2">
+<div class="para" id="Chapter1Section5-4-18-1-1-1-2-1">Horizontal Shifts are inside changes that affect the input (horizontal) axis values shifting the transformed function left or right.<div class="autopermalink" data-description="Paragraph"><a href="#Chapter1Section5-4-18-1-1-1-2-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item"><a href="#Chapter1Section5-4-18-1-1-1-2" title="Copy permalink for Item">🔗</a></div>
+</li>
+</ul>
+<div class="autopermalink" data-description="Paragraph"><a href="#Chapter1Section5-4-18-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Definition 1.5.16"><a href="#Chapter1Section5-4-18" title="Copy permalink for Definition 1.5.16">🔗</a></div></article><article class="example example-like" id="Chapter1Section5-4-19"><h4 class="heading">
 <span class="type">Example</span><span class="space"> </span><span class="codenumber">1.5.17</span><span class="period">.</span>
 </h4>
-<div class="para" id="Chapter1Section5-4-19-1-1">Write a formula for the graph shown, which is a transformation of the toolkit square root function.</div> <figure class="figure figure-like" id="c1s6i6"><div class="image-box" style="width: 100%; margin-left: 0%; margin-right: 0%;"><img src="external/C1S6Image6.png" class="contained" alt="A square root graph with initial point at 1 comma 2, increasing to the right"></div>
-<figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">1.5.18<span class="period">.</span></span><span class="space"> </span>Graph of <span class="process-math">\(h(x)\)</span></figcaption></figure><div class="solution solution-like" id="Chapter1Section5-4-19-2">
+<div class="para" id="Chapter1Section5-4-19-1-1">Write a formula for the graph shown, which is a transformation of the toolkit square root function.<div class="autopermalink" data-description="Paragraph"><a href="#Chapter1Section5-4-19-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div> <figure class="figure figure-like" id="c1s6i6"><div class="image-box" style="width: 100%; margin-left: 0%; margin-right: 0%;"><img src="external/C1S6Image6.png" class="contained" alt="A square root graph with initial point at 1 comma 2, increasing to the right"></div>
+<figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">1.5.18<span class="period">.</span></span><span class="space"> </span>Graph of <span class="process-math">\(h(x)\)</span><div class="autopermalink" data-description="Figure 1.5.18"><a href="#c1s6i6" title="Copy permalink for Figure 1.5.18">🔗</a></div></figcaption></figure><div class="solution solution-like" id="Chapter1Section5-4-19-2">
 <h4 class="heading">
 <span class="type">Solution</span><span class="period">.</span>
 </h4>
-<div class="para" id="Chapter1Section5-4-19-2-1">The graph of the toolkit function starts at the origin, so this graph has been shifted 1 to the right, and up 2. In function notation, we could write that as <span class="process-math">\(h(x)=f(x-1)+2\text{.}\)</span> Using the formula for the square root function we can write <span class="process-math">\(h(x)=\sqrt{x-1}+2\text{.}\)</span>
+<div class="para" id="Chapter1Section5-4-19-2-1">The graph of the toolkit function starts at the origin, so this graph has been shifted 1 to the right, and up 2. In function notation, we could write that as <span class="process-math">\(h(x)=f(x-1)+2\text{.}\)</span> Using the formula for the square root function we can write <span class="process-math">\(h(x)=\sqrt{x-1}+2\text{.}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#Chapter1Section5-4-19-2-1" title="Copy permalink for Paragraph">🔗</a></div>
 </div>
-<div class="para" id="Chapter1Section5-4-19-2-2">Note that this transformation has changed the domain and range of the function. This new graph has domain <span class="process-math">\([1,\infty)\)</span> and range <span class="process-math">\([2,\infty)\text{.}\)</span>
+<div class="para" id="Chapter1Section5-4-19-2-2">Note that this transformation has changed the domain and range of the function. This new graph has domain <span class="process-math">\([1,\infty)\)</span> and range <span class="process-math">\([2,\infty)\text{.}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#Chapter1Section5-4-19-2-2" title="Copy permalink for Paragraph">🔗</a></div>
 </div>
-</div></article></section><section class="subsection" id="Chapter1Section5-5"><h3 class="heading hide-type">
+<div class="autopermalink" data-description="Solution 1.5.17.1"><a href="#Chapter1Section5-4-19-2" title="Copy permalink for Solution 1.5.17.1">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Example 1.5.17"><a href="#Chapter1Section5-4-19" title="Copy permalink for Example 1.5.17">🔗</a></div></article><div class="autopermalink" data-description="Subsection 1.5.1: Shifts"><a href="#Chapter1Section5-4" title="Copy permalink for Subsection 1.5.1: Shifts">🔗</a></div></section><section class="subsection" id="Chapter1Section5-5"><h3 class="heading hide-type">
 <span class="type">Subsection</span><span class="space"> </span><span class="codenumber">1.5.2</span><span class="space"> </span><span class="title">Reflections</span>
 </h3>
-<div class="para" id="Chapter1Section5-5-2">Another transformation that can be applied to a function is a reflection over the horizontal or vertical axis.</div>
+<div class="para" id="Chapter1Section5-5-2">Another transformation that can be applied to a function is a reflection over the horizontal or vertical axis.<div class="autopermalink" data-description="Paragraph"><a href="#Chapter1Section5-5-2" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
 <article class="example example-like" id="Chapter1Section5-5-3"><h4 class="heading">
 <span class="type">Example</span><span class="space"> </span><span class="codenumber">1.5.19</span><span class="period">.</span>
 </h4>
-<div class="para" id="Chapter1Section5-5-3-1-1">Reflect the graph of <span class="process-math">\(s(t)=\sqrt{t}\)</span> both vertically and horizontally.</div>
+<div class="para" id="Chapter1Section5-5-3-1-1">Reflect the graph of <span class="process-math">\(s(t)=\sqrt{t}\)</span> both vertically and horizontally.<div class="autopermalink" data-description="Paragraph"><a href="#Chapter1Section5-5-3-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
 <div class="solution solution-like" id="Chapter1Section5-5-3-2">
 <h4 class="heading">
 <span class="type">Solution</span><span class="period">.</span>
 </h4>
-<div class="para" id="Chapter1Section5-5-3-2-1">Reflecting the graph vertically, each output value will be reflected over the horizontal t axis:</div>
+<div class="para" id="Chapter1Section5-5-3-2-1">Reflecting the graph vertically, each output value will be reflected over the horizontal t axis:<div class="autopermalink" data-description="Paragraph"><a href="#Chapter1Section5-5-3-2-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
 <figure class="figure figure-like" id="c1s6i7"><div class="image-box" style="width: 100%; margin-left: 0%; margin-right: 0%;"><img src="external/C1S6Image7.png" class="contained" alt="A basic square root graph with initial point at the origin, increasing to the right"></div>
-<figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">1.5.20<span class="period">.</span></span><span class="space"> </span>Graph of <span class="process-math">\(s(t)=\sqrt{t}\)</span></figcaption></figure><figure class="figure figure-like" id="c1s6i8"><div class="image-box" style="width: 100%; margin-left: 0%; margin-right: 0%;"><img src="external/C1S6Image8.png" class="contained" alt="A vertically-flipped square root graph with initial point at the origin, decreasing to the right"></div>
-<figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">1.5.21<span class="period">.</span></span><span class="space"> </span>Graph of <span class="process-math">\(s(t)\)</span> reflected vertically</figcaption></figure><div class="para" id="Chapter1Section5-5-3-2-4">Since each output value is the opposite of the original output value, we can write <span class="process-math">\(V(t)=-s(t)=-\sqrt{t}\text{.}\)</span>
+<figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">1.5.20<span class="period">.</span></span><span class="space"> </span>Graph of <span class="process-math">\(s(t)=\sqrt{t}\)</span><div class="autopermalink" data-description="Figure 1.5.20"><a href="#c1s6i7" title="Copy permalink for Figure 1.5.20">🔗</a></div></figcaption></figure><figure class="figure figure-like" id="c1s6i8"><div class="image-box" style="width: 100%; margin-left: 0%; margin-right: 0%;"><img src="external/C1S6Image8.png" class="contained" alt="A vertically-flipped square root graph with initial point at the origin, decreasing to the right"></div>
+<figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">1.5.21<span class="period">.</span></span><span class="space"> </span>Graph of <span class="process-math">\(s(t)\)</span> reflected vertically<div class="autopermalink" data-description="Figure 1.5.21"><a href="#c1s6i8" title="Copy permalink for Figure 1.5.21">🔗</a></div></figcaption></figure><div class="para" id="Chapter1Section5-5-3-2-4">Since each output value is the opposite of the original output value, we can write <span class="process-math">\(V(t)=-s(t)=-\sqrt{t}\text{.}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#Chapter1Section5-5-3-2-4" title="Copy permalink for Paragraph">🔗</a></div>
 </div>
-<div class="para" id="Chapter1Section5-5-3-2-5">Notice this is an outside change or vertical change that affects the output <span class="process-math">\(s(t)\)</span> values, so the negative sign belongs outside of the function. Reflecting horizontally, each input value will be reflected over the vertical axis.</div>
+<div class="para" id="Chapter1Section5-5-3-2-5">Notice this is an outside change or vertical change that affects the output <span class="process-math">\(s(t)\)</span> values, so the negative sign belongs outside of the function. Reflecting horizontally, each input value will be reflected over the vertical axis.<div class="autopermalink" data-description="Paragraph"><a href="#Chapter1Section5-5-3-2-5" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
 <figure class="figure figure-like" id="c1s6i9"><div class="image-box" style="width: 100%; margin-left: 0%; margin-right: 0%;"><img src="external/C1S6Image9.png" class="contained" alt="A horizontally-flipped square root graph decreasing to the origin and terminating"></div>
-<figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">1.5.22<span class="period">.</span></span><span class="space"> </span>Graph of <span class="process-math">\(s(t)\)</span> reflected horizontally</figcaption></figure><div class="para" id="Chapter1Section5-5-3-2-7">Since each input value is the opposite of the original input value, we can write <span class="process-math">\(H(t)=s(-t)=\sqrt{-t}\text{.}\)</span>
+<figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">1.5.22<span class="period">.</span></span><span class="space"> </span>Graph of <span class="process-math">\(s(t)\)</span> reflected horizontally<div class="autopermalink" data-description="Figure 1.5.22"><a href="#c1s6i9" title="Copy permalink for Figure 1.5.22">🔗</a></div></figcaption></figure><div class="para" id="Chapter1Section5-5-3-2-7">Since each input value is the opposite of the original input value, we can write <span class="process-math">\(H(t)=s(-t)=\sqrt{-t}\text{.}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#Chapter1Section5-5-3-2-7" title="Copy permalink for Paragraph">🔗</a></div>
 </div>
-<div class="para" id="Chapter1Section5-5-3-2-8">Notice this is an inside change or horizontal change that affects the input values, so the negative sign is on the inside of the function.</div>
-<div class="para" id="Chapter1Section5-5-3-2-9">Note that these transformations can affect the domain and range of the functions. While the original square root function has domain <span class="process-math">\([0,\infty)\)</span> and range <span class="process-math">\([0,\infty)\text{,}\)</span> the vertical reflection gives the <span class="process-math">\(V(t)\)</span> function the range <span class="process-math">\((-\infty,0]\text{,}\)</span> and the horizontal reflection gives the <span class="process-math">\(H(t)\)</span> function the domain <span class="process-math">\((-\infty,0]\text{.}\)</span>
+<div class="para" id="Chapter1Section5-5-3-2-8">Notice this is an inside change or horizontal change that affects the input values, so the negative sign is on the inside of the function.<div class="autopermalink" data-description="Paragraph"><a href="#Chapter1Section5-5-3-2-8" title="Copy permalink for Paragraph">🔗</a></div>
 </div>
-</div></article><article class="definition definition-like" id="Chapter1Section5-5-4"><h4 class="heading">
+<div class="para" id="Chapter1Section5-5-3-2-9">Note that these transformations can affect the domain and range of the functions. While the original square root function has domain <span class="process-math">\([0,\infty)\)</span> and range <span class="process-math">\([0,\infty)\text{,}\)</span> the vertical reflection gives the <span class="process-math">\(V(t)\)</span> function the range <span class="process-math">\((-\infty,0]\text{,}\)</span> and the horizontal reflection gives the <span class="process-math">\(H(t)\)</span> function the domain <span class="process-math">\((-\infty,0]\text{.}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#Chapter1Section5-5-3-2-9" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Solution 1.5.19.1"><a href="#Chapter1Section5-5-3-2" title="Copy permalink for Solution 1.5.19.1">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Example 1.5.19"><a href="#Chapter1Section5-5-3" title="Copy permalink for Example 1.5.19">🔗</a></div></article><article class="definition definition-like" id="Chapter1Section5-5-4"><h4 class="heading">
 <span class="type">Definition</span><span class="space"> </span><span class="codenumber">1.5.23</span><span class="period">.</span><span class="space"> </span><span class="title">Reflections.</span>
 </h4>
-<div class="para" id="Chapter1Section5-5-4-2-1">Given a function <span class="process-math">\(f(x)\text{,}\)</span> if we define a new function <span class="process-math">\(g(x)\)</span> as <span class="process-math">\(g(x)=-f(x)\text{,}\)</span> then <span class="process-math">\(g(x)\)</span> is a vertical reflection of the function <span class="process-math">\(f(x)\text{,}\)</span> sometimes called a reflection about the horizontal axis.</div> <div class="para" id="Chapter1Section5-5-4-2-2">If we define a new function <span class="process-math">\(g(x)\)</span> as <span class="process-math">\(g(x)=f(-x)\text{,}\)</span> then <span class="process-math">\(g(x)\)</span> is a horizontal reflection of the function <span class="process-math">\(f(x)\text{,}\)</span> sometimes called a reflection about the vertical axis.</div></article><article class="example example-like" id="Chapter1Section5-5-5"><h4 class="heading">
+<div class="para" id="Chapter1Section5-5-4-2-1">Given a function <span class="process-math">\(f(x)\text{,}\)</span> if we define a new function <span class="process-math">\(g(x)\)</span> as <span class="process-math">\(g(x)=-f(x)\text{,}\)</span> then <span class="process-math">\(g(x)\)</span> is a vertical reflection of the function <span class="process-math">\(f(x)\text{,}\)</span> sometimes called a reflection about the horizontal axis.<div class="autopermalink" data-description="Paragraph"><a href="#Chapter1Section5-5-4-2-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div> <div class="para" id="Chapter1Section5-5-4-2-2">If we define a new function <span class="process-math">\(g(x)\)</span> as <span class="process-math">\(g(x)=f(-x)\text{,}\)</span> then <span class="process-math">\(g(x)\)</span> is a horizontal reflection of the function <span class="process-math">\(f(x)\text{,}\)</span> sometimes called a reflection about the vertical axis.<div class="autopermalink" data-description="Paragraph"><a href="#Chapter1Section5-5-4-2-2" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Definition 1.5.23: Reflections"><a href="#Chapter1Section5-5-4" title="Copy permalink for Definition 1.5.23: Reflections">🔗</a></div></article><article class="example example-like" id="Chapter1Section5-5-5"><h4 class="heading">
 <span class="type">Example</span><span class="space"> </span><span class="codenumber">1.5.24</span><span class="period">.</span>
 </h4>
-<div class="para" id="Chapter1Section5-5-5-1-1">A function <span class="process-math">\(f(x)\)</span> is given as a table below. Create a table for the function <span class="process-math">\(g(x)=-f(x)\)</span> and <span class="process-math">\(h(x)=f(-x)\text{.}\)</span>
+<div class="para" id="Chapter1Section5-5-5-1-1">A function <span class="process-math">\(f(x)\)</span> is given as a table below. Create a table for the function <span class="process-math">\(g(x)=-f(x)\)</span> and <span class="process-math">\(h(x)=f(-x)\text{.}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#Chapter1Section5-5-5-1-1" title="Copy permalink for Paragraph">🔗</a></div>
 </div> <div class="tabular-box natural-width"><table class="tabular">
 <tr>
 <td class="c m b0 r0 l0 t0 lines"><span class="process-math">\(x\)</span></td>
@@ -583,7 +703,8 @@ eBookConfig.enable_chatcodes =  false;
 <h4 class="heading">
 <span class="type">Solution</span><span class="period">.</span>
 </h4>
-<div class="para" id="Chapter1Section5-5-5-2-1">For <span class="process-math">\(g(x)\text{,}\)</span> this is a vertical reflection, so the <span class="process-math">\(x\)</span> values stay the same and each output value will be the opposite of the original output value:</div>
+<div class="para" id="Chapter1Section5-5-5-2-1">For <span class="process-math">\(g(x)\text{,}\)</span> this is a vertical reflection, so the <span class="process-math">\(x\)</span> values stay the same and each output value will be the opposite of the original output value:<div class="autopermalink" data-description="Paragraph"><a href="#Chapter1Section5-5-5-2-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
 <div class="tabular-box natural-width"><table class="tabular">
 <tr>
 <td class="c m b0 r0 l0 t0 lines"><span class="process-math">\(x\)</span></td>
@@ -600,7 +721,8 @@ eBookConfig.enable_chatcodes =  false;
 <td class="c m b0 r0 l0 t0 lines">-11</td>
 </tr>
 </table></div>
-<div class="para" id="Chapter1Section5-5-5-2-3">For <span class="process-math">\(h(x)\text{,}\)</span> this is a horizontal reflection, and each input value will be the opposite of the original input value and the <span class="process-math">\(h(x)\)</span> values stay the same as the <span class="process-math">\(f(x)\)</span> values:</div>
+<div class="para" id="Chapter1Section5-5-5-2-3">For <span class="process-math">\(h(x)\text{,}\)</span> this is a horizontal reflection, and each input value will be the opposite of the original input value and the <span class="process-math">\(h(x)\)</span> values stay the same as the <span class="process-math">\(f(x)\)</span> values:<div class="autopermalink" data-description="Paragraph"><a href="#Chapter1Section5-5-5-2-3" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
 <div class="tabular-box natural-width"><table class="tabular">
 <tr>
 <td class="c m b0 r0 l0 t0 lines"><span class="process-math">\(x\)</span></td>
@@ -617,11 +739,14 @@ eBookConfig.enable_chatcodes =  false;
 <td class="c m b0 r0 l0 t0 lines">11</td>
 </tr>
 </table></div>
-</div></article><article class="example example-like" id="Chapter1Section5-5-6"><h4 class="heading">
+<div class="autopermalink" data-description="Solution 1.5.24.1"><a href="#Chapter1Section5-5-5-2" title="Copy permalink for Solution 1.5.24.1">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Example 1.5.24"><a href="#Chapter1Section5-5-5" title="Copy permalink for Example 1.5.24">🔗</a></div></article><article class="example example-like" id="Chapter1Section5-5-6"><h4 class="heading">
 <span class="type">Example</span><span class="space"> </span><span class="codenumber">1.5.25</span><span class="period">.</span>
 </h4>
-<div class="para" id="Chapter1Section5-5-6-1-1">A common model for learning has an equation similar to <span class="process-math">\(k(t)=-2^{-t}+1\text{,}\)</span> where <span class="process-math">\(k(t)\)</span> is the percentage of mastery that can be achieved after <span class="process-math">\(t\)</span> practice sessions. This is a transformation of the function <span class="process-math">\(f(t)=2^{t}\)</span> shown here.</div> <figure class="figure figure-like" id="c1s6i10"><div class="image-box" style="width: 100%; margin-left: 0%; margin-right: 0%;"><img src="external/C1S6Image10.png" class="contained" alt="An increasing curving-up graph, passing through 0 comma 1"></div>
-<figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">1.5.26<span class="period">.</span></span><span class="space"> </span>Graph of <span class="process-math">\(f(t)=2^t\)</span></figcaption></figure> <div class="para" id="Chapter1Section5-5-6-1-3">Sketch a graph of <span class="process-math">\(k(t)\text{.}\)</span>
+<div class="para" id="Chapter1Section5-5-6-1-1">A common model for learning has an equation similar to <span class="process-math">\(k(t)=-2^{-t}+1\text{,}\)</span> where <span class="process-math">\(k(t)\)</span> is the percentage of mastery that can be achieved after <span class="process-math">\(t\)</span> practice sessions. This is a transformation of the function <span class="process-math">\(f(t)=2^{t}\)</span> shown here.<div class="autopermalink" data-description="Paragraph"><a href="#Chapter1Section5-5-6-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div> <figure class="figure figure-like" id="c1s6i10"><div class="image-box" style="width: 100%; margin-left: 0%; margin-right: 0%;"><img src="external/C1S6Image10.png" class="contained" alt="An increasing curving-up graph, passing through 0 comma 1"></div>
+<figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">1.5.26<span class="period">.</span></span><span class="space"> </span>Graph of <span class="process-math">\(f(t)=2^t\)</span><div class="autopermalink" data-description="Figure 1.5.26"><a href="#c1s6i10" title="Copy permalink for Figure 1.5.26">🔗</a></div></figcaption></figure> <div class="para" id="Chapter1Section5-5-6-1-3">Sketch a graph of <span class="process-math">\(k(t)\text{.}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#Chapter1Section5-5-6-1-3" title="Copy permalink for Paragraph">🔗</a></div>
 </div>
 <div class="solution solution-like" id="Chapter1Section5-5-6-2">
 <h4 class="heading">
@@ -630,55 +755,85 @@ eBookConfig.enable_chatcodes =  false;
 <div class="para logical" id="Chapter1Section5-5-6-2-1">
 <div class="para">This equation combines three transformations into one equation.</div>
 <ul class="disc" id="Chapter1Section5-5-6-2-1-1">
-<li id="Chapter1Section5-5-6-2-1-1-1"><div class="para" id="Chapter1Section5-5-6-2-1-1-1-1">A horizontal reflection: <span class="process-math">\(f(-t)=2^{-t}\)</span>
-</div></li>
-<li id="Chapter1Section5-5-6-2-1-1-2"><div class="para" id="Chapter1Section5-5-6-2-1-1-2-1">A vertical reflection: <span class="process-math">\(-f(-t)=-2^{-t}\)</span>
-</div></li>
-<li id="Chapter1Section5-5-6-2-1-1-3"><div class="para" id="Chapter1Section5-5-6-2-1-1-3-1">A vertical shift up 1: <span class="process-math">\(-f(-t)+1=-2^{-t}+1\)</span>
-</div></li>
+<li id="Chapter1Section5-5-6-2-1-1-1">
+<div class="para" id="Chapter1Section5-5-6-2-1-1-1-1">A horizontal reflection: <span class="process-math">\(f(-t)=2^{-t}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#Chapter1Section5-5-6-2-1-1-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item"><a href="#Chapter1Section5-5-6-2-1-1-1" title="Copy permalink for Item">🔗</a></div>
+</li>
+<li id="Chapter1Section5-5-6-2-1-1-2">
+<div class="para" id="Chapter1Section5-5-6-2-1-1-2-1">A vertical reflection: <span class="process-math">\(-f(-t)=-2^{-t}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#Chapter1Section5-5-6-2-1-1-2-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item"><a href="#Chapter1Section5-5-6-2-1-1-2" title="Copy permalink for Item">🔗</a></div>
+</li>
+<li id="Chapter1Section5-5-6-2-1-1-3">
+<div class="para" id="Chapter1Section5-5-6-2-1-1-3-1">A vertical shift up 1: <span class="process-math">\(-f(-t)+1=-2^{-t}+1\)</span><div class="autopermalink" data-description="Paragraph"><a href="#Chapter1Section5-5-6-2-1-1-3-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item"><a href="#Chapter1Section5-5-6-2-1-1-3" title="Copy permalink for Item">🔗</a></div>
+</li>
 </ul>
+<div class="autopermalink" data-description="Paragraph"><a href="#Chapter1Section5-5-6-2-1" title="Copy permalink for Paragraph">🔗</a></div>
 </div>
-<div class="para" id="Chapter1Section5-5-6-2-2">We can sketch a graph by applying these transformations one at a time to the original function:</div>
+<div class="para" id="Chapter1Section5-5-6-2-2">We can sketch a graph by applying these transformations one at a time to the original function:<div class="autopermalink" data-description="Paragraph"><a href="#Chapter1Section5-5-6-2-2" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
 <figure class="figure figure-like" id="c1s6i11"><div class="image-box" style="width: 100%; margin-left: 0%; margin-right: 0%;"><img src="external/C1S6Image11.png" class="contained" alt="An increasing curving-up graph, passing through 0 comma 1"></div>
-<figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">1.5.27<span class="period">.</span></span><span class="space"> </span>Original graph of <span class="process-math">\(f(t)=2^t\)</span></figcaption></figure><figure class="figure figure-like" id="c1s6i12"><div class="image-box" style="width: 100%; margin-left: 0%; margin-right: 0%;"><img src="external/C1S6Image12.png" class="contained" alt="A horizontal flip of the previous graph, now decreasing curving-up, passing through 0 comma 1"></div>
-<figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">1.5.28<span class="period">.</span></span><span class="space"> </span>Horizontally Reflected: <span class="process-math">\(f(-t)\)</span></figcaption></figure><figure class="figure figure-like" id="c1s6i13"><div class="image-box" style="width: 100%; margin-left: 0%; margin-right: 0%;"><img src="external/C1S6Image13.png" class="contained" alt="A vertical flip of the previous graph, now increasing curving-down, passing through 0 comma negative 1"></div>
-<figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">1.5.29<span class="period">.</span></span><span class="space"> </span>Then vertically reflected: <span class="process-math">\(-f(-t)\)</span></figcaption></figure><figure class="figure figure-like" id="c1s6i14"><div class="image-box" style="width: 100%; margin-left: 0%; margin-right: 0%;"><img src="external/C1S6Image14.png" class="contained" alt="A shift up 1 of the previous graph, now increasing curving-down, passing through 0 comma 0"></div>
-<figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">1.5.30<span class="period">.</span></span><span class="space"> </span>Then shifted vertically: <span class="process-math">\(-f(-t)+1\)</span></figcaption></figure><div class="para" id="Chapter1Section5-5-6-2-7">Note: As a model for learning, this function would be limited to a domain of <span class="process-math">\(t\geq 0\text{,}\)</span> with corresponding range <span class="process-math">\([0,1)\text{.}\)</span>
+<figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">1.5.27<span class="period">.</span></span><span class="space"> </span>Original graph of <span class="process-math">\(f(t)=2^t\)</span><div class="autopermalink" data-description="Figure 1.5.27"><a href="#c1s6i11" title="Copy permalink for Figure 1.5.27">🔗</a></div></figcaption></figure><figure class="figure figure-like" id="c1s6i12"><div class="image-box" style="width: 100%; margin-left: 0%; margin-right: 0%;"><img src="external/C1S6Image12.png" class="contained" alt="A horizontal flip of the previous graph, now decreasing curving-up, passing through 0 comma 1"></div>
+<figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">1.5.28<span class="period">.</span></span><span class="space"> </span>Horizontally Reflected: <span class="process-math">\(f(-t)\)</span><div class="autopermalink" data-description="Figure 1.5.28"><a href="#c1s6i12" title="Copy permalink for Figure 1.5.28">🔗</a></div></figcaption></figure><figure class="figure figure-like" id="c1s6i13"><div class="image-box" style="width: 100%; margin-left: 0%; margin-right: 0%;"><img src="external/C1S6Image13.png" class="contained" alt="A vertical flip of the previous graph, now increasing curving-down, passing through 0 comma negative 1"></div>
+<figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">1.5.29<span class="period">.</span></span><span class="space"> </span>Then vertically reflected: <span class="process-math">\(-f(-t)\)</span><div class="autopermalink" data-description="Figure 1.5.29"><a href="#c1s6i13" title="Copy permalink for Figure 1.5.29">🔗</a></div></figcaption></figure><figure class="figure figure-like" id="c1s6i14"><div class="image-box" style="width: 100%; margin-left: 0%; margin-right: 0%;"><img src="external/C1S6Image14.png" class="contained" alt="A shift up 1 of the previous graph, now increasing curving-down, passing through 0 comma 0"></div>
+<figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">1.5.30<span class="period">.</span></span><span class="space"> </span>Then shifted vertically: <span class="process-math">\(-f(-t)+1\)</span><div class="autopermalink" data-description="Figure 1.5.30"><a href="#c1s6i14" title="Copy permalink for Figure 1.5.30">🔗</a></div></figcaption></figure><div class="para" id="Chapter1Section5-5-6-2-7">Note: As a model for learning, this function would be limited to a domain of <span class="process-math">\(t\geq 0\text{,}\)</span> with corresponding range <span class="process-math">\([0,1)\text{.}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#Chapter1Section5-5-6-2-7" title="Copy permalink for Paragraph">🔗</a></div>
 </div>
-</div></article><article class="exercise exercise-like" id="Chapter1Section5-5-7"><h4 class="heading">
+<div class="autopermalink" data-description="Solution 1.5.25.1"><a href="#Chapter1Section5-5-6-2" title="Copy permalink for Solution 1.5.25.1">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Example 1.5.25"><a href="#Chapter1Section5-5-6" title="Copy permalink for Example 1.5.25">🔗</a></div></article><article class="exercise exercise-like" id="Chapter1Section5-5-7"><h4 class="heading">
 <span class="type">Checkpoint</span><span class="space"> </span><span class="codenumber">1.5.31</span><span class="period">.</span>
 </h4>
-<div class="para" id="Chapter1Section5-5-7-1-1">Given the toolkit function <span class="process-math">\(f(x)=x^{2}\text{,}\)</span> graph <span class="process-math">\(g(x) = -f(x)\)</span> and <span class="process-math">\(h(x) = f(-x)\text{.}\)</span> Do you notice anything surprising?</div></article><div class="para" id="Chapter1Section5-5-8">Some functions exhibit symmetry, in which reflections result in the original graph. For example, reflecting the toolkit functions <span class="process-math">\(f(x)=x^{2}\)</span> or <span class="process-math">\(f(x)=|x|\)</span> about the <span class="process-math">\(y\)</span>-axis will result in the original graph. We call these types of graphs symmetric about the <span class="process-math">\(y\)</span>-axis.</div>
-<div class="para" id="Chapter1Section5-5-9">Likewise, if the graphs of <span class="process-math">\(f(x)=x^{3}\)</span> or <span class="process-math">\(f(x)=\dfrac{1}{x}\)</span> were reflected over both axes, the result would be the original graph:</div>
+<div class="para" id="Chapter1Section5-5-7-1-1">Given the toolkit function <span class="process-math">\(f(x)=x^{2}\text{,}\)</span> graph <span class="process-math">\(g(x) = -f(x)\)</span> and <span class="process-math">\(h(x) = f(-x)\text{.}\)</span> Do you notice anything surprising?<div class="autopermalink" data-description="Paragraph"><a href="#Chapter1Section5-5-7-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Checkpoint 1.5.31"><a href="#Chapter1Section5-5-7" title="Copy permalink for Checkpoint 1.5.31">🔗</a></div></article><div class="para" id="Chapter1Section5-5-8">Some functions exhibit symmetry, in which reflections result in the original graph. For example, reflecting the toolkit functions <span class="process-math">\(f(x)=x^{2}\)</span> or <span class="process-math">\(f(x)=|x|\)</span> about the <span class="process-math">\(y\)</span>-axis will result in the original graph. We call these types of graphs symmetric about the <span class="process-math">\(y\)</span>-axis.<div class="autopermalink" data-description="Paragraph"><a href="#Chapter1Section5-5-8" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="Chapter1Section5-5-9">Likewise, if the graphs of <span class="process-math">\(f(x)=x^{3}\)</span> or <span class="process-math">\(f(x)=\dfrac{1}{x}\)</span> were reflected over both axes, the result would be the original graph:<div class="autopermalink" data-description="Paragraph"><a href="#Chapter1Section5-5-9" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
 <figure class="figure figure-like" id="c1s6i15"><div class="image-box" style="width: 100%; margin-left: 0%; margin-right: 0%;"><img src="external/C1S6Image15.png" class="contained" alt="A standard cubic graph, increasing curving down to the origin, then increasing curving up"></div>
-<figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">1.5.32<span class="period">.</span></span><span class="space"> </span><span class="process-math">\(f(x)=x^3\)</span></figcaption></figure><figure class="figure figure-like" id="c1s6i16"><div class="image-box" style="width: 100%; margin-left: 0%; margin-right: 0%;"><img src="external/C1S6Image16.png" class="contained" alt="A horizontal flip of a standard cubic graph, decreasing curving up then decreasing curving down"></div>
-<figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">1.5.33<span class="period">.</span></span><span class="space"> </span><span class="process-math">\(f(-x)=(-x)^3=-x^3\)</span></figcaption></figure><figure class="figure figure-like" id="c1s6i17"><div class="image-box" style="width: 100%; margin-left: 0%; margin-right: 0%;"><img src="external/C1S6Image17.png" class="contained" alt="A vertical and horizontal flip of a standard cubic graph, with the result looking like a standard cubic graph"></div>
-<figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">1.5.34<span class="period">.</span></span><span class="space"> </span><span class="process-math">\(-f(-x)=-(-x^3)=x^3\)</span></figcaption></figure><div class="para" id="Chapter1Section5-5-13">We call these graphs symmetric about the origin.</div></section><section class="subsection" id="Chapter1Section5-6"><h3 class="heading hide-type">
+<figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">1.5.32<span class="period">.</span></span><span class="space"> </span><span class="process-math">\(f(x)=x^3\)</span><div class="autopermalink" data-description="Figure 1.5.32"><a href="#c1s6i15" title="Copy permalink for Figure 1.5.32">🔗</a></div></figcaption></figure><figure class="figure figure-like" id="c1s6i16"><div class="image-box" style="width: 100%; margin-left: 0%; margin-right: 0%;"><img src="external/C1S6Image16.png" class="contained" alt="A horizontal flip of a standard cubic graph, decreasing curving up then decreasing curving down"></div>
+<figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">1.5.33<span class="period">.</span></span><span class="space"> </span><span class="process-math">\(f(-x)=(-x)^3=-x^3\)</span><div class="autopermalink" data-description="Figure 1.5.33"><a href="#c1s6i16" title="Copy permalink for Figure 1.5.33">🔗</a></div></figcaption></figure><figure class="figure figure-like" id="c1s6i17"><div class="image-box" style="width: 100%; margin-left: 0%; margin-right: 0%;"><img src="external/C1S6Image17.png" class="contained" alt="A vertical and horizontal flip of a standard cubic graph, with the result looking like a standard cubic graph"></div>
+<figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">1.5.34<span class="period">.</span></span><span class="space"> </span><span class="process-math">\(-f(-x)=-(-x^3)=x^3\)</span><div class="autopermalink" data-description="Figure 1.5.34"><a href="#c1s6i17" title="Copy permalink for Figure 1.5.34">🔗</a></div></figcaption></figure><div class="para" id="Chapter1Section5-5-13">We call these graphs symmetric about the origin.<div class="autopermalink" data-description="Paragraph"><a href="#Chapter1Section5-5-13" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Subsection 1.5.2: Reflections"><a href="#Chapter1Section5-5" title="Copy permalink for Subsection 1.5.2: Reflections">🔗</a></div></section><section class="subsection" id="Chapter1Section5-6"><h3 class="heading hide-type">
 <span class="type">Subsection</span><span class="space"> </span><span class="codenumber">1.5.3</span><span class="space"> </span><span class="title">Stretches and Compressions</span>
 </h3>
-<div class="para" id="Chapter1Section5-6-2">With shifts, we saw the effect of adding or subtracting to the inputs or outputs of a function. We now explore the effects of multiplying the inputs or outputs.</div>
-<div class="para" id="Chapter1Section5-6-3">Remember, we can transform the inside (input values) of a function, or we can transform the outside (output values) of a function. Each change has a specific effect that can be seen graphically.</div>
+<div class="para" id="Chapter1Section5-6-2">With shifts, we saw the effect of adding or subtracting to the inputs or outputs of a function. We now explore the effects of multiplying the inputs or outputs.<div class="autopermalink" data-description="Paragraph"><a href="#Chapter1Section5-6-2" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="Chapter1Section5-6-3">Remember, we can transform the inside (input values) of a function, or we can transform the outside (output values) of a function. Each change has a specific effect that can be seen graphically.<div class="autopermalink" data-description="Paragraph"><a href="#Chapter1Section5-6-3" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
 <article class="example example-like" id="Chapter1Section5-6-4"><h4 class="heading">
 <span class="type">Example</span><span class="space"> </span><span class="codenumber">1.5.35</span><span class="period">.</span>
 </h4>
-<div class="para" id="Chapter1Section5-6-4-1-1">A function <span class="process-math">\(P(t)\)</span> models the growth of a population of fruit flies. The growth is shown in the graph.</div> <div class="image-box" style="width: 100%; margin-left: 0%; margin-right: 0%;"><img src="external/C1S6Image18.png" class="contained" alt="A piecewise function that passes through 0 comma 1, 3 comma 3, 6 comma 2, and 7 comma 0"></div> <div class="para" id="Chapter1Section5-6-4-1-3">A scientist is comparing this to another population, <span class="process-math">\(Q\text{,}\)</span> that grows the same way, but starts twice as large. Sketch a graph of this population.</div>
+<div class="para" id="Chapter1Section5-6-4-1-1">A function <span class="process-math">\(P(t)\)</span> models the growth of a population of fruit flies. The growth is shown in the graph.<div class="autopermalink" data-description="Paragraph"><a href="#Chapter1Section5-6-4-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div> <div class="image-box" style="width: 100%; margin-left: 0%; margin-right: 0%;"><img src="external/C1S6Image18.png" class="contained" alt="A piecewise function that passes through 0 comma 1, 3 comma 3, 6 comma 2, and 7 comma 0"></div> <div class="para" id="Chapter1Section5-6-4-1-3">A scientist is comparing this to another population, <span class="process-math">\(Q\text{,}\)</span> that grows the same way, but starts twice as large. Sketch a graph of this population.<div class="autopermalink" data-description="Paragraph"><a href="#Chapter1Section5-6-4-1-3" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
 <div class="solution solution-like" id="Chapter1Section5-6-4-2">
 <h4 class="heading">
 <span class="type">Solution</span><span class="period">.</span>
 </h4>
-<div class="para" id="Chapter1Section5-6-4-2-1">Since the population is always twice as large, the new population’s output values are always twice the original function output values. Graphically, this would look like the second graph shown.</div>
-<div class="para" id="Chapter1Section5-6-4-2-2">Symbolically, <span class="process-math">\(Q(t)=2P(t)\text{.}\)</span>
+<div class="para" id="Chapter1Section5-6-4-2-1">Since the population is always twice as large, the new population’s output values are always twice the original function output values. Graphically, this would look like the second graph shown.<div class="autopermalink" data-description="Paragraph"><a href="#Chapter1Section5-6-4-2-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="Chapter1Section5-6-4-2-2">Symbolically, <span class="process-math">\(Q(t)=2P(t)\text{.}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#Chapter1Section5-6-4-2-2" title="Copy permalink for Paragraph">🔗</a></div>
 </div>
 <div class="image-box" style="width: 100%; margin-left: 0%; margin-right: 0%;"><img src="external/C1S6Image19.png" class="contained" alt="A piecewise function that passes through 0 comma 2, 3 comma 6, 6 comma 4, and 7 comma 0"></div>
-<div class="para" id="Chapter1Section5-6-4-2-4">This means that for any input <span class="process-math">\(t\text{,}\)</span> the value of the <span class="process-math">\(Q\)</span> function is twice the value of the <span class="process-math">\(P\)</span> function. Notice the effect on the graph is a vertical stretching of the graph, where every point doubles its distance from the horizontal axis. The input values, <span class="process-math">\(t\text{,}\)</span> stay the same while the output values are twice as large as before.</div>
-</div></article><article class="definition definition-like" id="Chapter1Section5-6-5"><h4 class="heading">
+<div class="para" id="Chapter1Section5-6-4-2-4">This means that for any input <span class="process-math">\(t\text{,}\)</span> the value of the <span class="process-math">\(Q\)</span> function is twice the value of the <span class="process-math">\(P\)</span> function. Notice the effect on the graph is a vertical stretching of the graph, where every point doubles its distance from the horizontal axis. The input values, <span class="process-math">\(t\text{,}\)</span> stay the same while the output values are twice as large as before.<div class="autopermalink" data-description="Paragraph"><a href="#Chapter1Section5-6-4-2-4" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Solution 1.5.35.1"><a href="#Chapter1Section5-6-4-2" title="Copy permalink for Solution 1.5.35.1">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Example 1.5.35"><a href="#Chapter1Section5-6-4" title="Copy permalink for Example 1.5.35">🔗</a></div></article><article class="definition definition-like" id="Chapter1Section5-6-5"><h4 class="heading">
 <span class="type">Definition</span><span class="space"> </span><span class="codenumber">1.5.36</span><span class="period">.</span><span class="space"> </span><span class="title">Vertical Stretch and Compression.</span>
 </h4>
-<div class="para" id="Chapter1Section5-6-5-2-1">Given a function <span class="process-math">\(f(x)\text{,}\)</span> if we define a new function <span class="process-math">\(g(x)\)</span> as <span class="process-math">\(g(x)=kf(x)\text{,}\)</span> where <span class="process-math">\(k\)</span> is a constant then <span class="process-math">\(g(x)\)</span> is a vertical stretch or compression of the function <span class="process-math">\(f(x)\text{.}\)</span>
-</div> <div class="para" id="Chapter1Section5-6-5-2-2">If <span class="process-math">\(k &gt; 1\text{,}\)</span> then the graph will be stretched vertically. If <span class="process-math">\(0&lt; k &lt; 1\text{,}\)</span> then the graph will be compressed vertically. If <span class="process-math">\(k &lt; 0\text{,}\)</span> then there will be combination of a vertical stretch or compression with a vertical reflection.</div></article><article class="example example-like" id="Chapter1Section5-6-6"><h4 class="heading">
+<div class="para" id="Chapter1Section5-6-5-2-1">Given a function <span class="process-math">\(f(x)\text{,}\)</span> if we define a new function <span class="process-math">\(g(x)\)</span> as <span class="process-math">\(g(x)=kf(x)\text{,}\)</span> where <span class="process-math">\(k\)</span> is a constant then <span class="process-math">\(g(x)\)</span> is a vertical stretch or compression of the function <span class="process-math">\(f(x)\text{.}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#Chapter1Section5-6-5-2-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div> <div class="para" id="Chapter1Section5-6-5-2-2">If <span class="process-math">\(k &gt; 1\text{,}\)</span> then the graph will be stretched vertically. If <span class="process-math">\(0&lt; k &lt; 1\text{,}\)</span> then the graph will be compressed vertically. If <span class="process-math">\(k &lt; 0\text{,}\)</span> then there will be combination of a vertical stretch or compression with a vertical reflection.<div class="autopermalink" data-description="Paragraph"><a href="#Chapter1Section5-6-5-2-2" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Definition 1.5.36: Vertical Stretch and Compression"><a href="#Chapter1Section5-6-5" title="Copy permalink for Definition 1.5.36: Vertical Stretch and Compression">🔗</a></div></article><article class="example example-like" id="Chapter1Section5-6-6"><h4 class="heading">
 <span class="type">Example</span><span class="space"> </span><span class="codenumber">1.5.37</span><span class="period">.</span>
 </h4>
-<div class="para" id="Chapter1Section5-6-6-1-1">A function <span class="process-math">\(f(x)\)</span> is given as a table below.</div> <div class="tabular-box natural-width"><table class="tabular">
+<div class="para" id="Chapter1Section5-6-6-1-1">A function <span class="process-math">\(f(x)\)</span> is given as a table below.<div class="autopermalink" data-description="Paragraph"><a href="#Chapter1Section5-6-6-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div> <div class="tabular-box natural-width"><table class="tabular">
 <tr>
 <td class="c m b0 r0 l0 t0 lines"><span class="process-math">\(x\)</span></td>
 <td class="c m b0 r0 l0 t0 lines">2</td>
@@ -693,13 +848,13 @@ eBookConfig.enable_chatcodes =  false;
 <td class="c m b0 r0 l0 t0 lines">7</td>
 <td class="c m b0 r0 l0 t0 lines">11</td>
 </tr>
-</table></div> <div class="para" id="Chapter1Section5-6-6-1-3">Create a table for the function <span class="process-math">\(g(x)=\dfrac{1}{2}f(x)\text{.}\)</span>
+</table></div> <div class="para" id="Chapter1Section5-6-6-1-3">Create a table for the function <span class="process-math">\(g(x)=\dfrac{1}{2}f(x)\text{.}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#Chapter1Section5-6-6-1-3" title="Copy permalink for Paragraph">🔗</a></div>
 </div>
 <div class="solution solution-like" id="Chapter1Section5-6-6-2">
 <h4 class="heading">
 <span class="type">Solution</span><span class="period">.</span>
 </h4>
-<div class="para" id="Chapter1Section5-6-6-2-1">The formula <span class="process-math">\(g(x)=\dfrac{1}{2}f(x)\)</span> tells us that the output values of <span class="process-math">\(g\)</span> are half of the output values of <span class="process-math">\(f\)</span> with the same inputs. For example, we know that <span class="process-math">\(f(4)=3\text{.}\)</span> Then <span class="process-math">\(g(4)=\dfrac{1}{2}f(4)=\dfrac{1}{2}(3)=\dfrac{3}{2}\text{.}\)</span>
+<div class="para" id="Chapter1Section5-6-6-2-1">The formula <span class="process-math">\(g(x)=\dfrac{1}{2}f(x)\)</span> tells us that the output values of <span class="process-math">\(g\)</span> are half of the output values of <span class="process-math">\(f\)</span> with the same inputs. For example, we know that <span class="process-math">\(f(4)=3\text{.}\)</span> Then <span class="process-math">\(g(4)=\dfrac{1}{2}f(4)=\dfrac{1}{2}(3)=\dfrac{3}{2}\text{.}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#Chapter1Section5-6-6-2-1" title="Copy permalink for Paragraph">🔗</a></div>
 </div>
 <div class="tabular-box natural-width"><table class="tabular">
 <tr>
@@ -717,47 +872,60 @@ eBookConfig.enable_chatcodes =  false;
 <td class="c m b0 r0 l0 t0 lines"><span class="process-math">\(\dfrac{11}{2}\)</span></td>
 </tr>
 </table></div>
-<div class="para" id="Chapter1Section5-6-6-2-3">The result is that the function <span class="process-math">\(g(x)\)</span> has been compressed vertically by <span class="process-math">\(\dfrac{1}{2}\text{.}\)</span> Each output value has been cut in half, so the graph would now be half the original height.</div>
-</div></article><article class="example example-like" id="Chapter1Section5-6-7"><h4 class="heading">
+<div class="para" id="Chapter1Section5-6-6-2-3">The result is that the function <span class="process-math">\(g(x)\)</span> has been compressed vertically by <span class="process-math">\(\dfrac{1}{2}\text{.}\)</span> Each output value has been cut in half, so the graph would now be half the original height.<div class="autopermalink" data-description="Paragraph"><a href="#Chapter1Section5-6-6-2-3" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Solution 1.5.37.1"><a href="#Chapter1Section5-6-6-2" title="Copy permalink for Solution 1.5.37.1">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Example 1.5.37"><a href="#Chapter1Section5-6-6" title="Copy permalink for Example 1.5.37">🔗</a></div></article><article class="example example-like" id="Chapter1Section5-6-7"><h4 class="heading">
 <span class="type">Example</span><span class="space"> </span><span class="codenumber">1.5.38</span><span class="period">.</span>
 </h4>
-<div class="para" id="Chapter1Section5-6-7-1-1">The graph shown is a transformation of the toolkit function <span class="process-math">\(f(x)=x^{3}\text{.}\)</span> Relate this new function <span class="process-math">\(g(x)\)</span> to <span class="process-math">\(f(x)\text{,}\)</span> then find a formula for <span class="process-math">\(g(x)\text{.}\)</span>
+<div class="para" id="Chapter1Section5-6-7-1-1">The graph shown is a transformation of the toolkit function <span class="process-math">\(f(x)=x^{3}\text{.}\)</span> Relate this new function <span class="process-math">\(g(x)\)</span> to <span class="process-math">\(f(x)\text{,}\)</span> then find a formula for <span class="process-math">\(g(x)\text{.}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#Chapter1Section5-6-7-1-1" title="Copy permalink for Paragraph">🔗</a></div>
 </div> <div class="image-box" style="width: 100%; margin-left: 0%; margin-right: 0%;"><img src="external/C1S6Image20.png" class="contained" alt="A transformation of a basic cubic graph, passing through the origin and passing through 2 comma 2"></div>
 <div class="solution solution-like" id="Chapter1Section5-6-7-2">
 <h4 class="heading">
 <span class="type">Solution</span><span class="period">.</span>
 </h4>
-<div class="para" id="Chapter1Section5-6-7-2-1">When trying to determine a vertical stretch or shift, it is helpful to look for a point on the graph that is relatively clear. In this graph, it appears that <span class="process-math">\(g(2)=2\text{.}\)</span> With the basic cubic function at the same input, <span class="process-math">\(f(2)=2^{3}=8\text{.}\)</span>
+<div class="para" id="Chapter1Section5-6-7-2-1">When trying to determine a vertical stretch or shift, it is helpful to look for a point on the graph that is relatively clear. In this graph, it appears that <span class="process-math">\(g(2)=2\text{.}\)</span> With the basic cubic function at the same input, <span class="process-math">\(f(2)=2^{3}=8\text{.}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#Chapter1Section5-6-7-2-1" title="Copy permalink for Paragraph">🔗</a></div>
 </div>
-<div class="para" id="Chapter1Section5-6-7-2-2">Based on that, it appears that the outputs of <span class="process-math">\(g\)</span> are <span class="process-math">\(\dfrac{1}{4}\)</span> the outputs of the function <span class="process-math">\(f\text{,}\)</span> since <span class="process-math">\(g(2)=\dfrac{1}{4}f(2)\text{.}\)</span>
+<div class="para" id="Chapter1Section5-6-7-2-2">Based on that, it appears that the outputs of <span class="process-math">\(g\)</span> are <span class="process-math">\(\dfrac{1}{4}\)</span> the outputs of the function <span class="process-math">\(f\text{,}\)</span> since <span class="process-math">\(g(2)=\dfrac{1}{4}f(2)\text{.}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#Chapter1Section5-6-7-2-2" title="Copy permalink for Paragraph">🔗</a></div>
 </div>
-<div class="para" id="Chapter1Section5-6-7-2-3">From this we can fairly safely conclude that: <span class="process-math">\(g(x)=\dfrac{1}{4}f(x)\text{.}\)</span>
+<div class="para" id="Chapter1Section5-6-7-2-3">From this we can fairly safely conclude that: <span class="process-math">\(g(x)=\dfrac{1}{4}f(x)\text{.}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#Chapter1Section5-6-7-2-3" title="Copy permalink for Paragraph">🔗</a></div>
 </div>
-<div class="para" id="Chapter1Section5-6-7-2-4">We can write a formula for <span class="process-math">\(g\)</span> by using the definition of the function <span class="process-math">\(f\text{.}\)</span> <span class="process-math">\(g(x)=\dfrac{1}{4}f(x)=\dfrac{1}{4}x^{3}\text{.}\)</span>
+<div class="para" id="Chapter1Section5-6-7-2-4">We can write a formula for <span class="process-math">\(g\)</span> by using the definition of the function <span class="process-math">\(f\text{.}\)</span> <span class="process-math">\(g(x)=\dfrac{1}{4}f(x)=\dfrac{1}{4}x^{3}\text{.}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#Chapter1Section5-6-7-2-4" title="Copy permalink for Paragraph">🔗</a></div>
 </div>
-</div></article><div class="para" id="Chapter1Section5-6-8">Now we consider changes to the inside of a function.</div>
+<div class="autopermalink" data-description="Solution 1.5.38.1"><a href="#Chapter1Section5-6-7-2" title="Copy permalink for Solution 1.5.38.1">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Example 1.5.38"><a href="#Chapter1Section5-6-7" title="Copy permalink for Example 1.5.38">🔗</a></div></article><div class="para" id="Chapter1Section5-6-8">Now we consider changes to the inside of a function.<div class="autopermalink" data-description="Paragraph"><a href="#Chapter1Section5-6-8" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
 <article class="example example-like" id="Chapter1Section5-6-9"><h4 class="heading">
 <span class="type">Example</span><span class="space"> </span><span class="codenumber">1.5.39</span><span class="period">.</span>
 </h4>
-<div class="para" id="Chapter1Section5-6-9-1-1">Returning to the fruit fly population we looked at earlier, suppose the scientist is now comparing it to a population that progresses through its lifespan twice as fast as the original population. In other words, this new population, <span class="process-math">\(R\text{,}\)</span> will progress in 1 hour the same amount the original population did in 2 hours, and in 2 hours, will progress as much as the original population did in 4 hours. Sketch a graph of this population.</div>
+<div class="para" id="Chapter1Section5-6-9-1-1">Returning to the fruit fly population we looked at earlier, suppose the scientist is now comparing it to a population that progresses through its lifespan twice as fast as the original population. In other words, this new population, <span class="process-math">\(R\text{,}\)</span> will progress in 1 hour the same amount the original population did in 2 hours, and in 2 hours, will progress as much as the original population did in 4 hours. Sketch a graph of this population.<div class="autopermalink" data-description="Paragraph"><a href="#Chapter1Section5-6-9-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
 <div class="solution solution-like" id="Chapter1Section5-6-9-2">
 <h4 class="heading">
 <span class="type">Solution</span><span class="period">.</span>
 </h4>
-<div class="para" id="Chapter1Section5-6-9-2-1">Symbolically, we could write <span class="process-math">\(R(1)=P(2)\text{,}\)</span> <span class="process-math">\(R(2)=P(4)\text{,}\)</span> and in general, <span class="process-math">\(R(t)=P(2t)\text{.}\)</span>
+<div class="para" id="Chapter1Section5-6-9-2-1">Symbolically, we could write <span class="process-math">\(R(1)=P(2)\text{,}\)</span> <span class="process-math">\(R(2)=P(4)\text{,}\)</span> and in general, <span class="process-math">\(R(t)=P(2t)\text{.}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#Chapter1Section5-6-9-2-1" title="Copy permalink for Paragraph">🔗</a></div>
 </div>
-<div class="para" id="Chapter1Section5-6-9-2-2">Graphing this,</div>
+<div class="para" id="Chapter1Section5-6-9-2-2">Graphing this,<div class="autopermalink" data-description="Paragraph"><a href="#Chapter1Section5-6-9-2-2" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
 <figure class="figure figure-like" id="c1s6i182"><div class="image-box" style="width: 100%; margin-left: 0%; margin-right: 0%;"><img src="external/C1S6Image18.png" class="contained" alt="A piecewise function that passes through 0 comma 1, 3 comma 3, 6 comma 2, and 7 comma 0"></div>
-<figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">1.5.40<span class="period">.</span></span><span class="space"> </span>Original population <span class="process-math">\(P(t)\)</span></figcaption></figure><figure class="figure figure-like" id="c1s6i21"><div class="image-box" style="width: 100%; margin-left: 0%; margin-right: 0%;"><img src="external/C1S6Image21.png" class="contained" alt="A piecewise function that passes through 0 comma 1, 1.5 comma 3, 3 comma 2, and 3.5 comma 0"></div>
-<figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">1.5.41<span class="period">.</span></span><span class="space"> </span>Transformed population <span class="process-math">\(R(t)\)</span></figcaption></figure><div class="para" id="Chapter1Section5-6-9-2-5">Note the effect on the graph is a horizontal compression, where all input values are half their original distance from the vertical axis.</div>
-</div></article><article class="definition definition-like" id="Chapter1Section5-6-10"><h4 class="heading">
+<figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">1.5.40<span class="period">.</span></span><span class="space"> </span>Original population <span class="process-math">\(P(t)\)</span><div class="autopermalink" data-description="Figure 1.5.40"><a href="#c1s6i182" title="Copy permalink for Figure 1.5.40">🔗</a></div></figcaption></figure><figure class="figure figure-like" id="c1s6i21"><div class="image-box" style="width: 100%; margin-left: 0%; margin-right: 0%;"><img src="external/C1S6Image21.png" class="contained" alt="A piecewise function that passes through 0 comma 1, 1.5 comma 3, 3 comma 2, and 3.5 comma 0"></div>
+<figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">1.5.41<span class="period">.</span></span><span class="space"> </span>Transformed population <span class="process-math">\(R(t)\)</span><div class="autopermalink" data-description="Figure 1.5.41"><a href="#c1s6i21" title="Copy permalink for Figure 1.5.41">🔗</a></div></figcaption></figure><div class="para" id="Chapter1Section5-6-9-2-5">Note the effect on the graph is a horizontal compression, where all input values are half their original distance from the vertical axis.<div class="autopermalink" data-description="Paragraph"><a href="#Chapter1Section5-6-9-2-5" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Solution 1.5.39.1"><a href="#Chapter1Section5-6-9-2" title="Copy permalink for Solution 1.5.39.1">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Example 1.5.39"><a href="#Chapter1Section5-6-9" title="Copy permalink for Example 1.5.39">🔗</a></div></article><article class="definition definition-like" id="Chapter1Section5-6-10"><h4 class="heading">
 <span class="type">Definition</span><span class="space"> </span><span class="codenumber">1.5.42</span><span class="period">.</span><span class="space"> </span><span class="title">Horizontal Stretch/Compression.</span>
 </h4>
-<div class="para" id="Chapter1Section5-6-10-2-1">Given a function <span class="process-math">\(f(x)\text{,}\)</span> if we define a new function <span class="process-math">\(g(x)\)</span> as <span class="process-math">\(g(x)=f(kx)\text{,}\)</span> where <span class="process-math">\(k\)</span> is a constant then <span class="process-math">\(g(x)\)</span> is a horizontal stretch or compression of the function <span class="process-math">\(f(x)\text{.}\)</span>
-</div> <div class="para" id="Chapter1Section5-6-10-2-2">If <span class="process-math">\(k &gt; 1\text{,}\)</span> then the graph will be compressed by a factor of <span class="process-math">\(\dfrac{1}{k}\text{.}\)</span> If <span class="process-math">\(0&lt; k &lt; 1\text{,}\)</span> then the graph will be stretched by a factor of <span class="process-math">\(\dfrac{1}{k}\text{.}\)</span> If <span class="process-math">\(k &lt; 0\text{,}\)</span> then there will be combination of a horizontal stretch or compression with a horizontal reflection.</div></article><article class="example example-like" id="Chapter1Section5-6-11"><h4 class="heading">
+<div class="para" id="Chapter1Section5-6-10-2-1">Given a function <span class="process-math">\(f(x)\text{,}\)</span> if we define a new function <span class="process-math">\(g(x)\)</span> as <span class="process-math">\(g(x)=f(kx)\text{,}\)</span> where <span class="process-math">\(k\)</span> is a constant then <span class="process-math">\(g(x)\)</span> is a horizontal stretch or compression of the function <span class="process-math">\(f(x)\text{.}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#Chapter1Section5-6-10-2-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div> <div class="para" id="Chapter1Section5-6-10-2-2">If <span class="process-math">\(k &gt; 1\text{,}\)</span> then the graph will be compressed by a factor of <span class="process-math">\(\dfrac{1}{k}\text{.}\)</span> If <span class="process-math">\(0&lt; k &lt; 1\text{,}\)</span> then the graph will be stretched by a factor of <span class="process-math">\(\dfrac{1}{k}\text{.}\)</span> If <span class="process-math">\(k &lt; 0\text{,}\)</span> then there will be combination of a horizontal stretch or compression with a horizontal reflection.<div class="autopermalink" data-description="Paragraph"><a href="#Chapter1Section5-6-10-2-2" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Definition 1.5.42: Horizontal Stretch/Compression"><a href="#Chapter1Section5-6-10" title="Copy permalink for Definition 1.5.42: Horizontal Stretch/Compression">🔗</a></div></article><article class="example example-like" id="Chapter1Section5-6-11"><h4 class="heading">
 <span class="type">Example</span><span class="space"> </span><span class="codenumber">1.5.43</span><span class="period">.</span>
 </h4>
-<div class="para" id="Chapter1Section5-6-11-1-1">A function <span class="process-math">\(f(x)\)</span> is given as a table below. Create a table for the function <span class="process-math">\(g(x)=f(\dfrac{1}{2}x)\text{.}\)</span>
+<div class="para" id="Chapter1Section5-6-11-1-1">A function <span class="process-math">\(f(x)\)</span> is given as a table below. Create a table for the function <span class="process-math">\(g(x)=f(\dfrac{1}{2}x)\text{.}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#Chapter1Section5-6-11-1-1" title="Copy permalink for Paragraph">🔗</a></div>
 </div> <div class="tabular-box natural-width"><table class="tabular">
 <tr>
 <td class="c m b0 r0 l0 t0 lines"><span class="process-math">\(x\)</span></td>
@@ -778,7 +946,7 @@ eBookConfig.enable_chatcodes =  false;
 <h4 class="heading">
 <span class="type">Solution</span><span class="period">.</span>
 </h4>
-<div class="para" id="Chapter1Section5-6-11-2-1">The formula <span class="process-math">\(g(x)=f(\dfrac{1}{2}x)\)</span> tells us that the output values for <span class="process-math">\(g\)</span> are the same as the output values for the function <span class="process-math">\(f\)</span> at an input half the size. Notice that we don’t have enough information to determine <span class="process-math">\(g(2)\)</span> since <span class="process-math">\(g(2)=f(\dfrac{1}{2}*2)=f(1)\text{,}\)</span> and we do not have a value for <span class="process-math">\(f(1)\)</span> in our table. Our input values to <span class="process-math">\(g\)</span> will need to be twice as large to get inputs for <span class="process-math">\(f\)</span> that we can evaluate. For example, we can determine <span class="process-math">\(g(4)\)</span> since <span class="process-math">\(g(4)=f(\dfrac{1}{2}* 4)=f(2)=1\text{.}\)</span>
+<div class="para" id="Chapter1Section5-6-11-2-1">The formula <span class="process-math">\(g(x)=f(\dfrac{1}{2}x)\)</span> tells us that the output values for <span class="process-math">\(g\)</span> are the same as the output values for the function <span class="process-math">\(f\)</span> at an input half the size. Notice that we don’t have enough information to determine <span class="process-math">\(g(2)\)</span> since <span class="process-math">\(g(2)=f(\dfrac{1}{2}*2)=f(1)\text{,}\)</span> and we do not have a value for <span class="process-math">\(f(1)\)</span> in our table. Our input values to <span class="process-math">\(g\)</span> will need to be twice as large to get inputs for <span class="process-math">\(f\)</span> that we can evaluate. For example, we can determine <span class="process-math">\(g(4)\)</span> since <span class="process-math">\(g(4)=f(\dfrac{1}{2}* 4)=f(2)=1\text{.}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#Chapter1Section5-6-11-2-1" title="Copy permalink for Paragraph">🔗</a></div>
 </div>
 <div class="tabular-box natural-width"><table class="tabular">
 <tr>
@@ -796,38 +964,53 @@ eBookConfig.enable_chatcodes =  false;
 <td class="c m b0 r0 l0 t0 lines">11</td>
 </tr>
 </table></div>
-<div class="para" id="Chapter1Section5-6-11-2-3">Since each input value has been doubled, the result is that the function <span class="process-math">\(g(x)\)</span> has been stretched horizontally by a factor of 2.</div>
-</div></article><article class="example example-like" id="Chapter1Section5-6-12"><h4 class="heading">
+<div class="para" id="Chapter1Section5-6-11-2-3">Since each input value has been doubled, the result is that the function <span class="process-math">\(g(x)\)</span> has been stretched horizontally by a factor of 2.<div class="autopermalink" data-description="Paragraph"><a href="#Chapter1Section5-6-11-2-3" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Solution 1.5.43.1"><a href="#Chapter1Section5-6-11-2" title="Copy permalink for Solution 1.5.43.1">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Example 1.5.43"><a href="#Chapter1Section5-6-11" title="Copy permalink for Example 1.5.43">🔗</a></div></article><article class="example example-like" id="Chapter1Section5-6-12"><h4 class="heading">
 <span class="type">Example</span><span class="space"> </span><span class="codenumber">1.5.44</span><span class="period">.</span>
 </h4>
-<div class="para" id="Chapter1Section5-6-12-1-1">Two graphs are shown below. Relate the function <span class="process-math">\(g(x)\)</span> to <span class="process-math">\(f(x)\text{.}\)</span>
+<div class="para" id="Chapter1Section5-6-12-1-1">Two graphs are shown below. Relate the function <span class="process-math">\(g(x)\)</span> to <span class="process-math">\(f(x)\text{.}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#Chapter1Section5-6-12-1-1" title="Copy permalink for Paragraph">🔗</a></div>
 </div> <figure class="figure figure-like" id="c1s6i22"><div class="image-box" style="width: 100%; margin-left: 0%; margin-right: 0%;"><img src="external/C1S6Image22.png" class="contained" alt="A piecewise function that passes through 0 comma 0, 4 comma 4 and 6 comma 4"></div>
-<figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">1.5.45<span class="period">.</span></span><span class="space"> </span>Graph of <span class="process-math">\(f(x)\)</span></figcaption></figure> <figure class="figure figure-like" id="c1s6i23"><div class="image-box" style="width: 100%; margin-left: 0%; margin-right: 0%;"><img src="external/C1S6Image23.png" class="contained" alt="A piecewise function that passes through 0 comma 0, 2 comma 4 and 3 comma 4"></div>
-<figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">1.5.46<span class="period">.</span></span><span class="space"> </span>Graph of <span class="process-math">\(g(x)\)</span></figcaption></figure><div class="solution solution-like" id="Chapter1Section5-6-12-2">
+<figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">1.5.45<span class="period">.</span></span><span class="space"> </span>Graph of <span class="process-math">\(f(x)\)</span><div class="autopermalink" data-description="Figure 1.5.45"><a href="#c1s6i22" title="Copy permalink for Figure 1.5.45">🔗</a></div></figcaption></figure> <figure class="figure figure-like" id="c1s6i23"><div class="image-box" style="width: 100%; margin-left: 0%; margin-right: 0%;"><img src="external/C1S6Image23.png" class="contained" alt="A piecewise function that passes through 0 comma 0, 2 comma 4 and 3 comma 4"></div>
+<figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">1.5.46<span class="period">.</span></span><span class="space"> </span>Graph of <span class="process-math">\(g(x)\)</span><div class="autopermalink" data-description="Figure 1.5.46"><a href="#c1s6i23" title="Copy permalink for Figure 1.5.46">🔗</a></div></figcaption></figure><div class="solution solution-like" id="Chapter1Section5-6-12-2">
 <h4 class="heading">
 <span class="type">Solution</span><span class="period">.</span>
 </h4>
-<div class="para" id="Chapter1Section5-6-12-2-1">The graph of <span class="process-math">\(g(x)\)</span> looks like the graph of <span class="process-math">\(f(x)\)</span> horizontally compressed. Since <span class="process-math">\(f(x)\)</span> ends at <span class="process-math">\((6,4)\)</span> and <span class="process-math">\(g(x)\)</span> ends at <span class="process-math">\((2,4)\)</span> we can see that the <span class="process-math">\(x\)</span> values have been compressed by <span class="process-math">\(\dfrac{1}{3}\text{,}\)</span> because <span class="process-math">\(6(\dfrac{1}{3}) = 2\text{.}\)</span> We might also notice that <span class="process-math">\(g(2)=f(6)\text{,}\)</span> and <span class="process-math">\(g(1)=f(3)\text{.}\)</span> Either way, we can describe this relationship as <span class="process-math">\(g(x)=f(3x)\text{.}\)</span> This is a horizontal compression by <span class="process-math">\(\dfrac{1}{3}\text{.}\)</span>
+<div class="para" id="Chapter1Section5-6-12-2-1">The graph of <span class="process-math">\(g(x)\)</span> looks like the graph of <span class="process-math">\(f(x)\)</span> horizontally compressed. Since <span class="process-math">\(f(x)\)</span> ends at <span class="process-math">\((6,4)\)</span> and <span class="process-math">\(g(x)\)</span> ends at <span class="process-math">\((2,4)\)</span> we can see that the <span class="process-math">\(x\)</span> values have been compressed by <span class="process-math">\(\dfrac{1}{3}\text{,}\)</span> because <span class="process-math">\(6(\dfrac{1}{3}) = 2\text{.}\)</span> We might also notice that <span class="process-math">\(g(2)=f(6)\text{,}\)</span> and <span class="process-math">\(g(1)=f(3)\text{.}\)</span> Either way, we can describe this relationship as <span class="process-math">\(g(x)=f(3x)\text{.}\)</span> This is a horizontal compression by <span class="process-math">\(\dfrac{1}{3}\text{.}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#Chapter1Section5-6-12-2-1" title="Copy permalink for Paragraph">🔗</a></div>
 </div>
-</div></article><div class="para" id="Chapter1Section5-6-13">Notice that the coefficient needed for a horizontal stretch or compression is the reciprocal of the stretch or compression. To stretch the graph horizontally by 4, we need a coefficient of <span class="process-math">\(\dfrac{1}{4}\)</span> in our function: <span class="process-math">\(f(\dfrac{1}{4}x)\text{.}\)</span> This means the input values must be four times larger to produce the same result, requiring the input to be larger, causing the horizontal stretching.</div>
+<div class="autopermalink" data-description="Solution 1.5.44.1"><a href="#Chapter1Section5-6-12-2" title="Copy permalink for Solution 1.5.44.1">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Example 1.5.44"><a href="#Chapter1Section5-6-12" title="Copy permalink for Example 1.5.44">🔗</a></div></article><div class="para" id="Chapter1Section5-6-13">Notice that the coefficient needed for a horizontal stretch or compression is the reciprocal of the stretch or compression. To stretch the graph horizontally by 4, we need a coefficient of <span class="process-math">\(\dfrac{1}{4}\)</span> in our function: <span class="process-math">\(f(\dfrac{1}{4}x)\text{.}\)</span> This means the input values must be four times larger to produce the same result, requiring the input to be larger, causing the horizontal stretching.<div class="autopermalink" data-description="Paragraph"><a href="#Chapter1Section5-6-13" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
 <article class="exercise exercise-like" id="Chapter1Section5-6-14"><h4 class="heading">
 <span class="type">Checkpoint</span><span class="space"> </span><span class="codenumber">1.5.47</span><span class="period">.</span>
 </h4>
-<div class="para" id="Chapter1Section5-6-14-1-1">Write a formula for the toolkit square root function horizontally stretched by three.</div></article><div class="para" id="Chapter1Section5-6-15">It is useful to note that for most toolkit functions, a horizontal stretch or vertical stretch can be represented in other ways. For example, a horizontal compression of the function <span class="process-math">\(f(x)=x^{2}\)</span> by <span class="process-math">\(\dfrac{1}{2}\)</span> would result in a new function <span class="process-math">\(g(x)=(2x)^{2}\text{,}\)</span> but this can also be written as <span class="process-math">\(g(x)=4x^{2}\text{,}\)</span> a vertical stretch of <span class="process-math">\(f(x)\)</span> by 4. When writing a formula for a transformed toolkit, we only need to find one transformation that would produce the graph.</div></section><section class="subsection" id="Chapter1Section5-7"><h3 class="heading hide-type">
+<div class="para" id="Chapter1Section5-6-14-1-1">Write a formula for the toolkit square root function horizontally stretched by three.<div class="autopermalink" data-description="Paragraph"><a href="#Chapter1Section5-6-14-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Checkpoint 1.5.47"><a href="#Chapter1Section5-6-14" title="Copy permalink for Checkpoint 1.5.47">🔗</a></div></article><div class="para" id="Chapter1Section5-6-15">It is useful to note that for most toolkit functions, a horizontal stretch or vertical stretch can be represented in other ways. For example, a horizontal compression of the function <span class="process-math">\(f(x)=x^{2}\)</span> by <span class="process-math">\(\dfrac{1}{2}\)</span> would result in a new function <span class="process-math">\(g(x)=(2x)^{2}\text{,}\)</span> but this can also be written as <span class="process-math">\(g(x)=4x^{2}\text{,}\)</span> a vertical stretch of <span class="process-math">\(f(x)\)</span> by 4. When writing a formula for a transformed toolkit, we only need to find one transformation that would produce the graph.<div class="autopermalink" data-description="Paragraph"><a href="#Chapter1Section5-6-15" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Subsection 1.5.3: Stretches and Compressions"><a href="#Chapter1Section5-6" title="Copy permalink for Subsection 1.5.3: Stretches and Compressions">🔗</a></div></section><section class="subsection" id="Chapter1Section5-7"><h3 class="heading hide-type">
 <span class="type">Subsection</span><span class="space"> </span><span class="codenumber">1.5.4</span><span class="space"> </span><span class="title">Combining Transformations</span>
 </h3>
-<div class="para" id="Chapter1Section5-7-2">When combining transformations, it is very important to consider the order of the transformations. For example, vertically shifting by 3 and then vertically stretching by 2 does not create the same graph as vertically stretching by 2 then vertically shifting by 3.</div>
-<div class="para" id="Chapter1Section5-7-3">When we see an expression like <span class="process-math">\(2f(x)+3\text{,}\)</span> which transformation should we start with? The answer here follows nicely from order of operations, for outside transformations. Given the output value of <span class="process-math">\(f(x)\text{,}\)</span> we first multiply by 2, causing the vertical stretch, then add 3, causing the vertical shift. (Multiplication before Addition)</div>
+<div class="para" id="Chapter1Section5-7-2">When combining transformations, it is very important to consider the order of the transformations. For example, vertically shifting by 3 and then vertically stretching by 2 does not create the same graph as vertically stretching by 2 then vertically shifting by 3.<div class="autopermalink" data-description="Paragraph"><a href="#Chapter1Section5-7-2" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="Chapter1Section5-7-3">When we see an expression like <span class="process-math">\(2f(x)+3\text{,}\)</span> which transformation should we start with? The answer here follows nicely from order of operations, for outside transformations. Given the output value of <span class="process-math">\(f(x)\text{,}\)</span> we first multiply by 2, causing the vertical stretch, then add 3, causing the vertical shift. (Multiplication before Addition)<div class="autopermalink" data-description="Paragraph"><a href="#Chapter1Section5-7-3" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
 <article class="definition definition-like" id="Chapter1Section5-7-4"><h4 class="heading">
 <span class="type">Definition</span><span class="space"> </span><span class="codenumber">1.5.48</span><span class="period">.</span><span class="space"> </span><span class="title">Combining Vertical Transformations.</span>
 </h4>
-<div class="para" id="Chapter1Section5-7-4-2-1">When combining vertical transformations written in the form <span class="process-math">\(af(x)+k\text{,}\)</span> first vertically stretch by <span class="process-math">\(a\text{,}\)</span> then vertically shift by <span class="process-math">\(k\text{.}\)</span>
-</div></article><div class="para" id="Chapter1Section5-7-5">Horizontal transformations are a little trickier to think about. When we write <span class="process-math">\(g(x)=f(2x+3)\)</span> for example, we have to think about how the inputs to the <span class="process-math">\(g\)</span> function relate to the inputs to the <span class="process-math">\(f\)</span> function. Suppose we know <span class="process-math">\(f(7)=12\text{.}\)</span> What input to <span class="process-math">\(g\)</span> would produce that output? In other words, what value of <span class="process-math">\(x\)</span> will allow <span class="process-math">\(g(x)=f(2x+3)=f(12)\text{?}\)</span> We would need <span class="process-math">\(2x+3=12\text{.}\)</span> To solve for <span class="process-math">\(x\text{,}\)</span> we would first subtract 3, resulting in horizontal shift, then divide by 2, causing a horizontal compression.</div>
+<div class="para" id="Chapter1Section5-7-4-2-1">When combining vertical transformations written in the form <span class="process-math">\(af(x)+k\text{,}\)</span> first vertically stretch by <span class="process-math">\(a\text{,}\)</span> then vertically shift by <span class="process-math">\(k\text{.}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#Chapter1Section5-7-4-2-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Definition 1.5.48: Combining Vertical Transformations"><a href="#Chapter1Section5-7-4" title="Copy permalink for Definition 1.5.48: Combining Vertical Transformations">🔗</a></div></article><div class="para" id="Chapter1Section5-7-5">Horizontal transformations are a little trickier to think about. When we write <span class="process-math">\(g(x)=f(2x+3)\)</span> for example, we have to think about how the inputs to the <span class="process-math">\(g\)</span> function relate to the inputs to the <span class="process-math">\(f\)</span> function. Suppose we know <span class="process-math">\(f(7)=12\text{.}\)</span> What input to <span class="process-math">\(g\)</span> would produce that output? In other words, what value of <span class="process-math">\(x\)</span> will allow <span class="process-math">\(g(x)=f(2x+3)=f(12)\text{?}\)</span> We would need <span class="process-math">\(2x+3=12\text{.}\)</span> To solve for <span class="process-math">\(x\text{,}\)</span> we would first subtract 3, resulting in horizontal shift, then divide by 2, causing a horizontal compression.<div class="autopermalink" data-description="Paragraph"><a href="#Chapter1Section5-7-5" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
 <article class="definition definition-like" id="Chapter1Section5-7-6"><h4 class="heading">
 <span class="type">Definition</span><span class="space"> </span><span class="codenumber">1.5.49</span><span class="period">.</span><span class="space"> </span><span class="title">Combining Horizontal Transformations.</span>
 </h4>
-<div class="para" id="Chapter1Section5-7-6-2-1">When combining horizontal transformations written in the form <span class="process-math">\(f(bx+p)\text{,}\)</span> first horizontally shift by <span class="process-math">\(p\text{,}\)</span> then horizontally stretch by <span class="process-math">\(\dfrac{1}{b}\text{.}\)</span>
-</div></article><div class="para logical" id="Chapter1Section5-7-7">
+<div class="para" id="Chapter1Section5-7-6-2-1">When combining horizontal transformations written in the form <span class="process-math">\(f(bx+p)\text{,}\)</span> first horizontally shift by <span class="process-math">\(p\text{,}\)</span> then horizontally stretch by <span class="process-math">\(\dfrac{1}{b}\text{.}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#Chapter1Section5-7-6-2-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Definition 1.5.49: Combining Horizontal Transformations"><a href="#Chapter1Section5-7-6" title="Copy permalink for Definition 1.5.49: Combining Horizontal Transformations">🔗</a></div></article><div class="para logical" id="Chapter1Section5-7-7">
 <div class="para">This format ends up being very difficult to work with, since it is usually much easier to horizontally stretch a graph before shifting. We can work around this by factoring inside the function.</div>
 <div class="displaymath process-math">
 \begin{equation*}
@@ -835,18 +1018,22 @@ f(bx+p) = f(b(x+\dfrac{p}{b}))
 \end{equation*}
 </div>
 <div class="para">Factoring in this way allows us to horizontally stretch first, then shift horizontally.</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#Chapter1Section5-7-7" title="Copy permalink for Paragraph">🔗</a></div>
 </div>
 <article class="definition definition-like" id="Chapter1Section5-7-8"><h4 class="heading">
 <span class="type">Definition</span><span class="space"> </span><span class="codenumber">1.5.50</span><span class="period">.</span><span class="space"> </span><span class="title">Combining Horizontal Transformations (Factored Form).</span>
 </h4>
-<div class="para" id="Chapter1Section5-7-8-2-1">When combining horizontal transformations written in the form <span class="process-math">\(f(b(x+h))\text{,}\)</span> first horizontally stretch by <span class="process-math">\(\dfrac{1}{b}\text{,}\)</span> then horizontally shift by <span class="process-math">\(h\text{.}\)</span>
-</div></article><article class="definition definition-like" id="Chapter1Section5-7-9"><h4 class="heading">
+<div class="para" id="Chapter1Section5-7-8-2-1">When combining horizontal transformations written in the form <span class="process-math">\(f(b(x+h))\text{,}\)</span> first horizontally stretch by <span class="process-math">\(\dfrac{1}{b}\text{,}\)</span> then horizontally shift by <span class="process-math">\(h\text{.}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#Chapter1Section5-7-8-2-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Definition 1.5.50: Combining Horizontal Transformations (Factored Form)"><a href="#Chapter1Section5-7-8" title="Copy permalink for Definition 1.5.50: Combining Horizontal Transformations (Factored Form)">🔗</a></div></article><article class="definition definition-like" id="Chapter1Section5-7-9"><h4 class="heading">
 <span class="type">Definition</span><span class="space"> </span><span class="codenumber">1.5.51</span><span class="period">.</span><span class="space"> </span><span class="title">Independence of Horizontal and Vertical Transformations.</span>
 </h4>
-<div class="para" id="Chapter1Section5-7-9-2-1">Horizontal and vertical transformations are independent. It does not matter whether horizontal or vertical transformations are done first.</div></article><article class="example example-like" id="Chapter1Section5-7-10"><h4 class="heading">
+<div class="para" id="Chapter1Section5-7-9-2-1">Horizontal and vertical transformations are independent. It does not matter whether horizontal or vertical transformations are done first.<div class="autopermalink" data-description="Paragraph"><a href="#Chapter1Section5-7-9-2-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Definition 1.5.51: Independence of Horizontal and Vertical Transformations"><a href="#Chapter1Section5-7-9" title="Copy permalink for Definition 1.5.51: Independence of Horizontal and Vertical Transformations">🔗</a></div></article><article class="example example-like" id="Chapter1Section5-7-10"><h4 class="heading">
 <span class="type">Example</span><span class="space"> </span><span class="codenumber">1.5.52</span><span class="period">.</span>
 </h4>
-<div class="para" id="Chapter1Section5-7-10-1-1">Given the table of values for the function <span class="process-math">\(f(x)\)</span> below, create a table of values for the function <span class="process-math">\(g(x)=2f(3x)+1\text{.}\)</span>
+<div class="para" id="Chapter1Section5-7-10-1-1">Given the table of values for the function <span class="process-math">\(f(x)\)</span> below, create a table of values for the function <span class="process-math">\(g(x)=2f(3x)+1\text{.}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#Chapter1Section5-7-10-1-1" title="Copy permalink for Paragraph">🔗</a></div>
 </div> <div class="tabular-box natural-width"><table class="tabular">
 <tr>
 <td class="c m b0 r0 l0 t0 lines"><span class="process-math">\(x\)</span></td>
@@ -867,7 +1054,7 @@ f(bx+p) = f(b(x+\dfrac{p}{b}))
 <h4 class="heading">
 <span class="type">Solution</span><span class="period">.</span>
 </h4>
-<div class="para" id="Chapter1Section5-7-10-2-1">There are 3 steps to this transformation, and we will work from the inside out. Starting with the horizontal transformations, <span class="process-math">\(f(3x)\)</span> is a horizontal compression by <span class="process-math">\(\dfrac{1}{3}\text{,}\)</span> which means we multiply each <span class="process-math">\(x\)</span> value by <span class="process-math">\(\dfrac{1}{3}\text{.}\)</span>
+<div class="para" id="Chapter1Section5-7-10-2-1">There are 3 steps to this transformation, and we will work from the inside out. Starting with the horizontal transformations, <span class="process-math">\(f(3x)\)</span> is a horizontal compression by <span class="process-math">\(\dfrac{1}{3}\text{,}\)</span> which means we multiply each <span class="process-math">\(x\)</span> value by <span class="process-math">\(\dfrac{1}{3}\text{.}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#Chapter1Section5-7-10-2-1" title="Copy permalink for Paragraph">🔗</a></div>
 </div>
 <div class="tabular-box natural-width"><table class="tabular">
 <tr>
@@ -885,7 +1072,8 @@ f(bx+p) = f(b(x+\dfrac{p}{b}))
 <td class="c m b0 r0 l0 t0 lines">17</td>
 </tr>
 </table></div>
-<div class="para" id="Chapter1Section5-7-10-2-3">Looking now to the vertical transformations, we start with the vertical stretch, which will multiply the output values by 2. We apply this to the previous transformation.</div>
+<div class="para" id="Chapter1Section5-7-10-2-3">Looking now to the vertical transformations, we start with the vertical stretch, which will multiply the output values by 2. We apply this to the previous transformation.<div class="autopermalink" data-description="Paragraph"><a href="#Chapter1Section5-7-10-2-3" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
 <div class="tabular-box natural-width"><table class="tabular">
 <tr>
 <td class="c m b0 r0 l0 t0 lines"><span class="process-math">\(x\)</span></td>
@@ -902,7 +1090,8 @@ f(bx+p) = f(b(x+\dfrac{p}{b}))
 <td class="c m b0 r0 l0 t0 lines">34</td>
 </tr>
 </table></div>
-<div class="para" id="Chapter1Section5-7-10-2-5">Finally, we can apply the vertical shift, which will add 1 to all the output values.</div>
+<div class="para" id="Chapter1Section5-7-10-2-5">Finally, we can apply the vertical shift, which will add 1 to all the output values.<div class="autopermalink" data-description="Paragraph"><a href="#Chapter1Section5-7-10-2-5" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
 <div class="tabular-box natural-width"><table class="tabular">
 <tr>
 <td class="c m b0 r0 l0 t0 lines"><span class="process-math">\(x\)</span></td>
@@ -919,49 +1108,76 @@ f(bx+p) = f(b(x+\dfrac{p}{b}))
 <td class="c m b0 r0 l0 t0 lines">35</td>
 </tr>
 </table></div>
-</div></article><article class="example example-like" id="Chapter1Section5-7-11"><h4 class="heading">
+<div class="autopermalink" data-description="Solution 1.5.52.1"><a href="#Chapter1Section5-7-10-2" title="Copy permalink for Solution 1.5.52.1">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Example 1.5.52"><a href="#Chapter1Section5-7-10" title="Copy permalink for Example 1.5.52">🔗</a></div></article><article class="example example-like" id="Chapter1Section5-7-11"><h4 class="heading">
 <span class="type">Example</span><span class="space"> </span><span class="codenumber">1.5.53</span><span class="period">.</span>
 </h4>
-<div class="para" id="Chapter1Section5-7-11-1-1">Using the graph of <span class="process-math">\(f(x)\)</span> below, sketch a graph of <span class="process-math">\(k(x)=f(\dfrac{1}{2}x+1)-3\text{.}\)</span>
+<div class="para" id="Chapter1Section5-7-11-1-1">Using the graph of <span class="process-math">\(f(x)\)</span> below, sketch a graph of <span class="process-math">\(k(x)=f(\dfrac{1}{2}x+1)-3\text{.}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#Chapter1Section5-7-11-1-1" title="Copy permalink for Paragraph">🔗</a></div>
 </div> <figure class="figure figure-like" id="c1s6i24"><div class="image-box" style="width: 100%; margin-left: 0%; margin-right: 0%;"><img src="external/C1S6Image24.png" class="contained" alt="A semi-circle with endpoints at negative 2 comma 0 and 2 comma 0 and passing through 0 comma 2"></div>
-<figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">1.5.54<span class="period">.</span></span><span class="space"> </span>Graph of <span class="process-math">\(f(x)\)</span></figcaption></figure><div class="solution solution-like" id="Chapter1Section5-7-11-2">
+<figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">1.5.54<span class="period">.</span></span><span class="space"> </span>Graph of <span class="process-math">\(f(x)\)</span><div class="autopermalink" data-description="Figure 1.5.54"><a href="#c1s6i24" title="Copy permalink for Figure 1.5.54">🔗</a></div></figcaption></figure><div class="solution solution-like" id="Chapter1Section5-7-11-2">
 <h4 class="heading">
 <span class="type">Solution</span><span class="period">.</span>
 </h4>
-<div class="para" id="Chapter1Section5-7-11-2-1">To make things simpler, we’ll start by factoring out the inside of the function <span class="process-math">\(f(\dfrac{1}{2}x+1)-3=f(\dfrac{1}{2}(x+2))-3\text{.}\)</span>
+<div class="para" id="Chapter1Section5-7-11-2-1">To make things simpler, we’ll start by factoring out the inside of the function <span class="process-math">\(f(\dfrac{1}{2}x+1)-3=f(\dfrac{1}{2}(x+2))-3\text{.}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#Chapter1Section5-7-11-2-1" title="Copy permalink for Paragraph">🔗</a></div>
 </div>
-<div class="para" id="Chapter1Section5-7-11-2-2">By factoring the inside, we can first horizontally stretch by 2, as indicated by the <span class="process-math">\(\dfrac{1}{2}\)</span> on the inside of the function. Remember twice the size of 0 is still 0, so the point <span class="process-math">\((0,2)\)</span> remains at <span class="process-math">\((0,2)\)</span> while the point <span class="process-math">\((2,0)\)</span> will stretch to <span class="process-math">\((4,0)\text{.}\)</span> Next, we horizontally shift left by 2 units, as indicated by the <span class="process-math">\(x+2\text{.}\)</span>
+<div class="para" id="Chapter1Section5-7-11-2-2">By factoring the inside, we can first horizontally stretch by 2, as indicated by the <span class="process-math">\(\dfrac{1}{2}\)</span> on the inside of the function. Remember twice the size of 0 is still 0, so the point <span class="process-math">\((0,2)\)</span> remains at <span class="process-math">\((0,2)\)</span> while the point <span class="process-math">\((2,0)\)</span> will stretch to <span class="process-math">\((4,0)\text{.}\)</span> Next, we horizontally shift left by 2 units, as indicated by the <span class="process-math">\(x+2\text{.}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#Chapter1Section5-7-11-2-2" title="Copy permalink for Paragraph">🔗</a></div>
 </div>
-<div class="para" id="Chapter1Section5-7-11-2-3">Last, we vertically shift down by 3 to complete our sketch, as indicated by the -3 on the outside of the function.</div>
+<div class="para" id="Chapter1Section5-7-11-2-3">Last, we vertically shift down by 3 to complete our sketch, as indicated by the -3 on the outside of the function.<div class="autopermalink" data-description="Paragraph"><a href="#Chapter1Section5-7-11-2-3" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
 <figure class="figure figure-like" id="c1s6i25"><div class="image-box" style="width: 100%; margin-left: 0%; margin-right: 0%;"><img src="external/C1S6Image25.png" class="contained" alt="A horizontally stretched semi-circle with endpoints at negative 4 comma 0 and 4 comma 0 and passing through 0 comma 2"></div>
-<figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">1.5.55<span class="period">.</span></span><span class="space"> </span>Horizontal stretch by 2</figcaption></figure><figure class="figure figure-like" id="c1s6i26"><div class="image-box" style="width: 100%; margin-left: 0%; margin-right: 0%;"><img src="external/C1S6Image26.png" class="contained" alt="A horizontally stretched and shifted semi-circle with endpoints at negative 6 comma 0 and 2 comma 0 and passing through negative 2 comma 2"></div>
-<figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">1.5.56<span class="period">.</span></span><span class="space"> </span>Horizontal shift left by 2</figcaption></figure><figure class="figure figure-like" id="c1s6i27"><div class="image-box" style="width: 100%; margin-left: 0%; margin-right: 0%;"><img src="external/C1S6Image27.png" class="contained" alt="A horizontally stretched and shifted semi-circle with endpoints at negative 6 comma negative 3 and 2 comma negative 3 and passing through negative 2 comma negative 1"></div>
-<figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">1.5.57<span class="period">.</span></span><span class="space"> </span>Vertical shift down by 3</figcaption></figure>
-</div></article><article class="example example-like" id="Chapter1Section5-7-12"><h4 class="heading">
+<figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">1.5.55<span class="period">.</span></span><span class="space"> </span>Horizontal stretch by 2<div class="autopermalink" data-description="Figure 1.5.55"><a href="#c1s6i25" title="Copy permalink for Figure 1.5.55">🔗</a></div></figcaption></figure><figure class="figure figure-like" id="c1s6i26"><div class="image-box" style="width: 100%; margin-left: 0%; margin-right: 0%;"><img src="external/C1S6Image26.png" class="contained" alt="A horizontally stretched and shifted semi-circle with endpoints at negative 6 comma 0 and 2 comma 0 and passing through negative 2 comma 2"></div>
+<figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">1.5.56<span class="period">.</span></span><span class="space"> </span>Horizontal shift left by 2<div class="autopermalink" data-description="Figure 1.5.56"><a href="#c1s6i26" title="Copy permalink for Figure 1.5.56">🔗</a></div></figcaption></figure><figure class="figure figure-like" id="c1s6i27"><div class="image-box" style="width: 100%; margin-left: 0%; margin-right: 0%;"><img src="external/C1S6Image27.png" class="contained" alt="A horizontally stretched and shifted semi-circle with endpoints at negative 6 comma negative 3 and 2 comma negative 3 and passing through negative 2 comma negative 1"></div>
+<figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">1.5.57<span class="period">.</span></span><span class="space"> </span>Vertical shift down by 3<div class="autopermalink" data-description="Figure 1.5.57"><a href="#c1s6i27" title="Copy permalink for Figure 1.5.57">🔗</a></div></figcaption></figure><div class="autopermalink" data-description="Solution 1.5.53.1"><a href="#Chapter1Section5-7-11-2" title="Copy permalink for Solution 1.5.53.1">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Example 1.5.53"><a href="#Chapter1Section5-7-11" title="Copy permalink for Example 1.5.53">🔗</a></div></article><article class="example example-like" id="Chapter1Section5-7-12"><h4 class="heading">
 <span class="type">Example</span><span class="space"> </span><span class="codenumber">1.5.58</span><span class="period">.</span>
 </h4>
-<div class="para" id="Chapter1Section5-7-12-1-1">Write an equation for the transformed graph of the quadratic function shown.</div> <div class="image-box" style="width: 100%; margin-left: 0%; margin-right: 0%;"><img src="external/C1S6Image28.png" class="contained" alt="A downwards opening parabola with vertex at negative 3 comma 1 and passing through 2 comma negative 1 and 4 comma negative 1"></div>
+<div class="para" id="Chapter1Section5-7-12-1-1">Write an equation for the transformed graph of the quadratic function shown.<div class="autopermalink" data-description="Paragraph"><a href="#Chapter1Section5-7-12-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div> <div class="image-box" style="width: 100%; margin-left: 0%; margin-right: 0%;"><img src="external/C1S6Image28.png" class="contained" alt="A downwards opening parabola with vertex at negative 3 comma 1 and passing through 2 comma negative 1 and 4 comma negative 1"></div>
 <div class="solution solution-like" id="Chapter1Section5-7-12-2">
 <h4 class="heading">
 <span class="type">Solution</span><span class="period">.</span>
 </h4>
-<div class="para" id="Chapter1Section5-7-12-2-1">Since this is a quadratic function, first consider what the basic quadratic tool kit function looks like and how this has changed. Observing the graph, we notice several transformations:</div>
-<div class="para" id="Chapter1Section5-7-12-2-2">The original tool kit function has been flipped over the <span class="process-math">\(x\)</span>-axis, some kind of stretch or compression has occurred, and we can see a shift to the right 3 units and a shift up 1 unit.</div>
+<div class="para" id="Chapter1Section5-7-12-2-1">Since this is a quadratic function, first consider what the basic quadratic tool kit function looks like and how this has changed. Observing the graph, we notice several transformations:<div class="autopermalink" data-description="Paragraph"><a href="#Chapter1Section5-7-12-2-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="Chapter1Section5-7-12-2-2">The original tool kit function has been flipped over the <span class="process-math">\(x\)</span>-axis, some kind of stretch or compression has occurred, and we can see a shift to the right 3 units and a shift up 1 unit.<div class="autopermalink" data-description="Paragraph"><a href="#Chapter1Section5-7-12-2-2" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
 <div class="para logical" id="Chapter1Section5-7-12-2-3">
 <div class="para">In total there are four operations:</div>
 <ul class="disc" id="Chapter1Section5-7-12-2-3-1">
-<li id="Chapter1Section5-7-12-2-3-1-1"><div class="para" id="Chapter1Section5-7-12-2-3-1-1-1">Vertical reflection, requiring a negative sign outside the function</div></li>
-<li id="Chapter1Section5-7-12-2-3-1-2"><div class="para" id="Chapter1Section5-7-12-2-3-1-2-1">Vertical Stretch or Horizontal Compression*</div></li>
-<li id="Chapter1Section5-7-12-2-3-1-3"><div class="para" id="Chapter1Section5-7-12-2-3-1-3-1">Horizontal Shift Right 3 units, which tells us to put <span class="process-math">\(x-3\)</span> on the inside of the function</div></li>
-<li id="Chapter1Section5-7-12-2-3-1-4"><div class="para" id="Chapter1Section5-7-12-2-3-1-4-1">Vertical Shift up 1 unit, telling us to add 1 on the outside of the function</div></li>
+<li id="Chapter1Section5-7-12-2-3-1-1">
+<div class="para" id="Chapter1Section5-7-12-2-3-1-1-1">Vertical reflection, requiring a negative sign outside the function<div class="autopermalink" data-description="Paragraph"><a href="#Chapter1Section5-7-12-2-3-1-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item"><a href="#Chapter1Section5-7-12-2-3-1-1" title="Copy permalink for Item">🔗</a></div>
+</li>
+<li id="Chapter1Section5-7-12-2-3-1-2">
+<div class="para" id="Chapter1Section5-7-12-2-3-1-2-1">Vertical Stretch or Horizontal Compression*<div class="autopermalink" data-description="Paragraph"><a href="#Chapter1Section5-7-12-2-3-1-2-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item"><a href="#Chapter1Section5-7-12-2-3-1-2" title="Copy permalink for Item">🔗</a></div>
+</li>
+<li id="Chapter1Section5-7-12-2-3-1-3">
+<div class="para" id="Chapter1Section5-7-12-2-3-1-3-1">Horizontal Shift Right 3 units, which tells us to put <span class="process-math">\(x-3\)</span> on the inside of the function<div class="autopermalink" data-description="Paragraph"><a href="#Chapter1Section5-7-12-2-3-1-3-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item"><a href="#Chapter1Section5-7-12-2-3-1-3" title="Copy permalink for Item">🔗</a></div>
+</li>
+<li id="Chapter1Section5-7-12-2-3-1-4">
+<div class="para" id="Chapter1Section5-7-12-2-3-1-4-1">Vertical Shift up 1 unit, telling us to add 1 on the outside of the function<div class="autopermalink" data-description="Paragraph"><a href="#Chapter1Section5-7-12-2-3-1-4-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item"><a href="#Chapter1Section5-7-12-2-3-1-4" title="Copy permalink for Item">🔗</a></div>
+</li>
 </ul>
+<div class="autopermalink" data-description="Paragraph"><a href="#Chapter1Section5-7-12-2-3" title="Copy permalink for Paragraph">🔗</a></div>
 </div>
-<div class="para" id="Chapter1Section5-7-12-2-4">* It is unclear from the graph whether it is showing a vertical stretch or a horizontal compression. For the quadratic, it turns out we could represent it either way, so we’ll use a vertical stretch. You may be able to determine the vertical stretch by observation.</div>
-<div class="para" id="Chapter1Section5-7-12-2-5">By observation, the basic tool kit function has a vertex at <span class="process-math">\((0, 0)\)</span> and symmetrical points at <span class="process-math">\((1, 1)\)</span> and <span class="process-math">\((-1, 1)\text{.}\)</span> These points are one unit up and one unit over from the vertex. The new points on the transformed graph are one unit away horizontally but 2 units away vertically. They have been stretched vertically by two.</div>
-<div class="para" id="Chapter1Section5-7-12-2-6">Not everyone can see this by simply looking at the graph. If you can, great, but if not, we can solve for it. First, we will write the equation for this graph, with an unknown vertical stretch.</div>
-<div class="para" id="Chapter1Section5-7-12-2-7">The original function is <span class="process-math">\(f(x)=x^{2}\text{.}\)</span> To vertically reflect: <span class="process-math">\(-f(x)=-x^{2}\text{.}\)</span> To vertically stretch: <span class="process-math">\(-af(x)=-ax^{2}\text{.}\)</span> To shift right by 3 units: <span class="process-math">\(-af(x-3)=-a(x-3)^{2}\text{.}\)</span> To shift up by 1 unit: <span class="process-math">\(-af(x-3)+1=-a(x-3)^{2}+1\text{.}\)</span>
+<div class="para" id="Chapter1Section5-7-12-2-4">* It is unclear from the graph whether it is showing a vertical stretch or a horizontal compression. For the quadratic, it turns out we could represent it either way, so we’ll use a vertical stretch. You may be able to determine the vertical stretch by observation.<div class="autopermalink" data-description="Paragraph"><a href="#Chapter1Section5-7-12-2-4" title="Copy permalink for Paragraph">🔗</a></div>
 </div>
-<div class="para" id="Chapter1Section5-7-12-2-8">We now know our graph is going to have an equation of the form <span class="process-math">\(g(x)=-a(x-3)^{2}+1\text{.}\)</span> To find the vertical stretch, we can identify any point on the graph (other than the highest point), such as the point <span class="process-math">\((2, -1)\text{,}\)</span> which tells us <span class="process-math">\(g(2)=-1\text{.}\)</span> Using our general formula, and substituting 2 for <span class="process-math">\(x\text{,}\)</span> and -1 for <span class="process-math">\(g(x)\text{:}\)</span>
+<div class="para" id="Chapter1Section5-7-12-2-5">By observation, the basic tool kit function has a vertex at <span class="process-math">\((0, 0)\)</span> and symmetrical points at <span class="process-math">\((1, 1)\)</span> and <span class="process-math">\((-1, 1)\text{.}\)</span> These points are one unit up and one unit over from the vertex. The new points on the transformed graph are one unit away horizontally but 2 units away vertically. They have been stretched vertically by two.<div class="autopermalink" data-description="Paragraph"><a href="#Chapter1Section5-7-12-2-5" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="Chapter1Section5-7-12-2-6">Not everyone can see this by simply looking at the graph. If you can, great, but if not, we can solve for it. First, we will write the equation for this graph, with an unknown vertical stretch.<div class="autopermalink" data-description="Paragraph"><a href="#Chapter1Section5-7-12-2-6" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="Chapter1Section5-7-12-2-7">The original function is <span class="process-math">\(f(x)=x^{2}\text{.}\)</span> To vertically reflect: <span class="process-math">\(-f(x)=-x^{2}\text{.}\)</span> To vertically stretch: <span class="process-math">\(-af(x)=-ax^{2}\text{.}\)</span> To shift right by 3 units: <span class="process-math">\(-af(x-3)=-a(x-3)^{2}\text{.}\)</span> To shift up by 1 unit: <span class="process-math">\(-af(x-3)+1=-a(x-3)^{2}+1\text{.}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#Chapter1Section5-7-12-2-7" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="Chapter1Section5-7-12-2-8">We now know our graph is going to have an equation of the form <span class="process-math">\(g(x)=-a(x-3)^{2}+1\text{.}\)</span> To find the vertical stretch, we can identify any point on the graph (other than the highest point), such as the point <span class="process-math">\((2, -1)\text{,}\)</span> which tells us <span class="process-math">\(g(2)=-1\text{.}\)</span> Using our general formula, and substituting 2 for <span class="process-math">\(x\text{,}\)</span> and -1 for <span class="process-math">\(g(x)\text{:}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#Chapter1Section5-7-12-2-8" title="Copy permalink for Paragraph">🔗</a></div>
 </div>
 <div class="para logical" id="Chapter1Section5-7-12-2-9">
 <div class="displaymath process-math">
@@ -984,57 +1200,102 @@ f(bx+p) = f(b(x+\dfrac{p}{b}))
 2=a
 \end{equation*}
 </div>
+<div class="autopermalink" data-description="Paragraph"><a href="#Chapter1Section5-7-12-2-9" title="Copy permalink for Paragraph">🔗</a></div>
 </div>
-<div class="para" id="Chapter1Section5-7-12-2-10">This tells us that to produce the graph we need a vertical stretch by two. The function that produces this graph is therefore <span class="process-math">\(g(x)=-2(x-3)^{2}+1\text{.}\)</span>
+<div class="para" id="Chapter1Section5-7-12-2-10">This tells us that to produce the graph we need a vertical stretch by two. The function that produces this graph is therefore <span class="process-math">\(g(x)=-2(x-3)^{2}+1\text{.}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#Chapter1Section5-7-12-2-10" title="Copy permalink for Paragraph">🔗</a></div>
 </div>
-</div></article><article class="exercise exercise-like" id="Chapter1Section5-7-13"><h4 class="heading">
+<div class="autopermalink" data-description="Solution 1.5.58.1"><a href="#Chapter1Section5-7-12-2" title="Copy permalink for Solution 1.5.58.1">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Example 1.5.58"><a href="#Chapter1Section5-7-12" title="Copy permalink for Example 1.5.58">🔗</a></div></article><article class="exercise exercise-like" id="Chapter1Section5-7-13"><h4 class="heading">
 <span class="type">Checkpoint</span><span class="space"> </span><span class="codenumber">1.5.59</span><span class="period">.</span>
 </h4>
-<div class="para" id="Chapter1Section5-7-13-1-1">Consider the linear function <span class="process-math">\(g(x)=-2x+1\text{.}\)</span> Describe its transformation in words using the identity tool kit function <span class="process-math">\(f(x) = x\)</span> as a reference.</div></article><article class="example example-like" id="Chapter1Section5-7-14"><h4 class="heading">
+<div class="para" id="Chapter1Section5-7-13-1-1">Consider the linear function <span class="process-math">\(g(x)=-2x+1\text{.}\)</span> Describe its transformation in words using the identity tool kit function <span class="process-math">\(f(x) = x\)</span> as a reference.<div class="autopermalink" data-description="Paragraph"><a href="#Chapter1Section5-7-13-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Checkpoint 1.5.59"><a href="#Chapter1Section5-7-13" title="Copy permalink for Checkpoint 1.5.59">🔗</a></div></article><article class="example example-like" id="Chapter1Section5-7-14"><h4 class="heading">
 <span class="type">Example</span><span class="space"> </span><span class="codenumber">1.5.60</span><span class="period">.</span>
 </h4>
-<div class="para" id="Chapter1Section5-7-14-1-1">On what interval(s) is the function <span class="process-math">\(g(x)=\dfrac{-2}{(x-1)^2}+3\)</span> increasing and decreasing?</div>
+<div class="para" id="Chapter1Section5-7-14-1-1">On what interval(s) is the function <span class="process-math">\(g(x)=\dfrac{-2}{(x-1)^2}+3\)</span> increasing and decreasing?<div class="autopermalink" data-description="Paragraph"><a href="#Chapter1Section5-7-14-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
 <div class="solution solution-like" id="Chapter1Section5-7-14-2">
 <h4 class="heading">
 <span class="type">Solution</span><span class="period">.</span>
 </h4>
-<div class="para" id="Chapter1Section5-7-14-2-1">This is a transformation of the toolkit reciprocal squared function, <span class="process-math">\(f(x)=\dfrac{1}{x^2}\text{:}\)</span>
+<div class="para" id="Chapter1Section5-7-14-2-1">This is a transformation of the toolkit reciprocal squared function, <span class="process-math">\(f(x)=\dfrac{1}{x^2}\text{:}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#Chapter1Section5-7-14-2-1" title="Copy permalink for Paragraph">🔗</a></div>
 </div>
-<div class="para" id="Chapter1Section5-7-14-2-2">A vertical flip and vertical stretch by 2: <span class="process-math">\(-2f(x)=\dfrac{-2}{x^2}\)</span>
+<div class="para" id="Chapter1Section5-7-14-2-2">A vertical flip and vertical stretch by 2: <span class="process-math">\(-2f(x)=\dfrac{-2}{x^2}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#Chapter1Section5-7-14-2-2" title="Copy permalink for Paragraph">🔗</a></div>
 </div>
-<div class="para" id="Chapter1Section5-7-14-2-3">A shift right by 1: <span class="process-math">\(-2f(x-1)=\dfrac{-2}{(x-1)^2}\)</span>
+<div class="para" id="Chapter1Section5-7-14-2-3">A shift right by 1: <span class="process-math">\(-2f(x-1)=\dfrac{-2}{(x-1)^2}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#Chapter1Section5-7-14-2-3" title="Copy permalink for Paragraph">🔗</a></div>
 </div>
-<div class="para" id="Chapter1Section5-7-14-2-4">A shift up by 3: <span class="process-math">\(-2f(x-1)+3=\dfrac{-2}{(x-1)^2}+3\)</span>
+<div class="para" id="Chapter1Section5-7-14-2-4">A shift up by 3: <span class="process-math">\(-2f(x-1)+3=\dfrac{-2}{(x-1)^2}+3\)</span><div class="autopermalink" data-description="Paragraph"><a href="#Chapter1Section5-7-14-2-4" title="Copy permalink for Paragraph">🔗</a></div>
 </div>
-<div class="para" id="Chapter1Section5-7-14-2-5">The basic reciprocal squared function is increasing on <span class="process-math">\((-\infty,0)\)</span> and decreasing on <span class="process-math">\((0,\infty)\text{.}\)</span> Because of the vertical flip, the <span class="process-math">\(g(x)\)</span> function will be decreasing on the left and increasing on the right. The horizontal shift right by 1 will also shift these intervals to the right one. From this, we can determine <span class="process-math">\(g(x)\)</span> will be increasing on <span class="process-math">\((1,\infty)\)</span> and decreasing on <span class="process-math">\((-\infty,1)\text{.}\)</span> We also could graph the transformation to help us determine these intervals.</div>
+<div class="para" id="Chapter1Section5-7-14-2-5">The basic reciprocal squared function is increasing on <span class="process-math">\((-\infty,0)\)</span> and decreasing on <span class="process-math">\((0,\infty)\text{.}\)</span> Because of the vertical flip, the <span class="process-math">\(g(x)\)</span> function will be decreasing on the left and increasing on the right. The horizontal shift right by 1 will also shift these intervals to the right one. From this, we can determine <span class="process-math">\(g(x)\)</span> will be increasing on <span class="process-math">\((1,\infty)\)</span> and decreasing on <span class="process-math">\((-\infty,1)\text{.}\)</span> We also could graph the transformation to help us determine these intervals.<div class="autopermalink" data-description="Paragraph"><a href="#Chapter1Section5-7-14-2-5" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
 <figure class="figure figure-like" id="c1s6i29"><div class="image-box" style="width: 100%; margin-left: 0%; margin-right: 0%;"><img src="external/C1S6Image29.png" class="contained" alt="A graph that starts fairly level near y=3, decreasing slowly at first then more rapidly off the graph as it approaches x=1. Past x=1 the graph increases rapidly from off the graph then levels off towards y=3"></div>
-<figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">1.5.61<span class="period">.</span></span><span class="space"> </span>Graph of <span class="process-math">\(g(x)=\dfrac{-2}{(x-1)^2}+3\)</span></figcaption></figure>
-</div></article></section><section class="subsection" id="Chapter1Section5-8"><h3 class="heading hide-type">
+<figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">1.5.61<span class="period">.</span></span><span class="space"> </span>Graph of <span class="process-math">\(g(x)=\dfrac{-2}{(x-1)^2}+3\)</span><div class="autopermalink" data-description="Figure 1.5.61"><a href="#c1s6i29" title="Copy permalink for Figure 1.5.61">🔗</a></div></figcaption></figure><div class="autopermalink" data-description="Solution 1.5.60.1"><a href="#Chapter1Section5-7-14-2" title="Copy permalink for Solution 1.5.60.1">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Example 1.5.60"><a href="#Chapter1Section5-7-14" title="Copy permalink for Example 1.5.60">🔗</a></div></article><div class="autopermalink" data-description="Subsection 1.5.4: Combining Transformations"><a href="#Chapter1Section5-7" title="Copy permalink for Subsection 1.5.4: Combining Transformations">🔗</a></div></section><section class="subsection" id="Chapter1Section5-8"><h3 class="heading hide-type">
 <span class="type">Subsection</span><span class="space"> </span><span class="codenumber">1.5.5</span><span class="space"> </span><span class="title">Answers</span>
 </h3>
 <article class="exercise exercise-like" id="Chapter1Section5-8-2"><h4 class="heading">
 <span class="type">Checkpoint</span><span class="space"> </span><span class="codenumber">1.5.62</span><span class="period">.</span>
 </h4>
-<div class="para" id="Chapter1Section5-8-2-1-1">Answers to Checkpoint Exercises</div>
-<div class="solutions"><details id="Chapter1Section5-8-2-2" class="answer solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Answer</span><span class="period">.</span></summary><div class="answer solution-like knowl__content"><div class="para logical" id="Chapter1Section5-8-2-2-1"><ol class="decimal" id="Chapter1Section5-8-2-2-1-1">
-<li id="Chapter1Section5-8-2-2-1-1-1"><div class="para" id="Chapter1Section5-8-2-2-1-1-1-1"><span class="process-math">\(\displaystyle b(t)=a(t)+10=-4.9t^{2}+30t+10\)</span></div></li>
-<li id="Chapter1Section5-8-2-2-1-1-2"><div class="image-box" style="width: 100%; margin-left: 0%; margin-right: 0%;"><img src="external/C1S6Image30.png" class="contained" alt="A square root graph labeled f(x) starting at the origin and increasing to the right, and a shifted square root graph labeled g(x) starting at negative 2 comma 0 and increasing to the right."></div></li>
+<div class="para" id="Chapter1Section5-8-2-1-1">Answers to Checkpoint Exercises<div class="autopermalink" data-description="Paragraph"><a href="#Chapter1Section5-8-2-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="solutions"><details id="Chapter1Section5-8-2-2" class="answer solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Answer</span><span class="period">.</span></summary><div class="answer solution-like knowl__content">
+<div class="para logical" id="Chapter1Section5-8-2-2-1">
+<ol class="decimal" id="Chapter1Section5-8-2-2-1-1">
+<li id="Chapter1Section5-8-2-2-1-1-1">
+<div class="para" id="Chapter1Section5-8-2-2-1-1-1-1">
+<span class="process-math">\(\displaystyle b(t)=a(t)+10=-4.9t^{2}+30t+10\)</span><div class="autopermalink" data-description="Paragraph"><a href="#Chapter1Section5-8-2-2-1-1-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item 1.5.62.1"><a href="#Chapter1Section5-8-2-2-1-1-1" title="Copy permalink for Item 1.5.62.1">🔗</a></div>
+</li>
+<li id="Chapter1Section5-8-2-2-1-1-2">
+<div class="image-box" style="width: 100%; margin-left: 0%; margin-right: 0%;"><img src="external/C1S6Image30.png" class="contained" alt="A square root graph labeled f(x) starting at the origin and increasing to the right, and a shifted square root graph labeled g(x) starting at negative 2 comma 0 and increasing to the right."></div>
+<div class="autopermalink" data-description="Item 1.5.62.2"><a href="#Chapter1Section5-8-2-2-1-1-2" title="Copy permalink for Item 1.5.62.2">🔗</a></div>
+</li>
 <li id="Chapter1Section5-8-2-2-1-1-3">
 <div class="image-box" style="width: 100%; margin-left: 0%; margin-right: 0%;"><img src="external/C1S6Image31.png" class="contained" alt="Two parabolas labeled f(x) and h(x) with vertex at the origin and opening up, and a parabola labeled g(x) with vertex at the origin and opening down."></div>
-<div class="para" id="Chapter1Section5-8-2-2-1-1-3-2">Notice: g(x) = f(-x) looks the same as f(x)</div>
+<div class="para" id="Chapter1Section5-8-2-2-1-1-3-2">Notice: g(x) = f(-x) looks the same as f(x)<div class="autopermalink" data-description="Paragraph"><a href="#Chapter1Section5-8-2-2-1-1-3-2" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item 1.5.62.3"><a href="#Chapter1Section5-8-2-2-1-1-3" title="Copy permalink for Item 1.5.62.3">🔗</a></div>
 </li>
-<li id="Chapter1Section5-8-2-2-1-1-4"><div class="para" id="Chapter1Section5-8-2-2-1-1-4-1">
-<span class="process-math">\(g(x)=f(\dfrac{1}{3}x)\)</span> so using the square root function we get <span class="process-math">\(g(x)=\sqrt{\dfrac{1}{3} x}\text{.}\)</span>
-</div></li>
-<li id="Chapter1Section5-8-2-2-1-1-5"><div class="para logical" id="Chapter1Section5-8-2-2-1-1-5-1">
+<li id="Chapter1Section5-8-2-2-1-1-4">
+<div class="para" id="Chapter1Section5-8-2-2-1-1-4-1">
+<span class="process-math">\(g(x)=f(\dfrac{1}{3}x)\)</span> so using the square root function we get <span class="process-math">\(g(x)=\sqrt{\dfrac{1}{3} x}\text{.}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#Chapter1Section5-8-2-2-1-1-4-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item 1.5.62.4"><a href="#Chapter1Section5-8-2-2-1-1-4" title="Copy permalink for Item 1.5.62.4">🔗</a></div>
+</li>
+<li id="Chapter1Section5-8-2-2-1-1-5">
+<div class="para logical" id="Chapter1Section5-8-2-2-1-1-5-1">
 <div class="para">The identity tool kit function <span class="process-math">\(f(x) = x\)</span> has been transformed in 3 steps</div>
 <ol class="lower-alpha lower-alpha-level-1" id="Chapter1Section5-8-2-2-1-1-5-1-2">
-<li id="Chapter1Section5-8-2-2-1-1-5-1-2-1"><div class="para" id="Chapter1Section5-8-2-2-1-1-5-1-2-1-1">Vertically stretched by 2.</div></li>
-<li id="Chapter1Section5-8-2-2-1-1-5-1-2-2"><div class="para" id="Chapter1Section5-8-2-2-1-1-5-1-2-2-1">Vertically reflected over the <span class="process-math">\(x\)</span>-axis.</div></li>
-<li id="Chapter1Section5-8-2-2-1-1-5-1-2-3"><div class="para" id="Chapter1Section5-8-2-2-1-1-5-1-2-3-1">Vertically shifted up by 1 unit.</div></li>
+<li id="Chapter1Section5-8-2-2-1-1-5-1-2-1">
+<div class="para" id="Chapter1Section5-8-2-2-1-1-5-1-2-1-1">Vertically stretched by 2.<div class="autopermalink" data-description="Paragraph"><a href="#Chapter1Section5-8-2-2-1-1-5-1-2-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item 1.5.62.5.a"><a href="#Chapter1Section5-8-2-2-1-1-5-1-2-1" title="Copy permalink for Item 1.5.62.5.a">🔗</a></div>
+</li>
+<li id="Chapter1Section5-8-2-2-1-1-5-1-2-2">
+<div class="para" id="Chapter1Section5-8-2-2-1-1-5-1-2-2-1">Vertically reflected over the <span class="process-math">\(x\)</span>-axis.<div class="autopermalink" data-description="Paragraph"><a href="#Chapter1Section5-8-2-2-1-1-5-1-2-2-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item 1.5.62.5.b"><a href="#Chapter1Section5-8-2-2-1-1-5-1-2-2" title="Copy permalink for Item 1.5.62.5.b">🔗</a></div>
+</li>
+<li id="Chapter1Section5-8-2-2-1-1-5-1-2-3">
+<div class="para" id="Chapter1Section5-8-2-2-1-1-5-1-2-3-1">Vertically shifted up by 1 unit.<div class="autopermalink" data-description="Paragraph"><a href="#Chapter1Section5-8-2-2-1-1-5-1-2-3-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item 1.5.62.5.c"><a href="#Chapter1Section5-8-2-2-1-1-5-1-2-3" title="Copy permalink for Item 1.5.62.5.c">🔗</a></div>
+</li>
 </ol>
-</div></li>
-</ol></div></div></details></div></article></section></section></div>
+<div class="autopermalink" data-description="Paragraph"><a href="#Chapter1Section5-8-2-2-1-1-5-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item 1.5.62.5"><a href="#Chapter1Section5-8-2-2-1-1-5" title="Copy permalink for Item 1.5.62.5">🔗</a></div>
+</li>
+</ol>
+<div class="autopermalink" data-description="Paragraph"><a href="#Chapter1Section5-8-2-2-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Answer 1.5.62.1"><a href="#Chapter1Section5-8-2-2" title="Copy permalink for Answer 1.5.62.1">🔗</a></div>
+</div></details></div>
+<div class="autopermalink" data-description="Checkpoint 1.5.62"><a href="#Chapter1Section5-8-2" title="Copy permalink for Checkpoint 1.5.62">🔗</a></div></article><div class="autopermalink" data-description="Subsection 1.5.5: Answers"><a href="#Chapter1Section5-8" title="Copy permalink for Subsection 1.5.5: Answers">🔗</a></div></section><div class="autopermalink" data-description="Section 1.5: Transformations"><a href="#Chapter1Section5" title="Copy permalink for Section 1.5: Transformations">🔗</a></div></section></div>
 <div id="ptx-content-footer" class="ptx-content-footer">
 <a class="previous-button button" href="Chapter1Section4.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="top-button button" href="#" title="Top"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Top</span></a><a class="next-button button" href="Chapter1Section6.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a>
 </div></main>

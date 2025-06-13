@@ -5,7 +5,7 @@
 <!--*         https://pretextbook.org          *-->
 <!--*                                          *-->
 <!--********************************************-->
-<html lang="en-US" dir="ltr" data-legacy-colorscheme="blue_red">
+<html lang="en-US" dir="ltr" data-legacy-colorscheme="default">
 <!--******************************************-->
 <!--*  Authored with PreTeXt                 *-->
 <!--*  pretextbook.org                       *-->
@@ -134,7 +134,12 @@ eBookConfig.enable_chatcodes =  false;
 <ol id="searchresults" class="searchresults"></ol>
 </div>
 </div>
-<span class="nav-other-controls"></span><span class="treebuttons"><a class="previous-button button" href="Chapter3.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="up-button button" href="Chapter3.html" title="Up"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Up</span></a><a class="next-button button" href="Chapter3Section2.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a></span>
+<span class="nav-other-controls"><button id="embed-button" class="embed-button button" title="Embed this page"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe86f;</span><span class="name">Embed</span></button><div class="embed-popup hidden" id="embed-popup">
+<p>Copy the code below to embed this page in your own website or LMS page.</p>
+<div class="embed-code-container">
+<textarea class="embed-code-textbox" id="embed-code-textbox" readonly aria-label="textbox"><iframe src="https://example.com/embed" width="100%" height="1000"></iframe></textarea><button class="copy-embed-button button" id="copy-embed-button" title="Copy embed code"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe14d;</span><span class="name">Copy</span></button>
+</div>
+</div></span><span class="treebuttons"><a class="previous-button button" href="Chapter3.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="up-button button" href="Chapter3.html" title="Up"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Up</span></a><a class="next-button button" href="Chapter3Section2.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a></span>
 </div></nav><div id="latex-macros" class="hidden-content process-math" style="display:none"><span class="process-math">\(\newcommand{\N}{\mathbb N} \newcommand{\Z}{\mathbb Z} \newcommand{\Q}{\mathbb Q} \newcommand{\R}{\mathbb R}
 \newcommand{\lt}{&lt;}
 \newcommand{\gt}{&gt;}
@@ -318,7 +323,17 @@ eBookConfig.enable_chatcodes =  false;
 <li class="toc-item toc-subsection"><div class="toc-title-box"><a href="Chapter4Section5.html#Chapter4Section5-4" class="internal"><span class="codenumber">4.5.3</span> <span class="title">Answers</span></a></div></li>
 </ul>
 </li>
-<li class="toc-item toc-section"><div class="toc-title-box"><a href="Chapter4Section6.html" class="internal"><span class="codenumber">4.6</span> <span class="title">Exponential and Logarithmic Models</span></a></div></li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="Chapter4Section6.html" class="internal"><span class="codenumber">4.6</span> <span class="title">Exponential and Logarithmic Models</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="Chapter4Section6.html#Chapter4Section6-2" class="internal"><span class="codenumber">4.6.1</span> <span class="title">Introduction</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="Chapter4Section6.html#Chapter4Section6-3" class="internal"><span class="codenumber">4.6.2</span> <span class="title">Radioactive Decay</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="Chapter4Section6.html#Chapter4Section6-4" class="internal"><span class="codenumber">4.6.3</span> <span class="title">Doubling Time</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="Chapter4Section6.html#Chapter4Section6-5" class="internal"><span class="codenumber">4.6.4</span> <span class="title">Logarithmic Scales</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="Chapter4Section6.html#Chapter4Section6-6" class="internal"><span class="codenumber">4.6.5</span> <span class="title">Earthquakes</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="Chapter4Section6.html#Chapter4Section6-7" class="internal"><span class="codenumber">4.6.6</span> <span class="title">Answers</span></a></div></li>
+</ul>
+</li>
 </ul>
 </li>
 <li class="toc-item toc-backmatter"><div class="toc-title-box"><a href="backmatter.html" class="internal"><span class="title">Backmatter</span></a></div></li>
@@ -333,185 +348,331 @@ eBookConfig.enable_chatcodes =  false;
 <span class="type">Objectives:</span><span class="space"> </span><span class="title">Important Topics of this Section</span>
 </h4>
 <ul class="disc" id="Chapter3Section1-2-2-2">
-<li id="Chapter3Section1-2-2-2-1"><div class="para" id="Chapter3Section1-2-2-2-1-1">Power Functions</div></li>
-<li id="Chapter3Section1-2-2-2-2"><div class="para" id="Chapter3Section1-2-2-2-2-1">Polynomials</div></li>
-<li id="Chapter3Section1-2-2-2-3"><div class="para" id="Chapter3Section1-2-2-2-3-1">Coefficients</div></li>
-<li id="Chapter3Section1-2-2-2-4"><div class="para" id="Chapter3Section1-2-2-2-4-1">Leading coefficient</div></li>
-<li id="Chapter3Section1-2-2-2-5"><div class="para" id="Chapter3Section1-2-2-2-5-1">Term</div></li>
-<li id="Chapter3Section1-2-2-2-6"><div class="para" id="Chapter3Section1-2-2-2-6-1">Leading Term</div></li>
-<li id="Chapter3Section1-2-2-2-7"><div class="para" id="Chapter3Section1-2-2-2-7-1">Degree of a polynomial</div></li>
-<li id="Chapter3Section1-2-2-2-8"><div class="para" id="Chapter3Section1-2-2-2-8-1">Long run behavior</div></li>
-<li id="Chapter3Section1-2-2-2-9"><div class="para" id="Chapter3Section1-2-2-2-9-1">Short run behavior</div></li>
-</ul></article><div class="para" id="Chapter3Section1-2-3">Suppose that a square is cut out of cardboard, with each side having length <span class="process-math">\(L\text{.}\)</span> If we wanted to write a function for the area of the square, with <span class="process-math">\(L\)</span> as the input and the area as output, you may recall that the area of a rectangle can be found by multiplying the length times the width. Since our shape is a square, the length and the width are the same, giving the formula: <span class="process-math">\(f(L)=A, f(L)=L\times L=L^{2}.\)</span>
+<li id="Chapter3Section1-2-2-2-1">
+<div class="para" id="Chapter3Section1-2-2-2-1-1">Power Functions<div class="autopermalink" data-description="Paragraph"><a href="#Chapter3Section1-2-2-2-1-1" title="Copy permalink for Paragraph">🔗</a></div>
 </div>
-<div class="para" id="Chapter3Section1-2-4">Likewise, if we wanted a function for the volume of a cube with each side having some length <span class="process-math">\(L\text{,}\)</span> you may recall volume of a rectangular box can be found by multiplying length by width by height, which are all equal for a cube, giving the formula: <span class="process-math">\(g(L)=V, g(L)=L\times L\times L=L^{3}.\)</span>
+<div class="autopermalink" data-description="Objective"><a href="#Chapter3Section1-2-2-2-1" title="Copy permalink for Objective">🔗</a></div>
+</li>
+<li id="Chapter3Section1-2-2-2-2">
+<div class="para" id="Chapter3Section1-2-2-2-2-1">Polynomials<div class="autopermalink" data-description="Paragraph"><a href="#Chapter3Section1-2-2-2-2-1" title="Copy permalink for Paragraph">🔗</a></div>
 </div>
-<div class="para" id="Chapter3Section1-2-5">These two functions are examples of power functions, functions that are some power of the variable.</div>
+<div class="autopermalink" data-description="Objective"><a href="#Chapter3Section1-2-2-2-2" title="Copy permalink for Objective">🔗</a></div>
+</li>
+<li id="Chapter3Section1-2-2-2-3">
+<div class="para" id="Chapter3Section1-2-2-2-3-1">Coefficients<div class="autopermalink" data-description="Paragraph"><a href="#Chapter3Section1-2-2-2-3-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Objective"><a href="#Chapter3Section1-2-2-2-3" title="Copy permalink for Objective">🔗</a></div>
+</li>
+<li id="Chapter3Section1-2-2-2-4">
+<div class="para" id="Chapter3Section1-2-2-2-4-1">Leading coefficient<div class="autopermalink" data-description="Paragraph"><a href="#Chapter3Section1-2-2-2-4-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Objective"><a href="#Chapter3Section1-2-2-2-4" title="Copy permalink for Objective">🔗</a></div>
+</li>
+<li id="Chapter3Section1-2-2-2-5">
+<div class="para" id="Chapter3Section1-2-2-2-5-1">Term<div class="autopermalink" data-description="Paragraph"><a href="#Chapter3Section1-2-2-2-5-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Objective"><a href="#Chapter3Section1-2-2-2-5" title="Copy permalink for Objective">🔗</a></div>
+</li>
+<li id="Chapter3Section1-2-2-2-6">
+<div class="para" id="Chapter3Section1-2-2-2-6-1">Leading Term<div class="autopermalink" data-description="Paragraph"><a href="#Chapter3Section1-2-2-2-6-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Objective"><a href="#Chapter3Section1-2-2-2-6" title="Copy permalink for Objective">🔗</a></div>
+</li>
+<li id="Chapter3Section1-2-2-2-7">
+<div class="para" id="Chapter3Section1-2-2-2-7-1">Degree of a polynomial<div class="autopermalink" data-description="Paragraph"><a href="#Chapter3Section1-2-2-2-7-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Objective"><a href="#Chapter3Section1-2-2-2-7" title="Copy permalink for Objective">🔗</a></div>
+</li>
+<li id="Chapter3Section1-2-2-2-8">
+<div class="para" id="Chapter3Section1-2-2-2-8-1">Long run behavior<div class="autopermalink" data-description="Paragraph"><a href="#Chapter3Section1-2-2-2-8-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Objective"><a href="#Chapter3Section1-2-2-2-8" title="Copy permalink for Objective">🔗</a></div>
+</li>
+<li id="Chapter3Section1-2-2-2-9">
+<div class="para" id="Chapter3Section1-2-2-2-9-1">Short run behavior<div class="autopermalink" data-description="Paragraph"><a href="#Chapter3Section1-2-2-2-9-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Objective"><a href="#Chapter3Section1-2-2-2-9" title="Copy permalink for Objective">🔗</a></div>
+</li>
+</ul>
+<div class="autopermalink" data-description="Objectives 3.1.1: Important Topics of this Section"><a href="#Chapter3Section1-2-2" title="Copy permalink for Objectives 3.1.1: Important Topics of this Section">🔗</a></div></article><div class="para" id="Chapter3Section1-2-3">Suppose that a square is cut out of cardboard, with each side having length <span class="process-math">\(L\text{.}\)</span> If we wanted to write a function for the area of the square, with <span class="process-math">\(L\)</span> as the input and the area as output, you may recall that the area of a rectangle can be found by multiplying the length times the width. Since our shape is a square, the length and the width are the same, giving the formula: <span class="process-math">\(f(L)=A, f(L)=L\times L=L^{2}.\)</span><div class="autopermalink" data-description="Paragraph"><a href="#Chapter3Section1-2-3" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="Chapter3Section1-2-4">Likewise, if we wanted a function for the volume of a cube with each side having some length <span class="process-math">\(L\text{,}\)</span> you may recall volume of a rectangular box can be found by multiplying length by width by height, which are all equal for a cube, giving the formula: <span class="process-math">\(g(L)=V, g(L)=L\times L\times L=L^{3}.\)</span><div class="autopermalink" data-description="Paragraph"><a href="#Chapter3Section1-2-4" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="Chapter3Section1-2-5">These two functions are examples of power functions, functions that are some power of the variable.<div class="autopermalink" data-description="Paragraph"><a href="#Chapter3Section1-2-5" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
 <article class="definition definition-like" id="Chapter3Section1-2-6"><h4 class="heading">
 <span class="type">Definition</span><span class="space"> </span><span class="codenumber">3.1.1</span><span class="period">.</span><span class="space"> </span><span class="title">Power Function.</span>
 </h4>
-<div class="para" id="Chapter3Section1-2-6-2-1">A power function is a function that can be represented in the form <span class="process-math">\(f(x)=x^{p},\)</span> where the base is a variable and the exponent, <span class="process-math">\(p\text{,}\)</span> is a constant number.</div></article><article class="example example-like" id="Chapter3Section1-2-7"><h4 class="heading">
+<div class="para" id="Chapter3Section1-2-6-2-1">A power function is a function that can be represented in the form <span class="process-math">\(f(x)=x^{p},\)</span> where the base is a variable and the exponent, <span class="process-math">\(p\text{,}\)</span> is a constant number.<div class="autopermalink" data-description="Paragraph"><a href="#Chapter3Section1-2-6-2-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Definition 3.1.1: Power Function"><a href="#Chapter3Section1-2-6" title="Copy permalink for Definition 3.1.1: Power Function">🔗</a></div></article><article class="example example-like" id="Chapter3Section1-2-7"><h4 class="heading">
 <span class="type">Example</span><span class="space"> </span><span class="codenumber">3.1.2</span><span class="period">.</span>
 </h4>
-<div class="para" id="Chapter3Section1-2-7-1-1">Which of our toolkit functions are power functions?</div>
+<div class="para" id="Chapter3Section1-2-7-1-1">Which of our toolkit functions are power functions?<div class="autopermalink" data-description="Paragraph"><a href="#Chapter3Section1-2-7-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
 <div class="solution solution-like" id="Chapter3Section1-2-7-2">
 <h4 class="heading">
 <span class="type">Solution</span><span class="period">.</span>
 </h4>
-<div class="para" id="Chapter3Section1-2-7-2-1">The constant and identity functions are power functions, since they can be written as <span class="process-math">\(f(x)=x^{0}\)</span> and <span class="process-math">\(f(x)=x^{1}\)</span> respectively.</div>
-<div class="para" id="Chapter3Section1-2-7-2-2">The quadratic and cubic functions are both power functions with whole number powers: <span class="process-math">\(f(x)=x^{2}\)</span> and <span class="process-math">\(f(x)=x^{3}\text{.}\)</span>
+<div class="para" id="Chapter3Section1-2-7-2-1">The constant and identity functions are power functions, since they can be written as <span class="process-math">\(f(x)=x^{0}\)</span> and <span class="process-math">\(f(x)=x^{1}\)</span> respectively.<div class="autopermalink" data-description="Paragraph"><a href="#Chapter3Section1-2-7-2-1" title="Copy permalink for Paragraph">🔗</a></div>
 </div>
-<div class="para" id="Chapter3Section1-2-7-2-3">The reciprocal and reciprocal squared functions are both power functions with negative whole number powers since they can be written as <span class="process-math">\(f(x)=x^{-1}\)</span> and <span class="process-math">\(f(x)=x^{-2}\text{.}\)</span>
+<div class="para" id="Chapter3Section1-2-7-2-2">The quadratic and cubic functions are both power functions with whole number powers: <span class="process-math">\(f(x)=x^{2}\)</span> and <span class="process-math">\(f(x)=x^{3}\text{.}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#Chapter3Section1-2-7-2-2" title="Copy permalink for Paragraph">🔗</a></div>
 </div>
-<div class="para" id="Chapter3Section1-2-7-2-4">The square and cube root functions are both power functions with fractional powers since they can be written as <span class="process-math">\(f(x)=x^{\frac{1}{2}}\)</span> or <span class="process-math">\(f(x)=x^{\frac{1}{3}}\text{.}\)</span>
+<div class="para" id="Chapter3Section1-2-7-2-3">The reciprocal and reciprocal squared functions are both power functions with negative whole number powers since they can be written as <span class="process-math">\(f(x)=x^{-1}\)</span> and <span class="process-math">\(f(x)=x^{-2}\text{.}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#Chapter3Section1-2-7-2-3" title="Copy permalink for Paragraph">🔗</a></div>
 </div>
-</div></article><article class="exercise exercise-like" id="Chapter3Section1-2-8"><h4 class="heading">
+<div class="para" id="Chapter3Section1-2-7-2-4">The square and cube root functions are both power functions with fractional powers since they can be written as <span class="process-math">\(f(x)=x^{\frac{1}{2}}\)</span> or <span class="process-math">\(f(x)=x^{\frac{1}{3}}\text{.}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#Chapter3Section1-2-7-2-4" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Solution 3.1.2.1"><a href="#Chapter3Section1-2-7-2" title="Copy permalink for Solution 3.1.2.1">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Example 3.1.2"><a href="#Chapter3Section1-2-7" title="Copy permalink for Example 3.1.2">🔗</a></div></article><article class="exercise exercise-like" id="Chapter3Section1-2-8"><h4 class="heading">
 <span class="type">Checkpoint</span><span class="space"> </span><span class="codenumber">3.1.3</span><span class="period">.</span>
 </h4>
-<div class="para" id="Chapter3Section1-2-8-1-1">What point(s) do the toolkit power functions have in common?</div></article></section><section class="subsection" id="Chapter3Section1-3"><h3 class="heading hide-type">
+<div class="para" id="Chapter3Section1-2-8-1-1">What point(s) do the toolkit power functions have in common?<div class="autopermalink" data-description="Paragraph"><a href="#Chapter3Section1-2-8-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Checkpoint 3.1.3"><a href="#Chapter3Section1-2-8" title="Copy permalink for Checkpoint 3.1.3">🔗</a></div></article><div class="autopermalink" data-description="Subsection 3.1.1: Introduction"><a href="#Chapter3Section1-2" title="Copy permalink for Subsection 3.1.1: Introduction">🔗</a></div></section><section class="subsection" id="Chapter3Section1-3"><h3 class="heading hide-type">
 <span class="type">Subsection</span><span class="space"> </span><span class="codenumber">3.1.2</span><span class="space"> </span><span class="title">Characteristics of Power Functions</span>
 </h3>
-<div class="para" id="Chapter3Section1-3-2">Shown below are the graphs of <span class="process-math">\(f(x)=x^{2}, f(x)=x^{4}, \text{ and }f(x)=x^{6}\text{,}\)</span> all even whole number powers. Notice that all these graphs have a fairly similar shape, very similar to the quadratic toolkit, but as the power increases the graphs flatten somewhat near the origin, and become steeper away from the origin.</div>
-<figure class="figure figure-like" id="c3s1i1"><div class="image-box" style="width: 100%; margin-left: 0%; margin-right: 0%;"><img src="external/C3S1Image1.png" class="contained" alt="Graphs of x^2, x^4 and x^6, all U-shaped and passing through the origin and 1 comma 1. x^6 is flattest near the origin and steepest away from the origin; x^2 is the most rounded near the origin and least steep away from the origin."></div>
-<figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">3.1.4<span class="period">.</span></span><span class="space"> </span>Graphs of even powered power functions.</figcaption></figure><div class="para" id="Chapter3Section1-3-4">To describe the behavior as numbers become larger and larger, we use the idea of infinity. The symbol for positive infinity is <span class="process-math">\(\infty\text{,}\)</span> and <span class="process-math">\(-\infty\)</span> for negative infinity. When we say that "<span class="process-math">\(x\)</span> approaches infinity", which can be symbolically written as <span class="process-math">\(x\rightarrow \infty\text{,}\)</span> we are describing a behavior. We are saying that <span class="process-math">\(x\)</span> is getting large in the positive direction.</div>
-<div class="para" id="Chapter3Section1-3-5">With the even power functions, as the <span class="process-math">\(x\)</span> becomes large in either the positive or negative direction, the output values become very large positive numbers. Equivalently, we could describe this by saying that as <span class="process-math">\(x\)</span> approaches positive or negative infinity, the <span class="process-math">\(f(x)\)</span> values approach positive infinity. In symbolic form, we could write: as <span class="process-math">\(x\rightarrow \pm \infty, f(x)\rightarrow \infty\text{.}\)</span>
+<div class="para" id="Chapter3Section1-3-2">Shown below are the graphs of <span class="process-math">\(f(x)=x^{2}, f(x)=x^{4}, \text{ and }f(x)=x^{6}\text{,}\)</span> all even whole number powers. Notice that all these graphs have a fairly similar shape, very similar to the quadratic toolkit, but as the power increases the graphs flatten somewhat near the origin, and become steeper away from the origin.<div class="autopermalink" data-description="Paragraph"><a href="#Chapter3Section1-3-2" title="Copy permalink for Paragraph">🔗</a></div>
 </div>
-<div class="para" id="Chapter3Section1-3-6">Shown below are the graphs of <span class="process-math">\(f(x)=x^{3},f(x)=x^{5}\text{,}\)</span> and <span class="process-math">\(f(x)=x^{7}\text{,}\)</span> all odd whole number powers. Notice all these graphs look similar to the cubic toolkit, but again as the power increases the graphs flatten near the origin and become steeper away from the origin.</div>
+<figure class="figure figure-like" id="c3s1i1"><div class="image-box" style="width: 100%; margin-left: 0%; margin-right: 0%;"><img src="external/C3S1Image1.png" class="contained" alt="Graphs of x^2, x^4 and x^6, all U-shaped and passing through the origin and 1 comma 1. x^6 is flattest near the origin and steepest away from the origin; x^2 is the most rounded near the origin and least steep away from the origin."></div>
+<figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">3.1.4<span class="period">.</span></span><span class="space"> </span>Graphs of even powered power functions.<div class="autopermalink" data-description="Figure 3.1.4"><a href="#c3s1i1" title="Copy permalink for Figure 3.1.4">🔗</a></div></figcaption></figure><div class="para" id="Chapter3Section1-3-4">To describe the behavior as numbers become larger and larger, we use the idea of infinity. The symbol for positive infinity is <span class="process-math">\(\infty\text{,}\)</span> and <span class="process-math">\(-\infty\)</span> for negative infinity. When we say that "<span class="process-math">\(x\)</span> approaches infinity", which can be symbolically written as <span class="process-math">\(x\rightarrow \infty\text{,}\)</span> we are describing a behavior. We are saying that <span class="process-math">\(x\)</span> is getting large in the positive direction.<div class="autopermalink" data-description="Paragraph"><a href="#Chapter3Section1-3-4" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="Chapter3Section1-3-5">With the even power functions, as the <span class="process-math">\(x\)</span> becomes large in either the positive or negative direction, the output values become very large positive numbers. Equivalently, we could describe this by saying that as <span class="process-math">\(x\)</span> approaches positive or negative infinity, the <span class="process-math">\(f(x)\)</span> values approach positive infinity. In symbolic form, we could write: as <span class="process-math">\(x\rightarrow \pm \infty, f(x)\rightarrow \infty\text{.}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#Chapter3Section1-3-5" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="Chapter3Section1-3-6">Shown below are the graphs of <span class="process-math">\(f(x)=x^{3},f(x)=x^{5}\text{,}\)</span> and <span class="process-math">\(f(x)=x^{7}\text{,}\)</span> all odd whole number powers. Notice all these graphs look similar to the cubic toolkit, but again as the power increases the graphs flatten near the origin and become steeper away from the origin.<div class="autopermalink" data-description="Paragraph"><a href="#Chapter3Section1-3-6" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
 <figure class="figure figure-like" id="c3s1i2"><div class="image-box" style="width: 100%; margin-left: 0%; margin-right: 0%;"><img src="external/C3S1Image2.png" class="contained" alt="Graphs of x^3, x^5 and x^7, all increasing quickly at first, flattening near the origin, then increasing again, passing through 1 comma 1. x^7 is flattest near the origin and steepest away from the origin; x^3 is the most rounded near the origin and least steep away from the origin."></div>
-<figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">3.1.5<span class="period">.</span></span><span class="space"> </span>Graphs of odd powered power functions.</figcaption></figure><div class="para" id="Chapter3Section1-3-8">For these odd power functions, as <span class="process-math">\(x\)</span> approaches negative infinity, <span class="process-math">\(f(x)\)</span> approaches negative infinity. As <span class="process-math">\(x\)</span> approaches positive infinity, <span class="process-math">\(f(x)\)</span> approaches positive infinity. In symbolic form we write: as <span class="process-math">\(x\rightarrow -\infty, f(x)\rightarrow -\infty\)</span> and as <span class="process-math">\(x\rightarrow \infty, f(x)\rightarrow \infty\text{.}\)</span>
+<figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">3.1.5<span class="period">.</span></span><span class="space"> </span>Graphs of odd powered power functions.<div class="autopermalink" data-description="Figure 3.1.5"><a href="#c3s1i2" title="Copy permalink for Figure 3.1.5">🔗</a></div></figcaption></figure><div class="para" id="Chapter3Section1-3-8">For these odd power functions, as <span class="process-math">\(x\)</span> approaches negative infinity, <span class="process-math">\(f(x)\)</span> approaches negative infinity. As <span class="process-math">\(x\)</span> approaches positive infinity, <span class="process-math">\(f(x)\)</span> approaches positive infinity. In symbolic form we write: as <span class="process-math">\(x\rightarrow -\infty, f(x)\rightarrow -\infty\)</span> and as <span class="process-math">\(x\rightarrow \infty, f(x)\rightarrow \infty\text{.}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#Chapter3Section1-3-8" title="Copy permalink for Paragraph">🔗</a></div>
 </div>
 <article class="definition definition-like" id="Chapter3Section1-3-9"><h4 class="heading">
 <span class="type">Definition</span><span class="space"> </span><span class="codenumber">3.1.6</span><span class="period">.</span><span class="space"> </span><span class="title">Long Run Behavior.</span>
 </h4>
-<div class="para" id="Chapter3Section1-3-9-2-1">The behavior of the graph of a function as the input takes on large negative values,<span class="process-math">\(x\rightarrow -\infty\text{,}\)</span> and large positive values, <span class="process-math">\(x\rightarrow \infty\text{,}\)</span> is referred to as the long run behavior of the function.</div></article><article class="example example-like" id="Chapter3Section1-3-10"><h4 class="heading">
+<div class="para" id="Chapter3Section1-3-9-2-1">The behavior of the graph of a function as the input takes on large negative values,<span class="process-math">\(x\rightarrow -\infty\text{,}\)</span> and large positive values, <span class="process-math">\(x\rightarrow \infty\text{,}\)</span> is referred to as the long run behavior of the function.<div class="autopermalink" data-description="Paragraph"><a href="#Chapter3Section1-3-9-2-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Definition 3.1.6: Long Run Behavior"><a href="#Chapter3Section1-3-9" title="Copy permalink for Definition 3.1.6: Long Run Behavior">🔗</a></div></article><article class="example example-like" id="Chapter3Section1-3-10"><h4 class="heading">
 <span class="type">Example</span><span class="space"> </span><span class="codenumber">3.1.7</span><span class="period">.</span>
 </h4>
-<div class="para" id="Chapter3Section1-3-10-1-1">Describe the long run behavior of the graph of <span class="process-math">\(f(x)=x^{8}\text{.}\)</span>
+<div class="para" id="Chapter3Section1-3-10-1-1">Describe the long run behavior of the graph of <span class="process-math">\(f(x)=x^{8}\text{.}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#Chapter3Section1-3-10-1-1" title="Copy permalink for Paragraph">🔗</a></div>
 </div>
 <div class="solution solution-like" id="Chapter3Section1-3-10-2">
 <h4 class="heading">
 <span class="type">Solution</span><span class="period">.</span>
 </h4>
-<div class="para" id="Chapter3Section1-3-10-2-1">Since <span class="process-math">\(f(x)=x^{8}\)</span> has a whole, even power, we would expect this function to behave somewhat like the quadratic function. As the input gets large positive or negative, we would expect the output to grow without bound in the positive direction. In symbolic form, as <span class="process-math">\(x\rightarrow \pm \infty, f(x)\rightarrow \infty\text{.}\)</span>
+<div class="para" id="Chapter3Section1-3-10-2-1">Since <span class="process-math">\(f(x)=x^{8}\)</span> has a whole, even power, we would expect this function to behave somewhat like the quadratic function. As the input gets large positive or negative, we would expect the output to grow without bound in the positive direction. In symbolic form, as <span class="process-math">\(x\rightarrow \pm \infty, f(x)\rightarrow \infty\text{.}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#Chapter3Section1-3-10-2-1" title="Copy permalink for Paragraph">🔗</a></div>
 </div>
-</div></article><article class="example example-like" id="Chapter3Section1-3-11"><h4 class="heading">
+<div class="autopermalink" data-description="Solution 3.1.7.1"><a href="#Chapter3Section1-3-10-2" title="Copy permalink for Solution 3.1.7.1">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Example 3.1.7"><a href="#Chapter3Section1-3-10" title="Copy permalink for Example 3.1.7">🔗</a></div></article><article class="example example-like" id="Chapter3Section1-3-11"><h4 class="heading">
 <span class="type">Example</span><span class="space"> </span><span class="codenumber">3.1.8</span><span class="period">.</span>
 </h4>
-<div class="para" id="Chapter3Section1-3-11-1-1">Describe the long run behavior of the graph of <span class="process-math">\(f(x)=-x^{9}.\)</span>
+<div class="para" id="Chapter3Section1-3-11-1-1">Describe the long run behavior of the graph of <span class="process-math">\(f(x)=-x^{9}.\)</span><div class="autopermalink" data-description="Paragraph"><a href="#Chapter3Section1-3-11-1-1" title="Copy permalink for Paragraph">🔗</a></div>
 </div>
 <div class="solution solution-like" id="Chapter3Section1-3-11-2">
 <h4 class="heading">
 <span class="type">Solution</span><span class="period">.</span>
 </h4>
-<div class="para" id="Chapter3Section1-3-11-2-1">Since this function has a whole odd power, we would expect it to behave somewhat like the cubic function. The negative in front of the <span class="process-math">\(x^{9}\)</span> will cause a vertical reflection, so as the inputs grow large positive, the outputs will grow large in the negative direction, and as the inputs grow large negative, the outputs will grow large in the positive direction. In symbolic form, for the long run behavior we would write: as <span class="process-math">\(x\rightarrow \infty, f(x)\rightarrow-\infty\)</span> and as <span class="process-math">\(x\rightarrow -\infty, f(x)\rightarrow\infty\text{.}\)</span>
+<div class="para" id="Chapter3Section1-3-11-2-1">Since this function has a whole odd power, we would expect it to behave somewhat like the cubic function. The negative in front of the <span class="process-math">\(x^{9}\)</span> will cause a vertical reflection, so as the inputs grow large positive, the outputs will grow large in the negative direction, and as the inputs grow large negative, the outputs will grow large in the positive direction. In symbolic form, for the long run behavior we would write: as <span class="process-math">\(x\rightarrow \infty, f(x)\rightarrow-\infty\)</span> and as <span class="process-math">\(x\rightarrow -\infty, f(x)\rightarrow\infty\text{.}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#Chapter3Section1-3-11-2-1" title="Copy permalink for Paragraph">🔗</a></div>
 </div>
-<div class="para" id="Chapter3Section1-3-11-2-2">You may use words or symbols to describe the long run behavior of these functions.</div>
-</div></article><article class="exercise exercise-like" id="Chapter3Section1-3-12"><h4 class="heading">
+<div class="para" id="Chapter3Section1-3-11-2-2">You may use words or symbols to describe the long run behavior of these functions.<div class="autopermalink" data-description="Paragraph"><a href="#Chapter3Section1-3-11-2-2" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Solution 3.1.8.1"><a href="#Chapter3Section1-3-11-2" title="Copy permalink for Solution 3.1.8.1">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Example 3.1.8"><a href="#Chapter3Section1-3-11" title="Copy permalink for Example 3.1.8">🔗</a></div></article><article class="exercise exercise-like" id="Chapter3Section1-3-12"><h4 class="heading">
 <span class="type">Checkpoint</span><span class="space"> </span><span class="codenumber">3.1.9</span><span class="period">.</span>
 </h4>
-<div class="para" id="Chapter3Section1-3-12-1-1">Describe in words and symbols the long run behavior of <span class="process-math">\(f(x)=-x^{4}.\)</span>
-</div></article><div class="para" id="Chapter3Section1-3-13">Treatment of the rational and radical forms of power functions will be saved for later.</div></section><section class="subsection" id="Chapter3Section1-4"><h3 class="heading hide-type">
+<div class="para" id="Chapter3Section1-3-12-1-1">Describe in words and symbols the long run behavior of <span class="process-math">\(f(x)=-x^{4}.\)</span><div class="autopermalink" data-description="Paragraph"><a href="#Chapter3Section1-3-12-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Checkpoint 3.1.9"><a href="#Chapter3Section1-3-12" title="Copy permalink for Checkpoint 3.1.9">🔗</a></div></article><div class="para" id="Chapter3Section1-3-13">Treatment of the rational and radical forms of power functions will be saved for later.<div class="autopermalink" data-description="Paragraph"><a href="#Chapter3Section1-3-13" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Subsection 3.1.2: Characteristics of Power Functions"><a href="#Chapter3Section1-3" title="Copy permalink for Subsection 3.1.2: Characteristics of Power Functions">🔗</a></div></section><section class="subsection" id="Chapter3Section1-4"><h3 class="heading hide-type">
 <span class="type">Subsection</span><span class="space"> </span><span class="codenumber">3.1.3</span><span class="space"> </span><span class="title">Polynomials</span>
 </h3>
-<div class="para" id="Chapter3Section1-4-2">An oil pipeline bursts in the Gulf of Mexico, causing an oil slick in a roughly circular shape. The slick is currently 24 miles in radius, but that radius is increasing by 8 miles each week. If we wanted to write a formula for the area covered by the oil slick, we could do so by composing two functions together. The first is a formula for the radius, <span class="process-math">\(r\text{,}\)</span> of the spill, which depends on the number of weeks, <span class="process-math">\(w\text{,}\)</span> that have passed.</div>
-<div class="para" id="Chapter3Section1-4-3">Hopefully you recognized that this relationship is linear: <span class="process-math">\(f(w)=r, f(w)=24+8w\)</span>
+<div class="para" id="Chapter3Section1-4-2">An oil pipeline bursts in the Gulf of Mexico, causing an oil slick in a roughly circular shape. The slick is currently 24 miles in radius, but that radius is increasing by 8 miles each week. If we wanted to write a formula for the area covered by the oil slick, we could do so by composing two functions together. The first is a formula for the radius, <span class="process-math">\(r\text{,}\)</span> of the spill, which depends on the number of weeks, <span class="process-math">\(w\text{,}\)</span> that have passed.<div class="autopermalink" data-description="Paragraph"><a href="#Chapter3Section1-4-2" title="Copy permalink for Paragraph">🔗</a></div>
 </div>
-<div class="para" id="Chapter3Section1-4-4">We can combine this with the formula for the area, <span class="process-math">\(A\text{,}\)</span> of a circle: <span class="process-math">\(g(r)=A, g(r)=\pi r^{2}\)</span>
+<div class="para" id="Chapter3Section1-4-3">Hopefully you recognized that this relationship is linear: <span class="process-math">\(f(w)=r, f(w)=24+8w\)</span><div class="autopermalink" data-description="Paragraph"><a href="#Chapter3Section1-4-3" title="Copy permalink for Paragraph">🔗</a></div>
 </div>
-<div class="para" id="Chapter3Section1-4-5">Composing these functions gives a formula for the area in terms of weeks: <span class="process-math">\(g(f(w))=g(24+8w)=\pi(24+8w)^{2}\)</span>
+<div class="para" id="Chapter3Section1-4-4">We can combine this with the formula for the area, <span class="process-math">\(A\text{,}\)</span> of a circle: <span class="process-math">\(g(r)=A, g(r)=\pi r^{2}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#Chapter3Section1-4-4" title="Copy permalink for Paragraph">🔗</a></div>
 </div>
-<div class="para" id="Chapter3Section1-4-6">Multiplying this out gives the formula <span class="process-math">\(g(f(w))=576\pi+384\pi w+64\pi w^{2}\)</span>
+<div class="para" id="Chapter3Section1-4-5">Composing these functions gives a formula for the area in terms of weeks: <span class="process-math">\(g(f(w))=g(24+8w)=\pi(24+8w)^{2}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#Chapter3Section1-4-5" title="Copy permalink for Paragraph">🔗</a></div>
 </div>
-<div class="para" id="Chapter3Section1-4-7">This formula is an example of a polynomial. A polynomial is simply the sum of terms each consisting of a vertically stretched or compressed power function with non-negative whole number power.</div>
+<div class="para" id="Chapter3Section1-4-6">Multiplying this out gives the formula <span class="process-math">\(g(f(w))=576\pi+384\pi w+64\pi w^{2}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#Chapter3Section1-4-6" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="Chapter3Section1-4-7">This formula is an example of a polynomial. A polynomial is simply the sum of terms each consisting of a vertically stretched or compressed power function with non-negative whole number power.<div class="autopermalink" data-description="Paragraph"><a href="#Chapter3Section1-4-7" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
 <article class="definition definition-like" id="Chapter3Section1-4-8"><h4 class="heading">
 <span class="type">Definition</span><span class="space"> </span><span class="codenumber">3.1.10</span><span class="period">.</span><span class="space"> </span><span class="title">Polynomial Function Terminology.</span>
 </h4>
-<div class="para" id="Chapter3Section1-4-8-2-1">A polynomial is function that can be written as <span class="process-math">\(f(x)=a_{0}+a_{1} x+a_{2} x^{2}+⋯+a_{n} x^{n}\)</span>
-</div> <div class="para" id="Chapter3Section1-4-8-2-2">Each of the <span class="process-math">\(a_{i}\)</span> constants are called coefficients and can be positive, negative, or zero, and be whole numbers, decimals, or fractions.</div> <div class="para" id="Chapter3Section1-4-8-2-3">A term of the polynomial is any one piece of the sum, that is any <span class="process-math">\(a_{i} x^{i}\text{.}\)</span> Each individual term is a transformed power function.</div> <div class="para" id="Chapter3Section1-4-8-2-4">The degree of the polynomial is the highest power of the variable that occurs in the polynomial.</div> <div class="para" id="Chapter3Section1-4-8-2-5">The leading term is the term containing the highest power of the variable: the term with the highest degree.</div> <div class="para" id="Chapter3Section1-4-8-2-6">The leading coefficient is the coefficient of the leading term.</div> <div class="para" id="Chapter3Section1-4-8-2-7">Because of the definition of the "leading" term we often rearrange polynomials so that the powers are descending. <span class="process-math">\(f(x)=a_{n} x^{n}+.....+a_{2} x^{2}+a_{1} x+a_{0}\)</span>
-</div></article><article class="example example-like" id="Chapter3Section1-4-9"><h4 class="heading">
+<div class="para" id="Chapter3Section1-4-8-2-1">A polynomial is function that can be written as <span class="process-math">\(f(x)=a_{0}+a_{1} x+a_{2} x^{2}+⋯+a_{n} x^{n}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#Chapter3Section1-4-8-2-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div> <div class="para" id="Chapter3Section1-4-8-2-2">Each of the <span class="process-math">\(a_{i}\)</span> constants are called coefficients and can be positive, negative, or zero, and be whole numbers, decimals, or fractions.<div class="autopermalink" data-description="Paragraph"><a href="#Chapter3Section1-4-8-2-2" title="Copy permalink for Paragraph">🔗</a></div>
+</div> <div class="para" id="Chapter3Section1-4-8-2-3">A term of the polynomial is any one piece of the sum, that is any <span class="process-math">\(a_{i} x^{i}\text{.}\)</span> Each individual term is a transformed power function.<div class="autopermalink" data-description="Paragraph"><a href="#Chapter3Section1-4-8-2-3" title="Copy permalink for Paragraph">🔗</a></div>
+</div> <div class="para" id="Chapter3Section1-4-8-2-4">The degree of the polynomial is the highest power of the variable that occurs in the polynomial.<div class="autopermalink" data-description="Paragraph"><a href="#Chapter3Section1-4-8-2-4" title="Copy permalink for Paragraph">🔗</a></div>
+</div> <div class="para" id="Chapter3Section1-4-8-2-5">The leading term is the term containing the highest power of the variable: the term with the highest degree.<div class="autopermalink" data-description="Paragraph"><a href="#Chapter3Section1-4-8-2-5" title="Copy permalink for Paragraph">🔗</a></div>
+</div> <div class="para" id="Chapter3Section1-4-8-2-6">The leading coefficient is the coefficient of the leading term.<div class="autopermalink" data-description="Paragraph"><a href="#Chapter3Section1-4-8-2-6" title="Copy permalink for Paragraph">🔗</a></div>
+</div> <div class="para" id="Chapter3Section1-4-8-2-7">Because of the definition of the "leading" term we often rearrange polynomials so that the powers are descending. <span class="process-math">\(f(x)=a_{n} x^{n}+.....+a_{2} x^{2}+a_{1} x+a_{0}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#Chapter3Section1-4-8-2-7" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Definition 3.1.10: Polynomial Function Terminology"><a href="#Chapter3Section1-4-8" title="Copy permalink for Definition 3.1.10: Polynomial Function Terminology">🔗</a></div></article><article class="example example-like" id="Chapter3Section1-4-9"><h4 class="heading">
 <span class="type">Example</span><span class="space"> </span><span class="codenumber">3.1.11</span><span class="period">.</span>
 </h4>
 <div class="para logical" id="Chapter3Section1-4-9-1-1">
 <div class="para">Identify the degree, leading term, and leading coefficient of these polynomials:</div>
 <ol class="decimal" id="Chapter3Section1-4-9-1-1-1">
-<li id="Chapter3Section1-4-9-1-1-1-1"><div class="para" id="Chapter3Section1-4-9-1-1-1-1-1"><span class="process-math">\(\displaystyle f(x)=3+2x^{2}-4x^{3}\)</span></div></li>
-<li id="Chapter3Section1-4-9-1-1-1-2"><div class="para" id="Chapter3Section1-4-9-1-1-1-2-1"><span class="process-math">\(\displaystyle g(t)=5t^{5}-2t^{3}+7t\)</span></div></li>
-<li id="Chapter3Section1-4-9-1-1-1-3"><div class="para" id="Chapter3Section1-4-9-1-1-1-3-1"><span class="process-math">\(\displaystyle h(p)=6p-p^{3}-2\)</span></div></li>
+<li id="Chapter3Section1-4-9-1-1-1-1">
+<div class="para" id="Chapter3Section1-4-9-1-1-1-1-1">
+<span class="process-math">\(\displaystyle f(x)=3+2x^{2}-4x^{3}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#Chapter3Section1-4-9-1-1-1-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item 1"><a href="#Chapter3Section1-4-9-1-1-1-1" title="Copy permalink for Item 1">🔗</a></div>
+</li>
+<li id="Chapter3Section1-4-9-1-1-1-2">
+<div class="para" id="Chapter3Section1-4-9-1-1-1-2-1">
+<span class="process-math">\(\displaystyle g(t)=5t^{5}-2t^{3}+7t\)</span><div class="autopermalink" data-description="Paragraph"><a href="#Chapter3Section1-4-9-1-1-1-2-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item 2"><a href="#Chapter3Section1-4-9-1-1-1-2" title="Copy permalink for Item 2">🔗</a></div>
+</li>
+<li id="Chapter3Section1-4-9-1-1-1-3">
+<div class="para" id="Chapter3Section1-4-9-1-1-1-3-1">
+<span class="process-math">\(\displaystyle h(p)=6p-p^{3}-2\)</span><div class="autopermalink" data-description="Paragraph"><a href="#Chapter3Section1-4-9-1-1-1-3-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item 3"><a href="#Chapter3Section1-4-9-1-1-1-3" title="Copy permalink for Item 3">🔗</a></div>
+</li>
 </ol>
+<div class="autopermalink" data-description="Paragraph"><a href="#Chapter3Section1-4-9-1-1" title="Copy permalink for Paragraph">🔗</a></div>
 </div>
 <div class="solution solution-like" id="Chapter3Section1-4-9-2">
 <h4 class="heading">
 <span class="type">Solution</span><span class="period">.</span>
 </h4>
-<div class="para logical" id="Chapter3Section1-4-9-2-1"><ol class="decimal" id="Chapter3Section1-4-9-2-1-1">
-<li id="Chapter3Section1-4-9-2-1-1-1"><div class="para" id="Chapter3Section1-4-9-2-1-1-1-1">For the function <span class="process-math">\(f(x)\text{,}\)</span> the degree is 3, the highest power on <span class="process-math">\(x\text{.}\)</span> The leading term is the term containing that power, <span class="process-math">\(-4x^{3}\text{.}\)</span> The leading coefficient is the coefficient of that term, -4.</div></li>
-<li id="Chapter3Section1-4-9-2-1-1-2"><div class="para" id="Chapter3Section1-4-9-2-1-1-2-1">For <span class="process-math">\(g(t)\text{,}\)</span> the degree is 5, the leading term is <span class="process-math">\(5t^{5}\text{,}\)</span> and the leading coefficient is 5.</div></li>
-<li id="Chapter3Section1-4-9-2-1-1-3"><div class="para" id="Chapter3Section1-4-9-2-1-1-3-1">For <span class="process-math">\(h(p)\text{,}\)</span> the degree is 3, the leading term is <span class="process-math">\(-p^{3}\text{,}\)</span> so the leading coefficient is -1.</div></li>
-</ol></div>
-</div></article></section><section class="subsection" id="Chapter3Section1-5"><h3 class="heading hide-type">
+<div class="para logical" id="Chapter3Section1-4-9-2-1">
+<ol class="decimal" id="Chapter3Section1-4-9-2-1-1">
+<li id="Chapter3Section1-4-9-2-1-1-1">
+<div class="para" id="Chapter3Section1-4-9-2-1-1-1-1">For the function <span class="process-math">\(f(x)\text{,}\)</span> the degree is 3, the highest power on <span class="process-math">\(x\text{.}\)</span> The leading term is the term containing that power, <span class="process-math">\(-4x^{3}\text{.}\)</span> The leading coefficient is the coefficient of that term, -4.<div class="autopermalink" data-description="Paragraph"><a href="#Chapter3Section1-4-9-2-1-1-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item 1"><a href="#Chapter3Section1-4-9-2-1-1-1" title="Copy permalink for Item 1">🔗</a></div>
+</li>
+<li id="Chapter3Section1-4-9-2-1-1-2">
+<div class="para" id="Chapter3Section1-4-9-2-1-1-2-1">For <span class="process-math">\(g(t)\text{,}\)</span> the degree is 5, the leading term is <span class="process-math">\(5t^{5}\text{,}\)</span> and the leading coefficient is 5.<div class="autopermalink" data-description="Paragraph"><a href="#Chapter3Section1-4-9-2-1-1-2-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item 2"><a href="#Chapter3Section1-4-9-2-1-1-2" title="Copy permalink for Item 2">🔗</a></div>
+</li>
+<li id="Chapter3Section1-4-9-2-1-1-3">
+<div class="para" id="Chapter3Section1-4-9-2-1-1-3-1">For <span class="process-math">\(h(p)\text{,}\)</span> the degree is 3, the leading term is <span class="process-math">\(-p^{3}\text{,}\)</span> so the leading coefficient is -1.<div class="autopermalink" data-description="Paragraph"><a href="#Chapter3Section1-4-9-2-1-1-3-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item 3"><a href="#Chapter3Section1-4-9-2-1-1-3" title="Copy permalink for Item 3">🔗</a></div>
+</li>
+</ol>
+<div class="autopermalink" data-description="Paragraph"><a href="#Chapter3Section1-4-9-2-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Solution 3.1.11.1"><a href="#Chapter3Section1-4-9-2" title="Copy permalink for Solution 3.1.11.1">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Example 3.1.11"><a href="#Chapter3Section1-4-9" title="Copy permalink for Example 3.1.11">🔗</a></div></article><div class="autopermalink" data-description="Subsection 3.1.3: Polynomials"><a href="#Chapter3Section1-4" title="Copy permalink for Subsection 3.1.3: Polynomials">🔗</a></div></section><section class="subsection" id="Chapter3Section1-5"><h3 class="heading hide-type">
 <span class="type">Subsection</span><span class="space"> </span><span class="codenumber">3.1.4</span><span class="space"> </span><span class="title">Long and Short Run Behavior</span>
 </h3>
 <article class="definition definition-like" id="Chapter3Section1-5-2"><h4 class="heading">
 <span class="type">Definition</span><span class="space"> </span><span class="codenumber">3.1.12</span><span class="period">.</span><span class="space"> </span><span class="title">Long Run Behavior of Polynomials.</span>
 </h4>
-<div class="para" id="Chapter3Section1-5-2-2-1">For any polynomial, the long run behavior of the polynomial will match the long run behavior of the leading term.</div></article><article class="example example-like" id="Chapter3Section1-5-3"><h4 class="heading">
+<div class="para" id="Chapter3Section1-5-2-2-1">For any polynomial, the long run behavior of the polynomial will match the long run behavior of the leading term.<div class="autopermalink" data-description="Paragraph"><a href="#Chapter3Section1-5-2-2-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Definition 3.1.12: Long Run Behavior of Polynomials"><a href="#Chapter3Section1-5-2" title="Copy permalink for Definition 3.1.12: Long Run Behavior of Polynomials">🔗</a></div></article><article class="example example-like" id="Chapter3Section1-5-3"><h4 class="heading">
 <span class="type">Example</span><span class="space"> </span><span class="codenumber">3.1.13</span><span class="period">.</span>
 </h4>
-<div class="para" id="Chapter3Section1-5-3-1-1">What can we determine about the long run behavior and degree of the equation for the polynomial graphed here?</div> <div class="image-box" style="width: 100%; margin-left: 0%; margin-right: 0%;"><img src="external/C3S1Image3.png" class="contained" alt="Polynomial graph increasing to 0 comma 2, decreasing to about 3.8 comma negative 2.1, then increasing."></div>
+<div class="para" id="Chapter3Section1-5-3-1-1">What can we determine about the long run behavior and degree of the equation for the polynomial graphed here?<div class="autopermalink" data-description="Paragraph"><a href="#Chapter3Section1-5-3-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div> <div class="image-box" style="width: 100%; margin-left: 0%; margin-right: 0%;"><img src="external/C3S1Image3.png" class="contained" alt="Polynomial graph increasing to 0 comma 2, decreasing to about 3.8 comma negative 2.1, then increasing."></div>
 <div class="solution solution-like" id="Chapter3Section1-5-3-2">
 <h4 class="heading">
 <span class="type">Solution</span><span class="period">.</span>
 </h4>
-<div class="para" id="Chapter3Section1-5-3-2-1">Since the output grows large and positive as the inputs grow large and positive, we describe the long run behavior symbolically by writing: as <span class="process-math">\(x\rightarrow \infty, f(x)\rightarrow \infty\text{.}\)</span> Similarly, as <span class="process-math">\(x\rightarrow -\infty, f(x)\rightarrow-\infty\text{.}\)</span>
+<div class="para" id="Chapter3Section1-5-3-2-1">Since the output grows large and positive as the inputs grow large and positive, we describe the long run behavior symbolically by writing: as <span class="process-math">\(x\rightarrow \infty, f(x)\rightarrow \infty\text{.}\)</span> Similarly, as <span class="process-math">\(x\rightarrow -\infty, f(x)\rightarrow-\infty\text{.}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#Chapter3Section1-5-3-2-1" title="Copy permalink for Paragraph">🔗</a></div>
 </div>
-<div class="para" id="Chapter3Section1-5-3-2-2">In words, we could say that as <span class="process-math">\(x\)</span> values approach infinity, the function values approach infinity, and as <span class="process-math">\(x\)</span> values approach negative infinity the function values approach negative infinity.</div>
-<div class="para" id="Chapter3Section1-5-3-2-3">We can tell this graph has the shape of an odd degree power function which has not been reflected, so the degree of the polynomial creating this graph must be odd, and the leading coefficient would be positive.</div>
-</div></article><article class="exercise exercise-like" id="Chapter3Section1-5-4"><h4 class="heading">
+<div class="para" id="Chapter3Section1-5-3-2-2">In words, we could say that as <span class="process-math">\(x\)</span> values approach infinity, the function values approach infinity, and as <span class="process-math">\(x\)</span> values approach negative infinity the function values approach negative infinity.<div class="autopermalink" data-description="Paragraph"><a href="#Chapter3Section1-5-3-2-2" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="Chapter3Section1-5-3-2-3">We can tell this graph has the shape of an odd degree power function which has not been reflected, so the degree of the polynomial creating this graph must be odd, and the leading coefficient would be positive.<div class="autopermalink" data-description="Paragraph"><a href="#Chapter3Section1-5-3-2-3" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Solution 3.1.13.1"><a href="#Chapter3Section1-5-3-2" title="Copy permalink for Solution 3.1.13.1">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Example 3.1.13"><a href="#Chapter3Section1-5-3" title="Copy permalink for Example 3.1.13">🔗</a></div></article><article class="exercise exercise-like" id="Chapter3Section1-5-4"><h4 class="heading">
 <span class="type">Checkpoint</span><span class="space"> </span><span class="codenumber">3.1.14</span><span class="period">.</span>
 </h4>
-<div class="para" id="Chapter3Section1-5-4-1-1">Given the function <span class="process-math">\(f(x)=0.2(x-2)(x+1)(x-5)\)</span> use your algebra skills to determine the leading term, degree, and long run behavior of the function.</div></article><div class="para" id="Chapter3Section1-5-5">Characteristics of the graph such as vertical and horizontal intercepts are part of the short run behavior of the polynomial.</div>
-<div class="para" id="Chapter3Section1-5-6">Like with all functions, the vertical intercept is where the graph crosses the vertical axis, and occurs when the input value is zero. Since a polynomial is a function, there can only be one vertical intercept, which occurs at the point <span class="process-math">\((0,a_{0})\text{.}\)</span> The horizontal intercepts occur at the input values that correspond with an output value of zero. It is possible to have more than one horizontal intercept.</div>
-<div class="para" id="Chapter3Section1-5-7">Horizontal intercepts are also called zeros, or roots of the function.</div>
+<div class="para" id="Chapter3Section1-5-4-1-1">Given the function <span class="process-math">\(f(x)=0.2(x-2)(x+1)(x-5)\)</span> use your algebra skills to determine the leading term, degree, and long run behavior of the function.<div class="autopermalink" data-description="Paragraph"><a href="#Chapter3Section1-5-4-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Checkpoint 3.1.14"><a href="#Chapter3Section1-5-4" title="Copy permalink for Checkpoint 3.1.14">🔗</a></div></article><div class="para" id="Chapter3Section1-5-5">Characteristics of the graph such as vertical and horizontal intercepts are part of the short run behavior of the polynomial.<div class="autopermalink" data-description="Paragraph"><a href="#Chapter3Section1-5-5" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="Chapter3Section1-5-6">Like with all functions, the vertical intercept is where the graph crosses the vertical axis, and occurs when the input value is zero. Since a polynomial is a function, there can only be one vertical intercept, which occurs at the point <span class="process-math">\((0,a_{0})\text{.}\)</span> The horizontal intercepts occur at the input values that correspond with an output value of zero. It is possible to have more than one horizontal intercept.<div class="autopermalink" data-description="Paragraph"><a href="#Chapter3Section1-5-6" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="Chapter3Section1-5-7">Horizontal intercepts are also called zeros, or roots of the function.<div class="autopermalink" data-description="Paragraph"><a href="#Chapter3Section1-5-7" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
 <article class="example example-like" id="Chapter3Section1-5-8"><h4 class="heading">
 <span class="type">Example</span><span class="space"> </span><span class="codenumber">3.1.15</span><span class="period">.</span>
 </h4>
-<div class="para" id="Chapter3Section1-5-8-1-1">Given the polynomial function <span class="process-math">\(f(x)=(x-2)(x+1)(x-4)\text{,}\)</span> determine the vertical and horizontal intercepts.</div>
+<div class="para" id="Chapter3Section1-5-8-1-1">Given the polynomial function <span class="process-math">\(f(x)=(x-2)(x+1)(x-4)\text{,}\)</span> determine the vertical and horizontal intercepts.<div class="autopermalink" data-description="Paragraph"><a href="#Chapter3Section1-5-8-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
 <div class="solution solution-like" id="Chapter3Section1-5-8-2">
 <h4 class="heading">
 <span class="type">Solution</span><span class="period">.</span>
 </h4>
-<div class="para" id="Chapter3Section1-5-8-2-1">The vertical intercept occurs when the input is zero. <span class="process-math">\(f(0)=(0-2)(0+1)(0-4)=8\text{.}\)</span>
+<div class="para" id="Chapter3Section1-5-8-2-1">The vertical intercept occurs when the input is zero. <span class="process-math">\(f(0)=(0-2)(0+1)(0-4)=8\text{.}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#Chapter3Section1-5-8-2-1" title="Copy permalink for Paragraph">🔗</a></div>
 </div>
-<div class="para" id="Chapter3Section1-5-8-2-2">The graph crosses the vertical axis at the point <span class="process-math">\((0, 8)\text{.}\)</span>
+<div class="para" id="Chapter3Section1-5-8-2-2">The graph crosses the vertical axis at the point <span class="process-math">\((0, 8)\text{.}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#Chapter3Section1-5-8-2-2" title="Copy permalink for Paragraph">🔗</a></div>
 </div>
-<div class="para" id="Chapter3Section1-5-8-2-3">The horizontal intercepts occur when the output is zero. <span class="process-math">\(0=(x-2)(x+1)(x-4),\)</span> which is true when <span class="process-math">\(x = 2, -1\text{,}\)</span> or <span class="process-math">\(4\text{.}\)</span> <span class="process-math">\(f(x)\)</span> has zeros, or roots, <span class="process-math">\(at x = 2, -1\text{,}\)</span> and <span class="process-math">\(4\text{.}\)</span>
+<div class="para" id="Chapter3Section1-5-8-2-3">The horizontal intercepts occur when the output is zero. <span class="process-math">\(0=(x-2)(x+1)(x-4),\)</span> which is true when <span class="process-math">\(x = 2, -1\text{,}\)</span> or <span class="process-math">\(4\text{.}\)</span> <span class="process-math">\(f(x)\)</span> has zeros, or roots, <span class="process-math">\(at x = 2, -1\text{,}\)</span> and <span class="process-math">\(4\text{.}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#Chapter3Section1-5-8-2-3" title="Copy permalink for Paragraph">🔗</a></div>
 </div>
-<div class="para" id="Chapter3Section1-5-8-2-4">The graph crosses the horizontal axis at the points <span class="process-math">\((2, 0), (-1, 0)\text{,}\)</span> and <span class="process-math">\((4, 0)\text{.}\)</span>
+<div class="para" id="Chapter3Section1-5-8-2-4">The graph crosses the horizontal axis at the points <span class="process-math">\((2, 0), (-1, 0)\text{,}\)</span> and <span class="process-math">\((4, 0)\text{.}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#Chapter3Section1-5-8-2-4" title="Copy permalink for Paragraph">🔗</a></div>
 </div>
-</div></article><div class="para" id="Chapter3Section1-5-9">Notice that the polynomial in the previous example, which would be degree three if multiplied out, had three horizontal intercepts.</div>
+<div class="autopermalink" data-description="Solution 3.1.15.1"><a href="#Chapter3Section1-5-8-2" title="Copy permalink for Solution 3.1.15.1">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Example 3.1.15"><a href="#Chapter3Section1-5-8" title="Copy permalink for Example 3.1.15">🔗</a></div></article><div class="para" id="Chapter3Section1-5-9">Notice that the polynomial in the previous example, which would be degree three if multiplied out, had three horizontal intercepts.<div class="autopermalink" data-description="Paragraph"><a href="#Chapter3Section1-5-9" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
 <article class="definition definition-like" id="Chapter3Section1-5-10"><h4 class="heading">
 <span class="type">Definition</span><span class="space"> </span><span class="codenumber">3.1.16</span><span class="period">.</span><span class="space"> </span><span class="title">Intercepts of Polynomials.</span>
 </h4>
-<div class="para" id="Chapter3Section1-5-10-2-1">A polynomial of degree <span class="process-math">\(n\)</span> will have at most <span class="process-math">\(n\)</span> horizontal intercepts.</div></article><article class="exercise exercise-like" id="Chapter3Section1-5-11"><h4 class="heading">
+<div class="para" id="Chapter3Section1-5-10-2-1">A polynomial of degree <span class="process-math">\(n\)</span> will have at most <span class="process-math">\(n\)</span> horizontal intercepts.<div class="autopermalink" data-description="Paragraph"><a href="#Chapter3Section1-5-10-2-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Definition 3.1.16: Intercepts of Polynomials"><a href="#Chapter3Section1-5-10" title="Copy permalink for Definition 3.1.16: Intercepts of Polynomials">🔗</a></div></article><article class="exercise exercise-like" id="Chapter3Section1-5-11"><h4 class="heading">
 <span class="type">Checkpoint</span><span class="space"> </span><span class="codenumber">3.1.17</span><span class="period">.</span>
 </h4>
-<div class="para" id="Chapter3Section1-5-11-1-1">Given the function <span class="process-math">\(f(x)=0.2(x-2)(x+1)(x-5)\text{,}\)</span> determine the roots and vertical intercept of the function <span class="process-math">\(f\text{.}\)</span>
-</div></article></section><section class="subsection" id="Chapter3Section1-6"><h3 class="heading hide-type">
+<div class="para" id="Chapter3Section1-5-11-1-1">Given the function <span class="process-math">\(f(x)=0.2(x-2)(x+1)(x-5)\text{,}\)</span> determine the roots and vertical intercept of the function <span class="process-math">\(f\text{.}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#Chapter3Section1-5-11-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Checkpoint 3.1.17"><a href="#Chapter3Section1-5-11" title="Copy permalink for Checkpoint 3.1.17">🔗</a></div></article><div class="autopermalink" data-description="Subsection 3.1.4: Long and Short Run Behavior"><a href="#Chapter3Section1-5" title="Copy permalink for Subsection 3.1.4: Long and Short Run Behavior">🔗</a></div></section><section class="subsection" id="Chapter3Section1-6"><h3 class="heading hide-type">
 <span class="type">Subsection</span><span class="space"> </span><span class="codenumber">3.1.5</span><span class="space"> </span><span class="title">Answers</span>
 </h3>
 <article class="exercise exercise-like" id="Chapter3Section1-6-2"><h4 class="heading">
 <span class="type">Checkpoint</span><span class="space"> </span><span class="codenumber">3.1.18</span><span class="period">.</span>
 </h4>
-<div class="para" id="Chapter3Section1-6-2-1-1">Answers to Checkpoint Exercises</div>
-<div class="solutions"><details id="Chapter3Section1-6-2-2" class="answer solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Answer</span><span class="period">.</span></summary><div class="answer solution-like knowl__content"><div class="para logical" id="Chapter3Section1-6-2-2-1"><ol class="decimal" id="Chapter3Section1-6-2-2-1-1">
-<li id="Chapter3Section1-6-2-2-1-1-1"><div class="para" id="Chapter3Section1-6-2-2-1-1-1-1">
-<span class="process-math">\((0, 0)\)</span> and <span class="process-math">\((1, 1)\)</span> are common to all power functions.</div></li>
-<li id="Chapter3Section1-6-2-2-1-1-2"><div class="para" id="Chapter3Section1-6-2-2-1-1-2-1">As <span class="process-math">\(x\)</span> approaches positive and negative infinity, <span class="process-math">\(f(x)\)</span> approaches negative infinity: <span class="process-math">\(as x\rightarrow \pm\infty, f(x)\rightarrow\infty\)</span> because of the vertical flip.</div></li>
-<li id="Chapter3Section1-6-2-2-1-1-3"><div class="para" id="Chapter3Section1-6-2-2-1-1-3-1">The leading term is <span class="process-math">\(0.2x^{3}\text{,}\)</span> so it is a degree 3 polynomial.</div></li>
-<li id="Chapter3Section1-6-2-2-1-1-4"><div class="para" id="Chapter3Section1-6-2-2-1-1-4-1">As <span class="process-math">\(x\)</span> approaches infinity (or gets very large in the positive direction) <span class="process-math">\(f(x)\)</span> approaches infinity; as <span class="process-math">\(x\)</span> approaches negative infinity (or gets very large in the negative direction) <span class="process-math">\(f(x)\)</span> approaches negative infinity. (Basically the long run behavior is the same as the cubic function).</div></li>
-<li id="Chapter3Section1-6-2-2-1-1-5"><div class="para" id="Chapter3Section1-6-2-2-1-1-5-1">Horizontal intercepts are <span class="process-math">\((2, 0), (-1, 0)\text{,}\)</span> and <span class="process-math">\((5, 0)\text{,}\)</span> and the vertical intercept is <span class="process-math">\((0, 2)\text{.}\)</span>
-</div></li>
-</ol></div></div></details></div></article></section></section></div>
+<div class="para" id="Chapter3Section1-6-2-1-1">Answers to Checkpoint Exercises<div class="autopermalink" data-description="Paragraph"><a href="#Chapter3Section1-6-2-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="solutions"><details id="Chapter3Section1-6-2-2" class="answer solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Answer</span><span class="period">.</span></summary><div class="answer solution-like knowl__content">
+<div class="para logical" id="Chapter3Section1-6-2-2-1">
+<ol class="decimal" id="Chapter3Section1-6-2-2-1-1">
+<li id="Chapter3Section1-6-2-2-1-1-1">
+<div class="para" id="Chapter3Section1-6-2-2-1-1-1-1">
+<span class="process-math">\((0, 0)\)</span> and <span class="process-math">\((1, 1)\)</span> are common to all power functions.<div class="autopermalink" data-description="Paragraph"><a href="#Chapter3Section1-6-2-2-1-1-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item 3.1.18.1"><a href="#Chapter3Section1-6-2-2-1-1-1" title="Copy permalink for Item 3.1.18.1">🔗</a></div>
+</li>
+<li id="Chapter3Section1-6-2-2-1-1-2">
+<div class="para" id="Chapter3Section1-6-2-2-1-1-2-1">As <span class="process-math">\(x\)</span> approaches positive and negative infinity, <span class="process-math">\(f(x)\)</span> approaches negative infinity: <span class="process-math">\(as x\rightarrow \pm\infty, f(x)\rightarrow\infty\)</span> because of the vertical flip.<div class="autopermalink" data-description="Paragraph"><a href="#Chapter3Section1-6-2-2-1-1-2-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item 3.1.18.2"><a href="#Chapter3Section1-6-2-2-1-1-2" title="Copy permalink for Item 3.1.18.2">🔗</a></div>
+</li>
+<li id="Chapter3Section1-6-2-2-1-1-3">
+<div class="para" id="Chapter3Section1-6-2-2-1-1-3-1">The leading term is <span class="process-math">\(0.2x^{3}\text{,}\)</span> so it is a degree 3 polynomial.<div class="autopermalink" data-description="Paragraph"><a href="#Chapter3Section1-6-2-2-1-1-3-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item 3.1.18.3"><a href="#Chapter3Section1-6-2-2-1-1-3" title="Copy permalink for Item 3.1.18.3">🔗</a></div>
+</li>
+<li id="Chapter3Section1-6-2-2-1-1-4">
+<div class="para" id="Chapter3Section1-6-2-2-1-1-4-1">As <span class="process-math">\(x\)</span> approaches infinity (or gets very large in the positive direction) <span class="process-math">\(f(x)\)</span> approaches infinity; as <span class="process-math">\(x\)</span> approaches negative infinity (or gets very large in the negative direction) <span class="process-math">\(f(x)\)</span> approaches negative infinity. (Basically the long run behavior is the same as the cubic function).<div class="autopermalink" data-description="Paragraph"><a href="#Chapter3Section1-6-2-2-1-1-4-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item 3.1.18.4"><a href="#Chapter3Section1-6-2-2-1-1-4" title="Copy permalink for Item 3.1.18.4">🔗</a></div>
+</li>
+<li id="Chapter3Section1-6-2-2-1-1-5">
+<div class="para" id="Chapter3Section1-6-2-2-1-1-5-1">Horizontal intercepts are <span class="process-math">\((2, 0), (-1, 0)\text{,}\)</span> and <span class="process-math">\((5, 0)\text{,}\)</span> and the vertical intercept is <span class="process-math">\((0, 2)\text{.}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#Chapter3Section1-6-2-2-1-1-5-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item 3.1.18.5"><a href="#Chapter3Section1-6-2-2-1-1-5" title="Copy permalink for Item 3.1.18.5">🔗</a></div>
+</li>
+</ol>
+<div class="autopermalink" data-description="Paragraph"><a href="#Chapter3Section1-6-2-2-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Answer 3.1.18.1"><a href="#Chapter3Section1-6-2-2" title="Copy permalink for Answer 3.1.18.1">🔗</a></div>
+</div></details></div>
+<div class="autopermalink" data-description="Checkpoint 3.1.18"><a href="#Chapter3Section1-6-2" title="Copy permalink for Checkpoint 3.1.18">🔗</a></div></article><div class="autopermalink" data-description="Subsection 3.1.5: Answers"><a href="#Chapter3Section1-6" title="Copy permalink for Subsection 3.1.5: Answers">🔗</a></div></section><div class="autopermalink" data-description="Section 3.1: Power and Polynomial Functions"><a href="#Chapter3Section1" title="Copy permalink for Section 3.1: Power and Polynomial Functions">🔗</a></div></section></div>
 <div id="ptx-content-footer" class="ptx-content-footer">
 <a class="previous-button button" href="Chapter3.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="top-button button" href="#" title="Top"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Top</span></a><a class="next-button button" href="Chapter3Section2.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a>
 </div></main>

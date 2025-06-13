@@ -5,7 +5,7 @@
 <!--*         https://pretextbook.org          *-->
 <!--*                                          *-->
 <!--********************************************-->
-<html lang="en-US" dir="ltr" data-legacy-colorscheme="blue_red">
+<html lang="en-US" dir="ltr" data-legacy-colorscheme="default">
 <!--******************************************-->
 <!--*  Authored with PreTeXt                 *-->
 <!--*  pretextbook.org                       *-->
@@ -134,7 +134,12 @@ eBookConfig.enable_chatcodes =  false;
 <ol id="searchresults" class="searchresults"></ol>
 </div>
 </div>
-<span class="nav-other-controls"></span><span class="treebuttons"><a class="previous-button button" href="Chapter1Section2.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="up-button button" href="Chapter1.html" title="Up"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Up</span></a><a class="next-button button" href="Chapter1Section4.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a></span>
+<span class="nav-other-controls"><button id="embed-button" class="embed-button button" title="Embed this page"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe86f;</span><span class="name">Embed</span></button><div class="embed-popup hidden" id="embed-popup">
+<p>Copy the code below to embed this page in your own website or LMS page.</p>
+<div class="embed-code-container">
+<textarea class="embed-code-textbox" id="embed-code-textbox" readonly aria-label="textbox"><iframe src="https://example.com/embed" width="100%" height="1000"></iframe></textarea><button class="copy-embed-button button" id="copy-embed-button" title="Copy embed code"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe14d;</span><span class="name">Copy</span></button>
+</div>
+</div></span><span class="treebuttons"><a class="previous-button button" href="Chapter1Section2.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="up-button button" href="Chapter1.html" title="Up"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Up</span></a><a class="next-button button" href="Chapter1Section4.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a></span>
 </div></nav><div id="latex-macros" class="hidden-content process-math" style="display:none"><span class="process-math">\(\newcommand{\N}{\mathbb N} \newcommand{\Z}{\mathbb Z} \newcommand{\Q}{\mathbb Q} \newcommand{\R}{\mathbb R}
 \newcommand{\lt}{&lt;}
 \newcommand{\gt}{&gt;}
@@ -318,7 +323,17 @@ eBookConfig.enable_chatcodes =  false;
 <li class="toc-item toc-subsection"><div class="toc-title-box"><a href="Chapter4Section5.html#Chapter4Section5-4" class="internal"><span class="codenumber">4.5.3</span> <span class="title">Answers</span></a></div></li>
 </ul>
 </li>
-<li class="toc-item toc-section"><div class="toc-title-box"><a href="Chapter4Section6.html" class="internal"><span class="codenumber">4.6</span> <span class="title">Exponential and Logarithmic Models</span></a></div></li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="Chapter4Section6.html" class="internal"><span class="codenumber">4.6</span> <span class="title">Exponential and Logarithmic Models</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="Chapter4Section6.html#Chapter4Section6-2" class="internal"><span class="codenumber">4.6.1</span> <span class="title">Introduction</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="Chapter4Section6.html#Chapter4Section6-3" class="internal"><span class="codenumber">4.6.2</span> <span class="title">Radioactive Decay</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="Chapter4Section6.html#Chapter4Section6-4" class="internal"><span class="codenumber">4.6.3</span> <span class="title">Doubling Time</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="Chapter4Section6.html#Chapter4Section6-5" class="internal"><span class="codenumber">4.6.4</span> <span class="title">Logarithmic Scales</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="Chapter4Section6.html#Chapter4Section6-6" class="internal"><span class="codenumber">4.6.5</span> <span class="title">Earthquakes</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="Chapter4Section6.html#Chapter4Section6-7" class="internal"><span class="codenumber">4.6.6</span> <span class="title">Answers</span></a></div></li>
+</ul>
+</li>
 </ul>
 </li>
 <li class="toc-item toc-backmatter"><div class="toc-title-box"><a href="backmatter.html" class="internal"><span class="title">Backmatter</span></a></div></li>
@@ -333,12 +348,31 @@ eBookConfig.enable_chatcodes =  false;
 <span class="type">Objectives:</span><span class="space"> </span><span class="title">Important Topics of This Section</span>
 </h4>
 <ul class="disc" id="Chapter1Section3-2-2-2">
-<li id="Chapter1Section3-2-2-2-1"><div class="para" id="Chapter1Section3-2-2-2-1-1">Rate of Change</div></li>
-<li id="Chapter1Section3-2-2-2-2"><div class="para" id="Chapter1Section3-2-2-2-2-1">Average Rate of Change</div></li>
-<li id="Chapter1Section3-2-2-2-3"><div class="para" id="Chapter1Section3-2-2-2-3-1">Calculating Average Rate of Change using Function Notation</div></li>
-<li id="Chapter1Section3-2-2-2-4"><div class="para" id="Chapter1Section3-2-2-2-4-1">Increasing/Decreasing Functions</div></li>
-</ul></article><div class="para" id="Chapter1Section3-2-3">Since functions represent how an output quantity varies with an input quantity, it is natural to ask about the rate at which the values of the function are changing.</div>
-<div class="para" id="Chapter1Section3-2-4">For example, the function <span class="process-math">\(g\)</span> below gives the average cost <span class="process-math">\(C\text{,}\)</span> in dollars, of a gallon of gasoline <span class="process-math">\(t\)</span> years after 2000.</div>
+<li id="Chapter1Section3-2-2-2-1">
+<div class="para" id="Chapter1Section3-2-2-2-1-1">Rate of Change<div class="autopermalink" data-description="Paragraph"><a href="#Chapter1Section3-2-2-2-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Objective"><a href="#Chapter1Section3-2-2-2-1" title="Copy permalink for Objective">🔗</a></div>
+</li>
+<li id="Chapter1Section3-2-2-2-2">
+<div class="para" id="Chapter1Section3-2-2-2-2-1">Average Rate of Change<div class="autopermalink" data-description="Paragraph"><a href="#Chapter1Section3-2-2-2-2-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Objective"><a href="#Chapter1Section3-2-2-2-2" title="Copy permalink for Objective">🔗</a></div>
+</li>
+<li id="Chapter1Section3-2-2-2-3">
+<div class="para" id="Chapter1Section3-2-2-2-3-1">Calculating Average Rate of Change using Function Notation<div class="autopermalink" data-description="Paragraph"><a href="#Chapter1Section3-2-2-2-3-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Objective"><a href="#Chapter1Section3-2-2-2-3" title="Copy permalink for Objective">🔗</a></div>
+</li>
+<li id="Chapter1Section3-2-2-2-4">
+<div class="para" id="Chapter1Section3-2-2-2-4-1">Increasing/Decreasing Functions<div class="autopermalink" data-description="Paragraph"><a href="#Chapter1Section3-2-2-2-4-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Objective"><a href="#Chapter1Section3-2-2-2-4" title="Copy permalink for Objective">🔗</a></div>
+</li>
+</ul>
+<div class="autopermalink" data-description="Objectives 1.3.1: Important Topics of This Section"><a href="#Chapter1Section3-2-2" title="Copy permalink for Objectives 1.3.1: Important Topics of This Section">🔗</a></div></article><div class="para" id="Chapter1Section3-2-3">Since functions represent how an output quantity varies with an input quantity, it is natural to ask about the rate at which the values of the function are changing.<div class="autopermalink" data-description="Paragraph"><a href="#Chapter1Section3-2-3" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="Chapter1Section3-2-4">For example, the function <span class="process-math">\(g\)</span> below gives the average cost <span class="process-math">\(C\text{,}\)</span> in dollars, of a gallon of gasoline <span class="process-math">\(t\)</span> years after 2000.<div class="autopermalink" data-description="Paragraph"><a href="#Chapter1Section3-2-4" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
 <div class="tabular-box natural-width"><table class="tabular">
 <tr>
 <td class="c m b0 r0 l0 t0 lines"><span class="process-math">\(t\)</span></td>
@@ -363,19 +397,48 @@ eBookConfig.enable_chatcodes =  false;
 <td class="c m b0 r0 l0 t0 lines">2.14</td>
 </tr>
 </table></div>
-<div class="para" id="Chapter1Section3-2-6">If we were interested in how the gas prices had changed between 2002 and 2009, we could compute that the cost per gallon had increased from $1.47 to $2.14, an increase of $0.67. While this is interesting, it might be more useful to look at how much the price changed per year. You are probably noticing that the price didn’t change the same amount each year, so we would be finding the average rate of change over a specified amount of time.</div>
-<div class="para" id="Chapter1Section3-2-7">The gas price increased by $0.67 from 2002 to 2009, over 7 years, for an average of $0.67/7 years <span class="process-math">\(\approx\)</span> $0.096 per year. On average, the price of gas increased by about 9.6 cents each year.</div>
+<div class="para" id="Chapter1Section3-2-6">If we were interested in how the gas prices had changed between 2002 and 2009, we could compute that the cost per gallon had increased from $1.47 to $2.14, an increase of $0.67. While this is interesting, it might be more useful to look at how much the price changed per year. You are probably noticing that the price didn’t change the same amount each year, so we would be finding the average rate of change over a specified amount of time.<div class="autopermalink" data-description="Paragraph"><a href="#Chapter1Section3-2-6" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="Chapter1Section3-2-7">The gas price increased by $0.67 from 2002 to 2009, over 7 years, for an average of $0.67/7 years <span class="process-math">\(\approx\)</span> $0.096 per year. On average, the price of gas increased by about 9.6 cents each year.<div class="autopermalink" data-description="Paragraph"><a href="#Chapter1Section3-2-7" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
 <article class="definition definition-like" id="Chapter1Section3-2-8"><h4 class="heading">
 <span class="type">Definition</span><span class="space"> </span><span class="codenumber">1.3.1</span><span class="period">.</span><span class="space"> </span><span class="title">Rate of Change.</span>
 </h4>
-<div class="para" id="Chapter1Section3-2-8-2-1">A rate of change describes how the output quantity changes in relation to the input quantity. The units on a rate of change are "output units per input unit" or "<span class="process-math">\(\dfrac{\text{output units}}{\text{input unit}}\)</span>".</div></article><div class="para" id="Chapter1Section3-2-9">Some other examples of rates of change would be quantities like:</div>
-<figure class="list table-like" id="Chapter1Section3-2-10"><figcaption><span class="type">List</span><span class="space"> </span><span class="codenumber">1.3.2<span class="period">.</span></span><span class="space"> </span>Rates of Change</figcaption><div class="named-list-content"><ul class="disc" id="Chapter1Section3-2-10-2">
-<li id="Chapter1Section3-2-10-2-1"><div class="para" id="Chapter1Section3-2-10-2-1-1">A population of rats increases by 40 rats per week.</div></li>
-<li id="Chapter1Section3-2-10-2-2"><div class="para" id="Chapter1Section3-2-10-2-2-1">A barista earns $9 per hour (dollars per hour).</div></li>
-<li id="Chapter1Section3-2-10-2-3"><div class="para" id="Chapter1Section3-2-10-2-3-1">A farmer plants 60,000 onions per acre.</div></li>
-<li id="Chapter1Section3-2-10-2-4"><div class="para" id="Chapter1Section3-2-10-2-4-1">A car can drive 27 miles per gallon of gasoline.</div></li>
-<li id="Chapter1Section3-2-10-2-5"><div class="para" id="Chapter1Section3-2-10-2-5-1">A population of grey whales decreases by 8 whales per year.</div></li>
-<li id="Chapter1Section3-2-10-2-6"><div class="para" id="Chapter1Section3-2-10-2-6-1">The amount of money in your college account decreases by $8,000 per semester.</div></li>
+<div class="para" id="Chapter1Section3-2-8-2-1">A rate of change describes how the output quantity changes in relation to the input quantity. The units on a rate of change are "output units per input unit" or "<span class="process-math">\(\dfrac{\text{output units}}{\text{input unit}}\)</span>".<div class="autopermalink" data-description="Paragraph"><a href="#Chapter1Section3-2-8-2-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Definition 1.3.1: Rate of Change"><a href="#Chapter1Section3-2-8" title="Copy permalink for Definition 1.3.1: Rate of Change">🔗</a></div></article><div class="para" id="Chapter1Section3-2-9">Some other examples of rates of change would be quantities like:<div class="autopermalink" data-description="Paragraph"><a href="#Chapter1Section3-2-9" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<figure class="list table-like" id="Chapter1Section3-2-10"><figcaption><span class="type">List</span><span class="space"> </span><span class="codenumber">1.3.2<span class="period">.</span></span><span class="space"> </span>Rates of Change<div class="autopermalink" data-description="List 1.3.2: Rates of Change"><a href="#Chapter1Section3-2-10" title="Copy permalink for List 1.3.2: Rates of Change">🔗</a></div></figcaption><div class="named-list-content"><ul class="disc" id="Chapter1Section3-2-10-2">
+<li id="Chapter1Section3-2-10-2-1">
+<div class="para" id="Chapter1Section3-2-10-2-1-1">A population of rats increases by 40 rats per week.<div class="autopermalink" data-description="Paragraph"><a href="#Chapter1Section3-2-10-2-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item"><a href="#Chapter1Section3-2-10-2-1" title="Copy permalink for Item">🔗</a></div>
+</li>
+<li id="Chapter1Section3-2-10-2-2">
+<div class="para" id="Chapter1Section3-2-10-2-2-1">A barista earns $9 per hour (dollars per hour).<div class="autopermalink" data-description="Paragraph"><a href="#Chapter1Section3-2-10-2-2-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item"><a href="#Chapter1Section3-2-10-2-2" title="Copy permalink for Item">🔗</a></div>
+</li>
+<li id="Chapter1Section3-2-10-2-3">
+<div class="para" id="Chapter1Section3-2-10-2-3-1">A farmer plants 60,000 onions per acre.<div class="autopermalink" data-description="Paragraph"><a href="#Chapter1Section3-2-10-2-3-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item"><a href="#Chapter1Section3-2-10-2-3" title="Copy permalink for Item">🔗</a></div>
+</li>
+<li id="Chapter1Section3-2-10-2-4">
+<div class="para" id="Chapter1Section3-2-10-2-4-1">A car can drive 27 miles per gallon of gasoline.<div class="autopermalink" data-description="Paragraph"><a href="#Chapter1Section3-2-10-2-4-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item"><a href="#Chapter1Section3-2-10-2-4" title="Copy permalink for Item">🔗</a></div>
+</li>
+<li id="Chapter1Section3-2-10-2-5">
+<div class="para" id="Chapter1Section3-2-10-2-5-1">A population of grey whales decreases by 8 whales per year.<div class="autopermalink" data-description="Paragraph"><a href="#Chapter1Section3-2-10-2-5-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item"><a href="#Chapter1Section3-2-10-2-5" title="Copy permalink for Item">🔗</a></div>
+</li>
+<li id="Chapter1Section3-2-10-2-6">
+<div class="para" id="Chapter1Section3-2-10-2-6-1">The amount of money in your college account decreases by $8,000 per semester.<div class="autopermalink" data-description="Paragraph"><a href="#Chapter1Section3-2-10-2-6-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item"><a href="#Chapter1Section3-2-10-2-6" title="Copy permalink for Item">🔗</a></div>
+</li>
 </ul></div></figure><article class="definition definition-like" id="Chapter1Section3-2-11"><h4 class="heading">
 <span class="type">Definition</span><span class="space"> </span><span class="codenumber">1.3.3</span><span class="period">.</span><span class="space"> </span><span class="title">Average Rate of Change.</span>
 </h4>
@@ -386,37 +449,50 @@ eBookConfig.enable_chatcodes =  false;
 \text{Average rate of change}= \dfrac{\text{Change of Output}}{\text{Change of Input}}=\dfrac{\Delta y}{\Delta x}=\dfrac{y_2-y_1}{x_2-x_1}
 \end{equation*}
 </div>
-</div></article><article class="example example-like" id="Chapter1Section3-2-12"><h4 class="heading">
+<div class="autopermalink" data-description="Paragraph"><a href="#Chapter1Section3-2-11-2-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Definition 1.3.3: Average Rate of Change"><a href="#Chapter1Section3-2-11" title="Copy permalink for Definition 1.3.3: Average Rate of Change">🔗</a></div></article><article class="example example-like" id="Chapter1Section3-2-12"><h4 class="heading">
 <span class="type">Example</span><span class="space"> </span><span class="codenumber">1.3.4</span><span class="period">.</span>
 </h4>
-<div class="para" id="Chapter1Section3-2-12-1-1">Using the cost-of-gas function from earlier, find the average rate of change between 2007 and 2009</div>
+<div class="para" id="Chapter1Section3-2-12-1-1">Using the cost-of-gas function from earlier, find the average rate of change between 2007 and 2009<div class="autopermalink" data-description="Paragraph"><a href="#Chapter1Section3-2-12-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
 <div class="solution solution-like" id="Chapter1Section3-2-12-2">
 <h4 class="heading">
 <span class="type">Solution</span><span class="period">.</span>
 </h4>
-<div class="para" id="Chapter1Section3-2-12-2-1">From the table, in 2007 the cost of gas was $2.64. In 2009 the cost was $2.14.</div>
-<div class="para" id="Chapter1Section3-2-12-2-2">The input (years) has changed by 2. The output has changed by $2.14 - $2.64 = -$0.50. The average rate of change is then <span class="process-math">\(\dfrac{-\$0.50}{2 \text{ years}}=-0.25\)</span> dollars per year.</div>
-</div></article><article class="exercise exercise-like" id="Chapter1Section3-2-13"><h4 class="heading">
+<div class="para" id="Chapter1Section3-2-12-2-1">From the table, in 2007 the cost of gas was $2.64. In 2009 the cost was $2.14.<div class="autopermalink" data-description="Paragraph"><a href="#Chapter1Section3-2-12-2-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="Chapter1Section3-2-12-2-2">The input (years) has changed by 2. The output has changed by $2.14 - $2.64 = -$0.50. The average rate of change is then <span class="process-math">\(\dfrac{-\$0.50}{2 \text{ years}}=-0.25\)</span> dollars per year.<div class="autopermalink" data-description="Paragraph"><a href="#Chapter1Section3-2-12-2-2" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Solution 1.3.4.1"><a href="#Chapter1Section3-2-12-2" title="Copy permalink for Solution 1.3.4.1">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Example 1.3.4"><a href="#Chapter1Section3-2-12" title="Copy permalink for Example 1.3.4">🔗</a></div></article><article class="exercise exercise-like" id="Chapter1Section3-2-13"><h4 class="heading">
 <span class="type">Checkpoint</span><span class="space"> </span><span class="codenumber">1.3.5</span><span class="period">.</span>
 </h4>
-<div class="para" id="Chapter1Section3-2-13-1-1">Using the same cost-of-gas function, find the average rate of change between 2003 and 2008.</div></article><div class="para" id="Chapter1Section3-2-14">Notice that in the last example the change of output was negative since the output value of the function had decreased. Correspondingly, the average rate of change is negative.</div>
+<div class="para" id="Chapter1Section3-2-13-1-1">Using the same cost-of-gas function, find the average rate of change between 2003 and 2008.<div class="autopermalink" data-description="Paragraph"><a href="#Chapter1Section3-2-13-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Checkpoint 1.3.5"><a href="#Chapter1Section3-2-13" title="Copy permalink for Checkpoint 1.3.5">🔗</a></div></article><div class="para" id="Chapter1Section3-2-14">Notice that in the last example the change of output was negative since the output value of the function had decreased. Correspondingly, the average rate of change is negative.<div class="autopermalink" data-description="Paragraph"><a href="#Chapter1Section3-2-14" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
 <article class="example example-like" id="Chapter1Section3-2-15"><h4 class="heading">
 <span class="type">Example</span><span class="space"> </span><span class="codenumber">1.3.6</span><span class="period">.</span>
 </h4>
-<div class="para" id="Chapter1Section3-2-15-1-1">Given the function g(t) shown here, find the average rate of change on the interval <span class="process-math">\([0, 3]\text{.}\)</span>
+<div class="para" id="Chapter1Section3-2-15-1-1">Given the function g(t) shown here, find the average rate of change on the interval <span class="process-math">\([0, 3]\text{.}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#Chapter1Section3-2-15-1-1" title="Copy permalink for Paragraph">🔗</a></div>
 </div> <div class="image-box" style="width: 100%; margin-left: 0%; margin-right: 0%;"><img src="external/C1S4Image1.png" class="contained" alt="A U-shaped graph passing through 0 comma 1, 1 comma 0, 2 comma 1, and 3 comma 4"></div>
 <div class="solution solution-like" id="Chapter1Section3-2-15-2">
 <h4 class="heading">
 <span class="type">Solution</span><span class="period">.</span>
 </h4>
-<div class="para" id="Chapter1Section3-2-15-2-1">At <span class="process-math">\(t = 0\text{,}\)</span> the graph shows <span class="process-math">\(g(0)=1\text{.}\)</span> At <span class="process-math">\(t = 3\text{,}\)</span> the graph shows <span class="process-math">\(g(3)=4\text{.}\)</span>
+<div class="para" id="Chapter1Section3-2-15-2-1">At <span class="process-math">\(t = 0\text{,}\)</span> the graph shows <span class="process-math">\(g(0)=1\text{.}\)</span> At <span class="process-math">\(t = 3\text{,}\)</span> the graph shows <span class="process-math">\(g(3)=4\text{.}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#Chapter1Section3-2-15-2-1" title="Copy permalink for Paragraph">🔗</a></div>
 </div>
-<div class="para" id="Chapter1Section3-2-15-2-2">The output has changed by 3 while the input has changed by 3, giving an average rate of change of: <span class="process-math">\(\dfrac{4-1}{3-0}=\dfrac{3}{3}=1\)</span>
+<div class="para" id="Chapter1Section3-2-15-2-2">The output has changed by 3 while the input has changed by 3, giving an average rate of change of: <span class="process-math">\(\dfrac{4-1}{3-0}=\dfrac{3}{3}=1\)</span><div class="autopermalink" data-description="Paragraph"><a href="#Chapter1Section3-2-15-2-2" title="Copy permalink for Paragraph">🔗</a></div>
 </div>
-</div></article><article class="example example-like" id="Chapter1Section3-2-16"><h4 class="heading">
+<div class="autopermalink" data-description="Solution 1.3.6.1"><a href="#Chapter1Section3-2-15-2" title="Copy permalink for Solution 1.3.6.1">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Example 1.3.6"><a href="#Chapter1Section3-2-15" title="Copy permalink for Example 1.3.6">🔗</a></div></article><article class="example example-like" id="Chapter1Section3-2-16"><h4 class="heading">
 <span class="type">Example</span><span class="space"> </span><span class="codenumber">1.3.7</span><span class="period">.</span>
 </h4>
-<div class="para" id="Chapter1Section3-2-16-1-1">On a road trip, after picking up your friend who lives 10 miles away, you decide to record your distance from home over time. Find your average speed over the first 6 hours.</div> <div class="tabular-box natural-width"><table class="tabular">
+<div class="para" id="Chapter1Section3-2-16-1-1">On a road trip, after picking up your friend who lives 10 miles away, you decide to record your distance from home over time. Find your average speed over the first 6 hours.<div class="autopermalink" data-description="Paragraph"><a href="#Chapter1Section3-2-16-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div> <div class="tabular-box natural-width"><table class="tabular">
 <tr>
 <td class="c m b0 r0 l0 t0 lines">
 <span class="process-math">\(t\)</span> (hours)</td>
@@ -446,8 +522,12 @@ eBookConfig.enable_chatcodes =  false;
 <h4 class="heading">
 <span class="type">Solution</span><span class="period">.</span>
 </h4>
-<div class="para" id="Chapter1Section3-2-16-2-1">Here, your average speed is the average rate of change. You traveled 282 miles in 6 hours, for an average speed of <span class="process-math">\(\dfrac{292-10}{6-0}=\dfrac{282}{6}= 47\)</span> miles per hour.</div>
-</div></article><div class="para" id="Chapter1Section3-2-17">We can more formally state the average rate of change calculation using function notation.</div>
+<div class="para" id="Chapter1Section3-2-16-2-1">Here, your average speed is the average rate of change. You traveled 282 miles in 6 hours, for an average speed of <span class="process-math">\(\dfrac{292-10}{6-0}=\dfrac{282}{6}= 47\)</span> miles per hour.<div class="autopermalink" data-description="Paragraph"><a href="#Chapter1Section3-2-16-2-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Solution 1.3.7.1"><a href="#Chapter1Section3-2-16-2" title="Copy permalink for Solution 1.3.7.1">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Example 1.3.7"><a href="#Chapter1Section3-2-16" title="Copy permalink for Example 1.3.7">🔗</a></div></article><div class="para" id="Chapter1Section3-2-17">We can more formally state the average rate of change calculation using function notation.<div class="autopermalink" data-description="Paragraph"><a href="#Chapter1Section3-2-17" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
 <article class="definition definition-like" id="Chapter1Section3-2-18"><h4 class="heading">
 <span class="type">Definition</span><span class="space"> </span><span class="codenumber">1.3.8</span><span class="period">.</span><span class="space"> </span><span class="title">Average Rate of Change using Function Notation.</span>
 </h4>
@@ -458,45 +538,63 @@ eBookConfig.enable_chatcodes =  false;
 \text{Average rate of change}= \dfrac{\text{Change of Output}}{\text{Change of Input}}=\dfrac{f(b)-f(a)}{b-a}
 \end{equation*}
 </div>
-</div></article><article class="example example-like" id="Chapter1Section3-2-19"><h4 class="heading">
+<div class="autopermalink" data-description="Paragraph"><a href="#Chapter1Section3-2-18-2-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Definition 1.3.8: Average Rate of Change using Function Notation"><a href="#Chapter1Section3-2-18" title="Copy permalink for Definition 1.3.8: Average Rate of Change using Function Notation">🔗</a></div></article><article class="example example-like" id="Chapter1Section3-2-19"><h4 class="heading">
 <span class="type">Example</span><span class="space"> </span><span class="codenumber">1.3.9</span><span class="period">.</span>
 </h4>
-<div class="para" id="Chapter1Section3-2-19-1-1">Compute the average rate of change of <span class="process-math">\(f(x)=x^{2}-\dfrac{1}{x}\)</span> on the interval <span class="process-math">\([2, 4]\text{.}\)</span>
+<div class="para" id="Chapter1Section3-2-19-1-1">Compute the average rate of change of <span class="process-math">\(f(x)=x^{2}-\dfrac{1}{x}\)</span> on the interval <span class="process-math">\([2, 4]\text{.}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#Chapter1Section3-2-19-1-1" title="Copy permalink for Paragraph">🔗</a></div>
 </div>
 <div class="solution solution-like" id="Chapter1Section3-2-19-2">
 <h4 class="heading">
 <span class="type">Solution</span><span class="period">.</span>
 </h4>
-<div class="para" id="Chapter1Section3-2-19-2-1">We can start by computing the function values at each endpoint of the interval</div>
-<div class="para" id="Chapter1Section3-2-19-2-2"><span class="process-math">\(f(2)=2^{2}-\frac{1}{2}=4-\frac{1}{2}=\frac{7}{2}\text{,}\)</span></div>
-<div class="para" id="Chapter1Section3-2-19-2-3"><span class="process-math">\(f(4)=4^{2}-\frac{1}{4}=16-\frac{1}{4}=\frac{63}{4}\text{.}\)</span></div>
-<div class="para" id="Chapter1Section3-2-19-2-4">Now computing the average rate of change <span class="process-math">\(\text{Average rate of change}= \dfrac{f(4)-f(2)}{4-2}=\dfrac{\frac{63}{4}-\frac{7}{2}}{4-2}=\dfrac{\frac{49}{4}}{2}=\dfrac{49}{8}\)</span>
+<div class="para" id="Chapter1Section3-2-19-2-1">We can start by computing the function values at each endpoint of the interval<div class="autopermalink" data-description="Paragraph"><a href="#Chapter1Section3-2-19-2-1" title="Copy permalink for Paragraph">🔗</a></div>
 </div>
-</div></article><article class="exercise exercise-like" id="Chapter1Section3-2-20"><h4 class="heading">
+<div class="para" id="Chapter1Section3-2-19-2-2">
+<span class="process-math">\(f(2)=2^{2}-\frac{1}{2}=4-\frac{1}{2}=\frac{7}{2}\text{,}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#Chapter1Section3-2-19-2-2" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="Chapter1Section3-2-19-2-3">
+<span class="process-math">\(f(4)=4^{2}-\frac{1}{4}=16-\frac{1}{4}=\frac{63}{4}\text{.}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#Chapter1Section3-2-19-2-3" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="Chapter1Section3-2-19-2-4">Now computing the average rate of change <span class="process-math">\(\text{Average rate of change}= \dfrac{f(4)-f(2)}{4-2}=\dfrac{\frac{63}{4}-\frac{7}{2}}{4-2}=\dfrac{\frac{49}{4}}{2}=\dfrac{49}{8}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#Chapter1Section3-2-19-2-4" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Solution 1.3.9.1"><a href="#Chapter1Section3-2-19-2" title="Copy permalink for Solution 1.3.9.1">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Example 1.3.9"><a href="#Chapter1Section3-2-19" title="Copy permalink for Example 1.3.9">🔗</a></div></article><article class="exercise exercise-like" id="Chapter1Section3-2-20"><h4 class="heading">
 <span class="type">Checkpoint</span><span class="space"> </span><span class="codenumber">1.3.10</span><span class="period">.</span>
 </h4>
-<div class="para" id="Chapter1Section3-2-20-1-1">Find the average rate of change of <span class="process-math">\(f(x)=x-2\sqrt{x}\)</span> on the interval <span class="process-math">\([1, 9]\text{.}\)</span>
-</div></article><article class="example example-like" id="Chapter1Section3-2-21"><h4 class="heading">
+<div class="para" id="Chapter1Section3-2-20-1-1">Find the average rate of change of <span class="process-math">\(f(x)=x-2\sqrt{x}\)</span> on the interval <span class="process-math">\([1, 9]\text{.}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#Chapter1Section3-2-20-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Checkpoint 1.3.10"><a href="#Chapter1Section3-2-20" title="Copy permalink for Checkpoint 1.3.10">🔗</a></div></article><article class="example example-like" id="Chapter1Section3-2-21"><h4 class="heading">
 <span class="type">Example</span><span class="space"> </span><span class="codenumber">1.3.11</span><span class="period">.</span>
 </h4>
-<div class="para" id="Chapter1Section3-2-21-1-1">The magnetic force <span class="process-math">\(F\text{,}\)</span> measured in Newtons, between two magnets is related to the distance between the magnets <span class="process-math">\(d\text{,}\)</span> in centimeters, by the formula <span class="process-math">\(h(d)=\dfrac{2}{d^2}\)</span> . Find the average rate of change of force if the distance between the magnets is increased from 2 cm to 6 cm.</div>
+<div class="para" id="Chapter1Section3-2-21-1-1">The magnetic force <span class="process-math">\(F\text{,}\)</span> measured in Newtons, between two magnets is related to the distance between the magnets <span class="process-math">\(d\text{,}\)</span> in centimeters, by the formula <span class="process-math">\(h(d)=\dfrac{2}{d^2}\)</span> . Find the average rate of change of force if the distance between the magnets is increased from 2 cm to 6 cm.<div class="autopermalink" data-description="Paragraph"><a href="#Chapter1Section3-2-21-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
 <div class="solution solution-like" id="Chapter1Section3-2-21-2">
 <h4 class="heading">
 <span class="type">Solution</span><span class="period">.</span>
 </h4>
-<div class="para" id="Chapter1Section3-2-21-2-1">We are computing the average rate of change of <span class="process-math">\(h(d)=\dfrac{2}{d^2}\)</span> on the interval <span class="process-math">\([2, 6]\text{.}\)</span> <span class="process-math">\(\text{Average rate of change}= \dfrac{h(6)-h(2)}{6-2}\)</span>
+<div class="para" id="Chapter1Section3-2-21-2-1">We are computing the average rate of change of <span class="process-math">\(h(d)=\dfrac{2}{d^2}\)</span> on the interval <span class="process-math">\([2, 6]\text{.}\)</span> <span class="process-math">\(\text{Average rate of change}= \dfrac{h(6)-h(2)}{6-2}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#Chapter1Section3-2-21-2-1" title="Copy permalink for Paragraph">🔗</a></div>
 </div>
-<div class="para" id="Chapter1Section3-2-21-2-2">Evaluating the function, we get:</div>
-<div class="para logical" id="Chapter1Section3-2-21-2-3"><div class="displaymath process-math">
+<div class="para" id="Chapter1Section3-2-21-2-2">Evaluating the function, we get:<div class="autopermalink" data-description="Paragraph"><a href="#Chapter1Section3-2-21-2-2" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para logical" id="Chapter1Section3-2-21-2-3">
+<div class="displaymath process-math">
 \begin{equation*}
 \dfrac{h(6)-h(2)}{6-2}=\dfrac{\frac{2}{6^{2}}-\frac{2}{2^{2}}}{6-2}=\dfrac{\frac{2}{36}-\frac{2}{4}}{4}=\dfrac{\frac{-16}{36}}{4}=\dfrac{-1}{9}\dfrac{\text{Newtons}}{\text{centimeter}}
 \end{equation*}
-</div></div>
-<div class="para" id="Chapter1Section3-2-21-2-4">This tells us the magnetic force decreases, on average, by <span class="process-math">\(\dfrac{1}{9}\)</span> Newtons per centimeter over this interval.</div>
-</div></article><article class="example example-like" id="Chapter1Section3-2-22"><h4 class="heading">
+</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#Chapter1Section3-2-21-2-3" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="Chapter1Section3-2-21-2-4">This tells us the magnetic force decreases, on average, by <span class="process-math">\(\dfrac{1}{9}\)</span> Newtons per centimeter over this interval.<div class="autopermalink" data-description="Paragraph"><a href="#Chapter1Section3-2-21-2-4" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Solution 1.3.11.1"><a href="#Chapter1Section3-2-21-2" title="Copy permalink for Solution 1.3.11.1">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Example 1.3.11"><a href="#Chapter1Section3-2-21" title="Copy permalink for Example 1.3.11">🔗</a></div></article><article class="example example-like" id="Chapter1Section3-2-22"><h4 class="heading">
 <span class="type">Example</span><span class="space"> </span><span class="codenumber">1.3.12</span><span class="period">.</span>
 </h4>
-<div class="para" id="Chapter1Section3-2-22-1-1">Find the average rate of change of <span class="process-math">\(g(t)=t^{2}+3t+1\)</span> on the interval <span class="process-math">\([0,a]\text{.}\)</span> Your answer will be an expression involving <span class="process-math">\(a\text{.}\)</span>
+<div class="para" id="Chapter1Section3-2-22-1-1">Find the average rate of change of <span class="process-math">\(g(t)=t^{2}+3t+1\)</span> on the interval <span class="process-math">\([0,a]\text{.}\)</span> Your answer will be an expression involving <span class="process-math">\(a\text{.}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#Chapter1Section3-2-22-1-1" title="Copy permalink for Paragraph">🔗</a></div>
 </div>
 <div class="solution solution-like" id="Chapter1Section3-2-22-2">
 <h4 class="heading">
@@ -509,36 +607,50 @@ eBookConfig.enable_chatcodes =  false;
 \dfrac{g(a)-g(0)}{a-0}=\dfrac{(a^2+3a+1)-(0^2+3(0)+1)}{a}=\dfrac{a^2+3a}{a}=\dfrac{a(a+3)}{a}=a+3
 \end{equation*}
 </div>
+<div class="autopermalink" data-description="Paragraph"><a href="#Chapter1Section3-2-22-2-1" title="Copy permalink for Paragraph">🔗</a></div>
 </div>
-<div class="para" id="Chapter1Section3-2-22-2-2">This result tells us the average rate of change between <span class="process-math">\(t = 0\)</span> and any other point <span class="process-math">\(t = a\text{.}\)</span> For example, on the interval <span class="process-math">\([0, 5]\text{,}\)</span> the average rate of change would be <span class="process-math">\(5+3 = 8\text{.}\)</span>
+<div class="para" id="Chapter1Section3-2-22-2-2">This result tells us the average rate of change between <span class="process-math">\(t = 0\)</span> and any other point <span class="process-math">\(t = a\text{.}\)</span> For example, on the interval <span class="process-math">\([0, 5]\text{,}\)</span> the average rate of change would be <span class="process-math">\(5+3 = 8\text{.}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#Chapter1Section3-2-22-2-2" title="Copy permalink for Paragraph">🔗</a></div>
 </div>
-</div></article><article class="exercise exercise-like" id="Chapter1Section3-2-23"><h4 class="heading">
+<div class="autopermalink" data-description="Solution 1.3.12.1"><a href="#Chapter1Section3-2-22-2" title="Copy permalink for Solution 1.3.12.1">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Example 1.3.12"><a href="#Chapter1Section3-2-22" title="Copy permalink for Example 1.3.12">🔗</a></div></article><article class="exercise exercise-like" id="Chapter1Section3-2-23"><h4 class="heading">
 <span class="type">Checkpoint</span><span class="space"> </span><span class="codenumber">1.3.13</span><span class="period">.</span>
 </h4>
-<div class="para" id="Chapter1Section3-2-23-1-1">Find the average rate of change of <span class="process-math">\(f(x)=x^{3}+2\)</span> on the interval <span class="process-math">\([a,a+h]\text{.}\)</span>
-</div></article></section><section class="subsection" id="Chapter1Section3-3"><h3 class="heading hide-type">
+<div class="para" id="Chapter1Section3-2-23-1-1">Find the average rate of change of <span class="process-math">\(f(x)=x^{3}+2\)</span> on the interval <span class="process-math">\([a,a+h]\text{.}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#Chapter1Section3-2-23-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Checkpoint 1.3.13"><a href="#Chapter1Section3-2-23" title="Copy permalink for Checkpoint 1.3.13">🔗</a></div></article><div class="autopermalink" data-description="Subsection 1.3.1: Definitions"><a href="#Chapter1Section3-2" title="Copy permalink for Subsection 1.3.1: Definitions">🔗</a></div></section><section class="subsection" id="Chapter1Section3-3"><h3 class="heading hide-type">
 <span class="type">Subsection</span><span class="space"> </span><span class="codenumber">1.3.2</span><span class="space"> </span><span class="title">Graphical Behavior of Functions</span>
 </h3>
-<div class="para" id="Chapter1Section3-3-2">As part of exploring how functions change, it is interesting to explore the graphical behavior of functions.</div>
+<div class="para" id="Chapter1Section3-3-2">As part of exploring how functions change, it is interesting to explore the graphical behavior of functions.<div class="autopermalink" data-description="Paragraph"><a href="#Chapter1Section3-3-2" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
 <article class="definition definition-like" id="Chapter1Section3-3-3"><h4 class="heading">
 <span class="type">Definition</span><span class="space"> </span><span class="codenumber">1.3.14</span><span class="period">.</span><span class="space"> </span><span class="title">Increasing/Decreasing.</span>
 </h4>
-<div class="para" id="Chapter1Section3-3-3-2-1">A function is increasing on an interval if the function values increase as the inputs increase. More formally, a function is increasing if <span class="process-math">\(f(a) &lt; f(b)\)</span> for any two input values <span class="process-math">\(a\)</span> and <span class="process-math">\(b\)</span> in the interval with <span class="process-math">\(a&lt;b\text{.}\)</span> The average rate of change of an increasing function is positive.</div> <div class="para" id="Chapter1Section3-3-3-2-2">A function is decreasing on an interval if the function values decrease as the inputs increase. More formally, a function is decreasing if <span class="process-math">\(f(a) &gt; f(b)\)</span> for any two input values <span class="process-math">\(a\)</span> and <span class="process-math">\(b\)</span> in the interval with <span class="process-math">\(a&lt;b\text{.}\)</span> The average rate of change of a decreasing function is negative.</div></article><article class="example example-like" id="Chapter1Section3-3-4"><h4 class="heading">
+<div class="para" id="Chapter1Section3-3-3-2-1">A function is increasing on an interval if the function values increase as the inputs increase. More formally, a function is increasing if <span class="process-math">\(f(a) &lt; f(b)\)</span> for any two input values <span class="process-math">\(a\)</span> and <span class="process-math">\(b\)</span> in the interval with <span class="process-math">\(a&lt;b\text{.}\)</span> The average rate of change of an increasing function is positive.<div class="autopermalink" data-description="Paragraph"><a href="#Chapter1Section3-3-3-2-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div> <div class="para" id="Chapter1Section3-3-3-2-2">A function is decreasing on an interval if the function values decrease as the inputs increase. More formally, a function is decreasing if <span class="process-math">\(f(a) &gt; f(b)\)</span> for any two input values <span class="process-math">\(a\)</span> and <span class="process-math">\(b\)</span> in the interval with <span class="process-math">\(a&lt;b\text{.}\)</span> The average rate of change of a decreasing function is negative.<div class="autopermalink" data-description="Paragraph"><a href="#Chapter1Section3-3-3-2-2" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Definition 1.3.14: Increasing/Decreasing"><a href="#Chapter1Section3-3-3" title="Copy permalink for Definition 1.3.14: Increasing/Decreasing">🔗</a></div></article><article class="example example-like" id="Chapter1Section3-3-4"><h4 class="heading">
 <span class="type">Example</span><span class="space"> </span><span class="codenumber">1.3.15</span><span class="period">.</span>
 </h4>
-<div class="para" id="Chapter1Section3-3-4-1-1">Given the function p(t) graphed here, on what intervals does the function appear to be increasing?</div> <div class="image-box" style="width: 100%; margin-left: 0%; margin-right: 0%;"><img src="external/C1S4Image2.png" class="contained" alt="A graph passing through the points 0 comma 3, 1 comma negative 1, 3 comma 1, 4 comma 0.7 and 5 comma 3.5"></div>
+<div class="para" id="Chapter1Section3-3-4-1-1">Given the function p(t) graphed here, on what intervals does the function appear to be increasing?<div class="autopermalink" data-description="Paragraph"><a href="#Chapter1Section3-3-4-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div> <div class="image-box" style="width: 100%; margin-left: 0%; margin-right: 0%;"><img src="external/C1S4Image2.png" class="contained" alt="A graph passing through the points 0 comma 3, 1 comma negative 1, 3 comma 1, 4 comma 0.7 and 5 comma 3.5"></div>
 <div class="solution solution-like" id="Chapter1Section3-3-4-2">
 <h4 class="heading">
 <span class="type">Solution</span><span class="period">.</span>
 </h4>
-<div class="para" id="Chapter1Section3-3-4-2-1">The function appears to be increasing from <span class="process-math">\(t = 1\)</span> to <span class="process-math">\(t = 3\text{,}\)</span> and from <span class="process-math">\(t = 4\)</span> on.</div>
-<div class="para" id="Chapter1Section3-3-4-2-2">In interval notation, we would say the function appears to be increasing on the interval <span class="process-math">\((1,3)\)</span> and the interval <span class="process-math">\((4,\infty)\text{,}\)</span> or <span class="process-math">\((1,3)\cup(4,\infty)\text{.}\)</span>
+<div class="para" id="Chapter1Section3-3-4-2-1">The function appears to be increasing from <span class="process-math">\(t = 1\)</span> to <span class="process-math">\(t = 3\text{,}\)</span> and from <span class="process-math">\(t = 4\)</span> on.<div class="autopermalink" data-description="Paragraph"><a href="#Chapter1Section3-3-4-2-1" title="Copy permalink for Paragraph">🔗</a></div>
 </div>
-</div></article><div class="para" id="Chapter1Section3-3-5">Notice in the last example that we used open intervals (intervals that don’t include the endpoints) since the function is neither increasing nor decreasing at <span class="process-math">\(t = 1, 3, \text{ or }4\text{.}\)</span>
-</div></section><section class="subsection" id="Chapter1Section3-4"><h3 class="heading hide-type">
+<div class="para" id="Chapter1Section3-3-4-2-2">In interval notation, we would say the function appears to be increasing on the interval <span class="process-math">\((1,3)\)</span> and the interval <span class="process-math">\((4,\infty)\text{,}\)</span> or <span class="process-math">\((1,3)\cup(4,\infty)\text{.}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#Chapter1Section3-3-4-2-2" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Solution 1.3.15.1"><a href="#Chapter1Section3-3-4-2" title="Copy permalink for Solution 1.3.15.1">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Example 1.3.15"><a href="#Chapter1Section3-3-4" title="Copy permalink for Example 1.3.15">🔗</a></div></article><div class="para" id="Chapter1Section3-3-5">Notice in the last example that we used open intervals (intervals that don’t include the endpoints) since the function is neither increasing nor decreasing at <span class="process-math">\(t = 1, 3, \text{ or }4\text{.}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#Chapter1Section3-3-5" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Subsection 1.3.2: Graphical Behavior of Functions"><a href="#Chapter1Section3-3" title="Copy permalink for Subsection 1.3.2: Graphical Behavior of Functions">🔗</a></div></section><section class="subsection" id="Chapter1Section3-4"><h3 class="heading hide-type">
 <span class="type">Subsection</span><span class="space"> </span><span class="codenumber">1.3.3</span><span class="space"> </span><span class="title">Behaviors of the Toolkit Functions</span>
 </h3>
-<div class="para" id="Chapter1Section3-4-2">We will now return to our toolkit functions and discuss their graphical behavior.</div>
+<div class="para" id="Chapter1Section3-4-2">We will now return to our toolkit functions and discuss their graphical behavior.<div class="autopermalink" data-description="Paragraph"><a href="#Chapter1Section3-4-2" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
 <div class="tabular-box natural-width"><table class="tabular">
 <tr>
 <td class="c m b0 r1 l0 t0 lines">Function</td>
@@ -601,20 +713,41 @@ eBookConfig.enable_chatcodes =  false;
 </tr>
 <tr><td class="c m b0 r1 l0 t0 lines"></td></tr>
 <tr><td class="c m b0 r1 l0 t0 lines"></td></tr>
-</table></div></section><section class="subsection" id="Chapter1Section3-5"><h3 class="heading hide-type">
+</table></div>
+<div class="autopermalink" data-description="Subsection 1.3.3: Behaviors of the Toolkit Functions"><a href="#Chapter1Section3-4" title="Copy permalink for Subsection 1.3.3: Behaviors of the Toolkit Functions">🔗</a></div></section><section class="subsection" id="Chapter1Section3-5"><h3 class="heading hide-type">
 <span class="type">Subsection</span><span class="space"> </span><span class="codenumber">1.3.4</span><span class="space"> </span><span class="title">Answers</span>
 </h3>
 <article class="exercise exercise-like" id="Chapter1Section3-5-2"><h4 class="heading">
 <span class="type">Checkpoint</span><span class="space"> </span><span class="codenumber">1.3.16</span><span class="period">.</span>
 </h4>
-<div class="para" id="Chapter1Section3-5-2-1-1">Answers to Checkpoint Exercises</div>
-<div class="solutions"><details id="Chapter1Section3-5-2-2" class="answer solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Answer</span><span class="period">.</span></summary><div class="answer solution-like knowl__content"><div class="para logical" id="Chapter1Section3-5-2-2-1"><ol class="decimal" id="Chapter1Section3-5-2-2-1-1">
-<li id="Chapter1Section3-5-2-2-1-1-1"><div class="para" id="Chapter1Section3-5-2-2-1-1-1-1">
-<span class="process-math">\(\dfrac{\$3.01-\$1.69}{5\text{ years}}=\dfrac{\$1.32}{5\text{ years}}= 0.264\)</span> dollars per year.</div></li>
-<li id="Chapter1Section3-5-2-2-1-1-2"><div class="para" id="Chapter1Section3-5-2-2-1-1-2-1">Average rate of change <span class="process-math">\(= \dfrac{f(9)-f(1)}{9-1}=\dfrac{(9-2\sqrt{9})-(1-2\sqrt{1})}{9-1}=\dfrac{3-(-1)}{9-1}=\dfrac{4}{8}=\dfrac{1}{2}1\)</span>
-</div></li>
-<li id="Chapter1Section3-5-2-2-1-1-3"><div class="para" id="Chapter1Section3-5-2-2-1-1-3-1"><span class="process-math">\(\displaystyle \dfrac{f(a+h)-f(a)}{(a+h)-a}=\dfrac{((a+h)^3+2)-(a^3+2)}{h}=\dfrac{a^3+3a^2 h+3ah^2+h^3+2-a^3-2}{h}= \dfrac{3a^2 h+3ah^2+h^3}{h}=\dfrac{h(3a^2+3ah+h^2 )}{h}=3a^{2}+3ah+h^{2}\)</span></div></li>
-</ol></div></div></details></div></article></section></section></div>
+<div class="para" id="Chapter1Section3-5-2-1-1">Answers to Checkpoint Exercises<div class="autopermalink" data-description="Paragraph"><a href="#Chapter1Section3-5-2-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="solutions"><details id="Chapter1Section3-5-2-2" class="answer solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Answer</span><span class="period">.</span></summary><div class="answer solution-like knowl__content">
+<div class="para logical" id="Chapter1Section3-5-2-2-1">
+<ol class="decimal" id="Chapter1Section3-5-2-2-1-1">
+<li id="Chapter1Section3-5-2-2-1-1-1">
+<div class="para" id="Chapter1Section3-5-2-2-1-1-1-1">
+<span class="process-math">\(\dfrac{\$3.01-\$1.69}{5\text{ years}}=\dfrac{\$1.32}{5\text{ years}}= 0.264\)</span> dollars per year.<div class="autopermalink" data-description="Paragraph"><a href="#Chapter1Section3-5-2-2-1-1-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item 1.3.16.1"><a href="#Chapter1Section3-5-2-2-1-1-1" title="Copy permalink for Item 1.3.16.1">🔗</a></div>
+</li>
+<li id="Chapter1Section3-5-2-2-1-1-2">
+<div class="para" id="Chapter1Section3-5-2-2-1-1-2-1">Average rate of change <span class="process-math">\(= \dfrac{f(9)-f(1)}{9-1}=\dfrac{(9-2\sqrt{9})-(1-2\sqrt{1})}{9-1}=\dfrac{3-(-1)}{9-1}=\dfrac{4}{8}=\dfrac{1}{2}1\)</span><div class="autopermalink" data-description="Paragraph"><a href="#Chapter1Section3-5-2-2-1-1-2-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item 1.3.16.2"><a href="#Chapter1Section3-5-2-2-1-1-2" title="Copy permalink for Item 1.3.16.2">🔗</a></div>
+</li>
+<li id="Chapter1Section3-5-2-2-1-1-3">
+<div class="para" id="Chapter1Section3-5-2-2-1-1-3-1">
+<span class="process-math">\(\displaystyle \dfrac{f(a+h)-f(a)}{(a+h)-a}=\dfrac{((a+h)^3+2)-(a^3+2)}{h}=\dfrac{a^3+3a^2 h+3ah^2+h^3+2-a^3-2}{h}= \dfrac{3a^2 h+3ah^2+h^3}{h}=\dfrac{h(3a^2+3ah+h^2 )}{h}=3a^{2}+3ah+h^{2}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#Chapter1Section3-5-2-2-1-1-3-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item 1.3.16.3"><a href="#Chapter1Section3-5-2-2-1-1-3" title="Copy permalink for Item 1.3.16.3">🔗</a></div>
+</li>
+</ol>
+<div class="autopermalink" data-description="Paragraph"><a href="#Chapter1Section3-5-2-2-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Answer 1.3.16.1"><a href="#Chapter1Section3-5-2-2" title="Copy permalink for Answer 1.3.16.1">🔗</a></div>
+</div></details></div>
+<div class="autopermalink" data-description="Checkpoint 1.3.16"><a href="#Chapter1Section3-5-2" title="Copy permalink for Checkpoint 1.3.16">🔗</a></div></article><div class="autopermalink" data-description="Subsection 1.3.4: Answers"><a href="#Chapter1Section3-5" title="Copy permalink for Subsection 1.3.4: Answers">🔗</a></div></section><div class="autopermalink" data-description="Section 1.3: Rates of Change"><a href="#Chapter1Section3" title="Copy permalink for Section 1.3: Rates of Change">🔗</a></div></section></div>
 <div id="ptx-content-footer" class="ptx-content-footer">
 <a class="previous-button button" href="Chapter1Section2.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="top-button button" href="#" title="Top"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Top</span></a><a class="next-button button" href="Chapter1Section4.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a>
 </div></main>

@@ -5,7 +5,7 @@
 <!--*         https://pretextbook.org          *-->
 <!--*                                          *-->
 <!--********************************************-->
-<html lang="en-US" dir="ltr" data-legacy-colorscheme="blue_red">
+<html lang="en-US" dir="ltr" data-legacy-colorscheme="default">
 <!--******************************************-->
 <!--*  Authored with PreTeXt                 *-->
 <!--*  pretextbook.org                       *-->
@@ -134,7 +134,12 @@ eBookConfig.enable_chatcodes =  false;
 <ol id="searchresults" class="searchresults"></ol>
 </div>
 </div>
-<span class="nav-other-controls"></span><span class="treebuttons"><a class="previous-button button" href="Chapter4Section1.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="up-button button" href="Chapter4.html" title="Up"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Up</span></a><a class="next-button button" href="Chapter4Section3.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a></span>
+<span class="nav-other-controls"><button id="embed-button" class="embed-button button" title="Embed this page"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe86f;</span><span class="name">Embed</span></button><div class="embed-popup hidden" id="embed-popup">
+<p>Copy the code below to embed this page in your own website or LMS page.</p>
+<div class="embed-code-container">
+<textarea class="embed-code-textbox" id="embed-code-textbox" readonly aria-label="textbox"><iframe src="https://example.com/embed" width="100%" height="1000"></iframe></textarea><button class="copy-embed-button button" id="copy-embed-button" title="Copy embed code"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe14d;</span><span class="name">Copy</span></button>
+</div>
+</div></span><span class="treebuttons"><a class="previous-button button" href="Chapter4Section1.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="up-button button" href="Chapter4.html" title="Up"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Up</span></a><a class="next-button button" href="Chapter4Section3.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a></span>
 </div></nav><div id="latex-macros" class="hidden-content process-math" style="display:none"><span class="process-math">\(\newcommand{\N}{\mathbb N} \newcommand{\Z}{\mathbb Z} \newcommand{\Q}{\mathbb Q} \newcommand{\R}{\mathbb R}
 \newcommand{\lt}{&lt;}
 \newcommand{\gt}{&gt;}
@@ -318,7 +323,17 @@ eBookConfig.enable_chatcodes =  false;
 <li class="toc-item toc-subsection"><div class="toc-title-box"><a href="Chapter4Section5.html#Chapter4Section5-4" class="internal"><span class="codenumber">4.5.3</span> <span class="title">Answers</span></a></div></li>
 </ul>
 </li>
-<li class="toc-item toc-section"><div class="toc-title-box"><a href="Chapter4Section6.html" class="internal"><span class="codenumber">4.6</span> <span class="title">Exponential and Logarithmic Models</span></a></div></li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="Chapter4Section6.html" class="internal"><span class="codenumber">4.6</span> <span class="title">Exponential and Logarithmic Models</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="Chapter4Section6.html#Chapter4Section6-2" class="internal"><span class="codenumber">4.6.1</span> <span class="title">Introduction</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="Chapter4Section6.html#Chapter4Section6-3" class="internal"><span class="codenumber">4.6.2</span> <span class="title">Radioactive Decay</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="Chapter4Section6.html#Chapter4Section6-4" class="internal"><span class="codenumber">4.6.3</span> <span class="title">Doubling Time</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="Chapter4Section6.html#Chapter4Section6-5" class="internal"><span class="codenumber">4.6.4</span> <span class="title">Logarithmic Scales</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="Chapter4Section6.html#Chapter4Section6-6" class="internal"><span class="codenumber">4.6.5</span> <span class="title">Earthquakes</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="Chapter4Section6.html#Chapter4Section6-7" class="internal"><span class="codenumber">4.6.6</span> <span class="title">Answers</span></a></div></li>
+</ul>
+</li>
 </ul>
 </li>
 <li class="toc-item toc-backmatter"><div class="toc-title-box"><a href="backmatter.html" class="internal"><span class="title">Backmatter</span></a></div></li>
@@ -333,20 +348,55 @@ eBookConfig.enable_chatcodes =  false;
 <span class="type">Objectives:</span><span class="space"> </span><span class="title">Important Topics of this Section</span>
 </h4>
 <ul class="disc" id="Chapter4Section2-2-2-2">
-<li id="Chapter4Section2-2-2-2-1"><div class="para logical" id="Chapter4Section2-2-2-2-1-1">
+<li id="Chapter4Section2-2-2-2-1">
+<div class="para logical" id="Chapter4Section2-2-2-2-1-1">
 <div class="para">Graphs of exponential functions</div>
 <ul class="circle" id="Chapter4Section2-2-2-2-1-1-1">
-<li id="Chapter4Section2-2-2-2-1-1-1-1"><div class="para" id="Chapter4Section2-2-2-2-1-1-1-1-1">Intercept</div></li>
-<li id="Chapter4Section2-2-2-2-1-1-1-2"><div class="para" id="Chapter4Section2-2-2-2-1-1-1-2-1">Growth factor</div></li>
+<li id="Chapter4Section2-2-2-2-1-1-1-1">
+<div class="para" id="Chapter4Section2-2-2-2-1-1-1-1-1">Intercept<div class="autopermalink" data-description="Paragraph"><a href="#Chapter4Section2-2-2-2-1-1-1-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item"><a href="#Chapter4Section2-2-2-2-1-1-1-1" title="Copy permalink for Item">🔗</a></div>
+</li>
+<li id="Chapter4Section2-2-2-2-1-1-1-2">
+<div class="para" id="Chapter4Section2-2-2-2-1-1-1-2-1">Growth factor<div class="autopermalink" data-description="Paragraph"><a href="#Chapter4Section2-2-2-2-1-1-1-2-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item"><a href="#Chapter4Section2-2-2-2-1-1-1-2" title="Copy permalink for Item">🔗</a></div>
+</li>
 </ul>
-</div></li>
-<li id="Chapter4Section2-2-2-2-2"><div class="para" id="Chapter4Section2-2-2-2-2-1">Exponential Growth</div></li>
-<li id="Chapter4Section2-2-2-2-3"><div class="para" id="Chapter4Section2-2-2-2-3-1">Exponential Decay</div></li>
-<li id="Chapter4Section2-2-2-2-4"><div class="para" id="Chapter4Section2-2-2-2-4-1">Horizontal intercepts</div></li>
-<li id="Chapter4Section2-2-2-2-5"><div class="para" id="Chapter4Section2-2-2-2-5-1">Long run behavior</div></li>
-<li id="Chapter4Section2-2-2-2-6"><div class="para" id="Chapter4Section2-2-2-2-6-1">Transformations</div></li>
-</ul></article><div class="para" id="Chapter4Section2-2-3">Like with linear functions, the graph of an exponential function is determined by the values for the parameters in the function’s formula.</div>
-<div class="para" id="Chapter4Section2-2-4">To get a sense for the behavior of exponential functions, let us begin by looking more closely at the function <span class="process-math">\(f(x)=2^{x}\text{.}\)</span> Listing a table of values for this function:</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#Chapter4Section2-2-2-2-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Objective"><a href="#Chapter4Section2-2-2-2-1" title="Copy permalink for Objective">🔗</a></div>
+</li>
+<li id="Chapter4Section2-2-2-2-2">
+<div class="para" id="Chapter4Section2-2-2-2-2-1">Exponential Growth<div class="autopermalink" data-description="Paragraph"><a href="#Chapter4Section2-2-2-2-2-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Objective"><a href="#Chapter4Section2-2-2-2-2" title="Copy permalink for Objective">🔗</a></div>
+</li>
+<li id="Chapter4Section2-2-2-2-3">
+<div class="para" id="Chapter4Section2-2-2-2-3-1">Exponential Decay<div class="autopermalink" data-description="Paragraph"><a href="#Chapter4Section2-2-2-2-3-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Objective"><a href="#Chapter4Section2-2-2-2-3" title="Copy permalink for Objective">🔗</a></div>
+</li>
+<li id="Chapter4Section2-2-2-2-4">
+<div class="para" id="Chapter4Section2-2-2-2-4-1">Horizontal intercepts<div class="autopermalink" data-description="Paragraph"><a href="#Chapter4Section2-2-2-2-4-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Objective"><a href="#Chapter4Section2-2-2-2-4" title="Copy permalink for Objective">🔗</a></div>
+</li>
+<li id="Chapter4Section2-2-2-2-5">
+<div class="para" id="Chapter4Section2-2-2-2-5-1">Long run behavior<div class="autopermalink" data-description="Paragraph"><a href="#Chapter4Section2-2-2-2-5-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Objective"><a href="#Chapter4Section2-2-2-2-5" title="Copy permalink for Objective">🔗</a></div>
+</li>
+<li id="Chapter4Section2-2-2-2-6">
+<div class="para" id="Chapter4Section2-2-2-2-6-1">Transformations<div class="autopermalink" data-description="Paragraph"><a href="#Chapter4Section2-2-2-2-6-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Objective"><a href="#Chapter4Section2-2-2-2-6" title="Copy permalink for Objective">🔗</a></div>
+</li>
+</ul>
+<div class="autopermalink" data-description="Objectives 4.2.1: Important Topics of this Section"><a href="#Chapter4Section2-2-2" title="Copy permalink for Objectives 4.2.1: Important Topics of this Section">🔗</a></div></article><div class="para" id="Chapter4Section2-2-3">Like with linear functions, the graph of an exponential function is determined by the values for the parameters in the function’s formula.<div class="autopermalink" data-description="Paragraph"><a href="#Chapter4Section2-2-3" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="Chapter4Section2-2-4">To get a sense for the behavior of exponential functions, let us begin by looking more closely at the function <span class="process-math">\(f(x)=2^{x}\text{.}\)</span> Listing a table of values for this function:<div class="autopermalink" data-description="Paragraph"><a href="#Chapter4Section2-2-4" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
 <div class="tabular-box natural-width"><table class="tabular">
 <tr><td class="c m b0 r1 l1 t0 lines"></td></tr>
 <tr>
@@ -390,13 +440,25 @@ eBookConfig.enable_chatcodes =  false;
 </tr>
 <tr><td class="c m b0 r1 l1 t0 lines"></td></tr>
 </table></div>
-<div class="para" id="Chapter4Section2-2-6">Notice that:</div>
-<figure class="list table-like" id="Chapter4Section2-2-7"><figcaption><span class="type">List</span><span class="space"> </span><span class="codenumber">4.2.1<span class="period">.</span></span><span class="space"> </span></figcaption><div class="named-list-content"><ol class="decimal" id="Chapter4Section2-2-7-2">
-<li id="Chapter4Section2-2-7-2-1"><div class="para" id="Chapter4Section2-2-7-2-1-1">This function is positive for all values of <span class="process-math">\(x\text{.}\)</span>
-</div></li>
-<li id="Chapter4Section2-2-7-2-2"><div class="para" id="Chapter4Section2-2-7-2-2-1">As <span class="process-math">\(x\)</span> increases, the function grows faster and faster (the rate of change increases).</div></li>
-<li id="Chapter4Section2-2-7-2-3"><div class="para" id="Chapter4Section2-2-7-2-3-1">As <span class="process-math">\(x\)</span> decreases, the function values grow smaller, approaching zero. This is an example of exponential growth.</div></li>
-</ol></div></figure><div class="para" id="Chapter4Section2-2-8">Looking at the function <span class="process-math">\(g(x)=(1/2)^{x}\text{:}\)</span>
+<div class="para" id="Chapter4Section2-2-6">Notice that:<div class="autopermalink" data-description="Paragraph"><a href="#Chapter4Section2-2-6" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<figure class="list table-like" id="Chapter4Section2-2-7"><figcaption><span class="type">List</span><span class="space"> </span><span class="codenumber">4.2.1<span class="period">.</span></span><span class="space"> </span><div class="autopermalink" data-description="List 4.2.1: "><a href="#Chapter4Section2-2-7" title="Copy permalink for List 4.2.1: ">🔗</a></div></figcaption><div class="named-list-content"><ol class="decimal" id="Chapter4Section2-2-7-2">
+<li id="Chapter4Section2-2-7-2-1">
+<div class="para" id="Chapter4Section2-2-7-2-1-1">This function is positive for all values of <span class="process-math">\(x\text{.}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#Chapter4Section2-2-7-2-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item 4.2.1:1"><a href="#Chapter4Section2-2-7-2-1" title="Copy permalink for Item 4.2.1:1">🔗</a></div>
+</li>
+<li id="Chapter4Section2-2-7-2-2">
+<div class="para" id="Chapter4Section2-2-7-2-2-1">As <span class="process-math">\(x\)</span> increases, the function grows faster and faster (the rate of change increases).<div class="autopermalink" data-description="Paragraph"><a href="#Chapter4Section2-2-7-2-2-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item 4.2.1:2"><a href="#Chapter4Section2-2-7-2-2" title="Copy permalink for Item 4.2.1:2">🔗</a></div>
+</li>
+<li id="Chapter4Section2-2-7-2-3">
+<div class="para" id="Chapter4Section2-2-7-2-3-1">As <span class="process-math">\(x\)</span> decreases, the function values grow smaller, approaching zero. This is an example of exponential growth.<div class="autopermalink" data-description="Paragraph"><a href="#Chapter4Section2-2-7-2-3-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item 4.2.1:3"><a href="#Chapter4Section2-2-7-2-3" title="Copy permalink for Item 4.2.1:3">🔗</a></div>
+</li>
+</ol></div></figure><div class="para" id="Chapter4Section2-2-8">Looking at the function <span class="process-math">\(g(x)=(1/2)^{x}\text{:}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#Chapter4Section2-2-8" title="Copy permalink for Paragraph">🔗</a></div>
 </div>
 <div class="tabular-box natural-width"><table class="tabular">
 <tr><td class="c m b0 r1 l1 t0 lines"></td></tr>
@@ -441,13 +503,17 @@ eBookConfig.enable_chatcodes =  false;
 </tr>
 <tr><td class="c m b0 r1 l1 t0 lines"></td></tr>
 </table></div>
-<div class="para" id="Chapter4Section2-2-10">Note this function is also positive for all values of <span class="process-math">\(x\text{,}\)</span> but in this case grows as <span class="process-math">\(x\)</span> decreases, and decreases towards zero as <span class="process-math">\(x\)</span> increases. This is an example of exponential decay. You may notice from the table that this function appears to be the horizontal reflection of the <span class="process-math">\(f(x)=2^{x}\)</span> table. This is in fact the case: <span class="process-math">\(f(-x)=2^{-x}=(2^{-1})^{x}=(\dfrac{1}{2})^{x}=g(x)\text{.}\)</span>
+<div class="para" id="Chapter4Section2-2-10">Note this function is also positive for all values of <span class="process-math">\(x\text{,}\)</span> but in this case grows as <span class="process-math">\(x\)</span> decreases, and decreases towards zero as <span class="process-math">\(x\)</span> increases. This is an example of exponential decay. You may notice from the table that this function appears to be the horizontal reflection of the <span class="process-math">\(f(x)=2^{x}\)</span> table. This is in fact the case: <span class="process-math">\(f(-x)=2^{-x}=(2^{-1})^{x}=(\dfrac{1}{2})^{x}=g(x)\text{.}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#Chapter4Section2-2-10" title="Copy permalink for Paragraph">🔗</a></div>
 </div>
-<div class="para" id="Chapter4Section2-2-11">Looking at the graphs also confirms this relationship.</div>
+<div class="para" id="Chapter4Section2-2-11">Looking at the graphs also confirms this relationship.<div class="autopermalink" data-description="Paragraph"><a href="#Chapter4Section2-2-11" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
 <div class="image-box" style="width: 100%; margin-left: 0%; margin-right: 0%;"><img src="external/C4S2Image1.png" class="contained" alt="Two graphs on the same axes. The first, labeled f(x), starts flat on the left just above the x-axis and increases, curving upwards as x increases, passing through the y-axis at 1, and continuing to curve upwards. The second, labeled g(x), is the horizontal reflection of the first.  It decreases rapidly on the left, and becomes less steep as x increases, passing through the y-axis at 1 and starting to flatten out towards the x-axis as x increases."></div>
-<div class="para" id="Chapter4Section2-2-13">Consider a function of the form <span class="process-math">\(f(x)=ab^{x}\text{.}\)</span> Since <span class="process-math">\(a\text{,}\)</span> which we called the initial value in the last section, is the function value at an input of zero, <span class="process-math">\(a\)</span> will give us the vertical intercept of the graph.</div>
-<div class="para" id="Chapter4Section2-2-14">From the graphs above, we can see that an exponential graph will have a horizontal asymptote on one side of the graph, and can either increase or decrease, depending upon the growth factor. This horizontal asymptote will also help us determine the long run behavior and is easy to determine from the graph.</div>
-<div class="para" id="Chapter4Section2-2-15">The graph will grow when the growth rate is positive, which will make the growth factor <span class="process-math">\(b\)</span> larger than one. When it’s negative, the growth factor will be less than one.</div>
+<div class="para" id="Chapter4Section2-2-13">Consider a function of the form <span class="process-math">\(f(x)=ab^{x}\text{.}\)</span> Since <span class="process-math">\(a\text{,}\)</span> which we called the initial value in the last section, is the function value at an input of zero, <span class="process-math">\(a\)</span> will give us the vertical intercept of the graph.<div class="autopermalink" data-description="Paragraph"><a href="#Chapter4Section2-2-13" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="Chapter4Section2-2-14">From the graphs above, we can see that an exponential graph will have a horizontal asymptote on one side of the graph, and can either increase or decrease, depending upon the growth factor. This horizontal asymptote will also help us determine the long run behavior and is easy to determine from the graph.<div class="autopermalink" data-description="Paragraph"><a href="#Chapter4Section2-2-14" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="Chapter4Section2-2-15">The graph will grow when the growth rate is positive, which will make the growth factor <span class="process-math">\(b\)</span> larger than one. When it’s negative, the growth factor will be less than one.<div class="autopermalink" data-description="Paragraph"><a href="#Chapter4Section2-2-15" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
 <article class="definition definition-like" id="Chapter4Section2-2-16"><h4 class="heading">
 <span class="type">Definition</span><span class="space"> </span><span class="codenumber">4.2.2</span><span class="period">.</span><span class="space"> </span><span class="title">Graphical Features of Exponential Functions.</span>
 </h4>
@@ -455,48 +521,80 @@ eBookConfig.enable_chatcodes =  false;
 <div class="para">Graphically, in the function <span class="process-math">\(f(x)=ab^{x}\text{,}\)</span>
 </div>
 <ul class="disc" id="Chapter4Section2-2-16-2-1-2">
-<li id="Chapter4Section2-2-16-2-1-2-1"><div class="para" id="Chapter4Section2-2-16-2-1-2-1-1">
-<span class="process-math">\(a\)</span> is the vertical intercept of the graph</div></li>
-<li id="Chapter4Section2-2-16-2-1-2-2"><div class="para logical" id="Chapter4Section2-2-16-2-1-2-2-1">
+<li id="Chapter4Section2-2-16-2-1-2-1">
+<div class="para" id="Chapter4Section2-2-16-2-1-2-1-1">
+<span class="process-math">\(a\)</span> is the vertical intercept of the graph<div class="autopermalink" data-description="Paragraph"><a href="#Chapter4Section2-2-16-2-1-2-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item"><a href="#Chapter4Section2-2-16-2-1-2-1" title="Copy permalink for Item">🔗</a></div>
+</li>
+<li id="Chapter4Section2-2-16-2-1-2-2">
+<div class="para logical" id="Chapter4Section2-2-16-2-1-2-2-1">
 <div class="para">
 <span class="process-math">\(b\)</span> determines the rate at which the graph grows. When <span class="process-math">\(a\)</span> is positive,</div>
 <ul class="circle" id="Chapter4Section2-2-16-2-1-2-2-1-3">
-<li id="Chapter4Section2-2-16-2-1-2-2-1-3-1"><div class="para" id="Chapter4Section2-2-16-2-1-2-2-1-3-1-1">the function will increase if <span class="process-math">\(b &gt; 1\)</span>
-</div></li>
-<li id="Chapter4Section2-2-16-2-1-2-2-1-3-2"><div class="para" id="Chapter4Section2-2-16-2-1-2-2-1-3-2-1">the function will decrease if <span class="process-math">\(0 &lt; b &lt; 1\)</span>
-</div></li>
-</ul>
-</div></li>
-<li id="Chapter4Section2-2-16-2-1-2-3"><div class="para" id="Chapter4Section2-2-16-2-1-2-3-1">The graph will have a horizontal asymptote at <span class="process-math">\(y = 0\)</span>
-</div></li>
-<li id="Chapter4Section2-2-16-2-1-2-4"><div class="para" id="Chapter4Section2-2-16-2-1-2-4-1">The domain of the function is all real numbers</div></li>
-<li id="Chapter4Section2-2-16-2-1-2-5"><div class="para" id="Chapter4Section2-2-16-2-1-2-5-1">The range of the function is <span class="process-math">\((0,\infty)\)</span>
-</div></li>
-</ul>
-</div></article><div class="para" id="Chapter4Section2-2-17">When sketching the graph of an exponential function, it can be helpful to remember that the graph will pass through the points <span class="process-math">\((0, a)\)</span> and <span class="process-math">\((1, ab)\text{.}\)</span>
+<li id="Chapter4Section2-2-16-2-1-2-2-1-3-1">
+<div class="para" id="Chapter4Section2-2-16-2-1-2-2-1-3-1-1">the function will increase if <span class="process-math">\(b &gt; 1\)</span><div class="autopermalink" data-description="Paragraph"><a href="#Chapter4Section2-2-16-2-1-2-2-1-3-1-1" title="Copy permalink for Paragraph">🔗</a></div>
 </div>
-<div class="para" id="Chapter4Section2-2-18">The value <span class="process-math">\(b\)</span> will determine the function’s long run behavior: If <span class="process-math">\(b &gt; 1\text{,}\)</span> as <span class="process-math">\(x\to \infty, f(x)\to \infty\)</span> and as <span class="process-math">\(x\to-\infty, f(x)\to0\text{.}\)</span> If <span class="process-math">\(0 &lt; b &lt; 1\text{,}\)</span> as <span class="process-math">\(x\to\infty,f(x)\to0\)</span> and as <span class="process-math">\(x\to-\infty, f(x)\to \infty\text{.}\)</span>
+<div class="autopermalink" data-description="Item"><a href="#Chapter4Section2-2-16-2-1-2-2-1-3-1" title="Copy permalink for Item">🔗</a></div>
+</li>
+<li id="Chapter4Section2-2-16-2-1-2-2-1-3-2">
+<div class="para" id="Chapter4Section2-2-16-2-1-2-2-1-3-2-1">the function will decrease if <span class="process-math">\(0 &lt; b &lt; 1\)</span><div class="autopermalink" data-description="Paragraph"><a href="#Chapter4Section2-2-16-2-1-2-2-1-3-2-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item"><a href="#Chapter4Section2-2-16-2-1-2-2-1-3-2" title="Copy permalink for Item">🔗</a></div>
+</li>
+</ul>
+<div class="autopermalink" data-description="Paragraph"><a href="#Chapter4Section2-2-16-2-1-2-2-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item"><a href="#Chapter4Section2-2-16-2-1-2-2" title="Copy permalink for Item">🔗</a></div>
+</li>
+<li id="Chapter4Section2-2-16-2-1-2-3">
+<div class="para" id="Chapter4Section2-2-16-2-1-2-3-1">The graph will have a horizontal asymptote at <span class="process-math">\(y = 0\)</span><div class="autopermalink" data-description="Paragraph"><a href="#Chapter4Section2-2-16-2-1-2-3-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item"><a href="#Chapter4Section2-2-16-2-1-2-3" title="Copy permalink for Item">🔗</a></div>
+</li>
+<li id="Chapter4Section2-2-16-2-1-2-4">
+<div class="para" id="Chapter4Section2-2-16-2-1-2-4-1">The domain of the function is all real numbers<div class="autopermalink" data-description="Paragraph"><a href="#Chapter4Section2-2-16-2-1-2-4-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item"><a href="#Chapter4Section2-2-16-2-1-2-4" title="Copy permalink for Item">🔗</a></div>
+</li>
+<li id="Chapter4Section2-2-16-2-1-2-5">
+<div class="para" id="Chapter4Section2-2-16-2-1-2-5-1">The range of the function is <span class="process-math">\((0,\infty)\)</span><div class="autopermalink" data-description="Paragraph"><a href="#Chapter4Section2-2-16-2-1-2-5-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item"><a href="#Chapter4Section2-2-16-2-1-2-5" title="Copy permalink for Item">🔗</a></div>
+</li>
+</ul>
+<div class="autopermalink" data-description="Paragraph"><a href="#Chapter4Section2-2-16-2-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Definition 4.2.2: Graphical Features of Exponential Functions"><a href="#Chapter4Section2-2-16" title="Copy permalink for Definition 4.2.2: Graphical Features of Exponential Functions">🔗</a></div></article><div class="para" id="Chapter4Section2-2-17">When sketching the graph of an exponential function, it can be helpful to remember that the graph will pass through the points <span class="process-math">\((0, a)\)</span> and <span class="process-math">\((1, ab)\text{.}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#Chapter4Section2-2-17" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="Chapter4Section2-2-18">The value <span class="process-math">\(b\)</span> will determine the function’s long run behavior: If <span class="process-math">\(b &gt; 1\text{,}\)</span> as <span class="process-math">\(x\to \infty, f(x)\to \infty\)</span> and as <span class="process-math">\(x\to-\infty, f(x)\to0\text{.}\)</span> If <span class="process-math">\(0 &lt; b &lt; 1\text{,}\)</span> as <span class="process-math">\(x\to\infty,f(x)\to0\)</span> and as <span class="process-math">\(x\to-\infty, f(x)\to \infty\text{.}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#Chapter4Section2-2-18" title="Copy permalink for Paragraph">🔗</a></div>
 </div>
 <article class="example example-like" id="Chapter4Section2-2-19"><h4 class="heading">
 <span class="type">Example</span><span class="space"> </span><span class="codenumber">4.2.3</span><span class="period">.</span>
 </h4>
-<div class="para" id="Chapter4Section2-2-19-1-1">Sketch a graph of <span class="process-math">\(f(x)=4(\dfrac{1}{3})^{x}\)</span>
+<div class="para" id="Chapter4Section2-2-19-1-1">Sketch a graph of <span class="process-math">\(f(x)=4(\dfrac{1}{3})^{x}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#Chapter4Section2-2-19-1-1" title="Copy permalink for Paragraph">🔗</a></div>
 </div>
 <div class="solution solution-like" id="Chapter4Section2-2-19-2">
 <h4 class="heading">
 <span class="type">Solution</span><span class="period">.</span>
 </h4>
-<div class="para" id="Chapter4Section2-2-19-2-1">This graph will have a vertical intercept at <span class="process-math">\((0,4)\text{,}\)</span> and pass through the point <span class="process-math">\((1,\dfrac{4}{3})\text{.}\)</span> Since <span class="process-math">\(b &lt; 1\text{,}\)</span> the graph will be decreasing towards zero.</div>
-<div class="image-box" style="width: 100%; margin-left: 0%; margin-right: 0%;"><img src="external/C4S2Image2.png" class="contained" alt="A graph that decreases steeply at first then flattens as x increases, passing through 0 comma 4 and (1, four thirds), then approaches the x-axis as x increases."></div>
-<div class="para" id="Chapter4Section2-2-19-2-3">We can also see from the graph the long run behavior: as <span class="process-math">\(x\to\infty, f(x)\to0\)</span> and as <span class="process-math">\(x\to-\infty, f(x)\to \infty\text{.}\)</span>
+<div class="para" id="Chapter4Section2-2-19-2-1">This graph will have a vertical intercept at <span class="process-math">\((0,4)\text{,}\)</span> and pass through the point <span class="process-math">\((1,\dfrac{4}{3})\text{.}\)</span> Since <span class="process-math">\(b &lt; 1\text{,}\)</span> the graph will be decreasing towards zero.<div class="autopermalink" data-description="Paragraph"><a href="#Chapter4Section2-2-19-2-1" title="Copy permalink for Paragraph">🔗</a></div>
 </div>
-</div></article><div class="para" id="Chapter4Section2-2-20">To get a better feeling for the effect of <span class="process-math">\(a\)</span> and <span class="process-math">\(b\)</span> on the graph, examine the sets of graphs below. The first set shows various graphs, where <span class="process-math">\(a\)</span> remains the same and we only change the value for <span class="process-math">\(b\text{.}\)</span>
+<div class="image-box" style="width: 100%; margin-left: 0%; margin-right: 0%;"><img src="external/C4S2Image2.png" class="contained" alt="A graph that decreases steeply at first then flattens as x increases, passing through 0 comma 4 and (1, four thirds), then approaches the x-axis as x increases."></div>
+<div class="para" id="Chapter4Section2-2-19-2-3">We can also see from the graph the long run behavior: as <span class="process-math">\(x\to\infty, f(x)\to0\)</span> and as <span class="process-math">\(x\to-\infty, f(x)\to \infty\text{.}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#Chapter4Section2-2-19-2-3" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Solution 4.2.3.1"><a href="#Chapter4Section2-2-19-2" title="Copy permalink for Solution 4.2.3.1">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Example 4.2.3"><a href="#Chapter4Section2-2-19" title="Copy permalink for Example 4.2.3">🔗</a></div></article><div class="para" id="Chapter4Section2-2-20">To get a better feeling for the effect of <span class="process-math">\(a\)</span> and <span class="process-math">\(b\)</span> on the graph, examine the sets of graphs below. The first set shows various graphs, where <span class="process-math">\(a\)</span> remains the same and we only change the value for <span class="process-math">\(b\text{.}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#Chapter4Section2-2-20" title="Copy permalink for Paragraph">🔗</a></div>
 </div>
 <div class="image-box" style="width: 100%; margin-left: 0%; margin-right: 0%;"><img src="external/C4S2Image3.png" class="contained" alt="A graph showing six exponential graphs on the same axes. All pass through the y-axis at 1.  Three graphs are decreasing: nine-tenths to the x is the flattest.  one-half to the x starts out steeper.  one-third to the x starts out the steepest of the three but also levels off towards the x-axis on the right most quickly.  Three graphs are increasing: three-halves to the x is the flattest, followed by 2 to the x.  3 to the x stays flattest on the left for the longest, but then becomes steepest fastest when x becomes positive."></div>
-<div class="para" id="Chapter4Section2-2-22">Notice that the closer the value of <span class="process-math">\(b\)</span> is to 1, the less steep the graph will be.</div>
-<div class="para" id="Chapter4Section2-2-23">In the next set of graphs, <span class="process-math">\(a\)</span> is altered and our value for <span class="process-math">\(b\)</span> remains the same.</div>
+<div class="para" id="Chapter4Section2-2-22">Notice that the closer the value of <span class="process-math">\(b\)</span> is to 1, the less steep the graph will be.<div class="autopermalink" data-description="Paragraph"><a href="#Chapter4Section2-2-22" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="Chapter4Section2-2-23">In the next set of graphs, <span class="process-math">\(a\)</span> is altered and our value for <span class="process-math">\(b\)</span> remains the same.<div class="autopermalink" data-description="Paragraph"><a href="#Chapter4Section2-2-23" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
 <div class="image-box" style="width: 100%; margin-left: 0%; margin-right: 0%;"><img src="external/C4S2Image4.png" class="contained" alt="A graph showing five exponential graphs on the same axes.  All are multiples of 1.2 to the x.  one-half times 1.2 to the x crosses the y-axis at one half, and increases most slowly, followed by 1.2 to the x, then 2 times 1.2 to the x, and 3 times 1.2 to the x and 4 times 1.2 to the x.  As the multiple increases, the y-intercept changes, and the graph increases somewhat faster."></div>
-<div class="para" id="Chapter4Section2-2-25">Notice that changing the value for <span class="process-math">\(a\)</span> changes the vertical intercept. Since <span class="process-math">\(a\)</span> is multiplying the <span class="process-math">\(b^{x}\)</span> term, <span class="process-math">\(a\)</span> acts as a vertical stretch factor, not as a shift. Notice also that the long run behavior for all of these functions is the same because the growth factor did not change and none of these <span class="process-math">\(a\)</span> values introduced a vertical flip.</div>
+<div class="para" id="Chapter4Section2-2-25">Notice that changing the value for <span class="process-math">\(a\)</span> changes the vertical intercept. Since <span class="process-math">\(a\)</span> is multiplying the <span class="process-math">\(b^{x}\)</span> term, <span class="process-math">\(a\)</span> acts as a vertical stretch factor, not as a shift. Notice also that the long run behavior for all of these functions is the same because the growth factor did not change and none of these <span class="process-math">\(a\)</span> values introduced a vertical flip.<div class="autopermalink" data-description="Paragraph"><a href="#Chapter4Section2-2-25" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
 <article class="example example-like" id="Chapter4Section2-2-26"><h4 class="heading">
 <span class="type">Example</span><span class="space"> </span><span class="codenumber">4.2.4</span><span class="period">.</span>
 </h4>
@@ -522,14 +620,18 @@ h(x)=4(1.3)^{x}
 k(x)=4(0.7)^{x}
 \end{equation*}
 </div>
+<div class="autopermalink" data-description="Paragraph"><a href="#Chapter4Section2-2-26-1-1" title="Copy permalink for Paragraph">🔗</a></div>
 </div> <div class="image-box" style="width: 100%; margin-left: 0%; margin-right: 0%;"><img src="external/C4S2Image5.png" class="contained" alt="A graph showing four exponential curves on the same axes.  The first, in yellow, is increasing and passes the y-axis at 4.  The second, in blue, is increasing slowly and passes the y-axis at 2.  The third, in green, is also increasing and passes the y-axis at 2, but is curving upwards more rapidly than the second graph.  The fourth, in red, is decreasing and passes the y-axis at 4."></div>
 <div class="solution solution-like" id="Chapter4Section2-2-26-2">
 <h4 class="heading">
 <span class="type">Solution</span><span class="period">.</span>
 </h4>
-<div class="para" id="Chapter4Section2-2-26-2-1">The graph of <span class="process-math">\(k(x)\)</span> is the easiest to identify, since it is the only equation with a growth factor less than one, which will produce a decreasing graph. The graph of <span class="process-math">\(h(x)\)</span> can be identified as the only growing exponential function with a vertical intercept at <span class="process-math">\((0,4)\text{.}\)</span> The graphs of <span class="process-math">\(f(x)\)</span> and <span class="process-math">\(g(x)\)</span> both have a vertical intercept at <span class="process-math">\((0,2)\text{,}\)</span> but since <span class="process-math">\(g(x)\)</span> has a larger growth factor, we can identify it as the graph increasing faster.</div>
+<div class="para" id="Chapter4Section2-2-26-2-1">The graph of <span class="process-math">\(k(x)\)</span> is the easiest to identify, since it is the only equation with a growth factor less than one, which will produce a decreasing graph. The graph of <span class="process-math">\(h(x)\)</span> can be identified as the only growing exponential function with a vertical intercept at <span class="process-math">\((0,4)\text{.}\)</span> The graphs of <span class="process-math">\(f(x)\)</span> and <span class="process-math">\(g(x)\)</span> both have a vertical intercept at <span class="process-math">\((0,2)\text{,}\)</span> but since <span class="process-math">\(g(x)\)</span> has a larger growth factor, we can identify it as the graph increasing faster.<div class="autopermalink" data-description="Paragraph"><a href="#Chapter4Section2-2-26-2-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
 <div class="image-box" style="width: 100%; margin-left: 0%; margin-right: 0%;"><img src="external/C4S2Image6.png" class="contained" alt="A graph showing four exponential curves on the same axes.  The first, in yellow, labeled h of x, is increasing and passes the y-axis at 4.  The second, in blue, labeled f of x, is increasing slowly and passes the y-axis at 2.  The third, in green, labeled g of x, is also increasing and passes the y-axis at 2, but is curving upwards more rapidly than the second graph.  The fourth, in red, labeled k of x, is decreasing and passes the y-axis at 4."></div>
-</div></article><article class="exercise exercise-like" id="Chapter4Section2-2-27"><h4 class="heading">
+<div class="autopermalink" data-description="Solution 4.2.4.1"><a href="#Chapter4Section2-2-26-2" title="Copy permalink for Solution 4.2.4.1">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Example 4.2.4"><a href="#Chapter4Section2-2-26" title="Copy permalink for Example 4.2.4">🔗</a></div></article><article class="exercise exercise-like" id="Chapter4Section2-2-27"><h4 class="heading">
 <span class="type">Checkpoint</span><span class="space"> </span><span class="codenumber">4.2.5</span><span class="period">.</span>
 </h4>
 <div class="para logical" id="Chapter4Section2-2-27-1-1">
@@ -549,10 +651,13 @@ g(x)=2(2)^{x}
 h(x)=2(1/2)^{x}
 \end{equation*}
 </div>
-</div></article></section><section class="subsection" id="Chapter4Section2-3"><h3 class="heading hide-type">
+<div class="autopermalink" data-description="Paragraph"><a href="#Chapter4Section2-2-27-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Checkpoint 4.2.5"><a href="#Chapter4Section2-2-27" title="Copy permalink for Checkpoint 4.2.5">🔗</a></div></article><div class="autopermalink" data-description="Subsection 4.2.1: Introduction"><a href="#Chapter4Section2-2" title="Copy permalink for Subsection 4.2.1: Introduction">🔗</a></div></section><section class="subsection" id="Chapter4Section2-3"><h3 class="heading hide-type">
 <span class="type">Subsection</span><span class="space"> </span><span class="codenumber">4.2.2</span><span class="space"> </span><span class="title">Transformations of Exponential Graphs</span>
 </h3>
-<div class="para" id="Chapter4Section2-3-2">While exponential functions can be transformed following the same rules as any function, there are a few interesting features of transformations that can be identified. The first was seen at the beginning of the section - that a horizontal reflection is equivalent to a change in the growth factor. Likewise, since <span class="process-math">\(a\)</span> is itself a stretch factor, a vertical stretch of an exponential function corresponds with a change in the initial value of the function.</div>
+<div class="para" id="Chapter4Section2-3-2">While exponential functions can be transformed following the same rules as any function, there are a few interesting features of transformations that can be identified. The first was seen at the beginning of the section - that a horizontal reflection is equivalent to a change in the growth factor. Likewise, since <span class="process-math">\(a\)</span> is itself a stretch factor, a vertical stretch of an exponential function corresponds with a change in the initial value of the function.<div class="autopermalink" data-description="Paragraph"><a href="#Chapter4Section2-3-2" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
 <div class="para logical" id="Chapter4Section2-3-3">
 <div class="para">Next consider the effect of a horizontal shift on an exponential function. Shifting the function <span class="process-math">\(f(x)=3(2)^{x}\)</span> four units to the left would give <span class="process-math">\(f(x+4)=3(2)^{x+4}\text{.}\)</span> Employing exponent rules, we could rewrite this:</div>
 <div class="displaymath process-math">
@@ -561,13 +666,14 @@ f(x+4)=3(2)^{x+4}=3(2)^{x} (2^{4})=48(2)^{x}
 \end{equation*}
 </div>
 <div class="para">Interestingly, it turns out that a horizontal shift of an exponential function corresponds with a change in initial value of the function.</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#Chapter4Section2-3-3" title="Copy permalink for Paragraph">🔗</a></div>
 </div>
-<div class="para" id="Chapter4Section2-3-4">Lastly, consider the effect of a vertical shift on an exponential function. Shifting <span class="process-math">\(f(x)=3(2)^{x}\)</span> down 4 units would give the equation <span class="process-math">\(f(x)=3(2)^{x}-4\text{.}\)</span>
+<div class="para" id="Chapter4Section2-3-4">Lastly, consider the effect of a vertical shift on an exponential function. Shifting <span class="process-math">\(f(x)=3(2)^{x}\)</span> down 4 units would give the equation <span class="process-math">\(f(x)=3(2)^{x}-4\text{.}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#Chapter4Section2-3-4" title="Copy permalink for Paragraph">🔗</a></div>
 </div>
-<div class="para" id="Chapter4Section2-3-5">Graphing that, notice it is substantially different than the basic exponential graph. Unlike a basic exponential, this graph does not have a horizontal asymptote at <span class="process-math">\(y = 0\text{;}\)</span> due to the vertical shift, the horizontal asymptote has also shifted to <span class="process-math">\(y = -4\text{.}\)</span> We can see that as <span class="process-math">\(x\to\infty, f(x)\to\infty\)</span> and as <span class="process-math">\(x\to-\infty, f(x)\to-4\text{.}\)</span>
+<div class="para" id="Chapter4Section2-3-5">Graphing that, notice it is substantially different than the basic exponential graph. Unlike a basic exponential, this graph does not have a horizontal asymptote at <span class="process-math">\(y = 0\text{;}\)</span> due to the vertical shift, the horizontal asymptote has also shifted to <span class="process-math">\(y = -4\text{.}\)</span> We can see that as <span class="process-math">\(x\to\infty, f(x)\to\infty\)</span> and as <span class="process-math">\(x\to-\infty, f(x)\to-4\text{.}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#Chapter4Section2-3-5" title="Copy permalink for Paragraph">🔗</a></div>
 </div>
 <div class="image-box" style="width: 100%; margin-left: 0%; margin-right: 0%;"><img src="external/C4S2Image7.png" class="contained" alt="A graph that starts out flat, just above y=negative 4, and increases and curves upwards, passing through the y-axis at negative 1 and the point 1 comma 2"></div>
-<div class="para" id="Chapter4Section2-3-7">We have determined that a vertical shift is the only transformation of an exponential function that changes the graph in a way that cannot be achieved by altering the parameters <span class="process-math">\(a\)</span> and <span class="process-math">\(b\)</span> in the basic exponential function <span class="process-math">\(f(x)=ab^{x}\text{.}\)</span>
+<div class="para" id="Chapter4Section2-3-7">We have determined that a vertical shift is the only transformation of an exponential function that changes the graph in a way that cannot be achieved by altering the parameters <span class="process-math">\(a\)</span> and <span class="process-math">\(b\)</span> in the basic exponential function <span class="process-math">\(f(x)=ab^{x}\text{.}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#Chapter4Section2-3-7" title="Copy permalink for Paragraph">🔗</a></div>
 </div>
 <article class="definition definition-like" id="Chapter4Section2-3-8"><h4 class="heading">
 <span class="type">Definition</span><span class="space"> </span><span class="codenumber">4.2.6</span><span class="period">.</span><span class="space"> </span><span class="title">Transformations of Exponential Functions.</span>
@@ -580,31 +686,40 @@ f(x)=ab^{x}+c
 \end{equation*}
 </div>
 <div class="para">where <span class="process-math">\(y = c\)</span> is the horizontal asymptote.</div>
-</div></article><div class="para" id="Chapter4Section2-3-9">Note that, due to the shift, the vertical intercept is shifted to <span class="process-math">\((0, a+c)\text{.}\)</span>
+<div class="autopermalink" data-description="Paragraph"><a href="#Chapter4Section2-3-8-2-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Definition 4.2.6: Transformations of Exponential Functions"><a href="#Chapter4Section2-3-8" title="Copy permalink for Definition 4.2.6: Transformations of Exponential Functions">🔗</a></div></article><div class="para" id="Chapter4Section2-3-9">Note that, due to the shift, the vertical intercept is shifted to <span class="process-math">\((0, a+c)\text{.}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#Chapter4Section2-3-9" title="Copy permalink for Paragraph">🔗</a></div>
 </div>
 <article class="exercise exercise-like" id="Chapter4Section2-3-10"><h4 class="heading">
 <span class="type">Checkpoint</span><span class="space"> </span><span class="codenumber">4.2.7</span><span class="period">.</span>
 </h4>
-<div class="para" id="Chapter4Section2-3-10-1-1">Write the equation and graph the exponential function described as follows: <span class="process-math">\(f(x)=e^{x}\)</span> is vertically stretched by a factor of 2, flipped across the <span class="process-math">\(y\)</span>-axis and shifted up 4 units.</div></article><article class="example example-like" id="Chapter4Section2-3-11"><h4 class="heading">
+<div class="para" id="Chapter4Section2-3-10-1-1">Write the equation and graph the exponential function described as follows: <span class="process-math">\(f(x)=e^{x}\)</span> is vertically stretched by a factor of 2, flipped across the <span class="process-math">\(y\)</span>-axis and shifted up 4 units.<div class="autopermalink" data-description="Paragraph"><a href="#Chapter4Section2-3-10-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Checkpoint 4.2.7"><a href="#Chapter4Section2-3-10" title="Copy permalink for Checkpoint 4.2.7">🔗</a></div></article><article class="example example-like" id="Chapter4Section2-3-11"><h4 class="heading">
 <span class="type">Example</span><span class="space"> </span><span class="codenumber">4.2.8</span><span class="period">.</span>
 </h4>
-<div class="para" id="Chapter4Section2-3-11-1-1">Sketch a graph of <span class="process-math">\(f(x)=-3(\dfrac{1}{2})^{x}+4\text{.}\)</span>
+<div class="para" id="Chapter4Section2-3-11-1-1">Sketch a graph of <span class="process-math">\(f(x)=-3(\dfrac{1}{2})^{x}+4\text{.}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#Chapter4Section2-3-11-1-1" title="Copy permalink for Paragraph">🔗</a></div>
 </div>
 <div class="solution solution-like" id="Chapter4Section2-3-11-2">
 <h4 class="heading">
 <span class="type">Solution</span><span class="period">.</span>
 </h4>
-<div class="para" id="Chapter4Section2-3-11-2-1">Notice that in this exponential function, the negative in the stretch factor -3 will cause a vertical reflection, and the vertical shift up 4 will move the horizontal asymptote to <span class="process-math">\(y = 4\text{.}\)</span> Sketching this as a transformation of <span class="process-math">\(g(x)=(1/2)^{x}\text{,}\)</span> we get the following graphs:</div>
-<figure class="figure figure-like" id="Chapter4Section2-3-11-2-2"><div class="image-box" style="width: 100%; margin-left: 0%; margin-right: 0%;"><img src="external/C4S2Image8.png" class="contained" alt="A graph that starts out decreasing rapidly and flattens out as x increases, passing through negative 1 comma 2 and 0 comma 1, leveling off towards the y-axis as x gets large"></div>
-<figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">4.2.9<span class="period">.</span></span><span class="space"> </span>The starting function <span class="process-math">\(g(x)=(\dfrac{1}{2})^{x}\)</span></figcaption></figure><figure class="figure figure-like" id="Chapter4Section2-3-11-2-3"><div class="image-box" style="width: 100%; margin-left: 0%; margin-right: 0%;"><img src="external/C4S2Image9.png" class="contained" alt="A graph that starts out negative and increasing rapidly, flattening out as x increases, passing through 0 comma negative 3, leveling off towards the y-axis as x gets large"></div>
-<figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">4.2.10<span class="period">.</span></span><span class="space"> </span>Vertically reflected and stretched by 3: <span class="process-math">\(-3(\dfrac{1}{2})^{x}\)</span></figcaption></figure><figure class="figure figure-like" id="Chapter4Section2-3-11-2-4"><div class="image-box" style="width: 100%; margin-left: 0%; margin-right: 0%;"><img src="external/C4S2Image10.png" class="contained" alt="A graph that starts out negative and increasing rapidly, flattening out as x increases, passing through 0 comma 1, leveling off towards y=4 as x gets large"></div>
-<figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">4.2.11<span class="period">.</span></span><span class="space"> </span>Vertically shifted up four units: <span class="process-math">\(f(x)=-3(\dfrac{1}{2})^{x}+4\)</span></figcaption></figure><div class="para" id="Chapter4Section2-3-11-2-5">Notice that while the domain of this function is unchanged, due to the reflection and shift, the range of this function is <span class="process-math">\((-\infty,4)\text{.}\)</span> So, as <span class="process-math">\(x\to\infty, f(x)\to4\)</span> and as <span class="process-math">\(x\to-\infty, f(x)\to-\infty\text{.}\)</span>
+<div class="para" id="Chapter4Section2-3-11-2-1">Notice that in this exponential function, the negative in the stretch factor -3 will cause a vertical reflection, and the vertical shift up 4 will move the horizontal asymptote to <span class="process-math">\(y = 4\text{.}\)</span> Sketching this as a transformation of <span class="process-math">\(g(x)=(1/2)^{x}\text{,}\)</span> we get the following graphs:<div class="autopermalink" data-description="Paragraph"><a href="#Chapter4Section2-3-11-2-1" title="Copy permalink for Paragraph">🔗</a></div>
 </div>
-</div></article><div class="para" id="Chapter4Section2-3-12">Functions leading to graphs like the one above are common as models for learning and models of growth approaching a limit.</div>
+<figure class="figure figure-like" id="Chapter4Section2-3-11-2-2"><div class="image-box" style="width: 100%; margin-left: 0%; margin-right: 0%;"><img src="external/C4S2Image8.png" class="contained" alt="A graph that starts out decreasing rapidly and flattens out as x increases, passing through negative 1 comma 2 and 0 comma 1, leveling off towards the y-axis as x gets large"></div>
+<figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">4.2.9<span class="period">.</span></span><span class="space"> </span>The starting function <span class="process-math">\(g(x)=(\dfrac{1}{2})^{x}\)</span><div class="autopermalink" data-description="Figure 4.2.9"><a href="#Chapter4Section2-3-11-2-2" title="Copy permalink for Figure 4.2.9">🔗</a></div></figcaption></figure><figure class="figure figure-like" id="Chapter4Section2-3-11-2-3"><div class="image-box" style="width: 100%; margin-left: 0%; margin-right: 0%;"><img src="external/C4S2Image9.png" class="contained" alt="A graph that starts out negative and increasing rapidly, flattening out as x increases, passing through 0 comma negative 3, leveling off towards the y-axis as x gets large"></div>
+<figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">4.2.10<span class="period">.</span></span><span class="space"> </span>Vertically reflected and stretched by 3: <span class="process-math">\(-3(\dfrac{1}{2})^{x}\)</span><div class="autopermalink" data-description="Figure 4.2.10"><a href="#Chapter4Section2-3-11-2-3" title="Copy permalink for Figure 4.2.10">🔗</a></div></figcaption></figure><figure class="figure figure-like" id="Chapter4Section2-3-11-2-4"><div class="image-box" style="width: 100%; margin-left: 0%; margin-right: 0%;"><img src="external/C4S2Image10.png" class="contained" alt="A graph that starts out negative and increasing rapidly, flattening out as x increases, passing through 0 comma 1, leveling off towards y=4 as x gets large"></div>
+<figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">4.2.11<span class="period">.</span></span><span class="space"> </span>Vertically shifted up four units: <span class="process-math">\(f(x)=-3(\dfrac{1}{2})^{x}+4\)</span><div class="autopermalink" data-description="Figure 4.2.11"><a href="#Chapter4Section2-3-11-2-4" title="Copy permalink for Figure 4.2.11">🔗</a></div></figcaption></figure><div class="para" id="Chapter4Section2-3-11-2-5">Notice that while the domain of this function is unchanged, due to the reflection and shift, the range of this function is <span class="process-math">\((-\infty,4)\text{.}\)</span> So, as <span class="process-math">\(x\to\infty, f(x)\to4\)</span> and as <span class="process-math">\(x\to-\infty, f(x)\to-\infty\text{.}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#Chapter4Section2-3-11-2-5" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Solution 4.2.8.1"><a href="#Chapter4Section2-3-11-2" title="Copy permalink for Solution 4.2.8.1">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Example 4.2.8"><a href="#Chapter4Section2-3-11" title="Copy permalink for Example 4.2.8">🔗</a></div></article><div class="para" id="Chapter4Section2-3-12">Functions leading to graphs like the one above are common as models for learning and models of growth approaching a limit.<div class="autopermalink" data-description="Paragraph"><a href="#Chapter4Section2-3-12" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
 <article class="example example-like" id="Chapter4Section2-3-13"><h4 class="heading">
 <span class="type">Example</span><span class="space"> </span><span class="codenumber">4.2.12</span><span class="period">.</span>
 </h4>
-<div class="para" id="Chapter4Section2-3-13-1-1">Find an equation for the function graphed here.</div> <div class="image-box" style="width: 100%; margin-left: 0%; margin-right: 0%;"><img src="external/C4S2Image11.png" class="contained" alt="A graph that starts out nearly flat, just below y=5, that decreases, curving downwards, passing through negative 1 comma 3 and 0 comma 2"></div>
+<div class="para" id="Chapter4Section2-3-13-1-1">Find an equation for the function graphed here.<div class="autopermalink" data-description="Paragraph"><a href="#Chapter4Section2-3-13-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div> <div class="image-box" style="width: 100%; margin-left: 0%; margin-right: 0%;"><img src="external/C4S2Image11.png" class="contained" alt="A graph that starts out nearly flat, just below y=5, that decreases, curving downwards, passing through negative 1 comma 3 and 0 comma 2"></div>
 <div class="solution solution-like" id="Chapter4Section2-3-13-2">
 <h4 class="heading">
 <span class="type">Solution</span><span class="period">.</span>
@@ -627,6 +742,7 @@ f(x)=ab^{x}+c
 a=-3
 \end{equation*}
 </div>
+<div class="autopermalink" data-description="Paragraph"><a href="#Chapter4Section2-3-13-2-1" title="Copy permalink for Paragraph">🔗</a></div>
 </div>
 <div class="para logical" id="Chapter4Section2-3-13-2-2">
 <div class="para">Substituting in <span class="process-math">\((-1,3)\)</span> allows us to solve for <span class="process-math">\(b\text{.}\)</span>
@@ -653,26 +769,38 @@ b=\dfrac{3}{2}=1.5
 </div>
 <div class="para">The final formula for our function is <span class="process-math">\(f(x)=-3(1.5)^{x}+5\text{.}\)</span>
 </div>
+<div class="autopermalink" data-description="Paragraph"><a href="#Chapter4Section2-3-13-2-2" title="Copy permalink for Paragraph">🔗</a></div>
 </div>
-</div></article><article class="exercise exercise-like" id="Chapter4Section2-3-14"><h4 class="heading">
+<div class="autopermalink" data-description="Solution 4.2.12.1"><a href="#Chapter4Section2-3-13-2" title="Copy permalink for Solution 4.2.12.1">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Example 4.2.12"><a href="#Chapter4Section2-3-13" title="Copy permalink for Example 4.2.12">🔗</a></div></article><article class="exercise exercise-like" id="Chapter4Section2-3-14"><h4 class="heading">
 <span class="type">Checkpoint</span><span class="space"> </span><span class="codenumber">4.2.13</span><span class="period">.</span>
 </h4>
-<div class="para" id="Chapter4Section2-3-14-1-1">Given the graph of the transformed exponential function, find a formula and describe the long run behavior.</div> <div class="image-box" style="width: 100%; margin-left: 0%; margin-right: 0%;"><img src="external/C4S2Image12.png" class="contained" alt="A graph that starts out nearly flat, just above y=negative 1, that increases curving upwards, passing through 0 comma 2"></div></article></section><section class="subsection" id="Chapter4Section2-4"><h3 class="heading hide-type">
+<div class="para" id="Chapter4Section2-3-14-1-1">Given the graph of the transformed exponential function, find a formula and describe the long run behavior.<div class="autopermalink" data-description="Paragraph"><a href="#Chapter4Section2-3-14-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div> <div class="image-box" style="width: 100%; margin-left: 0%; margin-right: 0%;"><img src="external/C4S2Image12.png" class="contained" alt="A graph that starts out nearly flat, just above y=negative 1, that increases curving upwards, passing through 0 comma 2"></div>
+<div class="autopermalink" data-description="Checkpoint 4.2.13"><a href="#Chapter4Section2-3-14" title="Copy permalink for Checkpoint 4.2.13">🔗</a></div></article><div class="autopermalink" data-description="Subsection 4.2.2: Transformations of Exponential Graphs"><a href="#Chapter4Section2-3" title="Copy permalink for Subsection 4.2.2: Transformations of Exponential Graphs">🔗</a></div></section><section class="subsection" id="Chapter4Section2-4"><h3 class="heading hide-type">
 <span class="type">Subsection</span><span class="space"> </span><span class="codenumber">4.2.3</span><span class="space"> </span><span class="title">Answers</span>
 </h3>
 <article class="exercise exercise-like" id="Chapter4Section2-4-2"><h4 class="heading">
 <span class="type">Checkpoint</span><span class="space"> </span><span class="codenumber">4.2.14</span><span class="period">.</span>
 </h4>
-<div class="para" id="Chapter4Section2-4-2-1-1">Answers to Checkpoing Exercises</div>
+<div class="para" id="Chapter4Section2-4-2-1-1">Answers to Checkpoing Exercises<div class="autopermalink" data-description="Paragraph"><a href="#Chapter4Section2-4-2-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
 <div class="solutions"><details id="Chapter4Section2-4-2-2" class="answer solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Answer</span><span class="period">.</span></summary><div class="answer solution-like knowl__content">
 <div class="para logical" id="Chapter4Section2-4-2-2-1">
-<ol class="decimal" id="Chapter4Section2-4-2-2-1-1"><li id="Chapter4Section2-4-2-2-1-1-1"><div class="image-box" style="width: 100%; margin-left: 0%; margin-right: 0%;"><img src="external/C4S2Image13.png" class="contained" alt="Three graphs on the same axes. First, an increasing exponential graph passing through 0 comma 1 and 1 comma 2 labeled f of x = 2 to the x. Second, an increasing exponential graph passing through 0 comma 2 and 2 comma 4 labeled g of x = 2 times 2 to the x. Third, a decreasing exponential graph passing through negative 1 comma 4 and 0 comma 2 labeled h of x = 2 times one half to the x."></div></li></ol>
+<ol class="decimal" id="Chapter4Section2-4-2-2-1-1"><li id="Chapter4Section2-4-2-2-1-1-1">
+<div class="image-box" style="width: 100%; margin-left: 0%; margin-right: 0%;"><img src="external/C4S2Image13.png" class="contained" alt="Three graphs on the same axes. First, an increasing exponential graph passing through 0 comma 1 and 1 comma 2 labeled f of x = 2 to the x. Second, an increasing exponential graph passing through 0 comma 2 and 2 comma 4 labeled g of x = 2 times 2 to the x. Third, a decreasing exponential graph passing through negative 1 comma 4 and 0 comma 2 labeled h of x = 2 times one half to the x."></div>
+<div class="autopermalink" data-description="Item 4.2.14.1"><a href="#Chapter4Section2-4-2-2-1-1-1" title="Copy permalink for Item 4.2.14.1">🔗</a></div>
+</li></ol>
 <div class="para"><span class="process-math">\(f(x)=2e^{-x}+4\)</span></div>
+<div class="autopermalink" data-description="Paragraph"><a href="#Chapter4Section2-4-2-2-1" title="Copy permalink for Paragraph">🔗</a></div>
 </div>
 <div class="image-box" style="width: 100%; margin-left: 0%; margin-right: 0%;"><img src="external/C4S2Image14.png" class="contained" alt="A graph that starts out nearly flat, just below y=4, that decreases curving downwards passing through 0 comma 2"></div>
-<div class="para" id="Chapter4Section2-4-2-2-3">Horizontal asymptote at <span class="process-math">\(y = -1\text{,}\)</span> so <span class="process-math">\(f(x)=ab^{x}-1\text{.}\)</span> Substitute <span class="process-math">\((0,2)\)</span> to find <span class="process-math">\(a = 3\text{.}\)</span> Substitute <span class="process-math">\((1,5)\)</span> to find <span class="process-math">\(5=3b^{1}-1\text{,}\)</span> <span class="process-math">\(b = 2\text{.}\)</span> <span class="process-math">\(f(x)=3(2)^{x}-1\text{.}\)</span> As <span class="process-math">\(x\to\infty, f(x)\to\infty\)</span> and as <span class="process-math">\(x\to-\infty, f(x)\to-1\text{.}\)</span>
+<div class="para" id="Chapter4Section2-4-2-2-3">Horizontal asymptote at <span class="process-math">\(y = -1\text{,}\)</span> so <span class="process-math">\(f(x)=ab^{x}-1\text{.}\)</span> Substitute <span class="process-math">\((0,2)\)</span> to find <span class="process-math">\(a = 3\text{.}\)</span> Substitute <span class="process-math">\((1,5)\)</span> to find <span class="process-math">\(5=3b^{1}-1\text{,}\)</span> <span class="process-math">\(b = 2\text{.}\)</span> <span class="process-math">\(f(x)=3(2)^{x}-1\text{.}\)</span> As <span class="process-math">\(x\to\infty, f(x)\to\infty\)</span> and as <span class="process-math">\(x\to-\infty, f(x)\to-1\text{.}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#Chapter4Section2-4-2-2-3" title="Copy permalink for Paragraph">🔗</a></div>
 </div>
-</div></details></div></article></section></section></div>
+<div class="autopermalink" data-description="Answer 4.2.14.1"><a href="#Chapter4Section2-4-2-2" title="Copy permalink for Answer 4.2.14.1">🔗</a></div>
+</div></details></div>
+<div class="autopermalink" data-description="Checkpoint 4.2.14"><a href="#Chapter4Section2-4-2" title="Copy permalink for Checkpoint 4.2.14">🔗</a></div></article><div class="autopermalink" data-description="Subsection 4.2.3: Answers"><a href="#Chapter4Section2-4" title="Copy permalink for Subsection 4.2.3: Answers">🔗</a></div></section><div class="autopermalink" data-description="Section 4.2: Graphs of Exponential Functions"><a href="#Chapter4Section2" title="Copy permalink for Section 4.2: Graphs of Exponential Functions">🔗</a></div></section></div>
 <div id="ptx-content-footer" class="ptx-content-footer">
 <a class="previous-button button" href="Chapter4Section1.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="top-button button" href="#" title="Top"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Top</span></a><a class="next-button button" href="Chapter4Section3.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a>
 </div></main>

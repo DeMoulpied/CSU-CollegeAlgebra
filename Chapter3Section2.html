@@ -5,7 +5,7 @@
 <!--*         https://pretextbook.org          *-->
 <!--*                                          *-->
 <!--********************************************-->
-<html lang="en-US" dir="ltr" data-legacy-colorscheme="blue_red">
+<html lang="en-US" dir="ltr" data-legacy-colorscheme="default">
 <!--******************************************-->
 <!--*  Authored with PreTeXt                 *-->
 <!--*  pretextbook.org                       *-->
@@ -134,7 +134,12 @@ eBookConfig.enable_chatcodes =  false;
 <ol id="searchresults" class="searchresults"></ol>
 </div>
 </div>
-<span class="nav-other-controls"></span><span class="treebuttons"><a class="previous-button button" href="Chapter3Section1.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="up-button button" href="Chapter3.html" title="Up"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Up</span></a><a class="next-button button" href="Chapter3Section3.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a></span>
+<span class="nav-other-controls"><button id="embed-button" class="embed-button button" title="Embed this page"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe86f;</span><span class="name">Embed</span></button><div class="embed-popup hidden" id="embed-popup">
+<p>Copy the code below to embed this page in your own website or LMS page.</p>
+<div class="embed-code-container">
+<textarea class="embed-code-textbox" id="embed-code-textbox" readonly aria-label="textbox"><iframe src="https://example.com/embed" width="100%" height="1000"></iframe></textarea><button class="copy-embed-button button" id="copy-embed-button" title="Copy embed code"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe14d;</span><span class="name">Copy</span></button>
+</div>
+</div></span><span class="treebuttons"><a class="previous-button button" href="Chapter3Section1.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="up-button button" href="Chapter3.html" title="Up"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Up</span></a><a class="next-button button" href="Chapter3Section3.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a></span>
 </div></nav><div id="latex-macros" class="hidden-content process-math" style="display:none"><span class="process-math">\(\newcommand{\N}{\mathbb N} \newcommand{\Z}{\mathbb Z} \newcommand{\Q}{\mathbb Q} \newcommand{\R}{\mathbb R}
 \newcommand{\lt}{&lt;}
 \newcommand{\gt}{&gt;}
@@ -318,7 +323,17 @@ eBookConfig.enable_chatcodes =  false;
 <li class="toc-item toc-subsection"><div class="toc-title-box"><a href="Chapter4Section5.html#Chapter4Section5-4" class="internal"><span class="codenumber">4.5.3</span> <span class="title">Answers</span></a></div></li>
 </ul>
 </li>
-<li class="toc-item toc-section"><div class="toc-title-box"><a href="Chapter4Section6.html" class="internal"><span class="codenumber">4.6</span> <span class="title">Exponential and Logarithmic Models</span></a></div></li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="Chapter4Section6.html" class="internal"><span class="codenumber">4.6</span> <span class="title">Exponential and Logarithmic Models</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="Chapter4Section6.html#Chapter4Section6-2" class="internal"><span class="codenumber">4.6.1</span> <span class="title">Introduction</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="Chapter4Section6.html#Chapter4Section6-3" class="internal"><span class="codenumber">4.6.2</span> <span class="title">Radioactive Decay</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="Chapter4Section6.html#Chapter4Section6-4" class="internal"><span class="codenumber">4.6.3</span> <span class="title">Doubling Time</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="Chapter4Section6.html#Chapter4Section6-5" class="internal"><span class="codenumber">4.6.4</span> <span class="title">Logarithmic Scales</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="Chapter4Section6.html#Chapter4Section6-6" class="internal"><span class="codenumber">4.6.5</span> <span class="title">Earthquakes</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="Chapter4Section6.html#Chapter4Section6-7" class="internal"><span class="codenumber">4.6.6</span> <span class="title">Answers</span></a></div></li>
+</ul>
+</li>
 </ul>
 </li>
 <li class="toc-item toc-backmatter"><div class="toc-title-box"><a href="backmatter.html" class="internal"><span class="title">Backmatter</span></a></div></li>
@@ -333,50 +348,91 @@ eBookConfig.enable_chatcodes =  false;
 <span class="type">Objectives:</span><span class="space"> </span><span class="title">Important Topics of this Section</span>
 </h4>
 <ul class="disc" id="Chapter3Section2-2-2-2">
-<li id="Chapter3Section2-2-2-2-1"><div class="para" id="Chapter3Section2-2-2-2-1-1">Quadratic functions</div></li>
-<li id="Chapter3Section2-2-2-2-2"><div class="para" id="Chapter3Section2-2-2-2-2-1">Standard form</div></li>
-<li id="Chapter3Section2-2-2-2-3"><div class="para" id="Chapter3Section2-2-2-2-3-1">Transformation form/Vertex form</div></li>
-<li id="Chapter3Section2-2-2-2-4"><div class="para" id="Chapter3Section2-2-2-2-4-1">Vertex as a maximum / Vertex as a minimum</div></li>
-<li id="Chapter3Section2-2-2-2-5"><div class="para" id="Chapter3Section2-2-2-2-5-1">Short run behavior</div></li>
-<li id="Chapter3Section2-2-2-2-6"><div class="para" id="Chapter3Section2-2-2-2-6-1">Vertex / Horizontal and Vertical intercepts</div></li>
-<li id="Chapter3Section2-2-2-2-7"><div class="para" id="Chapter3Section2-2-2-2-7-1">Quadratic formula</div></li>
-</ul></article><div class="para" id="Chapter3Section2-2-3">In this section, we will explore the family of 2nd degree polynomials, the quadratic functions. While they share many characteristics of polynomials in general, the calculations involved in working with quadratics is typically a little simpler, which makes them a good place to start our exploration of short run behavior. In addition, quadratics commonly arise from problems involving area and projectile motion, providing some interesting applications.</div>
+<li id="Chapter3Section2-2-2-2-1">
+<div class="para" id="Chapter3Section2-2-2-2-1-1">Quadratic functions<div class="autopermalink" data-description="Paragraph"><a href="#Chapter3Section2-2-2-2-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Objective"><a href="#Chapter3Section2-2-2-2-1" title="Copy permalink for Objective">🔗</a></div>
+</li>
+<li id="Chapter3Section2-2-2-2-2">
+<div class="para" id="Chapter3Section2-2-2-2-2-1">Standard form<div class="autopermalink" data-description="Paragraph"><a href="#Chapter3Section2-2-2-2-2-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Objective"><a href="#Chapter3Section2-2-2-2-2" title="Copy permalink for Objective">🔗</a></div>
+</li>
+<li id="Chapter3Section2-2-2-2-3">
+<div class="para" id="Chapter3Section2-2-2-2-3-1">Transformation form/Vertex form<div class="autopermalink" data-description="Paragraph"><a href="#Chapter3Section2-2-2-2-3-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Objective"><a href="#Chapter3Section2-2-2-2-3" title="Copy permalink for Objective">🔗</a></div>
+</li>
+<li id="Chapter3Section2-2-2-2-4">
+<div class="para" id="Chapter3Section2-2-2-2-4-1">Vertex as a maximum / Vertex as a minimum<div class="autopermalink" data-description="Paragraph"><a href="#Chapter3Section2-2-2-2-4-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Objective"><a href="#Chapter3Section2-2-2-2-4" title="Copy permalink for Objective">🔗</a></div>
+</li>
+<li id="Chapter3Section2-2-2-2-5">
+<div class="para" id="Chapter3Section2-2-2-2-5-1">Short run behavior<div class="autopermalink" data-description="Paragraph"><a href="#Chapter3Section2-2-2-2-5-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Objective"><a href="#Chapter3Section2-2-2-2-5" title="Copy permalink for Objective">🔗</a></div>
+</li>
+<li id="Chapter3Section2-2-2-2-6">
+<div class="para" id="Chapter3Section2-2-2-2-6-1">Vertex / Horizontal and Vertical intercepts<div class="autopermalink" data-description="Paragraph"><a href="#Chapter3Section2-2-2-2-6-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Objective"><a href="#Chapter3Section2-2-2-2-6" title="Copy permalink for Objective">🔗</a></div>
+</li>
+<li id="Chapter3Section2-2-2-2-7">
+<div class="para" id="Chapter3Section2-2-2-2-7-1">Quadratic formula<div class="autopermalink" data-description="Paragraph"><a href="#Chapter3Section2-2-2-2-7-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Objective"><a href="#Chapter3Section2-2-2-2-7" title="Copy permalink for Objective">🔗</a></div>
+</li>
+</ul>
+<div class="autopermalink" data-description="Objectives 3.2.1: Important Topics of this Section"><a href="#Chapter3Section2-2-2" title="Copy permalink for Objectives 3.2.1: Important Topics of this Section">🔗</a></div></article><div class="para" id="Chapter3Section2-2-3">In this section, we will explore the family of 2nd degree polynomials, the quadratic functions. While they share many characteristics of polynomials in general, the calculations involved in working with quadratics is typically a little simpler, which makes them a good place to start our exploration of short run behavior. In addition, quadratics commonly arise from problems involving area and projectile motion, providing some interesting applications.<div class="autopermalink" data-description="Paragraph"><a href="#Chapter3Section2-2-3" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
 <article class="example example-like" id="Chapter3Section2-2-4"><h4 class="heading">
 <span class="type">Example</span><span class="space"> </span><span class="codenumber">3.2.1</span><span class="period">.</span>
 </h4>
-<div class="para" id="Chapter3Section2-2-4-1-1">A backyard farmer wants to enclose a rectangular space for a new garden. She has purchased 80 feet of wire fencing to enclose 3 sides, and will put the 4th side against the backyard fence. Find a formula for the area enclosed by the fence if the sides of fencing perpendicular to the existing fence have length <span class="process-math">\(L\text{.}\)</span>
+<div class="para" id="Chapter3Section2-2-4-1-1">A backyard farmer wants to enclose a rectangular space for a new garden. She has purchased 80 feet of wire fencing to enclose 3 sides, and will put the 4th side against the backyard fence. Find a formula for the area enclosed by the fence if the sides of fencing perpendicular to the existing fence have length <span class="process-math">\(L\text{.}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#Chapter3Section2-2-4-1-1" title="Copy permalink for Paragraph">🔗</a></div>
 </div>
 <div class="solution solution-like" id="Chapter3Section2-2-4-2">
 <h4 class="heading">
 <span class="type">Solution</span><span class="period">.</span>
 </h4>
-<div class="para" id="Chapter3Section2-2-4-2-1">In a scenario like this involving geometry, it is often helpful to draw a picture. It might also be helpful to introduce a temporary variable, <span class="process-math">\(W\text{,}\)</span> to represent the side of fencing parallel to the 4th side or backyard fence.</div>
+<div class="para" id="Chapter3Section2-2-4-2-1">In a scenario like this involving geometry, it is often helpful to draw a picture. It might also be helpful to introduce a temporary variable, <span class="process-math">\(W\text{,}\)</span> to represent the side of fencing parallel to the 4th side or backyard fence.<div class="autopermalink" data-description="Paragraph"><a href="#Chapter3Section2-2-4-2-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
 <figure class="figure figure-like" id="c3s2i1"><div class="image-box" style="width: 100%; margin-left: 0%; margin-right: 0%;"><img src="external/C3S2Image1.png" class="contained" alt="A rectangular area is labeled Backyard. Inside of it is a smaller rectangle labeled Garden, with one side up against the edge of the backyard.  The dimensions of the garden are labeled W and L."></div>
-<figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">3.2.2<span class="period">.</span></span><span class="space"> </span>A rectangular garden</figcaption></figure><div class="para" id="Chapter3Section2-2-4-2-3">Since we know we only have 80 feet of fence available, we know that <span class="process-math">\(L+W+L=80\text{,}\)</span> or more simply, <span class="process-math">\(2L+W=80\text{.}\)</span> This allows us to represent the width, <span class="process-math">\(W\text{,}\)</span> in terms of <span class="process-math">\(L\text{:}\)</span> <span class="process-math">\(W=80-2L\text{.}\)</span>
+<figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">3.2.2<span class="period">.</span></span><span class="space"> </span>A rectangular garden<div class="autopermalink" data-description="Figure 3.2.2"><a href="#c3s2i1" title="Copy permalink for Figure 3.2.2">🔗</a></div></figcaption></figure><div class="para" id="Chapter3Section2-2-4-2-3">Since we know we only have 80 feet of fence available, we know that <span class="process-math">\(L+W+L=80\text{,}\)</span> or more simply, <span class="process-math">\(2L+W=80\text{.}\)</span> This allows us to represent the width, <span class="process-math">\(W\text{,}\)</span> in terms of <span class="process-math">\(L\text{:}\)</span> <span class="process-math">\(W=80-2L\text{.}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#Chapter3Section2-2-4-2-3" title="Copy permalink for Paragraph">🔗</a></div>
 </div>
-<div class="para" id="Chapter3Section2-2-4-2-4">Now we are ready to write an equation for the area the fence encloses. We know the area of a rectangle is length multiplied by width, so <span class="process-math">\(A=LW=L(80-2L).\)</span>
+<div class="para" id="Chapter3Section2-2-4-2-4">Now we are ready to write an equation for the area the fence encloses. We know the area of a rectangle is length multiplied by width, so <span class="process-math">\(A=LW=L(80-2L).\)</span><div class="autopermalink" data-description="Paragraph"><a href="#Chapter3Section2-2-4-2-4" title="Copy permalink for Paragraph">🔗</a></div>
 </div>
-<div class="para" id="Chapter3Section2-2-4-2-5">Letting <span class="process-math">\(f\)</span> be the function that calculates the area within the fence in terms of the length of the enclosure,</div>
-<div class="para" id="Chapter3Section2-2-4-2-6"><span class="process-math">\(f(L)=80L-2L^{2}.\)</span></div>
-<div class="para" id="Chapter3Section2-2-4-2-7">This formula represents the area of the fence in terms of the variable length <span class="process-math">\(L\text{.}\)</span>
+<div class="para" id="Chapter3Section2-2-4-2-5">Letting <span class="process-math">\(f\)</span> be the function that calculates the area within the fence in terms of the length of the enclosure,<div class="autopermalink" data-description="Paragraph"><a href="#Chapter3Section2-2-4-2-5" title="Copy permalink for Paragraph">🔗</a></div>
 </div>
-</div></article></section><section class="subsection" id="Chapter3Section2-3"><h3 class="heading hide-type">
+<div class="para" id="Chapter3Section2-2-4-2-6">
+<span class="process-math">\(f(L)=80L-2L^{2}.\)</span><div class="autopermalink" data-description="Paragraph"><a href="#Chapter3Section2-2-4-2-6" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="Chapter3Section2-2-4-2-7">This formula represents the area of the fence in terms of the variable length <span class="process-math">\(L\text{.}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#Chapter3Section2-2-4-2-7" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Solution 3.2.1.1"><a href="#Chapter3Section2-2-4-2" title="Copy permalink for Solution 3.2.1.1">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Example 3.2.1"><a href="#Chapter3Section2-2-4" title="Copy permalink for Example 3.2.1">🔗</a></div></article><div class="autopermalink" data-description="Subsection 3.2.1: Introduction"><a href="#Chapter3Section2-2" title="Copy permalink for Subsection 3.2.1: Introduction">🔗</a></div></section><section class="subsection" id="Chapter3Section2-3"><h3 class="heading hide-type">
 <span class="type">Subsection</span><span class="space"> </span><span class="codenumber">3.2.2</span><span class="space"> </span><span class="title">Short run Behavior: Vertex</span>
 </h3>
-<div class="para" id="Chapter3Section2-3-2">We now explore the interesting features of the graphs of quadratics. In addition to intercepts, quadratics have an interesting feature where they change direction, called the vertex. You probably noticed that all quadratics are related to transformations of the basic quadratic function <span class="process-math">\(f(x)=x^{2}\text{.}\)</span>
+<div class="para" id="Chapter3Section2-3-2">We now explore the interesting features of the graphs of quadratics. In addition to intercepts, quadratics have an interesting feature where they change direction, called the vertex. You probably noticed that all quadratics are related to transformations of the basic quadratic function <span class="process-math">\(f(x)=x^{2}\text{.}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#Chapter3Section2-3-2" title="Copy permalink for Paragraph">🔗</a></div>
 </div>
 <article class="example example-like" id="Chapter3Section2-3-3"><h4 class="heading">
 <span class="type">Example</span><span class="space"> </span><span class="codenumber">3.2.3</span><span class="period">.</span>
 </h4>
-<div class="para" id="Chapter3Section2-3-3-1-1">Write an equation for the quadratic graphed below as a transformation of <span class="process-math">\(f(x)=x^{2}\text{,}\)</span> then expand the formula and simplify terms to write the equation in standard polynomial form.</div> <figure class="figure figure-like" id="c3s2i2"><div class="image-box" style="width: 100%; margin-left: 0%; margin-right: 0%;"><img src="external/C3S2Image2.png" class="contained" alt="A U-shaped parabola with vertex at negative 2 comma negative 3 and passing through 0 comma negative 1."></div>
-<figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">3.2.4<span class="period">.</span></span><span class="space"> </span>Graph of <span class="process-math">\(g(x)\)</span></figcaption></figure><div class="solution solution-like" id="Chapter3Section2-3-3-2">
+<div class="para" id="Chapter3Section2-3-3-1-1">Write an equation for the quadratic graphed below as a transformation of <span class="process-math">\(f(x)=x^{2}\text{,}\)</span> then expand the formula and simplify terms to write the equation in standard polynomial form.<div class="autopermalink" data-description="Paragraph"><a href="#Chapter3Section2-3-3-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div> <figure class="figure figure-like" id="c3s2i2"><div class="image-box" style="width: 100%; margin-left: 0%; margin-right: 0%;"><img src="external/C3S2Image2.png" class="contained" alt="A U-shaped parabola with vertex at negative 2 comma negative 3 and passing through 0 comma negative 1."></div>
+<figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">3.2.4<span class="period">.</span></span><span class="space"> </span>Graph of <span class="process-math">\(g(x)\)</span><div class="autopermalink" data-description="Figure 3.2.4"><a href="#c3s2i2" title="Copy permalink for Figure 3.2.4">🔗</a></div></figcaption></figure><div class="solution solution-like" id="Chapter3Section2-3-3-2">
 <h4 class="heading">
 <span class="type">Solution</span><span class="period">.</span>
 </h4>
-<div class="para" id="Chapter3Section2-3-3-2-1">We can see the graph is the basic quadratic shifted to the left 2 and down 3, giving a formula in the form <span class="process-math">\(g(x)=a(x+2)^{2}-3\text{.}\)</span> By plugging in a point that falls on the grid, such as <span class="process-math">\((0,-1)\text{,}\)</span> we can solve for the stretch factor: <span class="process-math">\(-1=a(0+2)^{2}-3,\)</span>
+<div class="para" id="Chapter3Section2-3-3-2-1">We can see the graph is the basic quadratic shifted to the left 2 and down 3, giving a formula in the form <span class="process-math">\(g(x)=a(x+2)^{2}-3\text{.}\)</span> By plugging in a point that falls on the grid, such as <span class="process-math">\((0,-1)\text{,}\)</span> we can solve for the stretch factor: <span class="process-math">\(-1=a(0+2)^{2}-3,\)</span><div class="autopermalink" data-description="Paragraph"><a href="#Chapter3Section2-3-3-2-1" title="Copy permalink for Paragraph">🔗</a></div>
 </div>
-<div class="para" id="Chapter3Section2-3-3-2-2"><span class="process-math">\(2=4a,\)</span></div>
-<div class="para" id="Chapter3Section2-3-3-2-3"><span class="process-math">\(a=\dfrac{1}{2}.\)</span></div>
+<div class="para" id="Chapter3Section2-3-3-2-2">
+<span class="process-math">\(2=4a,\)</span><div class="autopermalink" data-description="Paragraph"><a href="#Chapter3Section2-3-3-2-2" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="Chapter3Section2-3-3-2-3">
+<span class="process-math">\(a=\dfrac{1}{2}.\)</span><div class="autopermalink" data-description="Paragraph"><a href="#Chapter3Section2-3-3-2-3" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
 <div class="para logical" id="Chapter3Section2-3-3-2-4">
 <div class="para">Written as a transformation, the equation for this formula is <span class="process-math">\(g(x)=\dfrac{1}{2}(x+2)^{2}-3\text{.}\)</span> To write this in standard polynomial form, we can expand the formula and simplify terms:</div>
 <div class="displaymath process-math">
@@ -404,44 +460,63 @@ g(x)=\dfrac{1}{2}x^{2}+2x+2-3,
 g(x)=\dfrac{1}{2}x^{2}+2x-1.
 \end{equation*}
 </div>
+<div class="autopermalink" data-description="Paragraph"><a href="#Chapter3Section2-3-3-2-4" title="Copy permalink for Paragraph">🔗</a></div>
 </div>
-</div></article><article class="definition definition-like" id="Chapter3Section2-3-4"><h4 class="heading">
+<div class="autopermalink" data-description="Solution 3.2.3.1"><a href="#Chapter3Section2-3-3-2" title="Copy permalink for Solution 3.2.3.1">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Example 3.2.3"><a href="#Chapter3Section2-3-3" title="Copy permalink for Example 3.2.3">🔗</a></div></article><article class="definition definition-like" id="Chapter3Section2-3-4"><h4 class="heading">
 <span class="type">Definition</span><span class="space"> </span><span class="codenumber">3.2.5</span><span class="period">.</span><span class="space"> </span><span class="title">Forms of Quadratic Functions.</span>
 </h4>
-<div class="para" id="Chapter3Section2-3-4-2-1">The standard form of a quadratic function is <span class="process-math">\(f(x)=ax^{2}+bx+c.\)</span> The vertex form of a quadratic function is <span class="process-math">\(f(x)=a(x-h)^{2}+k.\)</span> The vertex of the quadratic function is located at (h, k), where h and k are the numbers in the vertex form of the function.</div></article><div class="para" id="Chapter3Section2-3-5">In the previous example, we saw that it is possible to rewrite a quadratic function given in vertex form and rewrite it in standard form by expanding the formula. It would be useful to reverse this process, since the vertex form reveals the vertex.</div>
-<div class="para" id="Chapter3Section2-3-6">Expanding out the general vertex form of a quadratic gives:</div>
-<div class="para" id="Chapter3Section2-3-7"><span class="process-math">\(f(x)=a(x-h)^{2}+k=a(x-h)(x-h)+k,\)</span></div>
-<div class="para" id="Chapter3Section2-3-8"><span class="process-math">\(f(x)=a(x^{2}-2xh+h^{2})+k=ax^{2}-2ahx+ah^{2}+k.\)</span></div>
-<div class="para" id="Chapter3Section2-3-9">This should be equal to the standard form of the quadratic: <span class="process-math">\(ax^{2}-2ahx+ah^{2}+k=ax^{2}+bx+c.\)</span>
+<div class="para" id="Chapter3Section2-3-4-2-1">The standard form of a quadratic function is <span class="process-math">\(f(x)=ax^{2}+bx+c.\)</span> The vertex form of a quadratic function is <span class="process-math">\(f(x)=a(x-h)^{2}+k.\)</span> The vertex of the quadratic function is located at (h, k), where h and k are the numbers in the vertex form of the function.<div class="autopermalink" data-description="Paragraph"><a href="#Chapter3Section2-3-4-2-1" title="Copy permalink for Paragraph">🔗</a></div>
 </div>
-<div class="para" id="Chapter3Section2-3-10">The second degree terms are already equal. For the linear terms to be equal, the coefficients must be equal: <span class="process-math">\(-2ah=b\text{,}\)</span> so <span class="process-math">\(h=\dfrac{-b}{2a}.\)</span>
+<div class="autopermalink" data-description="Definition 3.2.5: Forms of Quadratic Functions"><a href="#Chapter3Section2-3-4" title="Copy permalink for Definition 3.2.5: Forms of Quadratic Functions">🔗</a></div></article><div class="para" id="Chapter3Section2-3-5">In the previous example, we saw that it is possible to rewrite a quadratic function given in vertex form and rewrite it in standard form by expanding the formula. It would be useful to reverse this process, since the vertex form reveals the vertex.<div class="autopermalink" data-description="Paragraph"><a href="#Chapter3Section2-3-5" title="Copy permalink for Paragraph">🔗</a></div>
 </div>
-<div class="para" id="Chapter3Section2-3-11">This provides us a method to determine the horizontal shift of the quadratic from the standard form. We could likewise set the constant terms equal to find: <span class="process-math">\(ah^{2}+k=c\text{,}\)</span> so <span class="process-math">\(k=c-ah^{2}=c-a(\dfrac{-b}{2a})^{2}=c-\dfrac{ab^2}{4a^2}=c-\dfrac{b^2}{4a}.\)</span> In practice, though, it is usually easier to remember that <span class="process-math">\(k\)</span> is the output value of the function when the input is <span class="process-math">\(h\text{,}\)</span> so <span class="process-math">\(k=f(h)\text{.}\)</span>
+<div class="para" id="Chapter3Section2-3-6">Expanding out the general vertex form of a quadratic gives:<div class="autopermalink" data-description="Paragraph"><a href="#Chapter3Section2-3-6" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="Chapter3Section2-3-7">
+<span class="process-math">\(f(x)=a(x-h)^{2}+k=a(x-h)(x-h)+k,\)</span><div class="autopermalink" data-description="Paragraph"><a href="#Chapter3Section2-3-7" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="Chapter3Section2-3-8">
+<span class="process-math">\(f(x)=a(x^{2}-2xh+h^{2})+k=ax^{2}-2ahx+ah^{2}+k.\)</span><div class="autopermalink" data-description="Paragraph"><a href="#Chapter3Section2-3-8" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="Chapter3Section2-3-9">This should be equal to the standard form of the quadratic: <span class="process-math">\(ax^{2}-2ahx+ah^{2}+k=ax^{2}+bx+c.\)</span><div class="autopermalink" data-description="Paragraph"><a href="#Chapter3Section2-3-9" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="Chapter3Section2-3-10">The second degree terms are already equal. For the linear terms to be equal, the coefficients must be equal: <span class="process-math">\(-2ah=b\text{,}\)</span> so <span class="process-math">\(h=\dfrac{-b}{2a}.\)</span><div class="autopermalink" data-description="Paragraph"><a href="#Chapter3Section2-3-10" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="Chapter3Section2-3-11">This provides us a method to determine the horizontal shift of the quadratic from the standard form. We could likewise set the constant terms equal to find: <span class="process-math">\(ah^{2}+k=c\text{,}\)</span> so <span class="process-math">\(k=c-ah^{2}=c-a(\dfrac{-b}{2a})^{2}=c-\dfrac{ab^2}{4a^2}=c-\dfrac{b^2}{4a}.\)</span> In practice, though, it is usually easier to remember that <span class="process-math">\(k\)</span> is the output value of the function when the input is <span class="process-math">\(h\text{,}\)</span> so <span class="process-math">\(k=f(h)\text{.}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#Chapter3Section2-3-11" title="Copy permalink for Paragraph">🔗</a></div>
 </div>
 <article class="definition definition-like" id="Chapter3Section2-3-12"><h4 class="heading">
 <span class="type">Definition</span><span class="space"> </span><span class="codenumber">3.2.6</span><span class="period">.</span><span class="space"> </span><span class="title">Finding the Vertex of a Quadratic.</span>
 </h4>
-<div class="para" id="Chapter3Section2-3-12-2-1">For a quadratic given in standard form, the vertex <span class="process-math">\((h, k)\)</span> is located at: <span class="process-math">\(h=\dfrac{-b}{2a}\text{,}\)</span> <span class="process-math">\(k=f(h)=f(\dfrac{-b}{2a}).\)</span>
-</div></article><article class="example example-like" id="Chapter3Section2-3-13"><h4 class="heading">
+<div class="para" id="Chapter3Section2-3-12-2-1">For a quadratic given in standard form, the vertex <span class="process-math">\((h, k)\)</span> is located at: <span class="process-math">\(h=\dfrac{-b}{2a}\text{,}\)</span> <span class="process-math">\(k=f(h)=f(\dfrac{-b}{2a}).\)</span><div class="autopermalink" data-description="Paragraph"><a href="#Chapter3Section2-3-12-2-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Definition 3.2.6: Finding the Vertex of a Quadratic"><a href="#Chapter3Section2-3-12" title="Copy permalink for Definition 3.2.6: Finding the Vertex of a Quadratic">🔗</a></div></article><article class="example example-like" id="Chapter3Section2-3-13"><h4 class="heading">
 <span class="type">Example</span><span class="space"> </span><span class="codenumber">3.2.7</span><span class="period">.</span>
 </h4>
-<div class="para" id="Chapter3Section2-3-13-1-1">Find the vertex of the quadratic <span class="process-math">\(f(x)=2x^{2}-6x+7\text{.}\)</span> Rewrite the quadratic into vertex form.</div>
+<div class="para" id="Chapter3Section2-3-13-1-1">Find the vertex of the quadratic <span class="process-math">\(f(x)=2x^{2}-6x+7\text{.}\)</span> Rewrite the quadratic into vertex form.<div class="autopermalink" data-description="Paragraph"><a href="#Chapter3Section2-3-13-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
 <div class="solution solution-like" id="Chapter3Section2-3-13-2">
 <h4 class="heading">
 <span class="type">Solution</span><span class="period">.</span>
 </h4>
-<div class="para" id="Chapter3Section2-3-13-2-1">The horizontal coordinate of the vertex will be at <span class="process-math">\(h=\dfrac{-b}{2a}=\dfrac{-(-6)}{2(2)}=\dfrac{6}{4}=\dfrac{3}{2}.\)</span> The vertical coordinate of the vertex will be at <span class="process-math">\(f(\dfrac{3}{2})=2(\dfrac{3}{2})^{2}-6(\dfrac{3}{2})+7=\dfrac{5}{2}.\)</span>
+<div class="para" id="Chapter3Section2-3-13-2-1">The horizontal coordinate of the vertex will be at <span class="process-math">\(h=\dfrac{-b}{2a}=\dfrac{-(-6)}{2(2)}=\dfrac{6}{4}=\dfrac{3}{2}.\)</span> The vertical coordinate of the vertex will be at <span class="process-math">\(f(\dfrac{3}{2})=2(\dfrac{3}{2})^{2}-6(\dfrac{3}{2})+7=\dfrac{5}{2}.\)</span><div class="autopermalink" data-description="Paragraph"><a href="#Chapter3Section2-3-13-2-1" title="Copy permalink for Paragraph">🔗</a></div>
 </div>
-<div class="para" id="Chapter3Section2-3-13-2-2">Rewriting into vertex form, the stretch factor will be the same as the <span class="process-math">\(a\)</span> in the original quadratic. Using the vertex to determine the shifts, <span class="process-math">\(f(x)=2(x-\dfrac{3}{2})^{2}+\dfrac{5}{2}.\)</span>
+<div class="para" id="Chapter3Section2-3-13-2-2">Rewriting into vertex form, the stretch factor will be the same as the <span class="process-math">\(a\)</span> in the original quadratic. Using the vertex to determine the shifts, <span class="process-math">\(f(x)=2(x-\dfrac{3}{2})^{2}+\dfrac{5}{2}.\)</span><div class="autopermalink" data-description="Paragraph"><a href="#Chapter3Section2-3-13-2-2" title="Copy permalink for Paragraph">🔗</a></div>
 </div>
-</div></article><article class="exercise exercise-like" id="Chapter3Section2-3-14"><h4 class="heading">
+<div class="autopermalink" data-description="Solution 3.2.7.1"><a href="#Chapter3Section2-3-13-2" title="Copy permalink for Solution 3.2.7.1">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Example 3.2.7"><a href="#Chapter3Section2-3-13" title="Copy permalink for Example 3.2.7">🔗</a></div></article><article class="exercise exercise-like" id="Chapter3Section2-3-14"><h4 class="heading">
 <span class="type">Checkpoint</span><span class="space"> </span><span class="codenumber">3.2.8</span><span class="period">.</span>
 </h4>
-<div class="para" id="Chapter3Section2-3-14-1-1">Given the equation <span class="process-math">\(g(x)=13+x^{2}-6x\)</span> write the equation in standard form and then in vertex form.</div></article><div class="para" id="Chapter3Section2-3-15">As an alternative to using a formula for finding the vertex, the equation can also be written into vertex form by completing the square. This process is most easily explained through example. In most cases, using the formula for finding the vertex will be quicker and easier than completing the square, but completing the square is a useful technique when faced with some other algebraic problems.</div>
+<div class="para" id="Chapter3Section2-3-14-1-1">Given the equation <span class="process-math">\(g(x)=13+x^{2}-6x\)</span> write the equation in standard form and then in vertex form.<div class="autopermalink" data-description="Paragraph"><a href="#Chapter3Section2-3-14-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Checkpoint 3.2.8"><a href="#Chapter3Section2-3-14" title="Copy permalink for Checkpoint 3.2.8">🔗</a></div></article><div class="para" id="Chapter3Section2-3-15">As an alternative to using a formula for finding the vertex, the equation can also be written into vertex form by completing the square. This process is most easily explained through example. In most cases, using the formula for finding the vertex will be quicker and easier than completing the square, but completing the square is a useful technique when faced with some other algebraic problems.<div class="autopermalink" data-description="Paragraph"><a href="#Chapter3Section2-3-15" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
 <article class="example example-like" id="Chapter3Section2-3-16"><h4 class="heading">
 <span class="type">Example</span><span class="space"> </span><span class="codenumber">3.2.9</span><span class="period">.</span>
 </h4>
-<div class="para" id="Chapter3Section2-3-16-1-1">Rewrite <span class="process-math">\(f(x)=2x^{2}-12x+14\)</span> into vertex form by completing the square.</div>
+<div class="para" id="Chapter3Section2-3-16-1-1">Rewrite <span class="process-math">\(f(x)=2x^{2}-12x+14\)</span> into vertex form by completing the square.<div class="autopermalink" data-description="Paragraph"><a href="#Chapter3Section2-3-16-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
 <div class="solution solution-like" id="Chapter3Section2-3-16-2">
 <h4 class="heading">
 <span class="type">Solution</span><span class="period">.</span>
@@ -455,91 +530,110 @@ g(x)=\dfrac{1}{2}x^{2}+2x-1.
 </div>
 <div class="para">Next, we are going to add something inside the parentheses so that the quadratic inside the parentheses becomes a perfect square. In other words, we are looking for values p and q so that <span class="process-math">\((x^{2}-6x+p)=(x-q)^{2}\text{.}\)</span>
 </div>
+<div class="autopermalink" data-description="Paragraph"><a href="#Chapter3Section2-3-16-2-1" title="Copy permalink for Paragraph">🔗</a></div>
 </div>
-<div class="para" id="Chapter3Section2-3-16-2-2">Notice that if multiplied out on the right, the middle term would be <span class="process-math">\(-2q\text{,}\)</span> so <span class="process-math">\(q\)</span> must be half of the middle term on the left; <span class="process-math">\(q = -3\text{.}\)</span> In that case, <span class="process-math">\(p\)</span> must be <span class="process-math">\((-3)2 = 9\text{.}\)</span> <span class="process-math">\((x^{2}-6x+9)=(x-3)^{2}.\)</span>
+<div class="para" id="Chapter3Section2-3-16-2-2">Notice that if multiplied out on the right, the middle term would be <span class="process-math">\(-2q\text{,}\)</span> so <span class="process-math">\(q\)</span> must be half of the middle term on the left; <span class="process-math">\(q = -3\text{.}\)</span> In that case, <span class="process-math">\(p\)</span> must be <span class="process-math">\((-3)2 = 9\text{.}\)</span> <span class="process-math">\((x^{2}-6x+9)=(x-3)^{2}.\)</span><div class="autopermalink" data-description="Paragraph"><a href="#Chapter3Section2-3-16-2-2" title="Copy permalink for Paragraph">🔗</a></div>
 </div>
-<div class="para" id="Chapter3Section2-3-16-2-3">Now, we can’t just add 9 into the expression - that would change the value of the expression. In fact, adding 9 inside the parentheses actually adds 18 to the expression, since the 2 outside the parentheses will distribute. To keep the expression balanced, we can subtract 18. <span class="process-math">\(2(x^{2}-6x+9)+14-18.\)</span>
+<div class="para" id="Chapter3Section2-3-16-2-3">Now, we can’t just add 9 into the expression - that would change the value of the expression. In fact, adding 9 inside the parentheses actually adds 18 to the expression, since the 2 outside the parentheses will distribute. To keep the expression balanced, we can subtract 18. <span class="process-math">\(2(x^{2}-6x+9)+14-18.\)</span><div class="autopermalink" data-description="Paragraph"><a href="#Chapter3Section2-3-16-2-3" title="Copy permalink for Paragraph">🔗</a></div>
 </div>
-<div class="para" id="Chapter3Section2-3-16-2-4">Simplifying, we are left with vertex form. <span class="process-math">\(2(x-3)^{2}-4.\)</span>
+<div class="para" id="Chapter3Section2-3-16-2-4">Simplifying, we are left with vertex form. <span class="process-math">\(2(x-3)^{2}-4.\)</span><div class="autopermalink" data-description="Paragraph"><a href="#Chapter3Section2-3-16-2-4" title="Copy permalink for Paragraph">🔗</a></div>
 </div>
-</div></article><div class="para" id="Chapter3Section2-3-17">In addition to enabling us to more easily graph a quadratic written in standard form, finding the vertex serves another important purpose - it allows us to determine the maximum or minimum value of the function, depending on which way the graph opens.</div>
+<div class="autopermalink" data-description="Solution 3.2.9.1"><a href="#Chapter3Section2-3-16-2" title="Copy permalink for Solution 3.2.9.1">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Example 3.2.9"><a href="#Chapter3Section2-3-16" title="Copy permalink for Example 3.2.9">🔗</a></div></article><div class="para" id="Chapter3Section2-3-17">In addition to enabling us to more easily graph a quadratic written in standard form, finding the vertex serves another important purpose - it allows us to determine the maximum or minimum value of the function, depending on which way the graph opens.<div class="autopermalink" data-description="Paragraph"><a href="#Chapter3Section2-3-17" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
 <article class="example example-like" id="Chapter3Section2-3-18"><h4 class="heading">
 <span class="type">Example</span><span class="space"> </span><span class="codenumber">3.2.10</span><span class="period">.</span>
 </h4>
-<div class="para" id="Chapter3Section2-3-18-1-1">Returning to our backyard farmer from the beginning of the section, what dimensions should she make her garden to maximize the enclosed area?</div>
+<div class="para" id="Chapter3Section2-3-18-1-1">Returning to our backyard farmer from the beginning of the section, what dimensions should she make her garden to maximize the enclosed area?<div class="autopermalink" data-description="Paragraph"><a href="#Chapter3Section2-3-18-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
 <div class="solution solution-like" id="Chapter3Section2-3-18-2">
 <h4 class="heading">
 <span class="type">Solution</span><span class="period">.</span>
 </h4>
-<div class="para" id="Chapter3Section2-3-18-2-1">Earlier we determined the area she could enclose with 80 feet of fencing on three sides was given by the equation <span class="process-math">\(f(L)=80L-2L^{2}\text{.}\)</span> Notice that quadratic has been vertically reflected, since the coefficient on the squared term is negative, so the graph will open downwards, and the vertex will be a maximum value for the area.</div>
-<div class="para" id="Chapter3Section2-3-18-2-2">In finding the vertex, we take care since the equation is not written in standard polynomial form with decreasing powers. But we know that <span class="process-math">\(a\)</span> is the coefficient on the squared term, so <span class="process-math">\(a = -2\text{,}\)</span> <span class="process-math">\(b = 80\text{,}\)</span> and <span class="process-math">\(c = 0\text{.}\)</span> Finding the vertex: <span class="process-math">\(h=\dfrac{-80}{2(-2)}=20\text{,}\)</span> <span class="process-math">\(k=f(20)=80(20)-2(20)^{2}=800.\)</span>
+<div class="para" id="Chapter3Section2-3-18-2-1">Earlier we determined the area she could enclose with 80 feet of fencing on three sides was given by the equation <span class="process-math">\(f(L)=80L-2L^{2}\text{.}\)</span> Notice that quadratic has been vertically reflected, since the coefficient on the squared term is negative, so the graph will open downwards, and the vertex will be a maximum value for the area.<div class="autopermalink" data-description="Paragraph"><a href="#Chapter3Section2-3-18-2-1" title="Copy permalink for Paragraph">🔗</a></div>
 </div>
-<div class="para" id="Chapter3Section2-3-18-2-3">The maximum value of the function is an area of 800 square feet, which occurs when <span class="process-math">\(L = 20\)</span> feet. When the shorter sides are 20 feet, that leaves 40 feet of fencing for the longer side. To maximize the area, she should enclose the garden such that the two shorter sides have length 20 feet, and the longer side parallel to the existing fence has length 40 feet.</div>
-</div></article><article class="example example-like" id="Chapter3Section2-3-19"><h4 class="heading">
+<div class="para" id="Chapter3Section2-3-18-2-2">In finding the vertex, we take care since the equation is not written in standard polynomial form with decreasing powers. But we know that <span class="process-math">\(a\)</span> is the coefficient on the squared term, so <span class="process-math">\(a = -2\text{,}\)</span> <span class="process-math">\(b = 80\text{,}\)</span> and <span class="process-math">\(c = 0\text{.}\)</span> Finding the vertex: <span class="process-math">\(h=\dfrac{-80}{2(-2)}=20\text{,}\)</span> <span class="process-math">\(k=f(20)=80(20)-2(20)^{2}=800.\)</span><div class="autopermalink" data-description="Paragraph"><a href="#Chapter3Section2-3-18-2-2" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="Chapter3Section2-3-18-2-3">The maximum value of the function is an area of 800 square feet, which occurs when <span class="process-math">\(L = 20\)</span> feet. When the shorter sides are 20 feet, that leaves 40 feet of fencing for the longer side. To maximize the area, she should enclose the garden such that the two shorter sides have length 20 feet, and the longer side parallel to the existing fence has length 40 feet.<div class="autopermalink" data-description="Paragraph"><a href="#Chapter3Section2-3-18-2-3" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Solution 3.2.10.1"><a href="#Chapter3Section2-3-18-2" title="Copy permalink for Solution 3.2.10.1">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Example 3.2.10"><a href="#Chapter3Section2-3-18" title="Copy permalink for Example 3.2.10">🔗</a></div></article><article class="example example-like" id="Chapter3Section2-3-19"><h4 class="heading">
 <span class="type">Example</span><span class="space"> </span><span class="codenumber">3.2.11</span><span class="period">.</span>
 </h4>
-<div class="para" id="Chapter3Section2-3-19-1-1">A local newspaper currently has 84,000 subscribers, at a quarterly charge of $30. Market research has suggested that if they raised the price to $32, they would lose 5,000 subscribers. Assuming that subscriptions are linearly related to the price, what price should the newspaper charge for a quarterly subscription to maximize their revenue?</div>
+<div class="para" id="Chapter3Section2-3-19-1-1">A local newspaper currently has 84,000 subscribers, at a quarterly charge of $30. Market research has suggested that if they raised the price to $32, they would lose 5,000 subscribers. Assuming that subscriptions are linearly related to the price, what price should the newspaper charge for a quarterly subscription to maximize their revenue?<div class="autopermalink" data-description="Paragraph"><a href="#Chapter3Section2-3-19-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
 <div class="solution solution-like" id="Chapter3Section2-3-19-2">
 <h4 class="heading">
 <span class="type">Solution</span><span class="period">.</span>
 </h4>
-<div class="para" id="Chapter3Section2-3-19-2-1">Revenue is the amount of money a company brings in. In this case, the revenue can be found by multiplying the charge per subscription times the number of subscribers. We can introduce variables, <span class="process-math">\(C\)</span> for charge per subscription and <span class="process-math">\(S\)</span> for the number subscribers, giving us the equation <span class="process-math">\(\text{Revenue}= CS.\)</span>
+<div class="para" id="Chapter3Section2-3-19-2-1">Revenue is the amount of money a company brings in. In this case, the revenue can be found by multiplying the charge per subscription times the number of subscribers. We can introduce variables, <span class="process-math">\(C\)</span> for charge per subscription and <span class="process-math">\(S\)</span> for the number subscribers, giving us the equation <span class="process-math">\(\text{Revenue}= CS.\)</span><div class="autopermalink" data-description="Paragraph"><a href="#Chapter3Section2-3-19-2-1" title="Copy permalink for Paragraph">🔗</a></div>
 </div>
-<div class="para" id="Chapter3Section2-3-19-2-2">Since the number of subscribers changes with the price, we need to find a relationship between the variables. We know that currently <span class="process-math">\(S = 84,000\)</span> and <span class="process-math">\(C = 30\text{,}\)</span> and that if they raise the price to $32 they would lose 5,000 subscribers, giving a second pair of values, <span class="process-math">\(C = 32\)</span> and <span class="process-math">\(S = 79,000\text{.}\)</span> From this we can find a linear equation relating the two quantities. Treating <span class="process-math">\(C\)</span> as the input and <span class="process-math">\(S\)</span> as the output, the equation will have form <span class="process-math">\(S=mC+b\text{.}\)</span> The slope will be <span class="process-math">\(m=\dfrac{79,000-84,000}{32-30}=\dfrac{-5,000}{2}=-2,500.\)</span>
+<div class="para" id="Chapter3Section2-3-19-2-2">Since the number of subscribers changes with the price, we need to find a relationship between the variables. We know that currently <span class="process-math">\(S = 84,000\)</span> and <span class="process-math">\(C = 30\text{,}\)</span> and that if they raise the price to $32 they would lose 5,000 subscribers, giving a second pair of values, <span class="process-math">\(C = 32\)</span> and <span class="process-math">\(S = 79,000\text{.}\)</span> From this we can find a linear equation relating the two quantities. Treating <span class="process-math">\(C\)</span> as the input and <span class="process-math">\(S\)</span> as the output, the equation will have form <span class="process-math">\(S=mC+b\text{.}\)</span> The slope will be <span class="process-math">\(m=\dfrac{79,000-84,000}{32-30}=\dfrac{-5,000}{2}=-2,500.\)</span><div class="autopermalink" data-description="Paragraph"><a href="#Chapter3Section2-3-19-2-2" title="Copy permalink for Paragraph">🔗</a></div>
 </div>
-<div class="para" id="Chapter3Section2-3-19-2-3">This tells us the paper will lose 2,500 subscribers for each dollar they raise the price. We can then solve for the vertical intercept. Starting with what we know: <span class="process-math">\(S=-2500C+b.\)</span> Plugging in the point <span class="process-math">\(S = 84,000\)</span> and <span class="process-math">\(C = 30\)</span> gets us <span class="process-math">\(84,000=-2500(30)+b.\)</span> Solving this for <span class="process-math">\(b\)</span> gets <span class="process-math">\(b=159,000.\)</span>
+<div class="para" id="Chapter3Section2-3-19-2-3">This tells us the paper will lose 2,500 subscribers for each dollar they raise the price. We can then solve for the vertical intercept. Starting with what we know: <span class="process-math">\(S=-2500C+b.\)</span> Plugging in the point <span class="process-math">\(S = 84,000\)</span> and <span class="process-math">\(C = 30\)</span> gets us <span class="process-math">\(84,000=-2500(30)+b.\)</span> Solving this for <span class="process-math">\(b\)</span> gets <span class="process-math">\(b=159,000.\)</span><div class="autopermalink" data-description="Paragraph"><a href="#Chapter3Section2-3-19-2-3" title="Copy permalink for Paragraph">🔗</a></div>
 </div>
-<div class="para" id="Chapter3Section2-3-19-2-4">This gives us the linear equation <span class="process-math">\(S=-2,500C+159,000\)</span> relating cost and subscribers. We now return to our revenue equation. Since <span class="process-math">\(\text{Revenue}=CS,\)</span> we substitute the equation for <span class="process-math">\(S\)</span> from above to get <span class="process-math">\(\text{Revenue}=C(-2,500C+159,000).\)</span> Expanding this equation gives <span class="process-math">\(\text{Revenue}=-2,500C^{2}+159,000C.\)</span>
+<div class="para" id="Chapter3Section2-3-19-2-4">This gives us the linear equation <span class="process-math">\(S=-2,500C+159,000\)</span> relating cost and subscribers. We now return to our revenue equation. Since <span class="process-math">\(\text{Revenue}=CS,\)</span> we substitute the equation for <span class="process-math">\(S\)</span> from above to get <span class="process-math">\(\text{Revenue}=C(-2,500C+159,000).\)</span> Expanding this equation gives <span class="process-math">\(\text{Revenue}=-2,500C^{2}+159,000C.\)</span><div class="autopermalink" data-description="Paragraph"><a href="#Chapter3Section2-3-19-2-4" title="Copy permalink for Paragraph">🔗</a></div>
 </div>
-<div class="para" id="Chapter3Section2-3-19-2-5">We now have a quadratic equation for revenue as a function of the subscription charge. To find the price that will maximize revenue for the newspaper, we can find the vertex: <span class="process-math">\(h=\dfrac{-159,000}{2(-2,500)}=31.8\)</span>
+<div class="para" id="Chapter3Section2-3-19-2-5">We now have a quadratic equation for revenue as a function of the subscription charge. To find the price that will maximize revenue for the newspaper, we can find the vertex: <span class="process-math">\(h=\dfrac{-159,000}{2(-2,500)}=31.8\)</span><div class="autopermalink" data-description="Paragraph"><a href="#Chapter3Section2-3-19-2-5" title="Copy permalink for Paragraph">🔗</a></div>
 </div>
-<div class="para" id="Chapter3Section2-3-19-2-6">The model tells us that the maximum revenue will occur if the newspaper charges $31.80 for a subscription. To find what the maximum revenue is, we can evaluate the revenue equation: <span class="process-math">\(\text{Maximum Revenue}= -2,500(31.8)^{2}+159,000(31.8)= \$2,528,100\)</span>
+<div class="para" id="Chapter3Section2-3-19-2-6">The model tells us that the maximum revenue will occur if the newspaper charges $31.80 for a subscription. To find what the maximum revenue is, we can evaluate the revenue equation: <span class="process-math">\(\text{Maximum Revenue}= -2,500(31.8)^{2}+159,000(31.8)= \$2,528,100\)</span><div class="autopermalink" data-description="Paragraph"><a href="#Chapter3Section2-3-19-2-6" title="Copy permalink for Paragraph">🔗</a></div>
 </div>
-</div></article></section><section class="subsection" id="Chapter3Section2-4"><h3 class="heading hide-type">
+<div class="autopermalink" data-description="Solution 3.2.11.1"><a href="#Chapter3Section2-3-19-2" title="Copy permalink for Solution 3.2.11.1">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Example 3.2.11"><a href="#Chapter3Section2-3-19" title="Copy permalink for Example 3.2.11">🔗</a></div></article><div class="autopermalink" data-description="Subsection 3.2.2: Short run Behavior: Vertex"><a href="#Chapter3Section2-3" title="Copy permalink for Subsection 3.2.2: Short run Behavior: Vertex">🔗</a></div></section><section class="subsection" id="Chapter3Section2-4"><h3 class="heading hide-type">
 <span class="type">Subsection</span><span class="space"> </span><span class="codenumber">3.2.3</span><span class="space"> </span><span class="title">Short run Behavior: Intercepts</span>
 </h3>
-<div class="para" id="Chapter3Section2-4-2">As with any function, we can find the vertical intercepts of a quadratic by evaluating the function at an input of zero, and we can find the horizontal intercepts by solving for when the output will be zero. Notice that depending upon the location of the graph, we might have zero, one, or two horizontal intercepts.</div>
+<div class="para" id="Chapter3Section2-4-2">As with any function, we can find the vertical intercepts of a quadratic by evaluating the function at an input of zero, and we can find the horizontal intercepts by solving for when the output will be zero. Notice that depending upon the location of the graph, we might have zero, one, or two horizontal intercepts.<div class="autopermalink" data-description="Paragraph"><a href="#Chapter3Section2-4-2" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
 <figure class="figure figure-like" id="c3s2i3"><div class="image-box" style="width: 100%; margin-left: 0%; margin-right: 0%;"><img src="external/C3S2Image3.png" class="contained" alt="A U-shaped parabola opening upwards with vertex at 2 comma 1 with no horizontal intercepts."></div>
-<figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">3.2.12<span class="period">.</span></span><span class="space"> </span>A quadratic function with zero horizontal intercepts</figcaption></figure><figure class="figure figure-like" id="c3s2i4"><div class="image-box" style="width: 100%; margin-left: 0%; margin-right: 0%;"><img src="external/C3S2Image4.png" class="contained" alt="A U-shaped parabola opening upwards with one horizontal intercept at the vertex at 2 comma 0."></div>
-<figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">3.2.13<span class="period">.</span></span><span class="space"> </span>A quadratic function with one horizontal intercept</figcaption></figure><figure class="figure figure-like" id="c3s2i5"><div class="image-box" style="width: 100%; margin-left: 0%; margin-right: 0%;"><img src="external/C3S2Image5.png" class="contained" alt="A U-shaped parabola opening upwards with vertex at 2 comma negative 1 with two horizontal intercepts at 1 comma 0 and 3 comma 0"></div>
-<figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">3.2.14<span class="period">.</span></span><span class="space"> </span>A quadratic function with two horizontal intercepts</figcaption></figure><article class="example example-like" id="Chapter3Section2-4-6"><h4 class="heading">
+<figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">3.2.12<span class="period">.</span></span><span class="space"> </span>A quadratic function with zero horizontal intercepts<div class="autopermalink" data-description="Figure 3.2.12"><a href="#c3s2i3" title="Copy permalink for Figure 3.2.12">🔗</a></div></figcaption></figure><figure class="figure figure-like" id="c3s2i4"><div class="image-box" style="width: 100%; margin-left: 0%; margin-right: 0%;"><img src="external/C3S2Image4.png" class="contained" alt="A U-shaped parabola opening upwards with one horizontal intercept at the vertex at 2 comma 0."></div>
+<figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">3.2.13<span class="period">.</span></span><span class="space"> </span>A quadratic function with one horizontal intercept<div class="autopermalink" data-description="Figure 3.2.13"><a href="#c3s2i4" title="Copy permalink for Figure 3.2.13">🔗</a></div></figcaption></figure><figure class="figure figure-like" id="c3s2i5"><div class="image-box" style="width: 100%; margin-left: 0%; margin-right: 0%;"><img src="external/C3S2Image5.png" class="contained" alt="A U-shaped parabola opening upwards with vertex at 2 comma negative 1 with two horizontal intercepts at 1 comma 0 and 3 comma 0"></div>
+<figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">3.2.14<span class="period">.</span></span><span class="space"> </span>A quadratic function with two horizontal intercepts<div class="autopermalink" data-description="Figure 3.2.14"><a href="#c3s2i5" title="Copy permalink for Figure 3.2.14">🔗</a></div></figcaption></figure><article class="example example-like" id="Chapter3Section2-4-6"><h4 class="heading">
 <span class="type">Example</span><span class="space"> </span><span class="codenumber">3.2.15</span><span class="period">.</span>
 </h4>
-<div class="para" id="Chapter3Section2-4-6-1-1">Find the vertical and horizontal intercepts of the quadratic <span class="process-math">\(f(x)=3x^{2}+5x-2.\)</span>
+<div class="para" id="Chapter3Section2-4-6-1-1">Find the vertical and horizontal intercepts of the quadratic <span class="process-math">\(f(x)=3x^{2}+5x-2.\)</span><div class="autopermalink" data-description="Paragraph"><a href="#Chapter3Section2-4-6-1-1" title="Copy permalink for Paragraph">🔗</a></div>
 </div>
 <div class="solution solution-like" id="Chapter3Section2-4-6-2">
 <h4 class="heading">
 <span class="type">Solution</span><span class="period">.</span>
 </h4>
-<div class="para" id="Chapter3Section2-4-6-2-1">We can find the vertical intercept by evaluating the function at an input of zero: <span class="process-math">\(f(0)=3(0)^{2}+5(0)-2=-2,\)</span> so the function <span class="process-math">\(f\)</span> has a vertical intercept at <span class="process-math">\((0,-2).\)</span>
+<div class="para" id="Chapter3Section2-4-6-2-1">We can find the vertical intercept by evaluating the function at an input of zero: <span class="process-math">\(f(0)=3(0)^{2}+5(0)-2=-2,\)</span> so the function <span class="process-math">\(f\)</span> has a vertical intercept at <span class="process-math">\((0,-2).\)</span><div class="autopermalink" data-description="Paragraph"><a href="#Chapter3Section2-4-6-2-1" title="Copy permalink for Paragraph">🔗</a></div>
 </div>
-<div class="para" id="Chapter3Section2-4-6-2-2">For the horizontal intercepts, we solve for when the output will be zero. So we must solve the equation <span class="process-math">\(0=3x^{2}+5x-2.\)</span>
+<div class="para" id="Chapter3Section2-4-6-2-2">For the horizontal intercepts, we solve for when the output will be zero. So we must solve the equation <span class="process-math">\(0=3x^{2}+5x-2.\)</span><div class="autopermalink" data-description="Paragraph"><a href="#Chapter3Section2-4-6-2-2" title="Copy permalink for Paragraph">🔗</a></div>
 </div>
-<div class="para" id="Chapter3Section2-4-6-2-3">In this case, the quadratic can be factored easily enough, providing the simplest method for solution <span class="process-math">\(0=(3x-1)(x+2).\)</span> So the roots must occur when either <span class="process-math">\(0=3x-1\)</span> or when <span class="process-math">\(0=x+2.\)</span> The first equation is true when <span class="process-math">\(x=\dfrac{1}{3},\)</span> and the second is true when <span class="process-math">\(x=-2.\)</span> So, the function <span class="process-math">\(f\)</span> has horisontal intercepts at <span class="process-math">\((\dfrac{1}{3},0)\)</span> and <span class="process-math">\((-2,0)\text{.}\)</span>
+<div class="para" id="Chapter3Section2-4-6-2-3">In this case, the quadratic can be factored easily enough, providing the simplest method for solution <span class="process-math">\(0=(3x-1)(x+2).\)</span> So the roots must occur when either <span class="process-math">\(0=3x-1\)</span> or when <span class="process-math">\(0=x+2.\)</span> The first equation is true when <span class="process-math">\(x=\dfrac{1}{3},\)</span> and the second is true when <span class="process-math">\(x=-2.\)</span> So, the function <span class="process-math">\(f\)</span> has horisontal intercepts at <span class="process-math">\((\dfrac{1}{3},0)\)</span> and <span class="process-math">\((-2,0)\text{.}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#Chapter3Section2-4-6-2-3" title="Copy permalink for Paragraph">🔗</a></div>
 </div>
-</div></article><div class="para" id="Chapter3Section2-4-7">Notice that in the standard form of a quadratic, the constant term <span class="process-math">\(c\)</span> reveals the vertical intercept of the graph.</div>
+<div class="autopermalink" data-description="Solution 3.2.15.1"><a href="#Chapter3Section2-4-6-2" title="Copy permalink for Solution 3.2.15.1">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Example 3.2.15"><a href="#Chapter3Section2-4-6" title="Copy permalink for Example 3.2.15">🔗</a></div></article><div class="para" id="Chapter3Section2-4-7">Notice that in the standard form of a quadratic, the constant term <span class="process-math">\(c\)</span> reveals the vertical intercept of the graph.<div class="autopermalink" data-description="Paragraph"><a href="#Chapter3Section2-4-7" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
 <article class="example example-like" id="Chapter3Section2-4-8"><h4 class="heading">
 <span class="type">Example</span><span class="space"> </span><span class="codenumber">3.2.16</span><span class="period">.</span>
 </h4>
-<div class="para" id="Chapter3Section2-4-8-1-1">Find the horizontal intercepts of the quadratic <span class="process-math">\(f(x)=2x^{2}+4x-4.\)</span>
+<div class="para" id="Chapter3Section2-4-8-1-1">Find the horizontal intercepts of the quadratic <span class="process-math">\(f(x)=2x^{2}+4x-4.\)</span><div class="autopermalink" data-description="Paragraph"><a href="#Chapter3Section2-4-8-1-1" title="Copy permalink for Paragraph">🔗</a></div>
 </div>
 <div class="solution solution-like" id="Chapter3Section2-4-8-2">
 <h4 class="heading">
 <span class="type">Solution</span><span class="period">.</span>
 </h4>
-<div class="para" id="Chapter3Section2-4-8-2-1">Again we must solve for when the output will be zero <span class="process-math">\(0=2x^{2}+4x-4.\)</span>
+<div class="para" id="Chapter3Section2-4-8-2-1">Again we must solve for when the output will be zero <span class="process-math">\(0=2x^{2}+4x-4.\)</span><div class="autopermalink" data-description="Paragraph"><a href="#Chapter3Section2-4-8-2-1" title="Copy permalink for Paragraph">🔗</a></div>
 </div>
-<div class="para" id="Chapter3Section2-4-8-2-2">Since the quadratic is not easily factor-able in this case, we solve for the intercepts by first rewriting the quadratic into vertex form. <span class="process-math">\(h=\dfrac{-b}{2a}=\dfrac{-4}{2(2)}=-1\text{,}\)</span> <span class="process-math">\(k=f(-1)=2(-1)^{2}+4(-1)-4=-6\text{.}\)</span> So we can rewrite <span class="process-math">\(f\)</span> in vertex form as <span class="process-math">\(f(x)=2(x+1)^{2}-6.\)</span>
+<div class="para" id="Chapter3Section2-4-8-2-2">Since the quadratic is not easily factor-able in this case, we solve for the intercepts by first rewriting the quadratic into vertex form. <span class="process-math">\(h=\dfrac{-b}{2a}=\dfrac{-4}{2(2)}=-1\text{,}\)</span> <span class="process-math">\(k=f(-1)=2(-1)^{2}+4(-1)-4=-6\text{.}\)</span> So we can rewrite <span class="process-math">\(f\)</span> in vertex form as <span class="process-math">\(f(x)=2(x+1)^{2}-6.\)</span><div class="autopermalink" data-description="Paragraph"><a href="#Chapter3Section2-4-8-2-2" title="Copy permalink for Paragraph">🔗</a></div>
 </div>
-<div class="para" id="Chapter3Section2-4-8-2-3">Now we can solve for when the output will be zero algebraically: <span class="process-math">\(0=2(x+1)^{2}-6,\)</span> adding 6 to both sides yields <span class="process-math">\(6=2(x+1)^{2}.\)</span> Dividing both sides by 2 gives <span class="process-math">\(3=(x+1)^{2}.\)</span> Now, must notice that there are two possible solutions to this equation, when <span class="process-math">\(x+1=\sqrt{3}\)</span> and when <span class="process-math">\(x+1=-\sqrt{3}.\)</span> Solving each of these equations gives us the solutions <span class="process-math">\(x=-1+\sqrt{3}\)</span> and <span class="process-math">\(x=-1-\sqrt{3}\text{.}\)</span>
+<div class="para" id="Chapter3Section2-4-8-2-3">Now we can solve for when the output will be zero algebraically: <span class="process-math">\(0=2(x+1)^{2}-6,\)</span> adding 6 to both sides yields <span class="process-math">\(6=2(x+1)^{2}.\)</span> Dividing both sides by 2 gives <span class="process-math">\(3=(x+1)^{2}.\)</span> Now, must notice that there are two possible solutions to this equation, when <span class="process-math">\(x+1=\sqrt{3}\)</span> and when <span class="process-math">\(x+1=-\sqrt{3}.\)</span> Solving each of these equations gives us the solutions <span class="process-math">\(x=-1+\sqrt{3}\)</span> and <span class="process-math">\(x=-1-\sqrt{3}\text{.}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#Chapter3Section2-4-8-2-3" title="Copy permalink for Paragraph">🔗</a></div>
 </div>
-<div class="para" id="Chapter3Section2-4-8-2-4">So, the graph has horizontal intercepts at <span class="process-math">\((-1-\sqrt{3},0)\)</span> and <span class="process-math">\((-1+\sqrt{3},0)\text{.}\)</span>
+<div class="para" id="Chapter3Section2-4-8-2-4">So, the graph has horizontal intercepts at <span class="process-math">\((-1-\sqrt{3},0)\)</span> and <span class="process-math">\((-1+\sqrt{3},0)\text{.}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#Chapter3Section2-4-8-2-4" title="Copy permalink for Paragraph">🔗</a></div>
 </div>
-</div></article><article class="exercise exercise-like" id="Chapter3Section2-4-9"><h4 class="heading">
+<div class="autopermalink" data-description="Solution 3.2.16.1"><a href="#Chapter3Section2-4-8-2" title="Copy permalink for Solution 3.2.16.1">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Example 3.2.16"><a href="#Chapter3Section2-4-8" title="Copy permalink for Example 3.2.16">🔗</a></div></article><article class="exercise exercise-like" id="Chapter3Section2-4-9"><h4 class="heading">
 <span class="type">Checkpoint</span><span class="space"> </span><span class="codenumber">3.2.17</span><span class="period">.</span>
 </h4>
-<div class="para" id="Chapter3Section2-4-9-1-1">Find the Vertical and Horizontal intercepts (if they exist) of the function <span class="process-math">\(g(x)=13+x^{2}-6x\text{.}\)</span>
-</div></article><div class="para" id="Chapter3Section2-4-10">The process in the last example is done commonly enough that sometimes people find it easier to solve the problem once in general and remember the formula for the result, rather than repeating the process each time. Based on our previous work we showed that any quadratic in standard form can be written into transformation form as: <span class="process-math">\(f(x)=a(x+\dfrac{b}{2a})^{2}+c-\dfrac{b^2}{4a}\text{.}\)</span>
+<div class="para" id="Chapter3Section2-4-9-1-1">Find the Vertical and Horizontal intercepts (if they exist) of the function <span class="process-math">\(g(x)=13+x^{2}-6x\text{.}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#Chapter3Section2-4-9-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Checkpoint 3.2.17"><a href="#Chapter3Section2-4-9" title="Copy permalink for Checkpoint 3.2.17">🔗</a></div></article><div class="para" id="Chapter3Section2-4-10">The process in the last example is done commonly enough that sometimes people find it easier to solve the problem once in general and remember the formula for the result, rather than repeating the process each time. Based on our previous work we showed that any quadratic in standard form can be written into transformation form as: <span class="process-math">\(f(x)=a(x+\dfrac{b}{2a})^{2}+c-\dfrac{b^2}{4a}\text{.}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#Chapter3Section2-4-10" title="Copy permalink for Paragraph">🔗</a></div>
 </div>
 <div class="para logical" id="Chapter3Section2-4-11">
 <div class="para">Solving for the horizontal intercepts using this general equation gives:</div>
@@ -602,6 +696,7 @@ g(x)=\dfrac{1}{2}x^{2}+2x-1.
 x=\dfrac{-b\pm\sqrt{b^{2}-4ac}}{2a}.
 \end{equation*}
 </div>
+<div class="autopermalink" data-description="Paragraph"><a href="#Chapter3Section2-4-11" title="Copy permalink for Paragraph">🔗</a></div>
 </div>
 <article class="definition definition-like" id="Chapter3Section2-4-12"><h4 class="heading">
 <span class="type">Definition</span><span class="space"> </span><span class="codenumber">3.2.18</span><span class="period">.</span><span class="space"> </span><span class="title">Quadratic Formula.</span>
@@ -613,46 +708,94 @@ x=\dfrac{-b\pm\sqrt{b^{2}-4ac}}{2a}.
 x=\dfrac{-b\pm\sqrt{b^{2}-4ac}}{2a}.
 \end{equation*}
 </div>
-</div></article><article class="example example-like" id="Chapter3Section2-4-13"><h4 class="heading">
+<div class="autopermalink" data-description="Paragraph"><a href="#Chapter3Section2-4-12-2-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Definition 3.2.18: Quadratic Formula"><a href="#Chapter3Section2-4-12" title="Copy permalink for Definition 3.2.18: Quadratic Formula">🔗</a></div></article><article class="example example-like" id="Chapter3Section2-4-13"><h4 class="heading">
 <span class="type">Example</span><span class="space"> </span><span class="codenumber">3.2.19</span><span class="period">.</span>
 </h4>
-<div class="para" id="Chapter3Section2-4-13-1-1">A ball is thrown upwards from the top of a 40-foot-tall building at a speed of 80 feet per second. The ball’s height above ground can be modeled by the equation <span class="process-math">\(f(t)=-16t^{2}+80t+40\text{.}\)</span> What is the maximum height of the ball? When does the ball hit the ground?</div>
+<div class="para" id="Chapter3Section2-4-13-1-1">A ball is thrown upwards from the top of a 40-foot-tall building at a speed of 80 feet per second. The ball’s height above ground can be modeled by the equation <span class="process-math">\(f(t)=-16t^{2}+80t+40\text{.}\)</span> What is the maximum height of the ball? When does the ball hit the ground?<div class="autopermalink" data-description="Paragraph"><a href="#Chapter3Section2-4-13-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
 <div class="solution solution-like" id="Chapter3Section2-4-13-2">
 <h4 class="heading">
 <span class="type">Solution</span><span class="period">.</span>
 </h4>
-<div class="para" id="Chapter3Section2-4-13-2-1">To find the maximum height of the ball, we would need to know the vertex of the quadratic function. <span class="process-math">\(h=\dfrac{-80}{2(-16)}=\dfrac{80}{32}=\dfrac{5}{2}\text{,}\)</span> <span class="process-math">\(k=f(\dfrac{5}{2})=-16(\dfrac{5}{2})^{2}+80(\dfrac{5}{2})+40=140.\)</span>
+<div class="para" id="Chapter3Section2-4-13-2-1">To find the maximum height of the ball, we would need to know the vertex of the quadratic function. <span class="process-math">\(h=\dfrac{-80}{2(-16)}=\dfrac{80}{32}=\dfrac{5}{2}\text{,}\)</span> <span class="process-math">\(k=f(\dfrac{5}{2})=-16(\dfrac{5}{2})^{2}+80(\dfrac{5}{2})+40=140.\)</span><div class="autopermalink" data-description="Paragraph"><a href="#Chapter3Section2-4-13-2-1" title="Copy permalink for Paragraph">🔗</a></div>
 </div>
-<div class="para" id="Chapter3Section2-4-13-2-2">The ball reaches a maximum height of 140 feet after 2.5 seconds. To find when the ball hits the ground, we need to determine when the height is zero - when <span class="process-math">\(f(t) = 0\text{.}\)</span> While we could do this using the vertex form of the quadratic, we can also use the quadratic formula. <span class="process-math">\(f(t)=0\)</span> when <span class="process-math">\(t=\dfrac{-80\pm \sqrt{80^{2}-4(-16)(40)}}{2(-16)}=\dfrac{-80\pm \sqrt{8960}}{-32}.\)</span>
+<div class="para" id="Chapter3Section2-4-13-2-2">The ball reaches a maximum height of 140 feet after 2.5 seconds. To find when the ball hits the ground, we need to determine when the height is zero - when <span class="process-math">\(f(t) = 0\text{.}\)</span> While we could do this using the vertex form of the quadratic, we can also use the quadratic formula. <span class="process-math">\(f(t)=0\)</span> when <span class="process-math">\(t=\dfrac{-80\pm \sqrt{80^{2}-4(-16)(40)}}{2(-16)}=\dfrac{-80\pm \sqrt{8960}}{-32}.\)</span><div class="autopermalink" data-description="Paragraph"><a href="#Chapter3Section2-4-13-2-2" title="Copy permalink for Paragraph">🔗</a></div>
 </div>
-<div class="para" id="Chapter3Section2-4-13-2-3">Since the square root does not simplify nicely, we can use a calculator to approximate the values of the solutions: <span class="process-math">\(t=\dfrac{-80-\sqrt{8960}}{-32}\approx 5.458\)</span> or <span class="process-math">\(t=\dfrac{-80+\sqrt{8960}}{-32}\approx -0.458\text{.}\)</span>
+<div class="para" id="Chapter3Section2-4-13-2-3">Since the square root does not simplify nicely, we can use a calculator to approximate the values of the solutions: <span class="process-math">\(t=\dfrac{-80-\sqrt{8960}}{-32}\approx 5.458\)</span> or <span class="process-math">\(t=\dfrac{-80+\sqrt{8960}}{-32}\approx -0.458\text{.}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#Chapter3Section2-4-13-2-3" title="Copy permalink for Paragraph">🔗</a></div>
 </div>
-<div class="para" id="Chapter3Section2-4-13-2-4">The second answer is outside the reasonable domain of our model (since it represents a time before the ball was thrown), so we conclude the ball will hit the ground after about 5.458 seconds.</div>
-</div></article><article class="exercise exercise-like" id="Chapter3Section2-4-14"><h4 class="heading">
+<div class="para" id="Chapter3Section2-4-13-2-4">The second answer is outside the reasonable domain of our model (since it represents a time before the ball was thrown), so we conclude the ball will hit the ground after about 5.458 seconds.<div class="autopermalink" data-description="Paragraph"><a href="#Chapter3Section2-4-13-2-4" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Solution 3.2.19.1"><a href="#Chapter3Section2-4-13-2" title="Copy permalink for Solution 3.2.19.1">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Example 3.2.19"><a href="#Chapter3Section2-4-13" title="Copy permalink for Example 3.2.19">🔗</a></div></article><article class="exercise exercise-like" id="Chapter3Section2-4-14"><h4 class="heading">
 <span class="type">Checkpoint</span><span class="space"> </span><span class="codenumber">3.2.20</span><span class="period">.</span>
 </h4>
 <div class="para logical" id="Chapter3Section2-4-14-1-1">
 <div class="para">For these two equations determine if the vertex will be a maximum value or a minimum value.</div>
 <ol class="decimal" id="Chapter3Section2-4-14-1-1-1">
-<li id="Chapter3Section2-4-14-1-1-1-1"><div class="para" id="Chapter3Section2-4-14-1-1-1-1-1"><span class="process-math">\(\displaystyle g(x)=-8x+x^{2}+7\)</span></div></li>
-<li id="Chapter3Section2-4-14-1-1-1-2"><div class="para" id="Chapter3Section2-4-14-1-1-1-2-1"><span class="process-math">\(\displaystyle g(x)=-3(3-x)^{2}+2\)</span></div></li>
+<li id="Chapter3Section2-4-14-1-1-1-1">
+<div class="para" id="Chapter3Section2-4-14-1-1-1-1-1">
+<span class="process-math">\(\displaystyle g(x)=-8x+x^{2}+7\)</span><div class="autopermalink" data-description="Paragraph"><a href="#Chapter3Section2-4-14-1-1-1-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item 3.2.20.1"><a href="#Chapter3Section2-4-14-1-1-1-1" title="Copy permalink for Item 3.2.20.1">🔗</a></div>
+</li>
+<li id="Chapter3Section2-4-14-1-1-1-2">
+<div class="para" id="Chapter3Section2-4-14-1-1-1-2-1">
+<span class="process-math">\(\displaystyle g(x)=-3(3-x)^{2}+2\)</span><div class="autopermalink" data-description="Paragraph"><a href="#Chapter3Section2-4-14-1-1-1-2-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item 3.2.20.2"><a href="#Chapter3Section2-4-14-1-1-1-2" title="Copy permalink for Item 3.2.20.2">🔗</a></div>
+</li>
 </ol>
-</div></article></section><section class="subsection" id="Chapter3Section2-5"><h3 class="heading hide-type">
+<div class="autopermalink" data-description="Paragraph"><a href="#Chapter3Section2-4-14-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Checkpoint 3.2.20"><a href="#Chapter3Section2-4-14" title="Copy permalink for Checkpoint 3.2.20">🔗</a></div></article><div class="autopermalink" data-description="Subsection 3.2.3: Short run Behavior: Intercepts"><a href="#Chapter3Section2-4" title="Copy permalink for Subsection 3.2.3: Short run Behavior: Intercepts">🔗</a></div></section><section class="subsection" id="Chapter3Section2-5"><h3 class="heading hide-type">
 <span class="type">Subsection</span><span class="space"> </span><span class="codenumber">3.2.4</span><span class="space"> </span><span class="title">Answers</span>
 </h3>
 <article class="exercise exercise-like" id="Chapter3Section2-5-2"><h4 class="heading">
 <span class="type">Checkpoint</span><span class="space"> </span><span class="codenumber">3.2.21</span><span class="period">.</span>
 </h4>
-<div class="para" id="Chapter3Section2-5-2-1-1">Answers to Checkpoint Exercises</div>
-<div class="solutions"><details id="Chapter3Section2-5-2-2" class="answer solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Answer</span><span class="period">.</span></summary><div class="answer solution-like knowl__content"><div class="para logical" id="Chapter3Section2-5-2-2-1"><ol class="decimal" id="Chapter3Section2-5-2-2-1-1">
-<li id="Chapter3Section2-5-2-2-1-1-1"><div class="para" id="Chapter3Section2-5-2-2-1-1-1-1">
-<span class="process-math">\(g(x)=x^{2}-6x+13\)</span> in Standard form; Finding the vertex, <span class="process-math">\(h=\dfrac{-(-6)}{2(1)}=3\text{.}\)</span> <span class="process-math">\(k=g(3)=3^{2}-6(3)+13=4\text{.}\)</span> <span class="process-math">\(g(x)=(x-3)^{2}+4\)</span> in Vertex form.</div></li>
-<li id="Chapter3Section2-5-2-2-1-1-2"><div class="para" id="Chapter3Section2-5-2-2-1-1-2-1">Vertical intercept at <span class="process-math">\((0, 13)\text{,}\)</span> No horizontal intercepts since the vertex is above the <span class="process-math">\(x\)</span>-axis and the graph opens upwards.</div></li>
-<li id="Chapter3Section2-5-2-2-1-1-3"><div class="para logical" id="Chapter3Section2-5-2-2-1-1-3-1"><ol class="lower-alpha lower-alpha-level-1" id="Chapter3Section2-5-2-2-1-1-3-1-1">
-<li id="Chapter3Section2-5-2-2-1-1-3-1-1-1"><div class="para" id="Chapter3Section2-5-2-2-1-1-3-1-1-1-1">Vertex is a minimum value, since <span class="process-math">\(a &gt; 0\)</span> and the graph opens upwards.</div></li>
-<li id="Chapter3Section2-5-2-2-1-1-3-1-1-2"><div class="para" id="Chapter3Section2-5-2-2-1-1-3-1-1-2-1">Vertex is a maximum value, since <span class="process-math">\(a &lt; 0\)</span> and the graph opens downward.</div></li>
-</ol></div></li>
-</ol></div></div></details></div></article></section></section></div>
+<div class="para" id="Chapter3Section2-5-2-1-1">Answers to Checkpoint Exercises<div class="autopermalink" data-description="Paragraph"><a href="#Chapter3Section2-5-2-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="solutions"><details id="Chapter3Section2-5-2-2" class="answer solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Answer</span><span class="period">.</span></summary><div class="answer solution-like knowl__content">
+<div class="para logical" id="Chapter3Section2-5-2-2-1">
+<ol class="decimal" id="Chapter3Section2-5-2-2-1-1">
+<li id="Chapter3Section2-5-2-2-1-1-1">
+<div class="para" id="Chapter3Section2-5-2-2-1-1-1-1">
+<span class="process-math">\(g(x)=x^{2}-6x+13\)</span> in Standard form; Finding the vertex, <span class="process-math">\(h=\dfrac{-(-6)}{2(1)}=3\text{.}\)</span> <span class="process-math">\(k=g(3)=3^{2}-6(3)+13=4\text{.}\)</span> <span class="process-math">\(g(x)=(x-3)^{2}+4\)</span> in Vertex form.<div class="autopermalink" data-description="Paragraph"><a href="#Chapter3Section2-5-2-2-1-1-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item 3.2.21.1"><a href="#Chapter3Section2-5-2-2-1-1-1" title="Copy permalink for Item 3.2.21.1">🔗</a></div>
+</li>
+<li id="Chapter3Section2-5-2-2-1-1-2">
+<div class="para" id="Chapter3Section2-5-2-2-1-1-2-1">Vertical intercept at <span class="process-math">\((0, 13)\text{,}\)</span> No horizontal intercepts since the vertex is above the <span class="process-math">\(x\)</span>-axis and the graph opens upwards.<div class="autopermalink" data-description="Paragraph"><a href="#Chapter3Section2-5-2-2-1-1-2-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item 3.2.21.2"><a href="#Chapter3Section2-5-2-2-1-1-2" title="Copy permalink for Item 3.2.21.2">🔗</a></div>
+</li>
+<li id="Chapter3Section2-5-2-2-1-1-3">
+<div class="para logical" id="Chapter3Section2-5-2-2-1-1-3-1">
+<ol class="lower-alpha lower-alpha-level-1" id="Chapter3Section2-5-2-2-1-1-3-1-1">
+<li id="Chapter3Section2-5-2-2-1-1-3-1-1-1">
+<div class="para" id="Chapter3Section2-5-2-2-1-1-3-1-1-1-1">Vertex is a minimum value, since <span class="process-math">\(a &gt; 0\)</span> and the graph opens upwards.<div class="autopermalink" data-description="Paragraph"><a href="#Chapter3Section2-5-2-2-1-1-3-1-1-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item 3.2.21.3.a"><a href="#Chapter3Section2-5-2-2-1-1-3-1-1-1" title="Copy permalink for Item 3.2.21.3.a">🔗</a></div>
+</li>
+<li id="Chapter3Section2-5-2-2-1-1-3-1-1-2">
+<div class="para" id="Chapter3Section2-5-2-2-1-1-3-1-1-2-1">Vertex is a maximum value, since <span class="process-math">\(a &lt; 0\)</span> and the graph opens downward.<div class="autopermalink" data-description="Paragraph"><a href="#Chapter3Section2-5-2-2-1-1-3-1-1-2-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item 3.2.21.3.b"><a href="#Chapter3Section2-5-2-2-1-1-3-1-1-2" title="Copy permalink for Item 3.2.21.3.b">🔗</a></div>
+</li>
+</ol>
+<div class="autopermalink" data-description="Paragraph"><a href="#Chapter3Section2-5-2-2-1-1-3-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item 3.2.21.3"><a href="#Chapter3Section2-5-2-2-1-1-3" title="Copy permalink for Item 3.2.21.3">🔗</a></div>
+</li>
+</ol>
+<div class="autopermalink" data-description="Paragraph"><a href="#Chapter3Section2-5-2-2-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Answer 3.2.21.1"><a href="#Chapter3Section2-5-2-2" title="Copy permalink for Answer 3.2.21.1">🔗</a></div>
+</div></details></div>
+<div class="autopermalink" data-description="Checkpoint 3.2.21"><a href="#Chapter3Section2-5-2" title="Copy permalink for Checkpoint 3.2.21">🔗</a></div></article><div class="autopermalink" data-description="Subsection 3.2.4: Answers"><a href="#Chapter3Section2-5" title="Copy permalink for Subsection 3.2.4: Answers">🔗</a></div></section><div class="autopermalink" data-description="Section 3.2: Quadratic Functions"><a href="#Chapter3Section2" title="Copy permalink for Section 3.2: Quadratic Functions">🔗</a></div></section></div>
 <div id="ptx-content-footer" class="ptx-content-footer">
 <a class="previous-button button" href="Chapter3Section1.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="top-button button" href="#" title="Top"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Top</span></a><a class="next-button button" href="Chapter3Section3.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a>
 </div></main>
