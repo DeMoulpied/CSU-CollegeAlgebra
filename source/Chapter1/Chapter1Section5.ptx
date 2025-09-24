@@ -1146,7 +1146,7 @@
             Horizontal transformations are a little trickier to think about.
             When we write <m>g(x)=f(2x+3)</m> for example, we have to think about how the inputs to the <m>g</m> function relate to the inputs to the <m>f</m> function.
             Suppose we know <m>f(7)=12</m>.
-            What input to <m>g</m> would produce that output? In other words, what value of <m>x</m> will allow <m>g(x)=f(2x+3)=f(12)</m>? We would need <m>2x+3=12</m>.
+            What input to <m>g</m> would produce that output? In other words, what value of <m>x</m> will allow <m>g(x)=f(2x+3)=f(7)</m>? We would need <m>2x+3=7</m>.
             To solve for <m>x</m>, we would first subtract 3, resulting in horizontal shift, then divide by 2, causing a horizontal compression.
         </p>
 
