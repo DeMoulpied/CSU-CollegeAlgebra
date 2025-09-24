@@ -1155,7 +1155,7 @@
 
             <statement>
                 <p>
-                    When combining horizontal transformations written in the form <m>f(bx+p)</m>, first horizontally shift by <m>p</m>, then horizontally stretch by <m>\dfrac{1}{b}</m>.
+                    When combining horizontal transformations written in the form <m>f(bx+p)</m>, first horizontally shift by <m>p</m>, then horizontally stretch or compress by a factor of <m>\dfrac{1}{b}</m>.
                 </p>
             </statement>
         </definition>
